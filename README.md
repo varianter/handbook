@@ -16,7 +16,7 @@ Tilgjengelig som data og i terminalen!
 Du kan lese om Variant fra terminalen:
 
 ```shell
-npm i -g variant-handbook
+npm i -g @variant/handbook
 # Installerer...
 
 # Kjør:
