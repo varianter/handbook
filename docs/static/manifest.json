@@ -1,0 +1,22 @@
+{
+  "short_name": "Variant",
+  "name": "Variant Håndbok",
+  "description": "Komplett og åpen håndbok for Variant.",
+  "icons": [
+    {
+      "src": "/static/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/static/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#fff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#03dac6"
+}
