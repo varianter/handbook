@@ -426,6 +426,7 @@ p {
     width: 100%;
     top: 100%;
     transform: translateY(calc(-100% - var(--defaultMargin) * 3));
+    margin: 0;
   }
   .markdownIt-TOC--visible.jsActive {
     transform: translateY(0);
