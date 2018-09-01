@@ -55,9 +55,9 @@ vurderer kostnadene opp mot vinningen og sparrer med andre når det trengs.
 ### Ha det morsomt
 
 Et arbeidsliv består av utrolig mange timer. Da er det viktig at man har det
-morsomt på jobb, og gjør meningsfylt arbeid med mennesker man trives med. Så 
-tillat dere en spøk. Le ofte! Gjøre gærne ting! Om det skulle være å komme 
-på jobb i OnePiece en dag. 
+morsomt på jobb, og gjør meningsfylt arbeid med mennesker man trives med. Så
+tillat dere en spøk. Le ofte! Gjøre gærne ting! Om det skulle være å komme på
+jobb i OnePiece en dag.
 
 ### Vær stolt
 
@@ -368,8 +368,6 @@ Siste steget i prosessen er en litt mer praktisk rettet samtale. Her får
 jobbsøker mulighet til å stille flere spørsmål til og om Variant. Vi kan og
 stille spørsmål om det vi lurer på til jobbsøker. Her handler det om å finne om
 begge parter ønsker seg i samme retning.
-
-[Les mer hva vi tenker om tradisjonelle jobbintervjuer og hvorfor vi tror dette er en bedre tilnærmingsmåte](https://medium.com/variant-as/et-mer-moderne-og-rettferdig-jobbintervju-e59f6789a134).
 
 ## Hverdagsliv
 
