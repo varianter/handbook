@@ -26,7 +26,7 @@ function getToc(text) {
 }
 
 module.exports.getPage = async function getPage(name) {
-  const p = base("src", `${name}.md`);
+  const p = base("src", "pages", `${name}.md`);
   const { mtime: modified } = fs.statSync(p);
   const raw = readSrc(p);
   const toc = await getToc(raw);
@@ -40,7 +40,7 @@ module.exports.getPage = async function getPage(name) {
 };
 
 module.exports.pages = () =>
-  glob(base("src", "*.md")).then(function(files) {
+  glob(base("src", "pages", "*.md")).then(function(files) {
     return files.map(file => path.basename(file, ".md"));
   });
 

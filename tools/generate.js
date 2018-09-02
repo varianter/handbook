@@ -22,7 +22,7 @@ md.use(markdownItTocAndAnchor, {
   anchorLink: true
 });
 
-glob(base("src", "*.md"))
+glob(base("src", "pages", "*.md"))
   .then(function(files) {
     return Promise.all(
       files.map(function(file) {
@@ -45,14 +45,14 @@ function render(text) {
   return Promise.all([toc, result]);
 }
 
-function readSrc(filename) {
-  return fs.readFileSync(base("src", filename)).toString("utf8");
+function readSrc(...filename) {
+  return fs.readFileSync(base("src", ...filename)).toString("utf8");
 }
 
 function renderMarkdown(name, alias = name) {
-  const { mtime: modified } = fs.statSync(base("src", `${name}.md`));
+  const { mtime: modified } = fs.statSync(base("src", "pages", `${name}.md`));
 
-  return render(readSrc(`${name}.md`)).then(function([toc, text]) {
+  return render(readSrc("pages", `${name}.md`)).then(function([toc, text]) {
     const result = layout
       .replace("{{CONTENT}}", text)
       .replace("{{TOC}}", toc)
@@ -65,16 +65,11 @@ function renderMarkdown(name, alias = name) {
 }
 
 function moveFiles() {
-  Promise.all([
-    copy(base("src", "static"), base("docs", "static"), {
-      overwrite: true
-    }),
-    copy(base("src", "html"), base("docs"), {
-      overwrite: true
-    })
-  ])
-    .then(function([r1, r2]) {
-      console.info(`Copied public files (${r1.length + r2.length} files)`);
+  copy(base("src", "static"), base("docs"), {
+    overwrite: true
+  })
+    .then(function(r) {
+      console.info(`Copied public files (${r.length} files)`);
     })
     .catch(function(error) {
       console.error("Error copying public files: " + error);

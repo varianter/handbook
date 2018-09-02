@@ -12,7 +12,7 @@ eller [stille spørsmål](https://github.com/varianter/handbook/issues).
 Om du ikke er en av _våre varianter_ (aka ansatt) og denne håndboken faller i
 smak, [se gjerne ledige stillinger hos oss](https://variantas.recruitee.com/).
 
-<img src="./static/assets/illustrations/mission.svg" alt="Illustrasjon for formål og verdier" class="illustration illustration--right illustration--mission" />
+<img src="./assets/illustrations/mission.svg" alt="Illustrasjon for formål og verdier" class="illustration illustration--right illustration--mission" />
 
 ## Formål og verdier
 
@@ -40,7 +40,7 @@ blir heiet fram av oss andre. Jante-loven gjelder ikke her.
 Disse tre verdiene ligger som grunnlag for alt vi gjør, og også for alt som er
 beskrevet i denne håndboken.
 
-<img src="./static/assets/illustrations/support.svg" alt="Illustrasjon for Tillit og ansvar" class="illustration illustration--center illustration--support" />
+<img src="./assets/illustrations/support.svg" alt="Illustrasjon for Tillit og ansvar" class="illustration illustration--center illustration--support" />
 
 ## Tillit og ansvar
 
@@ -50,7 +50,7 @@ til å gjøre riktige valg. Som eksempel har vi derfor ingen formell
 godkjenningsmatrise for investeringer. Vi regner med at den enkelte selv
 vurderer kostnadene opp mot vinningen og sparrer med andre når det trengs.
 
-<img src="./static/assets/illustrations/fun.svg" alt="Illustrasjon for ha det morsomt" class="illustration illustration--left illustration--fun" />
+<img src="./assets/illustrations/fun.svg" alt="Illustrasjon for ha det morsomt" class="illustration illustration--left illustration--fun" />
 
 ### Ha det morsomt
 
@@ -75,7 +75,7 @@ med dine kollegaer hele tiden. Kanskje har noen av dem hørt om dette før, men
 kanskje har noen ikke det. Og da er det verdt det. Så om du er teknologisjef
 eller helt nyansatt; vi trenger hjelp fra deg.
 
-<img src="./static/assets/illustrations/air.svg" alt="Illustrasjon for åpenhet" class="illustration illustration--center illustration--open" />
+<img src="./assets/illustrations/air.svg" alt="Illustrasjon for åpenhet" class="illustration illustration--center illustration--open" />
 
 ## Åpenhet
 
@@ -108,7 +108,7 @@ noen eksempler på hva dette betyr i praksis.
 At raushet er en av våre grunnverdier skal reflekteres i våre betingelser. Og
 det handler om så mye mer enn bare månedslønna.
 
-<img src="./static/assets/illustrations/credit_card.svg" alt="Illustrasjon for lønn" class="illustration illustration--right illustration--salary" />
+<img src="./assets/illustrations/credit_card.svg" alt="Illustrasjon for lønn" class="illustration illustration--right illustration--salary" />
 
 ### Lønn
 
@@ -255,7 +255,7 @@ Vi vet at livet har ulike faser, og at i noen perioder ønsker eller trenger man
 perioder. Dette avgjør du, og med åpenhet mellom oss og våre kunder om dine
 ønsker så vil vi sammen jobbe for å tilpasse oss dine ønsker.
 
-<img src="./static/assets/illustrations/workout.svg" alt="Illustrasjon for helse" class="illustration illustration--right illustration--helth" />
+<img src="./assets/illustrations/workout.svg" alt="Illustrasjon for helse" class="illustration illustration--right illustration--helth" />
 
 ## Helse
 
@@ -291,7 +291,7 @@ Gjensidige kaller det. Forsikringen dekker
 - Fysikalsk behandling - 12 behandlinger
 - Online Videolege for deg og dine barn.
 
-<img src="./static/assets/illustrations/graduation.svg" alt="Illustrasjon for kompetanseutvikling" class="illustration illustration--left illustration--competence" />
+<img src="./assets/illustrations/graduation.svg" alt="Illustrasjon for kompetanseutvikling" class="illustration illustration--left illustration--competence" />
 
 ## Kompetanseutvikling
 
@@ -375,7 +375,7 @@ Det er jo hverdagene som er selve livet. Og hos oss er målet at hver en dag ska
 være noe man gleder seg til. Her kan du lese litt om hva du trenger i hverdagen.
 Se også vår oversikt over [interne prosedyrer](./processes.html).
 
-<img src="./static/assets/illustrations/time_management.svg" alt="Illustrasjon for timeføring" class="illustration illustration--left illustration--time--tracking" />
+<img src="./assets/illustrations/time_management.svg" alt="Illustrasjon for timeføring" class="illustration illustration--left illustration--time--tracking" />
 
 ### Timeføring
 
@@ -396,7 +396,7 @@ kontorutstyr. Det er også her vi kjører våre variantdager. På Digs jobber vi
 sammen med en rekke startups og andre spennende selskaper. Her har vi mulighet
 til ...... forresten, dette [forklarer Digs bedre selv](https://digs.no/about/).
 
-<img src="./static/assets/illustrations/beer.svg" alt="Illustrasjon for habitat" class="illustration illustration--left illustration--habitat" />
+<img src="./assets/illustrations/beer.svg" alt="Illustrasjon for habitat" class="illustration illustration--left illustration--habitat" />
 
 Så må vi også huske å nevne vårt faste bord på Habitat i førsteetasjen under
 Digs.

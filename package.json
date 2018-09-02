@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "precommit": "pretty-quick --staged",
-    "css": "postcss ./docs/static/style.css -r",
+    "css": "postcss ./docs/styles/style.css -r",
     "build": "node tools/generate.js && npm run css",
     "clean": "rm -rf ./docs/*",
     "watch": "onchange 'src/**/*' 'tools/**/*' -- npm run build"
