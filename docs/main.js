@@ -52,4 +52,18 @@
   toc.addEventListener("click", function() {
     toc.classList.toggle("markdownIt-TOC--visible");
   });
+
+  // Add service worker if supported
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function() {
+      navigator.serviceWorker
+        .register("/service-worker.js")
+        .then(function(registration) {
+          console.log("Service worker registration succeeded:", registration);
+        })
+        .catch(function(error) {
+          console.log("Service worker registration failed:", error);
+        });
+    });
+  }
 })();
