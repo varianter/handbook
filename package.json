@@ -25,7 +25,7 @@
     "open source information",
     "transparent company"
   ],
-  "author": "Mikael Brevik <mb@variant.as>",
+  "author": "Variant AS",
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.1",
