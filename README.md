@@ -75,12 +75,12 @@ alle avhengigheter:
 npm install
 ```
 
-## Deploy ny versjon av håndboken til nettsiden
+## Lag ny versjon av nettsiden
 
 Nå ligger sammensydde filene ute under `docs/`. Dette er en mappe som blir
 konstruert når man bygger på nytt. Kildekodene ligger under `src/`, og statiske
 filer som skal med (f.eks bilder, styles, JavaScript osv) legges under
-`public/`.
+`src/static/`.
 
 Når man har endret innhold, layout eller statiske filer kan man bygge en ny
 versjon via terminalen:
@@ -92,3 +92,19 @@ npm run build
 Dette vil generere og kopiere over alle filer til `docs/` og gjøre at du har
 unstaged changes i git. Stage, commit og push disse og det vil automatisk
 publiseres på nettsiden.
+
+Når vi gjør flere endringer er det enklere å lytte på filendringer for å bygge:
+
+```shell
+npm run watch
+```
+
+## Kjør siden lokalt
+
+For å teste URL-er er det alltid bedre å kjøre en HTTP-tjener. Dette kreves og
+for å teste service workers. For å kjøre en lokal test server kjør følgende
+kommando i terminalen:
+
+```shell
+npm start
+```

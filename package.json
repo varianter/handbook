@@ -15,6 +15,7 @@
     "css": "postcss ./docs/styles/style.css -r",
     "build": "node tools/generate.js && npm run css",
     "clean": "rm -rf ./docs/*",
+    "start": "serve",
     "watch": "onchange 'src/**/*' 'tools/**/*' -- npm run build"
   },
   "keywords": [
@@ -48,6 +49,7 @@
     "postcss-custom-properties": "^7.0.0",
     "prettier": "1.14.2",
     "pretty-quick": "^1.6.0",
-    "recursive-copy": "^2.0.9"
+    "recursive-copy": "^2.0.9",
+    "serve": "^10.0.0"
   }
 }
