@@ -108,3 +108,4 @@ AS. Gjør dette ved å fylle ut dette
   du vel?)
 - [MS Office](https://admin.microsoft.com/OLS/MySoftware.aspx) lenken går til
   nedlastingssiden
+- [Åpne Web Analytics](https://variant.innocraft.cloud/)
