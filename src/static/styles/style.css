@@ -154,7 +154,7 @@ code {
   top: 0;
   overflow: auto;
   max-height: 100vh;
-  padding: 2rem 2rem 4rem;
+  padding: 2rem 2rem 6rem;
 
   font-family: "IBM Plex Serif", serif;
   font-size: 1.2rem;
