@@ -101,7 +101,7 @@ noen eksempler på hva dette betyr i praksis.
 
 - Til slutt, som et siste "bevis"; denne håndboken. Den er åpen for hele verden.
   Ikke bare kan ansatte endre, men alle lesere også. Dette gjelder og andre
-  sider Variant har. Vi oppfordrer og ansatte til å dele åpent og bidra til Open
+  sider Variant har. Vi oppfordrer ansatte til å dele åpent og bidra til Open
   Source.
 
 ## Betingelser
@@ -145,10 +145,9 @@ av overskuddet dette kvartalet, delt likt på alle ansatte. Vi må også betale
 arbeidsgiveravgift på bonus, slik at dette trekkes fra. Hvis noen har vært
 ansatt bare deler av et kvartal, justeres deres andel etter dette.
 
-**Eksempel**: Med 10 ansatte blir overskuddet for et kvartal _én million_, et
-relativt nøkternt resultat. `30%` av dette delt på 10 blir følgelig `30 000`. Så
-skal det betales `14,1%` arbeidsgiveravgift på dette slik at hver enkelts bonus
-dette kvartalet blir `25 770 kr`.
+**Eksempel**: Gitt 10 ansatte og et kvartalsvis overskudd på _én million_, deler
+vi `30%` av overskuddet på 10 og får `30 000`. Så skal det betales `14,1%`
+arbeidsgiveravgift slik at hver enkelts bonus dette kvartalet blir `25 770 kr`.
 
 ### Pensjon og forsikring
 
@@ -360,7 +359,7 @@ til et samarbeidsmøte. Her vil en intervjuer fra Variant og en jobbsøker
 samarbeide om å løse et problem. For utvikling kan det bety par-programmering
 eller felles diskusjon på whiteboard. Hovedformålet er at man samarbeider om
 oppgaven og kommuniserer seg frem til hvordan det kan løses. Før vi setter igang
-med det praktiske vil det være en introduksjon til programstillingen. Den vil
+med det praktiske vil det være en introduksjon til problemstillingen. Den vil
 være av en sånn natur at det er isolert, og kortfattet. Ikke ambisiøst.
 
 ### 3. Fremtidsdiskusjoner (30 min)
