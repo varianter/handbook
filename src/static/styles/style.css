@@ -164,6 +164,7 @@ code {
 .toc__suffix {
   margin-top: var(--defaultMargin);
   font-size: 1rem;
+  line-height: 1.5;
 }
 
 .toc__link--active {
@@ -257,6 +258,7 @@ code {
 .content p,
 ul {
   font-size: 1.5rem;
+  line-height: 1.5;
   margin: var(--defaultMargin) 0;
 }
 
