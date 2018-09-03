@@ -31,7 +31,7 @@ variant
 ### Som markdown data
 
 ```shell
-npm install variant-handbook
+npm install @variant/handbook
 ```
 
 Foreløpig ganske spartansk dokumentasjon, men det kommer seg.
