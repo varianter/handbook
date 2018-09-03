@@ -64,8 +64,8 @@ jobb i OnePiece en dag.
 Vi vil at våre ansatte skal være stolte av det de har gjort, og legge stolthet i
 det de gjør. Er du ikke stolt av det du gjør vil vi gjerne at du har mot til å
 endre det. I Variant skal vi kunne være stolte av å være her, nettopp fordi vi
-alle har gjort så mye bra tidligere. Så rett deg opp i ryggen, skyv fram
-brystkassa og si at du jobber i Variant.
+alle har gjort så mye bra tidligere. Så rett deg opp i ryggen og si at du jobber
+i Variant.
 
 ### Del
 
@@ -181,7 +181,7 @@ Det er heller ikke slik at det er et gitt antall års brukstid på maskinene. Du
 får en ny maskin når du har behov for det, uavhengig av om det har gått ett
 eller tre år. Som sagt velger du selv hvilken maskin du benytter. Vi har nå en
 bedriftsavtale med Eplehuset og veldig mange av oss kjører for tiden 15" MacBook
-Pro med 32GM minne.
+Pro med 32 GB minne.
 
 **NB!** Variant har ingen helpdesk eller supportavdeling, så skaff deg utstyr du
 vet du kan håndtere.
@@ -203,7 +203,7 @@ ingen rolle.
 
 Kjernevirksomheten til Variant er i utgangspunktet utelukkende å selge
 kompetanse. Men vi er eksperimentelle og tilpasningsdyktige. Det kan komme en
-tid der vi ser på muligheten for å samarbeide tett med Start-ups eller skape
+tid der vi ser på muligheten for å samarbeide tett med start-ups eller skape
 egne start-ups. I Norge er det helt vanlig at arbeidsplassen innehar rettigheter
 til det ansatte måtte lage eller komme på. Det kan være vanskelig å komme seg
 rundt dersom Variant har brukt mye penger på å hjelpe ansatte å utvikle noe.
@@ -271,9 +271,9 @@ arbeidsforhold. Våre avtaler med våre kunder inneholder reguleringer slik at v
 har gode forutsetninger for å levere godt resultat for våre kunder over lang
 tid. Godt med lys, luft og riktige møbler er avgjørende i så måte.
 
-Variant har igjennom året flere aktiviteter hvor våre ansatte blir satt i fysisk
-aktivitet. Dette er kan være fjellturer, bedriftsidrett, fiske etc. I tillegg
-dekker Variant 3T-medlemskapet for de av våre ansatte som synes et
+Variant har igjennom året flere aktiviteter hvor våre ansatte har mulighet til
+fysisk aktivitet. Dette er kan være fjellturer, bedriftsidrett, fiske etc. I
+tillegg dekker Variant 3T-medlemskapet for de av våre ansatte som synes et
 treningssenter er et hyggelig sted å være.
 
 Til slutt har vi en veldig god helseforsikring eller behandlingsforsikring som
