@@ -45,7 +45,9 @@ a:hover {
 }
 
 code {
-  background: var(--lightGrey);
+  border-radius: 0.2rem;
+  color: var(--pink);
+  background-color: var(--lightPink);
   padding: 0 0.4rem;
 }
 
