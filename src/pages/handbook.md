@@ -10,7 +10,8 @@ eller legge til innhold i den. Håndboken
 eller [stille spørsmål](https://github.com/varianter/handbook/issues).
 
 Om du ikke er en av _våre varianter_ (aka ansatt) og denne håndboken faller i
-smak, [se gjerne ledige stillinger hos oss](https://variantas.recruitee.com/).
+smak, [se gjerne ledige stillinger hos oss](https://jobs.variant.no/). Se mer
+info om oss på [nettsiden vår](https://www.variant.no).
 
 <img src="./assets/illustrations/mission.svg" alt="Illustrasjon for formål og verdier" class="illustration illustration--right illustration--mission" />
 
