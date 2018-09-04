@@ -102,8 +102,8 @@ AS. Gjør dette ved å fylle ut dette
   stillingsannonser
 - [Harvest](https://variantas.harvestapp.com/) for timeføring
 - [UNI Econmomy](https://unieconomy.no/#/) for regnskap, faktura og lønn
-- [Office 365 Dokumenter](docs.variant.as) for lagring av dokumenter og andre
-  filer.
+- [Office 365 Dokumenter](https://docs.variant.as) for lagring av dokumenter og
+  andre filer.
 - [Slack](https://join.slack.com/t/variantas/signup) for å ... (ja det skjønner
   du vel?)
 - [MS Office](https://admin.microsoft.com/OLS/MySoftware.aspx) lenken går til
