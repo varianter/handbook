@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-const format = require("date-fns/format");
-const nb = require("date-fns/locale/nb");
 const PromptList = require("prompt-list");
 const chalk = require("chalk");
 
@@ -57,12 +55,6 @@ pages()
 
     function printMd(res) {
       console.log("\n" + res);
-      console.log(chalk.blue("\nSist endret: " + humanize(page.modified)));
     }
   })
   .catch(console.error);
-
-function humanize(m) {
-  var mdate = new Date(m);
-  return format(mdate, "EEEE do MMMM, YYYY. HH:mm ", { locale: nb });
-}
