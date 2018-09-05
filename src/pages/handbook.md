@@ -348,7 +348,7 @@ satt opp et forløp på 3 steg:
 
 ### 1. Uformelt møte (15–30 min)
 
-Her møtes vi til en uformell samtale i uormelle omgivelser. Hvor vi møtes er
+Her møtes vi til en uformell samtale i uformelle omgivelser. Hvor vi møtes er
 litt opp til jobbsøkeren, men det kan gjerne være på en kafe som søkeren kjenner
 godt til. Formålet med møtet er å finne ut om begge parter har felles verdier og
 mål. Rett og slett om vi er rett for hverandre.
