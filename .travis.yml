@@ -1,0 +1,16 @@
+before_script:
+  - npm ci
+
+script:
+  - npm run build
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: docs
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
+  repo: varianter/handbook-host
+  target_branch: master
+  fqdn: handbook.variant.no
