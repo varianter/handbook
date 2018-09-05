@@ -37,7 +37,7 @@ npm install @variant/handbook
 Foreløpig ganske spartansk dokumentasjon, men det kommer seg.
 
 ```js
-const variant = require("variant-handbook");
+const variant = require("@variant/handbook");
 
 variant.getPage("handbook").then(function(data) {
   console.log(data.output);
