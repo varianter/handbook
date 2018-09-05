@@ -8,7 +8,7 @@
   },
   "files": [
     "npm/",
-    "src/*.md"
+    "src/pages/*.md"
   ],
   "scripts": {
     "precommit": "pretty-quick --staged",
