@@ -31,7 +31,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  background: url(../assets/background-pattern.svg) repeat top left var(--white);
+  background: url(../assets/background-pattern-min.png) repeat top left
+    var(--white) fixed;
 }
 
 a {
@@ -46,7 +47,7 @@ a:hover {
 
 code {
   border-radius: 0.2rem;
-  color: var(--pink);
+  color: var(--black);
   background-color: var(--lightPink);
   padding: 0 0.4rem;
 }
