@@ -32,7 +32,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  background: url(../assets/background-pattern.svg) repeat top left var(--white);
+  background: url(../assets/background-pattern-min.png) repeat top left
+    var(--white) fixed;
 }
 
 a {
