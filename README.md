@@ -108,3 +108,36 @@ kommando i terminalen:
 ```shell
 npm start
 ```
+
+## Automatisk deploy av nettside og NPM modul
+
+Det er satt opp kontinuerlig bygging av siden og NPM-modulen. Håndboken blir
+hostet via gh-pages i
+[varianter/handbook-host](https://github.com/varianter/handbook-host) og blir
+bygget [av Travis CI](https://travis-ci.org/varianter/handbook).
+
+Nettsiden blir deployet for hver gang master blir endret, men NPM-modul blir kun
+deployet hver gang en ny Git tag blir lagt til.
+
+## Legge til ny git tag
+
+Tenk på versjonering av NPM-modul. Er det brekkende endring? `major`. Er det Ny
+feature? `minor`. Er det bare tekstendringer? `patch`. For å bumpe versjon og
+lage ny tag kan man bruke `mversion` som dette:
+
+```shell
+npx mversion patch -m
+```
+
+Hvor `patch` kan være `major`, `minor` eller `patch`.
+
+Dette vil sette ny versjon i `package.json` og lage en annotert git tag. For å
+pushe det ut på Github brukes følgende kommando:
+
+```shell
+git push && git push --tags
+```
+
+Dette vil pushe både vanlig commits og den nye tag-en. Dersom det er
+API-endringer, husk å dokumenter det i
+[releases](https://github.com/varianter/handbook/releases) som changelog.
