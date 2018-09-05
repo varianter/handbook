@@ -1,36 +1,36 @@
 (function() {
-  // let headers = document.querySelectorAll("h2");
-  // if ("IntersectionObserver" in window && Array.prototype.find) {
-  //   let config = {
-  //     rootMargin: "-30px",
-  //     threshold: 1
-  //   };
+  let headers = document.querySelectorAll("h2");
+  if ("IntersectionObserver" in window && Array.prototype.find) {
+    let config = {
+      rootMargin: "-30px",
+      threshold: 1
+    };
 
-  //   let observer = new IntersectionObserver(onChange, config);
-  //   headers.forEach(i => observer.observe(i.nextElementSibling));
+    let observer = new IntersectionObserver(onChange, config);
+    headers.forEach(i => observer.observe(i.nextElementSibling));
 
-  //   function onChange(changes) {
-  //     const selected = changes.find(item => item.isIntersecting);
-  //     if (!selected) return;
-  //     const href = selected.target.previousElementSibling;
-  //     markLinkAsActive(href.id);
-  //   }
-  // }
+    function onChange(changes) {
+      const selected = changes.find(item => item.isIntersecting);
+      if (!selected) return;
+      const href = selected.target.previousElementSibling;
+      markLinkAsActive(href.id);
+    }
+  }
 
-  // const activeClassName = "toc__link--active";
-  // const root = document.querySelector(".markdownIt-TOC");
-  // function markLinkAsActive(id) {
-  //   markAllAsInactive();
-  //   const el = root.querySelector(`a[href="#${encodeURIComponent(id)}"]`);
-  //   if (!el) return;
-  //   el.classList.add(activeClassName);
-  // }
+  const activeClassName = "toc__link--active";
+  const root = document.querySelector(".markdownIt-TOC");
+  function markLinkAsActive(id) {
+    markAllAsInactive();
+    const el = root.querySelector(`a[href="#${encodeURIComponent(id)}"]`);
+    if (!el) return;
+    el.classList.add(activeClassName);
+  }
 
-  // function markAllAsInactive() {
-  //   root.querySelectorAll("." + activeClassName).forEach(function(item) {
-  //     item.classList.remove(activeClassName);
-  //   });
-  // }
+  function markAllAsInactive() {
+    root.querySelectorAll("." + activeClassName).forEach(function(item) {
+      item.classList.remove(activeClassName);
+    });
+  }
 
   const main = document.querySelector(".main");
   main.classList.add("jsActive");
