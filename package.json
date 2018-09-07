@@ -11,11 +11,11 @@
     "src/pages/*.md"
   ],
   "repository": {
-    "url": "https://github.com/varianter/vscode-variant-theme",
+    "url": "https://github.com/varianter/handbook",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/varianter/vscode-variant-theme/issues"
+    "url": "https://github.com/varianter/handbook/issues"
   },
   "scripts": {
     "precommit": "pretty-quick --staged",
