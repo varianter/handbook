@@ -109,3 +109,17 @@ AS. Gjør dette ved å fylle ut dette
 - [MS Office](https://admin.microsoft.com/OLS/MySoftware.aspx) lenken går til
   nedlastingssiden
 - [Åpne Web Analytics](https://variant.innocraft.cloud/)
+
+## Ord og uttrykk
+
+Stort sett er det aller meste helt greit, så lenge du selv mener det er innafor.
+Man kan kle seg som man vil, man kan snakke som man vil.... med noen unntak.
+
+En slett ikke-uttømmende liste over tabuer følger:
+
+- **I hytt og pine** antagelig mener du _I hytt og vær_, eller til og med _Død
+  og pine_ hvis du har trebein og en ankertatovering på underarmen.
+- **Det er ikke spikret i stein**. Nei, det er det aldri. Det kan være _spikret_
+  eller _hogd i stein_. Skrevet i stein er heller ikke noe bedre.
+- **Det har vært (litt av) en reise**. Ikke at det egentlig er en feil med
+  uttrykket, men finn på noe mer fantasifullt da...
