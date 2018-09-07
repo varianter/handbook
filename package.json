@@ -10,9 +10,17 @@
     "npm/",
     "src/pages/*.md"
   ],
+  "repository": {
+    "url": "https://github.com/varianter/vscode-variant-theme",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/varianter/vscode-variant-theme/issues"
+  },
   "scripts": {
     "precommit": "pretty-quick --staged",
     "css": "postcss ./docs/styles/style.css -r",
+    "prebuild": "mkdir -p docs/",
     "build": "node tools/generate.js && npm run css",
     "precibuild": "mkdir -p docs/",
     "cibuild": "npm run build && npm run precache",
