@@ -34,6 +34,8 @@ Lønningsdag er den siste arbeidsdag i hver måned. Altså utbetales lønn
 fredag 30. hvis den 31. kommer på lørdag. Det trekkes halv skatt av
 novemberlønnen. Desemberlønnen utbetales den 20. desember.
 
+### Feriepenger
+
 Feriepenger utbetales i juni. Det fungerer slik at feriepenger opptjent året før
 utbetales. Det trekkes ikke skatt av dette beløpet. All ferie trekkes denne
 måneden. Alle har 25 dager ferie, og juni har som regel 22 arbeidsdager. Det
@@ -41,6 +43,12 @@ betyr at det ikke er tilstrekkelig å la være å betale lønn i juni. Så i til
 trekkes 3/22 månedslønn fra feriepenger. Ansatte som har startet etter nyttår
 vil ikke ha grunnlag å trekke 3/22 månedslønn fra. Dette vil da i utgangspunktet
 trekkes fra påfølgende julilønn. Hvis man ønsker annen løsning så ta kontakt.
+
+NB! Selv om det ikke trekkes skatt av feriepengene, såkalt forhåndsskatt, så
+regnes feriedager som lønn, og inngår i grunnlaget for skatteberegningen for
+hele året. Så i praksis betaler man mer skatt de øvrige månedene for å ha mer
+penger å rutte med i sommerferien. Tilsvarende gjelder også med ordningen med
+halv skatt i november.
 
 ## Faktura
 
