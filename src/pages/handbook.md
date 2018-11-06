@@ -355,8 +355,8 @@ hverandre bedre.
 
 ### 2. Samarbeid om en problemstilling (2-3 timer)
 
-Om begge parter fortsatt er interessert etter det uformelle møtet, kan vi møtes
-til et samarbeidsmøte. Her vil en intervjuer fra Variant og en jobbsøker
+Om begge parter fortsatt er interessert etter bli kjent-møtet, kan vi treffes
+for et samarbeidsmøte. Her vil en intervjuer fra Variant og en jobbsøker
 samarbeide om å løse et problem. For utvikling kan det bety par-programmering
 eller felles diskusjon på whiteboard. Hovedformålet er at man samarbeider om
 oppgaven og kommuniserer seg frem til hvordan det kan løses. Før vi setter igang
