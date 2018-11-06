@@ -345,14 +345,15 @@ vanskelig måle med tradisjonelle konkrete tekniske spørsmål, og vi har derfor
 prøvd å tenke litt i nye baner for hvordan vi vil gjennomføre intervjuer. Vi har
 satt opp et forløp på 3 steg:
 
-### 1. Uformelt møte (15–30 min)
+### 1. Bli kjent-møte (30 min)
 
 Her møtes vi til en uformell samtale i uformelle omgivelser. Hvor vi møtes er
 litt opp til jobbsøkeren, men det kan gjerne være på en kafe som søkeren kjenner
 godt til. Formålet med møtet er å finne ut om begge parter har felles verdier og
-mål. Rett og slett om vi er rett for hverandre.
+mål. Rett og slett om vi er rett for hverandre og om vi kan bidra til å gjøre
+hverandre bedre.
 
-### 2. Samarbeid om en problemstilling (30–45 min)
+### 2. Samarbeid om en problemstilling (2-3 timer)
 
 Om begge parter fortsatt er interessert etter det uformelle møtet, kan vi møtes
 til et samarbeidsmøte. Her vil en intervjuer fra Variant og en jobbsøker
@@ -360,9 +361,14 @@ samarbeide om å løse et problem. For utvikling kan det bety par-programmering
 eller felles diskusjon på whiteboard. Hovedformålet er at man samarbeider om
 oppgaven og kommuniserer seg frem til hvordan det kan løses. Før vi setter igang
 med det praktiske vil det være en introduksjon til problemstillingen. Den vil
-være av en sånn natur at det er isolert, og kortfattet. Ikke ambisiøst.
+være av en sånn natur at det er isolert, og kortfattet. Ikke for ambisiøst.
 
-### 3. Fremtidsdiskusjoner (30 min)
+Eksempel på konkrete caser vi har gjennomført:
+- Enkel proof of concept for DIY Sonos-høytaler.
+- Konseptualisere, designe og implementere mobilnavigasjon for nettside.
+- Implementere et enkelt easter-egg spill i nettleseren.
+
+### 3. Fremtidsdiskusjoner (45 min)
 
 Siste steget i prosessen er en litt mer praktisk rettet samtale. Her får
 jobbsøker mulighet til å stille flere spørsmål til og om Variant. Vi kan og
