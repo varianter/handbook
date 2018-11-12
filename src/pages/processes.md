@@ -106,7 +106,7 @@ Er du på kurs, konferanse, meetup eller annen kompetansaktivitet fører du
 ikke dette. Tilsvarende om du jobber med salg, rekruttering eller lignende
 interne aktiviteter. Derimot må du fylle opp uken. Se nedenfor.
 
-### Harvest og rapportering av timeføring
+### Harvest og rapportering
 
 Vi ønsker at Harvest skal rapportere på og vise faktureringsgrad. For at Harvest skal kunne beregne faktureringsgrad føres alt som da måtte mangle for at det skal bli 37,5 timer per uke på følgende aktivitet:
 
