@@ -104,7 +104,7 @@ timer pr dag.
 
 Er du på kurs, konferanse, meetup eller annen kompetansaktivitet fører du
 ikke dette. Tilsvarende om du jobber med salg, rekruttering eller lignende
-interne aktiviteter.
+interne aktiviteter. Derimot må du fylle opp uken. Se nedenfor.
 
 ### Harvest og rapportering av timeføring
 
