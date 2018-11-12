@@ -79,7 +79,7 @@ uken. Timene føres i [Harvest](https://variantas.harvestapp.com/). Herfra kan
 man også laste ned Apps for både Mac og telefoner.
 
 Du har to typer kontoer du kan føre timer på: **kundetid** og **varianttid**. En
-full dag regnes som 7,5 timer.
+full dag regnes som 7,5 timer og en full uke som 37.5 timer. I tillegg benyttes Harvest til rapportering, les eget avsnitt om hva dette medfører.
 
 ### Variant-tid
 
@@ -103,8 +103,14 @@ Variantdag kan summen av fakturerbar tid og den av disse ikke overstige 7,5
 timer pr dag.
 
 Er du på kurs, konferanse, meetup eller annen kompetansaktivitet fører du
-Annet. Tilsvarende om du jobber med salg, rekruttering eller lignende
+ikke dette. Tilsvarende om du jobber med salg, rekruttering eller lignende
 interne aktiviteter.
+
+### Harvest og rapportering av timeføring
+
+Vi ønsker at Harvest skal rapportere på og vise faktureringsgrad. For at Harvest skal kunne beregne faktureringsgrad føres alt som da måtte mangle for at det skal bli 37.5 timer per uke på følgende aktivitet:
+
+- Harvest - ikkefakturerbart
 
 ### Kundetid
 
