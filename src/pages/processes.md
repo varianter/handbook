@@ -96,7 +96,6 @@ Av Variant-tid har vi disse aktivitetene.
 - Permisjon med lønn
 - Sykefravær med sykemelding
 - Sykefravær med egenmelding
-- Annet
 
 For alle disse kan man bare føre inntil 7,5 timer pr dag. Bortsett fra
 Variantdag kan summen av fakturerbar tid og den av disse ikke overstige 7,5
