@@ -108,7 +108,7 @@ interne aktiviteter.
 
 ### Harvest og rapportering av timeføring
 
-Vi ønsker at Harvest skal rapportere på og vise faktureringsgrad. For at Harvest skal kunne beregne faktureringsgrad føres alt som da måtte mangle for at det skal bli 37.5 timer per uke på følgende aktivitet:
+Vi ønsker at Harvest skal rapportere på og vise faktureringsgrad. For at Harvest skal kunne beregne faktureringsgrad føres alt som da måtte mangle for at det skal bli 37,5 timer per uke på følgende aktivitet:
 
 - Harvest - ikkefakturerbart
 
