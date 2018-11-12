@@ -79,7 +79,7 @@ uken. Timene føres i [Harvest](https://variantas.harvestapp.com/). Herfra kan
 man også laste ned Apps for både Mac og telefoner.
 
 Du har to typer kontoer du kan føre timer på: **kundetid** og **varianttid**. En
-full dag regnes som 7,5 timer og en full uke som 37.5 timer. I tillegg benyttes Harvest til rapportering, les eget avsnitt om hva dette medfører.
+full dag regnes som 7,5 timer og en full uke som 37,5 timer. I tillegg benyttes Harvest til rapportering. Les eget avsnitt om hva dette medfører.
 
 ### Variant-tid
 
