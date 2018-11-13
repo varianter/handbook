@@ -19,6 +19,8 @@ Gadgets og utstyr som kjøpes på gadgetbudsjett er selskapets eiendom:
 
 Du kan altså ikke selge det, gi det bort e.l, så lenge det er arbeidsgiveren som eier det.
 
-Gadgets kan kjøpes ut fra selskapet. Gjeldende regelverk for utkjøp:
+Gadgets kan kjøpes ut fra selskapet. 
+Gjeldende regelverk for utkjøp for datautstyr og mobiltelefon:
 
-- https://lovdata.no/dokument/SF/forskrift/2017-11-14-1779/KAPITTEL_1-2-2#shareModal
+- https://lovdata.no/forskrift/2017-11-14-1779/§1-2-16
+
