@@ -6,9 +6,9 @@ Denne siden beskriver mer utdypende hvordan vi forholder oss til innkjøp av uts
 
 Dersom det er bøker, utstyr og annet som selskapet og du trenger for vår virksomhet kan du selv gå til innkjøp av dette. Vi har tillit til din vurdering av hva du og Variant trenger og handler deretter. 
 
-Variant er raust og åpent og innkjøp er vi åpne om og deler.
+Variant er raust og åpent og innkjøp er vi åpne om og deler. En rapport over innkjøp hentes fra økonomisystemet og legges tilgjengelig hver måned i forbindelse med månedsoppgjøret.
 
-Når du gjør innkjøp til selskapet legges det til på vår liste over innkjøp (mindre forbruksvarer legges ikke inn, men del gjerne på slack om det er noe andre kan nyttiggjøre seg).
+Del gjerne på slack om du har gjort innkjøp som andre kan nyttiggjøre seg.
 
 ### Gadgetbudsjett
 
