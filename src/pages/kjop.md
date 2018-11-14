@@ -1,26 +1,35 @@
 ## Kjøp av utstyr.
 
-Denne siden beskriver detaljert hvordan vi forholder oss til innkjøp av utstyr. De samme regler gjelder for innkjøp under "gadget-budsjett".
+Denne siden beskriver mer utdypende hvordan vi forholder oss til innkjøp av utstyr og gadgets på gadgetbudsjett.
 
-#### Oversikt over utstyr
+### Innkjøp til selskapet
 
-Alt innkjøpt utstyr føres opp på intern oversikt over utstyr.
+Dersom det er bøker, utstyr og annet som selskapet og du trenger for vår virksomhet kan du selv gå til innkjøp av dette. Vi har tillit til din vurdering av hva du og Variant trenger og handler deretter. 
 
-- TODO: Hvordan utstyr legges til på oversikt
-- TODO: Lenke til oversikt
+Variant er raust og åpent og innkjøp er vi åpne om og deler.
 
-#### Lover og regler
-Ved kjøp av gadgets følger vi norske lover og regler for skatt og MVA.
+Når du gjør innkjøp til selskapet legges det til på vår liste over innkjøp (mindre forbruksvarer legges ikke inn, men del gjerne på slack om det er noe andre kan nyttiggjøre seg).
 
-Gadgets og utstyr som kjøpes på gadgetbudsjett er selskapets eiendom:
+### Gadgetbudsjett
 
-- "fordelen ved at arbeidstakers private bruk av arbeidsgivers utstyr er skattefri når utplasseringen er begrunnet i tjenestlig behov"
-- https://www.infotjenester.no/artikler/du-maa-ikke-skatte-av-nettbrett/
+Gadgetbudsjettet har utspring i at du selv skal kunne kjøpe gadgets du trenger. Om det er begrunnet i tjenestlig behov er dette skattefritt.
 
-Du kan altså ikke selge det, gi det bort e.l, så lenge det er arbeidsgiveren som eier det.
+Dette gjelder i hovedsak to kategorier utstyr:
 
-Gadgets kan kjøpes ut fra selskapet. 
-Gjeldende regelverk for utkjøp for datautstyr og mobiltelefon:
+1. Datautstyr og tilbehør
+2. Mobiltelefon og mobiltelfontilbehør, bredbånd og mobiltelefonabbonnement
 
-- https://lovdata.no/forskrift/2017-11-14-1779/§1-2-16
+Utstyret er arbeidsgivers eiendom og lånes ut til den ansatte. Utstyr som ikke er arbeidsgivers eiendom kan ikke arbeidsgiver investere i / anskaffe. 
 
+Innkjøpt utstyr avskrives etter regler angitt på [lovdata](https://www.skatteetaten.no/bedrift-og-organisasjon/arbeidsgiver/a-meldingen/veiledning/lonn-og-ytelser/oversikt-over-lonn-og-andre-ytelser/elektronisk-kommunikasjon-naturalytelse/):
+
+For datautstyr eller mobil som er
+
+* mindre enn ett år gammelt må du betale 80 prosent av opprinnelig kostpris,
+* mellom ett og to år må du betale 50 prosent,
+* mellom to og tre år må du betale 20 prosent.
+* For datautstyr eller mobil som er tre år eller eldre slipper du med å betale 500 kroner (inklusiv eventuell moms).
+
+For mobiltelefoner, mobilabbonnement og bredbånd forutsetter dette sjablongtrekk, som du vil se på din lønns-slipp. Mer informasjon om [sjablongtrekk på skatteetaten.no](https://www.skatteetaten.no/bedrift-og-organisasjon/arbeidsgiver/a-meldingen/veiledning/lonn-og-ytelser/oversikt-over-lonn-og-andre-ytelser/elektronisk-kommunikasjon-naturalytelse/)
+
+Du får dekt kostnaden ved innkjøp ved å levere utgiftsrapport.
