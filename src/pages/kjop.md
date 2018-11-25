@@ -23,7 +23,7 @@ Utstyret er arbeidsgivers eiendom og lånes ut til den ansatte. Utstyr som ikke 
 
 Innkjøpt utstyr avskrives etter regler angitt på [lovdata](https://www.skatteetaten.no/bedrift-og-organisasjon/arbeidsgiver/a-meldingen/veiledning/lonn-og-ytelser/oversikt-over-lonn-og-andre-ytelser/elektronisk-kommunikasjon-naturalytelse/):
 
-For datautstyr eller mobil som er
+For utkjøp av datautstyr eller mobil som er
 
 * mindre enn ett år gammelt må du betale 80 prosent av opprinnelig kostpris,
 * mellom ett og to år må du betale 50 prosent,
