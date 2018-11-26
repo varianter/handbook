@@ -78,33 +78,39 @@ Timene skal leveres ukentlig. Fristen er mandag morgen kl 9.00 den påfølgende
 uken. Timene føres i [Harvest](https://variantas.harvestapp.com/). Herfra kan
 man også laste ned Apps for både Mac og telefoner.
 
-Du har to typer kontoer du kan føre timer på: **kundetid** og **varianttid**. En
-full dag regnes som 7,5 timer.
-
-### Variant-tid
+En full dag regnes som 7,5 timer og en full uke som 37,5 timer. I tillegg benyttes Harvest til rapportering. Les eget avsnitt om hva dette medfører.
 
 I Variant ønsker vi ikke å spore unødvendig tid. Generelt er det slik at vi bare
 trenger å vite tid brukt på kunder slik at vi kan lage faktura. I tillegg
 trenger vi å vite om du er borte av ulike årsaker. Til slutt trenger vi å vite
 om du var på Variantdag for å beregne overtidslønn.
 
-Av Variant-tid har vi disse aktivitetene.
+Av Variant-tid har vi disse aktivitetene:
 
 - Variantdag
+
+Av annen tid vi sporer har disse aktivitetene:
+
 - Ferie
 - Permisjon uten lønn
 - Permisjon med lønn
 - Sykefravær med sykemelding
 - Sykefravær med egenmelding
-- Annet
 
-For alle disse kan man bare føre inntil 7,5 timer pr dag. Bortsett fra
+For alle disse kan man føre inntil 7,5 timer pr dag. Bortsett fra
 Variantdag kan summen av fakturerbar tid og den av disse ikke overstige 7,5
 timer pr dag.
 
 Er du på kurs, konferanse, meetup eller annen kompetansaktivitet fører du
-Annet. Tilsvarende om du jobber med salg, rekruttering eller lignende
-interne aktiviteter.
+ikke dette. Tilsvarende om du jobber med salg, rekruttering eller lignende
+interne aktiviteter. Derimot må du fylle opp uken slik at vi kan automatisere 
+beregning av faktureringsgrad. Dette gjøres med Harvest (se nedenfor).
+
+### Harvest og rapportering
+
+Vi ønsker at Harvest skal rapportere på og vise faktureringsgrad. For at Harvest skal kunne beregne faktureringsgrad føres alt som da måtte mangle for at det skal bli 37,5 timer per uke på følgende aktivitet:
+
+- Harvest - ikkefakturerbart
 
 ### Kundetid
 
