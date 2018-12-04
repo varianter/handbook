@@ -32,7 +32,7 @@ stadig endring. For tiden ser den slik ut:
 - Bestille utstyr
 - Bli enig om oppstartsdagen. Sted og tidspunkt. Lunsj "på huset" hvis man ikke
   er ute på prosjekt
-- Ordne med portering av telefonabonement
+- [Ordne med portering av telefonabonnement](https://www.telia.no/mitt-abonnement/bytte-eier/)
 
 ### Før oppstart (CEO/COO)
 
