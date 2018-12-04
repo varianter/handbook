@@ -25,7 +25,7 @@ stadig endring. For tiden ser den slik ut:
 - Invitere ansatt til Variant-dagen(e) og/eller noe sosialt. Mål: Møte og bli
   kjent med alle i Variant
 - Informere om planlagte aktiviteter (som Nyttårskalas)
-- Invitere til faddermiddag
+- Ha en faddermiddag (gjerne flere nyansatte og faddere om overlapp)
 - Forberede ansatt på prosjekt-prosessen/prosjektet
 - Invitere til Slack
 - Forberede goodie-bag
