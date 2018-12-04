@@ -45,7 +45,7 @@ vil ikke ha grunnlag å trekke 3/22 månedslønn fra. Dette vil da i utgangspunk
 trekkes fra påfølgende julilønn. Hvis man ønsker annen løsning så ta kontakt.
 
 NB! Selv om det ikke trekkes skatt av feriepengene, såkalt forhåndsskatt, så
-regnes feriedager som lønn, og inngår i grunnlaget for skatteberegningen for
+regnes feriepenger som lønn, og inngår i grunnlaget for skatteberegningen for
 hele året. Så i praksis betaler man mer skatt de øvrige månedene for å ha mer
 penger å rutte med i sommerferien. Tilsvarende gjelder også med ordningen med
 halv skatt i november.
@@ -78,7 +78,8 @@ Timene skal leveres ukentlig. Fristen er mandag morgen kl 9.00 den påfølgende
 uken. Timene føres i [Harvest](https://variantas.harvestapp.com/). Herfra kan
 man også laste ned Apps for både Mac og telefoner.
 
-En full dag regnes som 7,5 timer og en full uke som 37,5 timer. I tillegg benyttes Harvest til rapportering. Les eget avsnitt om hva dette medfører.
+En full dag regnes som 7,5 timer og en full uke som 37,5 timer. I tillegg
+benyttes Harvest til rapportering. Les eget avsnitt om hva dette medfører.
 
 I Variant ønsker vi ikke å spore unødvendig tid. Generelt er det slik at vi bare
 trenger å vite tid brukt på kunder slik at vi kan lage faktura. I tillegg
@@ -97,18 +98,19 @@ Av annen tid vi sporer har disse aktivitetene:
 - Sykefravær med sykemelding
 - Sykefravær med egenmelding
 
-For alle disse kan man føre inntil 7,5 timer pr dag. Bortsett fra
-Variantdag kan summen av fakturerbar tid og den av disse ikke overstige 7,5
-timer pr dag.
+For alle disse kan man føre inntil 7,5 timer pr dag. Bortsett fra Variantdag kan
+summen av fakturerbar tid og den av disse ikke overstige 7,5 timer pr dag.
 
-Er du på kurs, konferanse, meetup eller annen kompetansaktivitet fører du
-ikke dette. Tilsvarende om du jobber med salg, rekruttering eller lignende
-interne aktiviteter. Derimot må du fylle opp uken slik at vi kan automatisere 
-beregning av faktureringsgrad. Dette gjøres med Harvest (se nedenfor).
+Er du på kurs, konferanse, meetup eller annen kompetansaktivitet fører du ikke
+dette. Tilsvarende om du jobber med salg, rekruttering eller lignende interne
+aktiviteter. Derimot må du fylle opp uken slik at vi kan automatisere beregning
+av faktureringsgrad. Dette gjøres med Harvest (se nedenfor).
 
 ### Harvest og rapportering
 
-Vi ønsker at Harvest skal rapportere på og vise faktureringsgrad. For at Harvest skal kunne beregne faktureringsgrad føres alt som da måtte mangle for at det skal bli 37,5 timer per uke på følgende aktivitet:
+Vi ønsker at Harvest skal rapportere på og vise faktureringsgrad. For at Harvest
+skal kunne beregne faktureringsgrad føres alt som da måtte mangle for at det
+skal bli 37,5 timer per uke på følgende aktivitet:
 
 - Harvest - ikkefakturerbart
 
