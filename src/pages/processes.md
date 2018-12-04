@@ -12,8 +12,8 @@ stadig endring. For tiden ser den slik ut:
 
 ### Frem til fadder blir satt (Rekrutteringsansvarlig)
 
-- Få den nyansatte til å fylle ut nettsjema for nyansatte. (Her velger du blant
-  annet PC)
+- Få den nyansatte til å fylle ut [nettsjema](http://nyansatt.variant.no) for
+  nyansatte. (Her velger du blant annet PC)
 - Opprett bruker for AD, Mail i office 365.
 - Etabler CV i CV-partner, og inviter den nyansette inn for å starte på dette
   arbeidet.
@@ -26,18 +26,18 @@ stadig endring. For tiden ser den slik ut:
   kjent med alle i Variant
 - Informere om planlagte aktiviteter (som Nyttårskalas)
 - Ha en faddermiddag (gjerne flere nyansatte og faddere om overlapp)
-- Forberede ansatt på prosjekt-prosessen/prosjektet
+- Forberede ansatt på oppdraget og prosessene rundt bemanning av oppdrag.
 - Invitere til Slack
 - Forberede goodie-bag
 - Bestille utstyr
 - Bli enig om oppstartsdagen. Sted og tidspunkt. Lunsj "på huset" hvis man ikke
-  er ute på prosjekt
+  er ute i oppdrag.
 - [Ordne med portering av telefonabonnement](https://www.telia.no/mitt-abonnement/bytte-eier/)
 
 ### Før oppstart (CEO/COO)
 
 - Bestille telefonabonnement
-- Registrere som ansatt i Uni, ellers blir det dårlig med lønn
+- Registrere som ansatt i Uni, ellers blir det dårlig med lønn.
 - Melde inn i forsikringer (Gjensidige)
 
 ### Etter oppstartsdato (Fadder)
