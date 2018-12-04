@@ -36,7 +36,7 @@ stadig endring. For tiden ser den slik ut:
 
 ### Før oppstart (CEO/COO)
 
-- Bestille mobilabbonement
+- Bestille telefonabonnement
 - Registrere som ansatt i Uni, ellers blir det dårlig med lønn
 - Melde inn i forsikringer (Gjensidige)
 
