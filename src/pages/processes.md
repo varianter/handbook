@@ -42,7 +42,7 @@ stadig endring. For tiden ser den slik ut:
 
 ### Etter oppstartsdato (Fadder)
 
-- Be ansatt om å gå gjennom og oppdatere CV
+- Be ansatt om å oppdatere CV
 - Hvis designer: Gjennomgang av templates, canvas og andre designfiler som kan
   være kjekk å bruke
 - Gjennomgang av det praktiske i lokalet vårt
