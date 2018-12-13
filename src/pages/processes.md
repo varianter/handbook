@@ -128,8 +128,7 @@ Timene skal leveres ukentlig. Fristen er mandag morgen kl 9.00 den påfølgende
 uken. Timene føres i [Harvest](https://variantas.harvestapp.com/). Herfra kan
 man også laste ned Apps for både Mac og telefoner.
 
-En full dag regnes som 7,5 timer og en full uke som 37,5 timer. I tillegg
-benyttes Harvest til rapportering. Les eget avsnitt om hva dette medfører.
+En full dag regnes som 7,5 timer og en full uke som 37,5 timer. 
 
 I Variant ønsker vi ikke å spore unødvendig tid. Generelt er det slik at vi bare
 trenger å vite tid brukt på kunder slik at vi kan lage faktura. I tillegg
@@ -155,14 +154,6 @@ Er du på kurs, konferanse, meetup eller annen kompetansaktivitet fører du ikke
 dette. Tilsvarende om du jobber med salg, rekruttering eller lignende interne
 aktiviteter. Derimot må du fylle opp uken slik at vi kan automatisere beregning
 av faktureringsgrad. Dette gjøres med Harvest (se nedenfor).
-
-### Harvest og rapportering
-
-Vi ønsker at Harvest skal rapportere på og vise faktureringsgrad. For at Harvest
-skal kunne beregne faktureringsgrad føres alt som da måtte mangle for at det
-skal bli 37,5 timer per uke på følgende aktivitet:
-
-- Harvest - ikkefakturerbart
 
 ### Kundetid
 
