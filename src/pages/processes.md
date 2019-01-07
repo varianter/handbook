@@ -124,7 +124,7 @@ eposten som lister ut deltagere.
 
 ### Bonuspoeng og rabatt
 
-I Variant sier vi at vi ikke skal bruke kredittkort eller fordelsprogram med reiser med bonusprogram når du betaler/dekker utgifter for selskapet. Jf. lovendringer fra 01.0.1.2019 er all bonuspoeng skattbart og selskap har ansvar for å holde orden på det. Dette er i praksis umulig og det er enklest å si at vi unngår det helt.
+I Variant sier vi at vi ikke skal bruke fordelsprogram som gir bonus når du betaler eller dekker utgifter for selskapet. Jf. lovendringer fra 01.0.1.2019 er opptjening av bonuspoeng med arbeidsgivers midler skattbart og selskap har ansvar for å holde orden på det. Dette er i praksis umulig og det er enklest å si at vi unngår det helt. Dette gjelder f.eks bonusreiser på fly og kredittkort med bonusprogram. 
 
 ## Timeføring
 
