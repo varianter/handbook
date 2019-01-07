@@ -124,7 +124,7 @@ eposten som lister ut deltagere.
 
 ### Bonuspoeng og rabatt
 
-Variant forventer at utgifter ikke dekkes/betales med ordninger som opparbeider bonuspoeng.
+I Variant sier vi at vi ikke skal bruke kredittkort med bonusprogram når du betaler/dekker utgifter for selskapet. Jf. lovendringer fra 01.0.1.2019 er all bonuspoeng via kredittkort skattbart og hvor Variant har ansvar for å holde orden på det. Dette er i praksis umulig og det er enklest å si at vi unngår det helt.
 
 ## Timeføring
 
