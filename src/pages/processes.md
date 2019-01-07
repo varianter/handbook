@@ -122,6 +122,10 @@ Av bokføringsgrunner trenger vi å vite hvem som var med når noen har lagt ut 
 et resurantbesøk. Dette gjelder både eksterne og interne. Lag en enkel liste i
 eposten som lister ut deltagere.
 
+### Bonuspoeng og rabatt
+
+Variant forventer at utgifter ikke dekkes/betales med ordninger som opparbeider bonuspoeng.
+
 ## Timeføring
 
 Timene skal leveres ukentlig. Fristen er mandag morgen kl 9.00 den påfølgende
