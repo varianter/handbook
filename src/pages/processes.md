@@ -172,7 +172,7 @@ AS. Gjør dette ved å fylle ut dette
 - [Recruitee](https://recruitee.com/admin) for å håndtere rekruttering og
   stillingsannonser
 - [Harvest](https://variantas.harvestapp.com/) for timeføring
-- [UNI Econmomy](https://unieconomy.no/#/) for regnskap, faktura og lønn
+- [UNI Economy](https://unieconomy.no/#/) for regnskap, faktura og lønn
 - [Office 365 Dokumenter](https://docs.variant.as) for lagring av dokumenter og
   andre filer.
 - [Slack](https://join.slack.com/t/variantas/signup) for å ... (ja det skjønner
