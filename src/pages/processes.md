@@ -163,8 +163,7 @@ for oppdraget eller prosjektet. Lunsj føres ikke.
 ## Portere telefonabonement
 
 For at Variant skal betale for mobilbruk må abonementet overføres til Variant
-AS. Gjør dette ved å fylle ut dette
-[skjemaet](https://forms.office.com/Pages/ResponsePage.aspx?id=d9AWD4K9bEq0mFJ0EjkgX00_NMsMifRJplcCQraMyqVUNEUwU1dUUVYwNkNJSDZRODBKQ09QU0FOWC4u).
+AS. Gjør dette ved å fylle ut dette skjemaet hos Telia: https://www.telia.no/mitt-abonnement/bytte-eier/
 
 ## Våre internsystemer
 
