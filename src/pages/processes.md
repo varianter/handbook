@@ -122,6 +122,10 @@ Av bokføringsgrunner trenger vi å vite hvem som var med når noen har lagt ut 
 et resurantbesøk. Dette gjelder både eksterne og interne. Lag en enkel liste i
 eposten som lister ut deltagere.
 
+### Bonuspoeng og rabatt
+
+I Variant sier vi at vi ikke skal bruke kredittkort med bonusprogram når du betaler/dekker utgifter for selskapet. Jf. lovendringer fra 01.0.1.2019 er all bonuspoeng via kredittkort skattbart og hvor Variant har ansvar for å holde orden på det. Dette er i praksis umulig og det er enklest å si at vi unngår det helt.
+
 ## Timeføring
 
 Timene skal leveres ukentlig. Fristen er mandag morgen kl 9.00 den påfølgende
