@@ -136,7 +136,8 @@ være nødvendig å jobbe litt ekstra.
 
 Dette vil da føre til utbetaling av overtidstillegg. Overtidstillegget avregnes
 pr måned, og utbetales den påfølgende måneden. Det er bare fakturerbar tid som
-fører til overtid.
+fører til overtid. Overtidstillegget 40% og overtidslønnen beregnes ved å ta
+`antall timer overtid for en måned * årslønn / 1960 * 1,4`.
 
 ### Bonus
 
@@ -364,6 +365,7 @@ med det praktiske vil det være en introduksjon til problemstillingen. Den vil
 være av en sånn natur at det er isolert, og kortfattet. Ikke for ambisiøst.
 
 Eksempel på konkrete caser vi har gjennomført:
+
 - Enkel proof of concept for DIY Sonos-høytaler.
 - Konseptualisere, designe og implementere mobilnavigasjon for nettside.
 - Implementere et enkelt easter-egg spill i nettleseren.
