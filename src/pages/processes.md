@@ -140,7 +140,7 @@ rapportere videre til myndighetene.
   eksempel når du gjennomfører en reise som betales ved bonuspoeng.
 
 - Du skal bare rapportere inn bruk av poeng som er oppspart ved at Variant har
-  betetalt. Typisk bonuspoeng på flyreiser hvor Variant har dekt reisen. Dette
+  betalt. Typisk bonuspoeng på flyreiser hvor Variant har dekt reisen. Dette
   gjelder også om reisen ble viderefakturert våre kunder.
 
 - Du skal bare rapportere inn privat bruk. Hvis bonuspoengene for eksempel går
@@ -155,7 +155,7 @@ Du må også dokumentere estimert verdi. Dette gjøres typisk ved å ta skjermbi
 av tilsvarende kjøp eller reiser hvor prisene er oppgitt.
 
 - Dokumentasjonen lastes opp på docs.
-- Rapprtering gjøres ved å fylle ut
+- Rapportering gjøres ved å fylle ut
   [dette skjemaet](https://fordelsrapport.variant.no).
 
 ## Timeføring
