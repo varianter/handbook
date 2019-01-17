@@ -122,9 +122,41 @@ Av bokføringsgrunner trenger vi å vite hvem som var med når noen har lagt ut 
 et resurantbesøk. Dette gjelder både eksterne og interne. Lag en enkel liste i
 eposten som lister ut deltagere.
 
-### Bonuspoeng og rabatt
+## Fordelsprogram og rabatt
 
-I Variant sier vi at vi ikke skal bruke fordelsprogram som gir bonus når du betaler eller dekker utgifter for selskapet. Jf. lovendringer fra 01.0.1.2019 er opptjening av bonuspoeng med arbeidsgivers midler skattbart og selskap har ansvar for å holde orden på det. Dette er i praksis umulig og det er enklest å si at vi unngår det helt. Dette gjelder f.eks bonusreiser på fly og kredittkort med bonusprogram. 
+Skattemydighetene krever at fordeler du oppnår gjennom ulike fordelsprogam man
+får på grunn av at du er ansatt hos oss skal rapporeres inn slik at det blir med
+på skatteberegningen. Dette gjelder blant annet:
+
+- Kredittkort med bonuspoeng
+- Bonuspoeng på flyreiser
+- Eventuelle ansattrabatter hos butikker eller lignende (P.t. har vi ingen
+  slike).
+
+Det er den ansattes ansvar å rapportere dette til Variant, så skal Variant
+rapportere videre til myndighetene.
+
+- Du rapporterer inn når du benytter fordelen _ikke_ når du sparer opp. For
+  eksempel når du gjennomfører en reise som betales ved bonuspoeng.
+
+- Du skal bare rapportere inn bruk av poeng som er oppspart ved at Variant har
+  betalt. Typisk bonuspoeng på flyreiser hvor Variant har dekt reisen. Dette
+  gjelder også om reisen ble viderefakturert våre kunder.
+
+- Du skal bare rapportere inn privat bruk. Hvis bonuspoengene for eksempel går
+  med til å kjøpe en tjenestereise er dette _ikke_ skattepliktig.
+
+Du må estimere verdien av fordelen du har oppnådd, og beregne hvor stor rabatt
+du har fått i prosent. Bonusreiser gir da 100% rabatt gitt at hele reisen
+betales med poeng. Verdien estimeres typisk ved å finne ut hva tilsvarende kjøp
+ville kostet uten rabatt eller bonuspoeng.
+
+Du må også dokumentere estimert verdi. Dette gjøres typisk ved å ta skjermbilder
+av tilsvarende kjøp eller reiser hvor prisene er oppgitt.
+
+- Dokumentasjonen lastes opp på [docs](https://fordelsdokumentasjon.variant.no).
+- Rapprtering gjøres ved å fylle ut
+  [dette skjemaet](https://fordelsrapport.variant.no).
 
 ## Timeføring
 
@@ -167,7 +199,8 @@ for oppdraget eller prosjektet. Lunsj føres ikke.
 ## Portere telefonabonement
 
 For at Variant skal betale for mobilbruk må abonementet overføres til Variant
-AS. Gjør dette ved å fylle ut dette skjemaet hos Telia: https://www.telia.no/mitt-abonnement/bytte-eier/
+AS. Gjør dette ved å fylle ut dette skjemaet hos Telia:
+https://www.telia.no/mitt-abonnement/bytte-eier/
 
 ## Våre internsystemer
 
