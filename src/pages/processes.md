@@ -154,7 +154,7 @@ ville kostet uten rabatt eller bonuspoeng.
 Du må også dokumentere estimert verdi. Dette gjøres typisk ved å ta skjermbilder
 av tilsvarende kjøp eller reiser hvor prisene er oppgitt.
 
-- Dokumentasjonen lastes opp på docs.
+- Dokumentasjonen lastes opp på [docs](https://fordelsdokumentasjon.variant.no).
 - Rapprtering gjøres ved å fylle ut
   [dette skjemaet](https://fordelsrapport.variant.no).
 
