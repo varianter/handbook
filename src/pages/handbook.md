@@ -242,6 +242,15 @@ I tillegg til de vanlige 5 uker med ferie regner vi alle dagene fra og med
 julaften til og med 1. nyttårsdag som helligdager. Det vil si at du trenger ikke
 bruke feriedager i romjula.
 
+
+### Ammefri
+
+[Mødre som ammer har rett på inntil 1 time lønnet fri](https://www.arbeidstilsynet.no/arbeidsforhold/permisjoner/foreldrepermisjon/ammefri/) hver dag til å kunne amme.
+Dette gjelder helt opp til barnet/barnene er ett år. Hver ansatt må selv se
+når det passer med sine og barnets rutiner for ammefri. Vi oppfordrer til en
+åpen dialog med kunde for at det kan være forutsigbarhet som man kan planlegge
+rundt og hjelper gjerne til med kommunikasjonen med kunde.
+
 ### Fleksibilitet
 
 Arbeidstid er 7,5 timer per dag, Vi har ingen kjernetid hos oss. Samtidig vet vi
