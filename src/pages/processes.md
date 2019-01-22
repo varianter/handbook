@@ -122,6 +122,18 @@ Av bokføringsgrunner trenger vi å vite hvem som var med når noen har lagt ut 
 et resurantbesøk. Dette gjelder både eksterne og interne. Lag en enkel liste i
 eposten som lister ut deltagere.
 
+### Reiser
+
+Reiser på Variants regning refunderes mot kvitteringer (ikke diett). Lever som andre utgiftsrapporter, men husk å påfør reiserute og formål med reisen.
+
+Reiser på kundes regning føres i tråd med det som er avtalt med kunde (diett dersom det er avtalt på forhånd). Husk å påfør at reisen er viderefakturerbar og hvilket oppdrag det gjelder.
+
+Om du reiser mye kan du benytte appen Sonya for å lage bilaget som du så sender inn på vanlig måte.
+
+### Utgifter i utenlandsk valuta
+
+For utgifter ført i annenvaluta som skal refunderes må du oppgi korrekt beløp i norske kroner som du skal refunderes. Valutakurser varierer og hva du faktisk ble belastet og betalte vet du best.
+
 ## Fordelsprogram og rabatt
 
 Skattemydighetene krever at fordeler du oppnår gjennom ulike fordelsprogam man
