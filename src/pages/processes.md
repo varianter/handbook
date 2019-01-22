@@ -132,7 +132,7 @@ Om du reiser mye kan du benytte appen Sonya for å lage bilaget som du så sende
 
 ### Utgifter i utenlandsk valuta
 
-For utgifter ført i annenvaluta som skal refunderes må du oppgi korrekt beløp i norske kroner som du skal refunderes. Valutakurser varierer og hva du faktisk ble belastet og betalte vet du best.
+For utgifter ført i annen valuta som skal refunderes må du oppgi korrekt beløp i norske kroner som du skal refunderes. Valutakurser varierer og hva du faktisk ble belastet og betalte vet du best.
 
 ## Fordelsprogram og rabatt
 
