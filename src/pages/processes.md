@@ -124,15 +124,21 @@ eposten som lister ut deltagere.
 
 ### Reiser
 
-Reiser på Variants regning refunderes mot kvitteringer (ikke diett). Lever som andre utgiftsrapporter, men husk å påfør reiserute og formål med reisen.
+Reiser på Variants regning refunderes mot kvitteringer (ikke diett). Lever som
+andre utgiftsrapporter, men husk å påfør reiserute og formål med reisen.
 
-Reiser på kundes regning føres i tråd med det som er avtalt med kunde (diett dersom det er avtalt på forhånd). Husk å påfør at reisen er viderefakturerbar og hvilket oppdrag det gjelder.
+Reiser på kundes regning føres i tråd med det som er avtalt med kunde (diett
+dersom det er avtalt på forhånd). Husk å påfør at reisen er viderefakturerbar og
+hvilket oppdrag det gjelder.
 
-Om du reiser mye kan du benytte appen Sonya for å lage bilaget som du så sender inn på vanlig måte.
+Om du reiser mye kan du benytte appen Sonya for å lage bilaget som du så sender
+inn på vanlig måte.
 
 ### Utgifter i utenlandsk valuta
 
-For utgifter ført i annen valuta som skal refunderes må du oppgi korrekt beløp i norske kroner som du skal refunderes. Valutakurser varierer og hva du faktisk ble belastet og betalte vet du best.
+For utgifter ført i annen valuta som skal refunderes må du oppgi korrekt beløp i
+norske kroner som du skal refunderes. Valutakurser varierer og hva du faktisk
+ble belastet og betalte vet du best.
 
 ## Fordelsprogram og rabatt
 
@@ -167,7 +173,7 @@ Du må også dokumentere estimert verdi. Dette gjøres typisk ved å ta skjermbi
 av tilsvarende kjøp eller reiser hvor prisene er oppgitt.
 
 - Dokumentasjonen lastes opp på [docs](https://fordelsdokumentasjon.variant.no).
-- Rapportering gjøres ved å fylle ut
+- Rapprtering gjøres ved å fylle ut
   [dette skjemaet](https://fordelsrapport.variant.no).
 
 ## Timeføring
@@ -228,3 +234,12 @@ https://www.telia.no/mitt-abonnement/bytte-eier/
 - [MS Office](https://admin.microsoft.com/OLS/MySoftware.aspx) lenken går til
   nedlastingssiden
 - [Åpne Web Analytics](https://variant.innocraft.cloud/)
+
+## Nyttige lenker
+
+- [Gadgetoversikt](https://gadget.variant.no) Oversikt over hva som er kjøpt på
+  gadsjett, og hvor mye man har brukt.
+- [Fordelsrapport](https://fordelsrapport.variant.no) Her rapporteres det inn
+  bruk av bonuspoenge eller andre fordelsprogam.
+- [Fordelsdokumentasjonen](https://fordelsdokumentasjon.variant.no) Hit laster
+  du opp dokumentasjon på overnevnt bruk.
