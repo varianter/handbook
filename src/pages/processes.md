@@ -216,3 +216,12 @@ https://www.telia.no/mitt-abonnement/bytte-eier/
 - [MS Office](https://admin.microsoft.com/OLS/MySoftware.aspx) lenken går til
   nedlastingssiden
 - [Åpne Web Analytics](https://variant.innocraft.cloud/)
+
+## Nyttige lenker
+
+- [Gadgetoversikt](https://gadget.variant.no) Oversikt over hva som er kjøpt på
+  gadsjett, og hvor mye man har brukt.
+- [Fordelsrapport](https://fordelsrapport.variant.no) Her rapporteres det inn
+  bruk av bonuspoenge eller andre fordelsprogam.
+- [Fordelsdokumentasjonen](https://fordelsdokumentasjon.variant.no) Hit laster
+  du opp dokumentasjon på overnevnt bruk.
