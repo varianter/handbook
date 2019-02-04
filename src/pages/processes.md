@@ -167,7 +167,7 @@ Du må også dokumentere estimert verdi. Dette gjøres typisk ved å ta skjermbi
 av tilsvarende kjøp eller reiser hvor prisene er oppgitt.
 
 - Dokumentasjonen lastes opp på [docs](https://fordelsdokumentasjon.variant.no).
-- Rapprtering gjøres ved å fylle ut
+- Rapportering gjøres ved å fylle ut
   [dette skjemaet](https://fordelsrapport.variant.no).
 
 ## Timeføring
