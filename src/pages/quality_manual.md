@@ -51,15 +51,17 @@ HMS-arbeidet. I Variant har vi følgende HMS-dokumentasjon:
 - [Brannverndokumentasjon](https://digs.no/somting)
 - [Avfallshåndtering](https://handbook.variant.no/somting)
 - [Skade- og sykefravær](https://varianttrh.sharepoint.com/:x:/g/ERFyagxSR0VPkmTMZP_wmMcB3SF9IEFdFGkj2zJCz9LnKw?e=OmnTKS)
-- [Resultater fra regelmessig kartlegging](https://varianttrh.sharepoint.com/:x:/g/EQZdZFfKB21KmuubMODdNGsBBp_ZpU9OoKmDY6mp_zSUaQ?e=wmYu7j)
+- [Resultater fra regelmessig kartlegging](https://varianttrh.sharepoint.com/:f:/g/EgR0QvXa9u9Hpi_6gI6UzsQBR_cPsxZaZEetaR63vIJsRg?e=TZYeTI)
 - [Handlingsplan](https://trello.com/b/DQX0sirR/operativt)
 
 ### Regelmessig kartlegging
 
 En gang i kvartalet skal verneombudet sammen med daglig leder gjennomføre en
 kartlegging av HMS i Variant inkludert en Værnerunde. Punktene som skal
-gjennomgås er gitt i dette [skjemaet](https://docs.variant.no/kvaralsskjema) som
-fylles ut og arkiveres. **_Spørsmål: KAn dette løses gjennom linteingen???_**
+gjennomgås er gitt i dette
+[skjemaet](https://varianttrh.sharepoint.com/:x:/g/EYlCb2dLcR5DrwWrANSUor8BjDmakNzarQ1P0zN0r6M3og?e=FTnYLz)
+som fylles ut og arkiveres. **_Spørsmål: KAn dette løses gjennom
+linteingen???_**
 
 Etter kartleggingen identifiserer verneombudet og daglig leder behov for tiltak
 som registeres i [handlingsplanen](https://trello.com/b/DQX0sirR/operativt) med
