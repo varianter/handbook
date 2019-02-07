@@ -46,12 +46,12 @@ dette ikke føre fram vil vi ta imot og håndtre saken i Variant-kontekst.
 Det er viktig at alle i Variant har tilgang til dokumentasjon på ulike deler av
 HMS-arbeidet. I Variant har vi følgende HMS-dokumentasjon:
 
-- [Arbeidsavtaler](https://docs.variant.no/somting)
-- [Kursbevis for verneombudsopplæring](https://docs.variant.no/somting)
+- [Arbeidsavtaler](https://varianttrh.sharepoint.com/Delte%20dokumenter/Forms/AllItems.aspx?viewpath=%2FDelte%20dokumenter&id=%2FDelte%20dokumenter%2FAnsettelsesavtaler%2FSignerte%20varianter)
+- [Kursbevis for verneombudsopplæring](https://varianttrh.sharepoint.com/Delte%20dokumenter/Forms/AllItems.aspx?viewpath=%2FDelte%20dokumenter&id=%2FDelte%20dokumenter%2FHMS%2FKursbevis)
 - [Brannverndokumentasjon](https://digs.no/somting)
-- [Avvallshåndtering](https://handbook.variant.no/somting)
-- [Skade- og sykefravær](https://docs.variant.no/somting)
-- [Resultater fra regelmessig kartlegging](https://docs.variant.no/kvaralsskjema)
+- [Avfallshåndtering](https://handbook.variant.no/somting)
+- [Skade- og sykefravær](https://varianttrh.sharepoint.com/:x:/g/ERFyagxSR0VPkmTMZP_wmMcB3SF9IEFdFGkj2zJCz9LnKw?e=OmnTKS)
+- [Resultater fra regelmessig kartlegging](https://varianttrh.sharepoint.com/:x:/g/EQZdZFfKB21KmuubMODdNGsBBp_ZpU9OoKmDY6mp_zSUaQ?e=wmYu7j)
 - [Handlingsplan](https://trello.com/b/DQX0sirR/operativt)
 
 ### Regelmessig kartlegging
