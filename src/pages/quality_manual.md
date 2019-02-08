@@ -67,9 +67,13 @@ inspirere av
 
 Alt salgsarbeid skal kontinuerlig lagres på
 [docs, under Salg](https://varianttrh.sharepoint.com/:f:/g/EgK-04t2cNpJsZM1cPQ1lIABhpCghLCxSevHIF-TaoC3fw?e=4GsfdG).
-Hver kunde har sin egen mappe og hvert tilbud har en undermappe. Viktig at det
-det som oversendes kunde (typisk pdf-er) lagres i en egen undermappe kalt 'Til
-kunde'.
+Hver kunde har her sin egen mappe og med en minimumsstruktur som gitt i figuren
+under.
+
+<img src="./assets/illustrations/mappestruktur.png" alt="Skisse over mappestruktur" class="illustration illustration--right illustration--folder" />
+
+Viktig at det det som oversendes kunde (typisk pdf-er) lagres i en egen
+undermappe kalt 'Til kunde'.
 
 ### Etter ferdig konkludert
 
