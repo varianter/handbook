@@ -1,5 +1,112 @@
 # Kvalitetshåndbok
 
+## Salg og bemanning
+
+### Mål
+
+Målet med salgs- og bemanningsprosessen er tredelt.
+
+- Skre høy medarbeidertilfredshet
+- Sikre tilstrekkelig lønnsomhet i selskapet
+- Sikre høy kundetilfredshet
+
+Høy medarbeidertilfredshet handler om at ansatte selv er med og kvalifiserer
+salgsmuligheten. Høy kundetilfredshet løses ved å ha riktig og tilstrekkelig
+kompetanse og kapasitet i pågående oppdrag. Derfor må man også se på
+bemanningsprosessen sammen med salgsprosessen.
+
+Lønnsomheten sikres ved å ha høy kvalitet i alt salgs- og tilbudsarbeid slik at
+vi vinner nok salg. Variants tilbud skal alltid levere over kundens
+forventninger.
+
+### Salgsprosess
+
+For å håndtere salgsprosessen benytter vi et enkelt
+[trelloboard](https://trello.com/b/kO5kbMNf/salg) som verktøy. En salgsmulighet
+representeres med et kort i Trello, og boardet representerer en salgstrakt hvor
+muligheter trekkes gjennom ulike salgsfaser til muligheten har blitt konkludert
+med.
+
+Variant benytter disse fasene:
+
+- **Lead** Muligheter som foreløpig ikke har blitt materialisert i en konkret
+  forespørsel fra kunde. Salgsmuligheter i denne fasen krever bearbeiding og
+  forberedelser.
+- **[Til kvalifisering](quality_manual.html#kvalifisering)** Her ligger konkrete
+  forespørsler fra kunder, og hvor vi skal vurdere om vi ønsker å gå videre med
+  muligheten.
+- **[Lage tilbud](quality_manual.html#lage-tilbud)** Kvalifiserte muligheter
+  ligger i denne fasen mens tilbudet utarbeides.
+- **Levert tilbud** I denne fasen ligger muligheter som har blitt til leverte
+  tilbud. Her ligger tilbudene til man muligheten er konkludert eller i
+  forhandling.
+- **Til forhandling** Tilbud som er i forhandling med kunde, eller hvor
+  konsulenter er intervju ligger i denne fasen.
+- **[Ferdig konkludert](quality_manual.html#etter-ferdig-konkludert)** I denne
+  fasen ligger muligheter som enten er vunnet eller tapt.
+
+### Kvalifisering
+
+Dette steget er veldig viktig med tanke på medarbeidertilfredshet. Her vurderer
+vi om oppdraget vil være bra for de enkelte konsulenter og for selskapet. I
+tillegg gjør vi også vurderinger om man skal benytte tid og penger på å levere
+tilbudt.
+
+- Sjekke av med aktuelle konsulenter om de ønsker å delta i oppdraget /
+  prosjektet.
+- Vurdere vinnersjanser opp mot innsats og oppdragets omfang. Er det verdt
+  arbeidet? Har vi riktig kompetanse? Har vi kapasitet?
+- Vurdere etiske sider ved oppdraget. Er dette innafor Variants verdisett.
+
+### Lage tilbud
+
+Her må den enkelte bruke sin kreativitet, kunnskap og erfaring for å lage best
+mulige tilbud. Ingen prosess kan erstatte dette, men det er lov å la seg
+inspirere av
+[tidligere arbeid](https://varianttrh.sharepoint.com/:f:/g/EgK-04t2cNpJsZM1cPQ1lIABhpCghLCxSevHIF-TaoC3fw?e=4GsfdG).
+
+Alt salgsarbeid skal kontinuerlig lagres på
+[docs, under Salg](https://varianttrh.sharepoint.com/:f:/g/EgK-04t2cNpJsZM1cPQ1lIABhpCghLCxSevHIF-TaoC3fw?e=4GsfdG).
+Hver kunde har sin egen mappe og hvert tilbud har en undermappe. Viktig at det
+det som oversendes kunde (typisk pdf-er) lagres i en egen undermappe kalt 'Til
+kunde'.
+
+### Etter ferdig konkludert
+
+Etter at en salgsprosess er konkluder er det viktig at vi lærer av denne og
+oppdaterer prosessen med eventuell ny kunnskap.
+
+For hver mulighet skal vi
+
+- definere ulike parameter på hvert kort i Trello og
+- tenke igjennom om det var noen spesielle grunner til tap eller vinn som man
+  skal oppdatere prosessen med
+
+Etter en vinn skal:
+
+- signert kontrakt lagres på i egen undermappe kalt 'Avtale'
+- [bemanning](http://bemanning.variant.no) oppdateres
+- tilbudte konsulenter varsles
+- seieren feires (om ikke annet så på Slack)
+
+### Salgs- og bemanningsmøte
+
+Hver fredag morgen, arrangeres et salgs- og bemanningsmøte. Møtet er åpent for
+alle ansatte, men frivillig for alle unntatt:
+
+- Daglig leder
+- COO
+- Designleder
+- Prosjektledere
+
+I dette møtet oppdateres [bemanning](http://bemanning.variant.no). Vi har
+spesielt fokus på alle eventuelt ledige de neste 8 ukene.
+
+Deretter gjennomgås alle salgsmuligheter. Her kvalifiseres alle som ligger til
+kvalifisering.
+
+Til slutt lages et kort referat fra møtet på Slack i kanalen #bemanning.
+
 ## HMS-håndboka
 
 ### Mål
@@ -16,7 +123,7 @@ Daglig leder har et overordnet ansvar for å følge opp de lover og forskrifter 
 er underlagt.
 
 Verneombudet har ansvar for å proaktivt følge med på HMS-situasjonen i
-selskapet, innhente inspill fra de ansatte og være et talsrør for de ansatte i
+selskapet, innhente innspill fra de ansatte og være et talerør for de ansatte i
 knyttet til HMS.
 
 Den enkelte ansatte har et personlig ansvar for å følge opp og iverksette tiltak
@@ -39,7 +146,7 @@ lokaler, men vi avgrenser dette til vårt kontor på DIGS.
 
 Hvis ansatte opplever feil, mangler eller farlige situasjoner ute hos kunde
 ønsker vi at dette forsøkes varslet gjennom hht kundens HMS-rutiner. Skulle
-dette ikke føre fram vil vi ta imot og håndtre saken i Variant-kontekst.
+dette ikke føre fram vil vi ta imot og håndtere saken i Variant-kontekst.
 
 ### Dokumentasjon
 
@@ -57,14 +164,14 @@ HMS-arbeidet. I Variant har vi følgende HMS-dokumentasjon:
 ### Regelmessig kartlegging
 
 En gang i kvartalet skal verneombudet sammen med daglig leder gjennomføre en
-kartlegging av HMS i Variant inkludert en Værnerunde. Punktene som skal
+kartlegging av HMS i Variant inkludert en vernerunde. Punktene som skal
 gjennomgås er gitt i dette
 [skjemaet](https://varianttrh.sharepoint.com/:x:/g/EYlCb2dLcR5DrwWrANSUor8BjDmakNzarQ1P0zN0r6M3og?e=FTnYLz)
-som fylles ut og arkiveres. **_Spørsmål: KAn dette løses gjennom
+som fylles ut og arkiveres. **_Spørsmål: Kan dette løses gjennom
 linteingen???_**
 
 Etter kartleggingen identifiserer verneombudet og daglig leder behov for tiltak
-som registeres i [handlingsplanen](https://trello.com/b/DQX0sirR/operativt) med
+som registerets i [handlingsplanen](https://trello.com/b/DQX0sirR/operativt) med
 ansvarlig og frist for utbedring.
 
 ### Håndtering av feil og mangler
@@ -75,7 +182,7 @@ at de oppstår på nytt.
 Meld fra om feil og mangler til daglig leder. Feil og mangler skal rettes opp
 der problemet oppstår.
 
-Eventuelle tiltak for å rette opp i disse feil eller mangeler skal registeres i
+Eventuelle tiltak for å rette opp i disse feil eller mangeler skal registerets i
 handlingsplanen.
 
 ### [Handlingsplan](https://trello.com/b/DQX0sirR/operativt)
@@ -86,7 +193,7 @@ løst. Handlingsplanen er et agendapunkt i alle ledermøter.
 
 ### Gjennomgang av helse-, miljø- og sikkerhetsarbeidet
 
-Daglig leder har ansvar for at HMS-sarbeidet fungerer effektivt. En grundig
+Daglig leder har ansvar for at HMS-arbeidet fungerer effektivt. En grundig
 vurdering og gjennomgang foretas en gang i året i et møte mellom daglig leder
 ansatte.
 
@@ -100,7 +207,7 @@ På møtet tar vi opp:
 - resultatene fra kartleggingen og feil og mangler for siste år
 - om eksisterende rutiner er gode nok og følges
 - opplæringsbehov for neste år
-- om mål for helse-, miljø- og sikkerhetsarbeidet er nådd og sette nye mål for
+- om mål for helse-, miljø- og sikkerhetsarbeidet er nådd og setter nye mål for
   neste år
 - nye krav i lov og forskrift
 - handlingsplan med tiltak for neste år
