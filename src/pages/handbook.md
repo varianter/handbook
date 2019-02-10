@@ -226,7 +226,7 @@ spørsmålet: Kan ikke dette legges ut, da?
 
 ### Andre goder og ytelser
 
-- Gadgettbudsjett på 10 000 pr år. [Oversikt](http//:gadget.variant.no)
+- Gadgettbudsjett på 10 000 pr år. [Oversikt](http://gadget.variant.no)
 - Fri bruk av mobiltelefoni (innen rimelighetens grenser iht. databruk)
 - Vi dekker bredbånd hjemme på inntil 500 kr pr mnd
 - Betalt 2 uker permisjon for partner etter fødsel
