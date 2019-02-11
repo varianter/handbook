@@ -6,7 +6,7 @@
 
 Målet med salgs- og bemanningsprosessen er tredelt.
 
-- Skre høy medarbeidertilfredshet
+- Sikre høy medarbeidertilfredshet
 - Sikre tilstrekkelig lønnsomhet i selskapet
 - Sikre høy kundetilfredshet
 
@@ -15,15 +15,14 @@ salgsmuligheten. Høy kundetilfredshet løses ved å ha riktig og tilstrekkelig
 kompetanse og kapasitet i pågående oppdrag. Derfor må man også se på
 bemanningsprosessen sammen med salgsprosessen.
 
-Lønnsomheten sikres ved å ha høy kvalitet i alt salgs- og tilbudsarbeid slik at
-vi vinner nok salg. Variants tilbud skal alltid levere over kundens
-forventninger.
+Lønnsomhet sikres ved å ha høy kvalitet i alt salgs- og tilbudsarbeid slik at vi
+vinner nok salg. Variants tilbud skal alltid levere over kundens forventninger.
 
 ### Salgsprosess
 
-For å håndtere salgsprosessen benytter vi et enkelt
-[trelloboard](https://trello.com/b/kO5kbMNf/salg) som verktøy. En salgsmulighet
-representeres med et kort i Trello, og boardet representerer en salgstrakt hvor
+For å håndtere salgsprosessen benytter vi en enkel
+[trello-tavle](https://trello.com/b/kO5kbMNf/salg) som verktøy. En salgsmulighet
+representeres med et kort i Trello, og tavlen representerer en salgstrakt hvor
 muligheter trekkes gjennom ulike salgsfaser til muligheten har blitt konkludert
 med.
 
@@ -167,11 +166,14 @@ HMS-arbeidet. I Variant har vi følgende HMS-dokumentasjon:
 
 ### Regelmessig kartlegging
 
-En gang i kvartalet skal verneombudet sammen med daglig leder gjennomføre en
-kartlegging av HMS i Variant inkludert en vernerunde. Punktene som skal
+En gang i kvartalet skal verneombud sammen med daglig leder gjennomføre en
+kartlegging av HMS i Variant, inkludert en vernerunde. Punktene som skal
 gjennomgås er gitt i dette
 [skjemaet](https://varianttrh.sharepoint.com/:x:/g/EYlCb2dLcR5DrwWrANSUor8BjDmakNzarQ1P0zN0r6M3og?e=FTnYLz)
-som fylles ut og arkiveres.
+<<<<<<< HEAD som fylles ut og arkiveres. ======= som fylles ut og arkiveres.
+**_Spørsmål: Kan dette løses gjennom lint-ingen???_**
+
+> > > > > > > 657f7d8723fbbe05c1b6bf5f9f6da76a4b0a9f10
 
 Etter kartleggingen identifiserer verneombudet og daglig leder behov for tiltak
 som registerets i [handlingsplanen](https://trello.com/b/DQX0sirR/operativt) med
