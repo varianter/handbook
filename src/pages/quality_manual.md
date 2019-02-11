@@ -139,7 +139,7 @@ helse, miljø og sikkerhet som ikke løses direkte.
 ### Verneombud
 
 Selskapet skal legge til rette for at det velges et verneombud. Valget
-gjennomføres årlig under variantdagen i mars. Verneombudet velges for to år om
+gjennomføres årlig under variantdagen i mars. Verneombudet velges for ett år om
 gangen. Ledelsen kan ikke delta i valget eller velges som verneombud.
 
 ### Fysiske lokaler
@@ -171,8 +171,7 @@ En gang i kvartalet skal verneombudet sammen med daglig leder gjennomføre en
 kartlegging av HMS i Variant inkludert en vernerunde. Punktene som skal
 gjennomgås er gitt i dette
 [skjemaet](https://varianttrh.sharepoint.com/:x:/g/EYlCb2dLcR5DrwWrANSUor8BjDmakNzarQ1P0zN0r6M3og?e=FTnYLz)
-som fylles ut og arkiveres. **_Spørsmål: Kan dette løses gjennom
-linteingen???_**
+som fylles ut og arkiveres.
 
 Etter kartleggingen identifiserer verneombudet og daglig leder behov for tiltak
 som registerets i [handlingsplanen](https://trello.com/b/DQX0sirR/operativt) med
