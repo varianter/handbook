@@ -170,10 +170,7 @@ En gang i kvartalet skal verneombud sammen med daglig leder gjennomføre en
 kartlegging av HMS i Variant, inkludert en vernerunde. Punktene som skal
 gjennomgås er gitt i dette
 [skjemaet](https://varianttrh.sharepoint.com/:x:/g/EYlCb2dLcR5DrwWrANSUor8BjDmakNzarQ1P0zN0r6M3og?e=FTnYLz)
-<<<<<<< HEAD som fylles ut og arkiveres. ======= som fylles ut og arkiveres.
-**_Spørsmål: Kan dette løses gjennom lint-ingen???_**
-
-> > > > > > > 657f7d8723fbbe05c1b6bf5f9f6da76a4b0a9f10
+som fylles ut og arkiveres.
 
 Etter kartleggingen identifiserer verneombudet og daglig leder behov for tiltak
 som registerets i [handlingsplanen](https://trello.com/b/DQX0sirR/operativt) med
