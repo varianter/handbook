@@ -38,7 +38,7 @@
   const tocTop = document.querySelector(".toc");
   tocTop.classList.add("jsActive");
 
-  const toc = document.querySelector(".markdownIt-TOC");
+  const toc = document.querySelector(".menuContainer");
   toc.setAttribute("role", "navigation");
   toc.setAttribute("id", "menu");
   toc.classList.add("jsActive");
@@ -47,10 +47,10 @@
   button.classList.add("jsActive");
 
   button.addEventListener("click", function() {
-    toc.classList.toggle("markdownIt-TOC--visible");
+    toc.classList.toggle("menuContainer--visible");
   });
   toc.addEventListener("click", function() {
-    toc.classList.toggle("markdownIt-TOC--visible");
+    toc.classList.toggle("menuContainer--visible");
   });
 
   // Add service worker if supported

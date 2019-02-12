@@ -174,7 +174,7 @@ code {
 
 .markdownIt-TOC {
   list-style-type: lower-roman;
-  padding-left: inherit;
+  padding-left: 2rem;
 }
 .toc ul li {
   color: var(--lightPink);
@@ -412,7 +412,7 @@ p {
     display: none;
   }
 
-  .markdownIt-TOC {
+  .menuContainer {
     background: var(--white);
     padding: var(--defaultMargin);
     padding-left: calc(var(--defaultMargin) * 1.5);
@@ -426,14 +426,14 @@ p {
     max-height: calc(100vh - 4rem);
     overflow: auto;
   }
-  .markdownIt-TOC.jsActive {
+  .menuContainer.jsActive {
     position: absolute;
     width: 100%;
     top: 100%;
     transform: translateY(calc(-100% - var(--defaultMargin) * 3));
     margin: 0;
   }
-  .markdownIt-TOC--visible.jsActive {
+  .menuContainer--visible.jsActive {
     transform: translateY(0);
   }
 
