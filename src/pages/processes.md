@@ -3,56 +3,6 @@
 Her beskrives interne prosedyrer og generelle rutiner for dagligdagse oppgaver
 for en variant. Det kan være ting som utgiftsføring, timeføring, osv.
 
-## Prosess for å få ombord nyansatte
-
-Vi vil at prosessen fra du har signert med oss, til dagen du starter og også
-tiden etterpå skal oppleves som god. Vi ønsker å bli bedre kjent med deg, og at
-du blir bedre kjent med oss og firmaet. Vår prosess er relativt detaljert, og i
-stadig endring. For tiden ser den slik ut:
-
-### Frem til fadder blir satt (Rekrutteringsansvarlig)
-
-- Få den nyansatte til å fylle ut [nettsjema](http://nyansatt.variant.no) for
-  nyansatte. (Her velger du blant annet PC)
-- Opprett bruker for AD, Mail i office 365.
-- Etabler CV i CV-partner, og inviter den nyansette inn for å starte på dette
-  arbeidet.
-- Ta bilde til CV, helst i kroken hvor de andre bildene er tatt på DIGS
-- Tildele fadder
-
-### Frem til oppstartsdato (Fadder)
-
-- Invitere ansatt til Variant-dagen(e) og/eller noe sosialt. Mål: Møte og bli
-  kjent med alle i Variant
-- Informere om planlagte aktiviteter (som Nyttårskalas)
-- Ha en faddermiddag (gjerne flere nyansatte og faddere om overlapp)
-- Forberede ansatt på oppdraget og prosessene rundt bemanning av oppdrag.
-- Invitere til Slack
-- Forberede goodie-bag
-- Bestille utstyr
-- Bli enig om oppstartsdagen. Sted og tidspunkt. Lunsj "på huset" hvis man ikke
-  er ute i oppdrag.
-- [Ordne med portering av telefonabonnement](https://www.telia.no/mitt-abonnement/bytte-eier/)
-
-### Før oppstart (CEO/COO)
-
-- Bestille telefonabonnement
-- Registrere som ansatt i Uni, ellers blir det dårlig med lønn.
-- Melde inn i forsikringer (Gjensidige)
-- Bestill adgangskort til Digs.
-
-### Etter oppstartsdato (Fadder)
-
-- Be ansatt om å oppdatere CV
-- Hvis designer: Gjennomgang av templates, canvas og andre designfiler som kan
-  være kjekk å bruke
-- Gjennomgang av det praktiske i lokalet vårt
-- Oppfølgingsprat etter et par uker for å høre hvordan oppstarten har vært
-- Ta bilde i DIGS-kroken om det ikke ble gjort før oppstart
-- Invitere inn i #salg på slack
-- Oppdater malkortet Onboarding basert på erfaring fra siste onboarding. Hør med
-  nyansatt om hun eller han har inspill
-
 ## Digs
 
 Vi holder til, så lenge vi ikke er ute hos våre kunder, hos DIGS i Olav
