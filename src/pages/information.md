@@ -1,4 +1,4 @@
-# Interne prosedyrer
+# Praktisk informasjon
 
 Her beskrives interne prosedyrer og generelle rutiner for dagligdagse oppgaver
 for en variant. Det kan være ting som utgiftsføring, timeføring, osv.
