@@ -232,6 +232,8 @@ spørsmålet: Kan ikke dette legges ut, da?
 - Betalt 2 uker permisjon for partner etter fødsel
 - Full lønn under foreldrepermisjon selv om lønnen skulle overstige 6G
 - 2 dager til barnehagetilvenning
+- Inntil 24 dager egenmelding siste 12 måneder og inntil 8 dager sammenhengende
+  egenmeldingsperiode.
 - Dekt 3T-medlemskap
 - Behandlingsforsikring
 - Reiseforsikring for deg og din familie
@@ -242,14 +244,13 @@ I tillegg til de vanlige 5 uker med ferie regner vi alle dagene fra og med
 julaften til og med 1. nyttårsdag som helligdager. Det vil si at du trenger ikke
 bruke feriedager i romjula.
 
-
 ### Ammefri
 
-[Mødre som ammer har rett på inntil 1 time lønnet fri](https://www.arbeidstilsynet.no/arbeidsforhold/permisjoner/foreldrepermisjon/ammefri/) hver dag til å kunne amme.
-Dette gjelder helt opp til barnet/barnene er ett år. Hver ansatt må selv se
-når det passer med sine og barnets rutiner for ammefri. Vi oppfordrer til en
-åpen dialog med kunde for at det kan være forutsigbarhet som man kan planlegge
-rundt og hjelper gjerne til med kommunikasjonen med kunde.
+[Mødre som ammer har rett på inntil 1 time lønnet fri](https://www.arbeidstilsynet.no/arbeidsforhold/permisjoner/foreldrepermisjon/ammefri/)
+hver dag til å kunne amme. Dette gjelder helt opp til barnet/barnene er ett år.
+Hver ansatt må selv se når det passer med sine og barnets rutiner for ammefri.
+Vi oppfordrer til en åpen dialog med kunde for at det kan være forutsigbarhet
+som man kan planlegge rundt og hjelper gjerne til med kommunikasjonen med kunde.
 
 ### Fleksibilitet
 
