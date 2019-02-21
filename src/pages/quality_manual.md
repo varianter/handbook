@@ -307,7 +307,7 @@ Personallederen har ansvar for å jevnlig følge opp sine ansatte, og i tillegg
 gjennomføre en utviklingssamtale i halvåret.
 
 I Variant praktiserer vi fritt ledervalg. Det vil si at 3 måneder etter oppstart
-skal den ansatte personalleder. Tilsvarende kan den ansatte når som helst velge
+skal den ansatte velge personalleder. Tilsvarende kan den ansatte når som helst velge
 ny personalleder.
 
 En personalleder må være en del av selskapets ledergruppe, og i tillegg ha sagt
