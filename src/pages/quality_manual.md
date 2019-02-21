@@ -282,7 +282,7 @@ Hver ansatt knyttes til en fadder og en personalleder.
 
 Før oppstart får du tildelt en fadder. Fadderens overordnede ansvar
 er å bidra til at nyansatte får en god oppstart. Arbeidet starter ganske raskt
-etter at at den nyansatte har signert og lenge før hun eller han starter i
+etter signering og lenge før du starter hos oss.
 Variant.
 
 En fadder skal være den ansattes kontaktpunkt for alle praktiske spørsmål om
