@@ -272,7 +272,8 @@ stadig endring. For tiden ser den slik ut:
 
 ## Personaloppfølging
 
-Variant er ingenting uten våre ansatte, vi ønsker derfor bruke tid og ressurser
+Variant er summen av oss ansatte, derfor brukes det tid og ressurser på å utvikle hverandre til å bli enda bedre
+varianter.
 på å ta vare på våre ansatte og utvikle de videre til å bli enda bedre
 varianter.
 
