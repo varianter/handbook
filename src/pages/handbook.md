@@ -232,6 +232,8 @@ spørsmålet: Kan ikke dette legges ut, da?
 - Betalt 2 uker permisjon for partner etter fødsel
 - Full lønn under foreldrepermisjon selv om lønnen skulle overstige 6G
 - 2 dager til barnehagetilvenning
+- Inntil 24 dager egenmelding siste 12 måneder og inntil 8 dager sammenhengende
+  egenmeldingsperiode.
 - Dekt 3T-medlemskap
 - Behandlingsforsikring
 - Reiseforsikring for deg og din familie
@@ -242,14 +244,13 @@ I tillegg til de vanlige 5 uker med ferie regner vi alle dagene fra og med
 julaften til og med 1. nyttårsdag som helligdager. Det vil si at du trenger ikke
 bruke feriedager i romjula.
 
-
 ### Ammefri
 
-[Mødre som ammer har rett på inntil 1 time lønnet fri](https://www.arbeidstilsynet.no/arbeidsforhold/permisjoner/foreldrepermisjon/ammefri/) hver dag til å kunne amme.
-Dette gjelder helt opp til barnet/barnene er ett år. Hver ansatt må selv se
-når det passer med sine og barnets rutiner for ammefri. Vi oppfordrer til en
-åpen dialog med kunde for at det kan være forutsigbarhet som man kan planlegge
-rundt og hjelper gjerne til med kommunikasjonen med kunde.
+[Mødre som ammer har rett på inntil 1 time lønnet fri](https://www.arbeidstilsynet.no/arbeidsforhold/permisjoner/foreldrepermisjon/ammefri/)
+hver dag til å kunne amme. Dette gjelder helt opp til barnet/barnene er ett år.
+Hver ansatt må selv se når det passer med sine og barnets rutiner for ammefri.
+Vi oppfordrer til en åpen dialog med kunde for at det kan være forutsigbarhet
+som man kan planlegge rundt og hjelper gjerne til med kommunikasjonen med kunde.
 
 ### Fleksibilitet
 
@@ -390,7 +391,7 @@ begge parter ønsker seg i samme retning.
 
 Det er jo hverdagene som er selve livet. Og hos oss er målet at hver en dag skal
 være noe man gleder seg til. Her kan du lese litt om hva du trenger i hverdagen.
-Se også vår oversikt over [interne prosedyrer](./processes.html).
+Se også vår oversikt over [interne prosedyrer](./information.html).
 
 <img src="./assets/illustrations/time_management.svg" alt="Illustrasjon for timeføring" class="illustration illustration--left illustration--time--tracking" />
 
@@ -403,7 +404,7 @@ påfølgende uken. Timene føres i [Harvest](https://variantas.harvestapp.com/).
 Herfra kan man også laste ned Apps for både Mac, Windows og telefoner.
 
 Se mer detaljer om hvordan
-[du kan føre timer i interne prosedyrer](./processes.html#timeføring).
+[du kan føre timer i interne prosedyrer](./information.html#timeføring).
 
 ### Hovedkvarteret
 

@@ -164,6 +164,24 @@ På kundetid fører man det man jobber også hvis man jobber utover 7,5 timer.
 _NB!_ Overtid på et oppdrag må være avklart med kunde eller den som har ansvar
 for oppdraget eller prosjektet. Lunsj føres ikke.
 
+## Sykemelding og egenmelding
+
+Variant praktiserer en utvidet ordning for uttak av egenmelding. Vi er formelt
+ikke en IA-bedrift, men benytter samme egenmeldingsordning som IA-bedrifter.
+
+Det betyr at vi har følgende grenser:
+
+- Inntil 8 dager sammenhengende egenmelding. Fra dag 9 av trenger man
+  sykemelding fra lege.
+- Inntil 24 dager egenmelding siste 12 måneder.
+
+Egenmelding leveres formelt ved å føre på riktig timekode i Harvest. Husk
+selvsagt å varsle riktige personer på prosjekt i tillegg.
+
+Hvis du må gå hjem midt i arbeidsdagen fører du egenmelding for de timene du er
+fraværende i Harvest, mens dette regnes som en hel dag i med tanke på grensene
+beskrevet over.
+
 ## Portere telefonabonement
 
 For at Variant skal betale for mobilbruk må abonementet overføres til Variant
