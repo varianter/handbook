@@ -1,8 +1,12 @@
 # Kvalitetshåndbok
 
-## Salg og bemanning
+I vår kvalitetshåndbok har vi samlet rutiner og prosesser for hvordan ting
+gjøres i Variant. Dette er hva vi hittil ser på som den beste måten å løse
+hverdagen. [Har du spørsmål?](https://github.com/varianter/handbook/issues).
+Mener du noe kan gjøres smartere?  
+[Send inn forslag til endring](https://help.github.com/articles/editing-files-in-your-repository/).
 
-### Mål
+## Salg og bemanning
 
 Målet med salgs- og bemanningsprosessen er tredelt.
 
@@ -262,5 +266,76 @@ stadig endring. For tiden ser den slik ut:
 - Oppfølgingsprat etter et par uker for å høre hvordan oppstarten har vært
 - Ta bilde i DIGS-kroken om det ikke ble gjort før oppstart
 - Invitere inn i #salg på slack
+- Velge personalleder etter 3 måneder
 - Oppdater malkortet Onboarding basert på erfaring fra siste onboarding. Hør med
   nyansatt om hun eller han har inspill
+
+## Personaloppfølging
+
+Variant er ingenting uten våre ansatte, vi ønsker derfor bruke tid og ressurser
+på å ta vare på våre ansatte og utvikle de videre til å bli enda bedre
+varianter.
+
+Hver ansatt knyttes til en fadder og en personalleder.
+
+### Fadder
+
+Før oppstart får hver nyansatt tildelt en fadder. Fadderens overordnede ansvar
+er å bidra til at nyansatte får en god oppstart. Arbeidet starter ganske raskt
+etter at at den nyansatte har signert og lenge før hun eller han starter i
+Variant.
+
+En fadder skal være den ansattes kontaktpunkt for alle praktiske spørsmål om
+hvordan ting gjøres og løses i Variant. I tillegg skal fadder følge opp den
+ansatte i starten med tanke på trivsel og motivasjon.
+
+Før oppstart har fadder  
+[disse konkrete oppgavene](https://handbook.variant.no/quality_manual.html#frem-til-oppstartsdato-fadder)
+og tilsvarende
+[etter oppstart](https://handbook.variant.no/quality_manual.html#etter-oppstartsdato-fadder).
+
+Det er ingen formell slutt på fadderperioden. Så lenge den ansatte ser verdien
+av å bruke sin fadder er det åpent for det.
+
+### Personalleder
+
+Den ansattes nærmeste leder kaller vi personalleder, og har det overordnede
+ansvaret for at den ansatte skal vokse og utvikle seg i Variant. Personallederen
+er den ansattes kontaktpunkt inn i ledergruppen.
+
+Personallederen har ansvar for å jevnlig følge opp sine ansatte, og i tillegg
+gjennomføre en utviklingssamtale i halvåret.
+
+I Variant praktiserer vi fritt ledervalg. Det vil si at 3 måneder etter oppstart
+skal den ansatte personalleder. Tilsvarende kan den ansatte når som helst velge
+ny personalleder.
+
+En personalleder må være en del av selskapets ledergruppe, og i tillegg ha sagt
+seg villig til å ha personalansvar.
+
+For tiden har følgende ledere personalansvar:
+
+- Odd Morten
+- Anders
+- Tonje
+- Mikael
+- Tore
+
+For at den ansatte skal bli kjent med lederne og ha mulighet til å gjøre seg opp
+en formening om hvem man ønsker som personalleder gjøres altså valget etter 3
+måneder. I perioden fram til valg vil daglig leder (CEO) være nærmeste leder.
+
+Relasjonen mellom den ansatte og personallederen er basert på coaching.
+
+### Utviklingssamtale
+
+En gang i halvåret skal din personalleder inviter deg til en utviklingssamtale.
+I denne samtalen skal den ansatte sammen med personalleder finne
+utviklingsområder og -mål.
+
+I tillegg skal en slik samtale også involvere en diskusjon rundt trivsel,
+motivasjon og eventuelle personlige utfordringer.
+
+Basert på etablerte utviklingsområder og -mål legger personalleder og ansatt opp
+en utviklingsplan som begge har et ansvar for at følges opp. Det er viktig at
+personaleder i denne samtalen er bevisst på rollen som coach.
