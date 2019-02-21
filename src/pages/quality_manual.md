@@ -280,7 +280,7 @@ Hver ansatt knyttes til en fadder og en personalleder.
 
 ### Fadder
 
-Før oppstart får hver nyansatt tildelt en fadder. Fadderens overordnede ansvar
+Før oppstart får du tildelt en fadder. Fadderens overordnede ansvar
 er å bidra til at nyansatte får en god oppstart. Arbeidet starter ganske raskt
 etter at at den nyansatte har signert og lenge før hun eller han starter i
 Variant.
