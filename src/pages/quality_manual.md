@@ -272,23 +272,21 @@ stadig endring. For tiden ser den slik ut:
 
 ## Personaloppfølging
 
-Variant er summen av oss ansatte, derfor brukes det tid og ressurser på å utvikle hverandre til å bli enda bedre
-varianter.
-på å ta vare på våre ansatte og utvikle de videre til å bli enda bedre
-varianter.
+Variant er summen av vi ansatte, derfor brukes det tid og ressurser på å utvikle
+hverandre til å bli enda bedre varianter. på å ta vare på våre ansatte og
+utvikle de videre til å bli enda bedre varianter.
 
 Hver ansatt knyttes til en fadder og en personalleder.
 
 ### Fadder
 
-Før oppstart får du tildelt en fadder. Fadderens overordnede ansvar
-er å gi deg en så god oppstart som mulig. Arbeidet starter ganske raskt
-etter signering og lenge før du starter hos oss.
-Variant.
+Før oppstart får du tildelt en fadder. Fadderens overordnede ansvar er å gi deg
+en så god oppstart som mulig. Arbeidet starter ganske raskt etter signering og
+lenge før du starter hos oss. Variant.
 
-En fadder skal være kontaktpunktet for alle praktiske spørsmål om
-hvordan ting gjøres og løses i Variant. I tillegg skal fadder følge opp den
-ansatte i starten med tanke på trivsel og motivasjon.
+En fadder skal være kontaktpunktet for alle praktiske spørsmål om hvordan ting
+gjøres og løses i Variant. I tillegg skal fadder følge opp den ansatte i starten
+med tanke på trivsel og motivasjon.
 
 Før oppstart har fadder  
 [disse konkrete oppgavene](https://handbook.variant.no/quality_manual.html#frem-til-oppstartsdato-fadder)
@@ -308,8 +306,8 @@ Personallederen har ansvar for å jevnlig følge opp sine ansatte, og i tillegg
 gjennomføre en utviklingssamtale i halvåret.
 
 I Variant praktiserer vi fritt ledervalg. Det vil si at 3 måneder etter oppstart
-skal den ansatte velge personalleder. Tilsvarende kan den ansatte når som helst velge
-ny personalleder.
+skal den ansatte velge personalleder. Tilsvarende kan den ansatte når som helst
+velge ny personalleder.
 
 En personalleder må være en del av selskapets ledergruppe, og i tillegg ha sagt
 seg villig til å ha personalansvar.
