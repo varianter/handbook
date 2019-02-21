@@ -264,7 +264,7 @@ stadig endring. For tiden ser den slik ut:
   være kjekk å bruke
 - Gjennomgang av det praktiske i lokalet vårt
 - Oppfølgingsprat etter et par uker for å høre hvordan oppstarten har vært
-- Ta bilde i DIGS-kroken om det ikke ble gjort før oppstart
+- Få tatt ett flott bilde av deg for din CV (men også for å vise verlden hvor stolt vi er for å ha deg på laget).
 - Invitere inn i #salg på slack
 - Velge personalleder etter 3 måneder
 - Oppdater malkortet Onboarding basert på erfaring fra siste onboarding. Hør med
