@@ -298,19 +298,19 @@ av å bruke sin fadder er det åpent for det.
 
 ### Personalleder
 
-Den ansattes nærmeste leder kaller vi personalleder, og har det overordnede
-ansvaret for at den ansatte skal vokse og utvikle seg i Variant. Personallederen
-er den ansattes kontaktpunkt inn i ledergruppen.
+Din nærmeste leder kaller vi personalleder. Personalleder har det overordnede
+ansvaret for bistå deg og legge til rette for at du kan vokse og utvikle deg i Variant. 
+Personallederen er ditt kontaktpunkt inn i ledergruppen.
 
-Personallederen har ansvar for å jevnlig følge opp sine ansatte, og i tillegg
+I tillegg til at personalleder er den du kan ta kontakt med har Personallederen 
+ansvar for å jevnlig følge opp deg. I tillegg vil personalleder ta initiativ til å
 gjennomføre en utviklingssamtale i halvåret.
 
-I Variant praktiserer vi fritt ledervalg. Det vil si at 3 måneder etter oppstart
-skal den ansatte velge personalleder. Tilsvarende kan den ansatte når som helst
-velge ny personalleder.
+I Variant praktiserer vi fritt ledervalg. Det vil si at omtrent 3 måneder etter oppstart
+får du velge din personalleder. Tilsvarende kan du når som helst velge ny personalleder.
 
-En personalleder må være en del av selskapets ledergruppe, og i tillegg ha sagt
-seg villig til å ha personalansvar.
+En personalleder må være en del av selskapets ledergruppe, være motivert for å være 
+personalleder, selv ha valgt å være det, og ha erfaring som coach og med coaching.
 
 For tiden har følgende ledere personalansvar:
 
@@ -320,21 +320,23 @@ For tiden har følgende ledere personalansvar:
 - Mikael
 - Tore
 
-For at den ansatte skal bli kjent med lederne og ha mulighet til å gjøre seg opp
-en formening om hvem man ønsker som personalleder gjøres altså valget etter 3
-måneder. I perioden fram til valg vil daglig leder (CEO) være nærmeste leder.
+For at du skal bli kjent med personallederne og ha mulighet til å gjøre deg opp
+en formening om hvem du ønsker som personalleder gjøres valget ca 3 måneder
+etter du har startet i Variant. I perioden fram til du har gjort ditt valg 
+vil daglig leder (CEO) være din personalleder.
 
-Relasjonen mellom den ansatte og personallederen er basert på coaching.
+Relasjonen mellom deg og personallederen er basert på coaching.
 
 ### Utviklingssamtale
 
-En gang i halvåret skal din personalleder inviter deg til en utviklingssamtale.
-I denne samtalen skal den ansatte sammen med personalleder finne
-utviklingsområder og -mål.
+En gang i halvåret inviterer din personalleder deg til en utviklingssamtale.
+Gjennom samtalen følger dere sammen opp dine mål og utviklingsområder. Din personalleder 
+vil sammen med deg hjelpe deg sette og følge opp egne mål, hvordan du kan nå dine mål, og 
+utvikle deg videre.
 
 I tillegg skal en slik samtale også involvere en diskusjon rundt trivsel,
 motivasjon og eventuelle personlige utfordringer.
 
-Basert på etablerte utviklingsområder og -mål legger personalleder og ansatt opp
-en utviklingsplan som begge har et ansvar for at følges opp. Det er viktig at
-personaleder i denne samtalen er bevisst på rollen som coach.
+Basert på dine målsetninger og ønskede utviklingsområder blir dere enige om 
+hvordan du ønsker å følge opp dine mål. Din personalleder vil støtte deg og
+coache deg i tråd med det dere er enige om.
