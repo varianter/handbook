@@ -1,35 +1,17 @@
-const fs = require("fs");
-const path = require("path");
+const { getHeadlines, getSection } = require("@variant/md-section");
 const glob = require("glob-promise");
-const getSection = require("./lib/md-section");
+const path = require("path");
+const fs = require("fs");
 
 const base = (...args) => path.join(__dirname, "..", ...args);
 
-const mdToc = require("markdown-it")();
 const marked = require("./lib/md");
 
-const markdownItTocAndAnchor = require("markdown-it-toc-and-anchor").default;
-
-function getToc(text) {
-  return new Promise(function(resolve) {
-    mdToc
-      .use(markdownItTocAndAnchor, {
-        tocFirstLevel: 2,
-        tocLastLevel: 2,
-        anchorLink: true,
-        tocCallback: function(_, tocArray) {
-          resolve(tocArray);
-        }
-      })
-      .render(text);
-  });
-}
-
-module.exports.getPage = async function getPage(name) {
+module.exports.getPage = function getPage(name) {
   const p = base("src", "pages", `${name}.md`);
   const { mtime: modified } = fs.statSync(p);
   const raw = readSrc(p);
-  const toc = await getToc(raw);
+  const toc = getHeadlines(raw);
 
   return {
     modified,
