@@ -1,6 +1,6 @@
 {
   "name": "@variant/handbook",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Variant håndbok tilgjengelig som markdown eller via terminalen.",
   "main": "npm/data.js",
   "bin": {
