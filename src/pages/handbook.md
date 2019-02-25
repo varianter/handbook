@@ -126,6 +126,8 @@ kurve for Teknas lønnsstatistikk og at vi skal ligge på øvre kvartil av denne
 statistikken. Med andre ord alle får lik lønn basert på antall års erfaring. I
 tillegg er hva den enkelte tjener åpent for alle ansatte.
 
+For nyutdannede har vi valgt å legge oss på Teknas startlønnsanbefaling.
+
 ### Overtidstillegg
 
 Vi ønsker egentlig ikke å jobbe overtid. Vi har tro på at kvaliteten på arbeidet
