@@ -55,11 +55,17 @@ vi om oppdraget vil være bra for de enkelte konsulenter og for selskapet. I
 tillegg gjør vi også vurderinger om man skal benytte tid og penger på å levere
 tilbudt.
 
-- Sjekke av med aktuelle konsulenter om de ønsker å delta i oppdraget /
-  prosjektet.
+- Sjekke av med aktuelle konsulenter om de ønsker å delta i oppdraget eller
+  prosjektet. (Se under.)
 - Vurdere vinnersjanser opp mot innsats og oppdragets omfang. Er det verdt
   arbeidet? Har vi riktig kompetanse? Har vi kapasitet?
 - Vurdere etiske sider ved oppdraget. Er dette innafor Variants verdisett.
+
+Vi er opptatt av at våre konsulenter skal oppleve oppdrag som meningsfylte,
+passe utfordrende og morsomme. Samtidig har vi tillit til at den ansatte
+vurderer hva som er bra for selskapet og samtidig bra for seg selv. Her er det
+viktig å ta hensyn til selskapets til en hver tid økonomiske situasjon. Basert
+på begge disse perspektiver velger konsulenten om han eller hun ønsker å delta.
 
 ### Lage tilbud
 
@@ -264,7 +270,8 @@ stadig endring. For tiden ser den slik ut:
   være kjekk å bruke
 - Gjennomgang av det praktiske i lokalet vårt
 - Oppfølgingsprat etter et par uker for å høre hvordan oppstarten har vært
-- Ta et flott bilde av deg for din CV (men også for å vise verden hvor stolt vi er for å ha deg på laget).
+- Ta et flott bilde av deg for din CV (men også for å vise verden hvor stolt vi
+  er for å ha deg på laget).
 - Invitere inn i #salg på slack
 - Fasilitere valg av personalleder etter 3 måneder
 - Oppdater malkortet Onboarding basert på erfaring fra siste onboarding. Hør med
@@ -299,18 +306,20 @@ av å bruke sin fadder er det åpent for det.
 ### Personalleder
 
 Din nærmeste leder kaller vi personalleder. Personalleder har det overordnede
-ansvaret for bistå deg og legge til rette for at du kan vokse og utvikle deg i Variant. 
-Personallederen er ditt kontaktpunkt inn i ledergruppen.
+ansvaret for bistå deg og legge til rette for at du kan vokse og utvikle deg i
+Variant. Personallederen er ditt kontaktpunkt inn i ledergruppen.
 
-I tillegg til at personalleder er den du kan ta kontakt med har Personallederen 
-ansvar for å jevnlig følge opp deg. I tillegg vil personalleder ta initiativ til å
-gjennomføre en utviklingssamtale i halvåret.
+I tillegg til at personalleder er den du kan ta kontakt med har Personallederen
+ansvar for å jevnlig følge opp deg. I tillegg vil personalleder ta initiativ til
+å gjennomføre en utviklingssamtale i halvåret.
 
-I Variant praktiserer vi fritt ledervalg. Det vil si at omtrent 3 måneder etter oppstart
-får du velge din personalleder. Tilsvarende kan du når som helst velge ny personalleder.
+I Variant praktiserer vi fritt ledervalg. Det vil si at omtrent 3 måneder etter
+oppstart får du velge din personalleder. Tilsvarende kan du når som helst velge
+ny personalleder.
 
-En personalleder må være en del av selskapets ledergruppe, være motivert for å være 
-personalleder, selv ha valgt å være det, og ha erfaring som coach og med coaching.
+En personalleder må være en del av selskapets ledergruppe, være motivert for å
+være personalleder, selv ha valgt å være det, og ha erfaring som coach og med
+coaching.
 
 For tiden har følgende ledere personalansvar:
 
@@ -322,21 +331,21 @@ For tiden har følgende ledere personalansvar:
 
 For at du skal bli kjent med personallederne og ha mulighet til å gjøre deg opp
 en formening om hvem du ønsker som personalleder gjøres valget ca 3 måneder
-etter du har startet i Variant. I perioden fram til du har gjort ditt valg 
-vil daglig leder (CEO) være din personalleder.
+etter du har startet i Variant. I perioden fram til du har gjort ditt valg vil
+daglig leder (CEO) være din personalleder.
 
 Relasjonen mellom deg og personallederen er basert på coaching.
 
 ### Utviklingssamtale
 
 En gang i halvåret inviterer din personalleder deg til en utviklingssamtale.
-Gjennom samtalen følger dere sammen opp dine mål og utviklingsområder. Din personalleder 
-vil sammen med deg hjelpe deg sette og følge opp egne mål, hvordan du kan nå dine mål, og 
-utvikle deg videre.
+Gjennom samtalen følger dere sammen opp dine mål og utviklingsområder. Din
+personalleder vil sammen med deg hjelpe deg sette og følge opp egne mål, hvordan
+du kan nå dine mål, og utvikle deg videre.
 
 I tillegg skal en slik samtale også involvere en diskusjon rundt trivsel,
 motivasjon og eventuelle personlige utfordringer.
 
-Basert på dine målsetninger og ønskede utviklingsområder blir dere enige om 
+Basert på dine målsetninger og ønskede utviklingsområder blir dere enige om
 hvordan du ønsker å følge opp dine mål. Din personalleder vil støtte deg og
 coache deg i tråd med det dere er enige om.
