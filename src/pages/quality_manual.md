@@ -264,7 +264,7 @@ stadig endring. For tiden ser den slik ut:
   være kjekk å bruke
 - Gjennomgang av det praktiske i lokalet vårt
 - Oppfølgingsprat etter et par uker for å høre hvordan oppstarten har vært
-- Få tatt ett flott bilde av deg for din CV (men også for å vise verlden hvor stolt vi er for å ha deg på laget).
+- Ta et flott bilde av deg for din CV (men også for å vise verden hvor stolt vi er for å ha deg på laget).
 - Invitere inn i #salg på slack
 - Fasilitere valg av personalleder etter 3 måneder
 - Oppdater malkortet Onboarding basert på erfaring fra siste onboarding. Hør med
