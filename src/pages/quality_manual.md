@@ -62,7 +62,7 @@ tilbudt.
 - Vurdere etiske sider ved oppdraget. Er dette innafor Variants verdisett.
 
 Vi er opptatt av at våre konsulenter skal oppleve oppdrag som meningsfylte,
-passe utfordrende og morsomme. Samtidig har vi tillit til at den ansatte
+passe utfordrende og morsomme. Vi har tillit til at den ansatte
 vurderer hva som er bra for selskapet og samtidig bra for seg selv. Her er det
 viktig å ta hensyn til selskapets til en hver tid økonomiske situasjon. Basert
 på begge disse perspektiver velger konsulenten om han eller hun ønsker å delta.
