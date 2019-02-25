@@ -1,8 +1,12 @@
 # Kvalitetshåndbok
 
-## Salg og bemanning
+I vår kvalitetshåndbok har vi samlet rutiner og prosesser for hvordan ting
+gjøres i Variant. Dette er hva vi hittil ser på som den beste måten å løse
+hverdagen. [Har du spørsmål?](https://github.com/varianter/handbook/issues).
+Mener du noe kan gjøres bedre?  
+[Send inn forslag til endring](https://help.github.com/articles/editing-files-in-your-repository/).
 
-### Mål
+## Salg og bemanning
 
 Målet med salgs- og bemanningsprosessen er tredelt.
 
@@ -260,7 +264,79 @@ stadig endring. For tiden ser den slik ut:
   være kjekk å bruke
 - Gjennomgang av det praktiske i lokalet vårt
 - Oppfølgingsprat etter et par uker for å høre hvordan oppstarten har vært
-- Ta bilde i DIGS-kroken om det ikke ble gjort før oppstart
+- Ta et flott bilde av deg for din CV (men også for å vise verden hvor stolt vi er for å ha deg på laget).
 - Invitere inn i #salg på slack
+- Fasilitere valg av personalleder etter 3 måneder
 - Oppdater malkortet Onboarding basert på erfaring fra siste onboarding. Hør med
   nyansatt om hun eller han har inspill
+
+## Personaloppfølging
+
+Variant er summen av vi ansatte, derfor brukes det tid og ressurser på å utvikle
+hverandre til å bli enda bedre varianter. På å ta vare på våre ansatte og
+utvikle de videre til å bli enda bedre varianter.
+
+Hver ansatt knyttes til en fadder og en personalleder.
+
+### Fadder
+
+Før oppstart får du tildelt en fadder. Fadderens overordnede ansvar er å gi deg
+en så god oppstart som mulig. Arbeidet starter ganske raskt etter signering og
+lenge før du starter hos oss. Variant.
+
+En fadder skal være kontaktpunktet for alle praktiske spørsmål om hvordan ting
+gjøres og løses i Variant. I tillegg skal fadder følge opp den ansatte i starten
+med tanke på trivsel og motivasjon.
+
+Før oppstart har fadder  
+[disse konkrete oppgavene](https://handbook.variant.no/quality_manual.html#frem-til-oppstartsdato-fadder)
+og tilsvarende
+[etter oppstart](https://handbook.variant.no/quality_manual.html#etter-oppstartsdato-fadder).
+
+Det er ingen formell slutt på fadderperioden. Så lenge den ansatte ser verdien
+av å bruke sin fadder er det åpent for det.
+
+### Personalleder
+
+Din nærmeste leder kaller vi personalleder. Personalleder har det overordnede
+ansvaret for bistå deg og legge til rette for at du kan vokse og utvikle deg i Variant. 
+Personallederen er ditt kontaktpunkt inn i ledergruppen.
+
+I tillegg til at personalleder er den du kan ta kontakt med har Personallederen 
+ansvar for å jevnlig følge opp deg. I tillegg vil personalleder ta initiativ til å
+gjennomføre en utviklingssamtale i halvåret.
+
+I Variant praktiserer vi fritt ledervalg. Det vil si at omtrent 3 måneder etter oppstart
+får du velge din personalleder. Tilsvarende kan du når som helst velge ny personalleder.
+
+En personalleder må være en del av selskapets ledergruppe, være motivert for å være 
+personalleder, selv ha valgt å være det, og ha erfaring som coach og med coaching.
+
+For tiden har følgende ledere personalansvar:
+
+- Odd Morten
+- Anders
+- Tonje
+- Mikael
+- Tore
+
+For at du skal bli kjent med personallederne og ha mulighet til å gjøre deg opp
+en formening om hvem du ønsker som personalleder gjøres valget ca 3 måneder
+etter du har startet i Variant. I perioden fram til du har gjort ditt valg 
+vil daglig leder (CEO) være din personalleder.
+
+Relasjonen mellom deg og personallederen er basert på coaching.
+
+### Utviklingssamtale
+
+En gang i halvåret inviterer din personalleder deg til en utviklingssamtale.
+Gjennom samtalen følger dere sammen opp dine mål og utviklingsområder. Din personalleder 
+vil sammen med deg hjelpe deg sette og følge opp egne mål, hvordan du kan nå dine mål, og 
+utvikle deg videre.
+
+I tillegg skal en slik samtale også involvere en diskusjon rundt trivsel,
+motivasjon og eventuelle personlige utfordringer.
+
+Basert på dine målsetninger og ønskede utviklingsområder blir dere enige om 
+hvordan du ønsker å følge opp dine mål. Din personalleder vil støtte deg og
+coache deg i tråd med det dere er enige om.

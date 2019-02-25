@@ -1,6 +1,6 @@
 {
   "name": "@variant/handbook",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Variant håndbok tilgjengelig som markdown eller via terminalen.",
   "main": "npm/data.js",
   "bin": {
@@ -40,15 +40,16 @@
   "author": "Variant AS",
   "license": "MIT",
   "dependencies": {
+    "@variant/md-section": "^1.0.0",
     "chalk": "^2.4.2",
     "date-fns": "^2.0.0-alpha.16",
+    "glob": "^7.1.3",
+    "glob-promise": "^3.4.0",
     "markdown-it": "^8.4.2",
     "markdown-it-toc-and-anchor": "^4.2.0",
     "marked": "^0.6.0",
     "marked-terminal": "^3.2.0",
-    "prompt-list": "^3.2.0",
-    "glob-promise": "^3.4.0",
-    "glob": "^7.1.3"
+    "prompt-list": "^3.2.0"
   },
   "devDependencies": {
     "autoprefixer": "^9.4.7",

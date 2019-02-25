@@ -1,6 +1,4 @@
-const TerminalRenderer = require("marked-terminal");
 const marked = require("./md");
-const chalk = require("chalk");
 
 const pkg = require("../../package.json");
 
