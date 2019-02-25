@@ -182,17 +182,16 @@ Hvis du må gå hjem midt i arbeidsdagen fører du egenmelding for de timene du 
 fraværende i Harvest, mens dette regnes som en hel dag i med tanke på grensene
 beskrevet over.
 
-Retten til å føre egenmeldinger oppstår umiddelbart etter ansettelse. Man kan
-altså føre egenmelding fra første arbeidsdag. Vær oppmerksom på at NAV krever 4
-ukers sammenhengende arbeid før de utbetaler sykepenger. Med sammenhengende
-arbeid regnes også arbeid utført hos tidligere arbeidsgiver.
+Hos oss kan du føre egenmelding fra første arbeidsdag. Vær oppmerksom på at NAV
+krever 4 ukers sammenhengende arbeid før de utbetaler sykepenger. Med
+sammenhengende arbeid regnes også arbeid utført hos tidligere arbeidsgiver.
 
 Dette betyr at ved langtidssykemelding som i løpet av 4 uker etter oppstart, og
-man ikke har jobbet noe annet sted rett før oppstarten, så dekker Variant
-sykepenger for de første 16 dagene som er arbeidsgiverperioden. Deretter har man
-ikke rett på sykepenger fra NAV før man har kommet i arbeid og jobbet
-sammenhengende 4 uker. _Dette siste avsnittet er spesielt relevant for
-nyutdannede som kommer rett fra skolen._
+du ikke har jobbet noe annet sted rett før oppstart, så dekker Variant
+sykepenger for de første 16 dagene som er arbeidsgiverperioden. Deretter har du
+ikke rett på sykepenger fra NAV før du har blitt frisk og jobbet sammenhengende
+i4 uker. _Dette siste avsnittet er spesielt relevant for nyutdannede som kommer
+rett fra skolen._
 
 ## Portere telefonabonement
 
