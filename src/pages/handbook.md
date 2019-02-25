@@ -234,8 +234,8 @@ spørsmålet: Kan ikke dette legges ut, da?
 - Betalt 2 uker permisjon for partner etter fødsel
 - Full lønn under foreldrepermisjon selv om lønnen skulle overstige 6G
 - 2 dager til barnehagetilvenning
-- Inntil 24 dager egenmelding siste 12 måneder og inntil 8 dager sammenhengende
-  egenmeldingsperiode.
+- Utvidede rettigheter til
+  [egenmelding og sykepenger](information.html#sykemelding-og-egenmelding)
 - Dekt 3T-medlemskap
 - Behandlingsforsikring
 - Reiseforsikring for deg og din familie
