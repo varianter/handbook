@@ -164,6 +164,17 @@ På kundetid fører man det man jobber også hvis man jobber utover 7,5 timer.
 _NB!_ Overtid på et oppdrag må være avklart med kunde eller den som har ansvar
 for oppdraget eller prosjektet. Lunsj føres ikke.
 
+### Reisetid
+
+Reiser som er pålagt av kunde timeføres som hovedregel på kundens prosjekt. Reisetid
+utenfor normalarbeidstid timeføres når tiden etter norsk arbeidsmiljølov og rettspraksis
+er arbeidstid. Timeføring skjer da på kundes timeføringskonto. Reisetid avklares for hvert 
+enkelt tilfelle med kunde. Avvik fra denne hovedregel kan gjelde for enkelte kundere
+ller oppdrag og man må sette seg inn i og gjøre seg kjent med dette før hver enkelt reise.
+
+Reiser i regi av Variant er som hovedregel frivillige og/eller til sosiale tilstelninger 
+og timeføres ikke.
+
 ## Sykemelding og egenmelding
 
 Variant praktiserer en utvidet ordning for uttak av egenmelding. Vi er formelt
