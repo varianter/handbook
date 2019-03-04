@@ -174,7 +174,7 @@ seg inn i og gjøre seg kjent med dette før hver enkelt reise.
 Om du og kunde avtaler at du skal reise i ditt oppdrag og du selv avgjør reisetid og plan, 
 er det normalt ikke timeførbart utenfor normalarbeidstid. Om du derimot på kundes forespørsel 
 må reise på spesifikke tider og til en spesifikk plan er det timeførbart også utenfor 
-normalarbeidstid. Et eksempel på reise der resietid utenfor normalarbeidstid naturlig skal
+normalarbeidstid. Et eksempel på reise der reisetid utenfor normalarbeidstid naturlig skal
 timeføres er for eksempel der du av kunde bes om å stille klokken 9:00 i en annen by. 
 Da vil naturlig reisetid for å rekke møtet være timeførbart. 
 
