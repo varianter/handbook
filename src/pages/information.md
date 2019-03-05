@@ -168,17 +168,19 @@ for oppdraget eller prosjektet. Lunsj føres ikke.
 ### Reisetid
 
 Reiser som er pålagt av kunde timeføres som hovedregel på kundens prosjekt. Timeføring skjer 
-da på kundes timeføringskonto i Harvest. Reisetid avklares for hvert enkelt tilfelle med kunde. 
+da på kundes timeføringskonto i Harvest. For noen oppdrag timeføres reisetid utenfor normalarbeidstid
+på egen timeføringskode. Reisetid og timeføringskode avklares for hvert enkelt tilfelle 
+med kunde. 
 
 Om du og kunde avtaler at du skal reise i ditt oppdrag og du selv avgjør reisetid og plan, 
 er det normalt ikke timeførbart utenfor normalarbeidstid. Om du derimot på kundes forespørsel 
-må reise på spesifikke tider og til en spesifikk plan er det timeførbart også utenfor 
-normalarbeidstid. Et eksempel på reise der reisetid utenfor normalarbeidstid naturlig skal
-timeføres er for eksempel der du av kunde bes om å stille klokken 9:00 i en annen by. 
-Da vil naturlig reisetid for å rekke møtet være timeførbart. 
+må reise i henhold til en spesifikk plan timeføres reisetid utenfor normalarbeidstid.
 
-Reiser i regi av Variant er som hovedregel frivillige og/eller til sosiale tilstelninger 
-og timeføres ikke.
+For eksempel; _du bes av kunde  om å stille klokken 9:00 i en annen by. Reisetid planlegges 
+og kunde informeres om at det timeføres. Reisetid fra reisens start til oppmøte timeføres 
+som avtalt i Harvest._
+
+Reiser i regi av Variant er som hovedregel frivillige og timeføres ikke.
 
 Se forøvrig [dette avsnittet](https://handbook.variant.no/information.html#reiser) for refusjon av reiseutlegg. 
 
