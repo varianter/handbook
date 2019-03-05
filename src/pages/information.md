@@ -179,6 +179,8 @@ Da vil naturlig reisetid for å rekke møtet være timeførbart.
 Reiser i regi av Variant er som hovedregel frivillige og/eller til sosiale tilstelninger 
 og timeføres ikke.
 
+Se forøvrig [dette avsnittet](https://handbook.variant.no/information.html#reiser) for refusjon av reiseutlegg. 
+
 ## Sykemelding og egenmelding
 
 Variant praktiserer en utvidet ordning for uttak av egenmelding. Vi er formelt
