@@ -168,7 +168,7 @@ for oppdraget eller prosjektet. Lunsj føres ikke.
 ### Reisetid
 
 Reiser som er pålagt av kunde timeføres som hovedregel på kundens prosjekt. Timeføring skjer 
-da på kundes timeføringskonto. Reisetid avklares for hvert enkelt tilfelle med kunde. 
+da på kundes timeføringskonto i Harvest. Reisetid avklares for hvert enkelt tilfelle med kunde. 
 
 Om du og kunde avtaler at du skal reise i ditt oppdrag og du selv avgjør reisetid og plan, 
 er det normalt ikke timeførbart utenfor normalarbeidstid. Om du derimot på kundes forespørsel 
