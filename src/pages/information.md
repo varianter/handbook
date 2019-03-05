@@ -81,8 +81,9 @@ Reiser på kundes regning føres i tråd med det som er avtalt med kunde (diett
 dersom det er avtalt på forhånd). Husk å påfør at reisen er viderefakturerbar og
 hvilket oppdrag det gjelder.
 
-Om du reiser mye kan du benytte appen Sonya for å lage bilaget som du så sender
-inn på vanlig måte.
+Om du reiser mye kan du benytte appen *Utlegg og reise* fra Sonya for å lage bilaget 
+som du så sender inn på vanlig måte. Reiser du på diett må denne appen brukes for å beregne 
+dietten riktig. 
 
 ### Utgifter i utenlandsk valuta
 
@@ -163,6 +164,25 @@ aktiviteter.
 På kundetid fører man det man jobber også hvis man jobber utover 7,5 timer.
 _NB!_ Overtid på et oppdrag må være avklart med kunde eller den som har ansvar
 for oppdraget eller prosjektet. Lunsj føres ikke.
+
+### Reisetid
+
+Reiser som er pålagt av kunde timeføres som hovedregel på kundens prosjekt. Timeføring skjer 
+da på kundes timeføringskonto i Harvest. For noen oppdrag timeføres reisetid utenfor normalarbeidstid
+på egen timeføringskode. Reisetid og timeføringskode avklares for hvert enkelt tilfelle 
+med kunde. 
+
+Om du og kunde avtaler at du skal reise i ditt oppdrag og du selv avgjør reisetid og plan, 
+er det normalt ikke timeførbart utenfor normalarbeidstid. Om du derimot på kundes forespørsel 
+må reise i henhold til en spesifikk plan timeføres reisetid utenfor normalarbeidstid.
+
+For eksempel; _du bes av kunde  om å stille klokken 9:00 i en annen by. Reisetid planlegges 
+og kunde informeres om hvordan vil bli timeført. Reisetid fra reisens start til oppmøte timeføres i Harvest
+i tråd ed det som er avtalt med kunde._
+
+Reiser i regi av Variant er som hovedregel frivillige og timeføres ikke.
+
+Se forøvrig [dette avsnittet](https://handbook.variant.no/information.html#reiser) for refusjon av reiseutlegg. 
 
 ## Sykemelding og egenmelding
 
