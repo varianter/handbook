@@ -177,8 +177,8 @@ er det normalt ikke timeførbart utenfor normalarbeidstid. Om du derimot på kun
 må reise i henhold til en spesifikk plan timeføres reisetid utenfor normalarbeidstid.
 
 For eksempel; _du bes av kunde  om å stille klokken 9:00 i en annen by. Reisetid planlegges 
-og kunde informeres om at det timeføres. Reisetid fra reisens start til oppmøte timeføres 
-som avtalt i Harvest._
+og kunde informeres om hvordan vil bli timeført. Reisetid fra reisens start til oppmøte timeføres i Harvest
+i tråd ed det som er avtalt med kunde._
 
 Reiser i regi av Variant er som hovedregel frivillige og timeføres ikke.
 
