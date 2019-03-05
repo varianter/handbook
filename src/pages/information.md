@@ -81,8 +81,9 @@ Reiser på kundes regning føres i tråd med det som er avtalt med kunde (diett
 dersom det er avtalt på forhånd). Husk å påfør at reisen er viderefakturerbar og
 hvilket oppdrag det gjelder.
 
-Om du reiser mye kan du benytte appen Sonya for å lage bilaget som du så sender
-inn på vanlig måte.
+Om du reiser mye kan du benytte appen *Utlegg og reise* fra Sonya for å lage bilaget 
+som du så sender inn på vanlig måte. Reiser du på diett må denne appen brukes for å beregne 
+dietten riktig. 
 
 ### Utgifter i utenlandsk valuta
 
