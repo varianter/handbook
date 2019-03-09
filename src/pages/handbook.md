@@ -270,6 +270,19 @@ perioder. Dette avgjør du, og med åpenhet mellom oss og våre kunder om dine
 
 <img src="./assets/illustrations/workout.svg" alt="Illustrasjon for helse" class="illustration illustration--right illustration--helth" />
 
+## Familie
+
+Vi vil at våre folk skal ha mulighet til å bruke tid sammen med familiene sine.
+Det er blant grunnene til våre arbeidstidsordninger. Vi ønsker også å invitere f
+familiene inn i vårt selskap, og bli en del av oss. Vi er da tross alt åpne og
+rause.
+
+Gjennom året arrangerer vi en del aktiviteter hvor vi inviterer inn variantenes
+familie eller ledsager. Hver høst reiser vi på en utenlandstur hvor alle
+varianter tar med seg sin ledsager. Vårt lille julebord er selvsagt med følge
+det samme med sommerfesten. Utover dette har vi varierende aktiviteter hvor som
+vi håper familiene har lyst til å være sammen med oss i.
+
 ## Helse
 
 Vi ønsker at våre ansatte har et godt liv. Og et viktig moment i dette er en god
