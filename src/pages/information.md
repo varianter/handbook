@@ -91,6 +91,13 @@ For utgifter ført i annen valuta som skal refunderes må du oppgi korrekt belø
 norske kroner som du skal refunderes. Valutakurser varierer og hva du faktisk
 ble belastet og betalte vet du best.
 
+### Gadgets
+Gadgets kjøpes og utgiftsføres med en vanlig utgiftsrapport. Dette er skattefritt 
+kjøp av datautstyr, mobiltelefon og mobiltilbehør som deretter er til din disposisjon.
+Hva som kan kjøpes skattefritt defineres av [skatteetaten](https://www.skatteetaten.no/rettskilder/type/handboker/skatte-abc/2018/naturalytelser-i-arbeidsforhold/N-1.017/N-1.034/#4-14-2-arbeidsgivers-utplassering-av-datautst). Eksempler på utstyr er mobiltelefon, hodetelefoner, og tastatur. 
+Se gjerne [gadgetoversikten](https://gadget.variant.no) som viser hva andre har kjøpt for flere eksempler. 
+Er du i tvil eller trenger å sjekke med flere diskuter det gjerne på #regnskap på slack.
+
 ## Fordelsprogram og rabatt
 
 Skattemydighetene krever at fordeler du oppnår gjennom ulike fordelsprogam man
