@@ -92,7 +92,7 @@ norske kroner som du skal refunderes. Valutakurser varierer og hva du faktisk
 ble belastet og betalte vet du best.
 
 ### Gadgets
-Folk har lurt "Variant! Hva kan dette gadget-budsjettet brukes på?" og svaret er att bare [Skatteetaten definition](https://www.skatteetaten.no/rettskilder/type/handboker/skatte-abc/2018/naturalytelser-i-arbeidsforhold/N-1.017/N-1.034/#4-14-2-arbeidsgivers-utplassering-av-datautst) setter grenser. Kort oppsummert: Mobiltelefon, programvare og datautstyr som f.eks hodetelefoner og tastur. Se gjerne [gadgetoversikten](https://gadget.variant.no) hva andre varianter har kjøpt. Kjøp av gadgets er skattefritt og utgiftsføres med en vanlig utgiftsrapport. Hvis du er i tvil så spør du i #regnskap på Slack. 
+Folk har lurt "Dette gadget-budsjettet deres, hva kan det brukes på?" og svaret er at bare [Skatteetatens definisjon](https://www.skatteetaten.no/rettskilder/type/handboker/skatte-abc/2018/naturalytelser-i-arbeidsforhold/N-1.017/N-1.034/#4-14-2-arbeidsgivers-utplassering-av-datautst) setter grenser. Kort oppsummert: Mobiltelefon, programvare og datautstyr som f.eks hodetelefoner og tastur. Se gjerne [gadgetoversikten](https://gadget.variant.no) hva andre varianter har kjøpt. Kjøp av gadgets er skattefritt og utgiftsføres med en vanlig utgiftsrapport. Hvis du er i tvil så spør du i #regnskap på Slack. 
 
 Pro tip: Tenk på att summen av kjøpet ditt regnes eksklusive mva., da rekker budsjettet ditt lenger! 
 
