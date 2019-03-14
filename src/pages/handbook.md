@@ -152,12 +152,6 @@ ansatt bare deler av et kvartal, justeres deres andel etter dette.
 vi `30%` av overskuddet på 10 og får `30 000`. Så skal det betales `14,1%`
 arbeidsgiveravgift slik at hver enkelts bonus dette kvartalet blir `25 770 kr`.
 
-### Medeierskap
-
-En viss andel av aksjene i Variant kan tilbys personer som bringer med seg
-viktig faglig posisjon med tanke på nettverk, kunder eller personer som typisk
-har eierandeler andre steder.
-
 ### Pensjon og forsikring
 
 Vi føler oss jo slett ikke gamle her i Variant, og mange er jo heller ikke det.
