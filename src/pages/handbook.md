@@ -284,7 +284,7 @@ det samme gjelder sommerfesten. Utover dette har vi varierende aktiviteter som
 vi håper familiene har lyst til å være sammen med oss i.
 
 Variant skal selvsagt ikke definere hva som regnes som familie. Hvem du ønsker å
-invitere inn til variantfamilien bestemmer du selv, Om det er kone, barn,
+invitere inn til variantfamilien bestemmer du selv. Om det er kone, barn,
 foreldre eller venner er opp til deg. Vi sier: Hjertelig velkommen!
 
 Variant skal bidra til nærmiljøet og samfunnet der vi finnes. Som beskrevet
