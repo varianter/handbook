@@ -270,7 +270,7 @@ perioder. Dette avgjør du, og med åpenhet mellom oss og våre kunder om dine
 
 <img src="./assets/illustrations/workout.svg" alt="Illustrasjon for helse" class="illustration illustration--right illustration--helth" />
 
-## Familie
+## Familie og samfunnet
 
 Vi vil at våre folk skal ha mulighet til å bruke tid sammen med familiene sine.
 Det er blant grunnene til våre arbeidstidsordninger. Vi ønsker også å invitere
@@ -282,6 +282,16 @@ familie eller ledsager. Hver høst reiser vi på en utenlandstur hvor alle
 varianter tar med seg sin ledsager. Vårt lille julebord er selvsagt med følge,
 det samme gjelder sommerfesten. Utover dette har vi varierende aktiviteter som
 vi håper familiene har lyst til å være sammen med oss i.
+
+Variant skal selvsagt ikke definere hva som regnes som familie. Hvem du ønsker å
+invitere inn til variantfamilien bestemmer du selv. Om det er kone, barn,
+foreldre eller venner er opp til deg. Vi sier: Hjertelig velkommen!
+
+Variant skal bidra til nærmiljøet og samfunnet der vi finnes. Som beskrevet
+under [goder og ytelser](#andre-goder-og-ytelser) så har hver variant 10 000 kr
+i året til å kjøpe gadgets for. Disse pengene kan du istedet velge å bruke på å
+sponse en frivillig eller veldedig organisasjon. Det kan være fotballaget til
+dattera, UNICEF, eldrekafeen i bydelen eller tilsvarende.
 
 ## Helse
 
