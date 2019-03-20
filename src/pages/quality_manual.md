@@ -148,8 +148,9 @@ helse, miljø og sikkerhet som ikke løses direkte.
 ### Verneombud
 
 Selskapet skal legge til rette for at det velges et verneombud. Valget
-gjennomføres årlig under variantdagen i mars. Verneombudet velges for ett år om
-gangen. Ledelsen kan ikke delta i valget eller velges som verneombud.
+gjennomføres årlig under variantdagen i mars. Verneombudet velges for to år om
+gangen. Ledelsen kan ikke delta i valget eller velges som verneombud. 
+Verneombud fra 2019 er Ellen Wagnild-Antonsen.
 
 ### Fysiske lokaler
 
