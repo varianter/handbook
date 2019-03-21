@@ -283,10 +283,6 @@ varianter tar med seg sin ledsager. Vårt lille julebord er selvsagt med følge,
 det samme gjelder sommerfesten. Utover dette har vi varierende aktiviteter som
 vi håper familiene har lyst til å være sammen med oss i.
 
-Variant skal selvsagt ikke definere hva som regnes som familie. Hvem du ønsker å
-invitere inn til variantfamilien bestemmer du selv. Om det er kone, barn,
-foreldre eller venner er opp til deg. Vi sier: Hjertelig velkommen!
-
 ## Helse
 
 Vi ønsker at våre ansatte har et godt liv. Og et viktig moment i dette er en god
