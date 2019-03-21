@@ -287,12 +287,6 @@ Variant skal selvsagt ikke definere hva som regnes som familie. Hvem du ønsker 
 invitere inn til variantfamilien bestemmer du selv. Om det er kone, barn,
 foreldre eller venner er opp til deg. Vi sier: Hjertelig velkommen!
 
-Variant skal bidra til nærmiljøet og samfunnet der vi finnes. Som beskrevet
-under [goder og ytelser](#andre-goder-og-ytelser) så har hver variant 10 000 kr
-i året til å kjøpe gadgets for. Disse pengene kan du istedet velge å bruke på å
-sponse en frivillig eller veldedig organisasjon. Det kan være fotballaget til
-dattera, eldrekafeen i bydelen eller tilsvarende.
-
 ## Helse
 
 Vi ønsker at våre ansatte har et godt liv. Og et viktig moment i dette er en god
