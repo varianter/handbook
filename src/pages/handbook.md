@@ -270,7 +270,7 @@ perioder. Dette avgjør du, og med åpenhet mellom oss og våre kunder om dine
 
 <img src="./assets/illustrations/workout.svg" alt="Illustrasjon for helse" class="illustration illustration--right illustration--helth" />
 
-## Familie og samfunnet
+## Familie
 
 Vi vil at våre folk skal ha mulighet til å bruke tid sammen med familiene sine.
 Det er blant grunnene til våre arbeidstidsordninger. Vi ønsker også å invitere
