@@ -420,9 +420,9 @@ eierskapet fordelt slik:
 - Tonje - 10%
 - Christian - 2%
 
-En viss andel av aksjene (nå gjenstår 4%) er satt av som et målrettet
-virkemiddel for å tiltrekke oss personer som kan bidra til å utvikle Variant og
-øvrige varianter i en eller flere dimensjoner.
+4% av av aksjene er satt av som et målrettet virkemiddel for å tiltrekke oss
+personer som kan bidra til å utvikle Variant og øvrige varianter i en eller
+flere dimensjoner.
 
 ## Hverdagsliv
 
