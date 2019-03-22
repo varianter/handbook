@@ -412,6 +412,28 @@ jobbsøker mulighet til å stille flere spørsmål til og om Variant. Vi kan og
 stille spørsmål om det vi lurer på til jobbsøker. Her handler det om å finne om
 begge parter ønsker seg i samme retning.
 
+## Eierskap
+
+En av tankene bak å etablere Variant var at selskapet skulle styres og eies med
+lokal forankring. Vi finnes i Trondheim, og skal i hovedsak betjene kunder i
+midtnorge. Da mener vi at selskapet skal styres med folk som kjenner midtnorge
+og markedet her.
+
+I 2018 etablerte 6 personer Variant, alle med base i Trondheim. I dag er
+eierskapet fordelt slik:
+
+- Odd Morten - 31%
+- Anders - 31%
+- Mikael - 10%
+- Marius - 6%
+- Tore - 10%
+- Tonje - 10%
+- Christian - 2%
+
+4% av av aksjene er satt av som et målrettet virkemiddel for å tiltrekke oss
+personer som kan bidra til å utvikle Variant og øvrige varianter i en eller
+flere dimensjoner.
+
 ## Hverdagsliv
 
 Det er jo hverdagene som er selve livet. Og hos oss er målet at hver en dag skal
