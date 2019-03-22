@@ -421,7 +421,7 @@ eierskapet fordelt slik:
 - Christian - 2%
 
 En viss andel av aksjene (nå gjenstår 4%) er satt av som et målrettet
-virkemiddel for å tilrekke oss personer som kan bidra til å utvikle Variant og
+virkemiddel for å tiltrekke oss personer som kan bidra til å utvikle Variant og
 øvrige varianter i en eller flere dimensjoner.
 
 ## Hverdagsliv
