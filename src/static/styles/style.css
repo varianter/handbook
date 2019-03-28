@@ -257,7 +257,8 @@ code {
 /* General typography */
 
 .content p,
-ul {
+ul,
+ol {
   font-size: 1.5rem;
   line-height: 1.5;
   margin: var(--defaultMargin) 0;
@@ -303,7 +304,8 @@ ul {
   margin-top: var(--verticalSpace);
 }
 
-ul {
+ul,
+ol {
   padding-left: 5rem;
 }
 

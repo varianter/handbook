@@ -81,9 +81,9 @@ Reiser på kundes regning føres i tråd med det som er avtalt med kunde (diett
 dersom det er avtalt på forhånd). Husk å påfør at reisen er viderefakturerbar og
 hvilket oppdrag det gjelder.
 
-Om du reiser mye kan du benytte appen *Utlegg og reise* fra Sonya for å lage bilaget 
-som du så sender inn på vanlig måte. Reiser du på diett må denne appen brukes for å beregne 
-dietten riktig. 
+Om du reiser mye kan du benytte appen _Utlegg og reise_ fra Sonya for å lage
+bilaget som du så sender inn på vanlig måte. Reiser du på diett må denne appen
+brukes for å beregne dietten riktig.
 
 ### Utgifter i utenlandsk valuta
 
@@ -92,9 +92,18 @@ norske kroner som du skal refunderes. Valutakurser varierer og hva du faktisk
 ble belastet og betalte vet du best.
 
 ### Gadgets
-Folk har lurt "Dette gadget-budsjettet deres, hva kan det brukes til?" og svaret er at bare [Skatteetatens definisjon](https://www.skatteetaten.no/rettskilder/type/handboker/skatte-abc/2018/naturalytelser-i-arbeidsforhold/N-1.017/N-1.034/#4-14-2-arbeidsgivers-utplassering-av-datautst) setter grenser. Kort oppsummert: Mobiltelefon, programvare og datautstyr som f.eks hodetelefoner og tastur. Se gjerne [gadgetoversikten](https://gadget.variant.no) hva andre varianter har kjøpt. Kjøp av gadgets er skattefritt og utgiftsføres med en vanlig utgiftsrapport. Hvis du er i tvil så spør du i #regnskap på Slack. 
 
-Pro tip: Tenk på att summen av kjøpet ditt regnes eksklusive mva., da rekker budsjettet ditt lenger! 
+Folk har lurt "Dette gadget-budsjettet deres, hva kan det brukes til?" og svaret
+er at bare
+[Skatteetatens definisjon](https://www.skatteetaten.no/rettskilder/type/handboker/skatte-abc/2018/naturalytelser-i-arbeidsforhold/N-1.017/N-1.034/#4-14-2-arbeidsgivers-utplassering-av-datautst)
+setter grenser. Kort oppsummert: Mobiltelefon, programvare og datautstyr som
+f.eks hodetelefoner og tastur. Se gjerne
+[gadgetoversikten](https://gadget.variant.no) hva andre varianter har kjøpt.
+Kjøp av gadgets er skattefritt og utgiftsføres med en vanlig utgiftsrapport.
+Hvis du er i tvil så spør du i #regnskap på Slack.
+
+Pro tip: Tenk på att summen av kjøpet ditt regnes eksklusive mva., da rekker
+budsjettet ditt lenger!
 
 ## Fordelsprogram og rabatt
 
@@ -172,23 +181,28 @@ for oppdraget eller prosjektet. Lunsj føres ikke.
 
 ### Reisetid
 
-Reiser som er pålagt av kunde timeføres som hovedregel på kundens prosjekt. Timeføring skjer 
-da på kundes timeføringskonto i Harvest. Reisetid og timeføringskode avklares for hvert enkelt tilfelle 
-med kunde. 
+Reiser som er pålagt av kunde timeføres som hovedregel på kundens prosjekt.
+Timeføring skjer da på kundes timeføringskonto i Harvest. Reisetid og
+timeføringskode avklares for hvert enkelt tilfelle med kunde.
 
-Om du og kunde avtaler at du skal reise i ditt oppdrag og du selv avgjør reisetid og plan, 
-er tid utenfor normalarbeidstid vanligvis ikke timeførbart. Om du derimot på kundes forespørsel 
-må reise i henhold til en spesifikk plan timeføres reisetid utenfor normalarbeidstid.
+Om du og kunde avtaler at du skal reise i ditt oppdrag og du selv avgjør
+reisetid og plan, er tid utenfor normalarbeidstid vanligvis ikke timeførbart. Om
+du derimot på kundes forespørsel må reise i henhold til en spesifikk plan
+timeføres reisetid utenfor normalarbeidstid.
 
-For noen oppdrag timeføres reisetid utenfor normalarbeidstid på egen timeføringskode. 
+For noen oppdrag timeføres reisetid utenfor normalarbeidstid på egen
+timeføringskode.
 
-For eksempel; _du bes av kunde  om å stille klokken 9:00 i en annen by. Reisetid planlegges 
-og kunde informeres om hvordan tiden vil bli timeført. Reisetid fra reisens start til oppmøte 
-timeføres i Harvest i tråd med det som er avtalt med kunde._
+For eksempel; _du bes av kunde om å stille klokken 9:00 i en annen by. Reisetid
+planlegges og kunde informeres om hvordan tiden vil bli timeført. Reisetid fra
+reisens start til oppmøte timeføres i Harvest i tråd med det som er avtalt med
+kunde._
 
 Reiser i regi av Variant er som hovedregel frivillige og timeføres ikke.
 
-Se forøvrig [dette avsnittet](https://handbook.variant.no/information.html#reiser) for refusjon av reiseutlegg. 
+Se forøvrig
+[dette avsnittet](https://handbook.variant.no/information.html#reiser) for
+refusjon av reiseutlegg.
 
 ## Sykemelding og egenmelding
 
@@ -221,9 +235,25 @@ rett fra skolen._
 
 ## Portere telefonabonement
 
-For at Variant skal betale for mobilbruk må abonementet overføres til Variant
-AS. Gjør dette ved å fylle ut dette skjemaet hos Telia:
-https://www.telia.no/mitt-abonnement/bytte-eier/
+For at Variant skal betale for mobilbruk må abonnementet overføres til Variant
+AS. Framgangsmåten for å overføre abonnementet til Variant er avheng av hvem som
+eier det i dag.
+
+Hvis du selv er juridisk eier:
+
+1. Gå til eierskifte på [Min Side](https://min-side.telia.no/subs-transfer), og
+   følger instruksjonene der for å bytte eier.
+1. Gi beskjed på [#helpdesk](slack://channel?id=CBFA8V536&team=T7FAZ8XT2) om at
+   skjema er sendt inn og at portering kan iverksettes.
+
+Eller hvis noen andre, typisk tidligere arbeidsgiver, eier abonnementet:
+
+1. Last ned det delvis utfylte
+   [eierskifteskjemaet](https://varianttrh.sharepoint.com/:b:/g/EfSJeOxZz3REsF46oO0ZOiMBG0MMQETWLOom-yxMXrqYnA?e=ijXDmg)
+1. Fyll ut resten, og få dagens eier til å signere.
+1. Send skjemaet på epost til skjema-eierskifte@telia.no
+1. Gi beskjed på [#helpdesk](slack://channel?id=CBFA8V536&team=T7FAZ8XT2) om at
+   skjema er sendt inn og at portering kan iverksettes.
 
 ## Våre internsystemer
 
