@@ -12,20 +12,20 @@ og hvilke regler som gjelder.
 
 Her er noen snarveier:
 
-- [How toguides](https://digs.officernd.com/links?office=565748274a955c790d808c77)
+- [How to-guides](https://digs.officernd.com/links?office=565748274a955c790d808c77)
   Blant annet hvordan printer og kaffemaskina fungerer.
 - [Møteromsbooking](https://digs.officernd.com/calendar?type=meeting_room&office=565748274a955c790d808c77)
-  Vi kan desverre ikke gjøre dette direkte fra Outlook.
+  Vi kan dessverre ikke gjøre dette direkte fra Outlook.
 - [Terms & Good-To-Know](https://digs.officernd.com/terms-good-to-know?office=565748274a955c790d808c77)
   Noen husregler
 
 ### WiFi
 
 Hvis du jobber på kontoret benytter du det trådløse nettet med SSID **DIGS**.
-Ved oppstart har du fått en epost med emne: "Account Confirmation" **NB!** Denne
+Ved oppstart har du fått en e-post med emne: "Account Confirmation" **NB!** Denne
 kan ha havnet i spam-folderen. Følg linken i denne eposten for å sette passord.
 
-Hvis du har glemt passordet til det trådløsenettet kan du
+Hvis du har glemt passordet til det trådløse nettet kan du
 [endre det her](http://intranett.digs.no/user/forgot).
 
 ## Lønning
@@ -63,13 +63,13 @@ ekstra info.
 ## Utgiftsrapportering
 
 Utgiftsrapporter føres teknisk på samme måte som fakturaer, ved at en sender en
-mail til faktura@variant.no, men legg inn "UTGIFTSRAPPORT" i subjectfeltet. Ta
+mail til faktura@variant.no, men legg inn "UTGIFTSRAPPORT" i emnefeltet. Ta
 bilde av kvitteringer og skriv inn samlet beløp i mailen.
 
-### Resturantbesøk
+### Restaurantbesøk
 
 Av bokføringsgrunner trenger vi å vite hvem som var med når noen har lagt ut for
-et resurantbesøk. Dette gjelder både eksterne og interne. Lag en enkel liste i
+et restaurantbesøk. Dette gjelder både eksterne og interne. Lag en enkel liste i
 eposten som lister ut deltagere.
 
 ### Reiser
@@ -97,18 +97,18 @@ Folk har lurt "Dette gadget-budsjettet deres, hva kan det brukes til?" og svaret
 er at bare
 [Skatteetatens definisjon](https://www.skatteetaten.no/rettskilder/type/handboker/skatte-abc/2018/naturalytelser-i-arbeidsforhold/N-1.017/N-1.034/#4-14-2-arbeidsgivers-utplassering-av-datautst)
 setter grenser. Kort oppsummert: Mobiltelefon, programvare og datautstyr som
-f.eks hodetelefoner og tastur. Se gjerne
+f.eks hodetelefoner og tastatur. Se gjerne
 [gadgetoversikten](https://gadget.variant.no) hva andre varianter har kjøpt.
 Kjøp av gadgets er skattefritt og utgiftsføres med en vanlig utgiftsrapport.
 Hvis du er i tvil så spør du i #regnskap på Slack.
 
-Pro tip: Tenk på att summen av kjøpet ditt regnes eksklusive mva., da rekker
+Pro tip: Tenk på at summen av kjøpet ditt regnes eksklusive mva., da rekker
 budsjettet ditt lenger!
 
 ## Fordelsprogram og rabatt
 
 Skattemydighetene krever at fordeler du oppnår gjennom ulike fordelsprogam man
-får på grunn av at du er ansatt hos oss skal rapporeres inn slik at det blir med
+får på grunn av at du er ansatt hos oss skal rapporteres inn slik at det blir med
 på skatteberegningen. Dette gjelder blant annet:
 
 - Kredittkort med bonuspoeng
@@ -138,7 +138,7 @@ Du må også dokumentere estimert verdi. Dette gjøres typisk ved å ta skjermbi
 av tilsvarende kjøp eller reiser hvor prisene er oppgitt.
 
 - Dokumentasjonen lastes opp på [docs](https://fordelsdokumentasjon.variant.no).
-- Rapprtering gjøres ved å fylle ut
+- Rapportering gjøres ved å fylle ut
   [dette skjemaet](https://fordelsrapport.variant.no).
 
 ## Timeføring
@@ -169,7 +169,7 @@ Av annen tid vi sporer har disse aktivitetene:
 For alle disse kan man føre inntil 7,5 timer pr dag. Bortsett fra Variantdag kan
 summen av fakturerbar tid og den av disse ikke overstige 7,5 timer pr dag.
 
-Er du på kurs, konferanse, meetup eller annen kompetansaktivitet fører du ikke
+Er du på kurs, konferanse, meetup eller annen kompetanseaktivitet fører du ikke
 dette. Tilsvarende om du jobber med salg, rekruttering eller lignende interne
 aktiviteter.
 
@@ -233,7 +233,7 @@ ikke rett på sykepenger fra NAV før du har blitt frisk og jobbet sammenhengend
 i4 uker. _Dette siste avsnittet er spesielt relevant for nyutdannede som kommer
 rett fra skolen._
 
-## Portere telefonabonement
+## Portere mobilabonnement
 
 For at Variant skal betale for mobilbruk må abonnementet overføres til Variant
 AS. Framgangsmåten for å overføre abonnementet til Variant er avheng av hvem som
@@ -251,7 +251,7 @@ Eller hvis noen andre, typisk tidligere arbeidsgiver, eier abonnementet:
 1. Last ned det delvis utfylte
    [eierskifteskjemaet](https://varianttrh.sharepoint.com/:b:/g/EfSJeOxZz3REsF46oO0ZOiMBG0MMQETWLOom-yxMXrqYnA?e=ijXDmg)
 1. Fyll ut resten, og få dagens eier til å signere.
-1. Send skjemaet på epost til skjema-eierskifte@telia.no
+1. Send skjemaet på e-post til skjema-eierskifte@telia.no
 1. Gi beskjed på [#helpdesk](slack://channel?id=CBFA8V536&team=T7FAZ8XT2) om at
    skjema er sendt inn og at portering kan iverksettes.
 
@@ -273,8 +273,8 @@ Eller hvis noen andre, typisk tidligere arbeidsgiver, eier abonnementet:
 ## Nyttige lenker
 
 - [Gadgetoversikt](https://gadget.variant.no) Oversikt over hva som er kjøpt på
-  gadsjett, og hvor mye man har brukt.
+  gadget, og hvor mye man har brukt.
 - [Fordelsrapport](https://fordelsrapport.variant.no) Her rapporteres det inn
   bruk av bonuspoenge eller andre fordelsprogam.
 - [Fordelsdokumentasjonen](https://fordelsdokumentasjon.variant.no) Hit laster
-  du opp dokumentasjon på overnevnt bruk.
+  du opp dokumentasjon på ovennevnt bruk.
