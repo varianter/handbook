@@ -455,7 +455,7 @@ Se mer detaljer om hvordan
 
 ### Hovedkvarteret
 
-Vi har våre kontorer på arbeidsfellesskapet Digs i Olav Tryggvasonsgate. Her
+Vi har våre kontorer på arbeidsfellesskapet Digs i Olav Tryggvasons gate. Her
 har vi et eget kontor med 3-4 plasser. Her har vi tilgang til gode møterom og
 kontorutstyr. Det er også her vi kjører våre variantdager. På Digs jobber vi
 sammen med en rekke startups og andre spennende selskaper. Her har vi mulighet
