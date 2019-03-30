@@ -206,8 +206,8 @@ ingen rolle.
 
 Kjernevirksomheten til Variant er i utgangspunktet utelukkende å selge
 kompetanse. Men vi er eksperimentelle og tilpasningsdyktige. Det kan komme en
-tid der vi ser på muligheten for å samarbeide tett med start-ups eller skape
-egne start-ups. I Norge er det helt vanlig at arbeidsplassen innehar rettigheter
+tid der vi ser på muligheten for å samarbeide tett med startups eller skape
+egne startups. I Norge er det helt vanlig at arbeidsplassen innehar rettigheter
 til det ansatte måtte lage eller komme på. Det kan være vanskelig å komme seg
 rundt dersom Variant har brukt mye penger på å hjelpe ansatte å utvikle noe.
 
@@ -308,7 +308,7 @@ har gode forutsetninger for å levere godt resultat for våre kunder over lang
 tid. Godt med lys, luft og riktige møbler er avgjørende i så måte.
 
 Variant har igjennom året flere aktiviteter hvor våre ansatte har mulighet til
-fysisk aktivitet. Dette er kan være fjellturer, bedriftsidrett, fiske etc. I
+fysisk aktivitet. Dette er kan være fjellturer, bedriftsidrett, fiske osv. I
 tillegg dekker Variant 3T-medlemskapet for de av våre ansatte som synes et
 treningssenter er et hyggelig sted å være.
 
@@ -416,7 +416,7 @@ begge parter ønsker seg i samme retning.
 
 En av tankene bak å etablere Variant var at selskapet skulle styres og eies med
 lokal forankring. Vi finnes i Trondheim, og skal i hovedsak betjene kunder i
-midtnorge. Da mener vi at selskapet skal styres med folk som kjenner midtnorge
+Midt-Norge. Da mener vi at selskapet skal styres med folk som kjenner Midt-Norge
 og markedet her.
 
 I 2018 etablerte 6 personer Variant, alle med base i Trondheim. I dag er
@@ -446,7 +446,7 @@ Se også vår oversikt over [interne prosedyrer](./information.html).
 
 Ofte kjedelig, men like fullt nødvendig. Det er tross alt timer vi lever av å
 selge. Derfor forsøker vi å gjøre det så lett som mulig å levere inn
-timerapporten hver uke. Jeps, hver uke. Fristen er mandag morgen kl 9.00 den
+timerapporten hver uke. Jeps, hver uke. Fristen er mandag morgen kl. 9.00 den
 påfølgende uken. Timene føres i [Harvest](https://variantas.harvestapp.com/).
 Herfra kan man også laste ned Apps for både Mac, Windows og telefoner.
 
@@ -455,7 +455,7 @@ Se mer detaljer om hvordan
 
 ### Hovedkvarteret
 
-Vi har våre kontorer på arbeidsfellesskapet Digs i Olav Tryggvassonsgate. Her
+Vi har våre kontorer på arbeidsfellesskapet Digs i Olav Tryggvasonsgate. Her
 har vi et eget kontor med 3-4 plasser. Her har vi tilgang til gode møterom og
 kontorutstyr. Det er også her vi kjører våre variantdager. På Digs jobber vi
 sammen med en rekke startups og andre spennende selskaper. Her har vi mulighet
