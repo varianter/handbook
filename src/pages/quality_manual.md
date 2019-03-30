@@ -25,7 +25,7 @@ vinner nok salg. Variants tilbud skal alltid levere over kundens forventninger.
 ### Salgsprosess
 
 For å håndtere salgsprosessen benytter vi en enkel
-[trello-tavle](https://trello.com/b/kO5kbMNf/salg) som verktøy. En salgsmulighet
+[Trello-tavle](https://trello.com/b/kO5kbMNf/salg) som verktøy. En salgsmulighet
 representeres med et kort i Trello, og tavlen representerer en salgstrakt hvor
 muligheter trekkes gjennom ulike salgsfaser til muligheten har blitt konkludert
 med.
@@ -154,7 +154,7 @@ Verneombud fra 2019 er Ellen Wagnild-Antonsen.
 
 ### Fysiske lokaler
 
-Variant er et konsulentselskap, der hvor mange ansattae tilbringer store deler
+Variant er et konsulentselskap, der hvor mange ansatte tilbringer store deler
 av arbeidstiden ute i kundenes lokaler. HMS-håndboka dekker proaktivt arbeid med
 lokaler, men vi avgrenser dette til vårt kontor på DIGS.
 
@@ -195,12 +195,12 @@ at de oppstår på nytt.
 Meld fra om feil og mangler til daglig leder. Feil og mangler skal rettes opp
 der problemet oppstår.
 
-Eventuelle tiltak for å rette opp i disse feil eller mangeler skal registerets i
+Eventuelle tiltak for å rette opp i disse feil eller mangler skal registerets i
 handlingsplanen.
 
 ### [Handlingsplan](https://trello.com/b/DQX0sirR/operativt)
 
-Selve handlingsplanen er implementert som en egen liste i trelloboardet
+Selve handlingsplanen er implementert som en egen liste i Trello-tavlen
 operativt. Ledergruppen har ansvaret for at handlingsplanen blir fulgt og tiltak
 løst. Handlingsplanen er et agendapunkt i alle ledermøter.
 
@@ -235,10 +235,10 @@ stadig endring. For tiden ser den slik ut:
 
 ### Frem til fadder blir satt (Rekrutteringsansvarlig)
 
-- Få den nyansatte til å fylle ut [nettsjema](http://nyansatt.variant.no) for
+- Få den nyansatte til å fylle ut [nettskjema](http://nyansatt.variant.no) for
   nyansatte. (Her velger du blant annet PC)
 - Opprett bruker for AD, Mail i office 365.
-- Etabler CV i CV-partner, og inviter den nyansette inn for å starte på dette
+- Etabler CV i CV-partner, og inviter den nyansatte inn for å starte på dette
   arbeidet.
 - Ta bilde til CV, helst i kroken hvor de andre bildene er tatt på DIGS
 - Tildele fadder
@@ -273,10 +273,10 @@ stadig endring. For tiden ser den slik ut:
 - Oppfølgingsprat etter et par uker for å høre hvordan oppstarten har vært
 - Ta et flott bilde av deg for din CV (men også for å vise verden hvor stolt vi
   er for å ha deg på laget).
-- Invitere inn i #salg på slack
+- Invitere inn i #salg på Slack
 - Fasilitere valg av personalleder etter 3 måneder
 - Oppdater malkortet Onboarding basert på erfaring fra siste onboarding. Hør med
-  nyansatt om hun eller han har inspill
+  nyansatt om hun eller han har innspill
 
 ## Personaloppfølging
 
