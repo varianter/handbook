@@ -22,8 +22,9 @@ Her er noen snarveier:
 ### WiFi
 
 Hvis du jobber på kontoret benytter du det trådløse nettet med SSID **DIGS**.
-Ved oppstart har du fått en e-post med emne: "Account Confirmation" **NB!** Denne
-kan ha havnet i spam-folderen. Følg linken i denne eposten for å sette passord.
+Ved oppstart har du fått en e-post med emne: "Account Confirmation" **NB!**
+Denne kan ha havnet i spam-folderen. Følg linken i denne eposten for å sette
+passord.
 
 Hvis du har glemt passordet til det trådløse nettet kan du
 [endre det her](http://intranett.digs.no/user/forgot).
@@ -108,8 +109,8 @@ budsjettet ditt lenger!
 ## Fordelsprogram og rabatt
 
 Skattemydighetene krever at fordeler du oppnår gjennom ulike fordelsprogam man
-får på grunn av at du er ansatt hos oss skal rapporteres inn slik at det blir med
-på skatteberegningen. Dette gjelder blant annet:
+får på grunn av at du er ansatt hos oss skal rapporteres inn slik at det blir
+med på skatteberegningen. Dette gjelder blant annet:
 
 - Kredittkort med bonuspoeng
 - Bonuspoeng på flyreiser
@@ -203,6 +204,25 @@ Reiser i regi av Variant er som hovedregel frivillige og timeføres ikke.
 Se forøvrig
 [dette avsnittet](https://handbook.variant.no/information.html#reiser) for
 refusjon av reiseutlegg.
+
+## Planlegging av ferie og permisjoner
+
+Du avgjør selv når du ønsker å ta ut ferie i Variant. Dette avtales med nærmeste
+leder og avklares tidlig med kunde slik at oppdraget løses godt. Det samme
+gjelder kortere permisjoner. Skal du ta ut ferie juli eller i påsken kan du bare
+registrere dette i [bemanning](bemanning.variant.no) uten videre avklaring med
+leder.
+
+Foreldrepermisjon bør også avklares så tidlig du har mulighet til. Vi anbefaler
+at dette først diskuteres med nærmeste leder, og så blir dere enige om hvordan
+kunder og oppdrag skal varsles.
+
+Det er fullt mulig å redusere stillingen for en periode. Dette gjøres da
+praktisk ved at man har delvis permisjon. Hvis du kommer i en situasjon hvor
+dette er ønskelig avklares også dette med nærmeste leder og så tidlig som mulig.
+
+_NB!_ Husk alltid å oppdatere [bemanning](bemanning.variant.no) med planlagt
+ferie og permisjon slik at de som jobber med salg har oversikt.
 
 ## Sykemelding og egenmelding
 
