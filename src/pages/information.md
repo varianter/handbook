@@ -5,8 +5,8 @@ for en variant. Det kan være ting som utgiftsføring, timeføring, osv.
 
 ## Digs
 
-Vi holder til, så lenge vi ikke er ute hos våre kunder, hos DIGS i Olav
-Trygvassonsgate. Alle ansatte blir meldt inn i DIGS' systemer. Følg med på DIGS
+Vi holder til, så lenge vi ikke er ute hos våre kunder, hos DIGS i Krambugata.
+Alle ansatte blir meldt inn i DIGS' systemer. Følg med på DIGS
 [intranett](https://digs.officernd.com/) for å finne ut hva som skjer på bygget
 og hvilke regler som gjelder.
 
