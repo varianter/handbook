@@ -206,10 +206,10 @@ ingen rolle.
 
 Kjernevirksomheten til Variant er i utgangspunktet utelukkende å selge
 kompetanse. Men vi er eksperimentelle og tilpasningsdyktige. Det kan komme en
-tid der vi ser på muligheten for å samarbeide tett med startups eller skape
-egne startups. I Norge er det helt vanlig at arbeidsplassen innehar rettigheter
-til det ansatte måtte lage eller komme på. Det kan være vanskelig å komme seg
-rundt dersom Variant har brukt mye penger på å hjelpe ansatte å utvikle noe.
+tid der vi ser på muligheten for å samarbeide tett med startups eller skape egne
+startups. I Norge er det helt vanlig at arbeidsplassen innehar rettigheter til
+det ansatte måtte lage eller komme på. Det kan være vanskelig å komme seg rundt
+dersom Variant har brukt mye penger på å hjelpe ansatte å utvikle noe.
 
 Vi ønsker å være reale på dette. Om du har en god idé som du ønsker å gå videre
 med, snakk med din personalleder så finner vi ut av hvordan vi kan gå frem og
@@ -455,8 +455,8 @@ Se mer detaljer om hvordan
 
 ### Hovedkvarteret
 
-Vi har våre kontorer på arbeidsfellesskapet Digs i Olav Tryggvasons gate. Her
-har vi et eget kontor med 3-4 plasser. Her har vi tilgang til gode møterom og
+Vi har våre kontorer på arbeidsfellesskapet Digs i Krambugata. Her har vi et
+eget kontor med 3-4 plasser. Her har vi tilgang til gode møterom og
 kontorutstyr. Det er også her vi kjører våre variantdager. På Digs jobber vi
 sammen med en rekke startups og andre spennende selskaper. Her har vi mulighet
 til ...... forresten, dette [forklarer Digs bedre selv](https://digs.no/about/).
