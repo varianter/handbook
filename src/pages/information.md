@@ -210,7 +210,7 @@ refusjon av reiseutlegg.
 Du avgjør selv når du ønsker å ta ut ferie i Variant. Dette avtales med nærmeste
 leder og avklares tidlig med kunde slik at oppdraget løses godt. Det samme
 gjelder kortere permisjoner. Skal du ta ut ferie juli eller i påsken kan du bare
-registrere dette i [bemanning](bemanning.variant.no) uten videre avklaring med
+registrere dette i [bemanning](https://bemanning.variant.no) uten videre avklaring med
 leder.
 
 Foreldrepermisjon bør også avklares så tidlig du har mulighet til. Vi anbefaler
@@ -221,7 +221,7 @@ Det er fullt mulig å redusere stillingen for en periode. Dette gjøres da
 praktisk ved at man har delvis permisjon. Hvis du kommer i en situasjon hvor
 dette er ønskelig avklares også dette med nærmeste leder og så tidlig som mulig.
 
-_NB!_ Husk alltid å oppdatere [bemanning](bemanning.variant.no) med planlagt
+_NB!_ Husk alltid å oppdatere [bemanning](https://bemanning.variant.no) med planlagt
 ferie og permisjon slik at de som jobber med salg har oversikt.
 
 ## Sykemelding og egenmelding
