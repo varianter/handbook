@@ -279,8 +279,8 @@ rause.
 
 Gjennom året arrangerer vi en del aktiviteter hvor vi inviterer inn variantenes
 familie eller ledsager. Hver høst reiser vi på en utenlandstur hvor alle
-varianter tar med seg sin ledsager. Vårt lille julebord er selvsagt med følge,
-det samme gjelder sommerfesten. Utover dette har vi varierende aktiviteter som
+varianter tar med seg sin ledsager. Vårt lille julebord er selvsagt også med følge. 
+Utover dette har vi varierende aktiviteter som
 vi håper familiene har lyst til å være sammen med oss i.
 
 Variant skal selvsagt ikke definere hva som regnes som familie. Hvem du ønsker å
