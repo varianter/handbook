@@ -13,11 +13,10 @@ og hvilke regler som gjelder.
 Her er noen snarveier:
 
 - [How to-guides](https://digs.officernd.com/links?office=565748274a955c790d808c77)
-  Blant annet hvordan printer og kaffemaskina fungerer.
+  Blant annet hvordan printer og kaffemaskina fungerer. Her finner du også husregler.
 - [Møteromsbooking](https://digs.officernd.com/calendar?type=meeting_room&office=565748274a955c790d808c77)
   Vi kan dessverre ikke gjøre dette direkte fra Outlook.
-- [Terms & Good-To-Know](https://digs.officernd.com/terms-good-to-know?office=565748274a955c790d808c77)
-  Noen husregler
+
 
 ### WiFi
 
