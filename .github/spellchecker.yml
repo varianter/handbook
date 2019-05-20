@@ -1,0 +1,31 @@
+language: "nb_NO"
+dictionary_folder: "no"
+main_comment: "Jeg fant en eller flere mulige skrivefeil 😇"
+ignored_words:
+  [
+    "Mikael",
+    "variant",
+    "ammefri",
+    "digs",
+    "jante",
+    "gadget",
+    "DIY",
+    "Gjensidige",
+    "MacBook",
+    "Mac",
+    "helpdesk",
+    "Open",
+    "Source",
+    "GitHub",
+    "app",
+    "apps",
+    "startup",
+    "blog",
+    "Trello",
+    "Tekna",
+    "Harvest",
+    "JetBrains",
+    "Slack",
+    "podcast",
+    "innedag",
+  ]
