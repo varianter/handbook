@@ -72,14 +72,26 @@ Av bokføringsgrunner trenger vi å vite hvem som var med når noen har lagt ut 
 et restaurantbesøk. Dette gjelder både eksterne og interne. Lag en enkel liste i
 eposten som lister ut deltagere.
 
-### Reiser
+### Reiser på variants regning
 
 Reiser på Variants regning refunderes mot kvitteringer (ikke diett). Lever som
 andre utgiftsrapporter, men husk å påfør reiserute og formål med reisen.
 
-Reiser på kundes regning føres i tråd med det som er avtalt med kunde (diett
-dersom det er avtalt på forhånd). Husk å påfør at reisen er viderefakturerbar og
-hvilket oppdrag det gjelder.
+### Reiser og utgifter som viderefaktureres til kunde
+
+Reiser på kundes regning føres i tråd med det som er avtalt med kunde
+(diett dersom det er avtalt på forhånd). Husk å påfør at reisen er
+viderefakturerbar og hvilket oppdrag det gjelder.
+
+### Reiser og utgifter som viderefaktureres via meglere (eWork, Experis m.fl)
+
+Meglere har egne systemer for viderefakturering av reiser. 
+
+1. Lever utgiftsrapport gjennom meglers system
+2. Få en kopi eller utskrift av utgiftsrapport hos megler
+3. Send kopi/utskrift til utgiftsrapport@variant.no. Skriv i mailen at det viderefaktureres, og hvilken kunde det gjelder
+
+### App for for føring av reiseregninger
 
 Om du reiser mye kan du benytte appen _Utlegg og reise_ fra Sonya for å lage
 bilaget som du så sender inn på vanlig måte. Reiser du på diett må denne appen
