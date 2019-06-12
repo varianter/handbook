@@ -91,7 +91,7 @@ Meglere har egne systemer for viderefakturering av reiser.
 2. Få en kopi eller utskrift av utgiftsrapport hos megler
 3. Send kopi/utskrift til utgiftsrapport@variant.no. Skriv i mailen at det viderefaktureres, og hvilken kunde det gjelder
 
-### App for for føring av reiseregninger
+### App for føring av reiseregninger
 
 Om du reiser mye kan du benytte appen _Utlegg og reise_ fra Sonya for å lage
 bilaget som du så sender inn på vanlig måte. Reiser du på diett må denne appen
