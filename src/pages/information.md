@@ -6,23 +6,23 @@ for en variant. Det kan være ting som utgiftsføring, timeføring, osv.
 ## Digs
 
 Vi holder til, så lenge vi ikke er ute hos våre kunder, hos DIGS i Krambugata.
-Alle ansatte blir meldt inn i DIGS' systemer. Følg med på DIGS
+Alle ansatte blir meldt inn i DIGS' systemer. Følg med på DIGS'
 [intranett](https://digs.officernd.com/) for å finne ut hva som skjer på bygget
 og hvilke regler som gjelder.
 
 Her er noen snarveier:
 
 - [How to-guides](https://digs.officernd.com/links?office=565748274a955c790d808c77)
-  Blant annet hvordan printer og kaffemaskina fungerer. Her finner du også husregler.
+  Blant annet hvordan printer og kaffemaskina fungerer. Her finner du også
+  husregler.
 - [Møteromsbooking](https://digs.officernd.com/calendar?type=meeting_room&office=565748274a955c790d808c77)
   Vi kan dessverre ikke gjøre dette direkte fra Outlook.
-
 
 ### WiFi
 
 Hvis du jobber på kontoret benytter du det trådløse nettet med SSID **DIGS**.
 Ved oppstart har du fått en e-post med emne: "Account Confirmation" **NB!**
-Denne kan ha havnet i spam-folderen. Følg linken i denne eposten for å sette
+Denne kan ha havnet i spam-folderen. Følg linken i denne e-posten for å sette
 passord.
 
 Hvis du har glemt passordet til det trådløse nettet kan du
@@ -30,7 +30,7 @@ Hvis du har glemt passordet til det trådløse nettet kan du
 
 ## Lønning
 
-Lønningsdag er den siste arbeidsdag i hver måned. Altså utbetales lønn
+Lønningsdag er den siste arbeidsdagen i hver måned. Altså utbetales lønn
 fredag 30. hvis den 31. kommer på lørdag. Det trekkes halv skatt av
 novemberlønnen. Desemberlønnen utbetales den 20. desember.
 
@@ -55,7 +55,7 @@ halv skatt i november.
 Hvis du får en faktura som skal betales av selskapet sendes den til
 faktura@variant.no. Altså eventuelle papirfaktura må scannes eller fotograferes.
 Det siste funker helt greit, men pass på at teksten er leselig. I mailen så
-skriver dere inn eventuelle ekstra informasjon vi trenger for å godkjenne
+skriver du inn eventuell ekstra informasjon vi trenger for å godkjenne
 fakturaen. Dette er typisk hva fakturaen er relatert til og hva vi bruker det vi
 har kjøpt til. Noen ting er så åpenbare at det sikkert ikke trenges noe særlig
 ekstra info.
@@ -70,7 +70,7 @@ bilde av kvitteringer og skriv inn samlet beløp i mailen.
 
 Av bokføringsgrunner trenger vi å vite hvem som var med når noen har lagt ut for
 et restaurantbesøk. Dette gjelder både eksterne og interne. Lag en enkel liste i
-eposten som lister ut deltagere.
+e-posten som lister ut deltagere.
 
 ### Reiser
 
@@ -93,7 +93,7 @@ ble belastet og betalte vet du best.
 
 ### Gadgets
 
-Folk har lurt "Dette gadget-budsjettet deres, hva kan det brukes til?" og svaret
+Folk har lurt "Dette gadgetbudsjettet deres, hva kan det brukes til?" og svaret
 er at bare
 [Skatteetatens definisjon](https://www.skatteetaten.no/rettskilder/type/handboker/skatte-abc/2018/naturalytelser-i-arbeidsforhold/N-1.017/N-1.034/#4-14-2-arbeidsgivers-utplassering-av-datautst)
 setter grenser. Kort oppsummert: Mobiltelefon, programvare og datautstyr som
@@ -119,7 +119,7 @@ med på skatteberegningen. Dette gjelder blant annet:
 Det er den ansattes ansvar å rapportere dette til Variant, så skal Variant
 rapportere videre til myndighetene.
 
-- Du rapporterer inn når du benytter fordelen _ikke_ når du sparer opp. For
+- Du rapporterer inn når du benytter fordelen, _ikke_ når du sparer opp. For
   eksempel når du gjennomfører en reise som betales ved bonuspoeng.
 
 - Du skal bare rapportere inn bruk av poeng som er oppspart ved at Variant har
@@ -193,7 +193,7 @@ timeføres reisetid utenfor normalarbeidstid.
 For noen oppdrag timeføres reisetid utenfor normalarbeidstid på egen
 timeføringskode.
 
-For eksempel; _du bes av kunde om å stille klokken 9:00 i en annen by. Reisetid
+For eksempel: _du bes av kunde om å stille klokken 9:00 i en annen by. Reisetid
 planlegges og kunde informeres om hvordan tiden vil bli timeført. Reisetid fra
 reisens start til oppmøte timeføres i Harvest i tråd med det som er avtalt med
 kunde._
@@ -209,8 +209,8 @@ refusjon av reiseutlegg.
 Du avgjør selv når du ønsker å ta ut ferie i Variant. Dette avtales med nærmeste
 leder og avklares tidlig med kunde slik at oppdraget løses godt. Det samme
 gjelder kortere permisjoner. Skal du ta ut ferie juli eller i påsken kan du bare
-registrere dette i [bemanning](https://bemanning.variant.no) uten videre avklaring med
-leder.
+registrere dette i [bemanning](https://bemanning.variant.no) uten videre
+avklaring med leder.
 
 Foreldrepermisjon bør også avklares så tidlig du har mulighet til. Vi anbefaler
 at dette først diskuteres med nærmeste leder, og så blir dere enige om hvordan
@@ -220,8 +220,8 @@ Det er fullt mulig å redusere stillingen for en periode. Dette gjøres da
 praktisk ved at man har delvis permisjon. Hvis du kommer i en situasjon hvor
 dette er ønskelig avklares også dette med nærmeste leder og så tidlig som mulig.
 
-_NB!_ Husk alltid å oppdatere [bemanning](https://bemanning.variant.no) med planlagt
-ferie og permisjon slik at de som jobber med salg har oversikt.
+_NB!_ Husk alltid å oppdatere [bemanning](https://bemanning.variant.no) med
+planlagt ferie og permisjon slik at de som jobber med salg har oversikt.
 
 ## Sykemelding og egenmelding
 
@@ -249,7 +249,7 @@ Dette betyr at ved langtidssykemelding som i løpet av 4 uker etter oppstart, og
 du ikke har jobbet noe annet sted rett før oppstart, så dekker Variant
 sykepenger for de første 16 dagene som er arbeidsgiverperioden. Deretter har du
 ikke rett på sykepenger fra NAV før du har blitt frisk og jobbet sammenhengende
-i4 uker. _Dette siste avsnittet er spesielt relevant for nyutdannede som kommer
+i 4 uker. _Dette siste avsnittet er spesielt relevant for nyutdannede som kommer
 rett fra skolen._
 
 ## Portere mobilabonnement
@@ -294,6 +294,6 @@ Eller hvis noen andre, typisk tidligere arbeidsgiver, eier abonnementet:
 - [Gadgetoversikt](https://gadget.variant.no) Oversikt over hva som er kjøpt på
   gadget, og hvor mye man har brukt.
 - [Fordelsrapport](https://fordelsrapport.variant.no) Her rapporteres det inn
-  bruk av bonuspoenge eller andre fordelsprogam.
+  bruk av bonuspoeng eller andre fordelsprogam.
 - [Fordelsdokumentasjonen](https://fordelsdokumentasjon.variant.no) Hit laster
   du opp dokumentasjon på ovennevnt bruk.
