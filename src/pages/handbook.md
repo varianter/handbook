@@ -462,6 +462,3 @@ sammen med en rekke startups og andre spennende selskaper. Her har vi mulighet
 til ...... forresten, dette [forklarer Digs bedre selv](https://digs.no/about/).
 
 <img src="./assets/illustrations/beer.svg" alt="Illustrasjon for habitat" class="illustration illustration--left illustration--habitat" />
-
-Så må vi også huske å nevne vårt faste bord på Habitat i førsteetasjen under
-Digs.
