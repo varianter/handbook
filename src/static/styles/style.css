@@ -351,6 +351,10 @@ p {
   top: 8rem;
 }
 
+.illustration--headquarter {
+  top: 1rem;
+}
+
 @media (max-width: 1100px) {
   .content__inner {
     width: 100%;
@@ -398,7 +402,7 @@ p {
     top: 8rem;
   }
 
-  .illustration--habitat {
+  .illustration--headquarter {
     top: 0;
   }
 }
