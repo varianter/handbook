@@ -59,25 +59,22 @@ tilbudt.
   prosjektet. (Se under.)
 - Vurdere vinnersjanser opp mot innsats og oppdragets omfang. Er det verdt
   arbeidet? Har vi riktig kompetanse? Har vi kapasitet?
-- Vurdere etiske sider ved oppdraget. Er dette innafor Variants verdisett.
+- Vurdere etiske sider ved oppdraget. Er dette innafor Variants verdisett?
 
 Vi er opptatt av at våre konsulenter skal oppleve oppdrag som meningsfylte,
-passe utfordrende og morsomme. Vi har tillit til at den ansatte
-vurderer hva som er bra for selskapet og samtidig bra for seg selv. Her er det
-viktig å ta hensyn til selskapets økonomiske situasjon til en hver tid. Basert
-på begge disse perspektiver velger konsulenten om han eller hun ønsker å delta.
+passe utfordrende og morsomme. Vi har tillit til at den ansatte vurderer hva som
+er bra for selskapet og samtidig bra for seg selv. Her er det viktig å ta hensyn
+til selskapets økonomiske situasjon til enhver tid. Basert på begge disse
+perspektiver velger konsulenten om han eller hun ønsker å delta.
 
 ### Lage tilbud
 
 Her må den enkelte bruke sin kreativitet, kunnskap og erfaring for å lage best
 mulige tilbud. Ingen prosess kan erstatte dette, men det er lov å la seg
-inspirere av
-[tidligere arbeid](https://varianttrh.sharepoint.com/:f:/g/EgK-04t2cNpJsZM1cPQ1lIABhpCghLCxSevHIF-TaoC3fw?e=4GsfdG).
+inspirere av tidligere arbeid.
 
-Alt salgsarbeid skal kontinuerlig lagres på
-[docs, under Salg](https://varianttrh.sharepoint.com/:f:/g/EgK-04t2cNpJsZM1cPQ1lIABhpCghLCxSevHIF-TaoC3fw?e=4GsfdG).
-Hver kunde har her sin egen mappe og med en minimumsstruktur som gitt i figuren
-under.
+Alt salgsarbeid skal kontinuerlig lagres på docs, under Salg. Hver kunde har her
+sin egen mappe og med en minimumsstruktur som gitt i figuren under.
 
 <img src="./assets/illustrations/mappestruktur.png" alt="Skisse over mappestruktur" class="illustration illustration--right illustration--folder" />
 
@@ -128,7 +125,7 @@ Vi vil jobbe for å unngå ulykker, miljø- og helseskader slik at vi øker
 trivselen i Variant. Driften skal gi minst mulig påvirkning på det ytre miljø.
 
 Dette skal skje ved at helse, miljø og sikkerhet planlegges og prioriteres på
-samme linje fakturerbart arbeid.
+samme linje som fakturerbart arbeid.
 
 ### Organisering
 
@@ -149,13 +146,13 @@ helse, miljø og sikkerhet som ikke løses direkte.
 
 Selskapet skal legge til rette for at det velges et verneombud. Valget
 gjennomføres årlig under variantdagen i mars. Verneombudet velges for to år om
-gangen. Ledelsen kan ikke delta i valget eller velges som verneombud. 
-Verneombud fra 2019 er Ellen Wagnild-Antonsen.
+gangen. Ledelsen kan ikke delta i valget eller velges som verneombud. Verneombud
+fra 2019 er Ellen Wagnild-Antonsen.
 
 ### Fysiske lokaler
 
-Variant er et konsulentselskap, der hvor mange ansatte tilbringer store deler
-av arbeidstiden ute i kundenes lokaler. HMS-håndboka dekker proaktivt arbeid med
+Variant er et konsulentselskap, der hvor mange ansatte tilbringer store deler av
+arbeidstiden ute i kundenes lokaler. HMS-håndboka dekker proaktivt arbeid med
 lokaler, men vi avgrenser dette til vårt kontor på DIGS.
 
 Hvis ansatte opplever feil, mangler eller farlige situasjoner ute hos kunde
@@ -184,7 +181,7 @@ gjennomgås er gitt i dette
 som fylles ut og arkiveres.
 
 Etter kartleggingen identifiserer verneombudet og daglig leder behov for tiltak
-som registerets i [handlingsplanen](https://trello.com/b/DQX0sirR/operativt) med
+som registreres i [handlingsplanen](https://trello.com/b/DQX0sirR/operativt) med
 ansvarlig og frist for utbedring.
 
 ### Håndtering av feil og mangler
@@ -195,7 +192,7 @@ at de oppstår på nytt.
 Meld fra om feil og mangler til daglig leder. Feil og mangler skal rettes opp
 der problemet oppstår.
 
-Eventuelle tiltak for å rette opp i disse feil eller mangler skal registerets i
+Eventuelle tiltak for å rette opp i disse feil eller mangler skal registreres i
 handlingsplanen.
 
 ### [Handlingsplan](https://trello.com/b/DQX0sirR/operativt)
@@ -296,7 +293,7 @@ En fadder skal være kontaktpunktet for alle praktiske spørsmål om hvordan tin
 gjøres og løses i Variant. I tillegg skal fadder følge opp den ansatte i starten
 med tanke på trivsel og motivasjon.
 
-Før oppstart har fadder  
+Før oppstart har fadder
 [disse konkrete oppgavene](https://handbook.variant.no/quality_manual.html#frem-til-oppstartsdato-fadder)
 og tilsvarende
 [etter oppstart](https://handbook.variant.no/quality_manual.html#etter-oppstartsdato-fadder).

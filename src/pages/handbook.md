@@ -57,7 +57,7 @@ vurderer kostnadene opp mot vinningen og sparrer med andre når det trengs.
 
 Et arbeidsliv består av utrolig mange timer. Da er det viktig at man har det
 morsomt på jobb, og gjør meningsfylt arbeid med mennesker man trives med. Så
-tillat dere en spøk. Le ofte! Gjøre gærne ting! Om det skulle være å komme på
+tillat dere en spøk. Le ofte! Gjør gærne ting! Om det skulle være å komme på
 jobb i OnePiece en dag.
 
 ### Vær stolt
@@ -168,7 +168,7 @@ de ulike forsikringene.
 ### Kurs og konferanser
 
 Vi oppfordrer alle til å delta på en konferanse eller et kurs i året. Vi
-forventer at skjønn utøves og at det man ønsker også gavner selskapet. Større,
+forventer at skjønn utøves og at det man ønsker også gagner selskapet. Større,
 lengre konferanser langt unna som er særskilt kostbare bes det om at man prøver
 å begrense til annethvert år. Hva er best for fellesskapet?
 
@@ -224,11 +224,12 @@ internt, hva ansatte lager og hva kunder lager. Når vi sitter ute hos kunde er
 det som regel kunden som sitter på rettighetene til det vi produserer. Men også
 da kan både kunde og samfunn ha nytte av at noe åpnes. Vi skal hjelpe kundene
 våre med å ta gode avgjørelser rundt dette, og ikke være redd for å stille
-spørsmålet: Kan ikke dette legges ut, da?
+spørsmålet: "Kan ikke dette legges ut, da?"
 
 ### Andre goder og ytelser
 
-- Gadgettbudsjett på 10 000 ekskl. MVA pr år. [Oversikt](http://gadget.variant.no)
+- Gadgetbudsjett på 10 000 pluss moms pr år.
+  [Oversikt](http://gadget.variant.no)
 - Fri bruk av mobiltelefoni (innen rimelighetens grenser iht. databruk)
 - Vi dekker bredbånd hjemme på inntil 500 kr pr mnd
 - Betalt 2 uker permisjon for partner etter fødsel
@@ -279,9 +280,9 @@ rause.
 
 Gjennom året arrangerer vi en del aktiviteter hvor vi inviterer inn variantenes
 familie eller ledsager. Hver høst reiser vi på en utenlandstur hvor alle
-varianter tar med seg sin ledsager. Vårt lille julebord er selvsagt også med følge. 
-Utover dette har vi varierende aktiviteter som
-vi håper familiene har lyst til å være sammen med oss i.
+varianter tar med seg sin ledsager. Vårt lille julebord er selvsagt også med
+følge. Utover dette har vi varierende aktiviteter som vi håper familiene har
+lyst til å være sammen med oss i.
 
 Variant skal selvsagt ikke definere hva som regnes som familie. Hvem du ønsker å
 invitere inn til variantfamilien bestemmer du selv. Om det er kone, barn,
@@ -308,7 +309,7 @@ har gode forutsetninger for å levere godt resultat for våre kunder over lang
 tid. Godt med lys, luft og riktige møbler er avgjørende i så måte.
 
 Variant har igjennom året flere aktiviteter hvor våre ansatte har mulighet til
-fysisk aktivitet. Dette er kan være fjellturer, bedriftsidrett, fiske osv. I
+fysisk aktivitet. Dette kan være fjellturer, bedriftsidrett, fiske osv. I
 tillegg dekker Variant 3T-medlemskapet for de av våre ansatte som synes et
 treningssenter er et hyggelig sted å være.
 
@@ -357,7 +358,7 @@ setter vi høyt.
 Den første fredagen i hver måned (foruten sommermånedene juli og august) har vi
 det vi kaller en variantdag. Dette er en innedag der alle selskapets konsulenter
 bruker hele dagen på Digs, for faglig, administrativt og sosialt påfyll.
-Innholdet på slike dager kan variere og typiske være:
+Innholdet på slike dager kan variere og typisk være:
 
 - Organiserte fagaktiviteter
 - Meetups
@@ -461,4 +462,4 @@ kontorutstyr. Det er også her vi kjører våre variantdager. På Digs jobber vi
 sammen med en rekke startups og andre spennende selskaper. Her har vi mulighet
 til ...... forresten, dette [forklarer Digs bedre selv](https://digs.no/about/).
 
-<img src="./assets/illustrations/beer.svg" alt="Illustrasjon for habitat" class="illustration illustration--left illustration--habitat" />
+<img src="./assets/illustrations/headquarter.svg" alt="Illustrasjon for hovedkvarteret" class="illustration illustration--center illustration--headquarter" />
