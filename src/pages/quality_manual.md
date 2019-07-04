@@ -277,7 +277,7 @@ stadig endring. For tiden ser den slik ut:
 
 ## Sosiale aktiviteter
 
-Vi oppfordrer hverandre til å inkludere hverandre i sosiale lag og kunne dyrke
+Vi oppfordrer alle til å inkludere hverandre i sosiale lag og kunne dyrke
 sine interesser sammen. Dette kan være å lage mat, lese tegneserier eller
 se på sportslige aktiveter. I tillegg har vi faste organiserte sosiale aktiveter
 som hver enkelt kan delta på:
