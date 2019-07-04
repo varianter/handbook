@@ -286,10 +286,10 @@ som hver enkelt kan delta på:
 - Hver 14. dag: Donut med tilfeldig trekt kollega
 - Månedlig frokost i fellesskap
 - Månedlig arrangement etter Variantdag
-- Desember: Julebord med følge
 - Januar: Nyttårskalas (Åpent for alle)
 - Mai/Juni: Sommerfest
 - September: Utenlandstur med følge
+- Desember: Julebord med følge
 
 ## Personaloppfølging
 
