@@ -275,6 +275,22 @@ stadig endring. For tiden ser den slik ut:
 - Oppdater malkortet Onboarding basert på erfaring fra siste onboarding. Hør med
   nyansatt om hun eller han har innspill
 
+## Sosiale aktiviteter
+
+Vi oppfordrer alle til å inkludere hverandre i sosiale lag og kunne dyrke
+sine interesser sammen. Dette kan være å lage mat, lese tegneserier eller
+se på sportslige aktiveter. I tillegg har vi faste organiserte sosiale aktiveter
+som hver enkelt kan delta på:
+
+- Ved oppstart: Faddermiddag
+- Hver 14. dag: Donut med tilfeldig trekt kollega
+- Månedlig frokost i fellesskap
+- Månedlig arrangement etter Variantdag
+- Januar: Nyttårskalas (Åpent for alle)
+- Mai/Juni: Sommerfest
+- September: Utenlandstur med følge
+- Desember: Julebord med følge
+
 ## Personaloppfølging
 
 Variant er summen av vi ansatte, derfor brukes det tid og ressurser på å utvikle
