@@ -215,7 +215,7 @@ kunde._
 Reiser i regi av Variant er som hovedregel frivillige og timeføres ikke.
 
 Se forøvrig
-[dette avsnittet](https://handbook.variant.no/information.html#reiser) for
+[dette avsnittet](https://handbook.variant.no/information.html#reiser-p%C3%A5-variants-regning) for
 refusjon av reiseutlegg.
 
 ## Planlegging av ferie og permisjoner
@@ -274,7 +274,7 @@ eier det i dag.
 
 Hvis du selv er juridisk eier:
 
-1. Gå til eierskifte på [Min Side](https://min-side.telia.no/subs-transfer), og
+1. Gå til eierskifte på [Min Side](https://www.telia.no/mitt-abonnement/bytte-eier/), og
    følger instruksjonene der for å bytte eier.
 1. Gi beskjed på [#helpdesk](slack://channel?id=CBFA8V536&team=T7FAZ8XT2) om at
    skjema er sendt inn og at portering kan iverksettes.
@@ -282,7 +282,7 @@ Hvis du selv er juridisk eier:
 Eller hvis noen andre, typisk tidligere arbeidsgiver, eier abonnementet:
 
 1. Last ned det delvis utfylte
-   [eierskifteskjemaet](https://varianttrh.sharepoint.com/:b:/g/EfSJeOxZz3REsF46oO0ZOiMBG0MMQETWLOom-yxMXrqYnA?e=ijXDmg)
+   [eierskifteskjemaet](https://varianttrh.sharepoint.com/:b:/r/Delte%20dokumenter/Public/telia_eierskifteskjema.pdf?csf=1&e=VcAJlj)
 1. Fyll ut resten, og få dagens eier til å signere.
 1. Send skjemaet på e-post til skjema-eierskifte@telia.no
 1. Gi beskjed på [#helpdesk](slack://channel?id=CBFA8V536&team=T7FAZ8XT2) om at
