@@ -164,7 +164,7 @@ man også laste ned Apps for både Mac og telefoner.
 En full dag regnes som 7,5 timer og en full uke som 37,5 timer. Det er helt i
 orden å flekse tid innenfor en måned. Dette forutsetter selvsagt at det er
 avklart og greit for prosjektet og kunden også. Dvs jobbe litt mer en dag og
-mindre en anne dag innefor samme måned.
+mindre en annen dag innenfor samme måned.
 
 I Variant er det tre hovedtyper av timeføring, kundetid, interntid og fravær.
 All tid skal timeføres inkludert reisetid og pålagt overtid.
@@ -182,7 +182,7 @@ Variantdag brukes for deltagelse på selve variantdagen. Mellom prosjekter
 benyttes bare når man er helt eller delvis ledig, og ikke kan fylle opp dagen
 med andre aktiviteter.
 
-_Merk at frivillige aktiviteter på kvedstid som deltagelse på meetups,
+_Merk at frivillige aktiviteter på kveldstid som deltagelse på meetups,
 konsumering av fagliteratur, podcasts, videoer, etc ikke timeføres, med mindre
 man sammen med selskapet har kommet til at dette er å regne som pålagt arbeid._
 
