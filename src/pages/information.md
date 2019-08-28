@@ -177,6 +177,7 @@ Av interntid har vi disse aktivitetene:
 - Rekruttering
 - Ledelse
 - Mellom prosjekter
+- Fadderaktivitet
 
 Variantdag brukes for deltagelse på selve variantdagen. Mellom prosjekter
 benyttes bare når man er helt eller delvis ledig, og ikke kan fylle opp dagen
