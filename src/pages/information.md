@@ -163,7 +163,7 @@ man også laste ned Apps for både Mac og telefoner.
 
 En full dag regnes som 7,5 timer og en full uke som 37,5 timer. Det er helt i
 orden å flekse tid innenfor en måned. Dette forutsetter selvsagt at det er
-avklart og greit for prosjektet og kunden også. Dvs jobbe litt mer en dag og
+avklart og greit for prosjektet og kunden også. Det betyr at du kan jobbe litt mer en dag og
 mindre en annen dag innenfor samme måned.
 
 I Variant er det tre hovedtyper av timeføring. Dette er kundetid, interntid og fravær.
