@@ -183,7 +183,7 @@ benyttes bare når man er helt eller delvis ledig, og ikke kan fylle opp dagen
 med andre aktiviteter.
 
 _Merk at frivillige aktiviteter på kveldstid som deltagelse på meetups,
-konsumering av fagliteratur, podcasts, videoer, etc ikke timeføres, med mindre
+konsumering av faglitteratur, podcasts, videoer, etc ikke timeføres, med mindre
 man sammen med selskapet har kommet til at dette er å regne som pålagt arbeid._
 
 Av fravær sporer vi disse aktivitetene:
