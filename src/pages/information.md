@@ -166,7 +166,7 @@ orden å flekse tid innenfor en måned. Dette forutsetter selvsagt at det er
 avklart og greit for prosjektet og kunden også. Dvs jobbe litt mer en dag og
 mindre en annen dag innenfor samme måned.
 
-I Variant er det tre hovedtyper av timeføring, kundetid, interntid og fravær.
+I Variant er det tre hovedtyper av timeføring. Dette er kundetid, interntid og fravær.
 All tid skal timeføres inkludert reisetid og pålagt overtid.
 
 Av interntid har vi disse aktivitetene:
