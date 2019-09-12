@@ -198,7 +198,7 @@ Av fravær sporer vi disse aktivitetene:
 - Sykefravær med sykemelding
 - Sykefravær med egenmelding
 - Fravær pga syke barn
-- Legetime (gjelder også tannlege, kiropraktor, etc samt bodgiving)
+- Legetime (gjelder også tannlege, kiropraktor, etc samt blodgiving)
 
 For alle disse kan man føre inntil 7,5 timer pr dag. Bortsett fra Variantdag kan
 summen av fakturerbar tid og den av disse ikke overstige 7,5 timer pr dag.
