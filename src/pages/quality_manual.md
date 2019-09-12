@@ -2,7 +2,7 @@
 
 I vår kvalitetshåndbok har vi samlet rutiner og prosesser for hvordan ting
 gjøres i Variant. Dette er hva vi hittil ser på som den beste måten å løse
-hverdagen. [Har du spørsmål?](https://github.com/varianter/handbook/issues).
+hverdagen. [Har du spørsmål](https://github.com/varianter/handbook/issues)?
 Mener du noe kan gjøres bedre?  
 [Send inn forslag til endring](https://help.github.com/articles/editing-files-in-your-repository/).
 
@@ -277,10 +277,10 @@ stadig endring. For tiden ser den slik ut:
 
 ## Sosiale aktiviteter
 
-Vi oppfordrer alle til å inkludere hverandre i sosiale lag og kunne dyrke
-sine interesser sammen. Dette kan være å lage mat, lese tegneserier eller
-se på sportslige aktiveter. I tillegg har vi faste organiserte sosiale aktiveter
-som hver enkelt kan delta på:
+Vi oppfordrer alle til å inkludere hverandre i sosiale lag og kunne dyrke sine
+interesser sammen. Dette kan være å lage mat, lese tegneserier eller se på
+sportslige aktiveter. I tillegg har vi faste organiserte sosiale aktiveter som
+hver enkelt kan delta på:
 
 - Ved oppstart: Faddermiddag
 - Hver 14. dag: Donut med tilfeldig trekt kollega
