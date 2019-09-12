@@ -198,6 +198,7 @@ Av fravær sporer vi disse aktivitetene:
 - Sykefravær med sykemelding
 - Sykefravær med egenmelding
 - Fravær pga syke barn
+- Legetime (gjelder også tannlege, kiropraktor, etc samt blodgiving)
 
 For alle disse kan man føre inntil 7,5 timer pr dag. Bortsett fra Variantdag kan
 summen av fakturerbar tid og den av disse ikke overstige 7,5 timer pr dag.
@@ -291,7 +292,8 @@ Hvis du selv er juridisk eier:
 
 1. Gå til eierskifte på
    [Min Side](https://www.telia.no/mitt-abonnement/bytte-eier/), og følger
-   instruksjonene der for å bytte eier.
+   instruksjonene der for å bytte eier. Navn på abonnementet er _Click Flyt 10
+   GB+_
 1. Gi beskjed på [#helpdesk](slack://channel?id=CBFA8V536&team=T7FAZ8XT2) om at
    skjema er sendt inn og at portering kan iverksettes.
 
@@ -303,6 +305,19 @@ Eller hvis noen andre, typisk tidligere arbeidsgiver, eier abonnementet:
 1. Send skjemaet på e-post til skjema-eierskifte@telia.no
 1. Gi beskjed på [#helpdesk](slack://channel?id=CBFA8V536&team=T7FAZ8XT2) om at
    skjema er sendt inn og at portering kan iverksettes.
+
+## PC-valg
+
+Våre konsulenter skal ha det verktøyet de er mest komfortabel med, og som trengs
+for å gjøre jobben. Det betyr at de i prinsippet kan velge hvilken maskin som
+helst. Vi har plukket ut noen modeller som basert på vår erfaring så langt er de
+mest populære:
+
+- [MacBook Pro 15](https://www.komplett.no/product/1131260/pc-nettbrett/pc-baerbar-laptop/alle-baerbare-pc-er/macbook-pro-15-2019-512gb-stellargraa)
+- [Lenovo P1 15,6](https://www.komplett.no/product/1095496/pc-nettbrett/pc-baerbar-laptop/arbeidsstasjon/lenovo-p1-156-workstation-full-hd)
+
+Har man behov for noe annet enn disse modellene er det helt i orden, og hver
+enkelt må da gjøre en vurdering av behovet opp mot eventuell ekstra kostnad.
 
 ## Våre internsystemer
 
