@@ -279,7 +279,7 @@ stadig endring. For tiden ser den slik ut:
 
 Vi oppfordrer alle til å inkludere hverandre i sosiale lag og kunne dyrke sine
 interesser sammen. Dette kan være å lage mat, lese tegneserier eller se på
-sportslige aktiveter. I tillegg har vi faste organiserte sosiale aktiveter som
+sportslige aktiviteter. I tillegg har vi faste organiserte sosiale aktiviteter som
 hver enkelt kan delta på:
 
 - Ved oppstart: Faddermiddag
