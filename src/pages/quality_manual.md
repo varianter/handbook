@@ -277,10 +277,10 @@ stadig endring. For tiden ser den slik ut:
 
 ## Sosiale aktiviteter
 
-Vi oppfordrer alle til å inkludere hverandre i sosiale lag og kunne dyrke
-sine interesser sammen. Dette kan være å lage mat, lese tegneserier eller
-se på sportslige aktiveter. I tillegg har vi faste organiserte sosiale aktiveter
-som hver enkelt kan delta på:
+Vi oppfordrer alle til å inkludere hverandre i sosiale lag og kunne dyrke sine
+interesser sammen. Dette kan være å lage mat, lese tegneserier eller se på
+sportslige aktiviteter. I tillegg har vi faste organiserte sosiale aktiviteter som
+hver enkelt kan delta på:
 
 - Ved oppstart: Faddermiddag
 - Hver 14. dag: Donut med tilfeldig trekt kollega
@@ -320,16 +320,17 @@ av å bruke sin fadder er det åpent for det.
 ### Personalleder
 
 Din nærmeste leder kaller vi personalleder. Personalleder har det overordnede
-ansvaret for bistå deg og legge til rette for at du kan vokse og utvikle deg i
+ansvaret for å bistå deg og legge til rette for at du kan vokse og utvikle deg i
 Variant. Personallederen er ditt kontaktpunkt inn i ledergruppen.
 
 I tillegg til at personalleder er den du kan ta kontakt med har Personallederen
 ansvar for å jevnlig følge opp deg. I tillegg vil personalleder ta initiativ til
 å gjennomføre en utviklingssamtale i halvåret.
 
-I Variant praktiserer vi fritt ledervalg. Det vil si at omtrent 3 måneder etter
-oppstart får du velge din personalleder. Tilsvarende kan du når som helst velge
-ny personalleder.
+I Variant praktiserer vi fritt ledervalg. Det vil si at selskapet foreslår en
+personalleder for deg ved oppstart. I denne prosessen skal Variant avklare
+valget med deg. Deretter kan man når som helst velge en ny personalleder ved å
+ta kontakt med daglig leder, styreleder, eller din nåværende personalleder.
 
 En personalleder må være en del av selskapets ledergruppe, være motivert for å
 være personalleder, selv ha valgt å være det, og ha erfaring som coach og med
@@ -342,11 +343,6 @@ For tiden har følgende ledere personalansvar:
 - Tonje
 - Mikael
 - Tore
-
-For at du skal bli kjent med personallederne og ha mulighet til å gjøre deg opp
-en formening om hvem du ønsker som personalleder gjøres valget ca 3 måneder
-etter du har startet i Variant. I perioden fram til du har gjort ditt valg vil
-daglig leder (CEO) være din personalleder.
 
 Relasjonen mellom deg og personallederen er basert på coaching.
 
