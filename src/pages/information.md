@@ -292,7 +292,7 @@ Hvis du selv er juridisk eier:
 
 1. Gå til eierskifte på
    [Min Side](https://www.telia.no/mitt-abonnement/bytte-eier/), og følger
-   instruksjonene der for å bytte eier. Navn på abonementet er _Click Flyt 10
+   instruksjonene der for å bytte eier. Navn på abonnementet er _Click Flyt 10
    GB+_
 1. Gi beskjed på [#helpdesk](slack://channel?id=CBFA8V536&team=T7FAZ8XT2) om at
    skjema er sendt inn og at portering kan iverksettes.
