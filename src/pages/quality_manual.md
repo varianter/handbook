@@ -279,11 +279,11 @@ stadig endring. For tiden ser den slik ut:
 
 Vi oppfordrer alle til å inkludere hverandre i sosiale lag og kunne dyrke sine
 interesser sammen. Dette kan være å lage mat, lese tegneserier eller se på
-sportslige aktiveter. I tillegg har vi faste organiserte sosiale aktiveter som
-hver enkelt kan delta på:
+sportslige aktiviteter. I tillegg har vi faste organiserte sosiale aktiviteter
+som hver enkelt kan delta på:
 
 - Ved oppstart: Faddermiddag
-- Hver 14. dag: Donut med tilfeldig trekt kollega
+- Hver 14. dag: Donut med tilfeldig trukket kollega
 - Månedlig frokost i fellesskap
 - Månedlig arrangement etter Variantdag
 - Januar: Nyttårskalas (Åpent for alle)
