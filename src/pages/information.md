@@ -308,7 +308,7 @@ Eller hvis noen andre, typisk tidligere arbeidsgiver, eier abonnementet:
 
 ## PC-valg
 
-Våre konsulenter skal ha de verktøyet de er mest komfortabel med, og som trengs
+Våre konsulenter skal ha det verktøyet de er mest komfortabel med, og som trengs
 for å gjøre jobben. Det betyr at de i prinsippet kan velge hvilken maskin som
 helst. Vi har plukket ut noen modeller som basert på vår erfaring så langt er de
 mest populære:
