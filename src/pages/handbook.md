@@ -227,10 +227,10 @@ spørsmålet: "Kan ikke dette legges ut, da?"
 
 ### Andre goder og ytelser
 
-- Gadgetbudsjett på 10 000 pluss moms per år.
+- Gadgetbudsjett på 10 000 pluss moms pr. år.
   [Oversikt](http://gadget.variant.no)
 - Fri bruk av mobiltelefoni (innen rimelighetens grenser iht. databruk)
-- Vi dekker bredbånd hjemme på inntil 500 kr per mnd
+- Vi dekker bredbånd hjemme på inntil 500 kr pr. mnd
 - Betalt 2 uker permisjon for partner etter fødsel
 - Full lønn under foreldrepermisjon selv om lønnen skulle overstige 6G
 - 2 dager til barnehagetilvenning
@@ -356,7 +356,7 @@ setter vi høyt.
 
 Den første fredagen i hver måned (foruten sommermånedene juli og august) har vi
 det vi kaller en variantdag. Dette er en innedag der alle selskapets konsulenter
-bruker hele dagen på hjemme på Digs, for faglig, administrativt og sosialt påfyll.
+bruker hele dagen hjemme på Digs, for faglig, administrativt og sosialt påfyll.
 
 ## Stilguide
 
