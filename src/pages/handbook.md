@@ -356,12 +356,7 @@ setter vi høyt.
 
 Den første fredagen i hver måned (foruten sommermånedene juli og august) har vi
 det vi kaller en variantdag. Dette er en innedag der alle selskapets konsulenter
-bruker hele dagen på Digs, for faglig, administrativt og sosialt påfyll.
-Innholdet på slike dager kan variere og typisk være:
-
-- Organiserte fagaktiviteter
-- Meetups
-- Frie dager (med fokus på vår felles utvikling)
+bruker hele dagen på hjemme på Digs, for faglig, administrativt og sosialt påfyll.
 
 ## Stilguide
 
