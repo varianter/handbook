@@ -433,32 +433,3 @@ eierskapet fordelt slik:
 4% av av aksjene er satt av som et målrettet virkemiddel for å tiltrekke oss
 personer som kan bidra til å utvikle Variant og øvrige varianter i en eller
 flere dimensjoner.
-
-## Hverdagsliv
-
-Det er jo hverdagene som er selve livet. Og hos oss er målet at hver en dag skal
-være noe man gleder seg til. Her kan du lese litt om hva du trenger i hverdagen.
-Se også vår oversikt over [interne prosedyrer](./information.html).
-
-<img src="./assets/illustrations/time_management.svg" alt="Illustrasjon for timeføring" class="illustration illustration--left illustration--time--tracking" />
-
-### Timeføring
-
-Ofte kjedelig, men like fullt nødvendig. Det er tross alt timer vi lever av å
-selge. Derfor forsøker vi å gjøre det så lett som mulig å levere inn
-timerapporten hver uke. Jeps, hver uke. Fristen er mandag morgen kl. 9.00 den
-påfølgende uken. Timene føres i [Harvest](https://variantas.harvestapp.com/).
-Herfra kan man også laste ned Apps for både Mac, Windows og telefoner.
-
-Se mer detaljer om hvordan
-[du kan føre timer i interne prosedyrer](./information.html#timeføring).
-
-### Hovedkvarteret
-
-Vi har våre kontorer på arbeidsfellesskapet Digs i Krambugata. Her har vi et
-eget kontor med 3-4 plasser. Her har vi tilgang til gode møterom og
-kontorutstyr. Det er også her vi kjører våre variantdager. På Digs jobber vi
-sammen med en rekke startups og andre spennende selskaper. Her har vi mulighet
-til ...... forresten, dette [forklarer Digs bedre selv](https://digs.no/about/).
-
-<img src="./assets/illustrations/headquarter.svg" alt="Illustrasjon for hovedkvarteret" class="illustration illustration--center illustration--headquarter" />
