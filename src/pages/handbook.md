@@ -415,9 +415,7 @@ begge parter ønsker seg i samme retning.
 ## Eierskap
 
 En av tankene bak å etablere Variant var at selskapet skulle styres og eies med
-lokal forankring. Vi finnes i Trondheim, og skal i hovedsak betjene kunder i
-Midt-Norge. Da mener vi at selskapet skal styres med folk som kjenner Midt-Norge
-og markedet her.
+lokal forankring.
 
 I 2018 etablerte 6 personer Variant, alle med base i Trondheim. I dag er
 eierskapet fordelt slik:
@@ -430,6 +428,5 @@ eierskapet fordelt slik:
 - Tonje - 10%
 - Christian - 2%
 
-4% av av aksjene er satt av som et målrettet virkemiddel for å tiltrekke oss
-personer som kan bidra til å utvikle Variant og øvrige varianter i en eller
+4% av av aksjene er satt av for å få tak i personer som kan bidra til å utvikle hele Variant i en eller
 flere dimensjoner.
