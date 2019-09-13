@@ -374,32 +374,19 @@ sitter på åndsverk.
 
 ## Ansettelse og jobbintervju
 
-Vi tror mange tradisjonelle intervjuer bommer på sentrale deler når det kommer
-til hva de finner ut av. Mange glemmer en viktig del av bransjen vi er i: "soft
-skills". Sosiale evner, kommunikasjonsferdigheter og nysgjerrighet. Det lar seg
-vanskelig måle med tradisjonelle konkrete tekniske spørsmål, og vi har derfor
-prøvd å tenke litt i nye baner for hvordan vi vil gjennomføre intervjuer. Vi har
-satt opp et forløp på 3 steg:
+Vi liker ikke tradisjonelle intervjuer fordi vi mener de hjelper verken søkere eller oss at vise sine beste sider. For å finne ut mer om sosiale evner, kommunikasjonsferdigheter og nysgjerrighet så gjennomføre intervjuer på en litt annen måte:
 
-### 1. Bli kjent-møte (30 min)
+### 1. Kaffeprat ☕️ (30 min)
 
-Her møtes vi til en uformell samtale i uformelle omgivelser. Hvor vi møtes er
-litt opp til jobbsøkeren, men det kan gjerne være på en kafe som søkeren kjenner
-godt til. Formålet med møtet er å finne ut om begge parter har felles verdier og
-mål. Rett og slett om vi er rett for hverandre og om vi kan bidra til å gjøre
-hverandre bedre.
+Her møtes vi til en uformell samtale der formålet med møtet er å finne ut om begge parter har felles verdier og
+mål. Rett og slett om vi er rett for hverandre og om vi kan gjøre
+hverandre bedre. 
 
 ### 2. Samarbeid om en problemstilling (2-3 timer)
 
-Om begge parter fortsatt er interessert etter bli kjent-møtet, kan vi treffes
-for et samarbeidsmøte. Her vil en intervjuer fra Variant og en jobbsøker
-samarbeide om å løse et problem. For utvikling kan det bety par-programmering
-eller felles diskusjon på whiteboard. Hovedformålet er at man samarbeider om
-oppgaven og kommuniserer seg frem til hvordan det kan løses. Før vi setter igang
-med det praktiske vil det være en introduksjon til problemstillingen. Den vil
-være av en sånn natur at det er isolert, og kortfattet. Ikke for ambisiøst.
-
-Eksempel på konkrete caser vi har gjennomført:
+Om begge parter fortsatt er interessert så er det på tide med
+neste møte. Vi starter med en introduksjon til en fiktiv problemstillingen før vi setter igang med det praktiske.  Den vil
+være av en sånn natur at det er isolert og kortfattet. Ikke for ambisiøst, med andre ord. Her er eksempel på problemstillinger vi samarbeidet om:
 
 - Enkel proof of concept for DIY Sonos-høytaler.
 - Konseptualisere, designe og implementere mobilnavigasjon for nettside.
@@ -408,9 +395,9 @@ Eksempel på konkrete caser vi har gjennomført:
 ### 3. Fremtidsdiskusjoner (45 min)
 
 Siste steget i prosessen er en litt mer praktisk rettet samtale. Her får
-jobbsøker mulighet til å stille flere spørsmål til og om Variant. Vi kan og
-stille spørsmål om det vi lurer på til jobbsøker. Her handler det om å finne om
-begge parter ønsker seg i samme retning.
+jobbsøker mulighet til å stille flere spørsmål til og om Variant samtidig som vi kan
+stille spørsmål om det vi lurer. Vi vil være sikkre på at
+begge parter ønsker seg i samme retning. 
 
 ## Eierskap
 
