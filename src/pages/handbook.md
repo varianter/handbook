@@ -227,10 +227,10 @@ spørsmålet: "Kan ikke dette legges ut, da?"
 
 ### Andre goder og ytelser
 
-- Gadgetbudsjett på 10 000 pluss moms pr år.
+- Gadgetbudsjett på 10 000 pluss moms per år.
   [Oversikt](http://gadget.variant.no)
 - Fri bruk av mobiltelefoni (innen rimelighetens grenser iht. databruk)
-- Vi dekker bredbånd hjemme på inntil 500 kr pr mnd
+- Vi dekker bredbånd hjemme på inntil 500 kr per mnd
 - Betalt 2 uker permisjon for partner etter fødsel
 - Full lønn under foreldrepermisjon selv om lønnen skulle overstige 6G
 - 2 dager til barnehagetilvenning
@@ -261,7 +261,7 @@ at også vi oppnår mest når man får jobbe tett med våre kollegaer. Så når 
 velger din arbeidsrytme regner vi med at det også er med i vurderingene.
 
 Likevel er det slik at mange av våre kunder har kjernetid, eller at oppdraget du
-er på avtaler en kjernetid. Dette må vi som konsulenter forholde oss til.
+er på avtaler en kjernetid. Dette må vi forholde oss til.
 
 Vi vet at livet har ulike faser, og at i noen perioder ønsker eller trenger man
 å kunne bruke mindre tid på jobb. Hos oss er det mulig å jobbe mindre i
@@ -277,7 +277,7 @@ Det er blant grunnene til våre arbeidstidsordninger. Vi ønsker også å invite
 familiene inn i vårt selskap, og bli en del av oss. Vi er da tross alt åpne og
 rause.
 
-Gjennom året arrangerer vi en del aktiviteter hvor vi inviterer inn variantenes
+Gjennom året arrangerer vi en del aktiviteter hvor vi inviterer inn
 familie eller ledsager. Hver høst reiser vi på en utenlandstur hvor alle
 varianter tar med seg sin ledsager. Vårt lille julebord er selvsagt også med
 følge. Utover dette har vi varierende aktiviteter som vi håper familiene har
@@ -289,9 +289,9 @@ foreldre eller venner er opp til deg. Vi sier: Hjertelig velkommen!
 
 Variant skal bidra til nærmiljøet og samfunnet der vi finnes. Som beskrevet
 under [goder og ytelser](#andre-goder-og-ytelser) så har hver variant 10 000 kr
-i året til å kjøpe gadgets for. Disse pengene kan du istedet velge å bruke på å
-sponse en frivillig eller veldedig organisasjon. Det kan være fotballaget til
-dattera, UNICEF, eldrekafeen i bydelen eller tilsvarende.
+i året til å kjøpe gadgets for. Disse pengene kan også brukes til å
+sponse en frivillig eller veldedig organisasjon. Fotballaget til
+dattera, UNICEF eller eldrekafeen i bydelen. Valget er ditt!
 
 ## Helse
 
