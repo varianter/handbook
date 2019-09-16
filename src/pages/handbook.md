@@ -369,7 +369,7 @@ sitter på åndsverk.
 
 ## Ansettelse og jobbintervju
 
-Vi liker ikke tradisjonelle intervjuer fordi vi mener de hjelper verken søkere eller oss at vise sine beste sider. For å finne ut mer om sosiale evner, kommunikasjonsferdigheter og nysgjerrighet så gjennomføre intervjuer på en litt annen måte:
+Vi liker ikke tradisjonelle intervjuer. De plasserer søker i en unaturlig situasjon, og vi blir ikke godt kjent med ham eller henne. For å finne ut mer om sosiale evner, kommunikasjonsferdigheter og nysgjerrighet så gjennomføre intervjuer på en litt annen måte:
 
 ### 1. Kaffeprat ☕️ (30 min)
 
