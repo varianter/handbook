@@ -1,0 +1,8 @@
+text:
+- src/pages/*.md
+
+code:
+- src/**/*.{js,html,css}
+
+npm:
+- npm/**/*
