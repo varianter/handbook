@@ -32,14 +32,14 @@ Våre tre grunnverdier er:
 
 Disse verdier ligger til grunn for hvordan vi behandler hverandre. Det skal være
 lav terskel for ros og tilbakemeldinger fordi vi ønsker at du lykkes. Vær den
-som sier hva du har på hjertet ditt og som tørr å utfordre sannheter og
+som sier hva du har på hjertet ditt og som tør å utfordre sannheter og
 gjeldende praksis.
 
 <img src="./assets/illustrations/support.svg" alt="Illustrasjon for Tillit og ansvar" class="illustration illustration--center illustration--support" />
 
 ## Tillit og ansvar
 
-Vi gir oss selve det beste fordi vi forventer detsamme av oss. Vi gir full
+Vi gir oss selve det beste fordi vi forventer det samme av oss. Vi gir full
 tillit til hverandre fordi vi tror at alle er i stand til å gjøre riktige valg.
 Hva du trenger for å lære noe nytt eller gjøre jobben din er opp til deg. Vi
 forventer bare at du selv vurderer kostnadene opp mot vinningen og sparrer med
@@ -51,12 +51,12 @@ andre når det trengs.
 
 Et arbeidsliv består av maaaange timer. Vi trenger nok ikke å forklare at det er
 få ting som er så viktig som at ha det morsomt på jobb, og at gjøre noe som gir
-mening. Gjerne tillsammen med mennesker du trives med. Le ofte! Gjør gærne ting!
+mening. Gjerne sammen med mennesker du trives med. Le ofte! Gjør gærne ting!
 
 ### Vær stolt
 
-Vi vil at du skal være stolte av det du har gjort. Er du ikke den stolte typen?
-Da vil vi gjerne at du har mot til å endre det. Du skal kunne være stolte av å
+Vi vil at du skal være stolte av det du gjør. Er du ikke den stolte typen?
+Da vil vi gjerne at du har mot til å endre på det. Du skal kunne være stolt av å
 være her, nettopp fordi du har gjort så mye bra tidligere. Så rett deg opp i
 ryggen, og si at du jobber i Variant. 🦄
 
@@ -154,7 +154,7 @@ behandlingsforsikring gjennom Gjensidige.
 
 Variant vil ikke være et sted man står fast, vi må lære mer og ut å få litt
 friske impulser innimellom. Alle oppfordres til å delta på en konferanse eller
-ett kurs en gang i året. Om du sett for dig en reise lengre enn langt blir det,
+ett kurs en gang i året. Om du har sett for deg en reise lengre enn langt blir det,
 naturlig nok, ikke like ofte.
 
 Alle ansatte oppfordres til å holde foredrag og kurs. Bidrag på konferanser og
