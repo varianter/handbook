@@ -147,6 +147,14 @@ Av dette kommer `2 761 kr` som neste års feriepenger.
 
 ### Pensjon og forsikring
 
+<<<<<<< HEAD
+=======
+Vi føler oss slett ikke gamle her i Variant. Vi er likevel opptatt av en god
+pensjon. Vi har valgt en pensjonsparing som går langt utover det lovpålagte. Fra
+0 til 12G setter vi av 7% i pensjon. For tiden bruker vi Gjensidige, og den
+ansatte kan selv logge seg inn hos Gjensidige for å velge sin spareprofil og se
+sin saldo.
+>>>>>>> Forbedret tekst på forsikring og konferanser
 
 Vi føler oss jo slett ikke gamle her i Variant.
 Vi er likevel opptatt av en god pensjon. Vi har valgt en pensjonssparing som går
@@ -157,6 +165,7 @@ behandlingsforsikring gjennom Gjensidige.
 
 ### Kurs og konferanser
 
+<<<<<<< HEAD
 Variant vil ikke være et sted man står fast, vi må lære mer og ut å få litt
 friske impulser innimellom. Alle oppfordres til å delta på kurs eller konferanse
 en gang i løpet av året. Om du har sett for deg en reise lengre enn langt blir
@@ -168,6 +177,17 @@ hvor i verden dette skjer, og uavhengig av hvor mange andre
 konferansedeltagelser du har det året.
 
 ### Verktøy og litteratur 🛠📚
+=======
+Vi oppfordrer alle til å delta på en konferanse eller et kurs i året. Vi regner
+med at skjønn utøves og at det man ønsker også gagner selskapet. Større, lengre
+konferanser langt unna som er særskilt kostbare ønsker vi å gjøre bare
+annethvert år. Hva er best for fellesskapet?
+
+Alle oppfordres til å holde foredrag og kurs. Bidrar du på konferanser og
+lignende dekker Variant deltakelse, reise og opphold. Dett er helt uavhengig av
+hvor i verden dette skjer, og uavhengig av hvor mange andre
+konferansedeltagelser du har i år.
+>>>>>>> Forbedret tekst på forsikring og konferanser
 
 Skikkelig jobb krever skikkelige verktøy. Du velger selv datamaskin, og om den
 er liten eller stor, silver eller space gray, spiller ikke så stor rolle.
@@ -228,12 +248,20 @@ spørsmålet: "Kan ikke dette legges ut, da?"
   betaler.
 - 2 dager til barnehagetilvenning.
 - Utvidede rettigheter til
+<<<<<<< HEAD
   [egenmelding og sykepenger](information.html#sykemelding-og-egenmelding).
 - Dekt 3T-medlemskap, eller tilsvarende helsebringende aktivitet eller utstyr, 
     inntil 500,- per måned (NB! Dette er en skattepliktig fordel som rapporteres 
     på din lønnsslipp ved årsslutt). Utgiftsføres på vanlig måte.
 - Behandlingsforsikring.
 - Reiseforsikring for deg og din familie.
+=======
+  [egenmelding og sykepenger](information.html#sykemelding-og-egenmelding)
+- Dekt 3T-medlemskap (NB! Dette er en skattepliktig fordel som rapporteres på
+  din lønnsslipp ved årsslutt)
+- Behandlingsforsikring
+- Reiseforsikring for deg og din familie
+>>>>>>> Forbedret tekst på forsikring og konferanser
 
 ## Arbeidstid
 
@@ -276,7 +304,11 @@ Gjennom året arrangerer vi en del aktiviteter hvor vi inviterer inn familie
 eller ledsager. Hver høst reiser vi på en utenlandstur hvor alle varianter tar
 med seg sin ledsager. Vårt lille julebord er selvsagt også med følge. Utover
 dette har vi varierende aktiviteter som vi håper familiene har lyst til å være
+<<<<<<< HEAD
 med oss på.
+=======
+sammen med oss i.
+>>>>>>> Forbedret tekst på forsikring og konferanser
 
 Variant skal selvsagt ikke definere hva som regnes som familie. Hvem du ønsker å
 invitere inn til variantfamilien bestemmer du selv. Om det er kone, barn,
@@ -365,7 +397,11 @@ sitter på åndsverk.
 ## Ansettelse og jobbintervju
 
 Vi liker ikke tradisjonelle intervjuer. De plasserer søker i en unaturlig
+<<<<<<< HEAD
 situasjon, og vi blir ikke godt kjent med han eller henne. For å finne ut mer om
+=======
+situasjon, og vi blir ikke godt kjent med ham eller henne. For å finne ut mer om
+>>>>>>> Forbedret tekst på forsikring og konferanser
 sosiale evner, kommunikasjonsferdigheter og nysgjerrighet gjør vi intervjuer på
 en litt annen måte:
 
