@@ -39,7 +39,7 @@ gjeldende praksis.
 
 ## Tillit og ansvar
 
-Vi gir oss selve det beste fordi vi forventer det samme av oss. Vi gir full
+Vi gir oss selv det beste fordi vi forventer det samme av oss. Vi gir full
 tillit til hverandre fordi vi tror at alle er i stand til å gjøre riktige valg.
 Hva du trenger for å lære noe nytt eller gjøre jobben din er opp til deg. Vi
 forventer bare at du selv vurderer kostnadene opp mot vinningen og sparrer med
