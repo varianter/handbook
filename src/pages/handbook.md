@@ -175,7 +175,7 @@ konferanser langt unna som er særskilt kostbare ønsker vi å gjøre bare
 annethvert år. Hva er best for fellesskapet?
 
 Alle oppfordres til å holde foredrag og kurs. Bidrar du på konferanser og
-lignende dekker Variant deltakelse, reise og opphold. Dett er helt uavhengig av
+lignende dekker Variant deltakelse, reise og opphold. Dette er helt uavhengig av
 hvor i verden dette skjer, og uavhengig av hvor mange andre
 konferansedeltagelser du har i år.
 
