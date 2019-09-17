@@ -227,10 +227,10 @@ spørsmålet: "Kan ikke dette legges ut, da?"
 
 ### Andre goder og ytelser
 
-- Gadgetbudsjett på 10 000 pluss moms pr år.
+- Gadgetbudsjett på 10 000 pluss moms pr. år.
   [Oversikt](http://gadget.variant.no)
 - Fri bruk av mobiltelefoni (innen rimelighetens grenser iht. databruk)
-- Vi dekker bredbånd hjemme på inntil 500 kr pr mnd
+- Vi dekker bredbånd hjemme på inntil 500 kr pr. mnd
 - Betalt 2 uker permisjon for partner etter fødsel
 - Full lønn under foreldrepermisjon selv om lønnen skulle overstige 6G
 - 2 dager til barnehagetilvenning
@@ -261,7 +261,7 @@ at også vi oppnår mest når man får jobbe tett med våre kollegaer. Så når 
 velger din arbeidsrytme regner vi med at det også er med i vurderingene.
 
 Likevel er det slik at mange av våre kunder har kjernetid, eller at oppdraget du
-er på avtaler en kjernetid. Dette må vi som konsulenter forholde oss til.
+er på avtaler en kjernetid. Dette må vi forholde oss til.
 
 Vi vet at livet har ulike faser, og at i noen perioder ønsker eller trenger man
 å kunne bruke mindre tid på jobb. Hos oss er det mulig å jobbe mindre i
@@ -277,7 +277,7 @@ Det er blant grunnene til våre arbeidstidsordninger. Vi ønsker også å invite
 familiene inn i vårt selskap, og bli en del av oss. Vi er da tross alt åpne og
 rause.
 
-Gjennom året arrangerer vi en del aktiviteter hvor vi inviterer inn variantenes
+Gjennom året arrangerer vi en del aktiviteter hvor vi inviterer inn
 familie eller ledsager. Hver høst reiser vi på en utenlandstur hvor alle
 varianter tar med seg sin ledsager. Vårt lille julebord er selvsagt også med
 følge. Utover dette har vi varierende aktiviteter som vi håper familiene har
@@ -289,9 +289,9 @@ foreldre eller venner er opp til deg. Vi sier: Hjertelig velkommen!
 
 Variant skal bidra til nærmiljøet og samfunnet der vi finnes. Som beskrevet
 under [goder og ytelser](#andre-goder-og-ytelser) så har hver variant 10 000 kr
-i året til å kjøpe gadgets for. Disse pengene kan du istedet velge å bruke på å
-sponse en frivillig eller veldedig organisasjon. Det kan være fotballaget til
-dattera, UNICEF, eldrekafeen i bydelen eller tilsvarende.
+i året til å kjøpe gadgets for. Disse pengene kan også brukes til å
+sponse en frivillig eller veldedig organisasjon. Fotballaget til
+dattera, UNICEF eller eldrekafeen i bydelen. Valget er ditt!
 
 ## Helse
 
@@ -356,12 +356,7 @@ setter vi høyt.
 
 Den første fredagen i hver måned (foruten sommermånedene juli og august) har vi
 det vi kaller en variantdag. Dette er en innedag der alle selskapets konsulenter
-bruker hele dagen på Digs, for faglig, administrativt og sosialt påfyll.
-Innholdet på slike dager kan variere og typisk være:
-
-- Organiserte fagaktiviteter
-- Meetups
-- Frie dager (med fokus på vår felles utvikling)
+bruker hele dagen hjemme på Digs, for faglig, administrativt og sosialt påfyll.
 
 ## Stilguide
 
@@ -374,32 +369,19 @@ sitter på åndsverk.
 
 ## Ansettelse og jobbintervju
 
-Vi tror mange tradisjonelle intervjuer bommer på sentrale deler når det kommer
-til hva de finner ut av. Mange glemmer en viktig del av bransjen vi er i: "soft
-skills". Sosiale evner, kommunikasjonsferdigheter og nysgjerrighet. Det lar seg
-vanskelig måle med tradisjonelle konkrete tekniske spørsmål, og vi har derfor
-prøvd å tenke litt i nye baner for hvordan vi vil gjennomføre intervjuer. Vi har
-satt opp et forløp på 3 steg:
+Vi liker ikke tradisjonelle intervjuer. De plasserer søker i en unaturlig situasjon, og vi blir ikke godt kjent med ham eller henne. For å finne ut mer om sosiale evner, kommunikasjonsferdigheter og nysgjerrighet gjør vi intervjuer på en litt annen måte:
 
-### 1. Bli kjent-møte (30 min)
+### 1. Kaffeprat ☕️ (30 min)
 
-Her møtes vi til en uformell samtale i uformelle omgivelser. Hvor vi møtes er
-litt opp til jobbsøkeren, men det kan gjerne være på en kafe som søkeren kjenner
-godt til. Formålet med møtet er å finne ut om begge parter har felles verdier og
-mål. Rett og slett om vi er rett for hverandre og om vi kan bidra til å gjøre
-hverandre bedre.
+Her møtes vi til en uformell samtale for å finne ut om begge parter har felles verdier og
+mål. Rett og slett om vi er rett for hverandre og om vi kan gjøre
+hverandre bedre. 
 
 ### 2. Samarbeid om en problemstilling (2-3 timer)
 
-Om begge parter fortsatt er interessert etter bli kjent-møtet, kan vi treffes
-for et samarbeidsmøte. Her vil en intervjuer fra Variant og en jobbsøker
-samarbeide om å løse et problem. For utvikling kan det bety par-programmering
-eller felles diskusjon på whiteboard. Hovedformålet er at man samarbeider om
-oppgaven og kommuniserer seg frem til hvordan det kan løses. Før vi setter igang
-med det praktiske vil det være en introduksjon til problemstillingen. Den vil
-være av en sånn natur at det er isolert, og kortfattet. Ikke for ambisiøst.
-
-Eksempel på konkrete caser vi har gjennomført:
+Om begge parter fortsatt er interessert så er det på tide med
+neste møte. Vi starter med en introduksjon til en problemstilling før vi setter i gang med det praktiske.  Den vil
+være av en sånn natur at det er isolert og kortfattet. Ikke for ambisiøst, med andre ord. Her er eksempel på problemstillinger vi kan samarbeide om:
 
 - Enkel proof of concept for DIY Sonos-høytaler.
 - Konseptualisere, designe og implementere mobilnavigasjon for nettside.
@@ -408,16 +390,14 @@ Eksempel på konkrete caser vi har gjennomført:
 ### 3. Fremtidsdiskusjoner (45 min)
 
 Siste steget i prosessen er en litt mer praktisk rettet samtale. Her får
-jobbsøker mulighet til å stille flere spørsmål til og om Variant. Vi kan og
-stille spørsmål om det vi lurer på til jobbsøker. Her handler det om å finne om
-begge parter ønsker seg i samme retning.
+jobbsøker mulighet til å stille flere spørsmål til og om Variant samtidig som vi kan
+stille spørsmål om det vi lurer på. Vi vil være sikre på at
+begge parter ønsker seg i samme retning. 
 
 ## Eierskap
 
 En av tankene bak å etablere Variant var at selskapet skulle styres og eies med
-lokal forankring. Vi finnes i Trondheim, og skal i hovedsak betjene kunder i
-Midt-Norge. Da mener vi at selskapet skal styres med folk som kjenner Midt-Norge
-og markedet her.
+lokal forankring.
 
 I 2018 etablerte 6 personer Variant, alle med base i Trondheim. I dag er
 eierskapet fordelt slik:
@@ -430,35 +410,5 @@ eierskapet fordelt slik:
 - Tonje - 10%
 - Christian - 2%
 
-4% av av aksjene er satt av som et målrettet virkemiddel for å tiltrekke oss
-personer som kan bidra til å utvikle Variant og øvrige varianter i en eller
+4% av av aksjene er satt av for å få tak i personer som kan bidra til å utvikle hele Variant i en eller
 flere dimensjoner.
-
-## Hverdagsliv
-
-Det er jo hverdagene som er selve livet. Og hos oss er målet at hver en dag skal
-være noe man gleder seg til. Her kan du lese litt om hva du trenger i hverdagen.
-Se også vår oversikt over [interne prosedyrer](./information.html).
-
-<img src="./assets/illustrations/time_management.svg" alt="Illustrasjon for timeføring" class="illustration illustration--left illustration--time--tracking" />
-
-### Timeføring
-
-Ofte kjedelig, men like fullt nødvendig. Det er tross alt timer vi lever av å
-selge. Derfor forsøker vi å gjøre det så lett som mulig å levere inn
-timerapporten hver uke. Jeps, hver uke. Fristen er mandag morgen kl. 9.00 den
-påfølgende uken. Timene føres i [Harvest](https://variantas.harvestapp.com/).
-Herfra kan man også laste ned Apps for både Mac, Windows og telefoner.
-
-Se mer detaljer om hvordan
-[du kan føre timer i interne prosedyrer](./information.html#timeføring).
-
-### Hovedkvarteret
-
-Vi har våre kontorer på arbeidsfellesskapet Digs i Krambugata. Her har vi et
-eget kontor med 3-4 plasser. Her har vi tilgang til gode møterom og
-kontorutstyr. Det er også her vi kjører våre variantdager. På Digs jobber vi
-sammen med en rekke startups og andre spennende selskaper. Her har vi mulighet
-til ...... forresten, dette [forklarer Digs bedre selv](https://digs.no/about/).
-
-<img src="./assets/illustrations/headquarter.svg" alt="Illustrasjon for hovedkvarteret" class="illustration illustration--center illustration--headquarter" />
