@@ -9,95 +9,87 @@ eller legge til innhold i den. Håndboken
 [alle kan sende inn endringer](https://help.github.com/articles/editing-files-in-your-repository/)
 eller [stille spørsmål](https://github.com/varianter/handbook/issues).
 
-Om du ikke er en av _våre varianter_ (aka ansatt) og denne håndboken faller i
-smak, [se gjerne ledige stillinger hos oss](https://jobs.variant.no/). Se mer
-info om oss på [nettsiden vår](https://www.variant.no).
+Om du ikke er en variant men du liker hva du ser,
+[ta en titt på ledige stillinger hos oss](https://jobs.variant.no/). Mer info om
+oss på [nettsiden vår](https://www.variant.no).
 
 <img src="./assets/illustrations/mission.svg" alt="Illustrasjon for formål og verdier" class="illustration illustration--right illustration--mission" />
 
 ## Formål og verdier
 
-Så hvorfor har vi startet dette selskapet? Hvorfor er vi egentlig til? Vårt
-formål er **å utvikle samfunnet vi lever i**. Dette ved at flinke personer
-tenker nye tanker, og så lager de riktige løsningene.
+Så, hvorfor Variant? Hvorfor er vi egentlig til? Vårt formål er **å utvikle
+samfunnet vi lever i**. Flinke personer som tenker nye tanker, og så lager de
+riktige løsningene.
 
 Våre tre grunnverdier er:
 
-- **Raushet** - Dette vises i hvordan selskapet skal møte våre ansatte, våre
-  kunder og folk i nærmiljøet.
+- **Raushet** - Dette vises i hvordan vi møter hverandre, våre kunder og folk i
+  nærmiljøet.
 - **Åpenhet** - Hva i all verden skal et selskap tjene på å holde informasjon
   hemmelig for sine ansatte?
-- **Mot** - Vi ønsker folk som har mot til å gjøre radikale ting, mot til å si
-  ifra, mot til å utfordre.
+- **Mot** - Vi ønsker folk som har mot til å gjøre det de mener er riktig, mot
+  til å si ifra, mot til å utfordre.
 
-Våre verdier ligger til grunn for hvordan vi i Variant behandler hverandre. Vi
-er rause med ros og tilbakemeldinger. Vi ønsker at våre kollegaer lykkes, og
-gjør det vi kan for å hjelpe dem med dette. Vi ønsker åpne mennesker som sier
-ifra om hva de har på hjertet, og en ledelse som er åpne for å ta i mot slike
-tilbakemeldinger. Til slutt har vi modige mennesker som våger å utfordre
-sannheter og gjeldende praksis. Vi har mennesker som tør å vise seg fram og som
-blir heiet fram av oss andre. Jante-loven gjelder ikke her.
-
-Disse tre verdiene ligger som grunnlag for alt vi gjør, og også for alt som er
-beskrevet i denne håndboken.
+Disse verdier ligger til grunn for hvordan vi behandler hverandre. Det skal være
+lav terskel for ros og tilbakemeldinger fordi vi ønsker at du lykkes. Vær den
+som sier hva du har på hjertet ditt og som tørr å utfordre sannheter og
+gjeldende praksis.
 
 <img src="./assets/illustrations/support.svg" alt="Illustrasjon for Tillit og ansvar" class="illustration illustration--center illustration--support" />
 
 ## Tillit og ansvar
 
-Vi ønsker å gi våre ansatte det beste, samtidig forventer vi at de ansatte gjør
-sitt beste. Vi har full tillit til våre ansatte, og vi tror at alle er i stand
-til å gjøre riktige valg. Som eksempel har vi derfor ingen formell
-godkjenningsmatrise for investeringer. Vi regner med at den enkelte selv
-vurderer kostnadene opp mot vinningen og sparrer med andre når det trengs.
+Vi gir oss selve det beste fordi vi forventer detsamme av oss. Vi gir full
+tillit til hverandre fordi vi tror at alle er i stand til å gjøre riktige valg.
+Hva du trenger for å lære noe nytt eller gjøre jobben din er opp til deg. Vi
+forventer bare at du selv vurderer kostnadene opp mot vinningen og sparrer med
+andre når det trengs.
 
 <img src="./assets/illustrations/fun.svg" alt="Illustrasjon for ha det morsomt" class="illustration illustration--left illustration--fun" />
 
 ### Ha det morsomt
 
-Et arbeidsliv består av utrolig mange timer. Da er det viktig at man har det
-morsomt på jobb, og gjør meningsfylt arbeid med mennesker man trives med. Så
-tillat dere en spøk. Le ofte! Gjør gærne ting! Om det skulle være å komme på
-jobb i OnePiece en dag.
+Et arbeidsliv består av maaaange timer. Vi trenger nok ikke å forklare at det er
+få ting som er så viktig som at ha det morsomt på jobb, og at gjøre noe som gir
+mening. Gjerne tillsammen med mennesker du trives med. Le ofte! Gjør gærne ting!
 
 ### Vær stolt
 
-Vi vil at våre ansatte skal være stolte av det de har gjort, og legge stolthet i
-det de gjør. Er du ikke stolt av det du gjør vil vi gjerne at du har mot til å
-endre det. I Variant skal vi kunne være stolte av å være her, nettopp fordi vi
-alle har gjort så mye bra tidligere. Så rett deg opp i ryggen og si at du jobber
-i Variant.
+Vi vil at du skal være stolte av det du har gjort. Er du ikke den stolte typen?
+Da vil vi gjerne at du har mot til å endre det. Du skal kunne være stolte av å
+være her, nettopp fordi du har gjort så mye bra tidligere. Så rett deg opp i
+ryggen, og si at du jobber i Variant. 🦄
 
-### Del
+### Del, del, del!
 
-For å lykkes (både i Variant og livet ellers) trenger vi at noen hjelper oss
-fram og deler med oss det de nettopp har lært eller har kunnet i mange år. Del
-med dine kollegaer hele tiden. Kanskje har noen av dem hørt om dette før, men
-kanskje har noen ikke det. Og da er det verdt det. Så om du er teknologisjef
-eller helt nyansatt; vi trenger hjelp fra deg.
+For å lykkes (både i Variant og livet ellers) trenger vi at alle er med å deler
+det de har nettopp lært eller har kunnet i mange år. Del med dine kollegaer hele
+tiden. Ikke hold tilbake for at noen kanskje har hørt om dette før – alle har
+garantert _ikke_ det. Og da, er det verdt det. Spiller ikke noen rolle om du er
+selveste Gandalf eller om du ble ansatt forrige mandag; vi trenger hjelp fra
+deg.
 
 <img src="./assets/illustrations/air.svg" alt="Illustrasjon for åpenhet" class="illustration illustration--center illustration--open" />
 
 ## Åpenhet
 
-I vårt selskap er det slik at åpenhet er utgangspunktet. Det vil si at hvis noe
-lages, etableres, dokumenteres eller hva som helst, så skal ingen trenge å
-vurdere om dette skal publiseres. Det er motsatt, vi må ha en god grunn for at
-det faktisk **ikke** skal publiseres. Denne forskjellen er betydelig. Her er
-noen eksempler på hva dette betyr i praksis.
+Her på Variant er det slik at åpenhet er utgangspunktet. Hvis noe lages,
+etableres, dokumenteres eller hva det enn må være, så skal ingen trenge å
+vurdere om dette skal publiseres. Stikk motsatt, faktisk. Vi må ha en god grunn
+for at det faktisk **ikke** skal publiseres. Denne forskjellen er betydelig. Her
+er noen eksempler på hva dette betyr i praksis.
 
 - Vi har ingen hemmelig eller begrenset salgsprosess hvor bare noen få vet hva
   som tilbys hvor og hvordan. Alle ansatte har full tilgang til Trello-boardet
-  hvor alle salgs-caser legges inn og følges opp. Vi har et ukentlig salgsmøte,
-  der de som jobber med salg møtes. I dette møtet er det fritt for alle å sitte
-  med hvis de skulle ønske det.
+  hvor alle salgs-caser legges inn og følges opp. De ukentlig salgsmøte, der de
+  som jobber med salg møtes, er det fritt for alle å sitte med hvis de vil.
 
 - I Variant vet alle hva alle tjener. Ikke bare basert på at lønnen beregnes ut
   fra en kjent statistikk, men faktisk også slik at selskapet har en åpen
   lønnsbok, hvor alle ansatte har tilgang.
 
-- Alle styredokumenter ligger på vårt felles filområde. Og der har alle ansatte
-  også tilgang.
+- Alle styredokumenter ligger på vårt felles filområde der alle ansatte har,
+  sjokkerende nok, også tilgang!
 
 - Til slutt, som et siste "bevis"; denne håndboken. Den er åpen for hele verden.
   Ikke bare kan ansatte endre, men alle lesere også. Dette gjelder og andre
@@ -106,38 +98,35 @@ noen eksempler på hva dette betyr i praksis.
 
 ## Betingelser
 
-At raushet er en av våre grunnverdier skal reflekteres i våre betingelser. Og
-det handler om så mye mer enn bare månedslønna.
+Raushet kan bety en god lønn, men for oss handler det om mye mer enn så.
 
 <img src="./assets/illustrations/credit_card.svg" alt="Illustrasjon for lønn" class="illustration illustration--right illustration--salary" />
 
 ### Lønn
 
 Vi er sikre på at flinke folk i liten grad lar seg motivere av lønn alene, men
-god lønn er like fullt viktig for å kunne ha den friheten og stabiliteten vi
-ønsker at våre ansatte skal ha. Det får du i Variant. Tilsvarende har vi liten
-tro på å belønne enkeltpersoner med gode lønnsoppgjør, og implisitt straffe de
-andre med dårligere oppgjør. Individuelle vurderinger av den enkelte ansatte
+god lønn er like fullt viktig for frihet og stabilitet vi ønsker at gi.
+Tilsvarende har vi liten tro på å belønne enkeltpersoner med gode lønnsoppgjør,
+og implisitt straffe de andre med dårligere oppgjør. Individuelle vurderinger
 blir aldri noe annet enn subjektive meninger og trynefaktor. Ingen skal måtte
-være freidige for å be om å få det de fortjener. Det skal komme automatisk.
+være freidige for å be om å få det de fortjener – det skal komme automatisk.
 
-Vi har derfor valgt at lønnen i Variant utelukkende bestemmes av en utjevnet
-kurve for Teknas lønnsstatistikk og at vi skal ligge på øvre kvartil av denne
-statistikken. Med andre ord alle får lik lønn basert på antall års erfaring. I
-tillegg er hva den enkelte tjener åpent for alle ansatte.
+Lønnen vår bestemmes utelukkende av en utjevnet kurve for Teknas lønnsstatistikk
+og vi skal ligge på øvre kvartil av denne. Med andre ord alle får lik lønn
+basert på antall års erfaring. I tillegg er hva den enkelte tjener åpent for
+alle ansatte.
 
 For nyutdannede har vi valgt å legge oss på Teknas startlønnsanbefaling.
 
 ### Overtidstillegg
 
-Vi ønsker egentlig ikke å jobbe overtid. Vi har tro på at kvaliteten på arbeidet
-er best hvis vi har godt med overskudd. I tillegg er vi sikre på at
-livskvaliteten er best ved en god balanse mellom jobb og fritid. Likevel finnes
-det kortere perioder hvor ulike prosjekt har det veldig travelt, og hvor det kan
-være nødvendig å jobbe litt ekstra.
+Vi ønsker ikke å jobbe overtid. Kvaliteten på arbeidet er best hvis vi har godt
+med overskudd, og det sikrer vi ved en balanse mellom jobb og fritid. Likevel
+finnes det kortere perioder hvor det blir veldig travelt, og hvor det kan være
+nødvendig å jobbe litt ekstra.
 
 Dette vil da føre til utbetaling av overtidstillegg. Overtidstillegget avregnes
-pr måned, og utbetales den påfølgende måneden. Det er bare fakturerbar tid som
+pr. måned, og utbetales den påfølgende måneden. Det er bare fakturerbar tid som
 fører til overtid. Overtidstillegget 40% og overtidslønnen beregnes ved å ta
 `antall timer overtid for en måned * årslønn / 1960 * 1,4`.
 
@@ -156,21 +145,17 @@ arbeidsgiveravgift slik at hver enkelts bonus dette kvartalet blir `25 770 kr`.
 
 Vi føler oss jo slett ikke gamle her i Variant, og mange er jo heller ikke det.
 Vi er uansett opptatt av en god pensjon. Vi har valgt en pensjonsparing som går
-langt utover det lovpålagte. Fra 0 til 12G setter vi av 7% i pensjon. For tiden
-bruker vi Gjensidige her, og den ansatte kan selv logge seg inn hos Gjensidige
-for å velge sin spareprofil samt se sin saldo.
+langt utover det lovpålagte. Fra 0 til 12G setter vi av 7% i pensjon.
 
-Vi benytter også Gjensidige for forsikringer. Ut over vanlig
-yrkesskadeforsikring har vi reiseforsikring, helseforsikring og
-behandlingsforsikring. Logg inn på Gjensidiges nettsider for å se detaljer rundt
-de ulike forsikringene.
+Ut over vanlig yrkesskadeforsikring har vi reiseforsikring, helseforsikring og
+behandlingsforsikring gjennom Gjensidige.
 
 ### Kurs og konferanser
 
-Vi oppfordrer alle til å delta på en konferanse eller et kurs i året. Vi
-forventer at skjønn utøves og at det man ønsker også gagner selskapet. Større,
-lengre konferanser langt unna som er særskilt kostbare bes det om at man prøver
-å begrense til annethvert år. Hva er best for fellesskapet?
+Variant vil ikke være et sted man står fast, vi må lære mer og ut å få litt
+friske impulser innimellom. Alle oppfordres til å delta på en konferanse eller
+ett kurs en gang i året. Om du sett for dig en reise lengre enn langt blir det,
+naturlig nok, ikke like ofte.
 
 Alle ansatte oppfordres til å holde foredrag og kurs. Bidrag på konferanser og
 lignende gir dekt deltakelse og dekt reise/opphold helt uavhengig av hvor mange
@@ -236,7 +221,8 @@ spørsmålet: "Kan ikke dette legges ut, da?"
 - 2 dager til barnehagetilvenning
 - Utvidede rettigheter til
   [egenmelding og sykepenger](information.html#sykemelding-og-egenmelding)
-- Dekt 3T-medlemskap (NB! Dette er en skattepliktig fordel som rapporteres på din lønnsslipp ved årsslutt)
+- Dekt 3T-medlemskap (NB! Dette er en skattepliktig fordel som rapporteres på
+  din lønnsslipp ved årsslutt)
 - Behandlingsforsikring
 - Reiseforsikring for deg og din familie
 
@@ -277,11 +263,11 @@ Det er blant grunnene til våre arbeidstidsordninger. Vi ønsker også å invite
 familiene inn i vårt selskap, og bli en del av oss. Vi er da tross alt åpne og
 rause.
 
-Gjennom året arrangerer vi en del aktiviteter hvor vi inviterer inn
-familie eller ledsager. Hver høst reiser vi på en utenlandstur hvor alle
-varianter tar med seg sin ledsager. Vårt lille julebord er selvsagt også med
-følge. Utover dette har vi varierende aktiviteter som vi håper familiene har
-lyst til å være sammen med oss i.
+Gjennom året arrangerer vi en del aktiviteter hvor vi inviterer inn familie
+eller ledsager. Hver høst reiser vi på en utenlandstur hvor alle varianter tar
+med seg sin ledsager. Vårt lille julebord er selvsagt også med følge. Utover
+dette har vi varierende aktiviteter som vi håper familiene har lyst til å være
+sammen med oss i.
 
 Variant skal selvsagt ikke definere hva som regnes som familie. Hvem du ønsker å
 invitere inn til variantfamilien bestemmer du selv. Om det er kone, barn,
@@ -289,9 +275,9 @@ foreldre eller venner er opp til deg. Vi sier: Hjertelig velkommen!
 
 Variant skal bidra til nærmiljøet og samfunnet der vi finnes. Som beskrevet
 under [goder og ytelser](#andre-goder-og-ytelser) så har hver variant 10 000 kr
-i året til å kjøpe gadgets for. Disse pengene kan også brukes til å
-sponse en frivillig eller veldedig organisasjon. Fotballaget til
-dattera, UNICEF eller eldrekafeen i bydelen. Valget er ditt!
+i året til å kjøpe gadgets for. Disse pengene kan også brukes til å sponse en
+frivillig eller veldedig organisasjon. Fotballaget til dattera, UNICEF eller
+eldrekafeen i bydelen. Valget er ditt!
 
 ## Helse
 
@@ -369,19 +355,24 @@ sitter på åndsverk.
 
 ## Ansettelse og jobbintervju
 
-Vi liker ikke tradisjonelle intervjuer. De plasserer søker i en unaturlig situasjon, og vi blir ikke godt kjent med ham eller henne. For å finne ut mer om sosiale evner, kommunikasjonsferdigheter og nysgjerrighet gjør vi intervjuer på en litt annen måte:
+Vi liker ikke tradisjonelle intervjuer. De plasserer søker i en unaturlig
+situasjon, og vi blir ikke godt kjent med ham eller henne. For å finne ut mer om
+sosiale evner, kommunikasjonsferdigheter og nysgjerrighet gjør vi intervjuer på
+en litt annen måte:
 
 ### 1. Kaffeprat ☕️ (30 min)
 
-Her møtes vi til en uformell samtale for å finne ut om begge parter har felles verdier og
-mål. Rett og slett om vi er rett for hverandre og om vi kan gjøre
-hverandre bedre. 
+Her møtes vi til en uformell samtale for å finne ut om begge parter har felles
+verdier og mål. Rett og slett om vi er rett for hverandre og om vi kan gjøre
+hverandre bedre.
 
 ### 2. Samarbeid om en problemstilling (2-3 timer)
 
-Om begge parter fortsatt er interessert så er det på tide med
-neste møte. Vi starter med en introduksjon til en problemstilling før vi setter i gang med det praktiske.  Den vil
-være av en sånn natur at det er isolert og kortfattet. Ikke for ambisiøst, med andre ord. Her er eksempel på problemstillinger vi kan samarbeide om:
+Om begge parter fortsatt er interessert så er det på tide med neste møte. Vi
+starter med en introduksjon til en problemstilling før vi setter i gang med det
+praktiske. Den vil være av en sånn natur at det er isolert og kortfattet. Ikke
+for ambisiøst, med andre ord. Her er eksempel på problemstillinger vi kan
+samarbeide om:
 
 - Enkel proof of concept for DIY Sonos-høytaler.
 - Konseptualisere, designe og implementere mobilnavigasjon for nettside.
@@ -390,9 +381,9 @@ være av en sånn natur at det er isolert og kortfattet. Ikke for ambisiøst, me
 ### 3. Fremtidsdiskusjoner (45 min)
 
 Siste steget i prosessen er en litt mer praktisk rettet samtale. Her får
-jobbsøker mulighet til å stille flere spørsmål til og om Variant samtidig som vi kan
-stille spørsmål om det vi lurer på. Vi vil være sikre på at
-begge parter ønsker seg i samme retning. 
+jobbsøker mulighet til å stille flere spørsmål til og om Variant samtidig som vi
+kan stille spørsmål om det vi lurer på. Vi vil være sikre på at begge parter
+ønsker seg i samme retning.
 
 ## Eierskap
 
@@ -410,5 +401,5 @@ eierskapet fordelt slik:
 - Tonje - 10%
 - Christian - 2%
 
-4% av av aksjene er satt av for å få tak i personer som kan bidra til å utvikle hele Variant i en eller
-flere dimensjoner.
+4% av av aksjene er satt av for å få tak i personer som kan bidra til å utvikle
+hele Variant i en eller flere dimensjoner.
