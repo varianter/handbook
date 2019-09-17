@@ -145,20 +145,22 @@ fører til overtid. Overtidstillegget 40% og overtidslønnen beregnes ved å ta
 
 Hvert kvartal utbetaler Variant bonus til alle ansatte. Denne beregnes som 30%
 av overskuddet dette kvartalet, delt likt på alle ansatte. Vi må også betale
-arbeidsgiveravgift på bonus, slik at dette trekkes fra. Hvis noen har vært
-ansatt bare deler av et kvartal, justeres deres andel etter dette.
+arbeidsgiveravgift på bonus, slik at dette trekkes fra. Dette regnes som lønn
+inklusive feriepenger, så 10,7% utsettes til neste års feriepenger. Hvis noen
+har vært ansatt bare deler av et kvartal, justeres deres andel etter dette.
 
 **Eksempel**: Gitt 10 ansatte og et kvartalsvis overskudd på _én million_, deler
 vi `30%` av overskuddet på 10 og får `30 000`. Så skal det betales `14,1%`
 arbeidsgiveravgift slik at hver enkelts bonus dette kvartalet blir `25 770 kr`.
+Av dette kommer `2 761 kr` som neste års feriepenger.
 
 ### Pensjon og forsikring
 
-Vi føler oss jo slett ikke gamle her i Variant, og mange er jo heller ikke det.
-Vi er uansett opptatt av en god pensjon. Vi har valgt en pensjonsparing som går
-langt utover det lovpålagte. Fra 0 til 12G setter vi av 7% i pensjon. For tiden
-bruker vi Gjensidige her, og den ansatte kan selv logge seg inn hos Gjensidige
-for å velge sin spareprofil samt se sin saldo.
+Vi føler oss slett ikke gamle her i Variant. Vi er likevel opptatt av en god
+pensjon. Vi har valgt en pensjonsparing som går langt utover det lovpålagte. Fra
+0 til 12G setter vi av 7% i pensjon. For tiden bruker vi Gjensidige, og den
+ansatte kan selv logge seg inn hos Gjensidige for å velge sin spareprofil og se
+sin saldo.
 
 Vi benytter også Gjensidige for forsikringer. Ut over vanlig
 yrkesskadeforsikring har vi reiseforsikring, helseforsikring og
@@ -167,14 +169,15 @@ de ulike forsikringene.
 
 ### Kurs og konferanser
 
-Vi oppfordrer alle til å delta på en konferanse eller et kurs i året. Vi
-forventer at skjønn utøves og at det man ønsker også gagner selskapet. Større,
-lengre konferanser langt unna som er særskilt kostbare bes det om at man prøver
-å begrense til annethvert år. Hva er best for fellesskapet?
+Vi oppfordrer alle til å delta på en konferanse eller et kurs i året. Vi regner
+med at skjønn utøves og at det man ønsker også gagner selskapet. Større, lengre
+konferanser langt unna som er særskilt kostbare ønsker vi å gjøre bare
+annethvert år. Hva er best for fellesskapet?
 
-Alle ansatte oppfordres til å holde foredrag og kurs. Bidrag på konferanser og
-lignende gir dekt deltakelse og dekt reise/opphold helt uavhengig av hvor mange
-andre ekskursjoner du har vært på i år, og hvor i verden dette skjer.
+Alle oppfordres til å holde foredrag og kurs. Bidrar du på konferanser og
+lignende dekker Variant deltakelse, reise og opphold. Dett er helt uavhengig av
+hvor i verden dette skjer, og uavhengig av hvor mange andre
+konferansedeltagelser du har i år.
 
 ### Datamaskiner, programvare og litteratur
 
@@ -236,7 +239,8 @@ spørsmålet: "Kan ikke dette legges ut, da?"
 - 2 dager til barnehagetilvenning
 - Utvidede rettigheter til
   [egenmelding og sykepenger](information.html#sykemelding-og-egenmelding)
-- Dekt 3T-medlemskap (NB! Dette er en skattepliktig fordel som rapporteres på din lønnsslipp ved årsslutt)
+- Dekt 3T-medlemskap (NB! Dette er en skattepliktig fordel som rapporteres på
+  din lønnsslipp ved årsslutt)
 - Behandlingsforsikring
 - Reiseforsikring for deg og din familie
 
@@ -277,11 +281,11 @@ Det er blant grunnene til våre arbeidstidsordninger. Vi ønsker også å invite
 familiene inn i vårt selskap, og bli en del av oss. Vi er da tross alt åpne og
 rause.
 
-Gjennom året arrangerer vi en del aktiviteter hvor vi inviterer inn
-familie eller ledsager. Hver høst reiser vi på en utenlandstur hvor alle
-varianter tar med seg sin ledsager. Vårt lille julebord er selvsagt også med
-følge. Utover dette har vi varierende aktiviteter som vi håper familiene har
-lyst til å være sammen med oss i.
+Gjennom året arrangerer vi en del aktiviteter hvor vi inviterer inn familie
+eller ledsager. Hver høst reiser vi på en utenlandstur hvor alle varianter tar
+med seg sin ledsager. Vårt lille julebord er selvsagt også med følge. Utover
+dette har vi varierende aktiviteter som vi håper familiene har lyst til å være
+sammen med oss i.
 
 Variant skal selvsagt ikke definere hva som regnes som familie. Hvem du ønsker å
 invitere inn til variantfamilien bestemmer du selv. Om det er kone, barn,
@@ -289,9 +293,9 @@ foreldre eller venner er opp til deg. Vi sier: Hjertelig velkommen!
 
 Variant skal bidra til nærmiljøet og samfunnet der vi finnes. Som beskrevet
 under [goder og ytelser](#andre-goder-og-ytelser) så har hver variant 10 000 kr
-i året til å kjøpe gadgets for. Disse pengene kan også brukes til å
-sponse en frivillig eller veldedig organisasjon. Fotballaget til
-dattera, UNICEF eller eldrekafeen i bydelen. Valget er ditt!
+i året til å kjøpe gadgets for. Disse pengene kan også brukes til å sponse en
+frivillig eller veldedig organisasjon. Fotballaget til dattera, UNICEF eller
+eldrekafeen i bydelen. Valget er ditt!
 
 ## Helse
 
@@ -369,19 +373,24 @@ sitter på åndsverk.
 
 ## Ansettelse og jobbintervju
 
-Vi liker ikke tradisjonelle intervjuer. De plasserer søker i en unaturlig situasjon, og vi blir ikke godt kjent med ham eller henne. For å finne ut mer om sosiale evner, kommunikasjonsferdigheter og nysgjerrighet gjør vi intervjuer på en litt annen måte:
+Vi liker ikke tradisjonelle intervjuer. De plasserer søker i en unaturlig
+situasjon, og vi blir ikke godt kjent med ham eller henne. For å finne ut mer om
+sosiale evner, kommunikasjonsferdigheter og nysgjerrighet gjør vi intervjuer på
+en litt annen måte:
 
 ### 1. Kaffeprat ☕️ (30 min)
 
-Her møtes vi til en uformell samtale for å finne ut om begge parter har felles verdier og
-mål. Rett og slett om vi er rett for hverandre og om vi kan gjøre
-hverandre bedre. 
+Her møtes vi til en uformell samtale for å finne ut om begge parter har felles
+verdier og mål. Rett og slett om vi er rett for hverandre og om vi kan gjøre
+hverandre bedre.
 
 ### 2. Samarbeid om en problemstilling (2-3 timer)
 
-Om begge parter fortsatt er interessert så er det på tide med
-neste møte. Vi starter med en introduksjon til en problemstilling før vi setter i gang med det praktiske.  Den vil
-være av en sånn natur at det er isolert og kortfattet. Ikke for ambisiøst, med andre ord. Her er eksempel på problemstillinger vi kan samarbeide om:
+Om begge parter fortsatt er interessert så er det på tide med neste møte. Vi
+starter med en introduksjon til en problemstilling før vi setter i gang med det
+praktiske. Den vil være av en sånn natur at det er isolert og kortfattet. Ikke
+for ambisiøst, med andre ord. Her er eksempel på problemstillinger vi kan
+samarbeide om:
 
 - Enkel proof of concept for DIY Sonos-høytaler.
 - Konseptualisere, designe og implementere mobilnavigasjon for nettside.
@@ -390,9 +399,9 @@ være av en sånn natur at det er isolert og kortfattet. Ikke for ambisiøst, me
 ### 3. Fremtidsdiskusjoner (45 min)
 
 Siste steget i prosessen er en litt mer praktisk rettet samtale. Her får
-jobbsøker mulighet til å stille flere spørsmål til og om Variant samtidig som vi kan
-stille spørsmål om det vi lurer på. Vi vil være sikre på at
-begge parter ønsker seg i samme retning. 
+jobbsøker mulighet til å stille flere spørsmål til og om Variant samtidig som vi
+kan stille spørsmål om det vi lurer på. Vi vil være sikre på at begge parter
+ønsker seg i samme retning.
 
 ## Eierskap
 
@@ -410,5 +419,5 @@ eierskapet fordelt slik:
 - Tonje - 10%
 - Christian - 2%
 
-4% av av aksjene er satt av for å få tak i personer som kan bidra til å utvikle hele Variant i en eller
-flere dimensjoner.
+4% av av aksjene er satt av for å få tak i personer som kan bidra til å utvikle
+hele Variant i en eller flere dimensjoner.
