@@ -163,11 +163,11 @@ andre ekskursjoner du har vært på i år, og hvor i verden dette skjer.
 
 ### Datamaskiner, programvare og litteratur
 
-Alle får det de trenger for å kunne gjøre en skikkelig jobb. Du velger selv
-hvilken datamaskin du ønsker å jobbe med. Liten eller stor, det avgjør du best.
-Det er heller ikke slik at det er et gitt antall års brukstid på maskinene. Du
-får en ny maskin når du har behov for det, uavhengig av om det har gått ett
-eller tre år. Som sagt velger du selv hvilken maskin du benytter. Se også
+Skikkelig jobb krever skikkelige verktøy. Du velger selv datamaskin å om den er
+liten eller stor, silver eller space gray, spiller ikke så stor rolle. Det er
+heller ikke slik at det er et gitt antall års brukstid på maskinene. Du får en
+ny maskin når du har behov for det, uavhengig av om det har gått ett eller tre
+år. Som sagt velger du selv hvilken maskin du benytter. Se også
 [PC-valg](information.html#pc-valg) for de mest brukte modellene.
 
 **NB!** Variant har ingen helpdesk eller supportavdeling, så skaff deg utstyr du
