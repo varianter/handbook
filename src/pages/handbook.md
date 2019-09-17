@@ -177,7 +177,7 @@ annethvert år. Hva er best for fellesskapet?
 Alle oppfordres til å holde foredrag og kurs. Bidrar du på konferanser og
 lignende dekker Variant deltagelse, reise og opphold. Dette er helt uavhengig av
 hvor i verden dette skjer, og uavhengig av hvor mange andre
-konferansedeltagelser du har i år.
+konferansedeltagelser du har det året.
 
 ### Datamaskiner, programvare og litteratur
 
