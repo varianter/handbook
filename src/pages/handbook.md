@@ -50,7 +50,7 @@ andre når det trengs.
 ### Ha det morsomt
 
 Et arbeidsliv består av maaaange timer. Vi trenger nok ikke å forklare at det er
-få ting som er så viktig som at ha det morsomt på jobb, og at gjøre noe som gir
+få ting som er så viktig som å ha det morsomt på jobb, og å gjøre noe som gir
 mening. Gjerne sammen med mennesker du trives med. Le ofte! Gjør gærne ting!
 
 ### Vær stolt
@@ -62,7 +62,7 @@ ryggen, og si at du jobber i Variant. 🦄
 
 ### Del, del, del!
 
-For å lykkes (både i Variant og livet ellers) trenger vi at alle er med å deler
+For å lykkes, både i Variant og livet ellers,  trenger vi at alle er med å deler
 det de har nettopp lært eller har kunnet i mange år. Del med dine kollegaer hele
 tiden. Ikke hold tilbake for at noen kanskje har hørt om dette før – alle har
 garantert _ikke_ det. Og da, er det verdt det. Spiller ikke noen rolle om du er
@@ -73,10 +73,10 @@ deg.
 
 ## Åpenhet
 
-Her på Variant er det slik at åpenhet er utgangspunktet. Hvis noe lages,
-etableres, dokumenteres eller hva det enn må være, så skal ingen trenge å
-vurdere om dette skal publiseres. Stikk motsatt, faktisk. Vi må ha en god grunn
-for at det faktisk **ikke** skal publiseres. Denne forskjellen er betydelig. Her
+Her i Variant er det slik at åpenhet er utgangspunktet. Hvis noe lages,
+etableres, dokumenteres eller hva det enn måtte være, så skal ingen trenge å
+vurdere om dette skal publiseres. Stikk motsatt faktisk! Vi må ha en god grunn
+for at det **ikke** skal publiseres. Denne forskjellen er betydelig. Her
 er noen eksempler på hva dette betyr i praksis.
 
 - Vi har ingen hemmelig eller begrenset salgsprosess hvor bare noen få vet hva
@@ -105,7 +105,7 @@ Raushet kan bety en god lønn, men for oss handler det om mye mer enn så.
 ### Lønn
 
 Vi er sikre på at flinke folk i liten grad lar seg motivere av lønn alene, men
-god lønn er like fullt viktig for frihet og stabilitet vi ønsker at gi.
+god lønn er like fullt viktig for den frihet og stabilitet vi ønsker å gi.
 Tilsvarende har vi liten tro på å belønne enkeltpersoner med gode lønnsoppgjør,
 og implisitt straffe de andre med dårligere oppgjør. Individuelle vurderinger
 blir aldri noe annet enn subjektive meninger og trynefaktor. Ingen skal måtte
@@ -120,8 +120,8 @@ For nyutdannede har vi valgt å legge oss på Teknas startlønnsanbefaling.
 
 ### Overtidstillegg
 
-Vi ønsker ikke å jobbe overtid. Kvaliteten på arbeidet er best hvis vi har godt
-med overskudd, og det sikrer vi ved en balanse mellom jobb og fritid. Likevel
+Vi ønsker ikke å jobbe overtid. Kvaliteten på arbeidet blir best hvis vi har godt
+med overskudd, og det sikrer vi med en god balanse mellom jobb og fritid. Likevel
 finnes det kortere perioder hvor det blir veldig travelt, og hvor det kan være
 nødvendig å jobbe litt ekstra.
 
