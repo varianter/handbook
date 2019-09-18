@@ -163,7 +163,7 @@ andre ekskursjoner du har vært på i år, og hvor i verden dette skjer.
 
 ### Datamaskiner, programvare og litteratur
 
-Skikkelig jobb krever skikkelige verktøy. Du velger selv datamaskin å om den er
+Skikkelig jobb krever skikkelige verktøy. Du velger selv datamaskin og om den er
 liten eller stor, silver eller space gray, spiller ikke så stor rolle. Det er
 heller ikke slik at det er et gitt antall års brukstid på maskinene. Du får en
 ny maskin når du har behov for det, uavhengig av om det har gått ett eller tre
