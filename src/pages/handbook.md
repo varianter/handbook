@@ -32,8 +32,8 @@ Våre tre grunnverdier er:
 
 Disse verdier ligger til grunn for hvordan vi behandler hverandre. Det skal være
 lav terskel for ros og tilbakemeldinger fordi vi ønsker at du lykkes. Vær den
-som sier hva du har på hjertet ditt og som tør å utfordre sannheter og
-gjeldende praksis.
+som sier hva du har på hjertet ditt og som tør å utfordre sannheter og gjeldende
+praksis.
 
 <img src="./assets/illustrations/support.svg" alt="Illustrasjon for Tillit og ansvar" class="illustration illustration--center illustration--support" />
 
@@ -55,14 +55,14 @@ mening. Gjerne sammen med mennesker du trives med. Le ofte! Gjør gærne ting!
 
 ### Vær stolt
 
-Vi vil at du skal være stolte av det du gjør. Er du ikke den stolte typen?
-Da vil vi gjerne at du har mot til å endre på det. Du skal kunne være stolt av å
+Vi vil at du skal være stolte av det du gjør. Er du ikke den stolte typen? Da
+vil vi gjerne at du har mot til å endre på det. Du skal kunne være stolt av å
 være her, nettopp fordi du har gjort så mye bra tidligere. Så rett deg opp i
 ryggen, og si at du jobber i Variant. 🦄
 
 ### Del, del, del!
 
-For å lykkes, både i Variant og livet ellers,  trenger vi at alle er med å deler
+For å lykkes, både i Variant og livet ellers, trenger vi at alle er med å deler
 det de har nettopp lært eller har kunnet i mange år. Del med dine kollegaer hele
 tiden. Ikke hold tilbake for at noen kanskje har hørt om dette før – alle har
 garantert _ikke_ det. Og da, er det verdt det. Spiller ikke noen rolle om du er
@@ -76,25 +76,25 @@ deg.
 Her i Variant er det slik at åpenhet er utgangspunktet. Hvis noe lages,
 etableres, dokumenteres eller hva det enn måtte være, så skal ingen trenge å
 vurdere om dette skal publiseres. Stikk motsatt faktisk! Vi må ha en god grunn
-for at det **ikke** skal publiseres. Denne forskjellen er betydelig. Her
-er noen eksempler på hva dette betyr i praksis.
+for at det **ikke** skal publiseres. Denne forskjellen er betydelig. Her er noen
+eksempler på hva dette betyr i praksis.
 
 - Vi har ingen hemmelig eller begrenset salgsprosess hvor bare noen få vet hva
   som tilbys hvor og hvordan. Alle ansatte har full tilgang til Trello-boardet
-  hvor alle salgs-caser legges inn og følges opp. De ukentlig salgsmøte, der de
-  som jobber med salg møtes, er det fritt for alle å sitte med hvis de vil.
+  hvor alle salgs-caser legges inn og følges opp. I det ukentlige salgsmøtet kan
+  alle Varianter som ønsker bli med. Kaffen her er like varm som du er
+  velkommen!
 
 - I Variant vet alle hva alle tjener. Ikke bare basert på at lønnen beregnes ut
   fra en kjent statistikk, men faktisk også slik at selskapet har en åpen
-  lønnsbok, hvor alle ansatte har tilgang.
+  lønnsbok, hvor varianter har tilgang.
 
 - Alle styredokumenter ligger på vårt felles filområde der alle ansatte har,
   sjokkerende nok, også tilgang!
 
-- Til slutt, som et siste "bevis"; denne håndboken. Den er åpen for hele verden.
-  Ikke bare kan ansatte endre, men alle lesere også. Dette gjelder og andre
-  sider Variant har. Vi oppfordrer ansatte til å dele åpent og bidra til Open
-  Source.
+- Denne håndboken! Åpen for hele verden å se. Vi setter pris på hvert bidrag
+  hit, variant eller ikke. Dette gjelder egentlig alt vi har i det åpne. Vi
+  heier på alle våre kollegaer som deler åpent og bidra til Open Source.
 
 ## Betingelser
 
@@ -120,14 +120,14 @@ For nyutdannede har vi valgt å legge oss på Teknas startlønnsanbefaling.
 
 ### Overtidstillegg
 
-Vi ønsker ikke å jobbe overtid. Kvaliteten på arbeidet blir best hvis vi har godt
-med overskudd, og det sikrer vi med en god balanse mellom jobb og fritid. Likevel
-finnes det kortere perioder hvor det blir veldig travelt, og hvor det kan være
-nødvendig å jobbe litt ekstra.
+Vi ønsker ikke å jobbe overtid. Kvaliteten på arbeidet blir best hvis vi har
+godt med overskudd, og det sikrer vi med en god balanse mellom jobb og fritid.
+Likevel finnes det kortere perioder hvor det blir veldig travelt, og hvor det
+kan være nødvendig å jobbe litt ekstra.
 
 Dette vil da føre til utbetaling av overtidstillegg. Overtidstillegget avregnes
-pr. måned, og utbetales den påfølgende måneden. Det er bare fakturerbar tid som
-fører til overtid. Overtidstillegget 40% og overtidslønnen beregnes ved å ta
+per måned, og utbetales den påfølgende måneden. Overtidstillegget 40% og
+overtidslønnen beregnes ved å ta
 `antall timer overtid for en måned * årslønn / 1960 * 1,4`.
 
 ### Bonus
@@ -154,46 +154,47 @@ behandlingsforsikring gjennom Gjensidige.
 
 Variant vil ikke være et sted man står fast, vi må lære mer og ut å få litt
 friske impulser innimellom. Alle oppfordres til å delta på en konferanse eller
-ett kurs en gang i året. Om du har sett for deg en reise lengre enn langt blir det,
-naturlig nok, ikke like ofte.
+ett kurs en gang i året. Om du har sett for deg en reise lengre enn langt blir
+det, naturlig nok, ikke like ofte.
 
 Alle ansatte oppfordres til å holde foredrag og kurs. Bidrag på konferanser og
 lignende gir dekt deltakelse og dekt reise/opphold helt uavhengig av hvor mange
 andre ekskursjoner du har vært på i år, og hvor i verden dette skjer.
 
-### Datamaskiner, programvare og litteratur
+### Verktøy og litteratur 🛠📚
 
-Skikkelig jobb krever skikkelige verktøy. Du velger selv datamaskin å om den er
-liten eller stor, silver eller space gray, spiller ikke så stor rolle. Det er
-heller ikke slik at det er et gitt antall års brukstid på maskinene. Du får en
-ny maskin når du har behov for det, uavhengig av om det har gått ett eller tre
-år. Som sagt velger du selv hvilken maskin du benytter. Se også
+Skikkelig jobb krever skikkelige verktøy. Du velger selv datamaskin, å om den er
+liten eller stor, silver eller space gray, spiller ikke så stor rolle. Trenger
+du større harddisk eller mer minne så regner vi med at du sier det og er du
+usikker så spør i #helpdesk.
+
+Det er heller ikke et gitt antall års brukstid på maskinene. Du får en ny maskin
+når behovet oppstår, uavhengig av om det har gått ett eller tre år. Se også
 [PC-valg](information.html#pc-valg) for de mest brukte modellene.
 
 **NB!** Variant har ingen helpdesk eller supportavdeling, så skaff deg utstyr du
 vet du kan håndtere.
 
-**PS!** Selvsagt har vi en helpdesk... Det er en Slack-kanal hvor alle
-selskapets ansatte står klar for å hjelpe deg med eventuelle EDB-problemer.
+**PS!** Selvsagt har vi en helpdesk. Gjett hva den heter da. Yep, #helpdesk.
+Kanalen der vi hjelper hverandre.
 
-Du er den beste til å avgjøre hvilken programvare du bør kjøre på din maskin.
-Noen leverandører, slik som JetBrains, har vi avtaler med. Andre kjøper du
-direkte av og fører utlegg for. Det skal ikke være slik at du mangler noe for å
-gjøre en god jobb.
+Hvilken programvare du bruker velger du best selv. Vi har noen avtaler for ymse
+tjenester og produkter, alt annet kjøper du direkte av og fører utlegg for. Det
+skal ikke være slik at du mangler noe for å gjøre en god jobb, føråsidetsånn.
 
-Som konsulenter lever vi av ekspertise og kunnskap. Bøker, kurs og annet
-læringsmateriale er på en måte mat. Trenger du noe for å gjøre jobben eller
-gjøre den bedre, så kjøp det da vel. Analogt eller digitalt, spiller egentlig
-ingen rolle.
+Som konsulenter selger vi ekspertise og kunnskap. Bøker, kurs og annet
+læringsmateriale ser vi på som en investering, du som variant velger selv
+hvordan du skaffer deg kunnskap. Husk og send regningen, den betaler vi nemlig
+med glede. 🤓
 
 ### Immaterielle rettigheter og open source
 
-Kjernevirksomheten til Variant er i utgangspunktet utelukkende å selge
-kompetanse. Men vi er eksperimentelle og tilpasningsdyktige. Det kan komme en
-tid der vi ser på muligheten for å samarbeide tett med startups eller skape egne
-startups. I Norge er det helt vanlig at arbeidsplassen innehar rettigheter til
-det ansatte måtte lage eller komme på. Det kan være vanskelig å komme seg rundt
-dersom Variant har brukt mye penger på å hjelpe ansatte å utvikle noe.
+Kjernevirksomheten vår er i utgangspunktet utelukkende å selge kompetanse. Men
+vi er eksperimentelle og tilpasningsdyktige. Det kan komme en tid der vi ser på
+muligheten for å samarbeide tett med startups eller skape egne startups. I Norge
+er det helt vanlig at arbeidsplassen innehar rettigheter til det ansatte måtte
+lage eller komme på. Det kan være vanskelig å komme seg rundt dersom Variant har
+brukt mye penger på å hjelpe ansatte å utvikle noe.
 
 Vi ønsker å være reale på dette. Om du har en god idé som du ønsker å gå videre
 med, snakk med din personalleder så finner vi ut av hvordan vi kan gå frem og
@@ -202,29 +203,30 @@ kan hjelpe deg å nå frem? Eller kanskje det kan Open Sources? Eller kanskje ka
 ansatte få fulle rettigheter? Vi finner en løsning som passer best til
 situasjonen.
 
-Vi kan gjenta det i det uendelige, men vi ønsker å være åpne. Vi oppfordrer
-derfor ansatte til å tenke på hva som kan Open Sources. Både av det vi lager
-internt, hva ansatte lager og hva kunder lager. Når vi sitter ute hos kunde er
-det som regel kunden som sitter på rettighetene til det vi produserer. Men også
+Med risk for å gjenta i det uendelige, men vi ønsker å være åpne. Vi oppfordrer
+derfor hverandre til å tenke på hva som kan Open Sources. Både av det vi lager
+internt, hva kollegaer lager og hva kunder lager. Når vi sitter ute hos kunde er
+det som regel kunden som sitter på rettighetene til det vi produserer, men også
 da kan både kunde og samfunn ha nytte av at noe åpnes. Vi skal hjelpe kundene
 våre med å ta gode avgjørelser rundt dette, og ikke være redd for å stille
 spørsmålet: "Kan ikke dette legges ut, da?"
 
 ### Andre goder og ytelser
 
-- Gadgetbudsjett på 10 000 pluss moms pr. år.
-  [Oversikt](http://gadget.variant.no)
-- Fri bruk av mobiltelefoni (innen rimelighetens grenser iht. databruk)
-- Vi dekker bredbånd hjemme på inntil 500 kr pr. mnd
-- Betalt 2 uker permisjon for partner etter fødsel
-- Full lønn under foreldrepermisjon selv om lønnen skulle overstige 6G
-- 2 dager til barnehagetilvenning
+- Gadgetbudsjett på 10 000 pluss moms pr. år. Hva andre brukt det til finner du
+  på [oversikten](http://gadget.variant.no) her.
+- Fri bruk av mobiltelefoni innen rimelighetens grenser.
+- Bredbånd hjemme på inntil 500 kr pr. mnd.
+- Betalt 2 uker permisjon for partner etter fødsel.
+- Full lønn under foreldrepermisjon, selv om lønnen skulle overstige det NAV
+  betaler.
+- 2 dager til barnehagetilvenning.
 - Utvidede rettigheter til
   [egenmelding og sykepenger](information.html#sykemelding-og-egenmelding)
 - Dekt 3T-medlemskap (NB! Dette er en skattepliktig fordel som rapporteres på
   din lønnsslipp ved årsslutt)
-- Behandlingsforsikring
-- Reiseforsikring for deg og din familie
+- Behandlingsforsikring.
+- Reiseforsikring for deg og familien din.
 
 ## Arbeidstid
 
