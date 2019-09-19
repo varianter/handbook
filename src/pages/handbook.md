@@ -114,8 +114,9 @@ være freidige for å be om å få det de fortjener – det skal komme automatis
 
 Lønnen vår bestemmes utelukkende av en utjevnet kurve for Teknas lønnsstatistikk
 og vi skal ligge på øvre kvartil av denne. Med andre ord alle får lik lønn
-basert på antall års erfaring. I tillegg er hva den enkelte tjener åpent for
-alle ansatte.
+basert på antall års erfaring. Hva den enkelte tjener er ingen hemmelighet i
+Variant. Lurer du på hva du ville tjent hos oss? Vår hjemmesnekkrede
+[kalkulator](https://www.variant.no/kalkulator) 🧮 gir deg svaret!
 
 For nyutdannede har vi valgt å legge oss på Teknas startlønnsanbefaling.
 
