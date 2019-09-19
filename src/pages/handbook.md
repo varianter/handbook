@@ -154,7 +154,8 @@ behandlingsforsikring gjennom Gjensidige.
 
 Variant vil ikke være et sted man står fast, vi må lære mer og ut å få litt
 friske impulser innimellom. Alle oppfordres til å delta på en konferanse eller
-ett kurs en gang i året. Om du har sett for deg en reise lengre enn langt blir det,
+friske impulser innimellom. Alle oppfordres til å delta på kurs eller konferanse
+en gang i løpet av året. Om du har sett for deg en reise lengre enn langt blir det,
 naturlig nok, ikke like ofte.
 
 Alle ansatte oppfordres til å holde foredrag og kurs. Bidrag på konferanser og
