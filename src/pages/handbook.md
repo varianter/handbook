@@ -74,17 +74,17 @@ deg.
 
 ## Åpenhet
 
-Her i Variant er det slik at åpenhet er utgangspunktet. Hvis noe lages,
-etableres, dokumenteres eller hva det enn måtte være, så skal ingen trenge å
-vurdere om dette skal publiseres. Stikk motsatt faktisk! Vi må ha en god grunn
-for at det **ikke** skal publiseres. Denne forskjellen er betydelig. Her er noen
-eksempler på hva dette betyr i praksis.
+Her i Variant er åpenhet utgangspunktet. Hvis noe lages, etableres, dokumenteres
+eller hva det enn måtte være, så skal ingen trenge å vurdere om dette skal
+publiseres. Stikk motsatt faktisk! Vi må ha en god grunn for at det **ikke**
+skal publiseres. Denne forskjellen er betydelig. Her er noen eksempler på hva
+dette betyr i praksis.
 
 - Vi har ingen hemmelig eller begrenset salgsprosess hvor bare noen få vet hva
   som tilbys hvor og hvordan. Alle ansatte har full tilgang til Trello-boardet
-  hvor alle salgs-caser legges inn og følges opp. I det ukentlige salgsmøtet kan
-  alle Varianter som ønsker bli med. Kaffen her er like varm som du er
-  velkommen!
+  hvor alle salgs-caser legges inn og følges opp. I det ukentlige salgsmøtet
+  møts, naturlig nok, de som jobber salg. For oss andre er det frivilig, men
+  kaffen her er like varm som vi er velkommen!
 
 - I Variant vet alle hva alle tjener. Ikke bare basert på at lønnen beregnes ut
   fra en kjent statistikk, men faktisk også slik at selskapet har en åpen
@@ -154,8 +154,8 @@ behandlingsforsikring gjennom Gjensidige.
 ### Kurs og konferanser
 
 Variant vil ikke være et sted man står fast, vi må lære mer og ut å få litt
-friske impulser innimellom. Alle oppfordres til å delta på en konferanse eller
-ett kurs en gang i året. Om du har sett for deg en reise lengre enn langt blir
+friske impulser innimellom. Alle oppfordres til å delta på kurs eller konferanse
+en gang i løpet av året. Om du har sett for deg en reise lengre enn langt blir
 det, naturlig nok, ikke like ofte.
 
 Alle ansatte oppfordres til å holde foredrag og kurs. Bidrag på konferanser og
