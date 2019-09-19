@@ -73,7 +73,7 @@ deg.
 
 ## Åpenhet
 
-Her i Variant er det slik at åpenhet er utgangspunktet. Hvis noe lages,
+Her i Variant er åpenhet utgangspunktet. Hvis noe lages,
 etableres, dokumenteres eller hva det enn måtte være, så skal ingen trenge å
 vurdere om dette skal publiseres. Stikk motsatt faktisk! Vi må ha en god grunn
 for at det **ikke** skal publiseres. Denne forskjellen er betydelig. Her
