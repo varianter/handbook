@@ -136,17 +136,20 @@ overtidslønnen beregnes ved å ta
 
 Hvert kvartal utbetaler Variant bonus til alle ansatte. Denne beregnes som 30%
 av overskuddet dette kvartalet, delt likt på alle ansatte. Vi må også betale
-arbeidsgiveravgift på bonus, slik at dette trekkes fra. Hvis noen har vært
-ansatt bare deler av et kvartal, justeres deres andel etter dette.
+arbeidsgiveravgift på bonus, slik at dette trekkes fra. Dette regnes som lønn
+inklusive feriepenger, så 10,7% utsettes til neste års feriepenger. Hvis noen
+har vært ansatt bare deler av et kvartal, justeres deres andel etter dette.
 
 **Eksempel**: Gitt 10 ansatte og et kvartalsvis overskudd på _én million_, deler
 vi `30%` av overskuddet på 10 og får `30 000`. Så skal det betales `14,1%`
 arbeidsgiveravgift slik at hver enkelts bonus dette kvartalet blir `25 770 kr`.
+Av dette kommer `2 761 kr` som neste års feriepenger.
 
 ### Pensjon og forsikring
 
-Vi føler oss jo slett ikke gamle her i Variant, og mange er jo heller ikke det.
-Vi er uansett opptatt av en god pensjon. Vi har valgt en pensjonsparing som går
+
+Vi føler oss jo slett ikke gamle her i Variant.
+Vi er likevel opptatt av en god pensjon. Vi har valgt en pensjonsparing som går
 langt utover det lovpålagte. Fra 0 til 12G setter vi av 7% i pensjon.
 
 Ut over vanlig yrkesskadeforsikring har vi reiseforsikring, helseforsikring og
@@ -159,9 +162,10 @@ friske impulser innimellom. Alle oppfordres til å delta på kurs eller konferan
 en gang i løpet av året. Om du har sett for deg en reise lengre enn langt blir
 det, naturlig nok, ikke like ofte.
 
-Alle ansatte oppfordres til å holde foredrag og kurs. Bidrag på konferanser og
-lignende gir dekt deltakelse og dekt reise/opphold helt uavhengig av hvor mange
-andre ekskursjoner du har vært på i år, og hvor i verden dette skjer.
+Alle oppfordres til å holde foredrag og kurs. Bidrar du på konferanser og
+lignende dekker Variant deltagelse, reise og opphold. Dette er helt uavhengig av
+hvor i verden dette skjer, og uavhengig av hvor mange andre
+konferansedeltagelser du har det året.
 
 ### Verktøy og litteratur 🛠📚
 
@@ -227,8 +231,8 @@ spørsmålet: "Kan ikke dette legges ut, da?"
   [egenmelding og sykepenger](information.html#sykemelding-og-egenmelding)
 - Dekt 3T-medlemskap (NB! Dette er en skattepliktig fordel som rapporteres på
   din lønnsslipp ved årsslutt)
-- Behandlingsforsikring.
-- Reiseforsikring for deg og familien din.
+- Behandlingsforsikring
+- Reiseforsikring for deg og din familie
 
 ## Arbeidstid
 
