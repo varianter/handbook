@@ -9,7 +9,7 @@ eller legge til innhold i den. Håndboken
 [alle kan sende inn endringer](https://help.github.com/articles/editing-files-in-your-repository/)
 eller [stille spørsmål](https://github.com/varianter/handbook/issues).
 
-Om du ikke er en variant men du liker hva du ser,
+Om du ikke er en variant men liker det du leser,
 [ta en titt på ledige stillinger hos oss](https://jobs.variant.no/). Mer info om
 oss på [nettsiden vår](https://www.variant.no).
 
