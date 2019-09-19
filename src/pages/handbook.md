@@ -81,7 +81,7 @@ er noen eksempler på hva dette betyr i praksis.
 
 - Vi har ingen hemmelig eller begrenset salgsprosess hvor bare noen få vet hva
   som tilbys hvor og hvordan. Alle ansatte har full tilgang til Trello-boardet
-  hvor alle salgs-caser legges inn og følges opp. De ukentlig salgsmøte, der de
+  hvor alle salgs-caser legges inn og følges opp. Det ukentlige salgsmøtet, der de
   som jobber med salg møtes, er det fritt for alle å sitte med hvis de vil.
 
 - I Variant vet alle hva alle tjener. Ikke bare basert på at lønnen beregnes ut
