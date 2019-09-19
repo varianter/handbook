@@ -9,7 +9,7 @@ eller legge til innhold i den. Håndboken
 [alle kan sende inn endringer](https://help.github.com/articles/editing-files-in-your-repository/)
 eller [stille spørsmål](https://github.com/varianter/handbook/issues).
 
-Om du ikke er en variant men du liker hva du ser,
+Om du ikke er en variant men liker det du leser,
 [ta en titt på ledige stillinger hos oss](https://jobs.variant.no/). Mer info om
 oss på [nettsiden vår](https://www.variant.no).
 
@@ -164,10 +164,10 @@ andre ekskursjoner du har vært på i år, og hvor i verden dette skjer.
 
 ### Verktøy og litteratur 🛠📚
 
-Skikkelig jobb krever skikkelige verktøy. Du velger selv datamaskin, å om den er
-liten eller stor, silver eller space gray, spiller ikke så stor rolle. Trenger
-du større harddisk eller mer minne så regner vi med at du sier det og er du
-usikker så spør i #helpdesk.
+Skikkelig jobb krever skikkelige verktøy. Du velger selv datamaskin, og om den
+er liten eller stor, silver eller space gray, spiller ikke så stor rolle.
+Trenger du større harddisk eller mer minne så regner vi med at du sier det og er
+du usikker så spør i #helpdesk.
 
 Det er heller ikke et gitt antall års brukstid på maskinene. Du får en ny maskin
 når behovet oppstår, uavhengig av om det har gått ett eller tre år. Se også
