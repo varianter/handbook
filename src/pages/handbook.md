@@ -39,19 +39,20 @@ praksis.
 
 ## Tillit og ansvar
 
-Vi gir oss selv det beste fordi vi forventer det samme av oss. Vi gir full
-tillit til hverandre fordi vi tror at alle er i stand til å gjøre riktige valg.
-Hva du trenger for å lære noe nytt eller gjøre jobben din er opp til deg. Vi
-forventer bare at du selv vurderer kostnadene opp mot vinningen og sparrer med
-andre når det trengs.
+Variant vil gi sine ansatte det beste, vi som jobber her forventes å gi
+detsamme. Vi gir full tillit til hverandre fordi vi tror at alle er i stand til
+å gjøre riktige valg. Hva du trenger for å lære noe nytt eller gjøre jobben din
+er opp til deg. Vi forventer bare at du selv vurderer kostnadene opp mot
+vinningen og sparrer med andre når det trengs.
 
 <img src="./assets/illustrations/fun.svg" alt="Illustrasjon for ha det morsomt" class="illustration illustration--left illustration--fun" />
 
 ### Ha det morsomt
 
-Et arbeidsliv består av maaaange timer. Vi trenger nok ikke å forklare at det er
-få ting som er så viktig som å ha det morsomt på jobb, og å gjøre noe som gir
-mening. Gjerne sammen med mennesker du trives med. Le ofte! Gjør gærne ting!
+Et arbeidsliv består av maaaange timer. Vi vil gjøre noe som gir mening og
+samtidig ha det morsomt. Det spekuleres i om Variant eksisterer fordi det er
+hyggeligere å skape noe sammen med mennesker man trives med. Det får vi nok ikke
+svaret på, men intil videre så kan du le ofte og gjøre gærne ting!
 
 ### Vær stolt
 
@@ -60,7 +61,7 @@ vil vi gjerne at du har mot til å endre på det. Du skal kunne være stolt av �
 være her, nettopp fordi du har gjort så mye bra tidligere. Så rett deg opp i
 ryggen, og si at du jobber i Variant. 🦄
 
-### Del, del, del!
+### Læreglede
 
 For å lykkes, både i Variant og livet ellers, trenger vi at alle er med å deler
 det de har nettopp lært eller har kunnet i mange år. Del med dine kollegaer hele
@@ -98,7 +99,7 @@ eksempler på hva dette betyr i praksis.
 
 ## Betingelser
 
-Raushet kan bety en god lønn, men for oss handler det om mye mer enn så.
+Vi betaler godt, samtidig handler raushet om mye mer enn bare lønna.
 
 <img src="./assets/illustrations/credit_card.svg" alt="Illustrasjon for lønn" class="illustration illustration--right illustration--salary" />
 
