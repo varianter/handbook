@@ -40,7 +40,7 @@ praksis.
 ## Tillit og ansvar
 
 Variant vil gi sine ansatte det beste, vi som jobber her forventes å gi
-detsamme. Vi gir full tillit til hverandre fordi vi tror at alle er i stand til
+det samme. Vi gir full tillit til hverandre fordi vi tror at alle er i stand til
 å gjøre riktige valg. Hva du trenger for å lære noe nytt eller gjøre jobben din
 er opp til deg. Vi forventer bare at du selv vurderer kostnadene opp mot
 vinningen og sparrer med andre når det trengs.
@@ -52,11 +52,11 @@ vinningen og sparrer med andre når det trengs.
 Et arbeidsliv består av maaaange timer. Vi vil gjøre noe som gir mening og
 samtidig ha det morsomt. Det spekuleres i om Variant eksisterer fordi det er
 hyggeligere å skape noe sammen med mennesker man trives med. Det får vi nok ikke
-svaret på, men intil videre så kan du le ofte og gjøre gærne ting!
+svaret på, men inntil videre så kan du le ofte og gjøre gærne ting!
 
 ### Vær stolt
 
-Vi vil at du skal være stolte av det du gjør. Er du ikke den stolte typen? Da
+Vi vil at du skal være stolt av det du gjør. Er du ikke den stolte typen? Da
 vil vi gjerne at du har mot til å endre på det. Du skal kunne være stolt av å
 være her, nettopp fordi du har gjort så mye bra tidligere. Så rett deg opp i
 ryggen, og si at du jobber i Variant. 🦄
@@ -83,7 +83,7 @@ dette betyr i praksis.
 - Vi har ingen hemmelig eller begrenset salgsprosess hvor bare noen få vet hva
   som tilbys hvor og hvordan. Alle ansatte har full tilgang til Trello-boardet
   hvor alle salgs-caser legges inn og følges opp. I det ukentlige salgsmøtet
-  møts, naturlig nok, de som jobber salg. For oss andre er det frivilig, men
+  møtes, naturlig nok, de som jobber salg. For oss andre er det frivillig, men
   kaffen her er like varm som vi er velkommen!
 
 - I Variant vet alle hva alle tjener. Ikke bare basert på at lønnen beregnes ut
@@ -359,7 +359,7 @@ sitter på åndsverk.
 ## Ansettelse og jobbintervju
 
 Vi liker ikke tradisjonelle intervjuer. De plasserer søker i en unaturlig
-situasjon, og vi blir ikke godt kjent med ham eller henne. For å finne ut mer om
+situasjon, og vi blir ikke godt kjent med han eller henne. For å finne ut mer om
 sosiale evner, kommunikasjonsferdigheter og nysgjerrighet gjør vi intervjuer på
 en litt annen måte:
 
