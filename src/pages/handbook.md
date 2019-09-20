@@ -30,7 +30,7 @@ Våre tre grunnverdier er:
 - **Mot** - Vi ønsker folk som har mot til å gjøre det de mener er riktig, mot
   til å si ifra, mot til å utfordre.
 
-Disse verdier ligger til grunn for hvordan vi behandler hverandre. Det skal være
+Disse verdiene ligger til grunn for hvordan vi behandler hverandre. Det skal være
 lav terskel for ros og tilbakemeldinger fordi vi ønsker at du lykkes. Vær den
 som sier hva du har på hjertet ditt og som tør å utfordre sannheter og gjeldende
 praksis.
@@ -149,7 +149,7 @@ Av dette kommer `2 761 kr` som neste års feriepenger.
 
 
 Vi føler oss jo slett ikke gamle her i Variant.
-Vi er likevel opptatt av en god pensjon. Vi har valgt en pensjonsparing som går
+Vi er likevel opptatt av en god pensjon. Vi har valgt en pensjonssparing som går
 langt utover det lovpålagte. Fra 0 til 12G setter vi av 7% i pensjon.
 
 Ut over vanlig yrkesskadeforsikring har vi reiseforsikring, helseforsikring og
@@ -186,11 +186,11 @@ Kanalen der vi hjelper hverandre.
 
 Hvilken programvare du bruker velger du best selv. Vi har noen avtaler for ymse
 tjenester og produkter, alt annet kjøper du direkte av og fører utlegg for. Det
-skal ikke være slik at du mangler noe for å gjøre en god jobb, føråsidetsånn.
+skal ikke være slik at du mangler noe for å gjøre en god jobb, foråsidetsånn.
 
 Som konsulenter selger vi ekspertise og kunnskap. Bøker, kurs og annet
 læringsmateriale ser vi på som en investering, du som variant velger selv
-hvordan du skaffer deg kunnskap. Husk og send regningen, den betaler vi nemlig
+hvordan du skaffer deg kunnskap. Husk å send regningen, den betaler vi nemlig
 med glede. 🤓
 
 ### Immaterielle rettigheter og open source
@@ -209,7 +209,7 @@ kan hjelpe deg å nå frem? Eller kanskje det kan Open Sources? Eller kanskje ka
 ansatte få fulle rettigheter? Vi finner en løsning som passer best til
 situasjonen.
 
-Med risk for å gjenta i det uendelige, men vi ønsker å være åpne. Vi oppfordrer
+Med risiko for å gjenta i det uendelige, men vi ønsker å være åpne. Vi oppfordrer
 derfor hverandre til å tenke på hva som kan Open Sources. Både av det vi lager
 internt, hva kollegaer lager og hva kunder lager. Når vi sitter ute hos kunde er
 det som regel kunden som sitter på rettighetene til det vi produserer, men også
@@ -219,8 +219,8 @@ spørsmålet: "Kan ikke dette legges ut, da?"
 
 ### Andre goder og ytelser
 
-- Gadgetbudsjett på 10 000 pluss moms pr. år. Hva andre brukt det til finner du
-  på [oversikten](http://gadget.variant.no) her.
+- Gadgetbudsjett på 10 000 pluss moms pr. år. Hva andre har brukt det til finner du
+  på [oversikten her](http://gadget.variant.no).
 - Fri bruk av mobiltelefoni innen rimelighetens grenser.
 - Bredbånd hjemme på inntil 500 kr pr. mnd.
 - Betalt 2 uker permisjon for partner etter fødsel.
@@ -228,11 +228,11 @@ spørsmålet: "Kan ikke dette legges ut, da?"
   betaler.
 - 2 dager til barnehagetilvenning.
 - Utvidede rettigheter til
-  [egenmelding og sykepenger](information.html#sykemelding-og-egenmelding)
+  [egenmelding og sykepenger](information.html#sykemelding-og-egenmelding).
 - Dekt 3T-medlemskap (NB! Dette er en skattepliktig fordel som rapporteres på
-  din lønnsslipp ved årsslutt)
-- Behandlingsforsikring
-- Reiseforsikring for deg og din familie
+  din lønnsslipp ved årsslutt).
+- Behandlingsforsikring.
+- Reiseforsikring for deg og din familie.
 
 ## Arbeidstid
 
@@ -251,7 +251,7 @@ som man kan planlegge rundt og hjelper gjerne til med kommunikasjonen med kunde.
 ### Fleksibilitet
 
 Arbeidstid er 7,5 timer per dag, Vi har ingen kjernetid hos oss. Samtidig vet vi
-at også vi oppnår mest når man får jobbe tett med våre kollegaer. Så når du
+også at vi oppnår mest når vi får jobbe tett med våre kollegaer. Så når du
 velger din arbeidsrytme regner vi med at det også er med i vurderingene.
 
 Likevel er det slik at mange av våre kunder har kjernetid, eller at oppdraget du
@@ -275,7 +275,7 @@ Gjennom året arrangerer vi en del aktiviteter hvor vi inviterer inn familie
 eller ledsager. Hver høst reiser vi på en utenlandstur hvor alle varianter tar
 med seg sin ledsager. Vårt lille julebord er selvsagt også med følge. Utover
 dette har vi varierende aktiviteter som vi håper familiene har lyst til å være
-sammen med oss i.
+med oss på.
 
 Variant skal selvsagt ikke definere hva som regnes som familie. Hvem du ønsker å
 invitere inn til variantfamilien bestemmer du selv. Om det er kone, barn,
@@ -319,7 +319,7 @@ Gjensidige kaller det. Forsikringen dekker
 - Behandling hos psykolog
 - Behandling av rus- og spilleavhengighet
 - Fysikalsk behandling - 12 behandlinger
-- Online Videolege for deg og dine barn.
+- Online videolege for deg og dine barn
 
 <img src="./assets/illustrations/graduation.svg" alt="Illustrasjon for kompetanseutvikling" class="illustration illustration--left illustration--competence" />
 
@@ -338,7 +338,7 @@ så vel som sommerstudenter. I Variant er alle ansatte fagpersoner.
 
 Åpenheten strekker seg selvfølgelig til læringen vi gjør. Vi oppfordrer ansatte
 til å dele det de lærer og bruke tid på å formidle det på en god måte. Enten det
-er via Open Source-prosjekter, podcast, video, blogpost, presentasjoner og kurs,
+er via Open Source-prosjekter, podcast, video, bloggpost, presentasjoner og kurs, 
 eller rett og slett samtaler med andre mennesker.
 
 Vi ønsker at våre ansatte skal lære noe nytt og tenke: "Hvordan kan jeg best
