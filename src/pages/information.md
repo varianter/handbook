@@ -326,7 +326,7 @@ enkelt må da gjøre en vurdering av behovet opp mot eventuell ekstra kostnad.
   stillingsannonser
 - [Harvest](https://variantas.harvestapp.com/) for timeføring
 - [UNI Economy](https://unieconomy.no/#/) for regnskap, faktura og lønn
-- [Office 365 Dokumenter](https://docs.variant.as) for lagring av dokumenter og
+- [Office 365 Dokumenter](https://docs.variant.no) for lagring av dokumenter og
   andre filer.
 - [Slack](https://join.slack.com/t/variantas/signup) for å ... (ja det skjønner
   du vel?)
