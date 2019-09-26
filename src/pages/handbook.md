@@ -229,8 +229,9 @@ spørsmålet: "Kan ikke dette legges ut, da?"
 - 2 dager til barnehagetilvenning.
 - Utvidede rettigheter til
   [egenmelding og sykepenger](information.html#sykemelding-og-egenmelding).
-- Dekt 3T-medlemskap (NB! Dette er en skattepliktig fordel som rapporteres på
-  din lønnsslipp ved årsslutt).
+- Dekt 3T-medlemskap, eller tilsvarende helsebringende aktivitet eller utstyr, 
+    inntil 500,- per måned (NB! Dette er en skattepliktig fordel som rapporteres 
+    på din lønnsslipp ved årsslutt). Utgiftsføres på vanlig måte.
 - Behandlingsforsikring.
 - Reiseforsikring for deg og din familie.
 
