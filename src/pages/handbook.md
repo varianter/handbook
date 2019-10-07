@@ -157,7 +157,7 @@ Av dette kommer `2 761 kr` som neste års feriepenger.
 ### Pensjon og forsikring
 
 Vi føler oss slett ikke gamle her i Variant. Vi er likevel opptatt av en god
-pensjon. Vi har valgt en pensjonsparing som går langt utover det lovpålagte. Fra
+pensjon. Vi har valgt en pensjonssparing som går langt utover det lovpålagte. Fra
 0 til 12G setter vi av 7% i pensjon. For tiden bruker vi Gjensidige, og den
 ansatte kan selv logge seg inn hos Gjensidige for å velge sin spareprofil og se
 sin saldo.
