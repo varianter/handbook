@@ -72,6 +72,20 @@ Av bokføringsgrunner trenger vi å vite hvem som var med når noen har lagt ut 
 et restaurantbesøk. Dette gjelder både eksterne og interne. Lag en enkel liste i
 e-posten som lister ut deltagere.
 
+### Skjema for reiseregninger
+
+For enkle reiser innenlands benyttes vårt
+[reiseregningsskjema])https://reiseregning.variantapp.com). Her beregnes diett,
+kjøregodtgjørelser og utlegg knyttet til reisen. Etter at skjemaet er fylt ut,
+må du lagre det og sende det til faktura@variant.no.
+
+Hvis dette skjemat blir for enkelt for din reise kan f.eks. dette
+[skjemaet](https://www.ks.no/om-ks/om-ks/politisk-ledelse/skjema-for-utfylling-av-reiseregning/)
+benyttes i stedet.
+
+_NB! Hvis reisen skal viderefaktureres en kunde gjennonm megler, se avsnitt
+lenger ned._
+
 ### Reiser på variants regning
 
 Reiser på Variants regning refunderes mot kvitteringer (ikke diett). Lever som
@@ -92,12 +106,6 @@ Meglere har egne systemer for viderefakturering av reiser.
 3. Send kopi/utskrift til faktura@variant.no på samme måte som for andre
    utgiftsrapporter. Skriv i mailen at det viderefaktureres, og hvilken kunde
    det gjelder.
-
-### App for føring av reiseregninger
-
-Om du reiser mye kan du benytte appen _Utlegg og reise_ fra Sonya for å lage
-bilaget som du så sender inn på vanlig måte. Reiser du på diett må denne appen
-brukes for å beregne dietten riktig.
 
 ### Utgifter i utenlandsk valuta
 
