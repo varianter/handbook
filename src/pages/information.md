@@ -174,42 +174,25 @@ orden å flekse tid innenfor en måned. Dette forutsetter selvsagt at det er
 avklart og greit for prosjektet og kunden også. Det betyr at du kan jobbe litt
 mer en dag og mindre en annen dag innenfor samme måned.
 
-I Variant er det tre hovedtyper av timeføring. Dette er kundetid, interntid og
-fravær. All tid skal timeføres inkludert reisetid og pålagt overtid.
+Vi har to hovedtyper timeføring. Det ene er kundetid, det andre er annen
+timeføring som føres under Varianttid. All tid skal timeføres inkludert reisetid
+og pålagt overtid.
 
-Av interntid har vi disse aktivitetene:
+### Varianttid
 
-- Variantdag
-- Kurs og konferanse
-- Salg
-- Rekruttering
-- Ledelse
-- Mellom prosjekter
-- Fadderaktivitet
+Under kontoen for Varianttid finner du ulike «prosjekter» med tilhørende
+oppgaver. Vi håper at navngiving er såpass selvforklarende at utdypende
+veiledning her ikke skal være nødvendig. Vi har like fullt noen korte føringer:
 
-Variantdag brukes for deltagelse på selve variantdagen. Mellom prosjekter
-benyttes bare når man er helt eller delvis ledig, og ikke kan fylle opp dagen
-med andre aktiviteter.
-
-Man kan føre inntil 7,5 timer pr dag med "Kurs og konferanse" selv om varigheten
-er lenger. Tilsvarende fører man ikke tid i helg og helligdag.
+- Oppgaven «Mellom prosjekter» benyttes bare når man er helt eller delvis ledig,
+  og ikke kan fylle opp dagen med andre aktiviteter.
+- Man kan føre inntil 7,5 timer pr dag med «Kurs og konferanse» selv om
+  varigheten er lenger. Tilsvarende fører man ikke tid i helg og helligdag.
+- Oppgaven «Legetime» dekker også tannlege, kiropraktor, etc samt blodgiving.
 
 _Merk at frivillige aktiviteter på kveldstid som deltagelse på meetups,
 konsumering av faglitteratur, podcasts, videoer, etc ikke timeføres, med mindre
 man sammen med selskapet har kommet til at dette er å regne som pålagt arbeid._
-
-Av fravær sporer vi disse aktivitetene:
-
-- Ferie
-- Permisjon uten lønn
-- Permisjon med lønn
-- Sykefravær med sykemelding
-- Sykefravær med egenmelding
-- Fravær pga syke barn
-- Legetime (gjelder også tannlege, kiropraktor, etc samt blodgiving)
-
-For alle disse kan man føre inntil 7,5 timer pr dag. Bortsett fra Variantdag kan
-summen av fakturerbar tid og den av disse ikke overstige 7,5 timer pr dag.
 
 ### Kundetid
 
