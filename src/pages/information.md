@@ -75,15 +75,15 @@ e-posten som lister ut deltagere.
 ### Skjema for reiseregninger
 
 For enkle reiser innenlands benyttes vårt
-[reiseregningsskjema])https://reiseregning.variantapp.com). Her beregnes diett,
+[reiseregningsskjema](https://reiseregning.variantapp.com). Her beregnes diett,
 kjøregodtgjørelser og utlegg knyttet til reisen. Etter at skjemaet er fylt ut,
 må du lagre det og sende det til faktura@variant.no.
 
-Hvis dette skjemat blir for enkelt for din reise kan f.eks. dette
+Hvis dette skjemaet blir for enkelt for din reise kan for eksempel dette
 [skjemaet](https://www.ks.no/om-ks/om-ks/politisk-ledelse/skjema-for-utfylling-av-reiseregning/)
 benyttes i stedet.
 
-_NB! Hvis reisen skal viderefaktureres en kunde gjennonm megler, se avsnitt
+_NB! Hvis reisen skal viderefaktureres til en kunde gjennom megler, se avsnitt
 lenger ned._
 
 ### Reiser på variants regning
