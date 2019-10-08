@@ -30,20 +30,20 @@ Våre tre grunnverdier er:
 - **Mot** - Vi ønsker folk som har mot til å gjøre det de mener er riktig, mot
   til å si ifra, mot til å utfordre.
 
-Disse verdiene ligger til grunn for hvordan vi behandler hverandre. Det skal være
-lav terskel for ros og tilbakemeldinger fordi vi ønsker at du lykkes. Vær den
-som sier hva du har på hjertet ditt og som tør å utfordre sannheter og gjeldende
-praksis.
+Disse verdiene ligger til grunn for hvordan vi behandler hverandre. Det skal
+være lav terskel for ros og tilbakemeldinger fordi vi ønsker at du lykkes. Vær
+den som sier hva du har på hjertet ditt og som tør å utfordre sannheter og
+gjeldende praksis.
 
 <img src="./assets/illustrations/support.svg" alt="Illustrasjon for Tillit og ansvar" class="illustration illustration--center illustration--support" />
 
 ## Tillit og ansvar
 
-Variant vil gi sine ansatte det beste, vi som jobber her forventes å gi
-det samme. Vi gir full tillit til hverandre fordi vi tror at alle er i stand til
-å gjøre riktige valg. Hva du trenger for å lære noe nytt eller gjøre jobben din
-er opp til deg. Vi forventer bare at du selv vurderer kostnadene opp mot
-vinningen og sparrer med andre når det trengs.
+Variant vil gi sine ansatte det beste, vi som jobber her forventes å gi det
+samme. Vi gir full tillit til hverandre fordi vi tror at alle er i stand til å
+gjøre riktige valg. Hva du trenger for å lære noe nytt eller gjøre jobben din er
+opp til deg. Vi forventer bare at du selv vurderer kostnadene opp mot vinningen
+og sparrer med andre når det trengs.
 
 <img src="./assets/illustrations/fun.svg" alt="Illustrasjon for ha det morsomt" class="illustration illustration--left illustration--fun" />
 
@@ -56,10 +56,10 @@ svaret på, men inntil videre så kan du le ofte og gjøre gærne ting!
 
 ### Vær stolt
 
-Vi vil at du skal være stolt av det du gjør. Er du ikke den stolte typen? Da
-vil vi gjerne at du har mot til å endre på det. Du skal kunne være stolt av å
-være her, nettopp fordi du har gjort så mye bra tidligere. Så rett deg opp i
-ryggen, og si at du jobber i Variant. 🦄
+Vi vil at du skal være stolt av det du gjør. Er du ikke den stolte typen? Da vil
+vi gjerne at du har mot til å endre på det. Du skal kunne være stolt av å være
+her, nettopp fordi du har gjort så mye bra tidligere. Så rett deg opp i ryggen,
+og si at du jobber i Variant. 🦄
 
 ### Læreglede
 
@@ -147,14 +147,9 @@ Av dette kommer `2 761 kr` som neste års feriepenger.
 
 ### Pensjon og forsikring
 
-Vi benytter også Gjensidige for forsikringer. Ut over vanlig
-yrkesskadeforsikring har vi reiseforsikring, helseforsikring og
-behandlingsforsikring. Logg inn på Gjensidiges nettsider for å se detaljer rundt
-de ulike forsikringene.
-
-Vi føler oss jo slett ikke gamle her i Variant.
-Vi er likevel opptatt av en god pensjon. Vi har valgt en pensjonssparing som går
-langt utover det lovpålagte. Fra 0 til 12G setter vi av 7% i pensjon.
+Vi føler oss jo slett ikke gamle her i Variant. Vi er likevel opptatt av en god
+pensjon. Vi har valgt en pensjonssparing som går langt utover det lovpålagte.
+Fra 0 til 12G setter vi av 7% i pensjon.
 
 Ut over vanlig yrkesskadeforsikring har vi reiseforsikring, helseforsikring og
 behandlingsforsikring gjennom Gjensidige.
@@ -213,18 +208,18 @@ kan hjelpe deg å nå frem? Eller kanskje det kan Open Sources? Eller kanskje ka
 ansatte få fulle rettigheter? Vi finner en løsning som passer best til
 situasjonen.
 
-Med risiko for å gjenta i det uendelige, men vi ønsker å være åpne. Vi oppfordrer
-derfor hverandre til å tenke på hva som kan Open Sources. Både av det vi lager
-internt, hva kollegaer lager og hva kunder lager. Når vi sitter ute hos kunde er
-det som regel kunden som sitter på rettighetene til det vi produserer, men også
-da kan både kunde og samfunn ha nytte av at noe åpnes. Vi skal hjelpe kundene
-våre med å ta gode avgjørelser rundt dette, og ikke være redd for å stille
-spørsmålet: "Kan ikke dette legges ut, da?"
+Med risiko for å gjenta i det uendelige, men vi ønsker å være åpne. Vi
+oppfordrer derfor hverandre til å tenke på hva som kan Open Sources. Både av det
+vi lager internt, hva kollegaer lager og hva kunder lager. Når vi sitter ute hos
+kunde er det som regel kunden som sitter på rettighetene til det vi produserer,
+men også da kan både kunde og samfunn ha nytte av at noe åpnes. Vi skal hjelpe
+kundene våre med å ta gode avgjørelser rundt dette, og ikke være redd for å
+stille spørsmålet: "Kan ikke dette legges ut, da?"
 
 ### Andre goder og ytelser
 
-- Gadgetbudsjett på 10 000 pluss moms pr. år. Hva andre har brukt det til finner du
-  på [oversikten her](http://gadget.variant.no).
+- Gadgetbudsjett på 10 000 pluss moms pr. år. Hva andre har brukt det til finner
+  du på [oversikten her](http://gadget.variant.no).
 - Fri bruk av mobiltelefoni innen rimelighetens grenser.
 - Bredbånd hjemme på inntil 500 kr pr. mnd.
 - Betalt 2 uker permisjon for partner etter fødsel.
@@ -233,9 +228,9 @@ spørsmålet: "Kan ikke dette legges ut, da?"
 - 2 dager til barnehagetilvenning.
 - Utvidede rettigheter til
   [egenmelding og sykepenger](information.html#sykemelding-og-egenmelding).
-- Dekt 3T-medlemskap, eller tilsvarende helsebringende aktivitet eller utstyr, 
-    inntil 500,- per måned (NB! Dette er en skattepliktig fordel som rapporteres 
-    på din lønnsslipp ved årsslutt). Utgiftsføres på vanlig måte.
+- Dekt 3T-medlemskap, eller tilsvarende helsebringende aktivitet eller utstyr,
+  inntil 500,- per måned (NB! Dette er en skattepliktig fordel som rapporteres
+  på din lønnsslipp ved årsslutt). Utgiftsføres på vanlig måte.
 - Behandlingsforsikring.
 - Reiseforsikring for deg og din familie.
 
@@ -343,8 +338,8 @@ så vel som sommerstudenter. I Variant er alle ansatte fagpersoner.
 
 Åpenheten strekker seg selvfølgelig til læringen vi gjør. Vi oppfordrer ansatte
 til å dele det de lærer og bruke tid på å formidle det på en god måte. Enten det
-er via Open Source-prosjekter, podcast, video, bloggpost, presentasjoner og kurs, 
-eller rett og slett samtaler med andre mennesker.
+er via Open Source-prosjekter, podcast, video, bloggpost, presentasjoner og
+kurs, eller rett og slett samtaler med andre mennesker.
 
 Vi ønsker at våre ansatte skal lære noe nytt og tenke: "Hvordan kan jeg best
 formidle dette til andre?". Sånn har vi og stor tro på at våre ansatte lærer
