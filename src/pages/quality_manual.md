@@ -279,8 +279,8 @@ stadig endring. For tiden ser den slik ut:
 
 Vi oppfordrer alle til å inkludere hverandre i sosiale lag og kunne dyrke sine
 interesser sammen. Dette kan være å lage mat, lese tegneserier eller se på
-sportslige aktiviteter. I tillegg har vi faste organiserte sosiale aktiviteter som
-hver enkelt kan delta på:
+sportslige aktiviteter. I tillegg har vi faste organiserte sosiale aktiviteter
+som hver enkelt kan delta på:
 
 - Ved oppstart: Faddermiddag
 - Hver 14. dag: Donut med tilfeldig trekt kollega
@@ -344,7 +344,8 @@ For tiden har følgende ledere personalansvar:
 - Mikael
 - Tore
 
-Relasjonen mellom deg og personallederen er basert på coaching.
+Relasjonen mellom deg og personallederen er basert på coaching. Se også
+[listen over hvem som har lederansvar for hvem](https://varianttrh.sharepoint.com/:x:/g/EcciKCrwQFVKi9arVFV9WLEBxh0lqSzlfM7n_nrpkIuDtw?e=gR7JSm).
 
 ### Utviklingssamtale
 
