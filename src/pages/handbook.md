@@ -287,10 +287,11 @@ i året til å kjøpe gadgets for. Disse pengene kan også brukes til å sponse 
 frivillig eller veldedig organisasjon. Fotballaget til dattera, UNICEF eller
 eldrekafeen i bydelen. Valget er ditt!
 
-Årlig gir Variant et beløp tilsvarende 500 kr per ansatt til en veldedig
-organisasjon med verdier og formål som harmonerer med våre. Vi gjør årlig et
-uavhengig valg av formål, og aktuelle mottakere skal diskuteres åpent i hele
-selskapet.
+Årlig
+[gir Variant et beløp tilsvarende 500 kr per ansatt](https://medium.com/variant-as/n%C3%A5r-noen-trenger-hjelp-9a8272f9838)
+til en veldedig organisasjon med verdier og formål som harmonerer med våre. Vi
+gjør årlig et uavhengig valg av formål, og aktuelle mottakere skal diskuteres
+åpent i hele selskapet.
 
 I 2019 valgte vi TV-aksjonen "Nå er det hennes tur" som vårt
 veldedighetsprosjekt.
