@@ -62,9 +62,11 @@ ekstra info.
 
 ## Utgiftsrapportering
 
-Utgiftsrapporter føres teknisk på samme måte som fakturaer, ved at en sender en
-mail til faktura@variant.no, men legg inn "UTGIFTSRAPPORT" i emnefeltet. Ta
-bilde av kvitteringer og skriv inn samlet beløp i mailen.
+Utgiftsrapporter føres ved at en sender en mail til utgiftsrapport@variant.no.
+Ta bilde av kvitteringer og skriv inn samlet beløp i mailen.
+
+Du får tilsendt en kvittering etter rapport har blitt generert, se gjerne over
+vedlegget i e-posten. Hvis det feiler, får du en e-post med feilmelding.
 
 ### Restaurantbesøk
 
@@ -77,7 +79,7 @@ e-posten som lister ut deltagere.
 For enkle reiser innenlands benyttes vårt
 [reiseregningsskjema](https://reiseregning.variantapp.com). Her beregnes diett,
 kjøregodtgjørelser og utlegg knyttet til reisen. Etter at skjemaet er fylt ut,
-må du lagre det og sende det til faktura@variant.no.
+må du lagre det og sende det til utgiftsrapport@variant.no.
 
 Hvis dette skjemaet blir for enkelt for din reise kan for eksempel dette
 [skjemaet](https://www.ks.no/om-ks/om-ks/politisk-ledelse/skjema-for-utfylling-av-reiseregning/)
@@ -103,7 +105,7 @@ Meglere har egne systemer for viderefakturering av reiser.
 
 1. Lever utgiftsrapport gjennom meglers system
 2. Få en kopi eller utskrift av utgiftsrapport hos megler
-3. Send kopi/utskrift til faktura@variant.no på samme måte som for andre
+3. Send kopi/utskrift til utgiftsrapport@variant.no på samme måte som for andre
    utgiftsrapporter. Skriv i mailen at det viderefaktureres, og hvilken kunde
    det gjelder.
 
