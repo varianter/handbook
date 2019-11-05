@@ -65,7 +65,7 @@ ekstra info.
 Utgiftsrapporter føres ved at en sender en mail til utgiftsrapport@variant.no.
 Ta bilde av kvitteringer og skriv inn samlet beløp i mailen.
 
-Du får tilsendt en kvittering etter rapport har blitt generert, gjerne se over
+Du får tilsendt en kvittering etter rapport har blitt generert, se gjerne over
 vedlegget i e-posten. Hvis det feiler, får du en e-post med feilmelding.
 
 ### Restaurantbesøk
