@@ -151,8 +151,7 @@ Vi føler oss jo slett ikke gamle her i Variant. Vi er likevel opptatt av en god
 pensjon. Vi har valgt en pensjonssparing som går langt utover det lovpålagte.
 Fra 0 til 12G setter vi av 7% i pensjon.
 
-Ut over vanlig yrkesskadeforsikring har vi reiseforsikring, helseforsikring og
-behandlingsforsikring gjennom Gjensidige.
+Ut over vanlig yrkesskadeforsikringer har vi reiseforsikring for hele familien, gruppelivsforsikring med engangsutbetaling ved dødsfall, behandlingsforsikring og dekning for annen ulykke enn yrkesskade.
 
 ### Kurs og konferanser
 
