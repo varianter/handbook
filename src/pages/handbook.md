@@ -118,8 +118,6 @@ basert på antall års erfaring. Hva den enkelte tjener er ingen hemmelighet i
 Variant. Lurer du på hva du ville tjent hos oss? Vår hjemmesnekra
 [kalkulator](https://www.variant.no/kalkulator) 🧮 gir deg svaret!
 
-For nyutdannede har vi valgt å legge oss på Teknas startlønnsanbefaling.
-
 ### Overtidstillegg
 
 Vi ønsker ikke å jobbe overtid. Kvaliteten på arbeidet blir best hvis vi har
