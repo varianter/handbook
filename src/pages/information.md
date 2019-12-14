@@ -225,25 +225,6 @@ Se forøvrig
 [dette avsnittet](https://handbook.variant.no/information.html#reiser-p%C3%A5-variants-regning)
 for refusjon av reiseutlegg.
 
-## Planlegging av ferie og permisjoner
-
-Du avgjør selv når du ønsker å ta ut ferie i Variant. Dette avtales med nærmeste
-leder og avklares tidlig med kunde slik at oppdraget løses godt. Det samme
-gjelder kortere permisjoner. Skal du ta ut ferie juli eller i påsken kan du bare
-registrere dette i [bemanning](https://bemanning.variant.no) uten videre
-avklaring med leder.
-
-Foreldrepermisjon bør også avklares så tidlig du har mulighet til. Vi anbefaler
-at dette først diskuteres med nærmeste leder, og så blir dere enige om hvordan
-kunder og oppdrag skal varsles.
-
-Det er fullt mulig å redusere stillingen for en periode. Dette gjøres da
-praktisk ved at man har delvis permisjon. Hvis du kommer i en situasjon hvor
-dette er ønskelig avklares også dette med nærmeste leder og så tidlig som mulig.
-
-_NB!_ Husk alltid å oppdatere [bemanning](https://bemanning.variant.no) med
-planlagt ferie og permisjon slik at de som jobber med salg har oversikt.
-
 ## Sykemelding og egenmelding
 
 Variant praktiserer en utvidet ordning for uttak av egenmelding. Vi er formelt
@@ -273,6 +254,25 @@ ikke rett på sykepenger fra NAV før du har blitt frisk og jobbet sammenhengend
 i 4 uker. _Dette siste avsnittet er spesielt relevant for nyutdannede som kommer
 rett fra skolen._
 
+## Planlegging av ferie og permisjoner
+
+Du avgjør selv når du ønsker å ta ut ferie i Variant. Dette avtales med nærmeste
+leder og avklares tidlig med kunde slik at oppdraget løses godt. Det samme
+gjelder kortere permisjoner. Skal du ta ut ferie juli eller i påsken kan du bare
+registrere dette i [bemanning](https://bemanning.variant.no) uten videre
+avklaring med leder.
+
+Foreldrepermisjon bør også avklares så tidlig du har mulighet til. Vi anbefaler
+at dette først diskuteres med nærmeste leder, og så blir dere enige om hvordan
+kunder og oppdrag skal varsles.
+
+Det er fullt mulig å redusere stillingen for en periode. Dette gjøres da
+praktisk ved at man har delvis permisjon. Hvis du kommer i en situasjon hvor
+dette er ønskelig avklares også dette med nærmeste leder og så tidlig som mulig.
+
+_NB!_ Husk alltid å oppdatere [bemanning](https://bemanning.variant.no) med
+planlagt ferie og permisjon slik at de som jobber med salg har oversikt.
+
 ## Portere mobilabonnement
 
 For at Variant skal betale for mobilbruk må abonnementet overføres til Variant
@@ -296,6 +296,46 @@ Eller hvis noen andre, typisk tidligere arbeidsgiver, eier abonnementet:
 1. Send skjemaet på e-post til skjema-eierskifte@telia.no
 1. Gi beskjed på [#helpdesk](slack://channel?id=CBFA8V536&team=T7FAZ8XT2) om at
    skjema er sendt inn og at portering kan iverksettes.
+
+## Forsikringer og pensjon
+
+Som beskrevet i
+[håndboka](https://handbook.variant.no/index.html#pensjon-og-forsikring) har vi
+gode forsikringsordninger og obligatorisk tjenestepensjon (OTP). Både forsikring
+og pensjon har vi gjennom Gjensidige.
+
+Alle kan administrere sin pensjon ved å logge inn på
+[Gjensidiges nettsider](https://www.gjensidige.no/) med BankID. Blant annet kan
+man her velge spareprofil, og her finner dere også informasjon om de ulike
+forsikringsordninger dere er medlemmer i.
+
+I tillegg til lovbestemt forsikring mot yrkesskade og yrkessykdom samt
+yrkesreiseforsikrinig har vi også følgende forsikringer:
+
+- Gruppeliv død - Hovedforsikret
+- Behandlingsforsikring
+- Annen ulykke enn yrkesskade
+- Ferie og fritidsreise
+
+### Behandlingsforsikring
+
+Inkludert i forsikringen har alle ansatte behandlingsforsikring med følgende
+elementer:
+
+- Røntgen og bildediagnostikk
+- Utredning og behandling hos legespesialist
+- Operasjon
+- Etterkontroll
+- Rehabilitering
+- Ny vurdering hos annen lege (second opinion)
+- Psykologisk førstehjelp
+- Behandling hos psykolog
+- Behandling av rus- og spilleavhengighet
+- Fysikalsk behandling - 12 behandlinger
+- Online Videolege
+
+Her finner dere informasjon om hvordan
+[benytte behandlingsforsikring](https://www.gjensidige.no/privat/meld-skade/behandlingsforsikring).
 
 ## PC-valg
 
