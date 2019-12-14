@@ -99,7 +99,7 @@ viser.
   - Designere vil få en introduksjon til vår designsprint, og vel så viktig
     kunnskap om når metoden skal benyttes og når den _ikke_ bør benyttes
 
-- I april kjører vi en felles halvdags samling angående konsulenters lifehacks.
+- I april kjører vi en felles halvdags samling angående konsulenters "life hacks".
   Dette er tips og triks som gil gjøre hverdagen lettere for alle. Merk at her
   er forventes det også at deltagerne bidrar med sine hacks.
 
