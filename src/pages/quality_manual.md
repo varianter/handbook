@@ -74,9 +74,7 @@ mulige tilbud. Ingen prosess kan erstatte dette, men det er lov å la seg
 inspirere av tidligere arbeid.
 
 Alt salgsarbeid skal kontinuerlig lagres på docs, under Salg. Hver kunde har her
-sin egen mappe og med en minimumsstruktur som gitt i figuren under.
-
-<img src="./assets/illustrations/mappestruktur.png" alt="Skisse over mappestruktur" class="illustration illustration--right illustration--folder" />
+sin egen mappe.
 
 Viktig at det det som oversendes kunde (typisk pdf-er) lagres i en egen
 undermappe kalt 'Til kunde'.
