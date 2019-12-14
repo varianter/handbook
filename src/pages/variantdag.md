@@ -14,7 +14,7 @@ To variantdager er aldri like, men alle er organisert i et fast mønster:
 - **Dagens innledning** - felles for alle. Formålet med denne er å inspirere,
   mane til ettertanke eller utfordre oss. Noen ganger holdes dette av eksterne
   andre ganger av varianter.
-- **Formiddagsøkter** - her er det ofte en eller flere paralelle sesjoner, hvor
+- **Formiddagsøkter** - her er det ofte en eller flere parallelle sesjoner, hvor
   noen har ansvaret for gjennomføringen.
 - **Felles lunsj** - Vi går som regel ut og spiser en god lunsj i godt selskap
   og hvor vi har tid til å snakke sammen.
