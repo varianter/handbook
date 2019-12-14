@@ -44,7 +44,7 @@ utvikling av oss selv som varianter. Med faste og forutsigbare dager hvor man
 vet at ingen er opptatt med andre ting i prosjekt eller hos kunde har vi en unik
 mulighet til å legge opp til hemmelighet i utviklingsløpet.
 
-Vi har utviklintsprogram vi har designet selv, og vi har mulighet til å
+Vi har utviklingsprogram vi har designet selv, og vi har mulighet til å
 investere i andre program.
 
 ## Utviklingsprogram
