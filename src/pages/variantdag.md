@@ -69,7 +69,7 @@ variant:skudd
 <img src="./assets/illustrations/variantskudd.png" alt="Illustrasjon over introprogammet variatn:skudd"
 class="illustration--center illustration--skudd" />
 
-Programmet besår av 6 samlinger og benytter variantdagene slik figuren over
+Programmet består av 6 samlinger og benytter variantdagene slik figuren over
 viser.
 
 - I oktober starter programmet med en heldag.
