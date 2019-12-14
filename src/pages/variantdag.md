@@ -23,7 +23,7 @@ To variantdager er aldri like, men alle er organisert i et fast mønster:
 - **Selskapstatus** - En time på slutten av dagen som er felles for alle, og
   hvor ulike komitéer og grupperinger presenterer relevant informasjon eller
   holder kortere opplegg. Ledelsen presenterer også status for Variant.
-- **Middag og sosiale aktivitter** - Etter at variantdagen er over har vi alltid
+- **Middag og sosiale aktiviteter** - Etter at variantdagen er over har vi alltid
   noe sosialt. Dette kan være alt fra brettspill, til gocart, escaperoom, etc.
 
 ## Spesielle Variantdager
