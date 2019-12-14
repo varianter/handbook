@@ -101,7 +101,7 @@ viser.
     kunnskap om når metoden skal benyttes og når den _ikke_ bør benyttes
 
 - I april kjører vi en felles halvdags samling angående konsulenters "life
-  hacks". Dette er tips og triks som gil gjøre hverdagen lettere for alle. Merk
+  hacks". Dette er tips og triks som vil gjøre hverdagen lettere for alle. Merk
   at her er forventes det også at deltagerne bidrar med sine hacks.
 
 - Siste samling er i mai, også det en felles halvdag. Her blir det en
