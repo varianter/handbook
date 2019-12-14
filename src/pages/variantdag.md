@@ -23,8 +23,9 @@ To variantdager er aldri like, men alle er organisert i et fast mønster:
 - **Selskapstatus** - En time på slutten av dagen som er felles for alle, og
   hvor ulike komitéer og grupperinger presenterer relevant informasjon eller
   holder kortere opplegg. Ledelsen presenterer også status for Variant.
-- **Middag og sosiale aktiviteter** - Etter at variantdagen er over har vi alltid
-  noe sosialt. Dette kan være alt fra brettspill, til gocart, escaperoom, etc.
+- **Middag og sosiale aktiviteter** - Etter at variantdagen er over har vi
+  alltid noe sosialt. Dette kan være alt fra brettspill, til gocart, escaperoom,
+  etc.
 
 ## Spesielle Variantdager
 
@@ -99,9 +100,9 @@ viser.
   - Designere vil få en introduksjon til vår designsprint, og vel så viktig
     kunnskap om når metoden skal benyttes og når den _ikke_ bør benyttes
 
-- I april kjører vi en felles halvdags samling angående konsulenters "life hacks".
-  Dette er tips og triks som gil gjøre hverdagen lettere for alle. Merk at her
-  er forventes det også at deltagerne bidrar med sine hacks.
+- I april kjører vi en felles halvdags samling angående konsulenters "life
+  hacks". Dette er tips og triks som gil gjøre hverdagen lettere for alle. Merk
+  at her er forventes det også at deltagerne bidrar med sine hacks.
 
 - Siste samling er i mai, også det en felles halvdag. Her blir det en
   introduksjon til konsulentøkonomi generelt og hvordan Variant spesielt er
