@@ -21,7 +21,7 @@ To variantdager er aldri like, men alle er organisert i et fast mønster:
 - **Ettermiddagsøkter** - tilsvarende som formiddagøktene, og her kan det også
   være at noen sesjoner trenger så lang tid at begge øktene benyttes
 - **Selskapstatus** - En time på slutten av dagen som er felles for alle, og
-  hvor ulike komitéer og grupperinger pressenterer relevant infomasjon eller
+  hvor ulike komitéer og grupperinger presenterer relevant informasjon eller
   holder kortere opplegg. Ledelsen presenterer også status for Variant.
 - **Middag og sosiale aktivitter** - Etter at variantdagen er over har vi alltid
   noe sosialt. Dette kan være alt fra brettspill, til gocart, escaperoom, etc.
