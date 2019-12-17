@@ -66,7 +66,7 @@ hos kunder 37,5 timer i uka. For å forsterke læringen i prosjekt samt sikre at
 alle har et felles begrepsapparata og ett felles grunnlag har vi etablert
 variant:skudd
 
-<img src="./assets/illustrations/variantskudd.png" alt="Illustrasjon over introprogammet variatn:skudd"
+<img src="./assets/illustrations/variantskudd.png" alt="Illustrasjon over introprogammet variant:skudd"
 class="illustration--center illustration--skudd" />
 
 Programmet består av 6 samlinger og benytter variantdagene slik figuren over
