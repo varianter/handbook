@@ -103,9 +103,8 @@ hvilket oppdrag det gjelder.
 
 Meglere har egne systemer for viderefakturering av reiser.
 
-1. Lever utgiftsrapport gjennom meglers system
-2. Få en kopi eller utskrift av utgiftsrapport hos megler
-3. Send kopi/utskrift til utgiftsrapport@variant.no på samme måte som for andre
+1. Lever utgiftsrapport gjennom meglers system i henhold til deres rutiner
+2. Send samme utgiftsrapport til utgiftsrapport@variant.no slik som for andre
    utgiftsrapporter. Skriv i mailen at det viderefaktureres, og hvilken kunde
    det gjelder.
 
