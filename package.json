@@ -18,7 +18,6 @@
     "url": "https://github.com/varianter/handbook/issues"
   },
   "scripts": {
-    "precommit": "pretty-quick --staged",
     "css": "postcss ./docs/styles/style.css -r",
     "prebuild": "mkdir -p docs/",
     "build": "node tools/generate.js && npm run css",
@@ -64,5 +63,10 @@
     "recursive-copy": "^2.0.10",
     "serve": "^11.3.0",
     "sw-precache": "^5.2.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   }
 }
