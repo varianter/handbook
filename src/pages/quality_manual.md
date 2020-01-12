@@ -290,7 +290,7 @@ som hver enkelt kan delta på:
 - Desember: Julebord med følge
 
 I tillegg har vi et fond på 50 000 kr som vi kan bruke som midler til
-forskjellige sosiale aktiveteter utover året. Dette kan være til leie av hytte,
+forskjellige sosiale aktiviteter utover året. Dette kan være til leie av hytte,
 turer eller andre aktiviteter.
 
 ## Personaloppfølging
