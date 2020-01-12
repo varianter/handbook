@@ -128,6 +128,17 @@ Hvis du er i tvil så spør du i #regnskap på Slack.
 Pro tip: Tenk på at summen av kjøpet ditt regnes eksklusive mva., da rekker
 budsjettet ditt lenger!
 
+## Sossis-fond
+
+Vi har et fond på 50 000 NOK som kan brukes som midler til sosiale aktiviteter
+utover
+[de faste vi har satt opp](http://localhost:5000/quality_manual#sosiale-aktiviteter).
+
+Dette kan være aktiviteter som hytteleie i Åre, fjellturer, Rush trampolinepark,
+matlaging eller hva enn vi kommer på kan være en god idé. Legg inn forslag som
+Trello-kort under "Til behandling i ledermøtet" på Operativt. Vi burde sikte inn
+på aktiviteter som er inkluderende og tilgjengelig for alle.
+
 ## Fordelsprogram og rabatt
 
 Skattemydighetene krever at fordeler du oppnår gjennom ulike fordelsprogam man
