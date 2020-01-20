@@ -7,6 +7,8 @@ fokuserer på å utvikle oss selv, selskapet og samfunnet.
 Den første fredagen i hver måned har vi altså variantdag. (Det vil si, vi har
 ikke variantdag i juli og august.)
 
+[Her vil du alltid finne oversikt over gjennomførte og planlagte variantdager](https://medium.com/variant-as/tagged/variantdag).
+
 ## Organisering
 
 To variantdager er aldri like, men alle er organisert i et fast mønster:
