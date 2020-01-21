@@ -103,7 +103,7 @@ async function moveFiles() {
 
 function humanize(m) {
   var mdate = new Date(m);
-  return format(mdate, "EEEE do MMMM, YYYY. HH:mm ", { locale: nb });
+  return format(mdate, "EEEE do MMMM, yyyy. HH:mm ", { locale: nb });
 }
 
 function createNav(pages) {

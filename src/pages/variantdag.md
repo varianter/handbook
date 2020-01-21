@@ -103,7 +103,11 @@ viser.
     kunnskap om når metoden skal benyttes og når den _ikke_ bør benyttes
 
 - I april kjører vi en felles halvdags samling angående konsulenters "life
+<<<<<<< HEAD
   hacks". Dette er tips og triks som gil gjøre hverdagen lettere for alle. Merk
+=======
+  hacks". Dette er tips og triks som vil gjøre hverdagen lettere for alle. Merk
+>>>>>>> 1e9a8d4c9ccf975d0469891a1876dd6bbb7fb8ce
   at her er forventes det også at deltagerne bidrar med sine hacks.
 
 - Siste samling er i mai, også det en felles halvdag. Her blir det en
