@@ -44,7 +44,7 @@ To variantdager er aldri like, men alle er organisert i et fast mønster:
 Med totalt 9 ordinære variantdager, har vi 18 halvdagsøkter i året som vi skal
 bruke for å utvikle selskapet. Halvparten av disse er satt av til å drive
 utvikling av oss selv som varianter. Med faste og forutsigbare dager hvor man
-=======
+
 vet at ingen er opptatt med andre ting i prosjekt eller hos kunde har vi en unik
 mulighet til å legge opp til hemmelighet i utviklingsløpet.
 
