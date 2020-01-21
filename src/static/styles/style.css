@@ -220,6 +220,10 @@ code {
   margin: 0 auto;
 }
 
+.content__inner img {
+  max-width: 100%;
+}
+
 .content h1 .markdownIt-Anchor,
 .content h2 .markdownIt-Anchor,
 .content h3 .markdownIt-Anchor,
