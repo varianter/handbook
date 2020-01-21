@@ -7,11 +7,12 @@ fokuserer på å utvikle oss selv, selskapet og samfunnet.
 Den første fredagen i hver måned har vi altså variantdag. (Det vil si, vi har
 ikke variantdag i juli og august.)
 
-<<<<<<< HEAD
+[Her vil du alltid finne oversikt over gjennomførte og planlagte variantdager](https://medium.com/variant-as/tagged/variantdag).
+
 =======
 [Her vil du alltid finne oversikt over gjennomførte og planlagte variantdager](https://medium.com/variant-as/tagged/variantdag).
 
->>>>>>> c1901d936d03d98c52cef706e7cc35405c0ecca7
+>>>>>>> nytt-skudd
 ## Organisering
 
 To variantdager er aldri like, men alle er organisert i et fast mønster:
@@ -19,29 +20,22 @@ To variantdager er aldri like, men alle er organisert i et fast mønster:
 - **Dagens innledning** - felles for alle. Formålet med denne er å inspirere,
   mane til ettertanke eller utfordre oss. Noen ganger holdes dette av eksterne
   andre ganger av varianter.
-<<<<<<< HEAD
-- **Formiddagsøkter** - her er det ofte en eller flere paralelle sesjoner, hvor
+- **Formiddagsøkter** - her er det ofte en eller flere parallelle sesjoner, hvor
 =======
 - **Formiddagsøkter** - her er det ofte en eller flere parallelle sesjoner, hvor
->>>>>>> c1901d936d03d98c52cef706e7cc35405c0ecca7
+>>>>>>> nytt-skudd
   noen har ansvaret for gjennomføringen.
 - **Felles lunsj** - Vi går som regel ut og spiser en god lunsj i godt selskap
   og hvor vi har tid til å snakke sammen.
 - **Ettermiddagsøkter** - tilsvarende som formiddagøktene, og her kan det også
   være at noen sesjoner trenger så lang tid at begge øktene benyttes
 - **Selskapstatus** - En time på slutten av dagen som er felles for alle, og
-<<<<<<< HEAD
-  hvor ulike komitéer og grupperinger pressenterer relevant infomasjon eller
-  holder kortere opplegg. Ledelsen presenterer også status for Variant.
-- **Middag og sosiale aktivitter** - Etter at variantdagen er over har vi alltid
-  noe sosialt. Dette kan være alt fra brettspill, til gocart, escaperoom, etc.
 =======
   hvor ulike komitéer og grupperinger presenterer relevant informasjon eller
   holder kortere opplegg. Ledelsen presenterer også status for Variant.
 - **Middag og sosiale aktiviteter** - Etter at variantdagen er over har vi
   alltid noe sosialt. Dette kan være alt fra brettspill, til gocart, escaperoom,
   etc.
->>>>>>> c1901d936d03d98c52cef706e7cc35405c0ecca7
 
 ## Spesielle Variantdager
 
@@ -58,17 +52,11 @@ To variantdager er aldri like, men alle er organisert i et fast mønster:
 Med totalt 9 ordinære variantdager, har vi 18 halvdagsøkter i året som vi skal
 bruke for å utvikle selskapet. Halvparten av disse er satt av til å drive
 utvikling av oss selv som varianter. Med faste og forutsigbare dager hvor man
-<<<<<<< HEAD
-vet at ingen er opptatt med andre ting i prosjetk eller hos kunde har vi en unik
-mulighet til å legge opp til hemmelighet i utviklingsløpet.
-
-Vi har utviklintsprogram vi har designet selv, og vi har mulighet til å
 =======
 vet at ingen er opptatt med andre ting i prosjekt eller hos kunde har vi en unik
 mulighet til å legge opp til hemmelighet i utviklingsløpet.
 
 Vi har utviklingsprogram vi har designet selv, og vi har mulighet til å
->>>>>>> c1901d936d03d98c52cef706e7cc35405c0ecca7
 investere i andre program.
 
 ## Utviklingsprogram
@@ -90,17 +78,10 @@ hos kunder 37,5 timer i uka. For å forsterke læringen i prosjekt samt sikre at
 alle har et felles begrepsapparata og ett felles grunnlag har vi etablert
 variant:skudd
 
-<<<<<<< HEAD
-<img src="./assets/illustrations/variantskudd.png" alt="Illustrasjon over introprogammet variatn:skudd"
-class="illustration--center illustration--skudd" />
-
-Programmet besår av 6 samlinger og benytter variantdagene slik figuren over
-=======
-<img src="./assets/illustrations/variantskudd.png" alt="Illustrasjon over introprogammet variant:skudd"
+<img width="800px" src="./assets/illustrations/variant_skudd_transparent.png" alt="Illustrasjon over introprogammet variant:skudd"
 class="illustration--center illustration--skudd" />
 
 Programmet består av 6 samlinger og benytter variantdagene slik figuren over
->>>>>>> c1901d936d03d98c52cef706e7cc35405c0ecca7
 viser.
 
 - I oktober starter programmet med en heldag.
@@ -130,15 +111,14 @@ viser.
   - Designere vil få en introduksjon til vår designsprint, og vel så viktig
     kunnskap om når metoden skal benyttes og når den _ikke_ bør benyttes
 
-<<<<<<< HEAD
-- I april kjører vi en felles halvdags samling angående konsulenters lifehacks.
-  Dette er tips og triks som gil gjøre hverdagen lettere for alle. Merk at her
-  er forventes det også at deltagerne bidrar med sine hacks.
+- I april kjører vi en felles halvdags samling angående konsulenters "life
+  hacks". Dette er tips og triks som vil gjøre hverdagen lettere for alle. Merk
+  at her er forventes det også at deltagerne bidrar med sine hacks.
 =======
 - I april kjører vi en felles halvdags samling angående konsulenters "life
   hacks". Dette er tips og triks som vil gjøre hverdagen lettere for alle. Merk
   at her er forventes det også at deltagerne bidrar med sine hacks.
->>>>>>> c1901d936d03d98c52cef706e7cc35405c0ecca7
+>>>>>>> nytt-skudd
 
 - Siste samling er i mai, også det en felles halvdag. Her blir det en
   introduksjon til konsulentøkonomi generelt og hvordan Variant spesielt er
