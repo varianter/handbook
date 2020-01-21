@@ -9,10 +9,6 @@ ikke variantdag i juli og august.)
 
 [Her vil du alltid finne oversikt over gjennomførte og planlagte variantdager](https://medium.com/variant-as/tagged/variantdag).
 
-=======
-[Her vil du alltid finne oversikt over gjennomførte og planlagte variantdager](https://medium.com/variant-as/tagged/variantdag).
-
->>>>>>> nytt-skudd
 ## Organisering
 
 To variantdager er aldri like, men alle er organisert i et fast mønster:
@@ -21,16 +17,12 @@ To variantdager er aldri like, men alle er organisert i et fast mønster:
   mane til ettertanke eller utfordre oss. Noen ganger holdes dette av eksterne
   andre ganger av varianter.
 - **Formiddagsøkter** - her er det ofte en eller flere parallelle sesjoner, hvor
-=======
-- **Formiddagsøkter** - her er det ofte en eller flere parallelle sesjoner, hvor
->>>>>>> nytt-skudd
   noen har ansvaret for gjennomføringen.
 - **Felles lunsj** - Vi går som regel ut og spiser en god lunsj i godt selskap
   og hvor vi har tid til å snakke sammen.
 - **Ettermiddagsøkter** - tilsvarende som formiddagøktene, og her kan det også
   være at noen sesjoner trenger så lang tid at begge øktene benyttes
 - **Selskapstatus** - En time på slutten av dagen som er felles for alle, og
-=======
   hvor ulike komitéer og grupperinger presenterer relevant informasjon eller
   holder kortere opplegg. Ledelsen presenterer også status for Variant.
 - **Middag og sosiale aktiviteter** - Etter at variantdagen er over har vi
@@ -114,11 +106,6 @@ viser.
 - I april kjører vi en felles halvdags samling angående konsulenters "life
   hacks". Dette er tips og triks som vil gjøre hverdagen lettere for alle. Merk
   at her er forventes det også at deltagerne bidrar med sine hacks.
-=======
-- I april kjører vi en felles halvdags samling angående konsulenters "life
-  hacks". Dette er tips og triks som vil gjøre hverdagen lettere for alle. Merk
-  at her er forventes det også at deltagerne bidrar med sine hacks.
->>>>>>> nytt-skudd
 
 - Siste samling er i mai, også det en felles halvdag. Her blir det en
   introduksjon til konsulentøkonomi generelt og hvordan Variant spesielt er
