@@ -39,7 +39,7 @@ To variantdager er aldri like, men alle er organisert i et fast mønster:
 - Hver januar arrangerer vi vårt nyttårskalas. Så januars variantdag flyttes
   litt ut i måneden, og en del av oss vil være opptatt med å forberede kalaset.
 
-## Variatdagen som rammeverk for utvikling
+## Variantdagen som rammeverk for utvikling
 
 Med totalt 9 ordinære variantdager, har vi 18 halvdagsøkter i året som vi skal
 bruke for å utvikle selskapet. Halvparten av disse er satt av til å drive
