@@ -356,8 +356,8 @@ for å gjøre jobben. Det betyr at de i prinsippet kan velge hvilken maskin som
 helst. Vi har plukket ut noen modeller som basert på vår erfaring så langt er de
 mest populære:
 
-- [MacBook Pro 15](https://www.komplett.no/product/1131260/pc-nettbrett/pc-baerbar-laptop/alle-baerbare-pc-er/macbook-pro-15-2019-512gb-stellargraa)
-- [Lenovo P1 15,6](https://www.komplett.no/product/1095496/pc-nettbrett/pc-baerbar-laptop/arbeidsstasjon/lenovo-p1-156-workstation-full-hd)
+- [MacBook Pro 16](https://eplehuset.no/mac/macbook-pro/macbook-pro-16-tommer-med-touch-bar-2-6-ghz-512-gb-i-stellargra)
+- [Lenovo P1 15,6](https://www.komplett.no/product/1095495/pc-nettbrett/pc-baerbar-laptop/arbeidsstasjon/lenovo-p1-156-workstation-full-hd)
 
 Har man behov for noe annet enn disse modellene er det helt i orden, og hver
 enkelt må da gjøre en vurdering av behovet opp mot eventuell ekstra kostnad.
