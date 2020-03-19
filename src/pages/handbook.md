@@ -296,7 +296,7 @@ I 2019 valgte vi TV-aksjonen "Nå er det hennes tur" som vårt
 veldedighetsprosjekt.
 
 ## Likestilling
-Likestilling er en grunnleggende verdi for oss som jobber her, og for Variant som @
+Likestilling er en grunnleggende verdi for oss som jobber her, og for Variant som
 selskap. Her snakker vi om grunnleggende likeverd på tvers av blant annet nasjonalitet, etnisk 
 bakgrunn, livssyn, legning og kjønn.  
 
