@@ -300,13 +300,14 @@ Likestilling er en grunnleggende verdi for oss som jobber her, og for Variant so
 selskap. Her snakker vi om grunnleggende likeverd på tvers av blant annet nasjonalitet, etnisk 
 bakgrunn, livssyn, legning og kjønn.  
 
-Det å oppretteholde en god ballanse mellom kjønnene er spesielt viktig for oss, og legger føringer 
+Det å opprettholde en god balanse mellom kjønnene er spesielt viktig for oss, og legger føringer 
 for mange av våre valg.  Vi vet at kvinner ofte tar en større del av omsorgsarbeidet i hjemmet og
-vi ønsker ikke at blant annet dette skal føre til karriæremessig ulemper. 
+vi ønsker ikke at blant annet dette skal føre til karrieremessig ulemper. 
 
-- Foreldrepermisjon reduserer ikke ansinitet på noen måte.
+- Foreldrepermisjon reduserer ikke ansiennitet på noen måte.
 - Man får utbetalt bonus også mens man er i foreldrepermisjon 
 - Selvsagt får man full lønn under foreldrepermisjon
+
 
 
 
