@@ -305,7 +305,7 @@ for mange av våre valg.  Vi vet at kvinner ofte tar en større del av omsorgsar
 vi ønsker ikke at blant annet dette skal føre til karrieremessige ulemper. 
 
 - Foreldrepermisjon reduserer ikke ansiennitet på noen måte.
-- Man får utbetalt bonus også mens man er i foreldrepermisjon 
+- Man får utbetalt bonus også mens man er i foreldrepermisjon.
 - Selvsagt får man full lønn under foreldrepermisjon
 
 
