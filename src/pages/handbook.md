@@ -302,7 +302,7 @@ bakgrunn, livssyn, legning og kjønn.
 
 Det å opprettholde en god balanse mellom kjønnene er spesielt viktig for oss, og legger føringer 
 for mange av våre valg.  Vi vet at kvinner ofte tar en større del av omsorgsarbeidet i hjemmet og
-vi ønsker ikke at blant annet dette skal føre til karrieremessig ulemper. 
+vi ønsker ikke at blant annet dette skal føre til karrieremessige ulemper. 
 
 - Foreldrepermisjon reduserer ikke ansiennitet på noen måte.
 - Man får utbetalt bonus også mens man er i foreldrepermisjon 
