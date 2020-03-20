@@ -301,7 +301,7 @@ Likestilling er en grunnleggende verdi for oss som jobber her, og for Variant so
 selskap. Her snakker vi om grunnleggende likeverd på tvers av blant annet nasjonalitet, etnisk 
 bakgrunn, livssyn, legning og kjønn.  
 
-Vi har i dag en god kjønnsballanse, men samtidig ønsker vi å gjøre den enda bedre. Vi er blir ikke 
+Vi har i dag en god kjønnsbalanse, men samtidig ønsker vi å gjøre den enda bedre. Vi er blir ikke 
 fornøyd før vi er omtrent fifty-fifty kvinner og menn. Dette påvirker mange av våre strategiske og operative 
 beslutninger, som blant annet:
 
@@ -309,8 +309,9 @@ beslutninger, som blant annet:
 - Man får utbetalt bonus også mens man er i foreldrepermisjon.
 - Selvsagt får man full lønn under foreldrepermisjon.
 
-Vi ønsker ikke at økonomi og karriære skal være momenter inn i hvordan den enkelte familie 
+Vi ønsker ikke at økonomi og karriere skal være momenter inn i hvordan den enkelte familie 
 planlegger og fordeler arbeid i hjemmet.  
+
 
 ## Helse
 
