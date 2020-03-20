@@ -132,18 +132,19 @@ overtidslønnen beregnes ved å ta
 
 ### Bonus
 
-Hvert kvartal utbetaler Variant bonus til alle ansatte. Dette inkluderer også 
-sykemeldte og ansatte i foreldrepermisjon.  Bonusen beregnes som 30% av overskuddet 
+Hvert kvartal utbetaler Variant bonus til alle ansatte. Bonusen beregnes som 30% av overskuddet 
 dette kvartalet, delt likt på alle ansatte. Vi må også betale arbeidsgiveravgift på bonus, 
 slik at dette trekkes fra. Dette regnes som lønn inklusive feriepenger, så 10,7% utsettes 
-til neste års feriepenger. Hvis noen har vært ansatt bare deler av et kvartal, justeres 
-deres andel etter dette. På samme måte så reduseres andelen hvis noen velger å ta delvis 
-eller hel permisjon over noe tid. Dette gjelder som sagt ikke foreldrepermisjon. 
+til neste års feriepenger.  
 
 **Eksempel**: Gitt 10 ansatte og et kvartalsvis overskudd på _én million_, deler
 vi `30%` av overskuddet på 10 og får `30 000`. Så skal det betales `14,1%`
 arbeidsgiveravgift slik at hver enkelts bonus dette kvartalet blir `25 770 kr`.
 Av dette kommer `2 761 kr` som neste års feriepenger.
+
+De som har vært ansatt bare deler av et kvartal eller har valgt hel eller delvis permisjon 
+får sin andel redusert etter dette. Ansatte som er i foreldrepermisjon og som er sykemeldte 
+får full bonus. 
 
 ### Pensjon og forsikring
 
@@ -300,16 +301,16 @@ Likestilling er en grunnleggende verdi for oss som jobber her, og for Variant so
 selskap. Her snakker vi om grunnleggende likeverd på tvers av blant annet nasjonalitet, etnisk 
 bakgrunn, livssyn, legning og kjønn.  
 
-Det å opprettholde en god balanse mellom kjønnene er spesielt viktig for oss, og legger føringer 
-for mange av våre valg.  Vi vet at kvinner ofte tar en større del av omsorgsarbeidet i hjemmet og
-vi ønsker ikke at blant annet dette skal føre til karrieremessige ulemper. 
+Vi har i dag en god kjønnsballanse, men samtidig ønsker vi å gjøre den enda bedre. Vi er blir ikke 
+fornøyd før vi er omtrent fifty-fifty kvinner og menn. Dette påvirker mange av våre strategiske og operative 
+beslutninger, som blant annet:
 
 - Foreldrepermisjon reduserer ikke ansiennitet på noen måte.
 - Man får utbetalt bonus også mens man er i foreldrepermisjon.
 - Selvsagt får man full lønn under foreldrepermisjon.
 
-
-
+Vi ønsker ikke at økonomi og karriære skal være momenter inn i hvordan den enkelte familie 
+planlegger og fordeler arbeid i hjemmet.  
 
 ## Helse
 
