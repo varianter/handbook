@@ -267,7 +267,7 @@ i 4 uker. _Dette siste avsnittet er spesielt relevant for nyutdannede som kommer
 rett fra skolen._
 
 Sykemelding varsles ved å sende en epost til sykemelding@variant.no fra
-din jobb-adresse. Eposten bør inneholde:
+din jobb-adresse. E-posten bør inneholde:
 
 - Dato sykemeldingen starter
 - Dato sykmeldingen gjelder til
