@@ -301,7 +301,7 @@ Likestilling er en grunnleggende verdi for oss som jobber her, og for Variant so
 selskap. Her snakker vi om grunnleggende likeverd på tvers av blant annet nasjonalitet, etnisk 
 bakgrunn, livssyn, legning og kjønn.  
 
-Vi har i dag en god kjønnsbalanse, men samtidig ønsker vi å gjøre den enda bedre. Vi er blir ikke 
+Vi har i dag en god kjønnsbalanse, men samtidig ønsker vi å gjøre den enda bedre. Vi blir ikke 
 fornøyd før vi er omtrent fifty-fifty kvinner og menn. Dette påvirker mange av våre strategiske og operative 
 beslutninger, som blant annet:
 
