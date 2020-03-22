@@ -143,7 +143,7 @@ arbeidsgiveravgift slik at hver enkelts bonus dette kvartalet blir `25 770 kr`.
 Av dette kommer `2 761 kr` som neste års feriepenger.
 
 De som har vært ansatt bare deler av et kvartal eller har valgt hel eller delvis permisjon 
-får sin andel redusert etter dette. Ansatte som er i foreldrepermisjon og som er sykemeldte 
+får sin andel redusert etter dette. Ansatte som er i foreldrepermisjon eller som er sykemeldte 
 får full bonus. 
 
 ### Pensjon og forsikring
