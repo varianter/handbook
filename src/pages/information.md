@@ -281,6 +281,9 @@ helseopplysninger eller personlig informasjon.
 Din personalleder vil ta kontakt med deg om din sykemelding i løpet av de første
 arbeidsdagene og følge deg opp.
 
+Varsle så snart du har anledning. Det er stor variasjon i hvor lang tid det går
+før legens varsel mottas via Altinn.
+
 ## Planlegging av ferie og permisjoner
 
 Du avgjør selv når du ønsker å ta ut ferie i Variant. Dette avtales med nærmeste
