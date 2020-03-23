@@ -248,6 +248,8 @@ Det betyr at vi har følgende grenser:
   sykemelding fra lege.
 - Inntil 24 dager egenmelding siste 12 måneder.
 
+Om du mistenker at du blir alvorlig syk eller smittet av koronavirus så bør du kontakte lege for raskt få riktige råd. Be om sykmelding fremfor å benytte egenmelding i slike tilfeller.
+
 Egenmelding leveres formelt ved å føre på riktig timekode i Harvest. Husk
 selvsagt å varsle riktige personer på prosjekt i tillegg.
 
