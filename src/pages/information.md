@@ -268,6 +268,24 @@ ikke rett på sykepenger fra NAV før du har blitt frisk og jobbet sammenhengend
 i 4 uker. _Dette siste avsnittet er spesielt relevant for nyutdannede som kommer
 rett fra skolen._
 
+Sykemelding varsles ved å sende en epost til sykemelding@variant.no fra
+din jobb-adresse. E-posten bør inneholde:
+
+- Dato sykemeldingen starter
+- Dato sykmeldingen gjelder til
+- Om du er sykemeldt på full tid eller hvilken andel av stillingen din den gjelder
+- Ønsker om tilrettelegging
+
+Eposten går til personalledere og salg/oppdragsledere for at de skal kunne legge
+til rette for deg og ta hensyn til ditt fravær i planlegging. Ikke send 
+helseopplysninger eller personlig informasjon.
+
+Din personalleder vil ta kontakt med deg om din sykemelding i løpet av de første
+arbeidsdagene og følge deg opp.
+
+Varsle så snart du har anledning. Det er stor variasjon i hvor lang tid det går
+før legens varsel mottas via Altinn.
+
 ## Planlegging av ferie og permisjoner
 
 Du avgjør selv når du ønsker å ta ut ferie i Variant. Dette avtales med nærmeste
