@@ -274,8 +274,12 @@ din jobb-adresse. E-posten bør inneholde:
 - Om du er sykemeldt på full tid eller hvilken andel av stillingen din den gjelder
 - Ønsker om tilrettelegging
 
+Eposten går til personalledere og salg/oppdragsledere for at de skal kunne legge
+til rette for deg ig ta hensyn til ditt fravær i planlegging. Ikke sende 
+helseopplysninger eller personlig informasjon.
+
 Din personalleder vil ta kontakt med deg om din sykemelding i løpet av de første
-arbeidsdagene etterpå og følge det videre opp.
+arbeidsdagene og følge deg opp.
 
 ## Planlegging av ferie og permisjoner
 
