@@ -275,7 +275,7 @@ din jobb-adresse. E-posten bør inneholde:
 - Ønsker om tilrettelegging
 
 Eposten går til personalledere og salg/oppdragsledere for at de skal kunne legge
-til rette for deg ig ta hensyn til ditt fravær i planlegging. Ikke sende 
+til rette for deg og ta hensyn til ditt fravær i planlegging. Ikke sende 
 helseopplysninger eller personlig informasjon.
 
 Din personalleder vil ta kontakt med deg om din sykemelding i løpet av de første
