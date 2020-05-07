@@ -20,13 +20,8 @@ Her er noen snarveier:
 
 ### WiFi
 
-Hvis du jobber på kontoret benytter du det trådløse nettet med SSID **DIGS**.
-Ved oppstart har du fått en e-post med emne: "Account Confirmation" **NB!**
-Denne kan ha havnet i spam-folderen. Følg linken i denne e-posten for å sette
-passord.
-
-Hvis du har glemt passordet til det trådløse nettet kan du
-[endre det her](http://intranett.digs.no/user/forgot).
+Når du jobber på kontoret benytter du det trådløse nettet med SSID **Varianthuset**.
+Wifi-passordet får du ved å skrive "wifipassord" i #helpdesk på slack
 
 ## Lønning
 
