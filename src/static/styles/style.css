@@ -271,6 +271,7 @@ ol {
   position: relative;
   font-family: "IBM Plex Serif", serif;
   font-weight: 500;
+  z-index: -1;
 }
 .content h2,
 .content h3,
@@ -279,6 +280,7 @@ ol {
   position: relative;
   font-family: "IBM Plex Serif", serif;
   font-weight: 500;
+  z-index: -1;
 }
 
 .content h1 {
@@ -499,4 +501,10 @@ p {
   .footer__social {
     width: 100%;
   }
+}
+
+.gsc-control-cse {
+  margin-top: 2rem;
+  padding: 0 !important;
+  background: transparent !important;
 }
