@@ -9,13 +9,7 @@ Vi holder til, så lenge vi ikke er ute hos våre kunder,  i [Varianthuset](http
 
 ### WiFi
 
-Hvis du jobber på kontoret benytter du det trådløse nettet med SSID **DIGS**.
-Ved oppstart har du fått en e-post med emne: "Account Confirmation" **NB!**
-Denne kan ha havnet i spam-folderen. Følg linken i denne e-posten for å sette
-passord.
-
-Hvis du har glemt passordet til det trådløse nettet kan du
-[endre det her](http://intranett.digs.no/user/forgot).
+Sjekk kommandoen `/info wifi` på Slack.
 
 ## Lønning
 
