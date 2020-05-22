@@ -257,7 +257,6 @@ stadig endring. For tiden ser den slik ut:
 - Bestille telefonabonnement
 - Registrere som ansatt i Uni, ellers blir det dårlig med lønn.
 - Melde inn i forsikringer (Gjensidige)
-- Bestill adgangskort til Digs.
 
 ### Etter oppstartsdato (Fadder)
 
