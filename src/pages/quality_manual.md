@@ -235,7 +235,7 @@ stadig endring. For tiden ser den slik ut:
 - Opprett bruker for AD, Mail i office 365.
 - Etabler CV i CV-partner, og inviter den nyansatte inn for å starte på dette
   arbeidet.
-- Ta bilde til CV, helst i kroken hvor de andre bildene er tatt på DIGS
+- Ta bilde til CV
 - Tildele fadder
 
 ### Frem til oppstartsdato (Fadder)
