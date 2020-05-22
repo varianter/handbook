@@ -151,7 +151,7 @@ fra 2019 er Ellen Wagnild-Antonsen.
 
 Variant er et konsulentselskap, der hvor mange ansatte tilbringer store deler av
 arbeidstiden ute i kundenes lokaler. HMS-håndboka dekker proaktivt arbeid med
-lokaler, men vi avgrenser dette til vårt kontor på DIGS.
+lokaler, men vi avgrenser dette til vårt kontor i Thomas Angells gate.
 
 Hvis ansatte opplever feil, mangler eller farlige situasjoner ute hos kunde
 ønsker vi at dette forsøkes varslet gjennom hht kundens HMS-rutiner. Skulle
