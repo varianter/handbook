@@ -151,7 +151,7 @@ fra 2019 er Ellen Wagnild-Antonsen.
 
 Variant er et konsulentselskap, der hvor mange ansatte tilbringer store deler av
 arbeidstiden ute i kundenes lokaler. HMS-håndboka dekker proaktivt arbeid med
-lokaler, men vi avgrenser dette til vårt kontor på DIGS.
+lokaler, men vi avgrenser dette til vårt kontor i Thomas Angells gate.
 
 Hvis ansatte opplever feil, mangler eller farlige situasjoner ute hos kunde
 ønsker vi at dette forsøkes varslet gjennom hht kundens HMS-rutiner. Skulle
@@ -164,8 +164,6 @@ HMS-arbeidet. I Variant har vi følgende HMS-dokumentasjon:
 
 - [Arbeidsavtaler](https://varianttrh.sharepoint.com/Delte%20dokumenter/Forms/AllItems.aspx?viewpath=%2FDelte%20dokumenter&id=%2FDelte%20dokumenter%2FAnsettelsesavtaler%2FSignerte%20varianter)
 - [Kursbevis for verneombudsopplæring](https://varianttrh.sharepoint.com/Delte%20dokumenter/Forms/AllItems.aspx?viewpath=%2FDelte%20dokumenter&id=%2FDelte%20dokumenter%2FHMS%2FKursbevis)
-- [Brannverndokumentasjon](https://digs.officernd.com/terms-good-to-know?office=565748274a955c790d808c77)
-- [Avfallshåndtering](hhttps://digs.officernd.com/terms-good-to-know?office=565748274a955c790d808c77)
 - [Skade- og sykefravær](https://varianttrh.sharepoint.com/:x:/g/ERFyagxSR0VPkmTMZP_wmMcB3SF9IEFdFGkj2zJCz9LnKw?e=OmnTKS)
 - [Resultater fra regelmessig kartlegging](https://varianttrh.sharepoint.com/:f:/g/EgR0QvXa9u9Hpi_6gI6UzsQBR_cPsxZaZEetaR63vIJsRg?e=TZYeTI)
 - [Handlingsplan](https://trello.com/b/DQX0sirR/operativt)
@@ -235,7 +233,7 @@ stadig endring. For tiden ser den slik ut:
 - Opprett bruker for AD, Mail i office 365.
 - Etabler CV i CV-partner, og inviter den nyansatte inn for å starte på dette
   arbeidet.
-- Ta bilde til CV, helst i kroken hvor de andre bildene er tatt på DIGS
+- Ta bilde til CV
 - Tildele fadder
 
 ### Frem til oppstartsdato (Fadder)
@@ -257,7 +255,6 @@ stadig endring. For tiden ser den slik ut:
 - Bestille telefonabonnement
 - Registrere som ansatt i Uni, ellers blir det dårlig med lønn.
 - Melde inn i forsikringer (Gjensidige)
-- Bestill adgangskort til Digs.
 
 ### Etter oppstartsdato (Fadder)
 

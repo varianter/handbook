@@ -376,7 +376,7 @@ setter vi høyt.
 
 Den første fredagen i hver måned (foruten sommermånedene juli og august) har vi
 det vi kaller en variantdag. Dette er en innedag der alle selskapets konsulenter
-bruker hele dagen hjemme på Digs, for faglig, administrativt og sosialt påfyll.
+bruker hele dagen hjemme i Varianthuset, for faglig, administrativt og sosialt påfyll.
 
 ## Stilguide
 

@@ -3,30 +3,14 @@
 Her beskrives interne prosedyrer og generelle rutiner for dagligdagse oppgaver
 for en variant. Det kan være ting som utgiftsføring, timeføring, osv.
 
-## Digs
+## Varianthuset
 
-Vi holder til, så lenge vi ikke er ute hos våre kunder, hos DIGS i Krambugata.
-Alle ansatte blir meldt inn i DIGS' systemer. Følg med på DIGS'
-[intranett](https://digs.officernd.com/) for å finne ut hva som skjer på bygget
-og hvilke regler som gjelder.
-
-Her er noen snarveier:
-
-- [How to-guides](https://digs.officernd.com/links?office=565748274a955c790d808c77)
-  Blant annet hvordan printer og kaffemaskina fungerer. Her finner du også
-  husregler.
-- [Møteromsbooking](https://digs.officernd.com/calendar?type=meeting_room&office=565748274a955c790d808c77)
-  Vi kan dessverre ikke gjøre dette direkte fra Outlook.
+Vi holder til, så lenge vi ikke er ute hos våre kunder,  i [Varianthuset](http://var.show/varianthuset) i Thomas Angells gate.
 
 ### WiFi
 
-Hvis du jobber på kontoret benytter du det trådløse nettet med SSID **DIGS**.
-Ved oppstart har du fått en e-post med emne: "Account Confirmation" **NB!**
-Denne kan ha havnet i spam-folderen. Følg linken i denne e-posten for å sette
-passord.
-
-Hvis du har glemt passordet til det trådløse nettet kan du
-[endre det her](http://intranett.digs.no/user/forgot).
+Når du jobber på kontoret benytter du det trådløse nettet med SSID **Varianthuset**.
+Wifi-passordet får du ved å skrive `/info wifi` på Slack.
 
 ## Lønning
 
