@@ -164,8 +164,6 @@ HMS-arbeidet. I Variant har vi følgende HMS-dokumentasjon:
 
 - [Arbeidsavtaler](https://varianttrh.sharepoint.com/Delte%20dokumenter/Forms/AllItems.aspx?viewpath=%2FDelte%20dokumenter&id=%2FDelte%20dokumenter%2FAnsettelsesavtaler%2FSignerte%20varianter)
 - [Kursbevis for verneombudsopplæring](https://varianttrh.sharepoint.com/Delte%20dokumenter/Forms/AllItems.aspx?viewpath=%2FDelte%20dokumenter&id=%2FDelte%20dokumenter%2FHMS%2FKursbevis)
-- [Brannverndokumentasjon](NEW URL?)
-- [Avfallshåndtering](NEW URL?)
 - [Skade- og sykefravær](https://varianttrh.sharepoint.com/:x:/g/ERFyagxSR0VPkmTMZP_wmMcB3SF9IEFdFGkj2zJCz9LnKw?e=OmnTKS)
 - [Resultater fra regelmessig kartlegging](https://varianttrh.sharepoint.com/:f:/g/EgR0QvXa9u9Hpi_6gI6UzsQBR_cPsxZaZEetaR63vIJsRg?e=TZYeTI)
 - [Handlingsplan](https://trello.com/b/DQX0sirR/operativt)
