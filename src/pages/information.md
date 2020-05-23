@@ -9,7 +9,8 @@ Vi holder til, så lenge vi ikke er ute hos våre kunder,  i [Varianthuset](http
 
 ### WiFi
 
-Sjekk kommandoen `/info wifi` på Slack.
+Når du jobber på kontoret benytter du det trådløse nettet med SSID **Varianthuset**.
+Wifi-passordet får du ved å skrive `/info wifi` på Slack.
 
 ## Lønning
 
