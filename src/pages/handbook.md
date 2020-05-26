@@ -421,19 +421,20 @@ kan stille spørsmål om det vi lurer på. Vi vil være sikre på at begge parte
 
 ## Eierskap
 
-En av tankene bak å etablere Variant var at selskapet skulle styres og eies med
-lokal forankring.
+Variant er et ansatteid selskap. Variant ble startet i 2018 av 6 personer fra
+Trondheim. Disse opprinnelige grunderne eier flest aksjer i selskapet:
 
-I 2018 etablerte 6 personer Variant, alle med base i Trondheim. I dag er
-eierskapet fordelt slik:
-
-- Odd Morten - 31%
-- Anders - 31%
+- Odd Morten - 29%
+- Anders - 29%
 - Mikael - 10%
-- Marius - 6%
 - Tore - 10%
 - Tonje - 10%
-- Christian - 2%
+- Marius - 6%
 
-4% av av aksjene er satt av for å få tak i personer som kan bidra til å utvikle
-hele Variant i en eller flere dimensjoner.
+Øvrige aksjer eies av andre ansatte.
+Alle ansatte i selskapet per 1. april 2020 har kjøpt aksjer i selskapet.
+
+Gjennom Medeierskapsprogrammet i Variant tilbys alle ansatte å kjøpe aksjer i
+Variant. Første april hvert år selger selskapet aksjer i selskapet til alle ansatte.
+Selskapet eier aksjer for salg i første fase. Denne går fra 2019 til og med 2021.
+Andre fase gjennomføres etter ny emisjon av aksjer, i perioden 2022 til 2024.
