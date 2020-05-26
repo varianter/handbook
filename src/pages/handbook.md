@@ -434,7 +434,7 @@ Trondheim. Disse opprinnelige grunderne eier flest aksjer i selskapet:
 Øvrige aksjer eies av andre ansatte.
 Alle ansatte i selskapet per 1. april 2020 har kjøpt aksjer i selskapet.
 
-Gjenom Medeierskapsprogrammet i Variant tilbys alle ansatte å kjøpe aksjer i
+Gjennom Medeierskapsprogrammet i Variant tilbys alle ansatte å kjøpe aksjer i
 Variant. Første april hvert år selger selskapet aksjer i selskapet til alle ansatte.
 Selskapet eier aksjer for salg i første fase. Denne går fra 2019 til og med 2021.
 Andre fase gjennomføres etter ny emisjon av aksjer, i perioden 2022 til 2024.
