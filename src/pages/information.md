@@ -26,7 +26,7 @@ garderobeskap, sykkelvask og verktøy/mekkeplass. Praktiske detaljer:
   kontor.
 - Variant har et eget sykkelrom, se skilt på veggen. Det er viktig at vi ikke
   parkerer flere sykler der enn 14 som vi leier plasser for (selv om det skulle
-  være plass). Er det fullt må vi parkere i portrommet på Varianthuset el.
+  være plass). Er det fullt må vi parkere i portrommet på Varianthuset e.l..
 - Garderobeskap: Vi har ti garderobeskap i fellesområdet, nr 83-92, samt to i
   herregarderoben, 37-38, og to i damegarderoben, 50-51. Kode på hengelåsene er
   de tre første sifrene i inngangskoden.
