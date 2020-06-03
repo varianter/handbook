@@ -5,12 +5,37 @@ for en variant. Det kan være ting som utgiftsføring, timeføring, osv.
 
 ## Varianthuset
 
-Vi holder til, så lenge vi ikke er ute hos våre kunder,  i [Varianthuset](http://var.show/varianthuset) i Thomas Angells gate.
+Vi holder til, så lenge vi ikke er ute hos våre kunder, i
+[Varianthuset](http://var.show/varianthuset) i Thomas Angells gate.
 
 ### WiFi
 
-Når du jobber på kontoret benytter du det trådløse nettet med SSID **Varianthuset**.
-Wifi-passordet får du ved å skrive `/info wifi` på Slack.
+Når du jobber på kontoret benytter du det trådløse nettet med SSID
+**Varianthuset**. Wifi-passordet får du ved å skrive `/info wifi` på Slack.
+
+### Sykkelparkering
+
+Vi har 14 plasser i et eget rom i E.C.Dahls sykkelparkering (i veita rett ved
+varianthuset). Her har vi også tilgang til garderober/dusj, tørkeskap,
+garderobeskap, sykkelvask og verktøy/mekkeplass. Praktiske detaljer:
+
+- Brikke for tilgang til parkeringskjelleren finnes i en skål i benkeskapet til
+  høyre på kjøkkenet. Velg dame/herre ut fra garderobetilgang. VIKTIG:
+  [Registrer nummeret og type brikke her](https://varianttrh.sharepoint.com/_layouts/15/Doc.aspx?sourcedoc=%7BD82F85D7-ED07-454E-943F-6A747B36C136%7D&file=Ansattliste.xlsx&action=default&mobileredirect=true&CT=1591086888058&OR=ItemsView)
+- Kode for å komme inn til kjelleren utenom kjernetid er samme som til vårt
+  kontor.
+- Variant har et eget sykkelrom, se skilt på veggen. Det er viktig at vi ikke
+  parkerer flere sykler der enn 14 som vi leier plasser for (selv om det skulle
+  være plass). Er det fullt må vi parkere i portrommet på Varianthuset el.
+- Garderobeskap: Vi har ti garderobeskap i fellesområdet, nr 83-92, samt to i
+  herregarderoben, 37-38, og to i damegarderoben, 50-51. Kode på hengelåsene er
+  de tre første sifrene i inngangskoden.
+- Hjelm kan henge på sykkelen, utover det ønsker huseier at alt blir plassert i
+  garderobeskap eller tørkeskap.
+- Spyl skitne sykler på vei inn i parkeringen, det er lett tilgjengelig rett på
+  innsiden av parkeringen. Det neste rommet har også reparasjons-stasjon, eller
+  sykkelpleie om du vil.
+- God sykkeltur!
 
 ## Lønning
 
@@ -232,7 +257,9 @@ Det betyr at vi har følgende grenser:
   sykemelding fra lege.
 - Inntil 24 dager egenmelding siste 12 måneder.
 
-Om du mistenker at du blir alvorlig syk eller smittet av koronavirus så bør du kontakte lege for raskt få riktige råd. Be om sykmelding fremfor å benytte egenmelding i slike tilfeller.
+Om du mistenker at du blir alvorlig syk eller smittet av koronavirus så bør du
+kontakte lege for raskt få riktige råd. Be om sykmelding fremfor å benytte
+egenmelding i slike tilfeller.
 
 Egenmelding leveres formelt ved å føre på riktig timekode i Harvest. Husk
 selvsagt å varsle riktige personer på prosjekt i tillegg.
@@ -252,16 +279,17 @@ ikke rett på sykepenger fra NAV før du har blitt frisk og jobbet sammenhengend
 i 4 uker. _Dette siste avsnittet er spesielt relevant for nyutdannede som kommer
 rett fra skolen._
 
-Sykemelding varsles ved å sende en epost til sykemelding@variant.no fra
-din jobb-adresse. E-posten bør inneholde:
+Sykemelding varsles ved å sende en epost til sykemelding@variant.no fra din
+jobb-adresse. E-posten bør inneholde:
 
 - Dato sykemeldingen starter
 - Dato sykmeldingen gjelder til
-- Om du er sykemeldt på full tid eller hvilken andel av stillingen din den gjelder
+- Om du er sykemeldt på full tid eller hvilken andel av stillingen din den
+  gjelder
 - Ønsker om tilrettelegging
 
 Eposten går til personalledere og salg/oppdragsledere for at de skal kunne legge
-til rette for deg og ta hensyn til ditt fravær i planlegging. Ikke send 
+til rette for deg og ta hensyn til ditt fravær i planlegging. Ikke send
 helseopplysninger eller personlig informasjon.
 
 Din personalleder vil ta kontakt med deg om din sykemelding i løpet av de første

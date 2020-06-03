@@ -132,19 +132,19 @@ overtidslønnen beregnes ved å ta
 
 ### Bonus
 
-Hvert kvartal utbetaler Variant bonus til alle ansatte. Bonusen beregnes som 30% av overskuddet 
-dette kvartalet, delt likt på alle ansatte. Vi må også betale arbeidsgiveravgift på bonus, 
-slik at dette trekkes fra. Dette regnes som lønn inklusive feriepenger, så 10,7% utsettes 
-til neste års feriepenger.  
+Hvert kvartal utbetaler Variant bonus til alle ansatte. Bonusen beregnes som 30%
+av overskuddet dette kvartalet, delt likt på alle ansatte. Vi må også betale
+arbeidsgiveravgift på bonus, slik at dette trekkes fra. Dette regnes som lønn
+inklusive feriepenger, så 10,7% utsettes til neste års feriepenger.
 
 **Eksempel**: Gitt 10 ansatte og et kvartalsvis overskudd på _én million_, deler
 vi `30%` av overskuddet på 10 og får `30 000`. Så skal det betales `14,1%`
 arbeidsgiveravgift slik at hver enkelts bonus dette kvartalet blir `25 770 kr`.
 Av dette kommer `2 761 kr` som neste års feriepenger.
 
-De som har vært ansatt bare deler av et kvartal eller har valgt hel eller delvis permisjon 
-får sin andel redusert etter dette. Ansatte som er i foreldrepermisjon eller som er sykemeldte 
-får full bonus. 
+De som har vært ansatt bare deler av et kvartal eller har valgt hel eller delvis
+permisjon får sin andel redusert etter dette. Ansatte som er i foreldrepermisjon
+eller som er sykemeldte får full bonus.
 
 ### Pensjon og forsikring
 
@@ -152,7 +152,9 @@ Vi føler oss jo slett ikke gamle her i Variant. Vi er likevel opptatt av en god
 pensjon. Vi har valgt en pensjonssparing som går langt utover det lovpålagte.
 Fra 0 til 12G setter vi av 7% i pensjon.
 
-Ut over vanlig yrkesskadeforsikringer har vi reiseforsikring for hele familien, gruppelivsforsikring med engangsutbetaling ved dødsfall, behandlingsforsikring og dekning for annen ulykke enn yrkesskade.
+Ut over vanlig yrkesskadeforsikringer har vi reiseforsikring for hele familien,
+gruppelivsforsikring med engangsutbetaling ved dødsfall, behandlingsforsikring
+og dekning for annen ulykke enn yrkesskade.
 
 ### Kurs og konferanser
 
@@ -233,6 +235,8 @@ stille spørsmålet: "Kan ikke dette legges ut, da?"
   på din lønnsslipp ved årsslutt). Utgiftsføres på vanlig måte.
 - Behandlingsforsikring.
 - Reiseforsikring for deg og din familie.
+- Tilgang til godt utstyrt sykkelparkering og garderober rett ved våre lokaler,
+  midt i byen.
 
 ## Arbeidstid
 
@@ -297,21 +301,21 @@ I 2019 valgte vi TV-aksjonen "Nå er det hennes tur" som vårt
 veldedighetsprosjekt.
 
 ## Likestilling
-Likestilling er en grunnleggende verdi for oss som jobber her, og for Variant som
-selskap. Her snakker vi om grunnleggende likeverd på tvers av blant annet nasjonalitet, etnisk 
-bakgrunn, livssyn, legning og kjønn.  
 
-Vi har i dag en god kjønnsbalanse, men samtidig ønsker vi å gjøre den enda bedre. Vi blir ikke 
-fornøyd før vi er omtrent fifty-fifty kvinner og menn. Dette påvirker mange av våre strategiske og operative 
-beslutninger, som blant annet:
+Likestilling er en grunnleggende verdi for oss som jobber her, og for Variant
+som selskap. Her snakker vi om grunnleggende likeverd på tvers av blant annet
+nasjonalitet, etnisk bakgrunn, livssyn, legning og kjønn.
+
+Vi har i dag en god kjønnsbalanse, men samtidig ønsker vi å gjøre den enda
+bedre. Vi blir ikke fornøyd før vi er omtrent fifty-fifty kvinner og menn. Dette
+påvirker mange av våre strategiske og operative beslutninger, som blant annet:
 
 - Foreldrepermisjon reduserer ikke ansiennitet på noen måte.
 - Man får utbetalt bonus også mens man er i foreldrepermisjon.
 - Selvsagt får man full lønn under foreldrepermisjon.
 
-Vi ønsker ikke at økonomi og karriere skal være momenter inn i hvordan den enkelte familie 
-planlegger og fordeler arbeid i hjemmet.  
-
+Vi ønsker ikke at økonomi og karriere skal være momenter inn i hvordan den
+enkelte familie planlegger og fordeler arbeid i hjemmet.
 
 ## Helse
 
@@ -376,7 +380,8 @@ setter vi høyt.
 
 Den første fredagen i hver måned (foruten sommermånedene juli og august) har vi
 det vi kaller en variantdag. Dette er en innedag der alle selskapets konsulenter
-bruker hele dagen hjemme i Varianthuset, for faglig, administrativt og sosialt påfyll.
+bruker hele dagen hjemme i Varianthuset, for faglig, administrativt og sosialt
+påfyll.
 
 ## Stilguide
 
@@ -431,10 +436,11 @@ Trondheim. Disse opprinnelige grunderne eier flest aksjer i selskapet:
 - Tonje - 10%
 - Marius - 6%
 
-Øvrige aksjer eies av andre ansatte.
-Alle ansatte i selskapet per 1. april 2020 har kjøpt aksjer i selskapet.
+Øvrige aksjer eies av andre ansatte. Alle ansatte i selskapet per 1. april 2020
+har kjøpt aksjer i selskapet.
 
 Gjennom Medeierskapsprogrammet i Variant tilbys alle ansatte å kjøpe aksjer i
-Variant. Første april hvert år selger selskapet aksjer i selskapet til alle ansatte.
-Selskapet eier aksjer for salg i første fase. Denne går fra 2019 til og med 2021.
-Andre fase gjennomføres etter ny emisjon av aksjer, i perioden 2022 til 2024.
+Variant. Første april hvert år selger selskapet aksjer i selskapet til alle
+ansatte. Selskapet eier aksjer for salg i første fase. Denne går fra 2019 til og
+med 2021. Andre fase gjennomføres etter ny emisjon av aksjer, i perioden 2022
+til 2024.
