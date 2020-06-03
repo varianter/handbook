@@ -292,24 +292,10 @@ planlagt ferie og permisjon slik at de som jobber med salg har oversikt.
 ## Portere mobilabonnement
 
 For at Variant skal betale for mobilbruk må abonnementet overføres til Variant
-AS. Framgangsmåten for å overføre abonnementet til Variant er avheng av hvem som
-eier det i dag.
+AS.
 
-Hvis du selv er juridisk eier:
-
-1. Gå til eierskifte på
-   [Min Side](https://www.telia.no/mitt-abonnement/bytte-eier/), og følger
-   instruksjonene der for å bytte eier. Navn på abonnementet er _Click Flyt 10
+1. Bruk Telias [eierskifteverktøy](http://var.show/eierskifteskjema). Navn på abonnementet er _Click Flyt 10
    GB+_
-1. Gi beskjed på [#helpdesk](slack://channel?id=CBFA8V536&team=T7FAZ8XT2) om at
-   skjema er sendt inn og at portering kan iverksettes.
-
-Eller hvis noen andre, typisk tidligere arbeidsgiver, eier abonnementet:
-
-1. Last ned det delvis utfylte
-   [eierskifteskjemaet](https://varianttrh.sharepoint.com/:b:/r/Delte%20dokumenter/Public/telia_eierskifteskjema.pdf?csf=1&e=VcAJlj)
-1. Fyll ut resten, og få dagens eier til å signere.
-1. Send skjemaet på e-post til skjema-eierskifte@telia.no
 1. Gi beskjed på [#helpdesk](slack://channel?id=CBFA8V536&team=T7FAZ8XT2) om at
    skjema er sendt inn og at portering kan iverksettes.
 
