@@ -37,6 +37,31 @@ garderobeskap, sykkelvask og verktøy/mekkeplass. Praktiske detaljer:
   sykkelpleie om du vil.
 - God sykkeltur!
 
+### Huset som et community space
+
+Mikael har
+[entusiastisk beskrevet](https://medium.com/variant-as/varianthusets-community-space-dc3e8a0a6795)
+ett ekstra aspekt av hva vi ønsker å oppnå med huset i Thomas Angells gate. Vi
+har fått permanent rigget til kabler som går tilrettelagt for opptak av
+skjermer, lyd og video, og har en plan for hvordan dette kan kobles sammen.
+Resultatet er gratis lokaler, lett tilgjengelig, ferdig oppsatt for streaming og
+opptak. Åpne meetups som eksempelvis BartJS kan arrangere møter og streame de
+til hele verden på sin egen YouTube-kanal. Helt uten noen form for
+forpliktelser. Er du interessert i dette, så ta kontakt på post@variant.no.
+
+### Låne huset som en variant
+
+Fra tid til annen kan det være dere har behov for et enkelt, og sentralt
+lokalisert, selskapslokale. Dette kan være til alt fra barnebursdager via
+konfirmasjon til 30årslag. Mens huset i ukedager er forbeholt selskapet og som
+community space, har alle varianter mulighet til å låne lokalene i helger og på
+høytidsdager.
+
+Lånet skal ikke medføre ekstra renholdsbehov, så man rydder og vasker etter seg,
+men det er vel selvsagt😃.  
+Booking gjøres i Outlook. **NB!** Du kan ikke regne med at huset er ledig på
+kvelden etter variantdag, selv om huset ikke er booket.
+
 ## Lønning
 
 Lønningsdag er den siste arbeidsdagen i hver måned. Altså utbetales lønn
@@ -322,8 +347,8 @@ planlagt ferie og permisjon slik at de som jobber med salg har oversikt.
 For at Variant skal betale for mobilbruk må abonnementet overføres til Variant
 AS.
 
-1. Bruk Telias [eierskifteverktøy](http://var.show/eierskifteskjema). Navn på abonnementet er _Click Flyt 10
-   GB+_
+1. Bruk Telias [eierskifteverktøy](http://var.show/eierskifteskjema). Navn på
+   abonnementet er _Click Flyt 10 GB+_
 1. Gi beskjed på [#helpdesk](slack://channel?id=CBFA8V536&team=T7FAZ8XT2) om at
    skjema er sendt inn og at portering kan iverksettes.
 
