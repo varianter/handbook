@@ -27,8 +27,9 @@ Våre tre grunnverdier er:
   nærmiljøet.
 - **Åpenhet** - Hva i all verden skal et selskap tjene på å holde informasjon
   hemmelig for sine ansatte?
-- **Mot** - Vi ønsker folk som har mot til å gjøre det de mener er riktig, mot
-  til å si ifra, mot til å utfordre.
+- **Læreglede** - Vi er folk som ønsker å lære og lære bort. Vi skal ha ydmykhet
+  nok til å skjønne at vi kan lære noe fra alle, og troen på at alle kan lære
+  noe fra oss.
 
 Disse verdiene ligger til grunn for hvordan vi behandler hverandre. Det skal
 være lav terskel for ros og tilbakemeldinger fordi vi ønsker at du lykkes. Vær
