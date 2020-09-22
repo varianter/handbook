@@ -8,7 +8,7 @@ Mener du noe kan gjøres bedre?
 
 ## Lederplattform - tillitsledelse
 
-Vi har bygd variant med bases i tillitsbasert ledelse. Vi tror at alle varianter
+Vi har bygd Variant med basis i tillitsbasert ledelse. Vi tror at alle varianter
 har et grunnleggende ønske om å gjøre en god jobb, og at de som regel evner å
 gjøre det. Vi tror at ved å legge til rette for at alle utnytter sine styrker
 kan vi som selskap nyte effekten av et samlet engasjement og summert
