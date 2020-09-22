@@ -324,7 +324,7 @@ hverandre til å bli enda bedre varianter.
 Vi ønsker at dette arbeidet har blant annet disse effektene:
 
 - Å gi alle varianter et verktøy for å utvikle seg personlig og faglig,
-- Å skape et godt kollektiv og en god kultur for deling og læringsglede,
+- Å skape et godt kollektiv og en god kultur for deling og læreglede,
 - Å bli kjent med og utnytte hverandres styrker og verdier
 - Å bygge en god tilbakemeldingskultur
 - Modning som konsulent og som kollega
