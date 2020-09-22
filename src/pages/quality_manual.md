@@ -393,7 +393,7 @@ forventninger til rollen din.
 
 Gjennom samtalen jobber dere med å identifisere og snakke om dine styrker og
 hvordan disse kan utnyttes for å utvikle deg og Variant. Dere snakker rundt
-styrkekvadranten, om potensielle overslag, områder for vekts og dine allergier.
+styrkekvadranten, om potensielle overslag, områder for vekst og dine allergier.
 
 I tillegg skal en slik samtale også involvere en diskusjon rundt trivsel,
 motivasjon og eventuelle personlige utfordringer.
