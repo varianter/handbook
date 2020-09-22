@@ -6,6 +6,32 @@ hverdagen. [Har du spørsmål?](https://github.com/varianter/handbook/issues).
 Mener du noe kan gjøres bedre?  
 [Send inn forslag til endring](https://help.github.com/articles/editing-files-in-your-repository/).
 
+## Lederplattform - tillitsledelse
+
+Vi har bygd Variant med basis i tillitsbasert ledelse. Vi tror at alle varianter
+har et grunnleggende ønske om å gjøre en god jobb, og at de som regel evner å
+gjøre det. Vi tror at ved å legge til rette for at alle utnytter sine styrker
+kan vi som selskap nyte effekten av et samlet engasjement og summert
+beslutningskvalitet. Dette tror vi er den beste måten å nå Variants mål.
+
+I praksis betyr dette at minst tre byggesteiner må være på plass:
+
+- **Åpenhet og tilgang til informasjon** - For å kunne utnytte tilliten må
+  ansatte ha tilgang til informasjon og kunnskap til å ta gode avgjørelser.
+  Derfor er innsikt i og informasjon om alt fra salgsprosesser, lønninger,
+  ledergruppemateriell blant mange ting åpent og tilgjengelig hos oss.
+- **Kommunisere og støtte oppunder at ansatte kan, bør og skal gjøre egne
+  vurderinger** - som ledere skal vi alltid prøve å coache heller enn å veilede.
+  Vi skal bygge opp under de enkeltes styrker og utfordre hverandre.
+- **Guidelines og beste praksis** - Tidvis kan konklusjonen av egne vurderinger
+  være at dette kan jeg ikke nok om. Derfor skal vi har veiledende rutiner og
+  beste praksis som varianter kan lene seg på når de har behov for dette. Dette
+  er råd og tips, og bør fravikes når du mener det er best.
+
+Med dette ønsker vi en organisasjon med høy trivsel, som evner å snu seg
+relativt raskt og med veldig effekt og en organisasjonskultur som understøtter
+strategien.
+
 ## Salg og bemanning
 
 Målet med salgs- og bemanningsprosessen er tredelt.
@@ -293,12 +319,22 @@ turer eller andre aktiviteter.
 ## Personaloppfølging
 
 Variant er summen av vi ansatte, derfor brukes det tid og ressurser på å utvikle
-hverandre til å bli enda bedre varianter. På å ta vare på våre ansatte og
-utvikle de videre til å bli enda bedre varianter.
+hverandre til å bli enda bedre varianter.
+
+Vi ønsker at dette arbeidet har blant annet disse effektene:
+
+- Å gi alle varianter et verktøy for å utvikle seg personlig og faglig
+- Å skape et godt kollektiv og en god kultur for deling og læreglede
+- Å bli kjent med og utnytte hverandres styrker og verdier
+- Å bygge en god tilbakemeldingskultur
+- Modning som konsulent og som kollega
+- Se og utvikle relasjon mellom leder og ansatt
+
+### Fadder og personalleder
 
 Hver ansatt knyttes til en fadder og en personalleder.
 
-### Fadder
+#### Fadder
 
 Før oppstart får du tildelt en fadder. Fadderens overordnede ansvar er å gi deg
 en så god oppstart som mulig. Arbeidet starter ganske raskt etter signering og
@@ -316,7 +352,7 @@ og tilsvarende
 Det er ingen formell slutt på fadderperioden. Så lenge den ansatte ser verdien
 av å bruke sin fadder er det åpent for det.
 
-### Personalleder
+#### Personalleder
 
 Din nærmeste leder kaller vi personalleder. Personalleder har det overordnede
 ansvaret for å bistå deg og legge til rette for at du kan vokse og utvikle deg i
@@ -346,16 +382,22 @@ For tiden har følgende ledere personalansvar:
 Relasjonen mellom deg og personallederen er basert på coaching. Se også
 [listen over hvem som har lederansvar for hvem](https://varianttrh.sharepoint.com/:x:/g/EcciKCrwQFVKi9arVFV9WLEBxh0lqSzlfM7n_nrpkIuDtw?e=gR7JSm).
 
-### Utviklingssamtale
+### Styrkesamtale
 
-En gang i halvåret inviterer din personalleder deg til en utviklingssamtale.
-Gjennom samtalen følger dere sammen opp dine mål og utviklingsområder. Din
-personalleder vil sammen med deg hjelpe deg sette og følge opp egne mål, hvordan
-du kan nå dine mål, og utvikle deg videre.
+En gang i halvåret inviterer din personalleder deg til en styrkesamtale. Her
+ønsker vi å gi alle varianter et verktøy for å utvikle seg personlig og faglig,
+og hvor din leder fungerer som en coach og utfordrer deg. En viktig dimensjon i
+disse samtalene er da styrkebasert utvikling. I tillegg skal samtalen være et
+sted hvor dere kan fange opp ønsker og behov, hvor man kan diskutere og avstemme
+forventninger til rollen din.
+
+Gjennom samtalen jobber dere med å identifisere og snakke om dine styrker og
+hvordan disse kan utnyttes for å utvikle deg og Variant. Dere snakker rundt
+styrkekvadranten, om potensielle overslag, områder for vekst og dine allergier.
 
 I tillegg skal en slik samtale også involvere en diskusjon rundt trivsel,
 motivasjon og eventuelle personlige utfordringer.
 
-Basert på dine målsetninger og ønskede utviklingsområder blir dere enige om
-hvordan du ønsker å følge opp dine mål. Din personalleder vil støtte deg og
-coache deg i tråd med det dere er enige om.
+Basert på dine målsetninger og ønsket vekst blir dere enige om hvordan dere skal
+jobbe videre. Din personalleder vil støtte deg og coache deg i tråd med det dere
+er enige om.
