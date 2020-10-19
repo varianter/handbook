@@ -68,6 +68,22 @@ Lønningsdag er den siste arbeidsdagen i hver måned. Altså utbetales lønn
 fredag 30. hvis den 31. kommer på lørdag. Det trekkes halv skatt av
 novemberlønnen. Desemberlønnen utbetales den 20. desember.
 
+### Beregning av lønnsnivå
+
+Alle konsulenter i Variant knyttes til et ansiennitetsnivå. Så bruker vi Teknas
+lønnsstatistikk som grunnlag og legger alle inn på øvre kvartil tilsvarende sitt
+ansiennitetsnivå. Dette gjelder ansatte med alle typer utdanning, og er ikke
+knyttet til fagforeningsmedlemskap på noen måte. Ansatte med masterutdanning får
+ansiennitetsnivå august året de leverte masteroppgaven. Ansatte med
+bachelorutdanning får nivå august et år etter levert bacheloroppgave.
+
+Varianter som skriver master- eller bacheloroppgave på høsten får også regnet
+august som ansiennitetsnivå. Dette gjelder uavhengig om oppgaven ble levert før
+eller etter nyttår.
+
+Se vår [kalkulator](https://www.variant.no/kalkulator) for hvordan lønn beregnes
+basert på ekamensår og utdanning.
+
 ### Feriepenger
 
 Feriepenger utbetales i juni. Det fungerer slik at feriepenger opptjent året før
