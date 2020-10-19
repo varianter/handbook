@@ -5,7 +5,7 @@ har vi hver måned en hel dag hvor vi ikke jobber i våre daglige prosjekter, me
 fokuserer på å utvikle oss selv, selskapet og samfunnet.
 
 Den første fredagen i hver måned har vi altså variantdag. (Det vil si, vi har
-ikke variantdag i juli og august.)
+ikke variantdag i januar og juli.)
 
 [Her vil du alltid finne oversikt over gjennomførte og planlagte variantdager](https://medium.com/variant-as/tagged/variantdag).
 
@@ -29,15 +29,12 @@ To variantdager er aldri like, men alle er organisert i et fast mønster:
   alltid noe sosialt. Dette kan være alt fra brettspill, til gocart, escaperoom,
   etc.
 
-## Spesielle Variantdager
+## Varianttur
 
-- Variantdagen i **september** er alltid litt spesiell. Hver september
-  arrangerer vi en varianttur hvor alle varianter kan ta med seg sin kjære eller
-  en venn, og så reiser vi bort en helg. Septembers variantdag arrangeres som en
-  del av denne turen, og har følgelig litt annen organisering enn de andre.
-
-- Hver januar arrangerer vi vårt nyttårskalas. Så januars variantdag flyttes
-  litt ut i måneden, og en del av oss vil være opptatt med å forberede kalaset.
+Variantdagen i **september** er alltid litt spesiell. Hver september feirer vi
+vår fødselsdag ved at alle varianter kan ta med seg sin kjære eller en venn, og
+så reiser vi bort en helg. Septembers variantdag arrangeres som en del av denne
+turen, og har følgelig litt annen organisering enn de andre.
 
 ## Variantdagen som rammeverk for utvikling
 
