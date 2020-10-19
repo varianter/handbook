@@ -82,7 +82,7 @@ august som ansiennitetsnivå. Dette gjelder uavhengig om oppgaven ble levert fø
 eller etter nyttår.
 
 Se vår [kalkulator](https://www.variant.no/kalkulator) for hvordan lønn beregnes
-basert på ekamensår og utdanninng.
+basert på ekamensår og utdanning.
 
 ### Feriepenger
 
