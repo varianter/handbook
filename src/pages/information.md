@@ -81,7 +81,7 @@ Varianter som skriver master- eller bacheloroppgave på høsten får også regne
 august som ansiennitetsnivå. Dette gjelder uavhengig om oppgaven ble levert før
 eller etter nyttår.
 
-Se vår (https://www.variant.no/kalkulator)[kalkulator] for hvordan lønn beregnes
+Se vår [kalkulator](https://www.variant.no/kalkulator) for hvordan lønn beregnes
 basert på ekamensår og utdanninng.
 
 ### Feriepenger
