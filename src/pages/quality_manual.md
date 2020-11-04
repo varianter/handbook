@@ -199,6 +199,8 @@ Vilkår for dekning er
 - at brillen arbeidstakeren skal bruke ved skjermarbeid, er ulik arbeidstakeren sin egen brille, dvs. at arbeidstakeren ikke kan bruke den vanlige brillen. Dette gjelder oftest personer over 40–45 år; eller
 - at arbeidstakeren trenger særskilt korreksjon på grunn av at han eller hun er svakt langsynt (hypermetropi) og/eller har skeve hornhinner (astigmatisme) eller liknende. Disse tilfellene kan gi problemer ved dataskjermarbeid.
 
+Se også [Arbeidstilsynets sider](https://www.arbeidstilsynet.no/tema/ergonomi/arbeid-ved-dataskjerm/synsundersoking-og-databriller/)
+
 ### Dokumentasjon
 
 Det er viktig at alle i Variant har tilgang til dokumentasjon på ulike deler av
