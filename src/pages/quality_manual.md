@@ -171,7 +171,7 @@ fra 2019 er Ellen Wagnild-Antonsen og kontaktinformasjon finnes på hjemmesiden 
 
 Verneombud har ansvar for opplæring i rutiner og vernerunde med alle nyansatte. Viktige endringer i HMS-rutiner formidles på Slack (i #viktig), med lenke til det oppdaterte dokumentet i OneDrive. 
 
-### Miljøfyrårnansvarlig
+### Miljøfyrtårnansvarlig
 
 Miljøfyrtårnansvarlig velges for to år om gangen. Ansvarlig fra 2020 er Simen Strøm Braaten. [Ansvarsområdet kan leses her](https://varianttrh.sharepoint.com/:w:/g/EV8J0KoqPHxKndxz1qAZpPQBFFd938unI7nvt0Ljf4ySpg?e=Ig4lcO). Kontaktinformasjon finnes på hjemmeside og i våre internsystemer. 
 
