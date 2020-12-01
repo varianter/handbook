@@ -241,7 +241,7 @@ at de oppstår på nytt. Som med mye annet bruker vi Slack for å melde i fra. E
 
 - Finner du forbedringspotensiale i våre Variant-lokaler? Si i fra på #varianthuset
 - Opplever du forbedringspotensiale ute hos kunde? Si i fra til din kontaktperson eller nærmeste leder
-- Opplever du avvik knyttet til psykososiale forhold (er ting kjipt)? Si i fra til din nærmeste leder eller verneombud over en god kopp kaffe på Fredriksons ❤️
+- Opplever du avvik knyttet til psykososiale forhold (er ting kjipt)? Si i fra til din nærmeste leder eller verneombud over en god kopp kaffe på Fredrikssons ❤️
 - Har du innspill til forbedringspotensiale knyttet til vår avfallshåndtering? Meld i fra på #bærekraft
 - Er du usikker på hvor avviket skal håndteres? Ta det med din nærmeste leder eller verneombud
 
