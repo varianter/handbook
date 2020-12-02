@@ -177,7 +177,7 @@ Miljøfyrtårnansvarlig velges for to år om gangen. Ansvarlig fra 2020 er Simen
 
 ### Hvordan jobber vi med bærekraft? 
 
-Bærekraft for Variant innebærer mye. Det er likestilling i arbeidslivet, en bærekraftig arbeidsdag, som både er spennende, utfordrende og lærerik. Vi tenker på at valgene vi gjør skal begrense vårt klimaavtrykk. Vi skal skape en kultur hvor vi er nysgjerrige, stiller spørsmål og tar gode valg. Noen spørsmål vi har, og skal fortsette å stille oss selv er: 
+Bærekraft for Variant innebærer mye. Det er likestilling i arbeidslivet, en bærekraftig arbeidsdag, som både er spennende, utfordrende og lærerik. Vi ønsker at valgene vi gjør skal begrense vårt klimaavtrykk. Vi skal skape en kultur hvor vi er nysgjerrige, stiller spørsmål og tar gode valg. Noen av spørsmålene vi har er: 
 
 - Er denne reisen nødvendig? Kan møtet gjennomføres digitalt? 
 - Om reisen er nødvendig, kan vi velge mer miljøvennlige måter å reise på? 
