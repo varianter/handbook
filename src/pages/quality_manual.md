@@ -169,7 +169,7 @@ helse, miljø og sikkerhet som ikke løses direkte.
 Selskapet skal legge til rette for at det velges et verneombud. Verneombudet velges for to år om gangen og velges på variantdagen i mars. Ledelsen kan ikke delta i valget eller velges som verneombud. Verneombud
 fra 2019 er Ellen Wagnild-Antonsen og kontaktinformasjon finnes på hjemmesiden vår og i internsystemer.
 
-Verneombud har ansvar for opplæring i rutiner og vernerunde med alle nyansatte. Viktige endringer i HMS-rutiner formidles på Slack (i #viktig), med lenke til det oppdaterte dokumentet i OneDrive. 
+Verneombud har ansvar for opplæring av ansatte og oppdatering av aktuelle rutiner. Ved nyansettelser skal verneombud ha opplæring og vernerunde. Skjer viktige endringer i HMS-rutiner, er det verneombud og daglig leder som har ansvaret for at alle ansatte er informert. Dette formidles på Slack (i #viktig), med lenke til oppdatert informasjon i håndboka.
 
 ### Miljøfyrtårnansvarlig
 
