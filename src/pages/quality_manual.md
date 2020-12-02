@@ -147,7 +147,7 @@ Til slutt lages et kort referat fra møtet på Slack i kanalen #bemanning.
 
 Variant er rause i vårt miljøarbeid. Det gjelder både arbeidsmiljøet vi jobber i på en daglig basis og det globale miljøet vi alle er en del av. Som mange er vi forbrukere, men vi skal gjøre vårt ytterste for å gi så mye vi kan tilbake. Vi skal være en bedrift med engasjerte ansatte som ønsker å gjøre en forskjell med riktige valg i arbeidet vi gjør. 
 
-Vi jobber for å unngå ulykker, miljø- og helseskader. Dette sikres ved at HMS-arbeidet planlegges og prioriteres på lik linje som fakturerbart arbeid. 
+Vi jobber for å unngå ulykker, miljø- og helseskader. For å bidra til dette planlegger og prioriterer vi HMS-arbeidet på lik linje som fakturerbart arbeid. 
 
 ### Organisering
 
