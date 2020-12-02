@@ -197,7 +197,6 @@ arbeidstiden ute i kundenes lokaler. HMS-håndboka dekker proaktivt arbeid med
 lokaler, men vi avgrenser dette til vårt kontor i Thomas Angells gate.
 
 - Renhold i våre lokaler gjennomføres av renholdere to ganger ukentlig 
-- Rømningsveier og brannslokkingsutstyr er godt merket. [Branninnstruks](https://varianttrh.sharepoint.com/:w:/r/Delte%20dokumenter/HMS/BRANNINSTRUKS.docx?d=wcc479dc4c47a4f3a8fe60a05aa1255b2&csf=1&web=1&e=no2a1r) og redningsplan finnes som oppslag i kontorlokaler og gjennomgås med alle nyansatte. Brannøvelse gjennomføres en gang i året. Vedlikehold av brannvarslere og slukkeutstyr utføres av gårdeier
 - Førstehjelpsutstyr er til enhver tid komplett i henhold til [retningslinjer gitt av Arbeidstilsynet](https://www.arbeidstilsynet.no/tema/personlig-verneutstyr/forstehjelpsutstyr/)
 - Ulykker som medfører alvorlig personskade skal straks meldes til lege/ambulanse, politi og Arbeidstilsynets lokalkontor. Innmelding skjer av daglig leder. 
 - Gårdeier sørger for avfallssytemene i bygget vi leier kontorplass i. Variant har i tillegg eget kildesorteringssystem med instruks, godt synlig i kontorlokalet. Gode rutiner skal bidra til å redusere svinn og avfall. 
@@ -205,6 +204,21 @@ lokaler, men vi avgrenser dette til vårt kontor i Thomas Angells gate.
 Hvis ansatte opplever feil, mangler eller farlige situasjoner ute hos kunde
 ønsker vi at dette forsøkes varslet i henhold til kundens HMS-rutiner. Skulle
 dette ikke føre fram vil vi ta imot og håndtere saken i Variant-kontekst.
+
+### Branninnstruks
+
+Gjør deg kjent med følgende i Varianthuset: 
+- Rømingsveiene
+- Nærmeste brannmelder
+- Nærmeste slokkemiddel
+
+Ved brannalarm, forlat bygningen gjennom rømningsveiene og gå deretter til [samlingsplassen mellom sykkelparkeringen og Dromedarbakeriet.](https://www.google.com/maps/@63.4323746,10.3995148,3a,75y,235.45h,90.05t/data=!3m6!1e1!3m4!1sgguaNK1F5B-QYaPrEXA0mA!2e0!7i16384!8i8192) Hvis brann oppstår uten at automatisk alarm er utløst, trykk på brannmelder hvis mulig og gå deretter ut av bygningen og til samlingsplassen. 
+
+Vinduer og dører til rom, korridorer og trapperom må lukkes. Om mulig, forsøk å slokke brann med enten pulverapparat eller slange, men tenk på egen sikkerhet. Heis skal IKKE benyttes som rømningsvei. 
+
+Nødnummer til brannvesen er 110. 
+
+Rømningsveier og brannslykkingsutstyr er godt merket. Branninnstruks og redningsplan finnes som oppslag i kontorlokalet, i håndboka og gjennomgås med alle nyansatte. Brannøvelse gjennomføres en gang i året. Vedlikehold av brannvarslere og slukkeustyr utføres av gårdeier. 
 
 ### Dokumentasjon
 
