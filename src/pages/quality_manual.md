@@ -209,7 +209,7 @@ dette ikke føre fram vil vi ta imot og håndtere saken i Variant-kontekst.
 ### Dokumentasjon
 
 Det er viktig at alle i Variant har tilgang til dokumentasjon på ulike deler av
-HMS-arbeidet. I Variant har vi følgende HMS-dokumentasjon tilgjengelig for alle ansatte:
+HMS-arbeidet. I Variant har vi følgende HMS-dokumentasjon tilgjengelig:
 
 - [Arbeidsavtaler](https://varianttrh.sharepoint.com/Delte%20dokumenter/Forms/AllItems.aspx?viewpath=%2FDelte%20dokumenter%2FForms%2FAllItems%2Easpx&newTargetListUrl=%2FDelte%20dokumenter&viewid=3370557d%2D1740%2D4ec2%2D9d5c%2D6d34dad352f6&id=%2FDelte%20dokumenter%2FAnsatte)
 - [Kursbevis for verneombudsopplæring](https://varianttrh.sharepoint.com/Delte%20dokumenter/Forms/AllItems.aspx?viewpath=%2FDelte%20dokumenter&id=%2FDelte%20dokumenter%2FHMS%2FKursbevis)
