@@ -177,18 +177,96 @@ Miljøfyrtårnansvarlig engasjeres for to år om gangen. Ansvarlig fra 2020 er S
 
 ### Hvordan jobber vi med bærekraft? 
 
-Bærekraft for Variant innebærer mye. Det er likestilling i arbeidslivet, en bærekraftig arbeidsdag, som både er spennende, utfordrende og lærerik. Vi ønsker at valgene vi gjør skal begrense vårt klimaavtrykk. Vi skal skape en kultur hvor vi er nysgjerrige, stiller spørsmål og tar gode valg. Noen av spørsmålene vi har er: 
+Bærekraft for Variant innebærer mye. Det er likestilling i arbeidslivet, en bærekraftig arbeidsdag, som både er spennende, utfordrende og lærerik. Vi ønsker at valgene vi gjør skal begrense vårt klimaavtrykk. Vi skal skape en kultur hvor vi er nysgjerrige, stiller spørsmål og tar gode valg. 
 
-- Er denne reisen nødvendig? Kan møtet gjennomføres digitalt? 
-- Om reisen er nødvendig, kan vi velge mer miljøvennlige måter å reise på? 
-- Når jeg skal reise, kan jeg gjennomføre flere møter samtidig? 
-- Kan vi velge mer bærekraftige leverandører av produkter vi kjøper ofte? 
-
-Vi har utarbeidet en [innkjøpsrutine](https://varianttrh.sharepoint.com/:b:/r/Delte%20dokumenter/B%C3%A6rekraft/Utfylte%20dokumenter/Kartlegging%202020/Innkj%C3%B8psrutine.pdf?csf=1&web=1&e=kUBtMb) og en [leverandøroversikt](https://varianttrh.sharepoint.com/:b:/r/Delte%20dokumenter/B%C3%A6rekraft/Utfylte%20dokumenter/Kartlegging%202020/Leverand%C3%B8roversikt%20(1).pdf?csf=1&web=1&e=g1euzx) som skal hjelpe oss når vi kjøper inn varer og tjenester. 
-
-Vi setter oss årlige mål om å redusere vår belastning på miljøet, [vi kildesorterer](https://varianttrh.sharepoint.com/:w:/g/ETmw9NtFBdhKtIVvp-smm0MBh9R9eIB5OcZaAsfld3L70A?e=xxF6kq) og fører regnskap over eget avfall, energiforbruk og reiser med fly og bil. 
+Vi setter oss årlige mål om å redusere vår belastning på miljøet, vi kildesorterer og fører regnskap over eget avfall, energiforbruk og reiser med fly og bil. 
 
 Miljøfyrtårnansvarlig har ansvar for oppfølging og håndtering av dette. 
+
+### Kildesortering
+
+Det meste vi produserer av søppel på kontoret er relatert til mat. Det kan være papiret til burritoen, en boks til salaten, et syltetøyglass, pose fra nøttene osv.  For deg og meg er det altså viktigst å vurdere forskjellen mellom emballasje som skal i restavfall, og emballasje som kan skylles og resirkuleres. 
+
+**Hva skal hvor?** 
+Vi har en bøtte til det meste, og du finner dem på kjøkkenet eller like i nærheten. 
+
+Først et lite fun fact: Det er 95% mer energibesparende å smelte en brukt aluminiumsboks, som f. Eks en leverposteiboks, for å støpe en ny en, sammenlignet med den energien som trengs når aluminumen lages for første gang.
+
+**Eksempler på glass- og metallavfall:** 
+- Syltetøyglass 
+- Leverposteiboks 
+- Tuber fra kaviar, ost osv. 
+- Lokk av metall 
+- Øl- og vinflasker 
+
+Metallbokser, som for eksempel makrell i tomat, leverpostei osv., kjøres i oppvaskmaskina før den kastes. Det er for å begrense at det lukter død og fordervelse fram til søpla tømmes. Flasker og bokser med pant kastes i tønna fra Flaskefond, som står godt synlig i lokalet. 
+
+Elektronisk avfall kastes i en egen bøtte som du finner i «søppelrommet», i gangen ved siden av ansatt-inngangen vår. Der er det en rød bøtte med spesialavfall som tømmes to ganger i året. 
+
+**Eksempler på e-avfall:** 
+- Ledninger 
+- Batterier 
+- Lyspærer og lysrør 
+- Rengjøringsmidler og eventuelle spraybokser 
+- Fargekassetter fra skriveren 
+
+Papiravfall kan sorteres tre ulike steder i lokalet – Ved miljøstasjonen på kjøkkenet, eller i papp-boksen ved kaffebordet i arbeidsområdet, eller i en tilsvarende pappboks på Prosjektrommet i hjørnet i 2. etg. 
+
+**Eksempler på papp- og papiravfall:** 
+- Dokumenter 
+- Reklame 
+- Emballasje (pizzaeske osv.) 
+- Servietter 
+- Melkekartonger (la plastkorken sitte på) 
+
+Plastavfall er ren plast eller plastavfall du skyller først.
+
+**Eksempler på plastavfall:**
+- Yoghurtbeger 
+- Lokket på salatboksen 
+- Plastemballasje fra teknologiske duppeditter 
+- Lokket til leverposteiboksen 
+- Tomme kaffeposer 
+
+Møkkete eller «tilgriset» emballasje (både plast og papir) kastes i restavfall. 
+Restavfall er det som blir igjen når du har sortert ut alt annet. Siden Trondheim ikke har anlegg for å behandle matavfall ennå (men jobber med saken), så betyr det at vi kaster følgende i restavfallet,
+
+**Eksempler på restavfall:** 
+- Snus 
+- Matrester 
+- Kaffegrut 
+- Knuste kopper/tallerkener osv. 
+- Møkkete eller «tilgriset» emballasje (både plast og papir) 
+- Tepose 
+- Tørkepapir 
+- Isopor 
+
+Knuste drikkeglass kan gjerne pakkes inn i avispapir eller noe lignende, og kastes i restavfall, ikke i glass- og metall. 
+
+Fun fact! Ett kilo restavfall gir nok energi til å kjøre to panelovner på full guffe i en time. Den vanligste behandlingsmetoden for restavfall er nemlig energiutnyttelse. Det vil si at avfallet brennes, og at energien som oppstår kan brukes til oppvarming eller strømproduksjon. (kilde: Sortere.no) 
+
+### Innkjøpsrutine
+
+I den grad det er mulig skal vi bruke leverandører og produkter som forbedrer våre egne miljøprestasjoner, derfor er det viktig at vi stiller oss selv noen kjappe spørsmål før vi kjøper noe.
+
+**Sjekkliste**
+- Tar den leverandøren her miljøansvar, eller finnes det miljømerkede, eller mer miljøvennlige alternativer?
+- Kan vi reparere eller gjenbruke?
+- Har vi behov for det her? Eller klarer vi oss uten?
+
+**Miljøansvar**
+Det kan være vanskelig å vite svarene på de spørsmålene, derfor anbefaler vi å starte med en kjapp kikk på hjemmesida (eventuelt søke på «leverandør + bærekraft/miljø»), eller enkelt og greit sende en epost. Spesielt om det er leverandører vi kjøper regelmessig av, så er det viktig at vi etterspør hvordan de tar miljøansvar. Det er en av de beste måtene vi kan ta mer ansvar på. Her er et eksempel du kan bruke: «Hei! Vi vurderer å kjøpe "x antall av dette produktet" av dere, men det er viktig for oss at det går overens med de miljøvennligeretningslinjene vi har for innkjøp. Kan du fortelle meg om hvilke grep dere har tatt, eller hvordan dere jobber med miljøansvar?» Om de kan vise til miljøsertifiseringer eller lignende prestasjoner så er det kjempeflott, men det viktigste her er at vi som forbrukere viser at dette er viktig for oss.
+
+Leverandører vi bruker mye er undersøkt i [denne oversikten](https://varianttrh.sharepoint.com/:x:/r/Delte%20dokumenter/B%C3%A6rekraft/Milj%C3%B8fyrt%C3%A5rnsertifisering/2020/Utfylte%20dokumenter/Kartlegging%20av%20leverand%C3%B8rer%20og%20milj%C3%B8status.xlsx?d=w0348f1e2895146469c9b324c4d7a0b56&csf=1&web=1&e=voSKdV)
+
+**Mat etter arrangement**
+Når vi bestiller mat så skal vi jobbe med å begrense svinn og unødvendig avfall. Det gjelder da mer emballasje enn strengt tatt nødvendig, og begrense store mengder med rester. Mat som er igjen etter et arrangement skal settes i hylla i kjøleskapet som ermarkert med "Up for grabs". Gjerne si i fra at det er tilgjengelig på #varianthuset, så kan noen andre få gleden av det til lunsjen dagen etter. Engangsartikler som kopper, tallerkener, bestikk osv. skal ikke være nødvendig siden vi har nok servise til 30-40 personer.
+
+**Gadgetbudsjettet**
+Med gadgetbudsjettet er vi alle teknisk sett innkjøpere. Nå skal ikke vi legge noen føringer på hvordan du velger å bruke akkurat ditt gadgetbudsjett, men vi anbefaler alltid å kjøpe f. Eks den dyre kvalitetstingen som du ikke ville kosta på deg ellers, som gjerne har en lengre levetid. Mange av oss sitter på hjemmekontor, og det er overraskende hva man kan få til på liten plass så lenge det er tilrettelagt for det. Eksempler her kan være god belysning, en stol med god støtte, heve-og senkepult, ekstern skjerm, tastatur (vi har faktisk en egen slack-kanal for det og #keebs) osv. 
+
+Om du vil kjøpe deg en ny telefon så er du hjertelig velkommen til det. Det eneste vi ber deg om er at du vurderer en «så-god-som-ny-telefon» før du kjøper den siste iPhonen. Da forlenger du levetiden til telefonen, samtidig som du får mye mer ut av gadgetbudsjettet ditt. Telefonene er som regel oppgradert med nytt batteri og ny skjerm, i tillegg til at du ofte får 2-års garanti, og slipper fram-og-tilbake-kommunikasjonen man ofte har ved å kjøpe brukt. Det er mange leverandører her, men noen alternativer er: [Release](https://release.no/privat), [Swappie](https://swappie.com/no/), [Green Phones](https://greenphones.no/), [Nesten Ny fra OneCall](https://onecall.no/kampanjer/nestenny), [God som ny fra Telenor](https://www.telenor.no/mobiltelefoner/god-som-ny/), [TeleOutlet](https://teleoutlet.no/), [Like fin fra Telia](https://www.telia.no/like-fin/).
+
 
 ### Fysiske lokaler
 
