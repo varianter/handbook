@@ -173,7 +173,7 @@ Verneombud har ansvar for opplæring av ansatte og oppdatering av aktuelle rutin
 
 ### Miljøfyrtårnansvarlig
 
-Miljøfyrtårnansvarlig velges for to år om gangen. Ansvarlig fra 2020 er Simen Strøm Braaten. [Ansvarsområdet kan leses her](https://varianttrh.sharepoint.com/:w:/g/EV8J0KoqPHxKndxz1qAZpPQBFFd938unI7nvt0Ljf4ySpg?e=Ig4lcO). Kontaktinformasjon finnes på hjemmeside og i våre internsystemer. 
+Miljøfyrtårnansvarlig engasjeres for to år om gangen. Ansvarlig fra 2020 er Simen Strøm Braaten. [Ansvarsområdet kan leses her](https://varianttrh.sharepoint.com/:w:/g/EV8J0KoqPHxKndxz1qAZpPQBFFd938unI7nvt0Ljf4ySpg?e=Ig4lcO). Kontaktinformasjon finnes på hjemmeside og i våre internsystemer. 
 
 ### Hvordan jobber vi med bærekraft? 
 
