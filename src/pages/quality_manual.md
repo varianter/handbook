@@ -188,6 +188,7 @@ Miljøfyrtårnansvarlig har ansvar for oppfølging og håndtering av dette.
 Det meste vi produserer av søppel på kontoret er relatert til mat. Det kan være papiret til burritoen, en boks til salaten, et syltetøyglass, pose fra nøttene osv.  For deg og meg er det altså viktigst å vurdere forskjellen mellom emballasje som skal i restavfall, og emballasje som kan skylles og resirkuleres. 
 
 **Hva skal hvor?** 
+
 Vi har en bøtte til det meste, og du finner dem på kjøkkenet eller like i nærheten. 
 
 Først et lite fun fact: Det er 95% mer energibesparende å smelte en brukt aluminiumsboks, som f. Eks en leverposteiboks, for å støpe en ny en, sammenlignet med den energien som trengs når aluminumen lages for første gang.
@@ -255,14 +256,17 @@ I den grad det er mulig skal vi bruke leverandører og produkter som forbedrer v
 - Har vi behov for det her? Eller klarer vi oss uten?
 
 **Miljøansvar**
+
 Det kan være vanskelig å vite svarene på de spørsmålene, derfor anbefaler vi å starte med en kjapp kikk på hjemmesida (eventuelt søke på «leverandør + bærekraft/miljø»), eller enkelt og greit sende en epost. Spesielt om det er leverandører vi kjøper regelmessig av, så er det viktig at vi etterspør hvordan de tar miljøansvar. Det er en av de beste måtene vi kan ta mer ansvar på. Her er et eksempel du kan bruke: «Hei! Vi vurderer å kjøpe "x antall av dette produktet" av dere, men det er viktig for oss at det går overens med de miljøvennligeretningslinjene vi har for innkjøp. Kan du fortelle meg om hvilke grep dere har tatt, eller hvordan dere jobber med miljøansvar?» Om de kan vise til miljøsertifiseringer eller lignende prestasjoner så er det kjempeflott, men det viktigste her er at vi som forbrukere viser at dette er viktig for oss.
 
 Leverandører vi bruker mye er undersøkt i [denne oversikten](https://varianttrh.sharepoint.com/:x:/r/Delte%20dokumenter/B%C3%A6rekraft/Milj%C3%B8fyrt%C3%A5rnsertifisering/2020/Utfylte%20dokumenter/Kartlegging%20av%20leverand%C3%B8rer%20og%20milj%C3%B8status.xlsx?d=w0348f1e2895146469c9b324c4d7a0b56&csf=1&web=1&e=voSKdV)
 
 **Mat etter arrangement**
+
 Når vi bestiller mat så skal vi jobbe med å begrense svinn og unødvendig avfall. Det gjelder da mer emballasje enn strengt tatt nødvendig, og begrense store mengder med rester. Mat som er igjen etter et arrangement skal settes i hylla i kjøleskapet som ermarkert med "Up for grabs". Gjerne si i fra at det er tilgjengelig på #varianthuset, så kan noen andre få gleden av det til lunsjen dagen etter. Engangsartikler som kopper, tallerkener, bestikk osv. skal ikke være nødvendig siden vi har nok servise til 30-40 personer.
 
 **Gadgetbudsjettet**
+
 Med gadgetbudsjettet er vi alle teknisk sett innkjøpere. Nå skal ikke vi legge noen føringer på hvordan du velger å bruke akkurat ditt gadgetbudsjett, men vi anbefaler alltid å kjøpe f. Eks den dyre kvalitetstingen som du ikke ville kosta på deg ellers, som gjerne har en lengre levetid. Mange av oss sitter på hjemmekontor, og det er overraskende hva man kan få til på liten plass så lenge det er tilrettelagt for det. Eksempler her kan være god belysning, en stol med god støtte, heve-og senkepult, ekstern skjerm, tastatur (vi har faktisk en egen slack-kanal for det og #keebs) osv. 
 
 Om du vil kjøpe deg en ny telefon så er du hjertelig velkommen til det. Det eneste vi ber deg om er at du vurderer en «så-god-som-ny-telefon» før du kjøper den siste iPhonen. Da forlenger du levetiden til telefonen, samtidig som du får mye mer ut av gadgetbudsjettet ditt. Telefonene er som regel oppgradert med nytt batteri og ny skjerm, i tillegg til at du ofte får 2-års garanti, og slipper fram-og-tilbake-kommunikasjonen man ofte har ved å kjøpe brukt. Det er mange leverandører her, men noen alternativer er: [Release](https://release.no/privat), [Swappie](https://swappie.com/no/), [Green Phones](https://greenphones.no/), [Nesten Ny fra OneCall](https://onecall.no/kampanjer/nestenny), [God som ny fra Telenor](https://www.telenor.no/mobiltelefoner/god-som-ny/), [TeleOutlet](https://teleoutlet.no/), [Like fin fra Telia](https://www.telia.no/like-fin/).
@@ -276,8 +280,8 @@ lokaler, men vi avgrenser dette til vårt kontor i Thomas Angells gate.
 
 - Renhold i våre lokaler gjennomføres av renholdere to ganger ukentlig 
 - Førstehjelpsutstyr er til enhver tid komplett i henhold til [retningslinjer gitt av Arbeidstilsynet](https://www.arbeidstilsynet.no/tema/personlig-verneutstyr/forstehjelpsutstyr/)
-- Ulykker som medfører alvorlig personskade skal straks meldes til lege/ambulanse, politi og Arbeidstilsynets lokalkontor. Innmelding skjer av daglig leder. 
-- Gårdeier sørger for avfallssytemene i bygget vi leier kontorplass i. Variant har i tillegg eget kildesorteringssystem med instruks, godt synlig i kontorlokalet. Gode rutiner skal bidra til å redusere svinn og avfall. 
+- Ulykker som medfører alvorlig personskade skal straks meldes til lege/ambulanse, politi og Arbeidstilsynets lokalkontor. Innmelding skjer av daglig leder
+- Gårdeier sørger for avfallssytemene i bygget vi leier kontorplass i. Variant har i tillegg eget kildesorteringssystem med instruks, godt synlig i kontorlokalet. Gode rutiner skal bidra til å redusere svinn og avfall 
 
 Hvis ansatte opplever feil, mangler eller farlige situasjoner ute hos kunde
 ønsker vi at dette forsøkes varslet i henhold til kundens HMS-rutiner. Skulle
