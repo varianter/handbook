@@ -283,6 +283,24 @@ Hvis ansatte opplever feil, mangler eller farlige situasjoner ute hos kunde
 ønsker vi at dette forsøkes varslet i henhold til kundens HMS-rutiner. Skulle
 dette ikke føre fram vil vi ta imot og håndtere saken i Variant-kontekst.
 
+### Skjermbriller / Databriller
+
+Som konsulenter i IT-bransjen jobber vi jevnlig foran en dataskjerm. Dette gir de 
+ansatte rett til å få dekt synsundersøkelse og databrille av arbeidsgiver.
+
+Merk at en databrille oftest er en enstyrke-brille, og er tilpasset avstanden til 
+dataskjermen. Standard progressive briller som er egnet til daglig bruk, blir ikke 
+regnet som databriller.
+
+Det er ikke fastsatt en beløpsgrense, men dersom arbeidstakeren ønsker mer kostbare 
+løsninger enn det som er nødvendig, plikter ikke arbeidsgiveren å dekke dette. 
+
+Vilkår for dekning er
+- at brillen arbeidstakeren skal bruke ved skjermarbeid, er ulik arbeidstakeren sin egen brille, dvs. at arbeidstakeren ikke kan bruke den vanlige brillen. Dette gjelder oftest personer over 40–45 år; eller
+- at arbeidstakeren trenger særskilt korreksjon på grunn av at han eller hun er svakt langsynt (hypermetropi) og/eller har skeve hornhinner (astigmatisme) eller liknende. Disse tilfellene kan gi problemer ved dataskjermarbeid.
+
+Se også [Arbeidstilsynets sider](https://www.arbeidstilsynet.no/tema/ergonomi/arbeid-ved-dataskjerm/synsundersoking-og-databriller/)
+
 ### Branninnstruks
 
 Gjør deg kjent med følgende i Varianthuset: 
@@ -297,6 +315,7 @@ Vinduer og dører til rom, korridorer og trapperom må lukkes. Om mulig, forsøk
 Nødnummer til brannvesen er 110. 
 
 Rømningsveier og brannslykkingsutstyr er godt merket. Branninnstruks og redningsplan finnes som oppslag i kontorlokalet, i håndboka og gjennomgås med alle nyansatte. Brannøvelse gjennomføres en gang i året. Vedlikehold av brannvarslere og slukkeustyr utføres av gårdeier. 
+
 
 ### Dokumentasjon
 
