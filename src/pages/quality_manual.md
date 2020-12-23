@@ -145,15 +145,13 @@ Til slutt lages et kort referat fra møtet på Slack i kanalen #bemanning.
 
 ### Mål
 
-Vi vil jobbe for å unngå ulykker, miljø- og helseskader slik at vi øker
-trivselen i Variant. Driften skal gi minst mulig påvirkning på det ytre miljø.
+Variant er rause i vårt miljøarbeid. Det gjelder både arbeidsmiljøet vi jobber i på en daglig basis og det globale miljøet vi alle er en del av. Som mange er vi forbrukere, men vi skal gjøre vårt ytterste for å gi så mye vi kan tilbake. Vi skal være en bedrift med engasjerte ansatte som ønsker å gjøre en forskjell med riktige valg i arbeidet vi gjør. 
 
-Dette skal skje ved at helse, miljø og sikkerhet planlegges og prioriteres på
-samme linje som fakturerbart arbeid.
+Vi jobber for å unngå ulykker, miljø- og helseskader. For å bidra til dette planlegger og prioriterer vi HMS-arbeidet på lik linje som fakturerbart arbeid. 
 
 ### Organisering
 
-Daglig leder har et overordnet ansvar for å følge opp de lover og forskrifter vi
+Vår daglig leder, Odd Morten Sveås, har et overordnet ansvar for å følge opp de lover og forskrifter vi
 er underlagt.
 
 Verneombudet har ansvar for å proaktivt følge med på HMS-situasjonen i
@@ -168,10 +166,107 @@ helse, miljø og sikkerhet som ikke løses direkte.
 
 ### Verneombud
 
-Selskapet skal legge til rette for at det velges et verneombud. Valget
-gjennomføres årlig under variantdagen i mars. Verneombudet velges for to år om
-gangen. Ledelsen kan ikke delta i valget eller velges som verneombud. Verneombud
-fra 2019 er Ellen Wagnild-Antonsen.
+Selskapet skal legge til rette for at det velges et verneombud. Verneombudet velges for to år om gangen og velges på variantdagen i mars. Ledelsen kan ikke delta i valget eller velges som verneombud. Verneombud
+fra 2019 er Ellen Wagnild-Antonsen og kontaktinformasjon finnes på hjemmesiden vår og i internsystemer.
+
+Verneombud har ansvar for opplæring av ansatte og oppdatering av aktuelle rutiner. Ved nyansettelser skal verneombud ha opplæring og vernerunde. Skjer viktige endringer i HMS-rutiner, er det verneombud og daglig leder som har ansvaret for at alle ansatte er informert. Dette formidles på Slack (i #viktig), med lenke til oppdatert informasjon i håndboka.
+
+### Miljøfyrtårnansvarlig
+
+Miljøfyrtårnansvarlig engasjeres for to år om gangen. Ansvarlig fra 2020 er Simen Strøm Braaten. [Ansvarsområdet kan leses her](https://varianttrh.sharepoint.com/:w:/g/EV8J0KoqPHxKndxz1qAZpPQBFFd938unI7nvt0Ljf4ySpg?e=Ig4lcO). Kontaktinformasjon finnes på hjemmeside og i våre internsystemer. 
+
+### Hvordan jobber vi med bærekraft? 
+
+Bærekraft for Variant innebærer mye. Det er likestilling i arbeidslivet, en bærekraftig arbeidsdag, som både er spennende, utfordrende og lærerik. Vi ønsker at valgene vi gjør skal begrense vårt klimaavtrykk. Vi skal skape en kultur hvor vi er nysgjerrige, stiller spørsmål og tar gode valg. 
+
+Vi setter oss årlige mål om å redusere vår belastning på miljøet, vi kildesorterer og fører regnskap over eget avfall, energiforbruk og reiser med fly og bil. 
+
+Miljøfyrtårnansvarlig har ansvar for oppfølging og håndtering av dette. 
+
+### Kildesortering
+
+Det meste vi produserer av søppel på kontoret er relatert til mat. Det kan være papiret til burritoen, en boks til salaten, et syltetøyglass, pose fra nøttene osv.  For deg og meg er det altså viktigst å vurdere forskjellen mellom emballasje som skal i restavfall, og emballasje som kan skylles og resirkuleres. 
+
+**Hva skal hvor?** 
+Vi har en bøtte til det meste, og du finner dem på kjøkkenet eller like i nærheten. 
+
+Først et lite fun fact: Det er 95% mer energibesparende å smelte en brukt aluminiumsboks, som f. Eks en leverposteiboks, for å støpe en ny en, sammenlignet med den energien som trengs når aluminumen lages for første gang.
+
+**Eksempler på glass- og metallavfall:** 
+- Syltetøyglass 
+- Leverposteiboks 
+- Tuber fra kaviar, ost osv. 
+- Lokk av metall 
+- Øl- og vinflasker 
+
+Metallbokser, som for eksempel makrell i tomat, leverpostei osv., kjøres i oppvaskmaskina før den kastes. Det er for å begrense at det lukter død og fordervelse fram til søpla tømmes. Flasker og bokser med pant kastes i tønna fra Flaskefond, som står godt synlig i lokalet. 
+
+Elektronisk avfall kastes i en egen bøtte som du finner i «søppelrommet», i gangen ved siden av ansatt-inngangen vår. Der er det en rød bøtte med spesialavfall som tømmes to ganger i året. 
+
+**Eksempler på e-avfall:** 
+- Ledninger 
+- Batterier 
+- Lyspærer og lysrør 
+- Rengjøringsmidler og eventuelle spraybokser 
+- Fargekassetter fra skriveren 
+
+Papiravfall kan sorteres tre ulike steder i lokalet – Ved miljøstasjonen på kjøkkenet, eller i papp-boksen ved kaffebordet i arbeidsområdet, eller i en tilsvarende pappboks på Prosjektrommet i hjørnet i 2. etg. 
+
+**Eksempler på papp- og papiravfall:** 
+- Dokumenter 
+- Reklame 
+- Emballasje (pizzaeske osv.) 
+- Servietter 
+- Melkekartonger (la plastkorken sitte på) 
+
+Plastavfall er ren plast eller plastavfall du skyller først.
+
+**Eksempler på plastavfall:**
+- Yoghurtbeger 
+- Lokket på salatboksen 
+- Plastemballasje fra teknologiske duppeditter 
+- Lokket til leverposteiboksen 
+- Tomme kaffeposer 
+
+Møkkete eller «tilgriset» emballasje (både plast og papir) kastes i restavfall. 
+Restavfall er det som blir igjen når du har sortert ut alt annet. Siden Trondheim ikke har anlegg for å behandle matavfall ennå (men jobber med saken), så betyr det at vi kaster følgende i restavfallet,
+
+**Eksempler på restavfall:** 
+- Snus 
+- Matrester 
+- Kaffegrut 
+- Knuste kopper/tallerkener osv. 
+- Møkkete eller «tilgriset» emballasje (både plast og papir) 
+- Tepose 
+- Tørkepapir 
+- Isopor 
+
+Knuste drikkeglass kan gjerne pakkes inn i avispapir eller noe lignende, og kastes i restavfall, ikke i glass- og metall. 
+
+Fun fact! Ett kilo restavfall gir nok energi til å kjøre to panelovner på full guffe i en time. Den vanligste behandlingsmetoden for restavfall er nemlig energiutnyttelse. Det vil si at avfallet brennes, og at energien som oppstår kan brukes til oppvarming eller strømproduksjon. (kilde: Sortere.no) 
+
+### Innkjøpsrutine
+
+I den grad det er mulig skal vi bruke leverandører og produkter som forbedrer våre egne miljøprestasjoner, derfor er det viktig at vi stiller oss selv noen kjappe spørsmål før vi kjøper noe.
+
+**Sjekkliste**
+- Tar den leverandøren her miljøansvar, eller finnes det miljømerkede, eller mer miljøvennlige alternativer?
+- Kan vi reparere eller gjenbruke?
+- Har vi behov for det her? Eller klarer vi oss uten?
+
+**Miljøansvar**
+Det kan være vanskelig å vite svarene på de spørsmålene, derfor anbefaler vi å starte med en kjapp kikk på hjemmesida (eventuelt søke på «leverandør + bærekraft/miljø»), eller enkelt og greit sende en epost. Spesielt om det er leverandører vi kjøper regelmessig av, så er det viktig at vi etterspør hvordan de tar miljøansvar. Det er en av de beste måtene vi kan ta mer ansvar på. Her er et eksempel du kan bruke: «Hei! Vi vurderer å kjøpe "x antall av dette produktet" av dere, men det er viktig for oss at det går overens med de miljøvennligeretningslinjene vi har for innkjøp. Kan du fortelle meg om hvilke grep dere har tatt, eller hvordan dere jobber med miljøansvar?» Om de kan vise til miljøsertifiseringer eller lignende prestasjoner så er det kjempeflott, men det viktigste her er at vi som forbrukere viser at dette er viktig for oss.
+
+Leverandører vi bruker mye er undersøkt i [denne oversikten](https://varianttrh.sharepoint.com/:x:/r/Delte%20dokumenter/B%C3%A6rekraft/Milj%C3%B8fyrt%C3%A5rnsertifisering/2020/Utfylte%20dokumenter/Kartlegging%20av%20leverand%C3%B8rer%20og%20milj%C3%B8status.xlsx?d=w0348f1e2895146469c9b324c4d7a0b56&csf=1&web=1&e=voSKdV)
+
+**Mat etter arrangement**
+Når vi bestiller mat så skal vi jobbe med å begrense svinn og unødvendig avfall. Det gjelder da mer emballasje enn strengt tatt nødvendig, og begrense store mengder med rester. Mat som er igjen etter et arrangement skal settes i hylla i kjøleskapet som ermarkert med "Up for grabs". Gjerne si i fra at det er tilgjengelig på #varianthuset, så kan noen andre få gleden av det til lunsjen dagen etter. Engangsartikler som kopper, tallerkener, bestikk osv. skal ikke være nødvendig siden vi har nok servise til 30-40 personer.
+
+**Gadgetbudsjettet**
+Med gadgetbudsjettet er vi alle teknisk sett innkjøpere. Nå skal ikke vi legge noen føringer på hvordan du velger å bruke akkurat ditt gadgetbudsjett, men vi anbefaler alltid å kjøpe f. Eks den dyre kvalitetstingen som du ikke ville kosta på deg ellers, som gjerne har en lengre levetid. Mange av oss sitter på hjemmekontor, og det er overraskende hva man kan få til på liten plass så lenge det er tilrettelagt for det. Eksempler her kan være god belysning, en stol med god støtte, heve-og senkepult, ekstern skjerm, tastatur (vi har faktisk en egen slack-kanal for det og #keebs) osv. 
+
+Om du vil kjøpe deg en ny telefon så er du hjertelig velkommen til det. Det eneste vi ber deg om er at du vurderer en «så-god-som-ny-telefon» før du kjøper den siste iPhonen. Da forlenger du levetiden til telefonen, samtidig som du får mye mer ut av gadgetbudsjettet ditt. Telefonene er som regel oppgradert med nytt batteri og ny skjerm, i tillegg til at du ofte får 2-års garanti, og slipper fram-og-tilbake-kommunikasjonen man ofte har ved å kjøpe brukt. Det er mange leverandører her, men noen alternativer er: [Release](https://release.no/privat), [Swappie](https://swappie.com/no/), [Green Phones](https://greenphones.no/), [Nesten Ny fra OneCall](https://onecall.no/kampanjer/nestenny), [God som ny fra Telenor](https://www.telenor.no/mobiltelefoner/god-som-ny/), [TeleOutlet](https://teleoutlet.no/), [Like fin fra Telia](https://www.telia.no/like-fin/).
+
 
 ### Fysiske lokaler
 
@@ -179,8 +274,13 @@ Variant er et konsulentselskap, der hvor mange ansatte tilbringer store deler av
 arbeidstiden ute i kundenes lokaler. HMS-håndboka dekker proaktivt arbeid med
 lokaler, men vi avgrenser dette til vårt kontor i Thomas Angells gate.
 
+- Renhold i våre lokaler gjennomføres av renholdere to ganger ukentlig 
+- Førstehjelpsutstyr er til enhver tid komplett i henhold til [retningslinjer gitt av Arbeidstilsynet](https://www.arbeidstilsynet.no/tema/personlig-verneutstyr/forstehjelpsutstyr/)
+- Ulykker som medfører alvorlig personskade skal straks meldes til lege/ambulanse, politi og Arbeidstilsynets lokalkontor. Innmelding skjer av daglig leder. 
+- Gårdeier sørger for avfallssytemene i bygget vi leier kontorplass i. Variant har i tillegg eget kildesorteringssystem med instruks, godt synlig i kontorlokalet. Gode rutiner skal bidra til å redusere svinn og avfall. 
+
 Hvis ansatte opplever feil, mangler eller farlige situasjoner ute hos kunde
-ønsker vi at dette forsøkes varslet gjennom hht kundens HMS-rutiner. Skulle
+ønsker vi at dette forsøkes varslet i henhold til kundens HMS-rutiner. Skulle
 dette ikke føre fram vil vi ta imot og håndtere saken i Variant-kontekst.
 
 ### Skjermbriller / Databriller
@@ -201,38 +301,62 @@ Vilkår for dekning er
 
 Se også [Arbeidstilsynets sider](https://www.arbeidstilsynet.no/tema/ergonomi/arbeid-ved-dataskjerm/synsundersoking-og-databriller/)
 
+### Branninnstruks
+
+Gjør deg kjent med følgende i Varianthuset: 
+- Rømingsveiene
+- Nærmeste brannmelder
+- Nærmeste slokkemiddel
+
+Ved brannalarm, forlat bygningen gjennom rømningsveiene og gå deretter til [samlingsplassen mellom sykkelparkeringen og Dromedarbakeriet.](https://www.google.com/maps/@63.4323746,10.3995148,3a,75y,235.45h,90.05t/data=!3m6!1e1!3m4!1sgguaNK1F5B-QYaPrEXA0mA!2e0!7i16384!8i8192) Hvis brann oppstår uten at automatisk alarm er utløst, trykk på brannmelder hvis mulig og gå deretter ut av bygningen og til samlingsplassen. 
+
+Vinduer og dører til rom, korridorer og trapperom må lukkes. Om mulig, forsøk å slokke brann med enten pulverapparat eller slange, men tenk på egen sikkerhet. Heis skal IKKE benyttes som rømningsvei. 
+
+Nødnummer til brannvesen er 110. 
+
+Rømningsveier og brannslykkingsutstyr er godt merket. Branninnstruks og redningsplan finnes som oppslag i kontorlokalet, i håndboka og gjennomgås med alle nyansatte. Brannøvelse gjennomføres en gang i året. Vedlikehold av brannvarslere og slukkeustyr utføres av gårdeier. 
+
+
 ### Dokumentasjon
 
 Det er viktig at alle i Variant har tilgang til dokumentasjon på ulike deler av
-HMS-arbeidet. I Variant har vi følgende HMS-dokumentasjon:
+HMS-arbeidet. I Variant har vi følgende HMS-dokumentasjon tilgjengelig:
 
-- [Arbeidsavtaler](https://varianttrh.sharepoint.com/Delte%20dokumenter/Forms/AllItems.aspx?viewpath=%2FDelte%20dokumenter&id=%2FDelte%20dokumenter%2FAnsettelsesavtaler%2FSignerte%20varianter)
+- [Arbeidsavtaler](https://varianttrh.sharepoint.com/Delte%20dokumenter/Forms/AllItems.aspx?viewpath=%2FDelte%20dokumenter%2FForms%2FAllItems%2Easpx&newTargetListUrl=%2FDelte%20dokumenter&viewid=3370557d%2D1740%2D4ec2%2D9d5c%2D6d34dad352f6&id=%2FDelte%20dokumenter%2FAnsatte)
 - [Kursbevis for verneombudsopplæring](https://varianttrh.sharepoint.com/Delte%20dokumenter/Forms/AllItems.aspx?viewpath=%2FDelte%20dokumenter&id=%2FDelte%20dokumenter%2FHMS%2FKursbevis)
-- [Skade- og sykefravær](https://varianttrh.sharepoint.com/:x:/g/ERFyagxSR0VPkmTMZP_wmMcB3SF9IEFdFGkj2zJCz9LnKw?e=OmnTKS)
-- [Resultater fra regelmessig kartlegging](https://varianttrh.sharepoint.com/:f:/g/EgR0QvXa9u9Hpi_6gI6UzsQBR_cPsxZaZEetaR63vIJsRg?e=TZYeTI)
+- Kursoversikt ledere
+- [Årsplan for HMS-aktiviteter](https://varianttrh.sharepoint.com/:b:/r/Delte%20dokumenter/B%C3%A6rekraft/Utfylte%20dokumenter/Kartlegging%202020/1948%20-%20HMS+aktivitetsplan.pdf?csf=1&web=1&e=qzg4et)
+- [Organisasjonskart for HMS](https://varianttrh.sharepoint.com/:b:/r/Delte%20dokumenter/B%C3%A6rekraft/Utfylte%20dokumenter/Kartlegging%202020/Organisasjonskart.pdf?csf=1&web=1&e=hfya1I)
+- [Oversikt over gjennomført HMS-opplæring](https://varianttrh.sharepoint.com/:x:/r/Delte%20dokumenter/HMS/HMS-signering.xlsx?d=w31101deb83424bd984eaeaaf2124592c&csf=1&web=1&e=omWpr2)
+- [Skade- og sykefravær](https://medium.com/variant-as/tagged/results)
+- [Resultater fra regelmessig kartlegging](https://varianttrh.sharepoint.com/:b:/r/Delte%20dokumenter/HMS/Risikokartlegging%20med%20tiltak.pdf?csf=1&web=1&e=ZsZLPs)
 - [Handlingsplan](https://trello.com/b/DQX0sirR/operativt)
 
 ### Regelmessig kartlegging
 
-En gang i kvartalet skal verneombud sammen med daglig leder gjennomføre en
+En gang i året skal verneombud sammen med daglig leder gjennomføre en
 kartlegging av HMS i Variant, inkludert en vernerunde. Punktene som skal
 gjennomgås er gitt i dette
-[skjemaet](https://varianttrh.sharepoint.com/:x:/g/EYlCb2dLcR5DrwWrANSUor8BjDmakNzarQ1P0zN0r6M3og?e=FTnYLz)
+[skjemaet](https://varianttrh.sharepoint.com/:b:/r/Delte%20dokumenter/HMS/Risikokartlegging%20med%20tiltak.pdf?csf=1&web=1&e=iHk7nD)
 som fylles ut og arkiveres.
 
 Etter kartleggingen identifiserer verneombudet og daglig leder behov for tiltak
 som registreres i [handlingsplanen](https://trello.com/b/DQX0sirR/operativt) med
 ansvarlig og frist for utbedring.
 
-### Håndtering av feil og mangler
+### Håndtering av avvik
 
-Vi skal sørge for å håndtere feil og mangler slik at vi lærer av dem og unngår
-at de oppstår på nytt.
+Vi har ulike typer avvik. En feil eller en mangel, et forbedringspotensiale eller et varsel. Et varsel er alvorlig og håndteres sammen med din nærmeste leder ved hjelp av [Arbeidstilsynets retningslinjer](https://www.arbeidstilsynet.no/tema/varsling/Slik-kan-du-varsle-om-kritikkverdige-forhold). Feil, mangler eller forbedringspotensiale tar vi gjerne i fellesskap. 
+Vi skal sørge for å håndtere avvik slik at vi lærer av dem og unngår
+at de oppstår på nytt. Som med mye annet bruker vi Slack for å melde i fra. Enten til nærmeste leder eller i dedikert kanaler. Eksempler kan være: 
 
-Meld fra om feil og mangler til daglig leder. Feil og mangler skal rettes opp
-der problemet oppstår.
+- Finner du forbedringspotensiale i våre Variant-lokaler? Si i fra på #varianthuset
+- Opplever du forbedringspotensiale ute hos kunde? Si i fra til din kontaktperson eller nærmeste leder
+- Opplever du avvik knyttet til psykososiale forhold (er ting kjipt)? Si i fra til din nærmeste leder eller verneombud over en god kopp kaffe på Fredrikssons ❤️
+- Har du innspill til forbedringspotensiale knyttet til vår avfallshåndtering? Meld i fra på #bærekraft
+- Er du usikker på hvor avviket skal håndteres? Ta det med din nærmeste leder eller verneombud
 
-Eventuelle tiltak for å rette opp i disse feil eller mangler skal registreres i
+Eventuelle tiltak for å rette opp i avvik skal registreres i
 handlingsplanen.
 
 ### [Handlingsplan](https://trello.com/b/DQX0sirR/operativt)
@@ -244,7 +368,7 @@ løst. Handlingsplanen er et agendapunkt i alle ledermøter.
 ### Gjennomgang av helse-, miljø- og sikkerhetsarbeidet
 
 Daglig leder har ansvar for at HMS-arbeidet fungerer effektivt. En grundig
-vurdering og gjennomgang foretas en gang i året i et møte mellom daglig leder
+vurdering og gjennomgang foretas en gang i året i et møte mellom daglig leder og
 ansatte.
 
 Før dette møtet må alle forhold i tilknytning til helse-, miljø og
