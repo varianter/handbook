@@ -543,3 +543,11 @@ motivasjon og eventuelle personlige utfordringer.
 Basert på dine målsetninger og ønsket vekst blir dere enige om hvordan dere skal
 jobbe videre. Din personalleder vil støtte deg og coache deg i tråd med det dere
 er enige om.
+
+### Temperaturmålinger
+
+I stedet for en stor årlig medarbeidertilfredshetsundersøkelse har vi ukentlige check-ins med ansatte - temperaturmålinger. [Vi bruker plattformen Winningtemp til dette](https://winningtemp.no/). 
+
+Hver torsdag får ansatte fire spørsmål i e-post, app eller via Slack i kanalen #viktig. Spørsmålene besvares ved hjelp av fire emojies som symboliserer misfornøyd, lite fornøyd, fornøyd eller veldig fornøyd. Undersøkelsen er helt anonym og innsamlet data gir grunnlag for en temperatur innenfor ulike kategorier, på tvers av organisasjonen, i grupper og/eller segmenter. 
+
+Vi tror at enklere, mer regelmessige undersøkelser kan bidra til større engasjement og at det er lettere å fange opp uønskede tendenser og sette inn tiltak om nødvendig.  
