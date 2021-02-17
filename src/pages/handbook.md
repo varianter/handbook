@@ -10,8 +10,8 @@ eller legge til innhold i den. Håndboken
 eller [stille spørsmål](https://github.com/varianter/handbook/issues).
 
 Om du ikke er en variant men liker det du leser,
-[ta en titt på ledige stillinger hos oss](https://jobs.variant.no/). Mer info om
-oss på [nettsiden vår](https://www.variant.no).
+[ta en titt på ledige stillinger hos oss](https://www.variant.no/jobs). Mer info
+om oss på [nettsiden vår](https://www.variant.no).
 
 <img src="./assets/illustrations/mission.svg" alt="Illustrasjon for formål og verdier" class="illustration illustration--right illustration--mission" />
 
