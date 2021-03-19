@@ -182,7 +182,7 @@ budsjettet ditt lenger!
 
 Vi har et fond på 50 000 NOK som kan brukes som midler til sosiale aktiviteter
 utover
-[de faste vi har satt opp](http://localhost:5000/quality_manual#sosiale-aktiviteter).
+[de faste vi har satt opp](/quality_manual#sosiale-aktiviteter).
 
 Dette kan være aktiviteter som hytteleie i Åre, fjellturer, Rush trampolinepark,
 matlaging eller hva enn vi kommer på kan være en god idé. Legg inn forslag som
