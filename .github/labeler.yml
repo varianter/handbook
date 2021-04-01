@@ -1,8 +1,5 @@
 text:
-- src/pages/*.md
+  - content/*.md
 
 code:
-- src/**/*.{js,html,css}
-
-npm:
-- npm/**/*
+  - src/**/*.{js,ts,tsx,html,css}

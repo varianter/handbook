@@ -1,0 +1,34 @@
+.backgroundContainer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+
+  z-index: -1;
+  overflow: hidden;
+}
+
+.background__item {
+  position: absolute;
+  width: 60rem;
+  height: 60rem;
+}
+
+.background__first {
+  composes: background__item;
+  top: 70rem;
+  left: calc(50% - 26rem);
+  width: 80rem;
+}
+.background__second {
+  composes: background__item;
+  top: 160rem;
+  right: calc(50% - 15rem);
+}
+.background__third {
+  composes: background__item;
+  height: 80rem;
+  width: 80rem;
+  top: 225rem;
+  left: calc(50% - 5rem);
+}
