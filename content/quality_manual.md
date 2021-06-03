@@ -100,7 +100,8 @@ mulige tilbud. Ingen prosess kan erstatte dette, men det er lov å la seg
 inspirere av tidligere arbeid.
 
 Alt salgsarbeid skal kontinuerlig lagres på docs, under Salg. Hver kunde har her
-sin egen mappe.
+sin egen mappe. For kunder der vi får flere forespørsler (typisk rammeavtaler)
+lager vi en mappe per avrop prefikset av tilbudsfrist som iso-dato (yyyy-mm-dd).
 
 Viktig at det det som oversendes kunde (typisk pdf-er) lagres i en egen
 undermappe kalt 'Til kunde'.
