@@ -107,7 +107,7 @@ undermappe kalt 'Til kunde'.
 
 Det er viktig for oss å levere gode tilbud og stå for det vi sier i et tilbud.
 For å koordinere at vi ikke lover mer enn vi kan holde legges konsulenter vi
-har forpliktet i et tilbud, inn som tilbudt i bemanning. Dette sikrer også 
+har forpliktet gjennom et tilbud, inn som tilbudt i bemanning. Dette sikrer også 
 at visibilitet og prognose beregnes riktig.
 
 ### Etter ferdig konkludert
