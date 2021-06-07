@@ -105,6 +105,11 @@ sin egen mappe.
 Viktig at det det som oversendes kunde (typisk pdf-er) lagres i en egen
 undermappe kalt 'Til kunde'.
 
+Det er viktig for oss å levere gode tilbud og stå for det vi sier.
+For å koordinere at vi ikke lover mer enn vi kan holde legges konsulenter vi
+har forpliktet gjennom et tilbud, inn som tilbudt i bemanning. Dette sikrer også 
+at visibilitet og prognose beregnes riktig.
+
 ### Etter ferdig konkludert
 
 Etter at en salgsprosess er konkluder er det viktig at vi lærer av denne og
