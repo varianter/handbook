@@ -131,7 +131,7 @@ For enkle reiser innenlands benyttes vårt
 kjøregodtgjørelser og utlegg knyttet til reisen. Etter at skjemaet er fylt ut,
 må du lagre det og sende det til utgiftsrapport@variant.no.
 
-Vi ønsker å måle Varianters klimafotavtrykk. Det betyr blant annet at alle flyreiser og kilometer kjørt med bil i jobbsammenheng registereres. Dette kan gjøres samtidig som du levererer reiseregning eller ved å gå inn [her](https://dash.variant.no/climate/registration). 
+Variant er sertifisert som Miljøfyrtårn 🌿. Det betyr at vi tar bevisste valg for å minske eget utslipp og rapporterer hvert år på hvordan vi ligger an. Vi måler defor Varianters klimafotavtrykk. Det betyr blant annet at alle flyreiser og kilometer kjørt med bil i jobbsammenheng registereres. Dette kan gjøres samtidig som du levererer reiseregning eller ved å gå inn [her](https://dash.variant.no/climate/registration).
 
 Hvis dette skjemaet blir for enkelt for din reise kan for eksempel dette
 [skjemaet](https://www.ks.no/om-ks/om-ks/politisk-ledelse/skjema-for-utfylling-av-reiseregning/)
