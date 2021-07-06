@@ -64,6 +64,25 @@ const Layout: React.FC<LayoutProps> = ({
           </a>
         </Link>
 
+        <ul className={style.header__handbooks}>
+          {handbooks.map((handbook) => {
+            return (
+              <li
+                key={handbook.title}
+                className={
+                  isActiveHandbook(handbook.name, asPath)
+                    ? style.header__handbooks__link__active
+                    : style.header__handbooks__link
+                }
+              >
+                <Link href={`/${handbook.name.toString()}`}>
+                  <a tabIndex={tabIndex}>{handbook.title}</a>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+
         <div className={style.burgerButtonContainer}>
           <span hidden id="menu-label">
             Hovedmeny
