@@ -7,9 +7,14 @@ export const getStaticPaths: GetStaticPaths = async () => {
     const handbookFiles = await getHandbookFiles();
 
     return {
-      paths: handbookFiles.files.map((file) => ({
-        params: { handbook: file.replace(".md", "") },
-      })),
+      paths: handbookFiles.categories.flatMap((category) => {
+        return category.files.map((file) => ({
+          params: {
+            handbook: category.name,
+            name: file.replace(`${category.name}/`, "").replace(".md", ""),
+          },
+        }));
+      }),
       fallback: false,
     };
   } catch (error) {
@@ -22,7 +27,7 @@ export const getStaticProps: GetStaticProps<HandbookProps> = async (
   context
 ) => {
   try {
-    const handbook = `${context?.params?.handbook}`;
+    const handbook = `${context?.params?.handbook}/${context?.params?.name}`;
     const props = await getHandbookProps(handbook);
     return {
       props,

@@ -5,20 +5,23 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import BackgroundBlobs from "src/background";
 import SearchForm from "src/components/search-form";
+import { Handbooks } from "src/utils";
 
 const title = "Variant Håndbok";
 
 export const and = (...classes: (string | undefined)[]) =>
   classes.filter(Boolean).join(" ");
-const isActiveHandbook = (handbookName: string, asPath: string) => {
-  if (asPath === "/" && handbookName === "handbook") return true;
-  return `/${handbookName}` === asPath;
+
+const isActiveHandbook = (path: string, asPath: string, isCategory = false) => {
+  if (asPath === "/" && path === "handbook") return true;
+  if (isCategory) return asPath.includes(path.split("/")[0]);
+  return `/${path}` === asPath;
 };
 
 const favicon = require("@variant/profile/lib/logo/favicon.png");
 
 interface LayoutProps {
-  handbooks: { name: string; title: string }[];
+  handbooks: Handbooks;
   subHeadings?: string[];
   currentSearch?: string;
 }
@@ -37,8 +40,11 @@ const Layout: React.FC<LayoutProps> = ({
     closeRef
   );
 
-  const router = useRouter();
-  const asPath = router.asPath;
+  const { asPath } = useRouter();
+
+  const currentCategory = handbooks.categories.find((category) =>
+    isActiveHandbook(category.path, asPath, true)
+  );
 
   return (
     <div className={style.main}>
@@ -65,23 +71,57 @@ const Layout: React.FC<LayoutProps> = ({
         </Link>
 
         <ul className={style.header__handbooks}>
-          {handbooks.map((handbook) => {
-            return (
-              <li
-                key={handbook.title}
-                className={
-                  isActiveHandbook(handbook.name, asPath)
-                    ? style.header__handbooks__link__active
-                    : style.header__handbooks__link
-                }
-              >
-                <Link href={`/${handbook.name.toString()}`}>
-                  <a tabIndex={tabIndex}>{handbook.title}</a>
-                </Link>
-              </li>
-            );
-          })}
+          {handbooks.handbooks.map((handbook) => (
+            <li
+              key={handbook.title}
+              className={
+                isActiveHandbook(handbook.path, asPath)
+                  ? style.header__handbooks__link__active
+                  : style.header__handbooks__link
+              }
+            >
+              <Link href={`/${handbook.path}`}>
+                <a tabIndex={tabIndex}>{handbook.title}</a>
+              </Link>
+            </li>
+          ))}
+
+          {handbooks.categories.map((category) => (
+            <li
+              key={category.title}
+              className={
+                isActiveHandbook(category.path, asPath, true)
+                  ? style.header__handbooks__link__active
+                  : style.header__handbooks__link
+              }
+            >
+              <Link href={`/${category.path}`}>
+                <a tabIndex={tabIndex}>{category.title}</a>
+              </Link>
+            </li>
+          ))}
         </ul>
+
+        {currentCategory && (
+          <ul className={style.header__handbooks__category}>
+            {currentCategory.handbooks.map((handbook) => {
+              return (
+                <li
+                  key={handbook.title}
+                  className={
+                    isActiveHandbook(handbook.path, asPath)
+                      ? style.header__handbooks__link__active
+                      : style.header__handbooks__link
+                  }
+                >
+                  <Link href={`/${handbook.path}`}>
+                    <a tabIndex={tabIndex}>{handbook.title}</a>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        )}
 
         <div className={style.burgerButtonContainer}>
           <span hidden id="menu-label">
@@ -100,23 +140,60 @@ const Layout: React.FC<LayoutProps> = ({
       >
         <section className={style.nav__inner}>
           <ul className={style.nav__handbooks}>
-            {handbooks.map((handbook) => {
+            {handbooks.handbooks.map((handbook) => {
               return (
                 <li
                   key={handbook.title}
                   className={
-                    isActiveHandbook(handbook.name, asPath)
+                    isActiveHandbook(handbook.path, asPath)
                       ? style.nav__inner__link__active
                       : style.nav__inner__link
                   }
                 >
-                  <Link href={`/${handbook.name.toString()}`}>
+                  <Link href={`/${handbook.path}`}>
                     <a tabIndex={tabIndex}>{handbook.title}</a>
                   </Link>
                 </li>
               );
             })}
+
+            {handbooks.categories.map((category) => (
+              <li
+                key={category.title}
+                className={
+                  isActiveHandbook(category.path, asPath, true)
+                    ? style.nav__inner__link__active
+                    : style.nav__inner__link
+                }
+              >
+                <Link href={`/${category.path}`}>
+                  <a tabIndex={tabIndex}>{category.title}</a>
+                </Link>
+              </li>
+            ))}
           </ul>
+
+          {currentCategory && (
+            <ul className={style.nav__handbooks}>
+              {currentCategory.handbooks.map((handbook) => {
+                return (
+                  <li
+                    key={handbook.title}
+                    className={
+                      isActiveHandbook(handbook.path, asPath)
+                        ? style.nav__inner__link__active
+                        : style.nav__inner__lin
+                    }
+                  >
+                    <Link href={`/${handbook.path}`}>
+                      <a tabIndex={tabIndex}>{handbook.title}</a>
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          )}
+
           {subHeadings.length > 0 ? (
             <>
               <p>Innhold</p>

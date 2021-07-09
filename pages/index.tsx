@@ -12,7 +12,11 @@ export const getStaticProps: GetStaticProps<HandbookProps> = async () => {
   } catch (e) {
     console.error(e);
     return {
-      props: { handbooks: [], subHeadings: [], filename: "" },
+      props: {
+        handbooks: { handbooks: [], categories: [] },
+        subHeadings: [],
+        filename: "",
+      },
     };
   }
 };

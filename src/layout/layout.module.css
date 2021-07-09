@@ -68,6 +68,11 @@
   border-bottom: 2px solid var(--color-secondary2);
   cursor: pointer;
 }
+.header__handbooks__category {
+  composes: header__handbooks;
+
+  margin-top: 2rem;
+}
 
 .burgerButtonContainer {
   position: fixed;

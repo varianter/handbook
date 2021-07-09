@@ -1,3 +1,7 @@
+---
+title: En variants håndbok
+---
+
 # En variants håndbok
 
 Her forsøker vi å beskrive hvordan ting gjøres i Variant, hva vi prøver å oppnå

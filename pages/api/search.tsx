@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { getHandbookData, HandbookData } from "src/utils";
+import { getHandbookData, HandbookData, Handbooks } from "src/utils";
 
-let handbooks: HandbookData[];
+let handbooks: Handbooks;
 let handBookParagraphs: (SearchResult & {
   headerTags: string[];
   contentTags: string[];
@@ -27,9 +27,14 @@ const insertSearchKeyAndValue = (key: string, value: string) => {
 
 async function buildSearchIndex() {
   handbooks = await getHandbookData(true);
-  handBookParagraphs = handbooks.flatMap((hanbook) =>
-    getHandBookParagraphs(hanbook)
-  );
+  handBookParagraphs = [
+    ...handbooks.handbooks.flatMap((handbook) =>
+      getHandBookParagraphs(handbook)
+    ),
+    ...handbooks.categories.flatMap((category) =>
+      category.handbooks.flatMap((handbook) => getHandBookParagraphs(handbook))
+    ),
+  ];
 
   invertedSearchIndex = {};
   handBookParagraphs.forEach((handbookParagraph) => {
@@ -118,12 +123,12 @@ function getHandBookParagraphs(
       currentheading = {
         headerLevel: level,
         header: header,
-        link: getChapterLink(handbook.name, header),
+        link: getChapterLink(handbook.path, header),
         headerTags: splitTrimAndLowercase(header),
         contentTags: [],
         content: "",
         handbookTitle: handbook.title,
-        handbookName: handbook.name,
+        handbookName: handbook.path,
       };
     } else {
       if (!currentheading) continue;
