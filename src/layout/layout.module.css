@@ -26,6 +26,9 @@
   width: 100%;
 }
 
+.header__logo {
+  display: inline-block;
+}
 .header__logo img {
   display: block;
   height: 0.9rem;
