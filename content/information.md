@@ -21,7 +21,7 @@ garderobeskap, sykkelvask og verktøy/mekkeplass. Praktiske detaljer:
 
 - Brikke for tilgang til parkeringskjelleren finnes i en skål i benkeskapet til
   høyre på kjøkkenet. Velg dame/herre ut fra garderobetilgang. VIKTIG:
-  [Registrer nummeret og type brikke her](https://varianttrh.sharepoint.com/_layouts/15/Doc.aspx?sourcedoc=%7BD82F85D7-ED07-454E-943F-6A747B36C136%7D&file=Ansattliste.xlsx&action=default&mobileredirect=true&CT=1591086888058&OR=ItemsView)
+  [Registrer nummeret og type brikke her](http://var.show/ansattliste)
 - Kode for å komme inn til kjelleren utenom kjernetid er samme som til vårt
   kontor.
 - Variant har et eget sykkelrom, se skilt på veggen. Det er viktig at vi ikke
@@ -131,7 +131,12 @@ For enkle reiser innenlands benyttes vårt
 kjøregodtgjørelser og utlegg knyttet til reisen. Etter at skjemaet er fylt ut,
 må du lagre det og sende det til utgiftsrapport@variant.no.
 
-Variant er sertifisert som Miljøfyrtårn 🌿. Det betyr at vi tar bevisste valg for å minske eget utslipp og rapporterer hvert år på hvordan vi ligger an. Vi måler defor Varianters klimafotavtrykk. Det betyr blant annet at alle flyreiser og kilometer kjørt med bil i jobbsammenheng registereres. Dette kan gjøres samtidig som du levererer reiseregning eller ved å gå inn [her](https://dash.variant.no/climate/registration).
+Variant er sertifisert som Miljøfyrtårn 🌿. Det betyr at vi tar bevisste valg
+for å minske eget utslipp og rapporterer hvert år på hvordan vi ligger an. Vi
+måler defor Varianters klimafotavtrykk. Det betyr blant annet at alle flyreiser
+og kilometer kjørt med bil i jobbsammenheng registereres. Dette kan gjøres
+samtidig som du levererer reiseregning eller ved å gå inn
+[her](https://dash.variant.no/climate/registration).
 
 Hvis dette skjemaet blir for enkelt for din reise kan for eksempel dette
 [skjemaet](https://www.ks.no/om-ks/om-ks/politisk-ledelse/skjema-for-utfylling-av-reiseregning/)
@@ -183,8 +188,7 @@ budsjettet ditt lenger!
 ## Sossis-fond
 
 Vi har et fond på 50 000 NOK som kan brukes som midler til sosiale aktiviteter
-utover
-[de faste vi har satt opp](/quality_manual#sosiale-aktiviteter).
+utover [de faste vi har satt opp](/quality_manual#sosiale-aktiviteter).
 
 Dette kan være aktiviteter som hytteleie i Åre, fjellturer, Rush trampolinepark,
 matlaging eller hva enn vi kommer på kan være en god idé. Legg inn forslag som
