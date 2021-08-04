@@ -9,9 +9,31 @@ ikke variantdag i januar og juli.)
 
 [Her vil du alltid finne oversikt over gjennomførte og planlagte variantdager](https://medium.com/variant-as/tagged/variantdag).
 
+## Fagkomité
+
+Formelt sett er det Fagkomitéen (name pending™) som driver Variantdagen. Dette
+er en tverrfaglig gruppe som forvalter Læreglede i Variant. De har ikke ansvar
+for å gjennomføre alt av faglig opplegg, men hjelpe til slik at folk som ønsker
+å ha innhold, lære noe nytt, diskutere prosjekt osv får det de trenger til å
+gjennomføre det.
+
+Komitéen møtes gjevnlig i periodiske møter. Største leveransen til komitéen er
+Variantdager, men de jobber også med annet faglig innhold i og utenfor Variant.
+Komitéen velges inn på årsbasis.
+
+### Nåværende Fagkomité (Trondheim)
+
+- Mathias (leder)
+- Anders NS
+- Linn Helen
+- Stine
+- Jacob
+
+Støttet opp mot ledergruppen av Mikael.
+
 ## Organisering
 
-To variantdager er aldri like, men alle er organisert i et fast mønster:
+To variantdager er aldri like, men de fleste følger en struktur:
 
 - **Dagens innledning** - felles for alle. Formålet med denne er å inspirere,
   mane til ettertanke eller utfordre oss. Noen ganger holdes dette av eksterne
