@@ -21,7 +21,7 @@ garderobeskap, sykkelvask og verktøy/mekkeplass. Praktiske detaljer:
 
 - Brikke for tilgang til parkeringskjelleren finnes i en skål i benkeskapet til
   høyre på kjøkkenet. Velg dame/herre ut fra garderobetilgang. VIKTIG:
-  [Registrer nummeret og type brikke her](https://varianttrh.sharepoint.com/:x:/r/_layouts/15/Doc.aspx?sourcedoc=%7B6F8D4E9F-0A0C-4[…]lsx&action=default&mobileredirect=true&DefaultItemOpen=1)
+  [Registrer nummeret og type brikke her](http://var.show/ansattliste)
 - Kode for å komme inn til kjelleren utenom kjernetid er samme som til vårt
   kontor.
 - Variant har et eget sykkelrom, se skilt på veggen. Det er viktig at vi ikke
