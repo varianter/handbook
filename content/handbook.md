@@ -98,24 +98,135 @@ dette betyr i praksis.
   hit, variant eller ikke. Dette gjelder egentlig alt vi har i det åpne. Vi
   heier på alle våre kollegaer som deler åpent og bidra til Open Source.
 
-## Betingelser
+
+## Verdi
+
+<img src="./assets/illustrations/workout.svg" alt="Illustrasjon for helse" class="illustration illustration--right illustration--helth" />
+
+
+## Familie og samfunnet
+
+For oss er ikke jobb og fritid to helt ulike verdener. Selv om vi vil at varianter skal ha en god jobb- og livsbalanse, ønsker vi å invitere familiene inn i selskapet og at de blir en del av oss og det vi gjør. Hver høst reiser vi på tur utabys, vi arrangerer en del aktiviteter gjennom året og vi har et årlig julebord. På alt dette er familie eller ledsager hjertelig velkommen til å bli med på. Vi definerer ikke hva som regnes som familie, så hvem du ønsker å invitere med er opp til deg selv. Om det så er partner, barn, foreldre eller venner. Vi sier: hjertelig velkommen!
+
+Variant skal også bidra til nærmiljøet og samfunnet der vi finnes. Som beskrevet
+under [goder og ytelser](#andre-goder-og-ytelser) så har hver variant 10 000 kr
+i året til å kjøpe gadgets for. Disse pengene kan også brukes til å sponse en frivillig eller veldedig organisasjon. Fotballaget til dattera, UNICEF eller eldrekafeen i bydelen. Valget er ditt!
+
+Årlig
+[gir Variant et beløp tilsvarende 500 kr per ansatt](https://medium.com/variant-as/n%C3%A5r-noen-trenger-hjelp-9a8272f9838)
+til en veldedig organisasjon med verdier og formål som harmonerer med våre. Vi tar valget av formålet årlig, som vi diskuterer åpent i hele selskapet og kommer frem til sammen. 
+
+### Likestilling
+Likestilling er en grunnleggende verdi for oss som jobber her, og for Variant som selskap. Her snakker vi om grunnleggende likeverd på tvers av blant annet nasjonalitet, etnisk bakgrunn, livssyn, legning og kjønn. 
+Vi har i dag en god kjønnsbalanse, men samtidig ønsker vi alltid å gjøre den bedre. Vi blir jo ikke fornøyd før vi er omtrent fifty-fifty på kvinner og menn. Dette påvirker mange av våre strategiske og operative beslutninger, som blant annet:
+
+-	Foreldrepermisjon reduserer ikke ansiennitet på noen måte
+-	Man får utbetalt bonus også mens man er i foreldrepermisjon.
+-	Selvsagt får man full lønn under foreldrepermisjon
+
+Vi ønsker ikke at økonomi og karriere skal være momenter i hvordan den enkelte familie planlegger og fordeler arbeidet hjemme.
+
+### HELSE
+Vi ønsker at våre ansatte har et godt liv – og en god helse. Her kan faktisk vi som arbeidsgiver bidra en god del. Vi bryr oss om ergonomi og fysisk arbeidsmiljø. Vi initierer og støtter mosjon og vi har en meget flott helseforsikring. 
+
+La oss starte med ergonomi og arbeidsmiljø: Som konsulenter jobber vi ofte, og veldig gjerne, ute hos kunde. Det kan tidvis være at innleide konsulenter får ugunstige arbeidsforhold. Våre avtaler med kundene inneholder reguleringer slik at vi har gode forutsetninger for å levere godt resultat for våre kunder over lang tid. Godt med lys, luft og riktige møbler er avgjørende i så måte. 
+
+Variant dekker medlemsskap på treningssenter eller aktiviteter for den ansatte, for å gjøre det enkelt for de som synes sånt er fint å gjøre. Det hender også at vi arrangerer aktiviteter i løpet av året, for alle ansatte. Som en fjelltur, fisketur, akedag og så videre. 
+
+Til slutt har vi en knakende god helseforsikring, eller behandlingsforsikring som Gjensidige kaller det. Forsikringen dekker:
+
+-	Røntgen og bildediagnostikk
+-	Utredning og behandling hos legespesialist
+-	Operasjon
+-	Etterkontroll
+-	Rehabilitering
+-	Ny vurdering hos annen lege (second opinion)
+-	Psykologisk førstehjelp
+-	Behandling hos psykolog
+-	Behandling av rus- og spilleavhengighet
+-	Fysikalsk behandling - 12 behandlinger
+-	Online videolege for deg og dine barn
+
+<img src="./assets/illustrations/graduation.svg" alt="Illustrasjon for kompetanseutvikling" class="illustration illustration--left illustration--competence" />
+
+
+### Kompetanseutvikling
+Vi ønsker at fagmiljøet der vi befinner oss er sterkt og pulserende, så da må vi også jobbe med faglig utvikling. Vi ser lite verdi i å bygge kompetanse kun for vår egen del, vi tror heller at kunnskap og erfaring gjør seg best i fellesskap med andre. Vi bidrar derfor gledelig i eksisterende fagmiljø, eller oppretter nye der vi kjenner at det mangler. Vi oppfordrer alle, ja fra daglig leder så vel som sommerstudenter, i selskapet til å være aktive på meetups. Vi er først og fremst læreglade fagpersoner over hele fjøla. 
+
+Åpenheten strekker seg selvfølgelig til læringen vi gjør. Vi oppfordrer ansatte til å dele det de lærer og bruker tid på å formidle det på en god måte. Enten det er via Open Source-prosjekter, podcast, video, bloggpost, presentasjoner og kurs. Eller rett og slett samtaler med fagkolleger fra andre selskap. Å kunne formidle kunnskap, mener vi, er like viktig som å kunne gjennomføre den.
+
+### Rettigheter og open source
+Kjernevirksomheten vår er i utgangspunktet å selge kompetanse. Men vi er eksperimentelle og tilpasningsdyktige. Det kan komme en tid der vi ser på muligheten for å samarbeide tett med startups eller skape egne startups. I Norge er det helt vanlig at arbeidsplassen innehar rettigheter til det ansatte måtte lage eller komme på. Det kan være vanskelig å komme seg rundt dersom Variant har brukt mye penger på å hjelpe ansatte å utvikle noe.
+
+Vi ønsker å være reale på dette. Om du har en god idé som du ønsker å gå videre med, snakk med din personalleder så finner vi ut av hvordan vi kan gå frem og hvordan vi skal løse det på en best mulig måte. Kanskje er det slik at Variant kan hjelpe deg å nå frem? Eller kanskje det kan Open Sources? Eller kanskje kan ansatte få fulle rettigheter? Vi finner en løsning som passer best til situasjonen.
+
+Med risiko for å gjenta i det uendelige, men vi ønsker å være åpne. Vi oppfordrer derfor hverandre til å tenke på hva som kan Open Sources. Både av det vi lager internt, hva kollegaer lager og hva kunder lager. Når vi sitter ute hos kunde er det som regel kunden som sitter på rettighetene til det vi produserer, men også da kan både kunde og samfunn ha nytte av at noe åpnes. Vi skal hjelpe kundene våre med å ta gode avgjørelser rundt dette, og ikke være redd for å stille spørsmålet: “Kan ikke dette legges ut, da?”
+
+### Miljøfyrtårn
+Bærekraft for Variant innebærer mye. Det er likestilling i arbeidslivet, en bærekraftig arbeidsdag, som både er spennende, utfordrende og lærerik. Vi ønsker at valgene vi gjør skal begrense vårt klimaavtrykk. Vi skal skape en kultur hvor vi er nysgjerrige, stiller spørsmål og tar gode valg.
+Vi setter oss årlige mål om å redusere vår belastning på miljøet, vi kildesorterer og fører regnskap over eget avfall, energiforbruk og reiser med fly og bil.
+Miljøfyrtårnansvarlig har ansvar for oppfølging og håndtering av dette.
+
+
+## Kvalitetstid
+
+### Fleksitid
+Arbeidsdagen er 7,5 timer per dag. Vi har ikke kjernetid i Variant, men kunder kan jo ofte ha dette. Vi synes det er viktig å følge kunden på dette, for å bli en del av deres kultur. Vi oppnår mest når vi får jobbe tett med andre, så når du velger din arbeidsrytme regner vi med at det er med i vurderingen. 
+
+Likevel er det slik at mange av våre kunder har kjernetid, eller at oppdraget du
+er på avtaler en kjernetid. Dette må vi forholde oss til.
+
+Vi vet at livet har ulike faser, i noen perioder ønsker eller trenger man å kunne bruke mindre tid på jobb. Hos oss er det mulig å senke stillingsgraden i perioder. Dette avgjør du best selv du. Med åpenhet mellom deg, ledere og kunden om behovet og ønskene dine, vil vi sammen jobbe for å finne løsningen alle trives med. 
+
+### Fri i jula
+
+I tillegg til de vanlige 5 uker med ferie regner vi alle dagene fra og med
+julaften til og med 1. nyttårsdag som helligdager. Det vil si at du trenger ikke
+bruke feriedager i romjula.
+
+### Ammefri
+[Mødre som ammer kan bruke en time om dagen med lønn til dette](https://www.arbeidstilsynet.no/arbeidsforhold/permisjoner/foreldrepermisjon/ammefri/). Dette gjelder fram til barna er ett år gamle. Du finner selv ut når det passer med deg og ditt barns rutiner her. Her gjelder det selvfølgelig å ha en god dialog med kunde på dette, så dagene er forutsigbare og enkle å planlegge rundt for alle involverte. 
+
+### Kurs og konferanser
+For å være gode må vi av og til ut i verden for å lære mer og tenke nytt. Alle oppfordres til å delta på 
+kurs eller konferanse en gang i løpet av året. Om du har sett for deg en reise lengre enn langt, blir det 
+naturlig nok ikke like ofte. 
+
+Samtidig oppfordrer vi også ALLE til å holde foredrag og kurs. Bidrar du ofte på konferanser og lignende, 
+dekker Variant deltagelse, reise og opphold. Helt uavhengig av hvor i verden, og hvor mange andre konferanser 
+du har deltatt på det året. Ut å avle læreglede! 
+
+### Verktøykassen 🛠📚
+Skikkelig jobb krever skikkelige verktøy. Du velger selv datamaskin og størrelse, farge og modell på den. Melder behovet seg for en ny, skal du også selvfølgelig få det. Vi stoler på at du velger det beste for at du skal kunne gjøre en best mulig jobb. Er du usikker kan du godt spørre i vår Slackkanal #helpdesk. 
+
+Det er heller ikke et gitt antall års brukstid på maskinene. Du får en ny maskin
+når behovet oppstår, uavhengig av om det har gått ett eller tre år. Se også
+[PC-valg](information.html#pc-valg) for de mest brukte modellene.
+
+Programvare velger du også selv. Vi har noen avtaler for ymse produkter, alt annet kjøre du direkte og fører utlegg for det. Du skal jaggu ikke mangle noe for å gjøre en god jobb. 
+Som konsulenter selger vi ekspertise og kunnskap, så invester gjerne i bøker, kurs og annet læringsmateriale. Bare husk å sende regningen til regnskap. Den betales med stor glede!  🤓
+
+### Variantdag
+Den første fredagen i hver måned (foruten januar og juli) har vi det vi kaller en variantdag. Dette er en “innedag”, der vi alle bruker hele dagen sammen, for faglig, administrativt og sosialt påfyll.
+
+### Årlig tur
+I september er også nevnte variantdag litt annerledes. Da drar vi, med en partner eller venn til følge, utav byen og feirer vår egen bursdag, samt for å oppleve nye ting. Foreløpig har vi vært i London og på Hotell Union Øye i Norangsdal. I skrivende år skal vi til Kragerø. 
+
+Så langt drar alle våre avdelinger sammen. Dette kan jo hende utvikler seg med tiden. 
+
+
+## Pæng
 
 Vi betaler godt, samtidig handler raushet om mye mer enn bare lønna.
 
 <img src="./assets/illustrations/credit_card.svg" alt="Illustrasjon for lønn" class="illustration illustration--right illustration--salary" />
 
+
 ### Lønn
+Vi er sikre på at flinke folk i liten grad lar seg motivere av lønn alene, men god lønn er like fullt viktig for den frihet og stabilitet vi ønsker å gi. 
 
-Vi er sikre på at flinke folk i liten grad lar seg motivere av lønn alene, men
-god lønn er like fullt viktig for den frihet og stabilitet vi ønsker å gi.
-Tilsvarende har vi liten tro på å belønne enkeltpersoner med gode lønnsoppgjør,
-og implisitt straffe de andre med dårligere oppgjør. Individuelle vurderinger
-blir aldri noe annet enn subjektive meninger og trynefaktor. Ingen skal måtte
-være freidige for å be om å få det de fortjener – det skal komme automatisk.
-
-Lønnen vår bestemmes utelukkende av en utjevnet kurve for Teknas lønnsstatistikk
-og vi skal ligge på øvre kvartil av denne. Med andre ord alle får lik lønn
-basert på antall års erfaring. Hva den enkelte tjener er ingen hemmelighet i
+Lønnen vår bestemmes utelukkende av en utjevnet kurve for øvre kvartil av  Teknas lønnsstatistikk. Lønnsøkninger tas ikke individuelt – det går automatisk. Din lønn baseres rett og slett på antall års erfaring. 
+Hva den enkelte tjener er ingen hemmelighet i
 Variant. Lurer du på hva du ville tjent hos oss? Vår hjemmesnekra
 [kalkulator](https://www.variant.no/kalkulator) 🧮 gir deg svaret!
 
@@ -157,235 +268,29 @@ Ut over vanlig yrkesskadeforsikringer har vi reiseforsikring for hele familien,
 gruppelivsforsikring med engangsutbetaling ved dødsfall, behandlingsforsikring
 og dekning for annen ulykke enn yrkesskade.
 
-### Kurs og konferanser
-
-Variant vil ikke være et sted man står fast, vi må lære mer og ut å få litt
-friske impulser innimellom. Alle oppfordres til å delta på kurs eller konferanse
-en gang i løpet av året. Om du har sett for deg en reise lengre enn langt blir
-det, naturlig nok, ikke like ofte.
-
-Alle oppfordres til å holde foredrag og kurs. Bidrar du på konferanser og
-lignende dekker Variant deltagelse, reise og opphold. Dette er helt uavhengig av
-hvor i verden dette skjer, og uavhengig av hvor mange andre
-konferansedeltagelser du har det året.
-
-### Verktøy og litteratur 🛠📚
-
-Skikkelig jobb krever skikkelige verktøy. Du velger selv datamaskin, og om den
-er liten eller stor, silver eller space gray, spiller ikke så stor rolle.
-Trenger du større harddisk eller mer minne så regner vi med at du sier det og er
-du usikker så spør i #helpdesk.
-
-Det er heller ikke et gitt antall års brukstid på maskinene. Du får en ny maskin
-når behovet oppstår, uavhengig av om det har gått ett eller tre år. Se også
-[PC-valg](information.html#pc-valg) for de mest brukte modellene.
-
-**NB!** Variant har ingen helpdesk eller supportavdeling, så skaff deg utstyr du
-vet du kan håndtere.
-
-**PS!** Selvsagt har vi en helpdesk. Gjett hva den heter da. Yep, #helpdesk.
-Kanalen der vi hjelper hverandre.
-
-Hvilken programvare du bruker velger du best selv. Vi har noen avtaler for ymse
-tjenester og produkter, alt annet kjøper du direkte av og fører utlegg for. Det
-skal ikke være slik at du mangler noe for å gjøre en god jobb, foråsidetsånn.
-
-Som konsulenter selger vi ekspertise og kunnskap. Bøker, kurs og annet
-læringsmateriale ser vi på som en investering, du som variant velger selv
-hvordan du skaffer deg kunnskap. Husk å send regningen, den betaler vi nemlig
-med glede. 🤓
-
-### Immaterielle rettigheter og open source
-
-Kjernevirksomheten vår er i utgangspunktet utelukkende å selge kompetanse. Men
-vi er eksperimentelle og tilpasningsdyktige. Det kan komme en tid der vi ser på
-muligheten for å samarbeide tett med startups eller skape egne startups. I Norge
-er det helt vanlig at arbeidsplassen innehar rettigheter til det ansatte måtte
-lage eller komme på. Det kan være vanskelig å komme seg rundt dersom Variant har
-brukt mye penger på å hjelpe ansatte å utvikle noe.
-
-Vi ønsker å være reale på dette. Om du har en god idé som du ønsker å gå videre
-med, snakk med din personalleder så finner vi ut av hvordan vi kan gå frem og
-hvordan vi skal løse det på en best mulig måte. Kanskje er det slik at Variant
-kan hjelpe deg å nå frem? Eller kanskje det kan Open Sources? Eller kanskje kan
-ansatte få fulle rettigheter? Vi finner en løsning som passer best til
-situasjonen.
-
-Med risiko for å gjenta i det uendelige, men vi ønsker å være åpne. Vi
-oppfordrer derfor hverandre til å tenke på hva som kan Open Sources. Både av det
-vi lager internt, hva kollegaer lager og hva kunder lager. Når vi sitter ute hos
-kunde er det som regel kunden som sitter på rettighetene til det vi produserer,
-men også da kan både kunde og samfunn ha nytte av at noe åpnes. Vi skal hjelpe
-kundene våre med å ta gode avgjørelser rundt dette, og ikke være redd for å
-stille spørsmålet: "Kan ikke dette legges ut, da?"
-
-### Andre goder og ytelser
-
+### Goder og ytelser
+Vi kjører punktliste! 
 - Gadgetbudsjett på 10 000 pluss moms pr. år. Hva andre har brukt det til finner
   du på [oversikten her](http://gadget.variant.no).
-- Fri bruk av mobiltelefoni innen rimelighetens grenser.
-- Bredbånd hjemme på inntil 500 kr pr. mnd.
-- Betalt 2 uker permisjon for partner etter fødsel.
-- Full lønn under foreldrepermisjon, selv om lønnen skulle overstige det NAV
-  betaler.
-- 2 dager til barnehagetilvenning.
+-	Ett kurs eller en konferanse i året
+-	Fri bruk av telefoni, innen rimelighetens grenser.
+-	Bredbånd hjemme på inntil 500 kr pr. mnd 
+-	Betalt 2 uker permisjon for partner etter fødsel.
+-	Full lønn under foreldrepermisjon, selv om lønnen skulle overstige det NAV betaler.
+-	2 dager til barnehagetilvenning.
 - Utvidede rettigheter til
   [egenmelding og sykepenger](information.html#sykemelding-og-egenmelding).
-- Dekt 3T-medlemskap, eller tilsvarende helsebringende aktivitet eller utstyr,
-  inntil 500,- per måned (NB! Dette er en skattepliktig fordel som rapporteres
-  på din lønnsslipp ved årsslutt). Utgiftsføres på vanlig måte.
-- Behandlingsforsikring.
-- Reiseforsikring for deg og din familie.
-- Tilgang til godt utstyrt sykkelparkering og garderober rett ved våre lokaler,
-  midt i byen.
+-	Dekt treningssentermedlemsskap, eller tilsvarende helsebringende aktivitet/utstyr, inntil 500,- per måned (NB! Dette er en skattepliktig fordel som rapporteres på din lønnsslipp ved årsslutt). Utgiftsføres på vanlig måte.
+-	Behandlingsforsikring.
+-	Reiseforsikring for deg og din familie.
 
-## Arbeidstid
+### Eierskap
+Variant er et ansatteid selskap. Ansatte eier enten i morselskapet Variant Konsern AS eller direkte i de lokale driftsselskapene. Gjennom Medeierskapsprogrammet tilbys alle ansatte hvert år å kjøpe aksjer, og 1. april innledes en ny runde med salg gjennom emisjoner.
 
-I tillegg til de vanlige 5 uker med ferie regner vi alle dagene fra og med
-julaften til og med 1. nyttårsdag som helligdager. Det vil si at du trenger ikke
-bruke feriedager i romjula.
 
-### Ammefri
+## Spesialiteter
 
-[Mødre som ammer har rett på inntil 1 time lønnet fri](https://www.arbeidstilsynet.no/arbeidsforhold/permisjoner/foreldrepermisjon/ammefri/)
-hver dag til å kunne amme. Dette gjelder helt opp til barnet/barnene er ett år.
-Hver ansatt må selv se når det passer med sine og barnets rutiner for ammefri.
-Vi oppfordrer til en åpen dialog med kunde for at det kan være forutsigbarhet
-som man kan planlegge rundt og hjelper gjerne til med kommunikasjonen med kunde.
-
-### Fleksibilitet
-
-Arbeidstid er 7,5 timer per dag, Vi har ingen kjernetid hos oss. Samtidig vet vi
-også at vi oppnår mest når vi får jobbe tett med våre kollegaer. Så når du
-velger din arbeidsrytme regner vi med at det også er med i vurderingene.
-
-Likevel er det slik at mange av våre kunder har kjernetid, eller at oppdraget du
-er på avtaler en kjernetid. Dette må vi forholde oss til.
-
-Vi vet at livet har ulike faser, og at i noen perioder ønsker eller trenger man
-å kunne bruke mindre tid på jobb. Hos oss er det mulig å jobbe mindre i
-perioder. Dette avgjør du, og med åpenhet mellom oss og våre kunder om dine
-ønsker så vil vi sammen jobbe for å tilpasse oss dine ønsker.
-
-<img src="./assets/illustrations/workout.svg" alt="Illustrasjon for helse" class="illustration illustration--right illustration--helth" />
-
-## Familie og samfunnet
-
-Vi vil at våre folk skal ha mulighet til å bruke tid sammen med familiene sine.
-Det er blant grunnene til våre arbeidstidsordninger. Vi ønsker også å invitere
-familiene inn i vårt selskap, og bli en del av oss. Vi er da tross alt åpne og
-rause.
-
-Gjennom året arrangerer vi en del aktiviteter hvor vi inviterer inn familie
-eller ledsager. Hver høst reiser vi på en utenlandstur hvor alle varianter tar
-med seg sin ledsager. Vårt lille julebord er selvsagt også med følge. Utover
-dette har vi varierende aktiviteter som vi håper familiene har lyst til å være
-med oss på.
-
-Variant skal selvsagt ikke definere hva som regnes som familie. Hvem du ønsker å
-invitere inn til variantfamilien bestemmer du selv. Om det er partner, barn,
-foreldre eller venner er opp til deg. Vi sier: Hjertelig velkommen!
-
-Variant skal bidra til nærmiljøet og samfunnet der vi finnes. Som beskrevet
-under [goder og ytelser](#andre-goder-og-ytelser) så har hver variant 10 000 kr
-i året til å kjøpe gadgets for. Disse pengene kan også brukes til å sponse en
-frivillig eller veldedig organisasjon. Fotballaget til dattera, UNICEF eller
-eldrekafeen i bydelen. Valget er ditt!
-
-Årlig
-[gir Variant et beløp tilsvarende 500 kr per ansatt](https://medium.com/variant-as/n%C3%A5r-noen-trenger-hjelp-9a8272f9838)
-til en veldedig organisasjon med verdier og formål som harmonerer med våre. Vi
-gjør årlig et uavhengig valg av formål, og aktuelle mottakere skal diskuteres
-åpent i hele selskapet.
-
-I 2019 valgte vi TV-aksjonen "Nå er det hennes tur" som vårt
-veldedighetsprosjekt.
-
-## Likestilling
-
-Likestilling er en grunnleggende verdi for oss som jobber her, og for Variant
-som selskap. Her snakker vi om grunnleggende likeverd på tvers av blant annet
-nasjonalitet, etnisk bakgrunn, livssyn, legning og kjønn.
-
-Vi har i dag en god kjønnsbalanse, men samtidig ønsker vi å gjøre den enda
-bedre. Vi blir ikke fornøyd før vi er omtrent fifty-fifty kvinner og menn. Dette
-påvirker mange av våre strategiske og operative beslutninger, som blant annet:
-
-- Foreldrepermisjon reduserer ikke ansiennitet på noen måte.
-- Man får utbetalt bonus også mens man er i foreldrepermisjon.
-- Selvsagt får man full lønn under foreldrepermisjon.
-
-Vi ønsker ikke at økonomi og karriere skal være momenter inn i hvordan den
-enkelte familie planlegger og fordeler arbeid i hjemmet.
-
-## Helse
-
-Vi ønsker at våre ansatte har et godt liv. Og et viktig moment i dette er en god
-helse. Så hva kan en arbeidsgiver bidra med når det kommer til å forbedre de
-ansattes helsesituasjon? Faktisk en god del. Vi bryr oss om ergonomi og fysisk
-arbeidsmiljø, vi initierer og støtter mosjon og vi har en meget god
-helseforsikring.
-
-La oss starte med ergonomi og arbeidsmiljø. Som konsulenter jobber vi ofte og
-gjerne ute hos kunde. Det kan tidvis være at innleide konsulenter får ugunstige
-arbeidsforhold. Våre avtaler med våre kunder inneholder reguleringer slik at vi
-har gode forutsetninger for å levere godt resultat for våre kunder over lang
-tid. Godt med lys, luft og riktige møbler er avgjørende i så måte.
-
-Variant har igjennom året flere aktiviteter hvor våre ansatte har mulighet til
-fysisk aktivitet. Dette kan være fjellturer, bedriftsidrett, fiske osv. I
-tillegg dekker Variant 3T-medlemskapet for de av våre ansatte som synes et
-treningssenter er et hyggelig sted å være.
-
-Til slutt har vi en veldig god helseforsikring eller behandlingsforsikring som
-Gjensidige kaller det. Forsikringen dekker
-
-- Røntgen og bildediagnostikk
-- Utredning og behandling hos legespesialist
-- Operasjon
-- Etterkontroll
-- Rehabilitering
-- Ny vurdering hos annen lege (second opinion)
-- Psykologisk førstehjelp
-- Behandling hos psykolog
-- Behandling av rus- og spilleavhengighet
-- Fysikalsk behandling - 12 behandlinger
-- Online videolege for deg og dine barn
-
-<img src="./assets/illustrations/graduation.svg" alt="Illustrasjon for kompetanseutvikling" class="illustration illustration--left illustration--competence" />
-
-## Kompetanseutvikling
-
-Vi ønsker at fagmiljøet der vi befinner oss er sterkt og pulserende. Raushet og
-åpenhet handler derfor også om hvordan vi jobber med faglig utvikling. Vi ser
-ingen verdi i å bygge kompetanse bare for vår egen del, men vi tror at kunnskap
-og erfaring gjør seg best i fellesskap – med andre. Derfor gjøres alt faglig
-arbeid i Variant i nærmiljøets fagmiljø/_Community_. Åpent. Gjerne med å bidra
-til eksisterende miljø. Om det ikke finnes, hjelper vi med å opprette nye.
-
-Variants faglige utvikling gjøres i fagmiljøet i nærmiljøet, derfor forventer vi
-også at alle i selskapet skal være aktive i meetups. Dette gjelder daglig leder
-så vel som sommerstudenter. I Variant er alle ansatte fagpersoner.
-
-Åpenheten strekker seg selvfølgelig til læringen vi gjør. Vi oppfordrer ansatte
-til å dele det de lærer og bruke tid på å formidle det på en god måte. Enten det
-er via Open Source-prosjekter, podcast, video, bloggpost, presentasjoner og
-kurs, eller rett og slett samtaler med andre mennesker.
-
-Vi ønsker at våre ansatte skal lære noe nytt og tenke: "Hvordan kan jeg best
-formidle dette til andre?". Sånn har vi og stor tro på at våre ansatte lærer
-mer. Både i kommunikasjon og gjennomførelse. Formidlingsevne og engasjement
-setter vi høyt.
-
-### Variantdager
-
-Den første fredagen i hver måned (foruten sommermånedene juli og august) har vi
-det vi kaller en variantdag. Dette er en innedag der alle selskapets konsulenter
-bruker hele dagen hjemme i Varianthuset, for faglig, administrativt og sosialt
-påfyll.
-
-## Stilguide
-
+### Stilguide
 Profilen til Variant er, som alt annet, i evig utvikling og kontinuerlig markert
 som arbeid pågår. Arbeidet rundt gjeldende profil kan følges på en
 [egen side med style guide](https://styleguide.variant.no). Her legger vi alt
@@ -393,55 +298,6 @@ fra hele Variant-illustrasjonen, typografi, veiledning for valg av logo, osv.
 Alt dette legges åpent med en åpen lisens, foruten illustrasjonen hvor designer
 sitter på åndsverk.
 
-## Ansettelse og jobbintervju
-
-Vi liker ikke tradisjonelle intervjuer. De plasserer søker i en unaturlig
-situasjon, og vi blir ikke godt kjent med han eller henne. For å finne ut mer om
-sosiale evner, kommunikasjonsferdigheter og nysgjerrighet gjør vi intervjuer på
-en litt annen måte:
-
-### 1. Kaffeprat ☕️ (30 min)
-
-Her møtes vi til en uformell samtale for å finne ut om begge parter har felles
-verdier og mål. Rett og slett om vi er rett for hverandre og om vi kan gjøre
-hverandre bedre.
-
-### 2. Samarbeid om en problemstilling (2-3 timer)
-
-Om begge parter fortsatt er interessert så er det på tide med neste møte. Vi
-starter med en introduksjon til en problemstilling før vi setter i gang med det
-praktiske. Den vil være av en sånn natur at det er isolert og kortfattet. Ikke
-for ambisiøst, med andre ord. Her er eksempel på problemstillinger vi kan
-samarbeide om:
-
-- Enkel proof of concept for DIY Sonos-høytaler.
-- Konseptualisere, designe og implementere mobilnavigasjon for nettside.
-- Implementere et enkelt easter-egg spill i nettleseren.
-
-### 3. Fremtidsdiskusjoner (45 min)
-
-Siste steget i prosessen er en litt mer praktisk rettet samtale. Her får
-jobbsøker mulighet til å stille flere spørsmål til og om Variant samtidig som vi
-kan stille spørsmål om det vi lurer på. Vi vil være sikre på at begge parter
-ønsker seg i samme retning.
-
-## Eierskap
-
-Variant er et ansatteid selskap. Variant ble startet i 2018 av 6 personer fra
-Trondheim. Disse opprinnelige grunderne eier flest aksjer i selskapet:
-
-- Odd Morten - 29%
-- Anders - 29%
-- Mikael - 10%
-- Tore - 10%
-- Tonje - 10%
-- Marius - 6%
-
-Øvrige aksjer eies av andre ansatte. Alle ansatte i selskapet per 1. april 2020
-har kjøpt aksjer i selskapet.
-
-Gjennom Medeierskapsprogrammet i Variant tilbys alle ansatte å kjøpe aksjer i
-Variant. Første april hvert år selger selskapet aksjer i selskapet til alle
-ansatte. Selskapet eier aksjer for salg i første fase. Denne går fra 2019 til og
-med 2021. Andre fase gjennomføres etter ny emisjon av aksjer, i perioden 2022
-til 2024.
+### Blogg
+### Podcast
+### Nettsider
