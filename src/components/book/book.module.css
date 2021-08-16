@@ -1,0 +1,9 @@
+.footer {
+  margin-top: 5rem;
+  padding: 0 2rem;
+}
+
+.footer p {
+  font-size: 0.8rem;
+  font-style: italic;
+}

@@ -1,0 +1,23 @@
+.searchResult {
+  margin: 1rem 1rem;
+}
+.searchResult__header {
+  margin: 3rem 0 1rem;
+}
+.searchResult__content {
+  margin: 0;
+}
+.searchResult__handbookTitle {
+  font-style: italic;
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+  margin-bottom: 1rem 0 3rem;
+}
+
+.searchResults {
+  margin-top: 3rem;
+}
+
+.searchFormContainer {
+  margin-bottom: 3rem;
+}
