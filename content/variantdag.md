@@ -1,3 +1,7 @@
+---
+title: Variantdager
+---
+
 # Variantdager
 
 Som beskrevet i [håndboka](https://handbook.variant.no/index.html#variantdager)
