@@ -38,7 +38,7 @@ gjeldende praksis.
 
 <img src="./assets/illustrations/support.svg" alt="Illustrasjon for Tillit og ansvar" class="illustration illustration--center illustration--support" />
 
-## Tillit og ansvar
+### Tillit og ansvar
 
 Variant vil gi sine ansatte det beste, vi som jobber her forventes å gi det
 samme. Vi gir full tillit til hverandre fordi vi tror at alle er i stand til å
@@ -48,14 +48,14 @@ og sparrer med andre når det trengs.
 
 <img src="./assets/illustrations/fun.svg" alt="Illustrasjon for ha det morsomt" class="illustration illustration--left illustration--fun" />
 
-### Ha det morsomt
+#### Ha det morsomt
 
 Et arbeidsliv består av maaaange timer. Vi vil gjøre noe som gir mening og
 samtidig ha det morsomt. Det spekuleres i om Variant eksisterer fordi det er
 hyggeligere å skape noe sammen med mennesker man trives med. Det får vi nok ikke
 svaret på, men inntil videre så kan du le ofte og gjøre gærne ting!
 
-### Vær stolt
+#### Vær stolt
 
 Vi vil at du skal være stolt av det du gjør. Er du ikke den stolte typen? Da vil
 vi gjerne at du har mot til å endre på det. Du skal kunne være stolt av å være
@@ -73,7 +73,7 @@ deg.
 
 <img src="./assets/illustrations/air.svg" alt="Illustrasjon for åpenhet" class="illustration illustration--center illustration--open" />
 
-## Åpenhet
+### Åpenhet
 
 Her i Variant er åpenhet utgangspunktet. Hvis noe lages, etableres, dokumenteres
 eller hva det enn måtte være, så skal ingen trenge å vurdere om dette skal
@@ -104,7 +104,7 @@ dette betyr i praksis.
 <img src="./assets/illustrations/workout.svg" alt="Illustrasjon for helse" class="illustration illustration--right illustration--helth" />
 
 
-## Familie og samfunnet
+### Familie og samfunnet
 
 For oss er ikke jobb og fritid to helt ulike verdener. Selv om vi vil at varianter skal ha en god jobb- og livsbalanse, ønsker vi å invitere familiene inn i selskapet og at de blir en del av oss og det vi gjør. Hver høst reiser vi på tur utabys, vi arrangerer en del aktiviteter gjennom året og vi har et årlig julebord. På alt dette er familie eller ledsager hjertelig velkommen til å bli med på. Vi definerer ikke hva som regnes som familie, så hvem du ønsker å invitere med er opp til deg selv. Om det så er partner, barn, foreldre eller venner. Vi sier: hjertelig velkommen!
 
