@@ -27,11 +27,16 @@ export type HandbookProps = {
 };
 
 type HandbookFiles = {
-  files: string[];
+  files: HandbookFile[];
   categories: {
     name: string;
-    files: string[];
+    files: HandbookFile[];
   }[];
+};
+
+type HandbookFile = {
+  path: string;
+  name: string;
 };
 
 export const getHandbookFiles = async (subDirectory = "") => {
@@ -56,7 +61,10 @@ export const getHandbookFiles = async (subDirectory = "") => {
         ...(await getHandbookFiles(fileOrDirectory.name)),
       });
     } else {
-      handbookFiles.files.push(path.join(subDirectory, fileOrDirectory.name));
+      handbookFiles.files.push({
+        name: fileOrDirectory.name.replace(".md", ""),
+        path: path.join(subDirectory, fileOrDirectory.name),
+      });
     }
   }
 
@@ -91,7 +99,7 @@ export const getHandbookData = async (
 
   const handbooks = await Promise.all(
     handbookFiles.files.map(async (file) => {
-      return await getMatterInformation(file, includeContent);
+      return await getMatterInformation(file.path, includeContent);
     })
   );
 
@@ -101,7 +109,7 @@ export const getHandbookData = async (
 
       const handbooks = await Promise.all(
         category.files.map(
-          async (file) => await getMatterInformation(file, includeContent)
+          async (file) => await getMatterInformation(file.path, includeContent)
         )
       );
 

@@ -8,7 +8,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
     return {
       paths: handbookFiles.files.map((file) => ({
-        params: { handbook: file.replace(".md", "") },
+        params: { handbook: file.name },
       })),
       fallback: false,
     };

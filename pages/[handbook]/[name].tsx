@@ -11,7 +11,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
         return category.files.map((file) => ({
           params: {
             handbook: category.name,
-            name: file.replace(`${category.name}/`, "").replace(".md", ""),
+            name: file.name,
           },
         }));
       }),
