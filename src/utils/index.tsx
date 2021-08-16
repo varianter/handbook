@@ -5,53 +5,126 @@ import { getHeadlines } from "@variant/md-section";
 
 export type HandbookData = {
   data: { [key: string]: any };
-  name: string;
+  path: string;
   title: string;
   content: string | null;
 };
 
-export type HandbookProps = {
+export type Handbooks = {
   handbooks: HandbookData[];
+  categories: {
+    path: string;
+    title: string;
+    handbooks: HandbookData[];
+  }[];
+};
+
+export type HandbookProps = {
+  handbooks: Handbooks;
   content?: string;
   subHeadings: string[];
   filename: string;
 };
 
-export const getHandbookFiles = async () => {
-  const files = await fs.readdir(path.join(process.cwd(), "/content"));
-  return files.filter((a) => a.endsWith(".md"));
+type HandbookFiles = {
+  files: HandbookFile[];
+  categories: {
+    name: string;
+    files: HandbookFile[];
+  }[];
 };
 
-export const getMatterFile = async (
+type HandbookFile = {
+  path: string;
+  name: string;
+};
+
+export const getHandbookFiles = async (subDirectory = "") => {
+  const filesAndDirectories = await fs.readdir(
+    path.join(process.cwd(), "content", subDirectory),
+    { withFileTypes: true }
+  );
+
+  const handbookFiles: HandbookFiles = {
+    files: [],
+    categories: [],
+  };
+
+  for (const fileOrDirectory of filesAndDirectories) {
+    // Don't add index.md to the list of files. It's only used for metadata
+    // about a directory.
+    if (fileOrDirectory.name === "index.md") continue;
+
+    if (fileOrDirectory.isDirectory()) {
+      handbookFiles.categories.push({
+        name: fileOrDirectory.name,
+        ...(await getHandbookFiles(fileOrDirectory.name)),
+      });
+    } else {
+      handbookFiles.files.push({
+        name: fileOrDirectory.name.replace(".md", ""),
+        path: path.join(subDirectory, fileOrDirectory.name),
+      });
+    }
+  }
+
+  return handbookFiles;
+};
+
+const getMatterFile = async (
   fileName: string
 ): Promise<matter.GrayMatterFile<Buffer>> => {
   const file = await fs.readFile(path.join(process.cwd(), "content", fileName));
   return matter(file);
 };
 
+const getMatterInformation = async (
+  pathName: string,
+  includeContent: boolean
+): Promise<HandbookData> => {
+  const { data, content } = await getMatterFile(pathName);
+
+  return {
+    data,
+    path: pathName.replace(".md", ""),
+    title: data.title,
+    content: includeContent ? content : null,
+  };
+};
+
 export const getHandbookData = async (
   includeContent = false
-): Promise<HandbookData[]> => {
-  const files = await getHandbookFiles();
+): Promise<Handbooks> => {
+  const handbookFiles = await getHandbookFiles();
+
   const handbooks = await Promise.all(
-    files.map(async (fileName) => {
-      const matterFile = await getMatterFile(fileName);
+    handbookFiles.files.map(async (file) => {
+      return await getMatterInformation(file.path, includeContent);
+    })
+  );
 
-      const headlines = getHeadlines(matterFile.content, {
-        minLevel: 1,
-        maxLevel: 1,
-      }) as { level: number; content: string }[];
+  const categories = await Promise.all(
+    handbookFiles.categories.map(async (category) => {
+      const { data } = await getMatterFile(`${category.name}/index.md`);
 
-      const title = headlines.length > 0 ? headlines[0].content : "";
+      const handbooks = await Promise.all(
+        category.files.map(
+          async (file) => await getMatterInformation(file.path, includeContent)
+        )
+      );
+
       return {
-        data: matterFile.data,
-        name: fileName.replace(".md", ""),
-        title,
-        content: includeContent ? matterFile.content : null,
+        path: category.name + "/" + data.entry.replace(".md", ""),
+        title: data.title,
+        handbooks: handbooks.sort((a, b) => a.data.order - b.data.order),
       };
     })
   );
-  return handbooks;
+
+  return {
+    handbooks: handbooks.sort((a, b) => a.data.order - b.data.order),
+    categories,
+  };
 };
 
 export const getHandbookProps = async (

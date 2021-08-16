@@ -22,9 +22,9 @@ function useSearch(searchQuery: string) {
     error,
   };
 }
-const SearchPage: NextPage<InferGetServerSidePropsType<
-  typeof getServerSideProps
->> = ({ handbooks }) => {
+const SearchPage: NextPage<
+  InferGetServerSidePropsType<typeof getServerSideProps>
+> = ({ handbooks }) => {
   const router = useRouter();
   const searchBox = useRef<HTMLInputElement>(null);
 
@@ -83,7 +83,7 @@ const SearchResultsList = ({ results }: { results?: SearchResult[] }) => {
         })
       ) : (
         <p>
-          Vi fant ingenting, desverre! 😭 Kan være du må søke med flere tegn.
+          Vi fant ingenting, dessverre! 😭 Kan være du må søke med flere tegn.
         </p>
       )}
     </section>

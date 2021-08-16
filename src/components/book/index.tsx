@@ -22,7 +22,7 @@ const Book = ({ content, filename }: BookProps) => {
     return { __html: md.render(content) };
   }, [content]);
 
-  const editUrl = `https://github.com/varianter/handbook-v2/blob/master/content/${filename}`;
+  const editUrl = `https://github.com/varianter/handbook/blob/master/content/${filename}`;
 
   return (
     <section>

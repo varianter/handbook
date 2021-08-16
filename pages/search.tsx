@@ -1,9 +1,9 @@
 import { GetServerSideProps } from "next";
-import { HandbookData, getHandbookData } from "src/utils";
+import { Handbooks, getHandbookData } from "src/utils";
 export { default } from "src/search/index";
 
 export const getServerSideProps: GetServerSideProps<{
-  handbooks: HandbookData[];
+  handbooks: Handbooks;
 }> = async () => {
   try {
     const handbooks = await getHandbookData();
@@ -13,7 +13,9 @@ export const getServerSideProps: GetServerSideProps<{
   } catch (e) {
     console.error(e);
     return {
-      props: { handbooks: [] },
+      props: {
+        handbooks: { handbooks: [], categories: [] },
+      },
     };
   }
 };
