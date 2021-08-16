@@ -108,13 +108,13 @@ export const getHandbookData = async (
       return {
         path: category.name + "/" + data.entry.replace(".md", ""),
         title: data.title,
-        handbooks: handbooks.sort((a, b) => a.data.index - b.data.index),
+        handbooks: handbooks.sort((a, b) => a.data.order - b.data.order),
       };
     })
   );
 
   return {
-    handbooks: handbooks.sort((a, b) => a.data.index - b.data.index),
+    handbooks: handbooks.sort((a, b) => a.data.order - b.data.order),
     categories,
   };
 };
