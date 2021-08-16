@@ -126,7 +126,7 @@ Vi har i dag en god kjønnsbalanse, men samtidig ønsker vi alltid å gjøre den
 
 Vi ønsker ikke at økonomi og karriere skal være momenter i hvordan den enkelte familie planlegger og fordeler arbeidet hjemme.
 
-### HELSE
+### Helse
 Vi ønsker at våre ansatte har et godt liv – og en god helse. Her kan faktisk vi som arbeidsgiver bidra en god del. Vi bryr oss om ergonomi og fysisk arbeidsmiljø. Vi initierer og støtter mosjon og vi har en meget flott helseforsikring. 
 
 La oss starte med ergonomi og arbeidsmiljø: Som konsulenter jobber vi ofte, og veldig gjerne, ute hos kunde. Det kan tidvis være at innleide konsulenter får ugunstige arbeidsforhold. Våre avtaler med kundene inneholder reguleringer slik at vi har gode forutsetninger for å levere godt resultat for våre kunder over lang tid. Godt med lys, luft og riktige møbler er avgjørende i så måte. 

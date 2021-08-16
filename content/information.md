@@ -3,64 +3,7 @@
 Her beskrives interne prosedyrer og generelle rutiner for dagligdagse oppgaver
 for en variant. Det kan være ting som utgiftsføring, timeføring, osv.
 
-## Varianthuset
 
-Vi holder til, så lenge vi ikke er ute hos våre kunder, i
-[Varianthuset](http://var.show/varianthuset) i Thomas Angells gate.
-
-### WiFi
-
-Når du jobber på kontoret benytter du det trådløse nettet med SSID
-**Varianthuset**. Wifi-passordet får du ved å skrive `/info wifi` på Slack.
-
-### Sykkelparkering
-
-Vi har 14 plasser i et eget rom i E.C.Dahls sykkelparkering (i veita rett ved
-varianthuset). Her har vi også tilgang til garderober/dusj, tørkeskap,
-garderobeskap, sykkelvask og verktøy/mekkeplass. Praktiske detaljer:
-
-- Brikke for tilgang til parkeringskjelleren finnes i en skål i benkeskapet til
-  høyre på kjøkkenet. Velg dame/herre ut fra garderobetilgang. VIKTIG:
-  [Registrer nummeret og type brikke her](http://var.show/ansattliste)
-- Kode for å komme inn til kjelleren utenom kjernetid er samme som til vårt
-  kontor.
-- Variant har et eget sykkelrom, se skilt på veggen. Det er viktig at vi ikke
-  parkerer flere sykler der enn 14 som vi leier plasser for (selv om det skulle
-  være plass). Er det fullt må vi parkere i portrommet på Varianthuset e.l..
-- Garderobeskap: Vi har ti garderobeskap i fellesområdet, nr 83-92, samt to i
-  herregarderoben, 37-38, og to i damegarderoben, 50-51. Kode på hengelåsene er
-  de tre første sifrene i inngangskoden.
-- Hjelm kan henge på sykkelen, utover det ønsker huseier at alt blir plassert i
-  garderobeskap eller tørkeskap.
-- Spyl skitne sykler på vei inn i parkeringen, det er lett tilgjengelig rett på
-  innsiden av parkeringen. Det neste rommet har også reparasjons-stasjon, eller
-  sykkelpleie om du vil.
-- God sykkeltur!
-
-### Huset som et community space
-
-Mikael har
-[entusiastisk beskrevet](https://medium.com/variant-as/varianthusets-community-space-dc3e8a0a6795)
-ett ekstra aspekt av hva vi ønsker å oppnå med huset i Thomas Angells gate. Vi
-har fått permanent rigget til kabler som går tilrettelagt for opptak av
-skjermer, lyd og video, og har en plan for hvordan dette kan kobles sammen.
-Resultatet er gratis lokaler, lett tilgjengelig, ferdig oppsatt for streaming og
-opptak. Åpne meetups som eksempelvis BartJS kan arrangere møter og streame de
-til hele verden på sin egen YouTube-kanal. Helt uten noen form for
-forpliktelser. Er du interessert i dette, så ta kontakt på post@variant.no.
-
-### Låne huset som en variant
-
-Fra tid til annen kan det være dere har behov for et enkelt, og sentralt
-lokalisert, selskapslokale. Dette kan være til alt fra barnebursdager via
-konfirmasjon til 30årslag. Mens huset i ukedager er forbeholt selskapet og som
-community space, har alle varianter mulighet til å låne lokalene i helger og på
-høytidsdager.
-
-Lånet skal ikke medføre ekstra renholdsbehov, så man rydder og vasker etter seg,
-men det er vel selvsagt😃.  
-Booking gjøres i Outlook. **NB!** Du kan ikke regne med at huset er ledig på
-kvelden etter variantdag, selv om huset ikke er booket.
 
 ## Lønning
 
@@ -102,8 +45,11 @@ halv skatt i november.
 
 ## Faktura
 
-Hvis du får en faktura som skal betales av selskapet sendes den til
-faktura@variant.no. Altså eventuelle papirfaktura må scannes eller fotograferes.
+Hvis du får en faktura som skal betales av variant sendes den til
+selskapets epostmottak for faktura. De ulike byene har ulike adresser, sjekk siden for din by
+for å finne riktig adresse, som er på forme  `faktura.{by}@variant.no`. 
+
+Eventuelle papirfaktura må altså scannes eller fotograferes.
 Det siste funker helt greit, men pass på at teksten er leselig. I mailen så
 skriver du inn eventuell ekstra informasjon vi trenger for å godkjenne
 fakturaen. Dette er typisk hva fakturaen er relatert til og hva vi bruker det vi
@@ -190,7 +136,7 @@ budsjettet ditt lenger!
 Vi har et fond på 50 000 NOK som kan brukes som midler til sosiale aktiviteter
 utover [de faste vi har satt opp](/quality_manual#sosiale-aktiviteter).
 
-Dette kan være aktiviteter som hytteleie i Åre, fjellturer, Rush trampolinepark,
+Dette kan være aktiviteter som hytteleie i Sverige, fjellturer, Rush trampolinepark,
 matlaging eller hva enn vi kommer på kan være en god idé. Legg inn forslag som
 Trello-kort under "Til behandling i ledermøtet" på Operativt. Vi burde sikte inn
 på aktiviteter som er inkluderende og tilgjengelig for alle.
@@ -234,8 +180,8 @@ av tilsvarende kjøp eller reiser hvor prisene er oppgitt.
 ## Timeføring
 
 Timene skal leveres ukentlig. Fristen er mandag morgen kl 9.00 den påfølgende
-uken. Timene føres i [Harvest](https://variantas.harvestapp.com/). Herfra kan
-man også laste ned Apps for både Mac og telefoner.
+uken. Timene føres i Harvest. Ulike byer har ulike kontoer sjekk sidenn for din bby for å finne riktig 
+harvest-adresse.
 
 En full dag regnes som 7,5 timer og en full uke som 37,5 timer. Det er helt i
 orden å flekse tid innenfor en måned. Dette forutsetter selvsagt at det er
