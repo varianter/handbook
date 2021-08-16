@@ -1,3 +1,7 @@
+---
+title: Praktisk informasjon
+---
+
 # Praktisk informasjon
 
 Her beskrives interne prosedyrer og generelle rutiner for dagligdagse oppgaver
