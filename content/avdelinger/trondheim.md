@@ -4,7 +4,21 @@ entry: trondheim.md
 ---
 
 
-# Trondheim
+# Der det hele startet
+
+Så er vi kommet dit, at vi har behov for en side for avdelinger. Lite visste vi, da vi erklærte selskapet for åpnet 1. september 2018, at vi noen få år senere hadde tre havner å bosette oss i. 
+I Trondheim er vi akkurat i dag 30 (?) ansatte. Vi er til stadig i vokseform og har godt med plass i vårt kjære Varianthus til flere.. ja og så sitter vi jo stort sett ute hos kunder da, så huset skal jo aldri være fult på vanlige ukedager. Men det er en hyggelig metafor uansett. 
+
+Alle ansatte i Variant, uavhengig av by og avdeling, er ansatt i samme firma, med de samme prinsippene og gode verdiene. Det betyr jo ikke at vi alle er like. Verken på huset eller i avdelingene, men vi er skikkelig bra folk. Det vi prøver å formidle med denne håndboka, som vi er veldig stolte av, er verdiene våre; det vi er og brenner for. For oss er nettopp det kjempeviktig å formidle, beholde og ikke minst utvikle. 
+
+Og apropos utvikle, så er det like viktig for oss å understreke at alle har påvirkningskraft her. Dette skaper gode dynamikker og gnistrende synergier.. Ja, rett og slett mer dybde og spenning i hverdagen. Vi sitter ikke i en båt, men i mange båter og seiler samme sjø. Derfor vil det helt naturlig bli litt forskjeller i havn og by. 
+(voldsomt som den der maritime lingoen går igjen.. Sånn går det når ei frue fra havet skal skrive teksten til nettisdene. Allergier henvises til github. 
+PS: vi har #grupper på Slack for hobbyer, bl.a. en for de av oss som liker fisking.)
+
+Hvis det var noen tvil: Nå er du kommet til Trondheim. 
+Utforsk våre spesialiteter i menyen.
+
+Fikk du lyst til å bli en variant i Trondheim? [Se om vi søker etter noen som deg](https://www.variant.no/jobs), det kan jo veldig godt hende.
 
 
 ## Varianthuset
