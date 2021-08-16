@@ -157,7 +157,7 @@ Vi jobber for å unngå ulykker, miljø- og helseskader. For å bidra til dette 
 
 ### Organisering
 
-Vår daglig leder, Odd Morten Sveås, har et overordnet ansvar for å følge opp de lover og forskrifter vi
+Daglig leder har et overordnet ansvar for å følge opp de lover og forskrifter vi
 er underlagt.
 
 Verneombudet har ansvar for å proaktivt følge med på HMS-situasjonen i
@@ -172,7 +172,7 @@ helse, miljø og sikkerhet som ikke løses direkte.
 
 ### Verneombud
 
-Selskapet skal legge til rette for at det velges et verneombud. Verneombudet velges for to år om gangen og velges på variantdagen i mars. Ledelsen kan ikke delta i valget eller velges som verneombud. Verneombud
+Selskapet skal legge til rette for at det velges et verneombud. Verneombudet velges for to år om gangen og velges på variantdagen i mars. Ledelsen kan ikke delta i valget eller velges som verneombud. Se lokale sider for hevem som verneombud i de ulike byene. Verneombud
 fra 2021 er Stine Bechmann og kontaktinformasjon finnes på hjemmesiden vår og i internsystemer.
 
 Verneombud har ansvar for opplæring av ansatte og oppdatering av aktuelle rutiner. Ved nyansettelser skal verneombud ha opplæring og vernerunde. Skjer viktige endringer i HMS-rutiner, er det verneombud og daglig leder som har ansvaret for at alle ansatte er informert. Dette formidles på Slack (i #viktig), med lenke til oppdatert informasjon i håndboka.
@@ -188,74 +188,6 @@ Bærekraft for Variant innebærer mye. Det er likestilling i arbeidslivet, en b�
 Vi setter oss årlige mål om å redusere vår belastning på miljøet, vi kildesorterer og fører regnskap over eget avfall, energiforbruk og reiser med fly og bil.
 
 Miljøfyrtårnansvarlig har ansvar for oppfølging og håndtering av dette.
-
-### Kildesortering
-
-Det meste vi produserer av søppel på kontoret er relatert til mat. Det kan være papiret til burritoen, en boks til salaten, et syltetøyglass, pose fra nøttene osv. For deg og meg er det altså viktigst å vurdere forskjellen mellom emballasje som skal i restavfall, og emballasje som kan skylles og resirkuleres.
-
-**Hva skal hvor?**
-
-Vi har en bøtte til det meste, og du finner dem på kjøkkenet eller like i nærheten.
-
-Først et lite fun fact: Det er 95% mer energibesparende å smelte en brukt aluminiumsboks, som f. Eks en leverposteiboks, for å støpe en ny en, sammenlignet med den energien som trengs når aluminumen lages for første gang.
-
-**Eksempler på glass- og metallavfall:**
-
-- Syltetøyglass
-- Leverposteiboks
-- Tuber fra kaviar, ost osv.
-- Lokk av metall
-- Øl- og vinflasker
-
-Metallbokser, som for eksempel makrell i tomat, leverpostei osv., kjøres i oppvaskmaskina før den kastes. Det er for å begrense at det lukter død og fordervelse fram til søpla tømmes. Flasker og bokser med pant kastes i tønna fra Flaskefond, som står godt synlig i lokalet.
-
-Elektronisk avfall kastes i en egen bøtte som du finner i «søppelrommet», i gangen ved siden av ansatt-inngangen vår. Der er det en rød bøtte med spesialavfall som tømmes to ganger i året.
-
-**Eksempler på e-avfall:**
-
-- Ledninger
-- Batterier
-- Lyspærer og lysrør
-- Rengjøringsmidler og eventuelle spraybokser
-- Fargekassetter fra skriveren
-
-Papiravfall kan sorteres tre ulike steder i lokalet – Ved miljøstasjonen på kjøkkenet, eller i papp-boksen ved kaffebordet i arbeidsområdet, eller i en tilsvarende pappboks på Prosjektrommet i hjørnet i 2. etg.
-
-**Eksempler på papp- og papiravfall:**
-
-- Dokumenter
-- Reklame
-- Emballasje (pizzaeske osv.)
-- Servietter
-- Melkekartonger (la plastkorken sitte på)
-
-Plastavfall er ren plast eller plastavfall du skyller først.
-
-**Eksempler på plastavfall:**
-
-- Yoghurtbeger
-- Lokket på salatboksen
-- Plastemballasje fra teknologiske duppeditter
-- Lokket til leverposteiboksen
-- Tomme kaffeposer
-
-Møkkete eller «tilgriset» emballasje (både plast og papir) kastes i restavfall.
-Restavfall er det som blir igjen når du har sortert ut alt annet. Siden Trondheim ikke har anlegg for å behandle matavfall ennå (men jobber med saken), så betyr det at vi kaster følgende i restavfallet,
-
-**Eksempler på restavfall:**
-
-- Snus
-- Matrester
-- Kaffegrut
-- Knuste kopper/tallerkener osv.
-- Møkkete eller «tilgriset» emballasje (både plast og papir)
-- Tepose
-- Tørkepapir
-- Isopor
-
-Knuste drikkeglass kan gjerne pakkes inn i avispapir eller noe lignende, og kastes i restavfall, ikke i glass- og metall.
-
-Fun fact! Ett kilo restavfall gir nok energi til å kjøre to panelovner på full guffe i en time. Den vanligste behandlingsmetoden for restavfall er nemlig energiutnyttelse. Det vil si at avfallet brennes, og at energien som oppstår kan brukes til oppvarming eller strømproduksjon. (kilde: Sortere.no)
 
 ### Innkjøpsrutine
 
@@ -283,21 +215,6 @@ Med gadgetbudsjettet er vi alle teknisk sett innkjøpere. Nå skal ikke vi legge
 
 Om du vil kjøpe deg en ny telefon så er du hjertelig velkommen til det. Det eneste vi ber deg om er at du vurderer en «så-god-som-ny-telefon» før du kjøper den siste iPhonen. Da forlenger du levetiden til telefonen, samtidig som du får mye mer ut av gadgetbudsjettet ditt. Telefonene er som regel oppgradert med nytt batteri og ny skjerm, i tillegg til at du ofte får 2-års garanti, og slipper fram-og-tilbake-kommunikasjonen man ofte har ved å kjøpe brukt. Det er mange leverandører her, men noen alternativer er: [Release](https://release.no/privat), [Swappie](https://swappie.com/no/), [Green Phones](https://greenphones.no/), [Nesten Ny fra OneCall](https://onecall.no/kampanjer/nestenny), [God som ny fra Telenor](https://www.telenor.no/mobiltelefoner/god-som-ny/), [TeleOutlet](https://teleoutlet.no/), [Like fin fra Telia](https://www.telia.no/like-fin/).
 
-### Fysiske lokaler
-
-Variant er et konsulentselskap, der hvor mange ansatte tilbringer store deler av
-arbeidstiden ute i kundenes lokaler. HMS-håndboka dekker proaktivt arbeid med
-lokaler, men vi avgrenser dette til vårt kontor i Thomas Angells gate.
-
-- Renhold i våre lokaler gjennomføres av renholdere to ganger ukentlig
-- Førstehjelpsutstyr er til enhver tid komplett i henhold til [retningslinjer gitt av Arbeidstilsynet](https://www.arbeidstilsynet.no/tema/personlig-verneutstyr/forstehjelpsutstyr/)
-- Ulykker som medfører alvorlig personskade skal straks meldes til lege/ambulanse, politi og Arbeidstilsynets lokalkontor. Innmelding skjer av daglig leder
-- Gårdeier sørger for avfallssytemene i bygget vi leier kontorplass i. Variant har i tillegg eget kildesorteringssystem med instruks, godt synlig i kontorlokalet. Gode rutiner skal bidra til å redusere svinn og avfall
-
-Hvis ansatte opplever feil, mangler eller farlige situasjoner ute hos kunde
-ønsker vi at dette forsøkes varslet i henhold til kundens HMS-rutiner. Skulle
-dette ikke føre fram vil vi ta imot og håndtere saken i Variant-kontekst.
-
 ### Skjermbriller / Databriller
 
 Som konsulenter i IT-bransjen jobber vi jevnlig foran en dataskjerm. Dette gir de
@@ -316,22 +233,6 @@ Vilkår for dekning er
 - at arbeidstakeren trenger særskilt korreksjon på grunn av at han eller hun er svakt langsynt (hypermetropi) og/eller har skeve hornhinner (astigmatisme) eller liknende. Disse tilfellene kan gi problemer ved dataskjermarbeid.
 
 Se også [Arbeidstilsynets sider](https://www.arbeidstilsynet.no/tema/ergonomi/arbeid-ved-dataskjerm/synsundersoking-og-databriller/)
-
-### Branninnstruks
-
-Gjør deg kjent med følgende i Varianthuset:
-
-- Rømingsveiene
-- Nærmeste brannmelder
-- Nærmeste slokkemiddel
-
-Ved brannalarm, forlat bygningen gjennom rømningsveiene og gå deretter til [samlingsplassen mellom sykkelparkeringen og Dromedarbakeriet.](https://www.google.com/maps/@63.4323746,10.3995148,3a,75y,235.45h,90.05t/data=!3m6!1e1!3m4!1sgguaNK1F5B-QYaPrEXA0mA!2e0!7i16384!8i8192) Hvis brann oppstår uten at automatisk alarm er utløst, trykk på brannmelder hvis mulig og gå deretter ut av bygningen og til samlingsplassen.
-
-Vinduer og dører til rom, korridorer og trapperom må lukkes. Om mulig, forsøk å slokke brann med enten pulverapparat eller slange, men tenk på egen sikkerhet. Heis skal IKKE benyttes som rømningsvei.
-
-Nødnummer til brannvesen er 110.
-
-Rømningsveier og brannslykkingsutstyr er godt merket. Branninnstruks og redningsplan finnes som oppslag i kontorlokalet, i håndboka og gjennomgås med alle nyansatte. Brannøvelse gjennomføres en gang i året. Vedlikehold av brannvarslere og slukkeustyr utføres av gårdeier.
 
 ### Dokumentasjon
 
@@ -529,16 +430,7 @@ En personalleder må være en del av selskapets ledergruppe, være motivert for 
 være personalleder, selv ha valgt å være det, og ha erfaring som coach og med
 coaching.
 
-For tiden har følgende ledere personalansvar:
-
-- Odd Morten
-- Anders
-- Tonje
-- Mikael
-- Tore
-
-Relasjonen mellom deg og personallederen er basert på coaching. Se også
-[listen over hvem som har lederansvar for hvem](https://varianttrh.sharepoint.com/:x:/g/EcciKCrwQFVKi9arVFV9WLEBxh0lqSzlfM7n_nrpkIuDtw?e=gR7JSm).
+Se din by-side for å finne de ulike personalederne som gjelder for din by,.
 
 ### Styrkesamtale
 
@@ -560,10 +452,3 @@ Basert på dine målsetninger og ønsket vekst blir dere enige om hvordan dere s
 jobbe videre. Din personalleder vil støtte deg og coache deg i tråd med det dere
 er enige om.
 
-### Temperaturmålinger
-
-I stedet for en stor årlig medarbeidertilfredshetsundersøkelse har vi ukentlige check-ins med ansatte - temperaturmålinger. [Vi bruker plattformen Winningtemp til dette](https://winningtemp.no/).
-
-Hver torsdag får ansatte fire spørsmål i e-post, app eller via Slack i kanalen #viktig. Spørsmålene besvares ved hjelp av fire emojies som symboliserer misfornøyd, lite fornøyd, fornøyd eller veldig fornøyd. Undersøkelsen er helt anonym og innsamlet data gir grunnlag for en temperatur innenfor ulike kategorier, på tvers av organisasjonen, i grupper og/eller segmenter.
-
-Vi tror at enklere, mer regelmessige undersøkelser kan bidra til større engasjement og at det er lettere å fange opp uønskede tendenser og sette inn tiltak om nødvendig.
