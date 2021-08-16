@@ -1,6 +1,6 @@
 ---
-title: Trondheim
-entry: trondheim.md
+title: Oslo
+entry: oslo.md
 ---
 
 
