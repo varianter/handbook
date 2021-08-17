@@ -1,5 +1,5 @@
 ---
-title: Praktisk informasjon
+title: Det praktiske 
 ---
 
 # Praktisk informasjon

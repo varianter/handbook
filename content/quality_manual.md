@@ -1,5 +1,5 @@
 ---
-title: Kvalitetshåndbok
+title: I praksis
 ---
 
 # Kvalitetshåndbok
@@ -280,7 +280,7 @@ leverandører her, men noen alternativer er:
 [TeleOutlet](https://teleoutlet.no/),
 [Like fin fra Telia](https://www.telia.no/like-fin/).
 
-### Skjermbriller / Databriller
+### Skjermbriller og databriller
 
 Som konsulenter i IT-bransjen jobber vi jevnlig foran en dataskjerm. Dette gir
 de ansatte rett til å få dekt synsundersøkelse og databrille av arbeidsgiver.
