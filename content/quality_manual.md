@@ -400,7 +400,7 @@ stadig endring. For tiden ser den slik ut:
   nyansatte. (Her velger du blant annet PC)
 - Ta bilde til CV
 
-### Frem til oppstartsdato 
+### Frem til oppstartsdato (Fadder)
 
 - Invitere ansatt til Variant-dagen(e) og/eller noe sosialt. Mål: Møte og bli
   kjent med alle i Variant
