@@ -52,6 +52,10 @@ bemanningsprosessen sammen med salgsprosessen.
 Lønnsomhet sikres ved å ha høy kvalitet i alt salgs- og tilbudsarbeid slik at vi
 vinner nok salg. Variants tilbud skal alltid levere over kundens forventninger.
 
+Salgsprosessen i Variant samkjøres på tvers av alle selskap i konsernet og eies av 
+konsernets salgsdirektør Anders Hammervold. De ulike selskapene har likefullt et ansvar for 
+salg av sine konsulenter. 
+
 ### Salgsprosess
 
 For å håndtere salgsprosessen benytter vi en enkel
@@ -138,9 +142,8 @@ Etter en vinn skal:
 Hver fredag morgen, arrangeres et salgs- og bemanningsmøte. Møtet er åpent for
 alle ansatte, men frivillig for alle unntatt:
 
-- Daglig leder
-- COO
-- Designleder
+- Salgsdirektør
+- Daglig ledere i driftsselskapene
 - Prosjektledere
 
 I dette møtet oppdateres [bemanning](http://bemanning.variant.no). Vi har
