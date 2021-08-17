@@ -508,7 +508,7 @@ En personalleder må være en del av selskapets ledergruppe, være motivert for 
 være personalleder, selv ha valgt å være det, og ha erfaring som coach og med
 coaching.
 
-Se din by-side for å finne de ulike personalederne som gjelder for din by,.
+Se lokasjonsspesifikk side for å finne de ulike personalederne som gjelder for ditt sted.
 
 ### Styrkesamtale
 
