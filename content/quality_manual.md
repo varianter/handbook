@@ -392,32 +392,31 @@ tiden etterpå skal oppleves som god. Vi ønsker å bli bedre kjent med deg, og 
 du blir bedre kjent med oss og firmaet. Vår prosess er relativt detaljert, og i
 stadig endring. For tiden ser den slik ut:
 
-### Frem til fadder blir satt (Rekrutteringsansvarlig)
+### Rett etter signering (Rekrutteringsansvarlig)
 
+- Opprett bruker for AD, Mail i office 365.
+- Inviter inn den nytilsatte i Slack.
 - Få den nyansatte til å fylle ut [nettskjema](http://nyansatt.variant.no) for
   nyansatte. (Her velger du blant annet PC)
-- Opprett bruker for AD, Mail i office 365.
-- Etabler CV i CV-partner, og inviter den nyansatte inn for å starte på dette
-  arbeidet.
 - Ta bilde til CV
-- Tildele fadder
 
-### Frem til oppstartsdato (Fadder)
+### Frem til oppstartsdato 
 
 - Invitere ansatt til Variant-dagen(e) og/eller noe sosialt. Mål: Møte og bli
   kjent med alle i Variant
+- Etabler CV i CV-partner, og inviter den nyansatte inn for å starte på dette
+  arbeidet.
 - Informere om planlagte aktiviteter (som Nyttårskalas)
 - Ha en faddermiddag (gjerne flere nyansatte og faddere om overlapp)
 - Forberede ansatt på oppdraget og prosessene rundt bemanning av oppdrag.
-- Invitere til Slack
 - Forberede goodie-bag
-- Bestille utstyr
 - Bli enig om oppstartsdagen. Sted og tidspunkt. Lunsj "på huset" hvis man ikke
   er ute i oppdrag.
 - [Ordne med portering av telefonabonnement](https://www.telia.no/mitt-abonnement/bytte-eier/)
 
 ### Før oppstart (CEO/COO)
 
+- Bestille utstyr
 - Bestille telefonabonnement
 - Registrere som ansatt i Uni, ellers blir det dårlig med lønn.
 - Melde inn i forsikringer (Gjensidige)
@@ -425,16 +424,11 @@ stadig endring. For tiden ser den slik ut:
 ### Etter oppstartsdato (Fadder)
 
 - Be ansatt om å oppdatere CV
-- Hvis designer: Gjennomgang av templates, canvas og andre designfiler som kan
-  være kjekk å bruke
 - Gjennomgang av det praktiske i lokalet vårt
 - Oppfølgingsprat etter et par uker for å høre hvordan oppstarten har vært
 - Ta et flott bilde av deg for din CV (men også for å vise verden hvor stolt vi
   er for å ha deg på laget).
 - Invitere inn i #salg på Slack
-- Fasilitere valg av personalleder etter 3 måneder
-- Oppdater malkortet Onboarding basert på erfaring fra siste onboarding. Hør med
-  nyansatt om hun eller han har innspill
 
 ## Sosiale aktiviteter
 
@@ -476,7 +470,7 @@ Hver ansatt knyttes til en fadder og en personalleder.
 
 #### Fadder
 
-Før oppstart får du tildelt en fadder. Fadderens overordnede ansvar er å gi deg
+Den som har ansvaret for at oppstarten går så bra som mulig kaller vi fadder.  Fadderens overordnede ansvar er å gi deg
 en så god oppstart som mulig. Arbeidet starter ganske raskt etter signering og
 lenge før du starter hos oss. Variant.
 
@@ -484,13 +478,10 @@ En fadder skal være kontaktpunktet for alle praktiske spørsmål om hvordan tin
 gjøres og løses i Variant. I tillegg skal fadder følge opp den ansatte i starten
 med tanke på trivsel og motivasjon.
 
-Før oppstart har fadder
-[disse konkrete oppgavene](https://handbook.variant.no/quality_manual.html#frem-til-oppstartsdato-fadder)
-og tilsvarende
-[etter oppstart](https://handbook.variant.no/quality_manual.html#etter-oppstartsdato-fadder).
-
 Det er ingen formell slutt på fadderperioden. Så lenge den ansatte ser verdien
-av å bruke sin fadder er det åpent for det.
+av å bruke sin fadder er det åpent for det. 
+
+Se lokasjonsspesifikk side for å finne hvem som er fadder for ditt sted.
 
 #### Personalleder
 
@@ -504,10 +495,12 @@ ansvar for å jevnlig følge opp deg. I tillegg vil personalleder ta initiativ t
 
 I Variant praktiserer vi fritt ledervalg. Det vil si at selskapet foreslår en
 personalleder for deg ved oppstart. I denne prosessen skal Variant avklare
-valget med deg. Deretter kan man når som helst velge en ny personalleder ved å
-ta kontakt med daglig leder, styreleder, eller din nåværende personalleder.
+valget med deg. Hver høst fasiliterer selskapet et nytt ledervalg. Her kan den ansatte hvis hen 
+ønsker velge en ny leder. Dette kan være av både karriæremessige eller personlige grunner. 
+Det stilles ingen spørsmål rundt dette valget. Det er slett ikke noen forventning om at alle skal 
+bytte leder heller. 
 
-En personalleder må være en del av selskapets ledergruppe, være motivert for å
+En personalleder må være en del av selskapets ledelse, være motivert for å
 være personalleder, selv ha valgt å være det, og ha erfaring som coach og med
 coaching.
 

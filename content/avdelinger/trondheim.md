@@ -198,6 +198,9 @@ Fun fact! Ett kilo restavfall gir nok energi til å kjøre to panelovner på ful
 
 ## Arbeidsglede
 
+### Fadder
+I Trondheim har Malin fast fadder, og har ansvaret for at alle kommer godt ombord. 
+
 ### Personalleder
 
 For tiden har følgende ledere personalansvar:
