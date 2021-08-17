@@ -11,15 +11,15 @@ ikke variantdag i januar og juli.)
 
 ## Fagkomité
 
-Formelt sett er det Fagkomitéen (name pending™) som driver Variantdagen. Dette
-er en tverrfaglig gruppe som forvalter Læreglede i Variant. De har ikke ansvar
-for å gjennomføre alt av faglig opplegg, men hjelpe til slik at folk som ønsker
-å ha innhold, lære noe nytt, diskutere prosjekt osv får det de trenger til å
+Det er Fagkomitéen (name pending™) som driver Variantdagen. Dette er en
+tverrfaglig gruppe som forvalter læreglede i Variant. De har ikke ansvar for å
+gjennomføre alt av faglig opplegg, men hjelpe til slik at folk som ønsker å ha
+innhold, lære noe nytt, diskutere prosjekt osv får det de trenger til å
 gjennomføre det.
 
-Komitéen møtes gjevnlig i periodiske møter. Største leveransen til komitéen er
-Variantdager, men de jobber også med annet faglig innhold i og utenfor Variant.
-Komitéen velges inn på årsbasis.
+Komitéen møtes gjevnlig i periodiske møter. Den største leveransen til komitéen
+er Variantdager, men de jobber også med annet faglig innhold i og utenfor
+Variant. Komitéen velges inn på årsbasis.
 
 ### Nåværende Fagkomité (Trondheim)
 
