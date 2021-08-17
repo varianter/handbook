@@ -1,6 +1,5 @@
 ---
 title: Oslo
-entry: oslo.md
 ---
 
 

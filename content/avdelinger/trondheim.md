@@ -1,6 +1,5 @@
 ---
 title: Trondheim
-entry: trondheim.md
 ---
 
 

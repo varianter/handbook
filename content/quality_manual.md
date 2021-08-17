@@ -166,13 +166,8 @@ planlegger og prioriterer vi HMS-arbeidet på lik linje som fakturerbart arbeid.
 
 ### Organisering
 
-<<<<<<< HEAD
 Daglig leder har et overordnet ansvar for å følge opp de lover og forskrifter vi
 er underlagt.
-=======
-Vår daglig leder, Odd Morten Sveås, har et overordnet ansvar for å følge opp de
-lover og forskrifter vi er underlagt.
->>>>>>> master
 
 Verneombudet har ansvar for å proaktivt følge med på HMS-situasjonen i
 selskapet, innhente innspill fra de ansatte og være et talerør for de ansatte i
@@ -186,15 +181,10 @@ helse, miljø og sikkerhet som ikke løses direkte.
 
 ### Verneombud
 
-<<<<<<< HEAD
-Selskapet skal legge til rette for at det velges et verneombud. Verneombudet velges for to år om gangen og velges på variantdagen i mars. Ledelsen kan ikke delta i valget eller velges som verneombud. Se lokale sider for hevem som verneombud i de ulike byene. Verneombud
-fra 2021 er Stine Bechmann og kontaktinformasjon finnes på hjemmesiden vår og i internsystemer.
-=======
 Selskapet skal legge til rette for at det velges et verneombud. Verneombudet
 velges for to år om gangen og velges på variantdagen i mars. Ledelsen kan ikke
 delta i valget eller velges som verneombud. Verneombud fra 2021 er Stine
 Bechmann og kontaktinformasjon finnes på hjemmesiden vår og i internsystemer.
->>>>>>> master
 
 Verneombud har ansvar for opplæring av ansatte og oppdatering av aktuelle
 rutiner. Ved nyansettelser skal verneombud ha opplæring og vernerunde. Skjer
@@ -222,96 +212,6 @@ fly og bil.
 
 Miljøfyrtårnansvarlig har ansvar for oppfølging og håndtering av dette.
 
-<<<<<<< HEAD
-=======
-### Kildesortering
-
-Det meste vi produserer av søppel på kontoret er relatert til mat. Det kan være
-papiret til burritoen, en boks til salaten, et syltetøyglass, pose fra nøttene
-osv. For deg og meg er det altså viktigst å vurdere forskjellen mellom
-emballasje som skal i restavfall, og emballasje som kan skylles og resirkuleres.
-
-**Hva skal hvor?**
-
-Vi har en bøtte til det meste, og du finner dem på kjøkkenet eller like i
-nærheten.
-
-Først et lite fun fact: Det er 95% mer energibesparende å smelte en brukt
-aluminiumsboks, som f. Eks en leverposteiboks, for å støpe en ny en,
-sammenlignet med den energien som trengs når aluminumen lages for første gang.
-
-**Eksempler på glass- og metallavfall:**
-
-- Syltetøyglass
-- Leverposteiboks
-- Tuber fra kaviar, ost osv.
-- Lokk av metall
-- Øl- og vinflasker
-
-Metallbokser, som for eksempel makrell i tomat, leverpostei osv., kjøres i
-oppvaskmaskina før den kastes. Det er for å begrense at det lukter død og
-fordervelse fram til søpla tømmes. Flasker og bokser med pant kastes i tønna fra
-Flaskefond, som står godt synlig i lokalet.
-
-Elektronisk avfall kastes i en egen bøtte som du finner i «søppelrommet», i
-gangen ved siden av ansatt-inngangen vår. Der er det en rød bøtte med
-spesialavfall som tømmes to ganger i året.
-
-**Eksempler på e-avfall:**
-
-- Ledninger
-- Batterier
-- Lyspærer og lysrør
-- Rengjøringsmidler og eventuelle spraybokser
-- Fargekassetter fra skriveren
-
-Papiravfall kan sorteres tre ulike steder i lokalet – Ved miljøstasjonen på
-kjøkkenet, eller i papp-boksen ved kaffebordet i arbeidsområdet, eller i en
-tilsvarende pappboks på Prosjektrommet i hjørnet i 2. etg.
-
-**Eksempler på papp- og papiravfall:**
-
-- Dokumenter
-- Reklame
-- Emballasje (pizzaeske osv.)
-- Servietter
-- Melkekartonger (la plastkorken sitte på)
-
-Plastavfall er ren plast eller plastavfall du skyller først.
-
-**Eksempler på plastavfall:**
-
-- Yoghurtbeger
-- Lokket på salatboksen
-- Plastemballasje fra teknologiske duppeditter
-- Lokket til leverposteiboksen
-- Tomme kaffeposer
-
-Møkkete eller «tilgriset» emballasje (både plast og papir) kastes i restavfall.
-Restavfall er det som blir igjen når du har sortert ut alt annet. Siden
-Trondheim ikke har anlegg for å behandle matavfall ennå (men jobber med saken),
-så betyr det at vi kaster følgende i restavfallet,
-
-**Eksempler på restavfall:**
-
-- Snus
-- Matrester
-- Kaffegrut
-- Knuste kopper/tallerkener osv.
-- Møkkete eller «tilgriset» emballasje (både plast og papir)
-- Tepose
-- Tørkepapir
-- Isopor
-
-Knuste drikkeglass kan gjerne pakkes inn i avispapir eller noe lignende, og
-kastes i restavfall, ikke i glass- og metall.
-
-Fun fact! Ett kilo restavfall gir nok energi til å kjøre to panelovner på full
-guffe i en time. Den vanligste behandlingsmetoden for restavfall er nemlig
-energiutnyttelse. Det vil si at avfallet brennes, og at energien som oppstår kan
-brukes til oppvarming eller strømproduksjon. (kilde: Sortere.no)
-
->>>>>>> master
 ### Innkjøpsrutine
 
 I den grad det er mulig skal vi bruke leverandører og produkter som forbedrer
@@ -377,29 +277,6 @@ leverandører her, men noen alternativer er:
 [TeleOutlet](https://teleoutlet.no/),
 [Like fin fra Telia](https://www.telia.no/like-fin/).
 
-<<<<<<< HEAD
-=======
-### Fysiske lokaler
-
-Variant er et konsulentselskap, der hvor mange ansatte tilbringer store deler av
-arbeidstiden ute i kundenes lokaler. HMS-håndboka dekker proaktivt arbeid med
-lokaler, men vi avgrenser dette til vårt kontor i Thomas Angells gate.
-
-- Renhold i våre lokaler gjennomføres av renholdere to ganger ukentlig
-- Førstehjelpsutstyr er til enhver tid komplett i henhold til
-  [retningslinjer gitt av Arbeidstilsynet](https://www.arbeidstilsynet.no/tema/personlig-verneutstyr/forstehjelpsutstyr/)
-- Ulykker som medfører alvorlig personskade skal straks meldes til
-  lege/ambulanse, politi og Arbeidstilsynets lokalkontor. Innmelding skjer av
-  daglig leder
-- Gårdeier sørger for avfallssytemene i bygget vi leier kontorplass i. Variant
-  har i tillegg eget kildesorteringssystem med instruks, godt synlig i
-  kontorlokalet. Gode rutiner skal bidra til å redusere svinn og avfall
-
-Hvis ansatte opplever feil, mangler eller farlige situasjoner ute hos kunde
-ønsker vi at dette forsøkes varslet i henhold til kundens HMS-rutiner. Skulle
-dette ikke føre fram vil vi ta imot og håndtere saken i Variant-kontekst.
-
->>>>>>> master
 ### Skjermbriller / Databriller
 
 Som konsulenter i IT-bransjen jobber vi jevnlig foran en dataskjerm. Dette gir
