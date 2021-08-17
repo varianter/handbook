@@ -1,4 +1,4 @@
 ---
-title: Avdelinger
+title: Lokasjoner
 entry: trondheim.md
 ---
