@@ -91,6 +91,19 @@ Timene skal leveres ukentlig. Fristen er mandag morgen kl 9.00 den påfølgende
 uken. Timene føres i [Harvest](https://variantas.harvestapp.com/). Herfra kan
 man også laste ned Apps for både Mac og telefoner.
 
+## Læreglede
+
+### Nåværende Fagkomité (Trondheim)
+
+- Mathias (leder)
+- Anders NS
+- Linn Helen
+- Stine
+- Jacob
+
+Støttet opp mot ledergruppen av Mikael.
+
+
 ## Helse miljø og sikkerhet
 
 ### Verneombud

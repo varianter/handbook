@@ -214,6 +214,18 @@ Som konsulenter selger vi ekspertise og kunnskap, så invester gjerne i bøker, 
 Den første fredagen i hver måned (foruten januar og juli) har vi det vi kaller en variantdag. Dette er en “innedag”, der vi alle bruker hele dagen sammen, for faglig, administrativt og sosialt påfyll.
 
 [Her vil du alltid finne oversikt over gjennomførte og planlagte variantdager](https://medium.com/variant-as/tagged/variantdag).
+#### Fagkomité
+
+Det er Fagkomitéen (name pending™) som driver Variantdagen. Dette er en
+tverrfaglig gruppe som forvalter læreglede i Variant. De har ikke ansvar for å
+gjennomføre alt av faglig opplegg, men hjelpe til slik at folk som ønsker å ha
+innhold, lære noe nytt, diskutere prosjekt osv får det de trenger til å
+gjennomføre det.
+
+Komitéen møtes gjevnlig i periodiske møter. Den største leveransen til komitéen
+er Variantdager, men de jobber også med annet faglig innhold i og utenfor
+Variant. Komitéen velges inn på årsbasis. På lokasjonsidene kan du se hvem som er i 
+fagkomiteen for akurat din lokasjon. 
 
 #### Organisering
 
