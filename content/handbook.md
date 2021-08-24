@@ -180,9 +180,6 @@ I tillegg til de vanlige 5 uker med ferie regner vi alle dagene fra og med
 julaften til og med 1. nyttårsdag som helligdager. Det vil si at du trenger ikke
 bruke feriedager i romjula.
 
-### Ammefri
-[Mødre som ammer kan bruke en time om dagen med lønn til dette](https://www.arbeidstilsynet.no/arbeidsforhold/permisjoner/foreldrepermisjon/ammefri/). Dette gjelder fram til barna er ett år gamle. Du finner selv ut når det passer med deg og ditt barns rutiner her. Her gjelder det selvfølgelig å ha en god dialog med kunde på dette, så dagene er forutsigbare og enkle å planlegge rundt for alle involverte. 
-
 <img src="./assets/illustrations/graduation.svg" alt="Illustrasjon for kompetanseutvikling" class="illustration illustration--left illustration--competence" />
 
 ### Kompetanseutvikling

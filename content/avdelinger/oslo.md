@@ -3,15 +3,7 @@ title: Oslo
 ---
 
 
-# Der det hele fortsetter
-
-Hvis det var noen tvil: Nå er du kommet til Oslo. 
-Utforsk våre spesialiteter i menyen.
-
-Fikk du lyst til å bli en variant i Oslo? [Se om vi søker etter noen som deg](https://www.variant.no/jobs), det kan jo veldig godt hende.
-
-
-## Varianthuset
+## Spaces Kvadraturen
 
 Vi holder til, så lenge vi ikke er ute hos våre kunder, hos
 [Spaces](https://g.page/Tollbugata-8-4308?share) i Kvadraturen.
@@ -91,10 +83,3 @@ For tiden har følgende ledere personalansvar:
 Relasjonen mellom deg og personallederen er basert på coaching. Se også
 [listen over hvem som har lederansvar for hvem](https://varianttrh.sharepoint.com/:x:/g/EcciKCrwQFVKi9arVFV9WLEBxh0lqSzlfM7n_nrpkIuDtw?e=gR7JSm).
 
-### Temperaturmålinger
-
-I stedet for en stor årlig medarbeidertilfredshetsundersøkelse har vi ukentlige check-ins med ansatte - temperaturmålinger. [Vi bruker plattformen Winningtemp til dette](https://winningtemp.no/).
-
-Hver torsdag får ansatte fire spørsmål i e-post, app eller via Slack i kanalen #viktig. Spørsmålene besvares ved hjelp av fire emojies som symboliserer misfornøyd, lite fornøyd, fornøyd eller veldig fornøyd. Undersøkelsen er helt anonym og innsamlet data gir grunnlag for en temperatur innenfor ulike kategorier, på tvers av organisasjonen, i grupper og/eller segmenter.
-
-Vi tror at enklere, mer regelmessige undersøkelser kan bidra til større engasjement og at det er lettere å fange opp uønskede tendenser og sette inn tiltak om nødvendig.
