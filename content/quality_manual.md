@@ -1,5 +1,5 @@
 ---
-title: I praksis
+title: Kvalitetsrutiner
 ---
 
 # Kvalitetshåndbok

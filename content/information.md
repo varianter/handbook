@@ -295,8 +295,10 @@ arbeidsdagene og følge deg opp.
 Varsle så snart du har anledning. Det er stor variasjon i hvor lang tid det går
 før legens varsel mottas via Altinn.
 
-## Planlegging av ferie og permisjoner
+## Ammefri
+[Mødre som ammer kan bruke en time om dagen med lønn til dette](https://www.arbeidstilsynet.no/arbeidsforhold/permisjoner/foreldrepermisjon/ammefri/). Dette gjelder fram til barna er ett år gamle. Du finner selv ut når det passer med deg og ditt barns rutiner her. Her gjelder det selvfølgelig å ha en god dialog med kunde på dette, så dagene er forutsigbare og enkle å planlegge rundt for alle involverte. 
 
+## Planlegging av ferie og permisjoner
 Du avgjør selv når du ønsker å ta ut ferie i Variant. Dette avtales med nærmeste
 leder og avklares tidlig med kunde slik at oppdraget løses godt. Det samme
 gjelder kortere permisjoner. Skal du ta ut ferie juli eller i påsken kan du bare
@@ -394,6 +396,7 @@ enkelt må da gjøre en vurdering av behovet opp mot eventuell ekstra kostnad.
 
 ## Nyttige lenker
 
+- [Variantdash](https://dash.variant.no) Vårt dashbord for interne løsninger.
 - [Gadgetoversikt](https://gadget.variant.no) Oversikt over hva som er kjøpt på
   gadget, og hvor mye man har brukt.
 - [Fordelsrapport](https://fordelsrapport.variant.no) Her rapporteres det inn

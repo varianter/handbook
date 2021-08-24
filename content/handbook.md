@@ -102,8 +102,15 @@ dette betyr i praksis.
   hit, variant eller ikke. Dette gjelder egentlig alt vi har i det åpne. Vi
   heier på alle våre kollegaer som deler åpent og bidra til Open Source.
 
+### Stilguide
+Profilen til Variant er, som alt annet, åpen og i evig utvikling. Arbeidet rundt gjeldende profil kan følges på en
+[egen side med style guide](https://styleguide.variant.no). Her legger vi alt
+fra hele Variant-illustrasjonen, typografi, veiledning for valg av logo, osv.
+Alt dette legges åpent med en åpen lisens, foruten illustrasjonen hvor designer
+sitter på åndsverk.
 
-## Verdi
+
+## Selve livet
 
 <img src="./assets/illustrations/workout.svg" alt="Illustrasjon for helse" class="illustration illustration--right illustration--helth" />
 
@@ -151,28 +158,13 @@ Til slutt har vi en knakende god helseforsikring, eller behandlingsforsikring so
 -	Fysikalsk behandling - 12 behandlinger
 -	Online videolege for deg og dine barn
 
-<img src="./assets/illustrations/graduation.svg" alt="Illustrasjon for kompetanseutvikling" class="illustration illustration--left illustration--competence" />
-
-
-### Kompetanseutvikling
-Vi ønsker at fagmiljøet der vi befinner oss er sterkt og pulserende, så da må vi også jobbe med faglig utvikling. Vi ser lite verdi i å bygge kompetanse kun for vår egen del, vi tror heller at kunnskap og erfaring gjør seg best i fellesskap med andre. Vi bidrar derfor gledelig i eksisterende fagmiljø, eller oppretter nye der vi kjenner at det mangler. Vi oppfordrer alle, ja fra daglig leder så vel som sommerstudenter, i selskapet til å være aktive på meetups. Vi er først og fremst læreglade fagpersoner over hele fjøla. 
-
-Åpenheten strekker seg selvfølgelig til læringen vi gjør. Vi oppfordrer ansatte til å dele det de lærer og bruker tid på å formidle det på en god måte. Enten det er via Open Source-prosjekter, podcast, video, bloggpost, presentasjoner og kurs. Eller rett og slett samtaler med fagkolleger fra andre selskap. Å kunne formidle kunnskap, mener vi, er like viktig som å kunne gjennomføre den.
-
-### Rettigheter og open source
-Kjernevirksomheten vår er i utgangspunktet å selge kompetanse. Men vi er eksperimentelle og tilpasningsdyktige. Det kan komme en tid der vi ser på muligheten for å samarbeide tett med startups eller skape egne startups. I Norge er det helt vanlig at arbeidsplassen innehar rettigheter til det ansatte måtte lage eller komme på. Det kan være vanskelig å komme seg rundt dersom Variant har brukt mye penger på å hjelpe ansatte å utvikle noe.
-
-Vi ønsker å være reale på dette. Om du har en god idé som du ønsker å gå videre med, snakk med din personalleder så finner vi ut av hvordan vi kan gå frem og hvordan vi skal løse det på en best mulig måte. Kanskje er det slik at Variant kan hjelpe deg å nå frem? Eller kanskje det kan Open Sources? Eller kanskje kan ansatte få fulle rettigheter? Vi finner en løsning som passer best til situasjonen.
-
-Med risiko for å gjenta i det uendelige, men vi ønsker å være åpne. Vi oppfordrer derfor hverandre til å tenke på hva som kan Open Sources. Både av det vi lager internt, hva kollegaer lager og hva kunder lager. Når vi sitter ute hos kunde er det som regel kunden som sitter på rettighetene til det vi produserer, men også da kan både kunde og samfunn ha nytte av at noe åpnes. Vi skal hjelpe kundene våre med å ta gode avgjørelser rundt dette, og ikke være redd for å stille spørsmålet: “Kan ikke dette legges ut, da?”
-
 ### Miljøfyrtårn
 Bærekraft for Variant innebærer mye. Det er likestilling i arbeidslivet, en bærekraftig arbeidsdag, som både er spennende, utfordrende og lærerik. Vi ønsker at valgene vi gjør skal begrense vårt klimaavtrykk. Vi skal skape en kultur hvor vi er nysgjerrige, stiller spørsmål og tar gode valg.
 Vi setter oss årlige mål om å redusere vår belastning på miljøet, vi kildesorterer og fører regnskap over eget avfall, energiforbruk og reiser med fly og bil.
 Miljøfyrtårnansvarlig har ansvar for oppfølging og håndtering av dette.
 
 
-## Kvalitetstid
+## Arbeidet
 
 ### Fleksitid
 Arbeidsdagen er 7,5 timer per dag. Vi har ikke kjernetid i Variant, men kunder kan jo ofte ha dette. Vi synes det er viktig å følge kunden på dette, for å bli en del av deres kultur. Vi oppnår mest når vi får jobbe tett med andre, så når du velger din arbeidsrytme regner vi med at det er med i vurderingen. 
@@ -191,6 +183,14 @@ bruke feriedager i romjula.
 ### Ammefri
 [Mødre som ammer kan bruke en time om dagen med lønn til dette](https://www.arbeidstilsynet.no/arbeidsforhold/permisjoner/foreldrepermisjon/ammefri/). Dette gjelder fram til barna er ett år gamle. Du finner selv ut når det passer med deg og ditt barns rutiner her. Her gjelder det selvfølgelig å ha en god dialog med kunde på dette, så dagene er forutsigbare og enkle å planlegge rundt for alle involverte. 
 
+<img src="./assets/illustrations/graduation.svg" alt="Illustrasjon for kompetanseutvikling" class="illustration illustration--left illustration--competence" />
+
+### Kompetanseutvikling
+Vi ønsker at fagmiljøet der vi befinner oss er sterkt og pulserende, så da må vi også jobbe med faglig utvikling. Vi ser lite verdi i å bygge kompetanse kun for vår egen del, vi tror heller at kunnskap og erfaring gjør seg best i fellesskap med andre. Vi bidrar derfor gledelig i eksisterende fagmiljø, eller oppretter nye der vi kjenner at det mangler. Vi oppfordrer alle, ja fra daglig leder så vel som sommerstudenter, i selskapet til å være aktive på meetups. Vi er først og fremst læreglade fagpersoner over hele fjøla. 
+
+Åpenheten strekker seg selvfølgelig til læringen vi gjør. Vi oppfordrer ansatte til å dele det de lærer og bruker tid på å formidle det på en god måte. Enten det er via Open Source-prosjekter, podcast, video, bloggpost, presentasjoner og kurs. Eller rett og slett samtaler med fagkolleger fra andre selskap. Å kunne formidle kunnskap, mener vi, er like viktig som å kunne gjennomføre den.
+
+
 ### Kurs og konferanser
 For å være gode må vi av og til ut i verden for å lære mer og tenke nytt. Alle oppfordres til å delta på 
 kurs eller konferanse en gang i løpet av året. Om du har sett for deg en reise lengre enn langt, blir det 
@@ -200,15 +200,7 @@ Samtidig oppfordrer vi også ALLE til å holde foredrag og kurs. Bidrar du ofte 
 dekker Variant deltagelse, reise og opphold. Helt uavhengig av hvor i verden, og hvor mange andre konferanser 
 du har deltatt på det året. Ut å avle læreglede! 
 
-### Verktøykassen 🛠📚
-Skikkelig jobb krever skikkelige verktøy. Du velger selv datamaskin og størrelse, farge og modell på den. Melder behovet seg for en ny, skal du også selvfølgelig få det. Vi stoler på at du velger det beste for at du skal kunne gjøre en best mulig jobb. Er du usikker kan du godt spørre i vår Slackkanal #helpdesk. 
 
-Det er heller ikke et gitt antall års brukstid på maskinene. Du får en ny maskin
-når behovet oppstår, uavhengig av om det har gått ett eller tre år. Se også
-[PC-valg](information.html#pc-valg) for de mest brukte modellene.
-
-Programvare velger du også selv. Vi har noen avtaler for ymse produkter, alt annet kjøre du direkte og fører utlegg for det. Du skal jaggu ikke mangle noe for å gjøre en god jobb. 
-Som konsulenter selger vi ekspertise og kunnskap, så invester gjerne i bøker, kurs og annet læringsmateriale. Bare husk å sende regningen til regnskap. Den betales med stor glede!  🤓
 
 ### Variantdag
 Den første fredagen i hver måned (foruten januar og juli) har vi det vi kaller en variantdag. Dette er en “innedag”, der vi alle bruker hele dagen sammen, for faglig, administrativt og sosialt påfyll.
@@ -395,20 +387,24 @@ Vi kjører punktliste!
 -	Behandlingsforsikring.
 -	Reiseforsikring for deg og din familie.
 
+### Verktøykassen 🛠📚
+Skikkelig jobb krever skikkelige verktøy. Du velger selv datamaskin og størrelse, farge og modell på den. Melder behovet seg for en ny, skal du også selvfølgelig få det. Vi stoler på at du velger det beste for at du skal kunne gjøre en best mulig jobb. Er du usikker kan du godt spørre i vår Slackkanal #helpdesk. 
+
+Det er heller ikke et gitt antall års brukstid på maskinene. Du får en ny maskin
+når behovet oppstår, uavhengig av om det har gått ett eller tre år. Se også
+[PC-valg](information.html#pc-valg) for de mest brukte modellene.
+
+Programvare velger du også selv. Vi har noen avtaler for ymse produkter, alt annet kjøre du direkte og fører utlegg for det. Du skal jaggu ikke mangle noe for å gjøre en god jobb. 
+Som konsulenter selger vi ekspertise og kunnskap, så invester gjerne i bøker, kurs og annet læringsmateriale. Bare husk å sende regningen til regnskap. Den betales med stor glede!  🤓
+
+### Rettigheter og open source
+Kjernevirksomheten vår er i utgangspunktet å selge kompetanse. Men vi er eksperimentelle og tilpasningsdyktige. Det kan komme en tid der vi ser på muligheten for å samarbeide tett med startups eller skape egne startups. I Norge er det helt vanlig at arbeidsplassen innehar rettigheter til det ansatte måtte lage eller komme på. Det kan være vanskelig å komme seg rundt dersom Variant har brukt mye penger på å hjelpe ansatte å utvikle noe.
+
+Vi ønsker å være reale på dette. Om du har en god idé som du ønsker å gå videre med, snakk med din personalleder så finner vi ut av hvordan vi kan gå frem og hvordan vi skal løse det på en best mulig måte. Kanskje er det slik at Variant kan hjelpe deg å nå frem? Eller kanskje det kan Open Sources? Eller kanskje kan ansatte få fulle rettigheter? Vi finner en løsning som passer best til situasjonen.
+
+Med risiko for å gjenta i det uendelige, men vi ønsker å være åpne. Vi oppfordrer derfor hverandre til å tenke på hva som kan Open Sources. Både av det vi lager internt, hva kollegaer lager og hva kunder lager. Når vi sitter ute hos kunde er det som regel kunden som sitter på rettighetene til det vi produserer, men også da kan både kunde og samfunn ha nytte av at noe åpnes. Vi skal hjelpe kundene våre med å ta gode avgjørelser rundt dette, og ikke være redd for å stille spørsmålet: “Kan ikke dette legges ut, da?”
+
 ### Eierskap
 Variant er et ansatteid selskap. Ansatte eier enten i morselskapet Variant Konsern AS eller direkte i de lokale driftsselskapene. Gjennom Medeierskapsprogrammet tilbys alle ansatte hvert år å kjøpe aksjer, og 1. april innledes en ny runde med salg gjennom emisjoner.
 
 
-## Spesialiteter
-
-### Stilguide
-Profilen til Variant er, som alt annet, i evig utvikling og kontinuerlig markert
-som arbeid pågår. Arbeidet rundt gjeldende profil kan følges på en
-[egen side med style guide](https://styleguide.variant.no). Her legger vi alt
-fra hele Variant-illustrasjonen, typografi, veiledning for valg av logo, osv.
-Alt dette legges åpent med en åpen lisens, foruten illustrasjonen hvor designer
-sitter på åndsverk.
-
-### Blogg
-### Podcast
-### Nettsider
