@@ -1,5 +1,5 @@
 ---
-title: Kvalitetshåndbok
+title: Kvalitetsrutiner
 ---
 
 # Kvalitetshåndbok
@@ -51,6 +51,10 @@ bemanningsprosessen sammen med salgsprosessen.
 
 Lønnsomhet sikres ved å ha høy kvalitet i alt salgs- og tilbudsarbeid slik at vi
 vinner nok salg. Variants tilbud skal alltid levere over kundens forventninger.
+
+Salgsprosessen i Variant samkjøres på tvers av alle selskap i konsernet og eies av 
+konsernets salgsdirektør Anders Hammervold. De ulike selskapene har likefullt et ansvar for 
+salg av sine konsulenter. 
 
 ### Salgsprosess
 
@@ -138,9 +142,8 @@ Etter en vinn skal:
 Hver fredag morgen, arrangeres et salgs- og bemanningsmøte. Møtet er åpent for
 alle ansatte, men frivillig for alle unntatt:
 
-- Daglig leder
-- COO
-- Designleder
+- Salgsdirektør
+- Daglig ledere i driftsselskapene
 - Prosjektledere
 
 I dette møtet oppdateres [bemanning](http://bemanning.variant.no). Vi har
@@ -166,8 +169,8 @@ planlegger og prioriterer vi HMS-arbeidet på lik linje som fakturerbart arbeid.
 
 ### Organisering
 
-Vår daglig leder, Odd Morten Sveås, har et overordnet ansvar for å følge opp de
-lover og forskrifter vi er underlagt.
+Daglig leder har et overordnet ansvar for å følge opp de lover og forskrifter vi
+er underlagt.
 
 Verneombudet har ansvar for å proaktivt følge med på HMS-situasjonen i
 selskapet, innhente innspill fra de ansatte og være et talerør for de ansatte i
@@ -182,9 +185,9 @@ helse, miljø og sikkerhet som ikke løses direkte.
 ### Verneombud
 
 Selskapet skal legge til rette for at det velges et verneombud. Verneombudet
-velges for to år om gangen og velges på variantdagen i mars. Ledelsen kan ikke
-delta i valget eller velges som verneombud. Verneombud fra 2021 er Stine
-Bechmann og kontaktinformasjon finnes på hjemmesiden vår og i internsystemer.
+velges for to år om gangen og velges på variantdagen i mars.  Ledelsen kan ikke
+delta i valget eller velges som verneombud. På lokasjonssidene 
+kan du se hvem som er valgt til for hver lokasjon.
 
 Verneombud har ansvar for opplæring av ansatte og oppdatering av aktuelle
 rutiner. Ved nyansettelser skal verneombud ha opplæring og vernerunde. Skjer
@@ -211,93 +214,6 @@ kildesorterer og fører regnskap over eget avfall, energiforbruk og reiser med
 fly og bil.
 
 Miljøfyrtårnansvarlig har ansvar for oppfølging og håndtering av dette.
-
-### Kildesortering
-
-Det meste vi produserer av søppel på kontoret er relatert til mat. Det kan være
-papiret til burritoen, en boks til salaten, et syltetøyglass, pose fra nøttene
-osv. For deg og meg er det altså viktigst å vurdere forskjellen mellom
-emballasje som skal i restavfall, og emballasje som kan skylles og resirkuleres.
-
-**Hva skal hvor?**
-
-Vi har en bøtte til det meste, og du finner dem på kjøkkenet eller like i
-nærheten.
-
-Først et lite fun fact: Det er 95% mer energibesparende å smelte en brukt
-aluminiumsboks, som f. Eks en leverposteiboks, for å støpe en ny en,
-sammenlignet med den energien som trengs når aluminumen lages for første gang.
-
-**Eksempler på glass- og metallavfall:**
-
-- Syltetøyglass
-- Leverposteiboks
-- Tuber fra kaviar, ost osv.
-- Lokk av metall
-- Øl- og vinflasker
-
-Metallbokser, som for eksempel makrell i tomat, leverpostei osv., kjøres i
-oppvaskmaskina før den kastes. Det er for å begrense at det lukter død og
-fordervelse fram til søpla tømmes. Flasker og bokser med pant kastes i tønna fra
-Flaskefond, som står godt synlig i lokalet.
-
-Elektronisk avfall kastes i en egen bøtte som du finner i «søppelrommet», i
-gangen ved siden av ansatt-inngangen vår. Der er det en rød bøtte med
-spesialavfall som tømmes to ganger i året.
-
-**Eksempler på e-avfall:**
-
-- Ledninger
-- Batterier
-- Lyspærer og lysrør
-- Rengjøringsmidler og eventuelle spraybokser
-- Fargekassetter fra skriveren
-
-Papiravfall kan sorteres tre ulike steder i lokalet – Ved miljøstasjonen på
-kjøkkenet, eller i papp-boksen ved kaffebordet i arbeidsområdet, eller i en
-tilsvarende pappboks på Prosjektrommet i hjørnet i 2. etg.
-
-**Eksempler på papp- og papiravfall:**
-
-- Dokumenter
-- Reklame
-- Emballasje (pizzaeske osv.)
-- Servietter
-- Melkekartonger (la plastkorken sitte på)
-
-Plastavfall er ren plast eller plastavfall du skyller først.
-
-**Eksempler på plastavfall:**
-
-- Yoghurtbeger
-- Lokket på salatboksen
-- Plastemballasje fra teknologiske duppeditter
-- Lokket til leverposteiboksen
-- Tomme kaffeposer
-
-Møkkete eller «tilgriset» emballasje (både plast og papir) kastes i restavfall.
-Restavfall er det som blir igjen når du har sortert ut alt annet. Siden
-Trondheim ikke har anlegg for å behandle matavfall ennå (men jobber med saken),
-så betyr det at vi kaster følgende i restavfallet,
-
-**Eksempler på restavfall:**
-
-- Snus
-- Matrester
-- Kaffegrut
-- Knuste kopper/tallerkener osv.
-- Møkkete eller «tilgriset» emballasje (både plast og papir)
-- Tepose
-- Tørkepapir
-- Isopor
-
-Knuste drikkeglass kan gjerne pakkes inn i avispapir eller noe lignende, og
-kastes i restavfall, ikke i glass- og metall.
-
-Fun fact! Ett kilo restavfall gir nok energi til å kjøre to panelovner på full
-guffe i en time. Den vanligste behandlingsmetoden for restavfall er nemlig
-energiutnyttelse. Det vil si at avfallet brennes, og at energien som oppstår kan
-brukes til oppvarming eller strømproduksjon. (kilde: Sortere.no)
 
 ### Innkjøpsrutine
 
@@ -364,27 +280,7 @@ leverandører her, men noen alternativer er:
 [TeleOutlet](https://teleoutlet.no/),
 [Like fin fra Telia](https://www.telia.no/like-fin/).
 
-### Fysiske lokaler
-
-Variant er et konsulentselskap, der hvor mange ansatte tilbringer store deler av
-arbeidstiden ute i kundenes lokaler. HMS-håndboka dekker proaktivt arbeid med
-lokaler, men vi avgrenser dette til vårt kontor i Thomas Angells gate.
-
-- Renhold i våre lokaler gjennomføres av renholdere to ganger ukentlig
-- Førstehjelpsutstyr er til enhver tid komplett i henhold til
-  [retningslinjer gitt av Arbeidstilsynet](https://www.arbeidstilsynet.no/tema/personlig-verneutstyr/forstehjelpsutstyr/)
-- Ulykker som medfører alvorlig personskade skal straks meldes til
-  lege/ambulanse, politi og Arbeidstilsynets lokalkontor. Innmelding skjer av
-  daglig leder
-- Gårdeier sørger for avfallssytemene i bygget vi leier kontorplass i. Variant
-  har i tillegg eget kildesorteringssystem med instruks, godt synlig i
-  kontorlokalet. Gode rutiner skal bidra til å redusere svinn og avfall
-
-Hvis ansatte opplever feil, mangler eller farlige situasjoner ute hos kunde
-ønsker vi at dette forsøkes varslet i henhold til kundens HMS-rutiner. Skulle
-dette ikke føre fram vil vi ta imot og håndtere saken i Variant-kontekst.
-
-### Skjermbriller / Databriller
+### Skjermbriller og databriller
 
 Som konsulenter i IT-bransjen jobber vi jevnlig foran en dataskjerm. Dette gir
 de ansatte rett til å få dekt synsundersøkelse og databrille av arbeidsgiver.
@@ -408,30 +304,6 @@ Vilkår for dekning er
 
 Se også
 [Arbeidstilsynets sider](https://www.arbeidstilsynet.no/tema/ergonomi/arbeid-ved-dataskjerm/synsundersoking-og-databriller/)
-
-### Branninnstruks
-
-Gjør deg kjent med følgende i Varianthuset:
-
-- Rømingsveiene
-- Nærmeste brannmelder
-- Nærmeste slokkemiddel
-
-Ved brannalarm, forlat bygningen gjennom rømningsveiene og gå deretter til
-[samlingsplassen mellom sykkelparkeringen og Dromedarbakeriet.](https://www.google.com/maps/@63.4323746,10.3995148,3a,75y,235.45h,90.05t/data=!3m6!1e1!3m4!1sgguaNK1F5B-QYaPrEXA0mA!2e0!7i16384!8i8192)
-Hvis brann oppstår uten at automatisk alarm er utløst, trykk på brannmelder hvis
-mulig og gå deretter ut av bygningen og til samlingsplassen.
-
-Vinduer og dører til rom, korridorer og trapperom må lukkes. Om mulig, forsøk å
-slokke brann med enten pulverapparat eller slange, men tenk på egen sikkerhet.
-Heis skal IKKE benyttes som rømningsvei.
-
-Nødnummer til brannvesen er 110.
-
-Rømningsveier og brannslykkingsutstyr er godt merket. Branninnstruks og
-redningsplan finnes som oppslag i kontorlokalet, i håndboka og gjennomgås med
-alle nyansatte. Brannøvelse gjennomføres en gang i året. Vedlikehold av
-brannvarslere og slukkeustyr utføres av gårdeier.
 
 ### Dokumentasjon
 
@@ -520,32 +392,31 @@ tiden etterpå skal oppleves som god. Vi ønsker å bli bedre kjent med deg, og 
 du blir bedre kjent med oss og firmaet. Vår prosess er relativt detaljert, og i
 stadig endring. For tiden ser den slik ut:
 
-### Frem til fadder blir satt (Rekrutteringsansvarlig)
+### Rett etter signering (Rekrutteringsansvarlig)
 
+- Opprett bruker for AD, Mail i office 365.
+- Inviter inn den nytilsatte i Slack.
 - Få den nyansatte til å fylle ut [nettskjema](http://nyansatt.variant.no) for
   nyansatte. (Her velger du blant annet PC)
-- Opprett bruker for AD, Mail i office 365.
-- Etabler CV i CV-partner, og inviter den nyansatte inn for å starte på dette
-  arbeidet.
 - Ta bilde til CV
-- Tildele fadder
 
 ### Frem til oppstartsdato (Fadder)
 
 - Invitere ansatt til Variant-dagen(e) og/eller noe sosialt. Mål: Møte og bli
   kjent med alle i Variant
+- Etabler CV i CV-partner, og inviter den nyansatte inn for å starte på dette
+  arbeidet.
 - Informere om planlagte aktiviteter (som Nyttårskalas)
 - Ha en faddermiddag (gjerne flere nyansatte og faddere om overlapp)
 - Forberede ansatt på oppdraget og prosessene rundt bemanning av oppdrag.
-- Invitere til Slack
 - Forberede goodie-bag
-- Bestille utstyr
 - Bli enig om oppstartsdagen. Sted og tidspunkt. Lunsj "på huset" hvis man ikke
   er ute i oppdrag.
 - [Ordne med portering av telefonabonnement](https://www.telia.no/mitt-abonnement/bytte-eier/)
 
 ### Før oppstart (CEO/COO)
 
+- Bestille utstyr
 - Bestille telefonabonnement
 - Registrere som ansatt i Uni, ellers blir det dårlig med lønn.
 - Melde inn i forsikringer (Gjensidige)
@@ -553,16 +424,11 @@ stadig endring. For tiden ser den slik ut:
 ### Etter oppstartsdato (Fadder)
 
 - Be ansatt om å oppdatere CV
-- Hvis designer: Gjennomgang av templates, canvas og andre designfiler som kan
-  være kjekk å bruke
 - Gjennomgang av det praktiske i lokalet vårt
 - Oppfølgingsprat etter et par uker for å høre hvordan oppstarten har vært
 - Ta et flott bilde av deg for din CV (men også for å vise verden hvor stolt vi
   er for å ha deg på laget).
 - Invitere inn i #salg på Slack
-- Fasilitere valg av personalleder etter 3 måneder
-- Oppdater malkortet Onboarding basert på erfaring fra siste onboarding. Hør med
-  nyansatt om hun eller han har innspill
 
 ## Sosiale aktiviteter
 
@@ -604,7 +470,7 @@ Hver ansatt knyttes til en fadder og en personalleder.
 
 #### Fadder
 
-Før oppstart får du tildelt en fadder. Fadderens overordnede ansvar er å gi deg
+Den som har ansvaret for at oppstarten går så bra som mulig kaller vi fadder.  Fadderens overordnede ansvar er å gi deg
 en så god oppstart som mulig. Arbeidet starter ganske raskt etter signering og
 lenge før du starter hos oss. Variant.
 
@@ -612,13 +478,10 @@ En fadder skal være kontaktpunktet for alle praktiske spørsmål om hvordan tin
 gjøres og løses i Variant. I tillegg skal fadder følge opp den ansatte i starten
 med tanke på trivsel og motivasjon.
 
-Før oppstart har fadder
-[disse konkrete oppgavene](https://handbook.variant.no/quality_manual.html#frem-til-oppstartsdato-fadder)
-og tilsvarende
-[etter oppstart](https://handbook.variant.no/quality_manual.html#etter-oppstartsdato-fadder).
-
 Det er ingen formell slutt på fadderperioden. Så lenge den ansatte ser verdien
-av å bruke sin fadder er det åpent for det.
+av å bruke sin fadder er det åpent for det. 
+
+Se lokasjonsspesifikk side for å finne hvem som er fadder for ditt sted.
 
 #### Personalleder
 
@@ -632,23 +495,16 @@ ansvar for å jevnlig følge opp deg. I tillegg vil personalleder ta initiativ t
 
 I Variant praktiserer vi fritt ledervalg. Det vil si at selskapet foreslår en
 personalleder for deg ved oppstart. I denne prosessen skal Variant avklare
-valget med deg. Deretter kan man når som helst velge en ny personalleder ved å
-ta kontakt med daglig leder, styreleder, eller din nåværende personalleder.
+valget med deg. Hver høst fasiliterer selskapet et nytt ledervalg. Her kan den ansatte hvis hen 
+ønsker velge en ny leder. Dette kan være av både karriæremessige eller personlige grunner. 
+Det stilles ingen spørsmål rundt dette valget. Det er slett ikke noen forventning om at alle skal 
+bytte leder heller. 
 
-En personalleder må være en del av selskapets ledergruppe, være motivert for å
+En personalleder må være en del av selskapets ledelse, være motivert for å
 være personalleder, selv ha valgt å være det, og ha erfaring som coach og med
 coaching.
 
-For tiden har følgende ledere personalansvar:
-
-- Odd Morten
-- Anders
-- Tonje
-- Mikael
-- Tore
-
-Relasjonen mellom deg og personallederen er basert på coaching. Se også
-[listen over hvem som har lederansvar for hvem](https://varianttrh.sharepoint.com/:x:/g/EcciKCrwQFVKi9arVFV9WLEBxh0lqSzlfM7n_nrpkIuDtw?e=gR7JSm).
+Se lokasjonsspesifikk side for å finne de ulike personalederne som gjelder for ditt sted.
 
 ### Styrkesamtale
 
@@ -670,18 +526,3 @@ Basert på dine målsetninger og ønsket vekst blir dere enige om hvordan dere s
 jobbe videre. Din personalleder vil støtte deg og coache deg i tråd med det dere
 er enige om.
 
-### Temperaturmålinger
-
-I stedet for en stor årlig medarbeidertilfredshetsundersøkelse har vi ukentlige
-check-ins med ansatte - temperaturmålinger.
-[Vi bruker plattformen Winningtemp til dette](https://winningtemp.no/).
-
-Hver torsdag får ansatte fire spørsmål i e-post, app eller via Slack i kanalen
-#viktig. Spørsmålene besvares ved hjelp av fire emojies som symboliserer
-misfornøyd, lite fornøyd, fornøyd eller veldig fornøyd. Undersøkelsen er helt
-anonym og innsamlet data gir grunnlag for en temperatur innenfor ulike
-kategorier, på tvers av organisasjonen, i grupper og/eller segmenter.
-
-Vi tror at enklere, mer regelmessige undersøkelser kan bidra til større
-engasjement og at det er lettere å fange opp uønskede tendenser og sette inn
-tiltak om nødvendig.
