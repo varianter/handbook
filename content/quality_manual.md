@@ -185,9 +185,9 @@ helse, miljø og sikkerhet som ikke løses direkte.
 ### Verneombud
 
 Selskapet skal legge til rette for at det velges et verneombud. Verneombudet
-velges for to år om gangen og velges på variantdagen i mars. Ledelsen kan ikke
-delta i valget eller velges som verneombud. Verneombud fra 2021 er Stine
-Bechmann og kontaktinformasjon finnes på hjemmesiden vår og i internsystemer.
+velges for to år om gangen og velges på variantdagen i mars.  Ledelsen kan ikke
+delta i valget eller velges som verneombud. På lokasjonssidene 
+kan du se hvem som er valgt til for hver lokasjon.
 
 Verneombud har ansvar for opplæring av ansatte og oppdatering av aktuelle
 rutiner. Ved nyansettelser skal verneombud ha opplæring og vernerunde. Skjer

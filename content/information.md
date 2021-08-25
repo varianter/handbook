@@ -7,8 +7,6 @@ title: Det praktiske
 Her beskrives interne prosedyrer og generelle rutiner for dagligdagse oppgaver
 for en variant. Det kan være ting som utgiftsføring, timeføring, osv.
 
-
-
 ## Lønning
 
 Lønningsdag er den siste arbeidsdagen i hver måned. Altså utbetales lønn
@@ -47,10 +45,72 @@ hele året. Så i praksis betaler man mer skatt de øvrige månedene for å ha m
 penger å rutte med i sommerferien. Tilsvarende gjelder også med ordningen med
 halv skatt i november.
 
+## Timeføring
+
+Timene skal leveres ukentlig. Fristen er mandag morgen kl 9.00 den påfølgende
+uken. Timene føres i Harvest. Ulike byer har ulike kontoer sjekk sidenn for din bby for å finne riktig 
+harvest-adresse.
+
+En full dag regnes som 7,5 timer og en full uke som 37,5 timer. Det er helt i
+orden å flekse tid innenfor en måned. Dette forutsetter selvsagt at det er
+avklart og greit for prosjektet og kunden også. Det betyr at du kan jobbe litt
+mer en dag og mindre en annen dag innenfor samme måned.
+
+Vi har to hovedtyper timeføring. Det ene er kundetid, det andre er annen
+timeføring som føres under Varianttid. All tid skal timeføres inkludert reisetid
+og pålagt overtid.
+
+### Varianttid
+
+Under kontoen for Varianttid finner du ulike «prosjekter» med tilhørende
+oppgaver. Vi håper at navngiving er såpass selvforklarende at utdypende
+veiledning her ikke skal være nødvendig. Vi har like fullt noen korte føringer:
+
+- Oppgaven «Mellom prosjekter» benyttes bare når man er helt eller delvis ledig,
+  og ikke kan fylle opp dagen med andre aktiviteter.
+- Man kan føre inntil 7,5 timer pr dag med «Kurs og konferanse» selv om
+  varigheten er lenger. Tilsvarende fører man ikke tid i helg og helligdag.
+- Oppgaven «Legetime» dekker også tannlege, kiropraktor, etc samt blodgiving.
+
+_Merk at frivillige aktiviteter på kveldstid som deltagelse på meetups,
+konsumering av faglitteratur, podcasts, videoer, etc ikke timeføres, med mindre
+man sammen med selskapet har kommet til at dette er å regne som pålagt arbeid._
+
+### Kundetid
+
+På kundetid fører man det man jobber også hvis man jobber utover 7,5 timer.
+_NB!_ Overtid på et oppdrag må være avklart med kunde eller den som har ansvar
+for oppdraget eller prosjektet. Lunsj føres ikke.
+
+### Reisetid
+
+Reiser som er pålagt av kunde timeføres som hovedregel på kundens prosjekt.
+Timeføring skjer da på kundes timeføringskonto i Harvest. Reisetid og
+timeføringskode avklares for hvert enkelt tilfelle med kunde.
+
+Om du og kunde avtaler at du skal reise i ditt oppdrag og du selv avgjør
+reisetid og plan, er tid utenfor normalarbeidstid vanligvis ikke timeførbart. Om
+du derimot på kundes forespørsel må reise i henhold til en spesifikk plan
+timeføres reisetid utenfor normalarbeidstid.
+
+For noen oppdrag timeføres reisetid utenfor normalarbeidstid på egen
+timeføringskode.
+
+For eksempel: _du bes av kunde om å stille klokken 9:00 i en annen by. Reisetid
+planlegges og kunde informeres om hvordan tiden vil bli timeført. Reisetid fra
+reisens start til oppmøte timeføres i Harvest i tråd med det som er avtalt med
+kunde._
+
+Reiser i regi av Variant er som hovedregel frivillige og timeføres ikke.
+
+Se forøvrig
+[dette avsnittet](https://handbook.variant.no/information.html#reiser-p%C3%A5-variants-regning)
+for refusjon av reiseutlegg.
+
 ## Faktura
 
 Hvis du får en faktura som skal betales av variant sendes den til
-selskapets epostmottak for faktura. De ulike byene har ulike adresser, sjekk siden for din by
+selskapets epostmottak for faktura. De ulike lokasjonene har ulike adresser, sjekk siden for din lokasjon
 for å finne riktig adresse, som er på forme  `faktura.{by}@variant.no`. 
 
 Eventuelle papirfaktura må altså scannes eller fotograferes.
@@ -67,6 +127,42 @@ Ta bilde av kvitteringer og skriv inn samlet beløp i mailen.
 
 Du får tilsendt en kvittering etter rapport har blitt generert, se gjerne over
 vedlegget i e-posten. Hvis det feiler, får du en e-post med feilmelding.
+
+### Fordelsprogram og rabatt
+
+Skattemydighetene krever at fordeler du oppnår gjennom ulike fordelsprogam man
+får på grunn av at du er ansatt hos oss skal rapporteres inn slik at det blir
+med på skatteberegningen. Dette gjelder blant annet:
+
+- Kredittkort med bonuspoeng
+- Bonuspoeng på flyreiser
+- Eventuelle ansattrabatter hos butikker eller lignende (P.t. har vi ingen
+  slike).
+
+Det er den ansattes ansvar å rapportere dette til Variant, så skal Variant
+rapportere videre til myndighetene.
+
+- Du rapporterer inn når du benytter fordelen, _ikke_ når du sparer opp. For
+  eksempel når du gjennomfører en reise som betales ved bonuspoeng.
+
+- Du skal bare rapportere inn bruk av poeng som er oppspart ved at Variant har
+  betalt. Typisk bonuspoeng på flyreiser hvor Variant har dekt reisen. Dette
+  gjelder også om reisen ble viderefakturert våre kunder.
+
+- Du skal bare rapportere inn privat bruk. Hvis bonuspoengene for eksempel går
+  med til å kjøpe en tjenestereise er dette _ikke_ skattepliktig.
+
+Du må estimere verdien av fordelen du har oppnådd, og beregne hvor stor rabatt
+du har fått i prosent. Bonusreiser gir da 100% rabatt gitt at hele reisen
+betales med poeng. Verdien estimeres typisk ved å finne ut hva tilsvarende kjøp
+ville kostet uten rabatt eller bonuspoeng.
+
+Du må også dokumentere estimert verdi. Dette gjøres typisk ved å ta skjermbilder
+av tilsvarende kjøp eller reiser hvor prisene er oppgitt.
+
+- Dokumentasjonen lastes opp på [docs](https://fordelsdokumentasjon.variant.no).
+- Rapportering gjøres ved å fylle ut
+  [dette skjemaet](https://fordelsrapport.variant.no).
 
 ### Restaurantbesøk
 
@@ -135,6 +231,46 @@ Hvis du er i tvil så spør du i #regnskap på Slack.
 Pro tip: Tenk på at summen av kjøpet ditt regnes eksklusive mva., da rekker
 budsjettet ditt lenger!
 
+## Forsikringer og pensjon
+
+Som beskrevet i
+[håndboka](https://handbook.variant.no/index.html#pensjon-og-forsikring) har vi
+gode forsikringsordninger og obligatorisk tjenestepensjon (OTP). Både forsikring
+og pensjon har vi gjennom Gjensidige.
+
+Alle kan administrere sin pensjon ved å logge inn på
+[Gjensidiges nettsider](https://www.gjensidige.no/) med BankID. Blant annet kan
+man her velge spareprofil, og her finner dere også informasjon om de ulike
+forsikringsordninger dere er medlemmer i.
+
+I tillegg til lovbestemt forsikring mot yrkesskade og yrkessykdom samt
+yrkesreiseforsikrinig har vi også følgende forsikringer:
+
+- Gruppeliv død - Hovedforsikret
+- Behandlingsforsikring
+- Annen ulykke enn yrkesskade
+- Ferie og fritidsreise
+
+### Behandlingsforsikring
+
+Inkludert i forsikringen har alle ansatte behandlingsforsikring med følgende
+elementer:
+
+- Røntgen og bildediagnostikk
+- Utredning og behandling hos legespesialist
+- Operasjon
+- Etterkontroll
+- Rehabilitering
+- Ny vurdering hos annen lege (second opinion)
+- Psykologisk førstehjelp
+- Behandling hos psykolog
+- Behandling av rus- og spilleavhengighet
+- Fysikalsk behandling - 12 behandlinger
+- Online Videolege
+
+Her finner dere informasjon om hvordan
+[benytte behandlingsforsikring](https://www.gjensidige.no/privat/meld-skade/behandlingsforsikring).
+
 ## Sossis-fond
 
 Vi har et fond på 50 000 NOK som kan brukes som midler til sosiale aktiviteter
@@ -144,104 +280,6 @@ Dette kan være aktiviteter som hytteleie i Sverige, fjellturer, Rush trampoline
 matlaging eller hva enn vi kommer på kan være en god idé. Legg inn forslag som
 Trello-kort under "Til behandling i ledermøtet" på Operativt. Vi burde sikte inn
 på aktiviteter som er inkluderende og tilgjengelig for alle.
-
-## Fordelsprogram og rabatt
-
-Skattemydighetene krever at fordeler du oppnår gjennom ulike fordelsprogam man
-får på grunn av at du er ansatt hos oss skal rapporteres inn slik at det blir
-med på skatteberegningen. Dette gjelder blant annet:
-
-- Kredittkort med bonuspoeng
-- Bonuspoeng på flyreiser
-- Eventuelle ansattrabatter hos butikker eller lignende (P.t. har vi ingen
-  slike).
-
-Det er den ansattes ansvar å rapportere dette til Variant, så skal Variant
-rapportere videre til myndighetene.
-
-- Du rapporterer inn når du benytter fordelen, _ikke_ når du sparer opp. For
-  eksempel når du gjennomfører en reise som betales ved bonuspoeng.
-
-- Du skal bare rapportere inn bruk av poeng som er oppspart ved at Variant har
-  betalt. Typisk bonuspoeng på flyreiser hvor Variant har dekt reisen. Dette
-  gjelder også om reisen ble viderefakturert våre kunder.
-
-- Du skal bare rapportere inn privat bruk. Hvis bonuspoengene for eksempel går
-  med til å kjøpe en tjenestereise er dette _ikke_ skattepliktig.
-
-Du må estimere verdien av fordelen du har oppnådd, og beregne hvor stor rabatt
-du har fått i prosent. Bonusreiser gir da 100% rabatt gitt at hele reisen
-betales med poeng. Verdien estimeres typisk ved å finne ut hva tilsvarende kjøp
-ville kostet uten rabatt eller bonuspoeng.
-
-Du må også dokumentere estimert verdi. Dette gjøres typisk ved å ta skjermbilder
-av tilsvarende kjøp eller reiser hvor prisene er oppgitt.
-
-- Dokumentasjonen lastes opp på [docs](https://fordelsdokumentasjon.variant.no).
-- Rapportering gjøres ved å fylle ut
-  [dette skjemaet](https://fordelsrapport.variant.no).
-
-## Timeføring
-
-Timene skal leveres ukentlig. Fristen er mandag morgen kl 9.00 den påfølgende
-uken. Timene føres i Harvest. Ulike byer har ulike kontoer sjekk sidenn for din bby for å finne riktig 
-harvest-adresse.
-
-En full dag regnes som 7,5 timer og en full uke som 37,5 timer. Det er helt i
-orden å flekse tid innenfor en måned. Dette forutsetter selvsagt at det er
-avklart og greit for prosjektet og kunden også. Det betyr at du kan jobbe litt
-mer en dag og mindre en annen dag innenfor samme måned.
-
-Vi har to hovedtyper timeføring. Det ene er kundetid, det andre er annen
-timeføring som føres under Varianttid. All tid skal timeføres inkludert reisetid
-og pålagt overtid.
-
-### Varianttid
-
-Under kontoen for Varianttid finner du ulike «prosjekter» med tilhørende
-oppgaver. Vi håper at navngiving er såpass selvforklarende at utdypende
-veiledning her ikke skal være nødvendig. Vi har like fullt noen korte føringer:
-
-- Oppgaven «Mellom prosjekter» benyttes bare når man er helt eller delvis ledig,
-  og ikke kan fylle opp dagen med andre aktiviteter.
-- Man kan føre inntil 7,5 timer pr dag med «Kurs og konferanse» selv om
-  varigheten er lenger. Tilsvarende fører man ikke tid i helg og helligdag.
-- Oppgaven «Legetime» dekker også tannlege, kiropraktor, etc samt blodgiving.
-
-_Merk at frivillige aktiviteter på kveldstid som deltagelse på meetups,
-konsumering av faglitteratur, podcasts, videoer, etc ikke timeføres, med mindre
-man sammen med selskapet har kommet til at dette er å regne som pålagt arbeid._
-
-### Kundetid
-
-På kundetid fører man det man jobber også hvis man jobber utover 7,5 timer.
-_NB!_ Overtid på et oppdrag må være avklart med kunde eller den som har ansvar
-for oppdraget eller prosjektet. Lunsj føres ikke.
-
-### Reisetid
-
-Reiser som er pålagt av kunde timeføres som hovedregel på kundens prosjekt.
-Timeføring skjer da på kundes timeføringskonto i Harvest. Reisetid og
-timeføringskode avklares for hvert enkelt tilfelle med kunde.
-
-Om du og kunde avtaler at du skal reise i ditt oppdrag og du selv avgjør
-reisetid og plan, er tid utenfor normalarbeidstid vanligvis ikke timeførbart. Om
-du derimot på kundes forespørsel må reise i henhold til en spesifikk plan
-timeføres reisetid utenfor normalarbeidstid.
-
-For noen oppdrag timeføres reisetid utenfor normalarbeidstid på egen
-timeføringskode.
-
-For eksempel: _du bes av kunde om å stille klokken 9:00 i en annen by. Reisetid
-planlegges og kunde informeres om hvordan tiden vil bli timeført. Reisetid fra
-reisens start til oppmøte timeføres i Harvest i tråd med det som er avtalt med
-kunde._
-
-Reiser i regi av Variant er som hovedregel frivillige og timeføres ikke.
-
-Se forøvrig
-[dette avsnittet](https://handbook.variant.no/information.html#reiser-p%C3%A5-variants-regning)
-for refusjon av reiseutlegg.
 
 ## Sykemelding og egenmelding
 
@@ -295,9 +333,6 @@ arbeidsdagene og følge deg opp.
 Varsle så snart du har anledning. Det er stor variasjon i hvor lang tid det går
 før legens varsel mottas via Altinn.
 
-## Ammefri
-[Mødre som ammer kan bruke en time om dagen med lønn til dette](https://www.arbeidstilsynet.no/arbeidsforhold/permisjoner/foreldrepermisjon/ammefri/). Dette gjelder fram til barna er ett år gamle. Du finner selv ut når det passer med deg og ditt barns rutiner her. Her gjelder det selvfølgelig å ha en god dialog med kunde på dette, så dagene er forutsigbare og enkle å planlegge rundt for alle involverte. 
-
 ## Planlegging av ferie og permisjoner
 Du avgjør selv når du ønsker å ta ut ferie i Variant. Dette avtales med nærmeste
 leder og avklares tidlig med kunde slik at oppdraget løses godt. Det samme
@@ -316,6 +351,10 @@ dette er ønskelig avklares også dette med nærmeste leder og så tidlig som mu
 _NB!_ Husk alltid å oppdatere [bemanning](https://bemanning.variant.no) med
 planlagt ferie og permisjon slik at de som jobber med salg har oversikt.
 
+### Ammefri
+[Mødre som ammer kan bruke en time om dagen med lønn til dette](https://www.arbeidstilsynet.no/arbeidsforhold/permisjoner/foreldrepermisjon/ammefri/). Dette gjelder fram til barna er ett år gamle. Du finner selv ut når det passer med deg og ditt barns rutiner her. Her gjelder det selvfølgelig å ha en god dialog med kunde på dette, så dagene er forutsigbare og enkle å planlegge rundt for alle involverte. 
+
+
 ## Portere mobilabonnement
 
 For at Variant skal betale for mobilbruk må abonnementet overføres til Variant
@@ -325,46 +364,6 @@ AS.
    abonnementet er _Click Flyt 10 GB+_
 1. Gi beskjed på [#helpdesk](slack://channel?id=CBFA8V536&team=T7FAZ8XT2) om at
    skjema er sendt inn og at portering kan iverksettes.
-
-## Forsikringer og pensjon
-
-Som beskrevet i
-[håndboka](https://handbook.variant.no/index.html#pensjon-og-forsikring) har vi
-gode forsikringsordninger og obligatorisk tjenestepensjon (OTP). Både forsikring
-og pensjon har vi gjennom Gjensidige.
-
-Alle kan administrere sin pensjon ved å logge inn på
-[Gjensidiges nettsider](https://www.gjensidige.no/) med BankID. Blant annet kan
-man her velge spareprofil, og her finner dere også informasjon om de ulike
-forsikringsordninger dere er medlemmer i.
-
-I tillegg til lovbestemt forsikring mot yrkesskade og yrkessykdom samt
-yrkesreiseforsikrinig har vi også følgende forsikringer:
-
-- Gruppeliv død - Hovedforsikret
-- Behandlingsforsikring
-- Annen ulykke enn yrkesskade
-- Ferie og fritidsreise
-
-### Behandlingsforsikring
-
-Inkludert i forsikringen har alle ansatte behandlingsforsikring med følgende
-elementer:
-
-- Røntgen og bildediagnostikk
-- Utredning og behandling hos legespesialist
-- Operasjon
-- Etterkontroll
-- Rehabilitering
-- Ny vurdering hos annen lege (second opinion)
-- Psykologisk førstehjelp
-- Behandling hos psykolog
-- Behandling av rus- og spilleavhengighet
-- Fysikalsk behandling - 12 behandlinger
-- Online Videolege
-
-Her finner dere informasjon om hvordan
-[benytte behandlingsforsikring](https://www.gjensidige.no/privat/meld-skade/behandlingsforsikring).
 
 ## PC-valg
 

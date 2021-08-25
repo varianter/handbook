@@ -4,22 +4,18 @@ title: Oslo
 
 
 ## Spaces Kvadraturen
-
 Vi holder til, så lenge vi ikke er ute hos våre kunder, hos
 [Spaces](https://g.page/Tollbugata-8-4308?share) i Kvadraturen.
 
 ### WiFi
-
 Når du jobber på kontoret benytter du det trådløse nettet med SSID
 **Spaces**. Du logger inn med din Variant-epost.
 
 ### Sykkelparkering
-
 Spaces har både sykkelparkering og garderobe. Det er litt knotete å få sykkelen ned (må bruke heisen). 
 Be resepsjonen på Spaces om å vise deg rutinen og hvor garderoben ligger. 
 
 ## Faktura
-
 Hvis du får en faktura som skal betales av Variant Oslo sendes den til
 faktura.oslo@variant.no. 
 
@@ -70,9 +66,7 @@ Rømningsveier og brannslykkingsutstyr er godt merket. Branninnstruks og redning
 
 Det er kildesortering hos Spaces, både i fellesarealet og i søppelrommet i kjelleren. Gjør deg kjent med hvordan kildesortering fungerer i Oslo [på hjemmesiden til Oslo Kommune](https://www.oslo.kommune.no/avfall-og-gjenvinning/hvordan-kildesortere-i-oslo/).
 
-## Arbeidsglede
-
-### Personalleder
+## Personalledere
 
 For tiden har følgende ledere personalansvar:
 

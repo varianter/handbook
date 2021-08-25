@@ -75,9 +75,8 @@ Timene skal leveres ukentlig. Fristen er mandag morgen kl 9.00 den påfølgende
 uken. Timene føres i [Harvest](https://variantas.harvestapp.com/). Herfra kan
 man også laste ned Apps for både Mac og telefoner.
 
-## Læreglede
 
-### Nåværende Fagkomité (Trondheim)
+## Fagkomité
 
 - Mathias (leder)
 - Anders NS
@@ -193,12 +192,10 @@ Knuste drikkeglass kan gjerne pakkes inn i avispapir eller noe lignende, og kast
 
 Fun fact! Ett kilo restavfall gir nok energi til å kjøre to panelovner på full guffe i en time. Den vanligste behandlingsmetoden for restavfall er nemlig energiutnyttelse. Det vil si at avfallet brennes, og at energien som oppstår kan brukes til oppvarming eller strømproduksjon. (kilde: Sortere.no)
 
-## Arbeidsglede
-
-### Fadder
+## Fadder
 I Trondheim er Malin fast fadder, og har ansvaret for at alle kommer godt ombord. 
 
-### Personalleder
+## Personalledere
 
 For tiden har følgende ledere personalansvar:
 
