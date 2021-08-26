@@ -88,7 +88,7 @@ man også laste ned Apps for både Mac og telefoner.
 Støttet opp mot ledergruppen av Mikael.
 
 
-## Helse miljø og sikkerhet
+## Helse, miljø og sikkerhet
 
 ### Verneombud
 
@@ -109,11 +109,11 @@ Hvis ansatte opplever feil, mangler eller farlige situasjoner ute hos kunde
 ønsker vi at dette forsøkes varslet i henhold til kundens HMS-rutiner. Skulle
 dette ikke føre fram vil vi ta imot og håndtere saken i Variant-kontekst.
 
-### Branninnstruks
+### Branninstruks
 
 Gjør deg kjent med følgende i Varianthuset:
 
-- Rømingsveiene
+- Rømningsveiene
 - Nærmeste brannmelder
 - Nærmeste slokkemiddel
 
@@ -198,13 +198,17 @@ I Trondheim er Malin fast fadder, og har ansvaret for at alle kommer godt ombord
 
 ## Personalledere
 
-For tiden har følgende ledere personalansvar:
+For tiden har følgende varianter personalansvar:
 
 - Odd Morten
 - Anders
 - Tonje
 - Mikael
 - Tore
+- Marius
+- Christian
+- Magnus OS
+- Kristin
 
 Relasjonen mellom deg og personallederen er basert på coaching. Se også
 [listen over hvem som har lederansvar for hvem](https://varianttrh.sharepoint.com/:x:/g/EcciKCrwQFVKi9arVFV9WLEBxh0lqSzlfM7n_nrpkIuDtw?e=gR7JSm).

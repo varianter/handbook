@@ -26,7 +26,7 @@ Timene skal leveres ukentlig. Fristen er mandag morgen kl 9.00 den påfølgende
 uken. Timene føres i [Harvest](https://variantosloas.harvestapp.com/). Herfra kan
 man også laste ned Apps for både Mac og telefoner.
 
-## Helse miljø og sikkerhet
+## Helse, miljø og sikkerhet
 
 ### Verneombud
 
@@ -36,7 +36,7 @@ Selskapet skal legge til rette for at det velges et verneombud. Verneombudet vel
 
 Variant er et konsulentselskap, der hvor mange ansatte tilbringer store deler av
 arbeidstiden ute i kundenes lokaler. HMS-håndboka dekker proaktivt arbeid med
-lokaler, men vi avgrenser dette til vårt kontor i Thomas Angells gate.
+lokaler, men vi avgrenser dette til vårt kontor på Spaces.
 
 - Renhold i våre lokaler gjennomføres i regi av Spaces
 - Førstehjelpsutstyr ligger under vasken i fellesområdet og er til enhver tid komplett i henhold til [retningslinjer gitt av Arbeidstilsynet](https://www.arbeidstilsynet.no/tema/personlig-verneutstyr/forstehjelpsutstyr/)
@@ -47,11 +47,11 @@ Hvis ansatte opplever feil, mangler eller farlige situasjoner ute hos kunde
 ønsker vi at dette forsøkes varslet i henhold til kundens HMS-rutiner. Skulle
 dette ikke føre fram vil vi ta imot og håndtere saken i Variant-kontekst.
 
-### Branninnstruks
+### Branninstruks
 
 Gjør deg kjent med følgende hos Spaces Kvadraturen:
 
-- Rømingsveiene
+- Rømningsveiene
 - Nærmeste brannmelder
 - Nærmeste slokkemiddel
 
@@ -69,7 +69,7 @@ Det er kildesortering hos Spaces, både i fellesarealet og i søppelrommet i kje
 
 ## Personalledere
 
-For tiden har følgende ledere personalansvar:
+For tiden har følgende varianter personalansvar:
 
 - Linn
 - Lars
