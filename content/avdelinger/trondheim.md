@@ -198,7 +198,7 @@ I Trondheim er Malin fast fadder, og har ansvaret for at alle kommer godt ombord
 
 ## Personalledere
 
-For tiden har følgende ledere personalansvar:
+For tiden har følgende varianter personalansvar:
 
 - Odd Morten
 - Anders
@@ -209,6 +209,7 @@ For tiden har følgende ledere personalansvar:
 - Christian
 - Magnus OS
 - Kristin
+
 Relasjonen mellom deg og personallederen er basert på coaching. Se også
 [listen over hvem som har lederansvar for hvem](https://varianttrh.sharepoint.com/:x:/g/EcciKCrwQFVKi9arVFV9WLEBxh0lqSzlfM7n_nrpkIuDtw?e=gR7JSm).
 

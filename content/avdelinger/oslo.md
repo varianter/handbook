@@ -69,7 +69,7 @@ Det er kildesortering hos Spaces, både i fellesarealet og i søppelrommet i kje
 
 ## Personalledere
 
-For tiden har følgende ledere personalansvar:
+For tiden har følgende varianter personalansvar:
 
 - Linn
 - Lars
