@@ -206,7 +206,9 @@ For tiden har følgende ledere personalansvar:
 - Mikael
 - Tore
 - Marius
-
+- Christian
+- Magnus OS
+- Kristin
 Relasjonen mellom deg og personallederen er basert på coaching. Se også
 [listen over hvem som har lederansvar for hvem](https://varianttrh.sharepoint.com/:x:/g/EcciKCrwQFVKi9arVFV9WLEBxh0lqSzlfM7n_nrpkIuDtw?e=gR7JSm).
 
