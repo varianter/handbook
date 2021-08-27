@@ -17,11 +17,14 @@ module.exports = withPlugins([withImages], {
   redirects: async () => {
     return [
       {
-        source: "/:slug*.html",  // Old url with .html
+        source: "/:slug*.html", // Old url with .html
         destination: "/:slug*", // Redirect without .html
-        permanent: true
-      }
-    ]
+        permanent: true,
+      },
+    ];
+  },
+  images: {
+    disableStaticImages: true,
   },
   webpack: (config) => {
     const oneOf = config.module.rules.find(
