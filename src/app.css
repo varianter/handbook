@@ -32,6 +32,7 @@ h2,
 h3,
 h4 {
   word-wrap: break-word;
+  margin-bottom: 0.5rem;
 }
 h1 {
   font-size: 4rem;
@@ -40,13 +41,13 @@ h2 {
   font-size: 2.4rem;
 }
 h3 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: "Graphik", sans-serif;
+  font-weight: 500;
 }
 h4 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: "Graphik", sans-serif;
-  font-weight: normal;
 }
 li + li {
   margin-top: 0.5rem;
@@ -171,4 +172,10 @@ a:hover {
 
 h1 .markdownIt-Anchor {
   display: none;
+}
+h3 .markdownIt-Anchor {
+  font-size: 1.2rem;
+}
+h4 .markdownIt-Anchor {
+  font-size: 1rem;
 }
