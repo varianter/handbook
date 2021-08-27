@@ -173,3 +173,9 @@ a:hover {
 h1 .markdownIt-Anchor {
   display: none;
 }
+h3 .markdownIt-Anchor {
+  font-size: 1.2rem;
+}
+h4 .markdownIt-Anchor {
+  font-size: 1rem;
+}
