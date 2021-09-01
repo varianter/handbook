@@ -385,6 +385,38 @@ På møtet tar vi opp:
 - handlingsplan med tiltak for neste år
 - nødvendig oppdatering av dokumentasjon
 
+## Ansettelse og jobbintervju
+
+Vi liker ikke tradisjonelle intervjuer. De plasserer søker i en unaturlig
+situasjon, og vi blir ikke godt kjent med han eller henne. For å finne ut mer om
+sosiale evner, kommunikasjonsferdigheter og nysgjerrighet gjør vi intervjuer på
+en litt annen måte:
+
+### 1. Kaffeprat ☕️ (30 min)
+
+Her møtes vi til en uformell samtale for å finne ut om begge parter har felles
+verdier og mål. Rett og slett om vi er rett for hverandre og om vi kan gjøre
+hverandre bedre.
+
+### 2. Samarbeid om en problemstilling (2-3 timer)
+
+Om begge parter fortsatt er interessert så er det på tide med neste møte. Vi
+starter med en introduksjon til en problemstilling før vi setter i gang med det
+praktiske. Den vil være av en sånn natur at det er isolert og kortfattet. Ikke
+for ambisiøst, med andre ord. Her er eksempel på problemstillinger vi kan
+samarbeide om:
+
+- Enkel proof of concept for DIY Sonos-høytaler.
+- Konseptualisere, designe og implementere mobilnavigasjon for nettside.
+- Implementere et enkelt easter-egg spill i nettleseren.
+
+### 3. Fremtidsdiskusjoner (45 min)
+
+Siste steget i prosessen er en litt mer praktisk rettet samtale. Her får
+jobbsøker mulighet til å stille flere spørsmål til og om Variant samtidig som vi
+kan stille spørsmål om det vi lurer på. Vi vil være sikre på at begge parter
+ønsker seg i samme retning.
+
 ## Få ombord nyansatte
 
 Vi vil at prosessen fra du har signert med oss, til dagen du starter og også
