@@ -410,7 +410,7 @@ samarbeide om:
 - Konseptualisere, designe og implementere mobilnavigasjon for nettside.
 - Implementere et enkelt easter-egg spill i nettleseren.
 
-### 3. Fremtidsdiskusjoner (45 min)
+### 3. Forventningssamtale (45 min)
 
 Siste steget i prosessen er en litt mer praktisk rettet samtale. Her får
 jobbsøker mulighet til å stille flere spørsmål til og om Variant samtidig som vi
