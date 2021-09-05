@@ -361,7 +361,7 @@ For at Variant skal betale for mobilbruk må abonnementet overføres til Variant
 AS.
 
 1. Bruk Telias [eierskifteverktøy](http://var.show/eierskifteskjema). Navn på
-   abonnementet er _Click Flyt 10 GB+_
+   abonnementet er _Telia Dobbel 15 GB_
 1. Gi beskjed på [#helpdesk](slack://channel?id=CBFA8V536&team=T7FAZ8XT2) om at
    skjema er sendt inn og at portering kan iverksettes.
 
