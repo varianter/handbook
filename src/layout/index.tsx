@@ -202,7 +202,9 @@ const Layout: React.FC<LayoutProps> = ({
                   return (
                     <li key={heading} className={style.nav__inner__link}>
                       <a
-                        href={`#${heading.replace(/ /g, "-").toLowerCase()}`}
+                        href={`#${heading
+                          .replace(/[ -]+/g, "-")
+                          .toLowerCase()}`}
                         tabIndex={tabIndex}
                       >
                         {heading}
