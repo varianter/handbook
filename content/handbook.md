@@ -310,7 +310,7 @@ viser.
 
 
 ### Årlig tur
-Variantdagen i **september** er alltid litt spesiell. Da drar vi, med en partner eller venn til følge, utav byen og feirer vår egen bursdag, samt for å oppleve nye ting. Foreløpig har vi vært i London og på Hotell Union Øye i Norangsdal. I skrivende år skal vi til Kragerø. 
+Variantdagen i **september** er alltid litt spesiell. Da drar vi, med en partner eller venn til følge, utav byen og feirer vår egen bursdag, samt for å oppleve nye ting. Foreløpig har vi vært i London, på Hotell Union Øye i Norangsdal og i Kragerø. 
 
 Så langt drar alle våre avdelinger sammen. Dette kan jo hende utvikler seg med tiden. 
 
