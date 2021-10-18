@@ -65,10 +65,21 @@ Booking gjøres i Outlook. **NB!** Du kan ikke regne med at huset er ledig på
 kvelden etter variantdag, selv om huset ikke er booket.
 
 
-## Faktura
+## Innkjøp
+
+### Faktura
 
 Hvis du får en faktura som skal betales av Variant Trondheim sendes den til
 faktura.trondheim@variant.no. 
+
+### Kontoer for innkjøp
+
+Skal du kjøpe noe felles til Variant som for eksempel et kjøleskap eller en TV,
+har vi noen kontoer som kan brukes hos ulike forhandlere. Det er ikke et krav å 
+benytte disse kontoene, men det gjør det enklere å holde orden på kvitteringer, 
+og lar oss i noen tilfeller handle på faktura, slik at man slipper personlige utlegg.
+
+En oversikt over kontoene finnes på [Sharepoint](http://var.show/bedriftskontoer-trd).
 
 ## Timeføring
 
