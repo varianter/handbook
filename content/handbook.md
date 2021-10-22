@@ -144,6 +144,8 @@ La oss starte med ergonomi og arbeidsmiljø: Som konsulenter jobber vi ofte, og 
 
 Variant dekker medlemsskap på treningssenter eller aktiviteter for den ansatte, for å gjøre det enkelt for de som synes sånt er fint å gjøre. Det hender også at vi arrangerer aktiviteter i løpet av året, for alle ansatte. Som en fjelltur, fisketur, akedag og så videre. 
 
+Influensa kan være plagsom, men heldigvis finnes det vaksine. Ønsker du ta influensavaksine kan du få dekt det det koster ved å levere utgiftsrapport.
+
 Til slutt har vi en knakende god helseforsikring, eller behandlingsforsikring som Gjensidige kaller det. Forsikringen dekker:
 
 -	Røntgen og bildediagnostikk
