@@ -101,7 +101,7 @@ Støttet opp mot ledergruppen av Mikael.
 ## Sossisfond
 
 En oversikt over hva sossisfondet er brukt til i Trondheim, og hvor mye som gjenstår for året finnes 
-[på Sharepoint](http://var.show/sossisfond).
+[på Sharepoint](http://var.show/sossisfond-trh).
 
 
 ## Helse, miljø og sikkerhet
