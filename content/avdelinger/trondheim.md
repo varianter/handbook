@@ -98,6 +98,11 @@ man også laste ned Apps for både Mac og telefoner.
 
 Støttet opp mot ledergruppen av Mikael.
 
+## Sossisfond
+
+En oversikt over hva sossisfondet er brukt til i Trondheim, og hvor mye som gjenstår for året finnes 
+[på Sharepoint](http://var.show/sossisfond).
+
 
 ## Helse, miljø og sikkerhet
 
