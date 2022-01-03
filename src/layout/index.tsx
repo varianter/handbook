@@ -7,6 +7,8 @@ import BackgroundBlobs from "src/background";
 import SearchForm from "src/components/search-form";
 import { Handbooks } from "src/utils";
 
+import favicon from "@variant/profile/lib/logo/favicon.png";
+
 const title = "Variant Håndbok";
 
 export const and = (...classes: (string | undefined)[]) =>
@@ -17,8 +19,6 @@ const isActiveHandbook = (path: string, asPath: string, isCategory = false) => {
   if (isCategory) return asPath.includes(path.split("/")[0]);
   return `/${path}` === asPath;
 };
-
-const favicon = require("@variant/profile/lib/logo/favicon.png");
 
 interface LayoutProps {
   handbooks: Handbooks;
