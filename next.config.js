@@ -1,7 +1,12 @@
 const withPlugins = require("next-compose-plugins");
 const withImages = require("next-images");
 
-module.exports = withPlugins([withImages], {
+const withMDX = require("@next/mdx")({
+  extension: /\.mdx?$/,
+});
+
+module.exports = withPlugins([withImages, withMDX], {
+  pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
   images: {
     disableStaticImages: true,
   },
