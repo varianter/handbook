@@ -23,21 +23,21 @@
     "typescript": "^4.5.4"
   },
   "dependencies": {
-    "@mdx-js/loader": "^1.6.22",
+    "@mdx-js/loader": "^2.0.0-rc.2",
+    "@mdx-js/mdx": "^2.0.0-rc.2",
+    "@mdx-js/react": "^2.0.0-rc.2",
     "@next/mdx": "^12.0.7",
-    "@types/markdown-it": "^12.2.3",
     "@variant/md-section": "^1.0.0",
     "@variant/profile": "^3.0.1",
     "gray-matter": "^4.0.3",
     "hamburger-react": "^2.4.1",
-    "markdown-it": "^12.3.2",
-    "markdown-it-toc-and-anchor": "^4.2.0",
-    "next": "12.0.2",
+    "next": "^12.0.7",
     "next-images": "^1.8.4",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-hotkeys-hook": "^3.4.4",
     "react-select": "^5.2.1",
+    "remark-mdx-toc": "^0.1.0",
     "swr": "^1.1.2"
   },
   "scripts": {

@@ -1,11 +1,18 @@
-const withPlugins = require("next-compose-plugins");
-const withImages = require("next-images");
+import withPlugins from "next-compose-plugins";
+import withImages from "next-images";
+import { remarkMdxToc } from "remark-mdx-toc";
 
-const withMDX = require("@next/mdx")({
+import mdx from "@next/mdx";
+
+const withMDX = mdx({
   extension: /\.mdx?$/,
+  options: {
+    remarkPlugins: [remarkMdxToc],
+    rehypePlugins: [],
+  },
 });
 
-module.exports = withPlugins([withImages, withMDX], {
+export default withPlugins([withImages, withMDX], {
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
   images: {
     disableStaticImages: true,

@@ -1,35 +1,14 @@
-import MarkdownIt from "markdown-it";
-import { useMemo } from "react";
-import markdownItTocAndAnchor from "markdown-it-toc-and-anchor";
 import style from "./book.module.css";
 
-interface BookProps {
-  content: string;
+type BookProps = React.PropsWithChildren<{
   filename: string;
-}
-const Book = ({ content, filename }: BookProps) => {
-  const innerHtml = useMemo(() => {
-    const md = new MarkdownIt({
-      linkify: true,
-      html: true,
-      typographer: true,
-    }).use(markdownItTocAndAnchor, {
-      tocFirstLevel: 2,
-      tocLastLevel: 6,
-      anchorLink: true,
-    });
-
-    return { __html: md.render(content) };
-  }, [content]);
-
+}>;
+const Book = ({ children, filename }: BookProps) => {
   const editUrl = `https://github.com/varianter/handbook/blob/master/content/${filename}`;
 
   return (
     <section>
-      <article
-        className="handbook"
-        dangerouslySetInnerHTML={innerHtml}
-      ></article>
+      <article className="handbook">{children}</article>
 
       <footer className={style.footer}>
         <p>
@@ -43,22 +22,6 @@ const Book = ({ content, filename }: BookProps) => {
 
 export default Book;
 
-export function BookSummary({ content }: BookProps) {
-  const innerHtml = useMemo(() => {
-    const md = new MarkdownIt({
-      linkify: true,
-      html: true,
-      typographer: true,
-    })
-      .disable(["image"])
-      .use(markdownItTocAndAnchor, {
-        tocFirstLevel: 2,
-        tocLastLevel: 6,
-        anchorLink: true,
-      });
-
-    return { __html: md.render(content) };
-  }, [content]);
-
-  return <div className="handbook" dangerouslySetInnerHTML={innerHtml}></div>;
+export function BookSummary({ children }: BookProps) {
+  return <div className="handbook">{children}</div>;
 }

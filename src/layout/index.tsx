@@ -5,9 +5,9 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import BackgroundBlobs from "src/background";
 import SearchForm from "src/components/search-form";
-import { Handbooks } from "src/utils";
 
 import favicon from "@variant/profile/lib/logo/favicon.png";
+import { slugify } from "src/util";
 
 const title = "Variant Håndbok";
 
@@ -21,15 +21,63 @@ const isActiveHandbook = (path: string, asPath: string, isCategory = false) => {
 };
 
 interface LayoutProps {
-  handbooks: Handbooks;
   subHeadings?: string[];
   currentSearch?: string;
 }
 
+const metadata = {
+  handbooks: [
+    {
+      data: {
+        title: "En variants håndbok",
+      },
+      path: "",
+      title: "En variants håndbok",
+    },
+    {
+      data: {
+        title: "Det praktiske",
+      },
+      path: "information",
+      title: "Det praktiske",
+    },
+    {
+      data: {
+        title: "Kvalitetsrutiner",
+      },
+      path: "quality_manual",
+      title: "Kvalitetsrutiner",
+    },
+  ],
+  categories: [
+    {
+      path: "avdelinger/trondheim",
+      title: "Lokasjoner",
+      handbooks: [
+        {
+          data: {
+            title: "Trondheim",
+            order: 0,
+          },
+          path: "avdelinger/trondheim",
+          title: "Trondheim",
+        },
+        {
+          data: {
+            title: "Oslo",
+            order: 1,
+          },
+          path: "avdelinger/oslo",
+          title: "Oslo",
+        },
+      ],
+    },
+  ],
+};
+
 const Layout: React.FC<LayoutProps> = ({
   subHeadings = [],
   currentSearch = "",
-  handbooks,
   children,
 }) => {
   const modalRef = React.createRef<HTMLDivElement>();
@@ -42,7 +90,7 @@ const Layout: React.FC<LayoutProps> = ({
 
   const { asPath } = useRouter();
 
-  const currentCategory = handbooks.categories.find((category) =>
+  const currentCategory = metadata.categories.find((category) =>
     isActiveHandbook(category.path, asPath, true)
   );
 
@@ -71,7 +119,7 @@ const Layout: React.FC<LayoutProps> = ({
         </Link>
 
         <ul className={style.header__handbooks}>
-          {handbooks.handbooks.map((handbook) => (
+          {metadata.handbooks.map((handbook) => (
             <li
               key={handbook.title}
               className={
@@ -86,7 +134,7 @@ const Layout: React.FC<LayoutProps> = ({
             </li>
           ))}
 
-          {handbooks.categories.map((category) => (
+          {metadata.categories.map((category) => (
             <li
               key={category.title}
               className={
@@ -140,7 +188,7 @@ const Layout: React.FC<LayoutProps> = ({
       >
         <section className={style.nav__inner}>
           <ul className={style.nav__handbooks}>
-            {handbooks.handbooks.map((handbook) => {
+            {metadata.handbooks.map((handbook) => {
               return (
                 <li
                   key={handbook.title}
@@ -157,7 +205,7 @@ const Layout: React.FC<LayoutProps> = ({
               );
             })}
 
-            {handbooks.categories.map((category) => (
+            {metadata.categories.map((category) => (
               <li
                 key={category.title}
                 className={
@@ -201,12 +249,7 @@ const Layout: React.FC<LayoutProps> = ({
                 {subHeadings.map((heading) => {
                   return (
                     <li key={heading} className={style.nav__inner__link}>
-                      <a
-                        href={`#${heading
-                          .replace(/[ -]+/g, "-")
-                          .toLowerCase()}`}
-                        tabIndex={tabIndex}
-                      >
+                      <a href={`#${slugify(heading)}`} tabIndex={tabIndex}>
                         {heading}
                       </a>
                     </li>
