@@ -1,10 +1,6 @@
-import { HandbookLayout } from "src/handbook-layout";
-
-export const meta = {
-  title: "En variants håndbok",
-};
-
-export default (props) => <HandbookLayout meta={meta} toc={toc} {...props} />;
+---
+title: En variants håndbok
+---
 
 # En variants håndbok
 
@@ -535,3 +531,7 @@ Variant er et ansatteid selskap. Ansatte eier enten i morselskapet Variant
 Konsern AS eller direkte i de lokale driftsselskapene. Gjennom
 Medeierskapsprogrammet tilbys alle ansatte hvert år å kjøpe aksjer, og 1. april
 innledes en ny runde med salg gjennom emisjoner.
+
+import { HandbookLayout } from "src/handbook-layout";
+
+export default (props) => <HandbookLayout meta={meta} toc={toc} {...props} />;

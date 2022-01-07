@@ -5,7 +5,6 @@ type BookProps = React.PropsWithChildren<{
 }>;
 const Book = ({ children, filename }: BookProps) => {
   const editUrl = `https://github.com/varianter/handbook/blob/master/content/${filename}`;
-
   return (
     <section>
       <article className="handbook">{children}</article>

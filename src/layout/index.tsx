@@ -7,7 +7,7 @@ import BackgroundBlobs from "src/background";
 import SearchForm from "src/components/search-form";
 
 import favicon from "@variant/profile/lib/logo/favicon.png";
-import { slugify } from "src/util";
+import slugify from "slugify";
 
 const title = "Variant Håndbok";
 
@@ -21,6 +21,7 @@ const isActiveHandbook = (path: string, asPath: string, isCategory = false) => {
 };
 
 interface LayoutProps {
+  meta?: Metadata;
   subHeadings?: string[];
   currentSearch?: string;
 }
@@ -76,6 +77,7 @@ const metadata = {
 };
 
 const Layout: React.FC<LayoutProps> = ({
+  meta,
   subHeadings = [],
   currentSearch = "",
   children,
@@ -97,13 +99,13 @@ const Layout: React.FC<LayoutProps> = ({
   return (
     <div className={style.main}>
       <Head>
-        <title>{title}</title>
+        <title>{meta?.title ?? title}</title>
         <link rel="icon" href={favicon} />
         <link rel="manifest" href="/manifest.json" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@variant_as" />
-        <meta property="og:title" content={title} />
+        <meta property="og:title" content={meta?.title ?? title} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://handbook.variant.no/" />
         <meta
@@ -249,7 +251,10 @@ const Layout: React.FC<LayoutProps> = ({
                 {subHeadings.map((heading) => {
                   return (
                     <li key={heading} className={style.nav__inner__link}>
-                      <a href={`#${slugify(heading)}`} tabIndex={tabIndex}>
+                      <a
+                        href={`#${slugify(heading, { lower: false })}`}
+                        tabIndex={tabIndex}
+                      >
                         {heading}
                       </a>
                     </li>

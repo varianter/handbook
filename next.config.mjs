@@ -1,13 +1,23 @@
 import withPlugins from "next-compose-plugins";
 import withImages from "next-images";
+
 import { remarkMdxToc } from "remark-mdx-toc";
+import remarkGfm from "remark-gfm";
+import remarkFrontmatter from "remark-frontmatter";
+import { remarkMdxFrontmatter } from "remark-mdx-frontmatter";
 
 import mdx from "@next/mdx";
 
 const withMDX = mdx({
   extension: /\.mdx?$/,
   options: {
-    remarkPlugins: [remarkMdxToc],
+    providerImportSource: "@mdx-js/react",
+    remarkPlugins: [
+      remarkGfm,
+      remarkFrontmatter,
+      [remarkMdxFrontmatter, { name: "meta" }],
+      remarkMdxToc,
+    ],
     rehypePlugins: [],
   },
 });
