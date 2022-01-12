@@ -42,7 +42,6 @@ function getNodeText(node: React.ReactNode): string {
 }
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
-  console.log(context);
   return {
     props: {
       data: "hello",
