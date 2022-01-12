@@ -107,3 +107,7 @@ dist
 
 # IntelliJ
 .idea/
+
+
+
+.env.local

@@ -9,6 +9,8 @@ import SearchForm from "src/components/search-form";
 import favicon from "@variant/profile/lib/logo/favicon.png";
 import slugify from "slugify";
 import { LayoutProps } from "../signature";
+import { GetServerSideProps } from "next";
+import { getAuthServerSideProps, useUserdata, signIn, signOut } from "src/auth";
 
 const title = "Variant Håndbok";
 
@@ -80,6 +82,8 @@ export default function GeneralLayout({
   const subHeadings = toc[0].children.map((c) => c.value);
   const modalRef = React.createRef<HTMLDivElement>();
   const closeRef = React.createRef<HTMLButtonElement>();
+
+  const user = useUserdata();
 
   const { isMenuVisible, setMenuVisible, tabIndex } = useTogglableBurgerMenu(
     modalRef,
@@ -263,7 +267,17 @@ export default function GeneralLayout({
 
         <SearchForm currentSearch={currentSearch} />
       </nav>
-      <section className={style.content}>{children}</section>
+      <section className={style.content}>
+        {user ? (
+          <div>
+            {user.name} ({user.department})
+            <button onClick={() => signOut()}>Sign Out</button>
+          </div>
+        ) : (
+          <button onClick={() => signIn("azure-ad")}>Sign in</button>
+        )}
+        {children}
+      </section>
 
       <BackgroundBlobs />
 
@@ -348,6 +362,8 @@ export default function GeneralLayout({
     </div>
   );
 }
+
+export const getServerSideProps: GetServerSideProps = getAuthServerSideProps;
 
 function Hamburger({
   isOpen,
