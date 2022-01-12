@@ -1,24 +1,13 @@
 import withPlugins from "next-compose-plugins";
 import withImages from "next-images";
 
-import { remarkMdxToc } from "remark-mdx-toc";
-import remarkGfm from "remark-gfm";
-import remarkFrontmatter from "remark-frontmatter";
-import { remarkMdxFrontmatter } from "remark-mdx-frontmatter";
-
-import mdx from "@next/mdx";
+import { plugins as remarkPlugins } from "./mdx-plugins/index.mjs";
 
 const withMDX = mdx({
   extension: /\.mdx?$/,
   options: {
     providerImportSource: "@mdx-js/react",
-    remarkPlugins: [
-      remarkGfm,
-      remarkFrontmatter,
-      [remarkMdxFrontmatter, { name: "meta" }],
-      remarkMdxToc,
-    ],
-    rehypePlugins: [],
+    remarkPlugins,
   },
 });
 
@@ -66,4 +55,32 @@ function regexEqual(x, y) {
     x.ignoreCase === y.ignoreCase &&
     x.multiline === y.multiline
   );
+}
+
+function mdx(pluginOptions = {}) {
+  return (nextConfig = {}) => {
+    const extension = pluginOptions.extension || /\.mdx$/;
+
+    return Object.assign({}, nextConfig, {
+      webpack(config, options) {
+        config.module.rules.push({
+          test: extension,
+          use: [
+            options.defaultLoaders.babel,
+            {
+              loader: "@mdx-js/loader",
+              options: pluginOptions.options,
+            },
+            "./mdx-plugins/load-layout.js",
+          ],
+        });
+
+        if (typeof nextConfig.webpack === "function") {
+          return nextConfig.webpack(config, options);
+        }
+
+        return config;
+      },
+    });
+  };
 }

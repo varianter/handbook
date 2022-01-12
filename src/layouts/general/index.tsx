@@ -8,6 +8,7 @@ import SearchForm from "src/components/search-form";
 
 import favicon from "@variant/profile/lib/logo/favicon.png";
 import slugify from "slugify";
+import { LayoutProps } from "../signature";
 
 const title = "Variant Håndbok";
 
@@ -19,12 +20,6 @@ const isActiveHandbook = (path: string, asPath: string, isCategory = false) => {
   if (isCategory) return asPath.includes(path.split("/")[0]);
   return `/${path}` === asPath;
 };
-
-interface LayoutProps {
-  meta?: Metadata;
-  subHeadings?: string[];
-  currentSearch?: string;
-}
 
 const metadata = {
   handbooks: [
@@ -76,12 +71,13 @@ const metadata = {
   ],
 };
 
-const Layout: React.FC<LayoutProps> = ({
+export default function GeneralLayout({
   meta,
-  subHeadings = [],
+  toc,
   currentSearch = "",
   children,
-}) => {
+}: LayoutProps) {
+  const subHeadings = toc[0].children.map((c) => c.value);
   const modalRef = React.createRef<HTMLDivElement>();
   const closeRef = React.createRef<HTMLButtonElement>();
 
@@ -351,9 +347,7 @@ const Layout: React.FC<LayoutProps> = ({
       </footer>
     </div>
   );
-};
-
-export default Layout;
+}
 
 function Hamburger({
   isOpen,
