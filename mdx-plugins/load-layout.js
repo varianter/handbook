@@ -6,8 +6,8 @@ const fg = require("fast-glob");
 // the docs are still readable on github.
 //
 // Layout component for a .mdx or .md page can be specfied in the frontmatter.
-// This plugin assumes that the layout file and named export are the same. This
-// easily changed by modifying the string below.
+// If no layout is wanted tag with `layout: none` in frontmatter. Default layout
+// is "handbook". Add new layout to src/layouts with same signature.
 //
 // All metadata can be written in yaml front matter. It will be passed to the
 // layout component as `meta` prop.
