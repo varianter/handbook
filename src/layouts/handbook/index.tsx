@@ -4,6 +4,7 @@ import Book from "src/components/book";
 import { MDXProvider } from "@mdx-js/react";
 import slugify from "slugify";
 import { LayoutProps } from "../signature";
+import { GetServerSideProps } from "next";
 
 function LinkableH2({ children, ...props }: JSX.IntrinsicElements["h2"]) {
   const textContent = getNodeText(children);
@@ -39,3 +40,12 @@ function getNodeText(node: React.ReactNode): string {
   }
   return "";
 }
+
+export const getServerSideProps: GetServerSideProps = async (context) => {
+  console.log(context);
+  return {
+    props: {
+      data: "hello",
+    },
+  };
+};
