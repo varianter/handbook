@@ -27,7 +27,7 @@
     "@variant/profile": "^3.0.1",
     "gray-matter": "^4.0.3",
     "hamburger-react": "^2.4.1",
-    "markdown-it": "^12.3.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-toc-and-anchor": "^4.2.0",
     "next": "^12.0.7",
     "next-images": "^1.8.4",
