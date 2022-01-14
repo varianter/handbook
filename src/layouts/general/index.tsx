@@ -11,11 +11,9 @@ import slugify from "slugify";
 import { LayoutProps } from "../signature";
 import { GetServerSideProps } from "next";
 import { getAuthServerSideProps, useUserdata, signIn, signOut } from "src/auth";
+import { and } from "src/utils/css";
 
 const title = "Variant Håndbok";
-
-export const and = (...classes: (string | undefined)[]) =>
-  classes.filter(Boolean).join(" ");
 
 const isActiveHandbook = (path: string, asPath: string, isCategory = false) => {
   if (asPath === "/" && path === "handbook") return true;
