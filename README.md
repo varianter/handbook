@@ -1,4 +1,4 @@
-# Variant Handobok
+# Variant Handbook
 
 ## Text
 
