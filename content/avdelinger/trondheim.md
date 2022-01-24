@@ -108,7 +108,7 @@ En oversikt over hva sossisfondet er brukt til i Trondheim, og hvor mye som gjen
 
 ### Verneombud
 
-Selskapet skal legge til rette for at det velges et verneombud. Verneombudet velges for to år om gangen og velges på variantdagen i mars. Ledelsen kan ikke delta i valget eller velges som verneombud. Se lokale sider for hevem som verneombud i de ulike byene. Verneombud fra 2021 er Stine Bechmann og kontaktinformasjon finnes på hjemmesiden vår og i internsystemer.
+Selskapet skal legge til rette for at det velges et verneombud. Verneombudet velges for to år om gangen og velges på variantdagen i mars. Ledelsen kan ikke delta i valget eller velges som verneombud. Se lokale sider for hvem som verneombud i de ulike byene. Verneombud fra 2021 er Stine Bechmann og kontaktinformasjon finnes på hjemmesiden vår og i internsystemer.
 
 ### Lokalt HMS-arbeid
 
