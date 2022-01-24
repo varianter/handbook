@@ -368,15 +368,7 @@ AS.
 ## PC-valg
 
 Våre konsulenter skal ha det verktøyet de er mest komfortabel med, og som trengs
-for å gjøre jobben. Det betyr at de i prinsippet kan velge hvilken maskin som
-helst. Vi har plukket ut noen modeller som basert på vår erfaring så langt er de
-mest populære:
-
-- [MacBook Pro 14](https://eplehuset.no/macbook-pro-14-tommer-m1-pro-1-tb-stellargra)
-- [Lenovo X1 Carbon 14](https://www.komplett.no/product/1189183/pc-nettbrett/pc-baerbar-laptop/ultraportable/lenovo-thinkpad-x1-carbon-g9-140-full-hd)
-
-Har man behov for noe annet enn disse modellene er det helt i orden, og hver
-enkelt må da gjøre en vurdering av behovet opp mot eventuell ekstra kostnad.
+for å gjøre jobben. Derfor er det viktig at du selv velger hvilken maskin du liker å jobbe på. Mac eller PC, spiller ingen rolle. Og du, om er du usikker så spør du i #helpdesk 🤓
 
 ## Våre internsystemer
 
