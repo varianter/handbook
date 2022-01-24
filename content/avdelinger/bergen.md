@@ -22,7 +22,7 @@ faktura.bergen@variant.no
 ## Timeføring
 
 Timene skal leveres ukentlig. Fristen er mandag morgen kl 9.00 den påfølgende
-uken. Timene føres i [Harvest](https://variantosloas.harvestapp.com/). Herfra kan
+uken. Timene føres i [Harvest](https://variantbergenas.harvestapp.com). Herfra kan
 man også laste ned Apps for både Mac og telefoner.
 
 ## Helse, miljø og sikkerhet
