@@ -50,7 +50,7 @@ Gjør deg kjent med følgende hos Spaces Vaskerelven:
 - Nærmeste brannmelder
 - Nærmeste slokkemiddel
 
-Ved brannalarm, forlat bygningen gjennom rømningsveiene og gå deretter til [samlingsplassen over gaten forran Killroy, ved Rummelhoffsmauet.](https://goo.gl/maps/SQCiQ6LS4m77o22X9) Hvis brann oppstår uten at automatisk alarm er utløst, trykk på brannmelder hvis mulig og gå deretter ut av bygningen og til samlingsplassen.
+Ved brannalarm, forlat bygningen gjennom rømningsveiene og gå deretter til [samlingsplassen over gaten forran Kilroy, ved Rummelhoffsmauet.](https://goo.gl/maps/SQCiQ6LS4m77o22X9) Hvis brann oppstår uten at automatisk alarm er utløst, trykk på brannmelder hvis mulig og gå deretter ut av bygningen og til samlingsplassen.
 
 Vinduer og døren til kontoret må lukkes. Heis skal IKKE benyttes som rømningsvei.
 
