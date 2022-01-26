@@ -221,7 +221,7 @@ ble belastet og betalte vet du best.
 
 Folk har lurt "Dette gadgetbudsjettet deres, hva kan det brukes til?" og svaret
 er at bare
-[Skatteetatens definisjon](https://www.skatteetaten.no/rettskilder/type/handboker/skatte-abc/2018/naturalytelser-i-arbeidsforhold/N-1.017/N-1.034/#4-14-2-arbeidsgivers-utplassering-av-datautst)
+[Skatteetatens definisjon](https://www.skatteetaten.no/rettskilder/type/handboker/skatte-abc/gjeldende/naturalytelser-i-arbeidsforhold/N-1.023/N-1.038/)
 setter grenser. Kort oppsummert: Mobiltelefon, programvare og datautstyr som
 f.eks hodetelefoner og tastatur. Se gjerne
 [gadgetoversikten](https://gadget.variant.no) hva andre varianter har kjøpt.
