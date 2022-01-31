@@ -73,7 +73,7 @@ export function DepartmentGroup({ children }: DepartmentGroupProps) {
   return (
     <div className={style.departmentGroup}>
       <ul className={style.tabMenu}>
-        {departments.map((dep, i) => {
+        {departments.map((dep) => {
           const slug = toSlug(dep);
           return (
             <DepartureTabItem
