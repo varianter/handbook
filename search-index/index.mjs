@@ -1,23 +1,31 @@
 import { dirname, join } from "path";
 import { createIndexer } from "./indexer.mjs";
 import { selectAttributeValue } from "./tree-tools.mjs";
+import algoliasearch from "algoliasearch";
+import dotenv from "dotenv";
+
+if (!process.env.NODE_ENV) {
+  dotenv.config({ path: ".env.local" });
+}
 
 const baseUrl = process.env.BASE_URL || "";
+const appId = process.env.ALGOLIA_APP_ID || "";
+const apiKey = process.env.ALGOLIA_API_KEY || "";
 if (process.env.NODE_ENV === "production" && baseUrl === "") {
   throw new Error("Please set the BASE_URL environment variable");
+}
+if (appId === "") {
+  throw new Error("Please set the ALGOLIA_APP_ID environment variable");
+}
+if (apiKey === "") {
+  throw new Error("Please set the ALGOLIA_API_KEY environment variable");
 }
 
 import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-// const pagesGlob = join(__dirname, "../pages/**/*.{md,mdx}");
-// const files = await glob(pagesGlob);
-// const results = await Promise.all(files.map(fileToAst));
-
 const indexer = createIndexer(baseUrl);
-
-const file = join(__dirname, "../pages/index.mdx");
-
+const file = join(__dirname, "../pages/**/*.{md,mdx}");
 const result = await indexer
   .addGlob(file)
   .addNodeData("paragraph, list")
@@ -31,4 +39,13 @@ const result = await indexer
   })
   .generateIndexes();
 
-console.log(result);
+const client = algoliasearch(appId, apiKey);
+const index = client.initIndex("handbook_content");
+try {
+  const returned = await index.saveObjects(result, {
+    autoGenerateObjectIDIfNotExist: true,
+  });
+  console.log(`Indexed ${returned.objectIDs.length} items`);
+} catch (e) {
+  console.log(e);
+}
