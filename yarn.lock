@@ -833,6 +833,11 @@ estraverse@^5.1.0, estraverse@^5.2.0:
   resolved "https://registry.yarnpkg.com/estraverse/-/estraverse-5.2.0.tgz#307df42547e6cc7324d3cf03c155d5cdb8c53880"
   integrity sha512-BxbNGGNm0RyRYvUdHpIwv9IWzeM9XClbOxwoATuFdOE7ZE6wHL+HQ5T8hoPM+zHvmKzzsEqhgy0GrQ5X13afiQ==
 
+estree-eval@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/estree-eval/-/estree-eval-1.0.3.tgz#4eecd465a0bfff7de59e8f359cf7ed6b91dba2ef"
+  integrity sha1-TuzUZaC//33lno81nPfta5Hbou8=
+
 estree-util-attach-comments@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/estree-util-attach-comments/-/estree-util-attach-comments-1.0.0.tgz#51d280e458ce85dec0b813bd96d2ce98eae8a3f2"

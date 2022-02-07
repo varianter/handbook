@@ -1,9 +1,9 @@
 import glob from "fast-glob";
 import { vfileToAst } from "../mdx-plugins/index.mjs";
 import { read } from "to-vfile";
-import { visit } from "unist-util-visit";
 import slugify from "slugify";
 import { selectAll } from "unist-util-select";
+import { getTextValue } from "./tree-tools.mjs";
 
 export function createIndexer(baseUrl) {
   function _createIndexer(filesGlobs = [], nodeMapper = {}) {
@@ -11,10 +11,16 @@ export function createIndexer(baseUrl) {
       addGlob(glob) {
         return _createIndexer(filesGlobs.concat(glob), nodeMapper);
       },
-      mapNodes(node, mapping) {
+      addNodeMap(node, mapping) {
         return _createIndexer(filesGlobs, {
           ...nodeMapper,
           [node]: mapping,
+        });
+      },
+      addNodeData(node) {
+        return _createIndexer(filesGlobs, {
+          ...nodeMapper,
+          [node]: dataIdentity,
         });
       },
       generateIndexes: async function generateIndexes() {
@@ -29,12 +35,8 @@ export function createIndexer(baseUrl) {
   return _createIndexer();
 }
 
-export function getTextValue(node) {
-  let str = "";
-  visit(node, "text", function (item) {
-    str += item.value;
-  });
-  return str;
+function dataIdentity(data) {
+  return data;
 }
 
 function createFileIndexer(baseUrl, nodeMapper) {
@@ -64,14 +66,13 @@ function getMappedDataWithHeadings(nodeMapper, baseUrl, urlPath, tree) {
   for (let node of tree.children) {
     if (node.type === "heading") {
       currentHeading = getTextValue(node);
-      continue;
     }
 
     for (let [nodeSelector, mapping] of Object.entries(nodeMapper)) {
-      const slug = slugify(currentHeading);
+      const slug = currentHeading ? slugify(currentHeading) : null;
       const mappedData = doMapping(nodeSelector, mapping, node, tree, {
         slug,
-        title: currentHeadingSlug,
+        title: currentHeading,
         urlPath,
         url: `${baseUrl}${urlPath}#${slug}`,
       });
@@ -85,17 +86,19 @@ function getMappedDataWithHeadings(nodeMapper, baseUrl, urlPath, tree) {
 }
 
 function doMapping(nodeSelector, mapping, node, tree, data) {
-  return selectAll(nodeSelector, node).map(function (innerNode) {
-    const content = getTextValue(innerNode);
+  return selectAll(nodeSelector, node)
+    .map(function (innerNode) {
+      const content = getTextValue(innerNode);
 
-    return mapping(
-      {
-        ...data,
-        content,
-      },
-      innerNode,
-      nodeSelector,
-      tree
-    );
-  });
+      return mapping(
+        {
+          ...data,
+          content,
+        },
+        innerNode,
+        nodeSelector,
+        tree
+      );
+    })
+    .filter(Boolean);
 }

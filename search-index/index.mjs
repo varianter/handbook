@@ -1,5 +1,6 @@
 import { dirname, join } from "path";
-import { createIndexer, fileToAst } from "./indexer.mjs";
+import { createIndexer } from "./indexer.mjs";
+import { selectAttributeValue } from "./tree-tools.mjs";
 
 const baseUrl = process.env.BASE_URL || "";
 if (process.env.NODE_ENV === "production" && baseUrl === "") {
@@ -16,12 +17,18 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const indexer = createIndexer(baseUrl);
 
 const file = join(__dirname, "../pages/index.mdx");
-const ast = await fileToAst(file);
 
 const result = await indexer
   .addGlob(file)
-  .mapNodes("paragraph, list", function (data) {
-    return data;
+  .addNodeData("paragraph, list")
+  .addNodeMap("mdxJsxFlowElement[name=DepartmentItem]", function (data, node) {
+    const val = selectAttributeValue("[name=dep]", node);
+    const department = Array.isArray(val) ? val : [val];
+    return {
+      ...data,
+      department,
+    };
   })
   .generateIndexes();
+
 console.log(result);
