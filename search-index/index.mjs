@@ -1,10 +1,10 @@
-import glob from "fast-glob";
 import { dirname, join } from "path";
-import { vfileToAst } from "../mdx-plugins/index.mjs";
-import { read } from "to-vfile";
-import { visit } from "unist-util-visit";
-import slugify from "slugify";
-import { selectAll } from "unist-util-select";
+import { createIndexer, fileToAst } from "./indexer.mjs";
+
+const baseUrl = process.env.BASE_URL || "";
+if (process.env.NODE_ENV === "production" && baseUrl === "") {
+  throw new Error("Please set the BASE_URL environment variable");
+}
 
 import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -13,67 +13,15 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 // const files = await glob(pagesGlob);
 // const results = await Promise.all(files.map(fileToAst));
 
+const indexer = createIndexer(baseUrl);
+
 const file = join(__dirname, "../pages/index.mdx");
-const result = await toFileIndexes(file);
+const ast = await fileToAst(file);
+
+const result = await indexer
+  .addGlob(file)
+  .mapNodes("paragraph, list", function (data) {
+    return data;
+  })
+  .generateIndexes();
 console.log(result);
-
-async function toFileIndexes(file) {
-  const ast = await fileToAst(file);
-  const urlPath = fileToUrl(file);
-
-  return getParagraphsWithSlugFromRoot(urlPath, ast);
-}
-
-async function fileToAst(file) {
-  const vfile = await read(file, "utf8");
-  return vfileToAst(vfile);
-}
-
-function fileToUrl(file) {
-  const path = file.replace(/^.*?pages/, "").replace(/\.mdx?$/, "");
-  if (path === "/index") {
-    return "/";
-  }
-  return path;
-}
-
-function getParagraphsWithSlugFromRoot(urlPath, tree) {
-  let currentHeadingSlug = null;
-  let data = [];
-  for (let node of tree.children) {
-    if (node.type === "heading") {
-      currentHeadingSlug = slugify(getTextValue(node));
-      continue;
-    }
-
-    let content = getAllTextsFromNodes(node);
-    if (content == "") {
-      continue;
-    }
-
-    data = data.concat({
-      slug: currentHeadingSlug,
-      content,
-      urlPath,
-      url: `${urlPath}#${currentHeadingSlug}`,
-    });
-  }
-  return data;
-}
-
-function getAllTextsFromNodes(node) {
-  const nodes = selectAll("paragraph, list", node);
-  let text = "";
-  for (let node of nodes) {
-    text += getTextValue(node);
-  }
-  return text;
-}
-
-function getTextValue(node) {
-  let str = "";
-  visit(node, "text", function (item) {
-    str += item.value;
-  });
-  return str;
-}
