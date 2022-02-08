@@ -1,14 +1,21 @@
 name: CI
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - master
 jobs:
   build:
     name: Run search index
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: borales/actions-yarn@v2.3.0
+      - uses: actions/setup-node@v2
         with:
-          cmd: install
-      - uses: borales/actions-yarn@v2.3.0
-        with:
-          cmd: search-index
+          node-version: "16"
+          cache: "yarn"
+      - run: yarn install
+      - run: yarn search-index
+        env:
+          BASE_URL: ${{ secrets.BASE_URL }}
+          ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
