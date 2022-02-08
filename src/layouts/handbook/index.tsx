@@ -14,8 +14,18 @@ function LinkableH2({ children, ...props }: JSX.IntrinsicElements["h2"]) {
   );
 }
 
+function LinkableH3({ children, ...props }: JSX.IntrinsicElements["h2"]) {
+  const textContent = getNodeText(children);
+  return (
+    <h3 {...props} id={slugify(textContent, { lower: false })}>
+      {children}
+    </h3>
+  );
+}
+
 const components = {
   h2: LinkableH2,
+  h3: LinkableH3,
 };
 
 export default function HandbookLayout({ children, ...props }: LayoutProps) {
