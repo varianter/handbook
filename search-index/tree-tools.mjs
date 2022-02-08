@@ -6,7 +6,7 @@ import { evaluate } from "estree-eval";
 export function getTextValue(node) {
   let str = "";
   visit(node, "text", function (item) {
-    str += item.value;
+    str += " " + item.value;
   });
   return str;
 }
