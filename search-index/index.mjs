@@ -24,7 +24,9 @@ if (apiKey === "") {
 import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-const indexer = createIndexer(baseUrl);
+const systemId = "handbook";
+
+const indexer = createIndexer({ baseUrl, systemId });
 const file = join(__dirname, "../pages/**/*.{md,mdx}");
 const result = await indexer
   .addGlob(file)
@@ -41,6 +43,13 @@ const result = await indexer
 
 const client = algoliasearch(appId, apiKey);
 const index = client.initIndex("handbook_content");
+await index.setSettings({
+  attributesForFaceting: ["systemId"],
+});
+await index.deleteBy({
+  filters: `systemId:${systemId}`,
+});
+
 try {
   const returned = await index.saveObjects(result, {
     autoGenerateObjectIDIfNotExist: true,

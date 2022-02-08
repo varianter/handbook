@@ -2,10 +2,11 @@ import glob from "fast-glob";
 import { vfileToAst } from "../mdx-plugins/index.mjs";
 import { read } from "to-vfile";
 import slugify from "slugify";
+import fm from "gray-matter";
 import { selectAll } from "unist-util-select";
 import { getTextValue } from "./tree-tools.mjs";
 
-export function createIndexer(baseUrl) {
+export function createIndexer(metadata) {
   function _createIndexer(filesGlobs = [], nodeMapper = {}) {
     return {
       addGlob(glob) {
@@ -25,7 +26,7 @@ export function createIndexer(baseUrl) {
       },
       generateIndexes: async function generateIndexes() {
         const files = await glob(filesGlobs);
-        const indexer = createFileIndexer(baseUrl, nodeMapper);
+        const indexer = createFileIndexer(metadata, nodeMapper);
         const result = await Promise.all(files.map(indexer));
         return result.flat();
       },
@@ -39,17 +40,23 @@ function dataIdentity(data) {
   return data;
 }
 
-function createFileIndexer(baseUrl, nodeMapper) {
+function createFileIndexer(metadata, nodeMapper) {
   return async function toFileIndexes(file) {
-    const ast = await fileToAst(file);
+    const { ast, matter } = await parseFile(file);
     const urlPath = fileToUrl(file);
-    return getMappedDataWithHeadings(nodeMapper, baseUrl, urlPath, ast);
+    return getMappedDataWithHeadings(
+      nodeMapper,
+      metadata,
+      matter.data,
+      urlPath,
+      ast
+    );
   };
 }
 
-export async function fileToAst(file) {
+export async function parseFile(file) {
   const vfile = await read(file, "utf8");
-  return vfileToAst(vfile);
+  return { ast: vfileToAst(vfile), matter: fm(vfile.toString()) };
 }
 
 function fileToUrl(file) {
@@ -60,9 +67,16 @@ function fileToUrl(file) {
   return path;
 }
 
-function getMappedDataWithHeadings(nodeMapper, baseUrl, urlPath, tree) {
+function getMappedDataWithHeadings(
+  nodeMapper,
+  metadata,
+  matter,
+  urlPath,
+  tree
+) {
   let currentHeading = null;
   let data = [];
+
   for (let node of tree.children) {
     if (node.type === "heading") {
       currentHeading = getTextValue(node);
@@ -74,7 +88,9 @@ function getMappedDataWithHeadings(nodeMapper, baseUrl, urlPath, tree) {
         slug,
         title: currentHeading,
         urlPath,
-        url: `${baseUrl}${urlPath}#${slug}`,
+        matter,
+        systemId: metadata.systemId,
+        url: `${metadata.baseUrl}${urlPath}#${slug}`,
       });
 
       if (mappedData) {
