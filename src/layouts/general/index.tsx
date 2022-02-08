@@ -77,7 +77,7 @@ export default function GeneralLayout({
   currentSearch = "",
   children,
 }: LayoutProps) {
-  const subHeadings = toc[0].children.map((c) => c.value);
+  const subHeadings = toc[0]?.children.map((c) => c.value) ?? [];
   const modalRef = React.createRef<HTMLDivElement>();
   const closeRef = React.createRef<HTMLButtonElement>();
 

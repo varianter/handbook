@@ -28,7 +28,7 @@ export default function SearchForm({
   const performSearch = () => {
     router.push({
       pathname: "/search",
-      query: { q: encodeURIComponent(searchQuery) },
+      query: { query: encodeURIComponent(searchQuery) },
     });
   };
 

@@ -179,3 +179,8 @@ h3 .markdownIt-Anchor {
 h4 .markdownIt-Anchor {
   font-size: 1rem;
 }
+
+.ais-Highlight-highlighted {
+  background-color: var(--color-secondary3__tint1);
+  color: var(--color-secondary3__tint1--text);
+}
