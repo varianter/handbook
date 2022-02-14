@@ -21,30 +21,48 @@ if (apiKey === "") {
   throw new Error("Please set the ALGOLIA_API_KEY environment variable");
 }
 
+const departments = ["Trondheim", "Oslo", "Bergen", "Molde"];
+
 import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const systemId = "handbook";
 
+function allIfAll(deps) {
+  if (deps.includes("all")) {
+    return departments;
+  }
+  return deps;
+}
+
 const indexer = createIndexer({ baseUrl, systemId });
 const file = join(__dirname, "../pages/**/*.{md,mdx}");
 const result = await indexer
   .addGlob(file)
-  .addNodeData("paragraph, list")
-  .addNodeMap("mdxJsxFlowElement[name=DepartmentItem]", function (data, node) {
-    const val = selectAttributeValue("[name=dep]", node);
-    const department = Array.isArray(val) ? val : [val];
+  .addNodeMap(":root > paragraph", function (data, node) {
     return {
       ...data,
-      department,
+      department: departments,
     };
   })
+  .addNodeMap(
+    ":root > mdxJsxFlowElement[name=DepartmentItem]",
+    function (data, node) {
+      const val = selectAttributeValue("[name=dep]", node);
+      const department = Array.isArray(val) ? val : [val];
+      return {
+        ...data,
+        // Mark all items in the department as "all" to filter
+        department: allIfAll(department),
+      };
+    }
+  )
   .generateIndexes();
 
 const client = algoliasearch(appId, apiKey);
 const index = client.initIndex("handbook_content");
 await index.setSettings({
-  attributesForFaceting: ["systemId"],
+  attributesForFaceting: ["systemId", "department"],
 });
 await index.deleteBy({
   filters: `systemId:${systemId}`,
