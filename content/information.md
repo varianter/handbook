@@ -365,6 +365,9 @@ AS.
 1. Gi beskjed på [#helpdesk](slack://channel?id=CBFA8V536&team=T7FAZ8XT2) om at
    skjema er sendt inn og at portering kan iverksettes.
 
+
+Etter at telefonabonnementet er portert er det lurt å oppdatere tilholdssted på [telia.no](https://www.telia.no/). Logg inn og [naviger til Endre kontaktinformasjon](https://min-side.telia.no/re/endre-kontaktinformasjon).
+
 ## PC-valg
 
 Våre konsulenter skal ha det verktøyet de er mest komfortabel med, og som trengs
