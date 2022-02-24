@@ -185,7 +185,7 @@ samtidig som du levererer reiseregning eller ved å gå inn
 [her](https://dash.variant.no/climate/registration).
 
 Hvis dette skjemaet blir for enkelt for din reise kan for eksempel dette
-[skjemaet](https://www.ks.no/om-ks/om-ks/politisk-ledelse/skjema-for-utfylling-av-reiseregning/)
+[skjemaet](https://www.ks.no/om-ks/skjema-for-utfylling-av-reiseregning/)
 benyttes i stedet.
 
 _NB! Hvis reisen skal viderefaktureres til en kunde gjennom megler, se avsnitt
