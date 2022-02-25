@@ -36,27 +36,25 @@ function allIfAll(deps) {
 }
 
 const indexer = createIndexer({ baseUrl, systemId });
+// const file = join(__dirname, "../pages/test.mdx");
 const file = join(__dirname, "../pages/**/*.{md,mdx}");
 const result = await indexer
   .addGlob(file)
-  .addNodeMap(":root > paragraph", function (data, node) {
+  .addNodeMap("mdxJsxFlowElement[name=DepartmentItem]", function (data, node) {
+    const val = selectAttributeValue("[name=dep]", node);
+    const department = Array.isArray(val) ? val : [val];
+    return {
+      ...data,
+      // Mark all items in the department as "all" to filter
+      department: allIfAll(department),
+    };
+  })
+  .addNodeMap("paragraph", function (data, node) {
     return {
       ...data,
       department: departments,
     };
   })
-  .addNodeMap(
-    ":root > mdxJsxFlowElement[name=DepartmentItem]",
-    function (data, node) {
-      const val = selectAttributeValue("[name=dep]", node);
-      const department = Array.isArray(val) ? val : [val];
-      return {
-        ...data,
-        // Mark all items in the department as "all" to filter
-        department: allIfAll(department),
-      };
-    }
-  )
   .generateIndexes();
 
 const client = algoliasearch(appId, apiKey);

@@ -75,7 +75,7 @@ function getMappedDataWithHeadings(
   tree
 ) {
   let currentHeading = null;
-  let data = [];
+  let contentList = [];
 
   for (let node of tree.children) {
     if (node.type === "heading") {
@@ -84,7 +84,7 @@ function getMappedDataWithHeadings(
 
     for (let [nodeSelector, mapping] of Object.entries(nodeMapper)) {
       const slug = currentHeading ? slugify(currentHeading) : null;
-      const mappedData = doMapping(nodeSelector, mapping, node, tree, {
+      const result = doMapping(nodeSelector, mapping, node, tree, {
         slug,
         title: currentHeading,
         urlPath,
@@ -93,28 +93,45 @@ function getMappedDataWithHeadings(
         url: `${metadata.baseUrl}${urlPath}#${slug}`,
       });
 
-      if (mappedData) {
-        data = data.concat(mappedData);
-      }
+      const uniqueContent = result.reduce(function (
+        acc,
+        [innerNode, mappedData]
+      ) {
+        if (isTextFromBefore(mappedData, contentList)) {
+          return acc;
+        }
+        return acc.concat(mappedData);
+      },
+      []);
+
+      contentList = contentList.concat(uniqueContent);
     }
   }
-  return data;
+  return contentList;
 }
 
+function isTextFromBefore(current, previous) {
+  return previous.some(function (visited) {
+    return isEqual(visited.content, current.content);
+  });
+}
 function doMapping(nodeSelector, mapping, node, tree, data) {
   return selectAll(nodeSelector, node)
     .map(function (innerNode) {
-      const content = getTextValue(innerNode);
-
-      return mapping(
+      const output = mapping(
         {
           ...data,
-          content,
+          content: getTextValue(innerNode),
         },
         innerNode,
         nodeSelector,
         tree
       );
+
+      if (!output) {
+        return output;
+      }
+      return [innerNode, output];
     })
     .filter(Boolean);
 }

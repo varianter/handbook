@@ -8,7 +8,7 @@ export function getTextValue(node) {
   visit(node, "text", function (item) {
     str += " " + item.value;
   });
-  return str;
+  return str.trim();
 }
 
 export function selectAttribute(selector, node) {
