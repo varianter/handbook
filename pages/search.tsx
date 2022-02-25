@@ -16,7 +16,7 @@ import style from "src/search/search.module.css";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import qs from "qs";
-import sortBy from "lodash.sortBy";
+import { by } from "@pabra/sortby";
 
 const appId = process.env.NEXT_PUBLIC_ALGOLIA_APP_ID || "";
 const apiKey = process.env.NEXT_PUBLIC_ALGOLIA_READ_KEY || "";
@@ -47,7 +47,7 @@ export default function Search() {
         <ClearRefinements />
         <RefinementList
           attribute="department"
-          transformItems={(items: any[]) => sortBy(items, "label")}
+          transformItems={(items: any[]) => items.sort(by("label"))}
         />
         <Configure hitsPerPage={8} />
         <SearchBox autoFocus />
