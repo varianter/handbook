@@ -30,7 +30,7 @@ man også laste ned Apps for både Mac og telefoner.
 
 ### Verneombud
 
-Selskapet skal legge til rette for at det velges et verneombud. Verneombudet velges for to år om gangen og velges på variantdagen i mars. Ledelsen kan ikke delta i valget eller velges som verneombud. Se lokale sider for hvem som verneombud i de ulike byene. Verneombud fra 2021 er Stine Bechmann og kontaktinformasjon finnes på hjemmesiden vår og i internsystemer.
+Selskapet skal legge til rette for at det velges et verneombud. Verneombudet velges for to år om gangen og velges på variantdagen i mars. Ledelsen kan ikke delta i valget eller velges som verneombud. Se lokale sider for hvem som verneombud i de ulike byene. Verneombud fra Mars 2022 i Oslo er Jonas Lillevold og kontaktinformasjon finnes på hjemmesiden vår og i internsystemer.
 
 ### Lokalt HMS-arbeid
 
