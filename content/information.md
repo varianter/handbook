@@ -48,7 +48,7 @@ halv skatt i november.
 ## Timeføring
 
 Timene skal leveres ukentlig. Fristen er mandag morgen kl 9.00 den påfølgende
-uken. Timene føres i Harvest. Ulike byer har ulike kontoer sjekk sidenn for din
+uken. Timene føres i Harvest. Ulike byer har ulike kontoer sjekk siden for din
 by for å finne riktig harvest-adresse.
 
 En full dag regnes som 7,5 timer og en full uke som 37,5 timer. Det er helt i
