@@ -49,7 +49,7 @@ halv skatt i november.
 
 Timene skal leveres ukentlig. Fristen er mandag morgen kl 9.00 den påfølgende
 uken. Timene føres i Harvest. Ulike byer har ulike kontoer sjekk sidenn for din
-bby for å finne riktig harvest-adresse.
+by for å finne riktig harvest-adresse.
 
 En full dag regnes som 7,5 timer og en full uke som 37,5 timer. Det er helt i
 orden å flekse tid innenfor en måned. Dette forutsetter selvsagt at det er
