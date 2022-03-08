@@ -116,7 +116,7 @@ for refusjon av reiseutlegg.
 
 Hvis du får en faktura som skal betales av variant sendes den til selskapets
 epostmottak for faktura. De ulike lokasjonene har ulike adresser, sjekk siden
-for din lokasjon for å finne riktig adresse, som er på forme
+for din lokasjon for å finne riktig adresse, som er på formen
 `faktura.{by}@variant.no`.
 
 Eventuelle papirfaktura må altså scannes eller fotograferes. Det siste funker
