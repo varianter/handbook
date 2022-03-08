@@ -81,6 +81,8 @@ man sammen med selskapet har kommet til at dette er å regne som pålagt arbeid.
 Variant dekker lønn under HV-øvelser. Dette timeføres som vanlig under
 `[VEL 1000] Velferdspermisjon med lønn -> Militærtjeneste`.
 
+Husk også å markere bemanning i god tid som `Permisjon med lønn`.
+
 ### Kundetid
 
 På kundetid fører man det man jobber også hvis man jobber utover 7,5 timer.
