@@ -1,5 +1,5 @@
 ---
-title: Det praktiske 
+title: Det praktiske
 ---
 
 # Praktisk informasjon
@@ -48,8 +48,8 @@ halv skatt i november.
 ## Timeføring
 
 Timene skal leveres ukentlig. Fristen er mandag morgen kl 9.00 den påfølgende
-uken. Timene føres i Harvest. Ulike byer har ulike kontoer sjekk sidenn for din bby for å finne riktig 
-harvest-adresse.
+uken. Timene føres i Harvest. Ulike byer har ulike kontoer sjekk siden for din
+by for å finne riktig harvest-adresse.
 
 En full dag regnes som 7,5 timer og en full uke som 37,5 timer. Det er helt i
 orden å flekse tid innenfor en måned. Dette forutsetter selvsagt at det er
@@ -75,6 +75,13 @@ veiledning her ikke skal være nødvendig. Vi har like fullt noen korte føringe
 _Merk at frivillige aktiviteter på kveldstid som deltagelse på meetups,
 konsumering av faglitteratur, podcasts, videoer, etc ikke timeføres, med mindre
 man sammen med selskapet har kommet til at dette er å regne som pålagt arbeid._
+
+### Heimevernet (HV) og militærtjeneste
+
+Variant dekker lønn under HV-øvelser. Dette timeføres som vanlig under
+`[VEL 1000] Velferdspermisjon med lønn -> Militærtjeneste`.
+
+Husk også å markere bemanning i god tid som `Permisjon med lønn`.
 
 ### Kundetid
 
@@ -109,16 +116,16 @@ for refusjon av reiseutlegg.
 
 ## Faktura
 
-Hvis du får en faktura som skal betales av variant sendes den til
-selskapets epostmottak for faktura. De ulike lokasjonene har ulike adresser, sjekk siden for din lokasjon
-for å finne riktig adresse, som er på forme  `faktura.{by}@variant.no`. 
+Hvis du får en faktura som skal betales av variant sendes den til selskapets
+epostmottak for faktura. De ulike lokasjonene har ulike adresser, sjekk siden
+for din lokasjon for å finne riktig adresse, som er på formen
+`faktura.{by}@variant.no`.
 
-Eventuelle papirfaktura må altså scannes eller fotograferes.
-Det siste funker helt greit, men pass på at teksten er leselig. I mailen så
-skriver du inn eventuell ekstra informasjon vi trenger for å godkjenne
-fakturaen. Dette er typisk hva fakturaen er relatert til og hva vi bruker det vi
-har kjøpt til. Noen ting er så åpenbare at det sikkert ikke trenges noe særlig
-ekstra info.
+Eventuelle papirfaktura må altså scannes eller fotograferes. Det siste funker
+helt greit, men pass på at teksten er leselig. I mailen så skriver du inn
+eventuell ekstra informasjon vi trenger for å godkjenne fakturaen. Dette er
+typisk hva fakturaen er relatert til og hva vi bruker det vi har kjøpt til. Noen
+ting er så åpenbare at det sikkert ikke trenges noe særlig ekstra info.
 
 ## Utgiftsrapportering
 
@@ -276,10 +283,10 @@ Her finner dere informasjon om hvordan
 Vi har et fond på 50 000 NOK som kan brukes som midler til sosiale aktiviteter
 utover [de faste vi har satt opp](/quality_manual#sosiale-aktiviteter).
 
-Dette kan være aktiviteter som hytteleie i Sverige, fjellturer, Rush trampolinepark,
-matlaging eller hva enn vi kommer på kan være en god idé. Legg inn forslag som
-Trello-kort under "Til behandling i ledermøtet" på Operativt. Vi burde sikte inn
-på aktiviteter som er inkluderende og tilgjengelig for alle.
+Dette kan være aktiviteter som hytteleie i Sverige, fjellturer, Rush
+trampolinepark, matlaging eller hva enn vi kommer på kan være en god idé. Legg
+inn forslag som Trello-kort under "Til behandling i ledermøtet" på Operativt. Vi
+burde sikte inn på aktiviteter som er inkluderende og tilgjengelig for alle.
 
 ## Sykemelding og egenmelding
 
@@ -334,6 +341,7 @@ Varsle så snart du har anledning. Det er stor variasjon i hvor lang tid det gå
 før legens varsel mottas via Altinn.
 
 ## Planlegging av ferie og permisjoner
+
 Du avgjør selv når du ønsker å ta ut ferie i Variant. Dette avtales med nærmeste
 leder og avklares tidlig med kunde slik at oppdraget løses godt. Det samme
 gjelder kortere permisjoner. Skal du ta ut ferie juli eller i påsken kan du bare
@@ -352,8 +360,12 @@ _NB!_ Husk alltid å oppdatere [bemanning](https://bemanning.variant.no) med
 planlagt ferie og permisjon slik at de som jobber med salg har oversikt.
 
 ### Ammefri
-[Mødre som ammer kan bruke en time om dagen med lønn til dette](https://www.arbeidstilsynet.no/arbeidsforhold/permisjoner/foreldrepermisjon/ammefri/). Dette gjelder fram til barna er ett år gamle. Du finner selv ut når det passer med deg og ditt barns rutiner her. Her gjelder det selvfølgelig å ha en god dialog med kunde på dette, så dagene er forutsigbare og enkle å planlegge rundt for alle involverte. 
 
+[Mødre som ammer kan bruke en time om dagen med lønn til dette](https://www.arbeidstilsynet.no/arbeidsforhold/permisjoner/foreldrepermisjon/ammefri/).
+Dette gjelder fram til barna er ett år gamle. Du finner selv ut når det passer
+med deg og ditt barns rutiner her. Her gjelder det selvfølgelig å ha en god
+dialog med kunde på dette, så dagene er forutsigbare og enkle å planlegge rundt
+for alle involverte.
 
 ## Portere mobilabonnement
 
@@ -365,13 +377,16 @@ AS.
 1. Gi beskjed på [#helpdesk](slack://channel?id=CBFA8V536&team=T7FAZ8XT2) om at
    skjema er sendt inn og at portering kan iverksettes.
 
-
-Etter at telefonabonnementet er portert er det lurt å oppdatere tilholdssted på [telia.no](https://www.telia.no/). Logg inn og [naviger til Endre kontaktinformasjon](https://min-side.telia.no/re/endre-kontaktinformasjon).
+Etter at telefonabonnementet er portert er det lurt å oppdatere tilholdssted på
+[telia.no](https://www.telia.no/). Logg inn og
+[naviger til Endre kontaktinformasjon](https://min-side.telia.no/re/endre-kontaktinformasjon).
 
 ## PC-valg
 
 Våre konsulenter skal ha det verktøyet de er mest komfortabel med, og som trengs
-for å gjøre jobben. Derfor er det viktig at du selv velger hvilken maskin du liker å jobbe på. Mac eller PC, spiller ingen rolle. Og du, om er du usikker så spør du i #helpdesk 🤓
+for å gjøre jobben. Derfor er det viktig at du selv velger hvilken maskin du
+liker å jobbe på. Mac eller PC, spiller ingen rolle. Og du, om er du usikker så
+spør du i #helpdesk 🤓
 
 ## Våre internsystemer
 
