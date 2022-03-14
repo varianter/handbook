@@ -42,17 +42,18 @@ const result = await indexer
   .addGlob(file)
   .addNodeMap("mdxJsxFlowElement[name=DepartmentItem]", function (data, node) {
     const val = selectAttributeValue("[name=dep]", node);
-    const department = Array.isArray(val) ? val : [val];
     return {
       ...data,
       // Mark all items in the department as "all" to filter
-      department: allIfAll(department),
+      department: allIfAll(arrayify(val)),
     };
   })
-  .addNodeMap("paragraph", function (data, node) {
+  .addNodeMap("paragraph", function (data) {
     return {
       ...data,
-      department: departments,
+      department: data.matter.department
+        ? allIfAll(arrayify(data.matter.department))
+        : departments,
     };
   })
   .generateIndexes();
@@ -73,4 +74,8 @@ try {
   console.log(`Indexed ${returned.objectIDs.length} items`);
 } catch (e) {
   console.log(e);
+}
+
+function arrayify(potentialArray) {
+  return Array.isArray(potentialArray) ? potentialArray : [potentialArray];
 }
