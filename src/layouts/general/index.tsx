@@ -187,6 +187,15 @@ export default function GeneralLayout({
         ref={modalRef}
       >
         <section className={style.nav__inner}>
+          {user ? (
+            <div>
+              {user.name} ({user.department})
+              <button onClick={() => signOut()}>Logg ut</button>
+            </div>
+          ) : (
+            <button onClick={() => signIn("azure-ad")}>Logg inn</button>
+          )}
+
           <ul className={style.nav__handbooks}>
             {metadata.handbooks.map((handbook) => {
               return (
@@ -265,17 +274,7 @@ export default function GeneralLayout({
 
         <SearchForm currentSearch={currentSearch} />
       </nav>
-      <section className={style.content}>
-        {user ? (
-          <div>
-            {user.name} ({user.department})
-            <button onClick={() => signOut()}>Sign Out</button>
-          </div>
-        ) : (
-          <button onClick={() => signIn("azure-ad")}>Sign in</button>
-        )}
-        {children}
-      </section>
+      <section className={style.content}>{children}</section>
 
       <BackgroundBlobs />
 
