@@ -20,3 +20,41 @@
 :global(.ais-Pagination-item--selected) {
   font-weight: 500;
 }
+
+.searchInputs {
+  margin: 3rem 1rem 4rem;
+}
+:global(.ais-SearchBox-form) {
+  display: flex;
+  width: 100%;
+  padding: 0 1rem;
+  position: relative;
+}
+:global(.ais-SearchBox-input) {
+  flex: 1;
+  padding: 0.6875rem 1.5625rem;
+  font-size: 16px;
+  border: 0;
+  border-radius: 6.25rem;
+}
+:global(.ais-SearchBox-submit) {
+  border: none;
+  text-align: center;
+  padding: 0.6875rem 1.5625rem;
+  font-weight: 500;
+  background: url("./search.svg") no-repeat center transparent;
+  text-indent: -9999px;
+  position: absolute;
+  right: 1rem;
+  cursor: pointer;
+}
+
+:global(.ais-RefinementList-list) {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1.5rem;
+  align-items: baseline;
+  margin: 0 2rem;
+}
