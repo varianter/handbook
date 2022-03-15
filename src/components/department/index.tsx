@@ -1,9 +1,7 @@
 import React, { ReactNode, useState } from "react";
 import slugify from "slugify";
 import { Userdata, useUserdata } from "src/auth";
-import { and, ifCss } from "src/utils/css";
-
-import style from "./department.module.css";
+import { TabButton, TabContainer, TabList, TabPanel } from "../tabbar";
 
 export type Departments = "Molde" | "Trondheim" | "Oslo" | "Bergen";
 
@@ -33,14 +31,25 @@ type DepartmentsOrAll = Departments[] | "all";
 type DepartmentItemProps = React.PropsWithChildren<{
   dep: Departments | DepartmentsOrAll;
   user?: Userdata;
+  slug?: string;
+  prefixId?: string;
   isVisible?: boolean;
 }>;
-export function DepartmentItem({ isVisible, children }: DepartmentItemProps) {
-  if (!isVisible) {
-    return null;
-  }
-
-  return children;
+export function DepartmentItem({
+  isVisible,
+  slug,
+  prefixId,
+  children,
+}: DepartmentItemProps) {
+  return (
+    <TabPanel
+      labelledBy={`${prefixId}-tab-${slug}`}
+      isVisible={Boolean(isVisible)}
+      id={`${prefixId}-panel-${slug}`}
+    >
+      {children}
+    </TabPanel>
+  );
 }
 
 type DepartmentGroupProps = React.PropsWithChildren<{
@@ -55,24 +64,30 @@ export function DepartmentGroup({ children }: DepartmentGroupProps) {
     findInitialActiveSlug(departments, user)
   );
 
+  const [prefixId] = useState(generateId);
+
   const newChildren = React.Children.map(children, (child) => {
     if (React.isValidElement(child)) {
       if (child.type != DepartmentItem) {
         return null;
       }
       const dep = getDepartmentPropsAsArray(child);
-      const isVisible = dep && selectedSlug == toSlug(dep);
+      const slug = toSlug(dep!);
+      const isVisible = selectedSlug == slug;
 
       return React.cloneElement<DepartmentItemProps>(child, {
         user,
         isVisible,
+        prefixId,
+        slug,
       });
     }
     return null;
   });
+
   return (
-    <div className={style.departmentGroup}>
-      <ul className={style.tabMenu}>
+    <TabContainer>
+      <TabList label={"Velg avdeling"}>
         {departments.map((dep) => {
           const slug = toSlug(dep);
           return (
@@ -80,46 +95,48 @@ export function DepartmentGroup({ children }: DepartmentGroupProps) {
               key={slug}
               deps={dep}
               slug={slug}
+              prefixId={prefixId}
               isActive={slug == selectedSlug}
               onSelect={setSelectedSlug}
             />
           );
         })}
-      </ul>
+      </TabList>
 
       <div>{newChildren}</div>
-    </div>
+    </TabContainer>
   );
 }
 
 type DepartureTabItemProps = {
   deps: DepartmentsOrAll;
   slug: string;
+  prefixId: string;
   isActive: boolean;
   onSelect(slug: string, deps: DepartmentsOrAll): void;
 };
 function DepartureTabItem({
   deps,
   slug,
+  prefixId,
   isActive,
   onSelect,
 }: DepartureTabItemProps) {
   const names = deps == "all" ? "Alle" : deps.join(", ");
 
-  const className = and(style.tab, ifCss(isActive, style["tab--active"]));
-
   return (
-    <button
-      type="button"
-      className={className}
+    <TabButton
       onClick={(e) => {
         e.preventDefault();
         onSelect(slug, deps);
       }}
+      id={`${prefixId}-tab-${slug}`}
       title={`Velg ${names}`}
+      controlsId={`${prefixId}-panel-${slug}`}
+      selected={isActive}
     >
       {names}
-    </button>
+    </TabButton>
   );
 }
 
@@ -166,4 +183,8 @@ function toTruthyList<T>(arr: (T | undefined)[]): T[] {
 function toSlug(deps: DepartmentsOrAll) {
   if (deps == "all") return "all";
   return slugify(deps.join("-"));
+}
+
+function generateId() {
+  return Math.random().toString(16).slice(-4);
 }
