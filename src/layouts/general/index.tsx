@@ -21,6 +21,7 @@ const isActiveHandbook = (path: string, asPath: string, isCategory = false) => {
   return `/${path}` === asPath;
 };
 
+// @TODO This should be automatically generated from the tree structure
 const metadata = {
   handbooks: [
     {
@@ -65,6 +66,14 @@ const metadata = {
           },
           path: "avdelinger/oslo",
           title: "Oslo",
+        },
+        {
+          data: {
+            title: "Bergen",
+            order: 1,
+          },
+          path: "avdelinger/bergen",
+          title: "Bergen",
         },
       ],
     },
