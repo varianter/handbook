@@ -42,7 +42,7 @@ export default function SearchForm({
     >
       <input
         defaultValue={searchQuery}
-        placeholder="Søk etter noe..."
+        placeholder="Hva leter du etter?"
         onChange={(e) => setSearchQuery(e.target.value)}
         ref={ref}
         autoFocus={autofocus}

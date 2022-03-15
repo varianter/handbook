@@ -1,21 +1,25 @@
 .searchform {
   display: flex;
   width: 100%;
+  padding: 1rem;
+  position: relative;
 }
 .searchform input {
   flex: 1;
+  padding: 0.6875rem 1.5625rem;
   font-size: 16px;
-  padding: 0.5rem 1rem;
   border: 0;
-  border-radius: 0;
+  border-radius: 6.25rem;
 }
 
 .searchform button {
   border: none;
-  background: var(--color-primary);
   text-align: center;
-  font-size: 16px;
-  padding: 0.5rem 1.5rem;
-  color: var(--color-primary--text);
+  padding: 0.6875rem 1.5625rem;
   font-weight: 500;
+  background: url("./search.svg") no-repeat center transparent;
+  text-indent: -9999px;
+  position: absolute;
+  right: 1rem;
+  cursor: pointer;
 }

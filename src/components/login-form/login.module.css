@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  position: relative;
+
+  justify-content: flex-end;
+  align-items: baseline;
+  margin-top: auto;
+}
+
+.text {
+  flex: 1;
+}

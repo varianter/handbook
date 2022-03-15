@@ -1,17 +1,17 @@
-import React, { useState, useEffect, useCallback } from "react";
-import style from "./layout.module.css";
+import favicon from "@variant/profile/lib/logo/favicon.png";
+import { GetServerSideProps } from "next";
 import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import BackgroundBlobs from "src/background";
-import SearchForm from "src/components/search-form";
-
-import favicon from "@variant/profile/lib/logo/favicon.png";
+import React, { useCallback, useEffect, useState } from "react";
 import slugify from "slugify";
-import { LayoutProps } from "../signature";
-import { GetServerSideProps } from "next";
-import { getAuthServerSideProps, useUserdata, signIn, signOut } from "src/auth";
+import { getAuthServerSideProps } from "src/auth";
+import BackgroundBlobs from "src/background";
+import LoginForm from "src/components/login-form";
+import SearchForm from "src/components/search-form";
 import { and } from "src/utils/css";
+import { LayoutProps } from "../signature";
+import style from "./layout.module.css";
 
 const title = "Variant Håndbok";
 
@@ -80,8 +80,6 @@ export default function GeneralLayout({
   const subHeadings = toc[0]?.children.map((c) => c.value) ?? [];
   const modalRef = React.createRef<HTMLDivElement>();
   const closeRef = React.createRef<HTMLButtonElement>();
-
-  const user = useUserdata();
 
   const { isMenuVisible, setMenuVisible, tabIndex } = useTogglableBurgerMenu(
     modalRef,
@@ -187,15 +185,6 @@ export default function GeneralLayout({
         ref={modalRef}
       >
         <section className={style.nav__inner}>
-          {user ? (
-            <div>
-              {user.name} ({user.department})
-              <button onClick={() => signOut()}>Logg ut</button>
-            </div>
-          ) : (
-            <button onClick={() => signIn("azure-ad")}>Logg inn</button>
-          )}
-
           <ul className={style.nav__handbooks}>
             {metadata.handbooks.map((handbook) => {
               return (
@@ -272,6 +261,7 @@ export default function GeneralLayout({
           ) : null}
         </section>
 
+        <LoginForm />
         <SearchForm currentSearch={currentSearch} />
       </nav>
       <section className={style.content}>{children}</section>
