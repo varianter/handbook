@@ -117,9 +117,27 @@ for refusjon av reiseutlegg.
 ## Faktura
 
 Hvis du får en faktura som skal betales av variant sendes den til selskapets
-epostmottak for faktura. De ulike lokasjonene har ulike adresser, sjekk siden
-for din lokasjon for å finne riktig adresse, som er på formen
-`faktura.{by}@variant.no`.
+epostmottak for faktura. De ulike lokasjonene har ulike adresser.
+
+<DepartmentGroup>
+
+<DepartmentItem dep="Oslo">
+  <p>`faktura.oslo@variant.no`</p>
+</DepartmentItem>
+
+<DepartmentItem dep="Bergen">
+  <p>`faktura.bergen@variant.no`</p>
+</DepartmentItem>
+
+<DepartmentItem dep={["Trondheim", "Molde"]}>
+  <p>`faktura.trondheim@variant.no`</p>
+</DepartmentItem>
+
+<DepartmentItem dep="all">
+  <p>`faktura@variant.no`</p>
+</DepartmentItem>
+
+</DepartmentGroup>
 
 Eventuelle papirfaktura må altså scannes eller fotograferes. Det siste funker
 helt greit, men pass på at teksten er leselig. I mailen så skriver du inn
@@ -412,3 +430,9 @@ spør du i #helpdesk 🤓
   bruk av bonuspoeng eller andre fordelsprogam.
 - [Fordelsdokumentasjonen](https://fordelsdokumentasjon.variant.no) Hit laster
   du opp dokumentasjon på ovennevnt bruk.
+
+import {
+  Department,
+  DepartmentItem,
+  DepartmentGroup,
+} from "src/components/department";
