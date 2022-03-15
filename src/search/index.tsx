@@ -1,24 +1,22 @@
+import { by } from "@pabra/sortby";
 import algoliasearch from "algoliasearch/lite";
-import React, { useState } from "react";
-import {
-  InstantSearch,
-  Hits,
-  SearchBox,
-  Pagination,
-  Highlight,
-  Configure,
-  ClearRefinements,
-  RefinementList,
-} from "react-instantsearch-dom";
-import { Hit } from "react-instantsearch-core";
-import GeneralLayout from "src/layouts/general";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import qs from "qs";
-import { by } from "@pabra/sortby";
-
-import style from "./search.module.css";
+import React, { useState } from "react";
+import { Hit } from "react-instantsearch-core";
+import {
+  Configure,
+  Highlight,
+  Hits,
+  InstantSearch,
+  Pagination,
+  RefinementList,
+  SearchBox,
+} from "react-instantsearch-dom";
 import { useUserdata } from "src/auth";
+import GeneralLayout from "src/layouts/general";
+import style from "./search.module.css";
 
 const appId = process.env.NEXT_PUBLIC_ALGOLIA_APP_ID || "";
 const apiKey = process.env.NEXT_PUBLIC_ALGOLIA_READ_KEY || "";
