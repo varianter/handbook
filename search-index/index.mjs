@@ -36,7 +36,6 @@ function allIfAll(deps) {
 }
 
 const indexer = createIndexer({ baseUrl, systemId });
-// const file = join(__dirname, "../pages/test.mdx");
 const file = join(__dirname, "../pages/**/*.{md,mdx}");
 const result = await indexer
   .addGlob(file)
