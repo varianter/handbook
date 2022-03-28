@@ -5,23 +5,29 @@ import { MDXProvider } from "@mdx-js/react";
 import slugify from "slugify";
 import { LayoutProps } from "../signature";
 
-function LinkableH2({ children, ...props }: JSX.IntrinsicElements["h2"]) {
-  const textContent = getNodeText(children);
-  return (
-    <h2 {...props} id={slugify(textContent, { lower: false })}>
-      {children}
-    </h2>
-  );
-}
+import style from "./handbook.module.css";
 
-function LinkableH3({ children, ...props }: JSX.IntrinsicElements["h2"]) {
-  const textContent = getNodeText(children);
-  return (
-    <h3 {...props} id={slugify(textContent, { lower: false })}>
-      {children}
-    </h3>
-  );
+function createLinkable(el: "h2" | "h3") {
+  return ({ children, ...props }: JSX.IntrinsicElements[typeof el]) => {
+    const textContent = getNodeText(children);
+    const slug = slugify(textContent, { lower: false });
+    const childList = React.Children.toArray(children);
+    return React.createElement(
+      el,
+      {
+        ...props,
+        id: slug,
+      },
+      childList.concat(
+        <a className={style.anchor} href={`#${slug}`}>
+          #
+        </a>
+      )
+    );
+  };
 }
+const LinkableH2 = createLinkable("h2");
+const LinkableH3 = createLinkable("h3");
 
 const components = {
   h2: LinkableH2,

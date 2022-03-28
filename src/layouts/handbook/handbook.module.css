@@ -1,0 +1,13 @@
+.anchor {
+  text-decoration: none;
+  font-size: 0.8em;
+  padding: 0 0.5rem;
+  align-self: baseline;
+}
+.anchor:visited,
+.anchor:link {
+  color: var(--color-secondary1__tint4);
+}
+.anchor:hover {
+  color: var(--color-primary);
+}
