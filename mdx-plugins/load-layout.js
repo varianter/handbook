@@ -1,6 +1,6 @@
-const fm = require("gray-matter");
-const path = require("path");
-const fg = require("fast-glob");
+const fm = require('gray-matter');
+const path = require('path');
+const fg = require('fast-glob');
 
 // Makes mdx in next.js suck less by injecting necessary exports so that
 // the docs are still readable on github.
@@ -19,18 +19,18 @@ const fg = require("fast-glob");
 module.exports = async function (src) {
   const callback = this.async();
   const { data } = fm(src);
-  const layoutFolders = await fg(path.join(__dirname, "../src/layouts/*"), {
+  const layoutFolders = await fg(path.join(__dirname, '../src/layouts/*'), {
     onlyDirectories: true,
   });
   const availableLayouts = layoutFolders
     .map((r) => path.basename(r))
-    .concat("none");
+    .concat('none');
 
   const layout = availableLayouts.includes(data.layout)
     ? data.layout
-    : "handbook";
+    : 'handbook';
 
-  if (layout === "none") {
+  if (layout === 'none') {
     return callback(null, src);
   }
 

@@ -176,7 +176,7 @@
 }
 
 .footer {
-  background: url("./footer.svg") no-repeat center top;
+  background: url('./footer.svg') no-repeat center top;
   margin-top: auto;
 }
 .footer__inner {

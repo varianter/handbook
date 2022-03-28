@@ -1,11 +1,11 @@
-import glob from "fast-glob";
-import { vfileToAst } from "../mdx-plugins/index.mjs";
-import { read } from "to-vfile";
-import slugify from "slugify";
-import fm from "gray-matter";
-import { selectAll } from "unist-util-select";
-import { getTextValue } from "./tree-tools.mjs";
-import isEqual from "lodash.isequal";
+import glob from 'fast-glob';
+import { vfileToAst } from '../mdx-plugins/index.mjs';
+import { read } from 'to-vfile';
+import slugify from 'slugify';
+import fm from 'gray-matter';
+import { selectAll } from 'unist-util-select';
+import { getTextValue } from './tree-tools.mjs';
+import isEqual from 'lodash.isequal';
 
 export function createIndexer(metadata) {
   function _createIndexer(filesGlobs = [], nodeMapper = {}) {
@@ -50,20 +50,20 @@ function createFileIndexer(metadata, nodeMapper) {
       metadata,
       matter.data,
       urlPath,
-      ast
+      ast,
     );
   };
 }
 
 export async function parseFile(file) {
-  const vfile = await read(file, "utf8");
+  const vfile = await read(file, 'utf8');
   return { ast: vfileToAst(vfile), matter: fm(vfile.toString()) };
 }
 
 function fileToUrl(file) {
-  const path = file.replace(/^.*?pages/, "").replace(/\.mdx?$/, "");
-  if (path === "/index") {
-    return "/";
+  const path = file.replace(/^.*?pages/, '').replace(/\.mdx?$/, '');
+  if (path === '/index') {
+    return '/';
   }
   return path;
 }
@@ -73,13 +73,13 @@ function getMappedDataWithHeadings(
   metadata,
   matter,
   urlPath,
-  tree
+  tree,
 ) {
   let currentHeading = null;
   let contentList = [];
 
   for (let node of tree.children) {
-    if (node.type === "heading") {
+    if (node.type === 'heading') {
       currentHeading = getTextValue(node);
     }
 
@@ -122,7 +122,7 @@ function doMapping(nodeSelector, mapping, node, tree, data) {
         },
         innerNode,
         nodeSelector,
-        tree
+        tree,
       );
       return output;
     })

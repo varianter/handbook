@@ -1,25 +1,25 @@
-import NextAuth from "next-auth";
-import AzureADProvider from "next-auth/providers/azure-ad";
+import NextAuth from 'next-auth';
+import AzureADProvider from 'next-auth/providers/azure-ad';
 
 export default NextAuth({
   providers: [
     AzureADProvider({
       // TO ENV
-      clientId: process.env.AZURE_AD_CLIENT_ID ?? "",
-      clientSecret: process.env.AZURE_AD_CLIENT_SECRET ?? "",
-      tenantId: process.env.AZURE_AD_TENANT_ID ?? "",
+      clientId: process.env.AZURE_AD_CLIENT_ID ?? '',
+      clientSecret: process.env.AZURE_AD_CLIENT_SECRET ?? '',
+      tenantId: process.env.AZURE_AD_TENANT_ID ?? '',
 
       // Apparently required for Azure AD.
       idToken: false,
 
       async profile(profile, tokens) {
         const departmentResponse = await fetch(
-          "https://graph.microsoft.com/v1.0/me/department/$value",
+          'https://graph.microsoft.com/v1.0/me/department/$value',
           {
             headers: {
               Authorization: `Bearer ${tokens.access_token}`,
             },
-          }
+          },
         );
 
         const department = await departmentResponse.text();
@@ -38,7 +38,7 @@ export default NextAuth({
   secret: process.env.JWT_COOKIE_SECRET,
 
   session: {
-    strategy: "jwt",
+    strategy: 'jwt',
   },
 
   // Needed to get department from profile to session

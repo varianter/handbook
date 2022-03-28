@@ -1,9 +1,9 @@
-import React, { ReactNode, useState } from "react";
-import slugify from "slugify";
-import { Userdata, useUserdata } from "src/auth";
-import { TabButton, TabContainer, TabList, TabPanel } from "../tabbar";
+import React, { ReactNode, useState } from 'react';
+import slugify from 'slugify';
+import { Userdata, useUserdata } from 'src/auth';
+import { TabButton, TabContainer, TabList, TabPanel } from '../tabbar';
 
-export type Departments = "Molde" | "Trondheim" | "Oslo" | "Bergen";
+export type Departments = 'Molde' | 'Trondheim' | 'Oslo' | 'Bergen';
 
 type DepartmentProps = React.PropsWithChildren<{
   dep: Departments | Departments[];
@@ -26,7 +26,7 @@ export function Department({
   return children;
 }
 
-type DepartmentsOrAll = Departments[] | "all";
+type DepartmentsOrAll = Departments[] | 'all';
 
 type DepartmentItemProps = React.PropsWithChildren<{
   dep: Departments | DepartmentsOrAll;
@@ -57,11 +57,11 @@ type DepartmentGroupProps = React.PropsWithChildren<{
 }>;
 export function DepartmentGroup({ children }: DepartmentGroupProps) {
   const departments = toTruthyList(
-    React.Children.toArray(children).map(getDepartmentPropsAsArray)
+    React.Children.toArray(children).map(getDepartmentPropsAsArray),
   );
   const user = useUserdata();
   const [selectedSlug, setSelectedSlug] = useState(() =>
-    findInitialActiveSlug(departments, user)
+    findInitialActiveSlug(departments, user),
   );
 
   const [prefixId] = useState(generateId);
@@ -87,7 +87,7 @@ export function DepartmentGroup({ children }: DepartmentGroupProps) {
 
   return (
     <TabContainer>
-      <TabList label={"Velg avdeling"}>
+      <TabList label={'Velg avdeling'}>
         {departments.map((dep) => {
           const slug = toSlug(dep);
           return (
@@ -122,7 +122,7 @@ function DepartureTabItem({
   isActive,
   onSelect,
 }: DepartureTabItemProps) {
-  const names = deps == "all" ? "Alle" : deps.join(", ");
+  const names = deps == 'all' ? 'Alle' : deps.join(', ');
 
   return (
     <TabButton
@@ -142,12 +142,12 @@ function DepartureTabItem({
 
 function findInitialActiveSlug(
   departments: DepartmentsOrAll[],
-  user: Userdata | undefined
+  user: Userdata | undefined,
 ) {
   const selectedFromUser = !user
     ? undefined
     : departments.find((dep) => {
-        if (dep == "all") return false;
+        if (dep == 'all') return false;
         return dep.includes(user.department as any);
       });
 
@@ -155,34 +155,34 @@ function findInitialActiveSlug(
     return toSlug(selectedFromUser);
   }
 
-  if (departments.includes("all")) {
-    return toSlug("all");
+  if (departments.includes('all')) {
+    return toSlug('all');
   }
 
   return toSlug(departments[0]);
 }
 
 function getDepartmentProps(
-  child: ReactNode
-): DepartmentItemProps["dep"] | undefined {
-  if (typeof child != "object" || child == null) return undefined;
-  if (!("type" in child)) return undefined;
+  child: ReactNode,
+): DepartmentItemProps['dep'] | undefined {
+  if (typeof child != 'object' || child == null) return undefined;
+  if (!('type' in child)) return undefined;
   if (child.type != DepartmentItem) return undefined;
   return (child.props as DepartmentItemProps).dep;
 }
 function getDepartmentPropsAsArray(
-  child: ReactNode
+  child: ReactNode,
 ): DepartmentsOrAll | undefined {
   const dep = getDepartmentProps(child);
-  if (!dep || dep == "all" || Array.isArray(dep)) return dep;
+  if (!dep || dep == 'all' || Array.isArray(dep)) return dep;
   return [dep];
 }
 function toTruthyList<T>(arr: (T | undefined)[]): T[] {
   return arr.filter(Boolean) as T[];
 }
 function toSlug(deps: DepartmentsOrAll) {
-  if (deps == "all") return "all";
-  return slugify(deps.join("-"));
+  if (deps == 'all') return 'all';
+  return slugify(deps.join('-'));
 }
 
 function generateId() {

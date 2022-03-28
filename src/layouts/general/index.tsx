@@ -1,23 +1,23 @@
-import favicon from "@variant/profile/lib/logo/favicon.png";
-import { GetServerSideProps } from "next";
-import Head from "next/head";
-import Link from "next/link";
-import { useRouter } from "next/router";
-import React, { useCallback, useEffect, useState } from "react";
-import slugify from "slugify";
-import { getAuthServerSideProps } from "src/auth";
-import BackgroundBlobs from "src/background";
-import LoginForm from "src/components/login-form";
-import SearchForm from "src/components/search-form";
-import { and } from "src/utils/css";
-import { LayoutProps } from "../signature";
-import style from "./layout.module.css";
+import favicon from '@variant/profile/lib/logo/favicon.png';
+import { GetServerSideProps } from 'next';
+import Head from 'next/head';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import React, { useCallback, useEffect, useState } from 'react';
+import slugify from 'slugify';
+import { getAuthServerSideProps } from 'src/auth';
+import BackgroundBlobs from 'src/background';
+import LoginForm from 'src/components/login-form';
+import SearchForm from 'src/components/search-form';
+import { and } from 'src/utils/css';
+import { LayoutProps } from '../signature';
+import style from './layout.module.css';
 
-const title = "Variant Håndbok";
+const title = 'Variant Håndbok';
 
 const isActiveHandbook = (path: string, asPath: string, isCategory = false) => {
-  if (asPath === "/" && path === "handbook") return true;
-  if (isCategory) return asPath.includes(path.split("/")[0]);
+  if (asPath === '/' && path === 'handbook') return true;
+  if (isCategory) return asPath.includes(path.split('/')[0]);
   return `/${path}` === asPath;
 };
 
@@ -26,54 +26,54 @@ const metadata = {
   handbooks: [
     {
       data: {
-        title: "En variants håndbok",
+        title: 'En variants håndbok',
       },
-      path: "",
-      title: "En variants håndbok",
+      path: '',
+      title: 'En variants håndbok',
     },
     {
       data: {
-        title: "Det praktiske",
+        title: 'Det praktiske',
       },
-      path: "information",
-      title: "Det praktiske",
+      path: 'information',
+      title: 'Det praktiske',
     },
     {
       data: {
-        title: "Kvalitetsrutiner",
+        title: 'Kvalitetsrutiner',
       },
-      path: "quality_manual",
-      title: "Kvalitetsrutiner",
+      path: 'quality_manual',
+      title: 'Kvalitetsrutiner',
     },
   ],
   categories: [
     {
-      path: "avdelinger/trondheim",
-      title: "Lokasjoner",
+      path: 'avdelinger/trondheim',
+      title: 'Lokasjoner',
       handbooks: [
         {
           data: {
-            title: "Trondheim",
+            title: 'Trondheim',
             order: 0,
           },
-          path: "avdelinger/trondheim",
-          title: "Trondheim",
+          path: 'avdelinger/trondheim',
+          title: 'Trondheim',
         },
         {
           data: {
-            title: "Oslo",
+            title: 'Oslo',
             order: 1,
           },
-          path: "avdelinger/oslo",
-          title: "Oslo",
+          path: 'avdelinger/oslo',
+          title: 'Oslo',
         },
         {
           data: {
-            title: "Bergen",
+            title: 'Bergen',
             order: 1,
           },
-          path: "avdelinger/bergen",
-          title: "Bergen",
+          path: 'avdelinger/bergen',
+          title: 'Bergen',
         },
       ],
     },
@@ -83,7 +83,7 @@ const metadata = {
 export default function GeneralLayout({
   frontmatter,
   toc,
-  currentSearch = "",
+  currentSearch = '',
   children,
 }: LayoutProps) {
   const subHeadings = toc[0]?.children.map((c) => c.value) ?? [];
@@ -92,13 +92,13 @@ export default function GeneralLayout({
 
   const { isMenuVisible, setMenuVisible, tabIndex } = useTogglableBurgerMenu(
     modalRef,
-    closeRef
+    closeRef,
   );
 
   const { asPath } = useRouter();
 
   const currentCategory = metadata.categories.find((category) =>
-    isActiveHandbook(category.path, asPath, true)
+    isActiveHandbook(category.path, asPath, true),
   );
 
   return (
@@ -121,7 +121,7 @@ export default function GeneralLayout({
       <header className={style.header}>
         <Link href="/">
           <a className={style.header__logo}>
-            <img src={require("./variant-bw.svg")} alt="Variant" />
+            <img src={require('./variant-bw.svg')} alt="Variant" />
           </a>
         </Link>
 
@@ -190,7 +190,7 @@ export default function GeneralLayout({
       </header>
 
       <nav
-        className={and(style.nav, isMenuVisible ? style.nav__active : " ")}
+        className={and(style.nav, isMenuVisible ? style.nav__active : ' ')}
         ref={modalRef}
       >
         <section className={style.nav__inner}>
@@ -287,7 +287,7 @@ export default function GeneralLayout({
                 rel="external"
               >
                 <img
-                  src={require("./logos/medium.svg")}
+                  src={require('./logos/medium.svg')}
                   alt="Variant på Medium.com"
                 />
               </a>
@@ -299,7 +299,7 @@ export default function GeneralLayout({
                 rel="external"
               >
                 <img
-                  src={require("./logos/twitter.svg")}
+                  src={require('./logos/twitter.svg')}
                   alt="Variant på Twitter"
                 />
               </a>
@@ -311,7 +311,7 @@ export default function GeneralLayout({
                 rel="external"
               >
                 <img
-                  src={require("./logos/github.svg")}
+                  src={require('./logos/github.svg')}
                   alt="Variant på Github"
                 />
               </a>
@@ -323,7 +323,7 @@ export default function GeneralLayout({
                 rel="external"
               >
                 <img
-                  src={require("./logos/instagram.svg")}
+                  src={require('./logos/instagram.svg')}
                   alt="Variant på Instagram"
                 />
               </a>
@@ -335,7 +335,7 @@ export default function GeneralLayout({
                 rel="external"
               >
                 <img
-                  src={require("./logos/facebook.svg")}
+                  src={require('./logos/facebook.svg')}
                   alt="Variant på Facebook"
                 />
               </a>
@@ -347,7 +347,7 @@ export default function GeneralLayout({
                 rel="external"
               >
                 <img
-                  src={require("./logos/linkedin.svg")}
+                  src={require('./logos/linkedin.svg')}
                   alt="Variant på LinkedIn"
                 />
               </a>
@@ -372,7 +372,7 @@ function Hamburger({
     <button
       className={and(
         style.hamburger,
-        isOpen ? style.hamburger__open : undefined
+        isOpen ? style.hamburger__open : undefined,
       )}
       type="button"
       aria-labelledby="menu-label"
@@ -390,7 +390,7 @@ function Hamburger({
 function useTogglableBurgerMenu<T extends HTMLElement, R extends HTMLElement>(
   modalRef: React.RefObject<T>,
   closeButton: React.RefObject<R>,
-  breakpointMinWidth = "1200px"
+  breakpointMinWidth = '1200px',
 ) {
   const [isMenuVisible, setMenuVisible] = useState(false);
   const [tabIndex, setTabIndex] = useState(0);
@@ -402,9 +402,9 @@ function useTogglableBurgerMenu<T extends HTMLElement, R extends HTMLElement>(
 
     // Avoid scrolling when menu is visible.
     if (isMenuVisible) {
-      document.body.style.overflow = "hidden";
+      document.body.style.overflow = 'hidden';
     } else {
-      document.body.style.overflow = "initial";
+      document.body.style.overflow = 'initial';
     }
   }, [isMenuVisible, isNotHamburgerMode]);
 
@@ -416,34 +416,34 @@ function useTogglableBurgerMenu<T extends HTMLElement, R extends HTMLElement>(
       if (!e.target || !modalRef.current?.contains(e.target as Node)) {
         return setMenuVisible(false);
       }
-      if ((e.target as Node).nodeName === "A") {
+      if ((e.target as Node).nodeName === 'A') {
         return setMenuVisible(false);
       }
     };
-    document.body.addEventListener("click", handleClickOutside);
-    return () => document.body.removeEventListener("click", handleClickOutside);
+    document.body.addEventListener('click', handleClickOutside);
+    return () => document.body.removeEventListener('click', handleClickOutside);
   }, [isMenuVisible, modalRef, closeButton]);
 
   const handleTabKey = useCallback(
     (e: KeyboardEvent) => {
       const focusableModalElements =
         modalRef.current?.querySelectorAll<HTMLElement>(
-          '[role="button"],a[href], button, textarea, input[type="text"], input[type="radio"], input[type="checkbox"], select'
+          '[role="button"],a[href], button, textarea, input[type="text"], input[type="radio"], input[type="checkbox"], select',
         ) ?? [];
       const allFocusables =
         document.querySelectorAll<HTMLElement>(
-          '[role="button"],a[href], button, textarea, input[type="text"], input[type="radio"], input[type="checkbox"], select'
+          '[role="button"],a[href], button, textarea, input[type="text"], input[type="radio"], input[type="checkbox"], select',
         ) ?? [];
 
       const first = focusableModalElements[0];
       const last = focusableModalElements[focusableModalElements.length - 1];
       const next =
         Array.from(allFocusables).find(
-          (_, i) => allFocusables[i - 1] === document.activeElement
+          (_, i) => allFocusables[i - 1] === document.activeElement,
         ) ?? null;
       const previous =
         Array.from(allFocusables).find(
-          (_, i) => allFocusables[i + 1] === document.activeElement
+          (_, i) => allFocusables[i + 1] === document.activeElement,
         ) ?? null;
 
       // On normal tabbing. If next element is outside modal, jump to first element
@@ -460,22 +460,22 @@ function useTogglableBurgerMenu<T extends HTMLElement, R extends HTMLElement>(
 
       // Not start or end, follow normal tab flow.
     },
-    [modalRef]
+    [modalRef],
   );
   useEffect(() => {
     function keyListener(e: KeyboardEvent) {
       if (!isMenuVisible || isNotHamburgerMode) {
         return;
       }
-      if (e.key === "Escape") {
+      if (e.key === 'Escape') {
         return setMenuVisible(false);
       }
-      if (e.key === "Tab") {
+      if (e.key === 'Tab') {
         return handleTabKey(e);
       }
     }
-    document.addEventListener("keydown", keyListener);
-    return () => document.removeEventListener("keydown", keyListener);
+    document.addEventListener('keydown', keyListener);
+    return () => document.removeEventListener('keydown', keyListener);
   }, [isMenuVisible, isNotHamburgerMode, handleTabKey]);
 
   return {
@@ -486,7 +486,7 @@ function useTogglableBurgerMenu<T extends HTMLElement, R extends HTMLElement>(
 }
 
 function hasWindow() {
-  return typeof window !== "undefined";
+  return typeof window !== 'undefined';
 }
 
 const useMediaQuery = (mediaQuery: string) => {
@@ -511,20 +511,20 @@ const useMediaQuery = (mediaQuery: string) => {
 
 function listenTo(
   matcher: MediaQueryList,
-  cb: (ev: MediaQueryListEvent) => void
+  cb: (ev: MediaQueryListEvent) => void,
 ) {
-  if ("addEventListener" in (matcher as any)) {
-    return matcher.addEventListener("change", cb);
+  if ('addEventListener' in (matcher as any)) {
+    return matcher.addEventListener('change', cb);
   }
   return matcher.addListener(cb);
 }
 
 function removeListener(
   matcher: MediaQueryList,
-  cb: (ev: MediaQueryListEvent) => void
+  cb: (ev: MediaQueryListEvent) => void,
 ) {
-  if ("removeEventListener" in (matcher as any)) {
-    return matcher.removeEventListener("change", cb);
+  if ('removeEventListener' in (matcher as any)) {
+    return matcher.removeEventListener('change', cb);
   }
   return matcher.removeListener(cb);
 }

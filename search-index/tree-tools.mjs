@@ -1,12 +1,12 @@
-import { visit } from "unist-util-visit";
-import { selectAll, select } from "unist-util-select";
+import { visit } from 'unist-util-visit';
+import { selectAll, select } from 'unist-util-select';
 
-import { evaluate } from "estree-eval";
+import { evaluate } from 'estree-eval';
 
 export function getTextValue(node) {
-  let str = "";
-  visit(node, "text", function (item) {
-    str += " " + item.value;
+  let str = '';
+  visit(node, 'text', function (item) {
+    str += ' ' + item.value;
   });
   return str.trim();
 }
@@ -22,7 +22,7 @@ export function selectAttributeValue(selector, node) {
   if (!result) {
     return undefined;
   }
-  if (result.value && result.value.type == "mdxJsxAttributeValueExpression") {
+  if (result.value && result.value.type == 'mdxJsxAttributeValueExpression') {
     const actualNode = result.value.data.estree.body[0];
     if (!actualNode.expression) {
       return undefined;

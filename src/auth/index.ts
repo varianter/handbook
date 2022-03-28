@@ -1,7 +1,7 @@
-import { GetServerSideProps } from "next";
-import { getSession, useSession } from "next-auth/react";
+import { GetServerSideProps } from 'next';
+import { getSession, useSession } from 'next-auth/react';
 
-export { signIn, signOut } from "next-auth/react";
+export { signIn, signOut } from 'next-auth/react';
 
 export type Userdata = {
   department: string;

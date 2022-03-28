@@ -1,6 +1,6 @@
-import React from "react";
-import Blob from "./blobs";
-import style from "./background.module.css";
+import React from 'react';
+import Blob from './blobs';
+import style from './background.module.css';
 
 export default function BackgroundBlobs() {
   return (

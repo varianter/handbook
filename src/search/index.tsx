@@ -1,10 +1,10 @@
-import { by } from "@pabra/sortby";
-import algoliasearch from "algoliasearch/lite";
-import Link from "next/link";
-import { useRouter } from "next/router";
-import qs from "qs";
-import React, { useState } from "react";
-import { Hit } from "react-instantsearch-core";
+import { by } from '@pabra/sortby';
+import algoliasearch from 'algoliasearch/lite';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import qs from 'qs';
+import React, { useState } from 'react';
+import { Hit } from 'react-instantsearch-core';
 import {
   Configure,
   Highlight,
@@ -13,16 +13,16 @@ import {
   Pagination,
   RefinementList,
   SearchBox,
-} from "react-instantsearch-dom";
-import { useUserdata } from "src/auth";
-import GeneralLayout from "src/layouts/general";
-import style from "./search.module.css";
+} from 'react-instantsearch-dom';
+import { useUserdata } from 'src/auth';
+import GeneralLayout from 'src/layouts/general';
+import style from './search.module.css';
 
-const appId = process.env.NEXT_PUBLIC_ALGOLIA_APP_ID || "";
-const apiKey = process.env.NEXT_PUBLIC_ALGOLIA_READ_KEY || "";
+const appId = process.env.NEXT_PUBLIC_ALGOLIA_APP_ID || '';
+const apiKey = process.env.NEXT_PUBLIC_ALGOLIA_READ_KEY || '';
 const searchClient = algoliasearch(appId, apiKey);
 
-const parseString = (path: string) => qs.parse(path.split("?")[1]);
+const parseString = (path: string) => qs.parse(path.split('?')[1]);
 export default function Search() {
   const router = useRouter();
   const query = parseString(router.asPath);
@@ -38,7 +38,7 @@ export default function Search() {
   }
 
   return (
-    <GeneralLayout toc={[]} frontmatter={{ title: "Søk" }}>
+    <GeneralLayout toc={[]} frontmatter={{ title: 'Søk' }}>
       <h2>Søk</h2>
       <InstantSearch
         indexName="handbook_content"
@@ -52,13 +52,13 @@ export default function Search() {
           <SearchBox
             autoFocus
             translations={{
-              placeholder: "Hva leter du etter?",
+              placeholder: 'Hva leter du etter?',
             }}
           />
           <RefinementList
             defaultRefinement={userInfo?.department}
             attribute="department"
-            transformItems={(items: any[]) => items.sort(by("label"))}
+            transformItems={(items: any[]) => items.sort(by('label'))}
           />
         </div>
 

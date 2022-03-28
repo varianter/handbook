@@ -1,7 +1,7 @@
-import { signIn, signOut, useUserdata } from "src/auth";
-import Button from "../button";
+import { signIn, signOut, useUserdata } from 'src/auth';
+import Button from '../button';
 
-import style from "./login.module.css";
+import style from './login.module.css';
 
 export default function LoginForm({}: {}) {
   const user = useUserdata();
@@ -16,7 +16,7 @@ export default function LoginForm({}: {}) {
           <Button onClick={() => signOut()}>Logg ut</Button>
         </>
       ) : (
-        <Button onClick={() => signIn("azure-ad")}>Logg inn</Button>
+        <Button onClick={() => signIn('azure-ad')}>Logg inn</Button>
       )}
     </div>
   );

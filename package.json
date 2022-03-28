@@ -16,6 +16,7 @@
     "@types/react": "^17.0.38",
     "@types/react-instantsearch-dom": "^6.12.2",
     "@typescript-eslint/parser": "^5.9.0",
+    "@variant/prettier-config": "^1.0.2",
     "algoliasearch": "^4.12.1",
     "dotenv": "^16.0.0",
     "eslint": "^8.6.0",
@@ -74,5 +75,6 @@
   "lint-staged": {
     "*.ts": "eslint --cache --fix",
     "*.{ts,css,md}": "prettier --write"
-  }
+  },
+  "prettier": "@variant/prettier-config"
 }

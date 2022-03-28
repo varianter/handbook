@@ -578,6 +578,11 @@
     "@typescript-eslint/types" "5.9.0"
     eslint-visitor-keys "^3.0.0"
 
+"@variant/prettier-config@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@variant/prettier-config/-/prettier-config-1.0.2.tgz#d3a23887d63a8c3819bca3bc2dba48cdb8193a5e"
+  integrity sha512-T40VWuZefjfPgiemVM4M31N9ATQQ8YhyhFjP1QYqNeza7Ipebc6AIT5k3GmKS7Lq3CZv0Qey4xWJhoLawHdRuA==
+
 "@variant/profile@^3.0.1":
   version "3.0.1"
   resolved "https://registry.npmjs.org/@variant/profile/-/profile-3.0.1.tgz"

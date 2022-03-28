@@ -1,4 +1,4 @@
-declare module "*.mdx" {
+declare module '*.mdx' {
   export type TocItem = TocItem;
   export type Toc = TocItem[];
 

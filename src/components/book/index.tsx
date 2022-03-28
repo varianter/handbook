@@ -1,4 +1,4 @@
-import style from "./book.module.css";
+import style from './book.module.css';
 
 type BookProps = React.PropsWithChildren<{
   filename: string;
@@ -11,7 +11,7 @@ const Book = ({ children, filename }: BookProps) => {
 
       <footer className={style.footer}>
         <p>
-          Ser du en feil eller noe som ikke kommer klart nok frem?{" "}
+          Ser du en feil eller noe som ikke kommer klart nok frem?{' '}
           <a href={editUrl}>Send beskjed eller foreslå en endring! 🥰</a>
         </p>
       </footer>

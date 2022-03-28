@@ -1,6 +1,6 @@
-import { PropsWithChildren } from "react";
-import Button, { ButtonProps } from "../button";
-import style from "./tabbar.module.css";
+import { PropsWithChildren } from 'react';
+import Button, { ButtonProps } from '../button';
+import style from './tabbar.module.css';
 
 type TabProps = { selected?: boolean; controlsId: string } & ButtonProps;
 export function TabButton({

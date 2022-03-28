@@ -1,7 +1,7 @@
-import { AppProps } from "next/app";
-import React from "react";
-import "src/app.css";
-import { SessionProvider } from "next-auth/react";
+import { AppProps } from 'next/app';
+import React from 'react';
+import 'src/app.css';
+import { SessionProvider } from 'next-auth/react';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
