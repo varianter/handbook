@@ -94,16 +94,12 @@ function getMappedDataWithHeadings(
         url: `${metadata.baseUrl}${urlPath}#${slug}`,
       });
 
-      const uniqueContent = result.reduce(function (
-        acc,
-        [innerNode, mappedData]
-      ) {
+      const uniqueContent = result.reduce(function (acc, mappedData) {
         if (isTextFromBefore(mappedData, contentList)) {
           return acc;
         }
         return acc.concat(mappedData);
-      },
-      []);
+      }, []);
 
       contentList = contentList.concat(uniqueContent);
     }
@@ -128,11 +124,7 @@ function doMapping(nodeSelector, mapping, node, tree, data) {
         nodeSelector,
         tree
       );
-
-      if (!output) {
-        return output;
-      }
-      return [innerNode, output];
+      return output;
     })
     .filter(Boolean);
 }
