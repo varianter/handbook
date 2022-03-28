@@ -36,7 +36,13 @@
   font-size: 16px;
   border: 0;
   border-radius: 6.25rem;
+
+  appearance: none;
 }
+:global(.ais-SearchBox-input)::-webkit-search-cancel-button {
+  display: none;
+}
+
 :global(.ais-SearchBox-submit) {
   border: none;
   text-align: center;
@@ -57,4 +63,7 @@
   gap: 0 1.5rem;
   align-items: baseline;
   margin: 0 2rem;
+}
+:global(.ais-SearchBox-reset) {
+  display: none;
 }

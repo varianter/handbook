@@ -22,6 +22,8 @@ const appId = process.env.NEXT_PUBLIC_ALGOLIA_APP_ID || '';
 const apiKey = process.env.NEXT_PUBLIC_ALGOLIA_READ_KEY || '';
 const searchClient = algoliasearch(appId, apiKey);
 
+const SEARCH_HITS_PER_PAGE = 8;
+
 const parseString = (path: string) => qs.parse(path.split('?')[1]);
 export default function Search() {
   const router = useRouter();
@@ -46,7 +48,7 @@ export default function Search() {
         searchState={searchState}
         onSearchStateChange={onSearchStateChange}
       >
-        <Configure hitsPerPage={8} />
+        <Configure hitsPerPage={SEARCH_HITS_PER_PAGE} />
 
         <div className={style.searchInputs}>
           <SearchBox
