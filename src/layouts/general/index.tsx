@@ -81,7 +81,7 @@ const metadata = {
 };
 
 export default function GeneralLayout({
-  meta,
+  frontmatter,
   toc,
   currentSearch = "",
   children,
@@ -104,13 +104,13 @@ export default function GeneralLayout({
   return (
     <div className={style.main}>
       <Head>
-        <title>{meta?.title ?? title}</title>
+        <title>{frontmatter?.title ?? title}</title>
         <link rel="icon" href={favicon} />
         <link rel="manifest" href="/manifest.json" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@variant_as" />
-        <meta property="og:title" content={meta?.title ?? title} />
+        <meta property="og:title" content={frontmatter?.title ?? title} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://handbook.variant.no/" />
         <meta

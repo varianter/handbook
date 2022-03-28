@@ -6,7 +6,7 @@ const { createMdxAstCompiler } = mdx;
 
 export const plugins = [
   remarkFrontmatter,
-  [remarkMdxFrontmatter, { name: "meta" }],
+  [remarkMdxFrontmatter, { name: "frontmatter" }],
   remarkMdxToc,
 ];
 

@@ -3,5 +3,5 @@ declare module "*.mdx" {
   export type Toc = TocItem[];
 
   export const toc: TocItem;
-  export const meta: Meta;
+  export const frontmatter: Frontmatter;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 
 export type LayoutProps = React.PropsWithChildren<{
-  meta: Metadata;
+  frontmatter: Frontmatter;
   toc: Toc;
   currentSearch?: string;
 }>;

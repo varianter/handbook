@@ -38,7 +38,7 @@ export default function Search() {
   }
 
   return (
-    <GeneralLayout toc={[]} meta={{ title: "Søk" }}>
+    <GeneralLayout toc={[]} frontmatter={{ title: "Søk" }}>
       <h2>Søk</h2>
       <InstantSearch
         indexName="handbook_content"

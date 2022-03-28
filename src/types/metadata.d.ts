@@ -1,3 +1,3 @@
-type Metadata = {
+type Frontmatter = {
   title: string;
 };

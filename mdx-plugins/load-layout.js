@@ -10,7 +10,7 @@ const fg = require("fast-glob");
 // is "handbook". Add new layout to src/layouts with same signature.
 //
 // All metadata can be written in yaml front matter. It will be passed to the
-// layout component as `meta` prop.
+// layout component as `frontmatter` prop.
 //
 // (Shamelessly stolen from React docs who has shamelessly stolen from Expo.io docs)
 // @see https://github.com/reactjs/reactjs.org/blob/main/beta/plugins/md-layout-loader.js
@@ -39,7 +39,7 @@ module.exports = async function (src) {
     `
 import Layout, { getServerSideProps } from 'src/layouts/${layout}';
 
-export default (props) => <Layout meta={meta} toc={toc} {...props} />;
+export default (props) => <Layout frontmatter={frontmatter} toc={toc} {...props} />;
 
 export { getServerSideProps };
 `;
