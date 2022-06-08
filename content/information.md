@@ -235,8 +235,14 @@ f.eks hodetelefoner og tastatur. Se gjerne
 Kjøp av gadgets er skattefritt og utgiftsføres med en vanlig utgiftsrapport.
 Hvis du er i tvil så spør du i #regnskap på Slack.
 
+Budsjettet er på 10 000 kr hver år, og året regnes fra den måneden du starter. Så når du har jobbet i variant i 12 måneder får du en ny pott. Penger fra fjordårets pott som ikke er brukt vil bli brukt først, deretter penger av årets pott. Du kan også låne av neste års pott hvis det er nødvendig. 
+
+Penger som eventuelt ikke er brukt opp av budsjettet for 2 år siden vil ikke kunne brukes. Vi ønsker ikke å bygge en stor saldo av potensiell gjeld. 
+
 Pro tip: Tenk på at summen av kjøpet ditt regnes eksklusive mva., da rekker
 budsjettet ditt lenger!
+
+Ved fratredelse avregnes gadgetbudsjettet med 1/12 pr måned av det inneværende gadgetåret, eventuelt overforbruk motregnes mot sluttoppgjøret. 
 
 ## Forsikringer og pensjon
 
