@@ -558,3 +558,13 @@ Basert på dine målsetninger og ønsket vekst blir dere enige om hvordan dere s
 jobbe videre. Din personalleder vil støtte deg og coache deg i tråd med det dere
 er enige om.
 
+## Samfunnsansvar
+
+### Utplassering
+
+Tidvis kommer det henvendelser om utplassering eller hospitering fra skolesystemet. Dette kan være både ungdomsskole, videregående, høyskole eller universitet. Felles for disse er at de kommer utenom sommerjobbordningen vi har. Dette er initiativ vi gjerne ønsker å imøtekomme, men som kan være utfordrende å løse i en prosjekthverdag ute hos kunder. 
+
+For at dette skal lykkes og en utplassering skal være en god opplevelse for eleven eller studenten trenger vi for hvert tilfelle en fadder. Denne fadderen vil ha et spesielt og daglig ansvar for å føle opp og lage opplegg for studenten eller eleven. Fadder kan selv avgjøre om det for eksempel er mulig å gjennomføre dette ute hos kunde eller ikke. Det er en forutsetning at fadder ikke mister mye fakturerbar tid. 
+
+Alle forespørsler sendes i kanalen #utplassering på slack og alle ansatte kan melde seg som fadder her. Forespørsler som får en fadder blir det noe av.    
+
