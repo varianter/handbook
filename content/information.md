@@ -111,7 +111,7 @@ kunde._
 Reiser i regi av Variant er som hovedregel frivillige og timeføres ikke.
 
 Se forøvrig
-[dette avsnittet](https://handbook.variant.no/information.html#reiser-p%C3%A5-variants-regning)
+[dette avsnittet](https://handbook.variant.no/information#skjema-for-reiseregninger)
 for refusjon av reiseutlegg.
 
 ## Faktura
