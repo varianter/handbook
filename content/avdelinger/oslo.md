@@ -8,8 +8,7 @@ order: 1
 Vi holder til, så lenge vi ikke er ute hos våre kunder, i [Tollbugata 24](https://g.page/Tollbugata-8-4308?share).
 
 ### Sykkelparkering
-Spaces har både sykkelparkering og garderobe. Det er litt knotete å få sykkelen ned (må bruke heisen). 
-Be resepsjonen på Spaces om å vise deg rutinen og hvor garderoben ligger. 
+Tollbugata 24 har både sykkelparkering og garderobe. Det er litt knotete å finne fram, men det kommer en video som viser veien. 
 
 ## Faktura
 Hvis du får en faktura som skal betales av Variant Oslo sendes den til
@@ -31,9 +30,9 @@ Selskapet skal legge til rette for at det velges et verneombud. Verneombudet vel
 
 Variant er et konsulentselskap, der hvor mange ansatte tilbringer store deler av
 arbeidstiden ute i kundenes lokaler. HMS-håndboka dekker proaktivt arbeid med
-lokaler, men vi avgrenser dette til vårt kontor på Spaces.
+lokaler, men vi avgrenser dette til vårt kontor i Tollbugata 24.
 
-- Renhold i våre lokaler gjennomføres i regi av Spaces
+- Renhold i våre lokaler gjennomføres i regi av et eksternt firma
 - Førstehjelpsutstyr ligger under vasken i fellesområdet og er til enhver tid komplett i henhold til [retningslinjer gitt av Arbeidstilsynet](https://www.arbeidstilsynet.no/tema/personlig-verneutstyr/forstehjelpsutstyr/)
 - Ulykker som medfører alvorlig personskade skal straks meldes til lege/ambulanse, politi og Arbeidstilsynets lokalkontor. Innmelding skjer av daglig leder
 - Gårdeier sørger for avfallssytemene i bygget vi leier kontorplass i. Det er kildesorteringssystem med instruks, godt synlig i fellesområdet. Gode rutiner skal bidra til å redusere svinn og avfall
@@ -44,23 +43,15 @@ dette ikke føre fram vil vi ta imot og håndtere saken i Variant-kontekst.
 
 ### Branninstruks
 
-Gjør deg kjent med følgende hos Spaces Kvadraturen:
+Gjør deg kjent med følgende hos Tollbugata 24:
 
 - Rømningsveiene
 - Nærmeste brannmelder
 - Nærmeste slokkemiddel
 
-Ved brannalarm, forlat bygningen gjennom rømningsveiene og gå deretter til [samlingsplassen over gaten på hjørnet UTENFOR ved Pascal.](https://g.page/pascal-avd-tollbugata) Hvis brann oppstår uten at automatisk alarm er utløst, trykk på brannmelder hvis mulig og gå deretter ut av bygningen og til samlingsplassen.
-
-Vinduer og døren til kontoret må lukkes. Om mulig, forsøk å slokke brann med enten pulverapparat eller slange, men tenk på egen sikkerhet. Heis skal IKKE benyttes som rømningsvei.
-
-Nødnummer til brannvesen er 110.
-
-Rømningsveier og brannslykkingsutstyr er godt merket. Branninnstruks og redningsplan finnes som oppslag i kontorlokalet og gjennomgås med alle nyansatte. Brannøvelse gjennomføres i regi av Spaces. Vedlikehold av brannvarslere og slukkeustyr utføres av Spaces.
-
 ### Kildesortering
 
-Det er kildesortering hos Spaces, både i fellesarealet og i søppelrommet i kjelleren. Gjør deg kjent med hvordan kildesortering fungerer i Oslo [på hjemmesiden til Oslo Kommune](https://www.oslo.kommune.no/avfall-og-gjenvinning/hvordan-kildesortere-i-oslo/).
+Det er kildesortering hos på Variantkontoret, både i fellesarealet og i søppelrommet i kjelleren. Gjør deg kjent med hvordan kildesortering fungerer i Oslo [på hjemmesiden til Oslo Kommune](https://www.oslo.kommune.no/avfall-og-gjenvinning/hvordan-kildesortere-i-oslo/).
 
 ## Personalledere
 
