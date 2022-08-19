@@ -352,6 +352,8 @@ Foreldrepermisjon bør også avklares så tidlig du har mulighet til. Vi anbefal
 at dette først diskuteres med nærmeste leder, og så blir dere enige om hvordan
 kunder og oppdrag skal varsles.
 
+Variant tilbyr 2 dager permisjon i sammenheng med barnehagetilvenning. Obs, dette gjelder ikke SFO eller skole. 
+
 Det er fullt mulig å redusere stillingen for en periode. Dette gjøres da
 praktisk ved at man har delvis permisjon. Hvis du kommer i en situasjon hvor
 dette er ønskelig avklares også dette med nærmeste leder og så tidlig som mulig.
