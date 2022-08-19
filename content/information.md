@@ -238,6 +238,8 @@ Hvis du er i tvil så spør du i #regnskap på Slack.
 Pro tip: Tenk på at summen av kjøpet ditt regnes eksklusive mva., da rekker
 budsjettet ditt lenger!
 
+Pro tip 2: Husk at det er fullt mulig å kjøpe brukt! Det eneste vi trenger er dokumentasjon på kjøpet (f.eks skjermbilde av Finn-annonse og Vipps-kvittering)
+
 ## Forsikringer og pensjon
 
 Som beskrevet i
