@@ -231,7 +231,7 @@ er at bare
 [Skatteetatens definisjon](https://www.skatteetaten.no/rettskilder/type/handboker/skatte-abc/gjeldende/naturalytelser-i-arbeidsforhold/N-1.023/N-1.038/)
 setter grenser. Kort oppsummert: Mobiltelefon, programvare og datautstyr som
 f.eks hodetelefoner og tastatur. Se gjerne
-[gadgetoversikten](https://gadget.variant.no) hva andre varianter har kjøpt.
+[gadgetoversikten](https://dash.variant.no/gadgetusage/trondheim) hva andre varianter har kjøpt.
 Kjøp av gadgets er skattefritt og utgiftsføres med en vanlig utgiftsrapport.
 Hvis du er i tvil så spør du i #regnskap på Slack.
 
