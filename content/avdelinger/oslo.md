@@ -3,10 +3,8 @@ title: Oslo
 order: 1
 ---
 
-
-## Spaces Kvadraturen
-Vi holder til, så lenge vi ikke er ute hos våre kunder, hos
-[Spaces](https://g.page/Tollbugata-8-4308?share) i Kvadraturen.
+## Tollbugata 24
+Vi holder til, så lenge vi ikke er ute hos våre kunder, i [Tollbugata 24](https://g.page/Tollbugata-8-4308?share).
 
 ### WiFi
 Når du jobber på kontoret benytter du det trådløse nettet med SSID
