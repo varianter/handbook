@@ -4,13 +4,8 @@ order: 1
 ---
 
 
-## Spaces Kvadraturen
-Vi holder til, så lenge vi ikke er ute hos våre kunder, hos
-[Spaces](https://g.page/Tollbugata-8-4308?share) i Kvadraturen.
-
-### WiFi
-Når du jobber på kontoret benytter du det trådløse nettet med SSID
-**Spaces**. Du logger inn med din Variant-epost.
+## Tollbugata 24
+Vi holder til, så lenge vi ikke er ute hos våre kunder, i [Tollbugata 24](https://g.page/Tollbugata-8-4308?share).
 
 ### Sykkelparkering
 Spaces har både sykkelparkering og garderobe. Det er litt knotete å få sykkelen ned (må bruke heisen). 
