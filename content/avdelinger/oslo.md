@@ -9,7 +9,7 @@ Vi holder til, så lenge vi ikke er ute hos våre kunder, i [Tollbugata 24](http
 ### WiFi
 Når du jobber på kontoret benytter du det trådløse nettet med SSID
 **Variant – Employees**. Våre gjester kan bruke **Variant – Guests**.
-Passordet til trådløsnettene finner du ved å skrive ```/info wifi```.
+Passordet til trådløsnettene finner du ved å skrive ```/info wifi``` i en vilkårlig kanal på Slack.
 
 ### Sykkelparkering
 Spaces har både sykkelparkering og garderobe. Det er litt knotete å få sykkelen ned (må bruke heisen). 
