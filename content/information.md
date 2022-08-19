@@ -83,6 +83,10 @@ Variant dekker lønn under HV-øvelser. Dette timeføres som vanlig under
 
 Husk også å markere bemanning i god tid som `Permisjon med lønn`.
 
+### Begravelse
+
+Deltakelse i begravelse timeføres under `[VEL1000] Velferdspermisjoner med lønn --> Velferdspermisjon med lønn`.
+
 ### Kundetid
 
 På kundetid fører man det man jobber også hvis man jobber utover 7,5 timer.
