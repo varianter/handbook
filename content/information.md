@@ -412,7 +412,7 @@ spør du i #helpdesk 🤓
 ## Nyttige lenker
 
 - [Variantdash](https://dash.variant.no) Vårt dashbord for interne løsninger.
-- [Gadgetoversikt](https://gadget.variant.no) Oversikt over hva som er kjøpt på
+- [Gadgetoversikt](https://dash.variant.no/gadgetusage/trondheim) Oversikt over hva som er kjøpt på
   gadget, og hvor mye man har brukt.
 - [Fordelsrapport](https://fordelsrapport.variant.no) Her rapporteres det inn
   bruk av bonuspoeng eller andre fordelsprogam.
