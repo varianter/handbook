@@ -570,7 +570,7 @@ Arbeidet består av blant annet i å følge opp og være Variants kontaktperson 
 - Ada
 - Oda
 
-I tillegg vill koordinatoren jobbe opp mot rekrutteringsteamet med et spesielt ansvar for kvinnerekruttering. 
+I tillegg vil koordinatoren jobbe opp mot rekrutteringsteamet med et spesielt ansvar for kvinnerekruttering. 
 
 På lengre sikt jobber denne rollen for å se på mulighetsbildet for å øke mangfoldet i bransjen spesielt og dermed også i Variant. Sammen med ledergruppen og rekrutteringsteam vil mangfoldsansvarlig se på kreativ bruk av ulike virkemidler for å nå vårt overordnede mål om å bidra til et samfunn med større likestilling og bredere mangfold. 
 
