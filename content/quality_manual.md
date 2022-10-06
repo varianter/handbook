@@ -566,5 +566,5 @@ Tidvis kommer det henvendelser om utplassering eller hospitering fra skolesystem
 
 For at dette skal lykkes og en utplassering skal være en god opplevelse for eleven eller studenten trenger vi for hvert tilfelle en fadder. Denne fadderen vil ha et spesielt og daglig ansvar for å følge opp og lage opplegg for studenten eller eleven. Fadder kan selv avgjøre om det for eksempel er mulig å gjennomføre dette ute hos kunde eller ikke. Det er en forutsetning at fadder ikke mister mye fakturerbar tid. 
 
-Alle forespørsler sendes i kanalen #utplassering på slack og alle ansatte kan melde seg som fadder her. Forespørsler som får en fadder blir det noe av.    
+Alle forespørsler sendes i kanalen #utplassering på Slack og alle ansatte kan melde seg som fadder der. Utplasseringen blir gjennomført dersom en Variant melder seg som fadder.
 
