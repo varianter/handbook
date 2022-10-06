@@ -558,3 +558,13 @@ Basert på dine målsetninger og ønsket vekst blir dere enige om hvordan dere s
 jobbe videre. Din personalleder vil støtte deg og coache deg i tråd med det dere
 er enige om.
 
+## Faglig aktivitet
+
+### Fagledere
+I Variant ønsker vi å stimulere til faglig aktivitet både internt og eksternt. I tillegg ønsker vi faglig synlighet og tydelige faglige standpunkt. Som et ledd i dette har vi flere engasjerte fagledere. En fagleder i Variant er en åremålsstilling som tildeles relativt erfarne fagpersoner som har demonstrert å bidra med faglig engasjement. Fagledere utnevnes for ett år av gangen under variantdagen i desember, og vil være fagleder det påfølgende året. Det er ledergruppen i selskapet som velger fagledere hvert år.
+
+Fagledere har blant annet ansvar for å sikre høyt faglig nivå på variantdager, bidra med innhold til faglunsjer og annen faglig aktivitet.  I tillegg skal fagledere jobbe med ekstern synlighet og være meningsbærende på vegne av Variant. Dette kan være blogskriving, produksjon av podcasts, holde foredrag på konferanser etc. NB! En trenger ikke ha både eksternt og internt perspektiv, ett holder.  NB2! Faglederjobben er ingen administrativ rolle, men ansvar for personaloppfølging, men fagledere skal være en ressurs for fagkom.
+
+En fagleder velges for ett gitt område som er i samsvar med kandidatens ønske. Bredden og spissen på dette område kan variere. Det er heller ikke slik at det bare kan være en leder pr område om flere skulle ha behov og forutsetninger for det samme fagfeltet.
+
+I februar hvert år arrangeres det en fagledertur for alle årets fagledere. Det settes ikke av en dedikert prosentandel av arbeidstiden til faglederjobben.
