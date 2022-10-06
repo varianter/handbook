@@ -109,6 +109,16 @@ fra hele Variant-illustrasjonen, typografi, veiledning for valg av logo, osv.
 Alt dette legges åpent med en åpen lisens, foruten illustrasjonen hvor designer
 sitter på åndsverk.
 
+## Sponsorat
+
+Variant har et samfunnsansvar og i den sammenheng vil det tidvis være riktig å sponse ulike frivillige arrangement eller aktiviteter. Vi har følgende forutsetninger for at et sponsorat skal kvalifisere: 
+Enten må arrangementet eller aktiviteten bidra til
+ 
+- økt faglig synlighet av Variant i Trondheim, Oslo eller Bergen, eller
+- økt kvinneandel og mangfold i IT-bransjen
+
+Hvis en av disse er tilstede vil saken behandles av ledergruppen, sett opp i mot øvrig sponsorvirksomhet. [Se våre mangfoldssider for mer info](https://www.variant.no/mangfold).
+
 
 ## Selve livet
 
