@@ -562,7 +562,7 @@ er enige om.
 
 ### Mangfoldsansvarlig
 
-Variant har et overordnet strategisk målbilde om å sette et samfunnsavtrykk der likestilling og mangfold i større grad blir tydelig. I Variant har vi derfor opprettet en rolle med dedikert tid til å jobbe med å nå dette målbildet. En viktig del av denne rollen er å bidra til at flere kvinner jobber innenfor IT generelt og i Variant spesielt. I denne sammenhengen ønsker vi et ekstra fokus på å øke andelen kvinner som jobber med programmering. 
+[Variant har et overordnet strategisk målbilde om å sette et samfunnsavtrykk der likestilling og mangfold i større grad blir tydelig](https://www.variant.no/mangfold). I Variant har vi derfor opprettet en rolle med dedikert tid til å jobbe med å nå dette målbildet. En viktig del av denne rollen er å bidra til at flere kvinner jobber innenfor IT generelt og i Variant spesielt. I denne sammenhengen ønsker vi et ekstra fokus på å øke andelen kvinner som jobber med programmering. 
 
 Arbeidet består av blant annet i å følge opp og være Variants kontaktperson inn mot:
 
@@ -574,5 +574,5 @@ I tillegg vil koordinatoren jobbe opp mot rekrutteringsteamet med et spesielt an
 
 På lengre sikt jobber denne rollen for å se på mulighetsbildet for å øke mangfoldet i bransjen spesielt og dermed også i Variant. Sammen med ledergruppen og rekrutteringsteam vil mangfoldsansvarlig se på kreativ bruk av ulike virkemidler for å nå vårt overordnede mål om å bidra til et samfunn med større likestilling og bredere mangfold. 
 
-Mangfoldsansvarlig er fra 2022 Sarah Serussi. 
+Mangfoldsansvarlig er fra 2022 Sarah Serussi.
 
