@@ -111,7 +111,7 @@ sitter på åndsverk.
 
 ## Sponsorat
 
-Variant har et samfunnsansvar og i den sammenheng vil det tivids være riktig å sponse ulike frivillige arrangement eller aktiviteter. Vi har følgende forutsetninger for at et sponsorat skal kvalifisere: 
+Variant har et samfunnsansvar og i den sammenheng vil det tidvis være riktig å sponse ulike frivillige arrangement eller aktiviteter. Vi har følgende forutsetninger for at et sponsorat skal kvalifisere: 
 Enten må arrangementet eller aktiviteten bidra til
  
 - økt faglig synlighet av Variant i Trondheim, Oslo eller Bergen, eller
