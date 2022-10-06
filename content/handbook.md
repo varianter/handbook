@@ -117,7 +117,7 @@ Enten må arrangementet eller aktiviteten bidra til
 - økt faglig synlighet av Variant i Trondheim, Oslo eller Bergen, eller
 - økt kvinneandel og mangfold i IT-bransjen
 
-Hvis en av disse er tilstede vil saken behandles av ledergruppen, sett opp i mot øvrig sponsorvirksomhet. 
+Hvis en av disse er tilstede vil saken behandles av ledergruppen, sett opp i mot øvrig sponsorvirksomhet. [Se våre mangfoldssider for mer info](https://www.variant.no/mangfold).
 
 
 ## Selve livet
