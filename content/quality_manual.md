@@ -562,8 +562,7 @@ er enige om.
 
 ### Mangfoldsansvarlig
 
-Variant har et overordnet strategisk målbilde om å sette et samfunnsavtrykk der likestilling og mangfold
-i større grad blir tydelig. I Variant har vi derfor en rolle med dedikert tid til å jobbe med å nå dette målbildet. En viktig del av denne rollen er å bidra til at flere kvinner jobber innenfor IT generelt og Variant spesielt. I denne sammenhengen ønsker vi et ekstra fokus på å øke andelen kvinner som jobber med programmering. 
+Variant har et overordnet strategisk målbilde om å sette et samfunnsavtrykk der likestilling og mangfold i større grad blir tydelig. I Variant har vi derfor opprettet en rolle med dedikert tid til å jobbe med å nå dette målbildet. En viktig del av denne rollen er å bidra til at flere kvinner jobber innenfor IT generelt og i Variant spesielt. I denne sammenhengen ønsker vi et ekstra fokus på å øke andelen kvinner som jobber med programmering. 
 
 Arbeidet består av blant annet i å følge opp og være Variants kontaktperson inn mot:
 
