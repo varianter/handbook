@@ -310,7 +310,7 @@ kontakte lege for raskt få riktige råd. Be om sykmelding fremfor å benytte
 egenmelding i slike tilfeller.
 
 Egenmelding leveres formelt ved å føre på riktig timekode i Harvest. Husk
-selvsagt å varsle riktige personer på prosjekt i tillegg.
+selvsagt å varsle nærmeste leder i Variant og riktige personer i oppdraget.
 
 Hvis du må gå hjem midt i arbeidsdagen fører du egenmelding for de timene du er
 fraværende i Harvest, mens dette regnes som en hel dag i med tanke på grensene
