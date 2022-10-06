@@ -64,7 +64,7 @@ svaret på, men inntil videre så kan du le ofte og gjøre gærne ting!
 Vi vil at du skal være stolt av det du gjør. Er du ikke den stolte typen? Da vil
 vi gjerne at du har mot til å endre på det. Du skal kunne være stolt av å være
 her, nettopp fordi du har gjort så mye bra tidligere. Så rett deg opp i ryggen,
-og si at du jobber i Variant. 🦄
+og si at du jobber i Variant. 🦄😍
 
 ### Læreglede
 
