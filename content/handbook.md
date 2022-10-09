@@ -44,11 +44,11 @@ gjeldende praksis.
 
 ### Tillit og ansvar
 
-Variant vil gi sine ansatte det beste, vi som jobber her forventes å gi det
-samme. Vi gir full tillit til hverandre fordi vi tror at alle er i stand til å
-gjøre riktige valg. Hva du trenger for å lære noe nytt eller gjøre jobben din er
+Variant vil gi sine ansatte det beste, og vi som jobber her forventes å gi det
+samme tilbake. Vi har full tillit til hverandre fordi vi vet at alle er i stand til å
+gjøre riktige valg. Hva du trenger for å lære noe nytt eller gjøre jobben din, er
 opp til deg. Vi forventer bare at du selv vurderer kostnadene opp mot vinningen
-og sparrer med andre når det trengs.
+og sparrer med andre når du er usikker.
 
 <img src="./assets/illustrations/fun.svg" alt="Illustrasjon for ha det morsomt" class="illustration illustration--left illustration--fun" />
 
@@ -68,11 +68,11 @@ og si at du jobber i Variant. 🦄
 
 ### Læreglede
 
-For å lykkes, både i Variant og livet ellers, trenger vi at alle er med å deler
-det de har nettopp lært eller har kunnet i mange år. Del med dine kollegaer hele
-tiden. Ikke hold tilbake for at noen kanskje har hørt om dette før – alle har
-garantert _ikke_ det. Og da, er det verdt det. Spiller ikke noen rolle om du er
-selveste Gandalf eller om du ble ansatt forrige mandag; vi trenger hjelp fra
+For å lykkes, både i Variant og livet ellers, trenger vi at alle bidrar til å dele
+både nyvunnen og veletabelert kunnskap. Del med dine kollegaer hele
+tiden. Ikke hold tilbake fordi noen kanskje har hørt om dette før – alle har
+garantert _ikke_ det. Da er det verdt det! Det spiller ingen rolle om du er
+selveste Gandalf eller om du ble ansatt forrige mandag – vi trenger hjelp fra
 deg.
 
 <img src="./assets/illustrations/air.svg" alt="Illustrasjon for åpenhet" class="illustration illustration--center illustration--open" />
@@ -109,6 +109,16 @@ fra hele Variant-illustrasjonen, typografi, veiledning for valg av logo, osv.
 Alt dette legges åpent med en åpen lisens, foruten illustrasjonen hvor designer
 sitter på åndsverk.
 
+## Sponsorat
+
+Variant har et samfunnsansvar og i den sammenheng vil det tidvis være riktig å sponse ulike frivillige arrangement eller aktiviteter. Vi har følgende forutsetninger for at et sponsorat skal kvalifisere: 
+Enten må arrangementet eller aktiviteten bidra til
+ 
+- økt faglig synlighet av Variant i Trondheim, Oslo eller Bergen, eller
+- økt kvinneandel og mangfold i IT-bransjen
+
+Hvis en av disse er tilstede vil saken behandles av ledergruppen, sett opp i mot øvrig sponsorvirksomhet. [Se våre mangfoldssider for mer info](https://www.variant.no/mangfold).
+
 
 ## Selve livet
 
@@ -117,28 +127,28 @@ sitter på åndsverk.
 
 ### Familie og samfunnet
 
-For oss er ikke jobb og fritid to helt ulike verdener. Selv om vi vil at varianter skal ha en god jobb- og livsbalanse, ønsker vi å invitere familiene inn i selskapet og at de blir en del av oss og det vi gjør. Hver høst reiser vi på tur utabys, vi arrangerer en del aktiviteter gjennom året og vi har et årlig julebord. På alt dette er familie eller ledsager hjertelig velkommen til å bli med på. Vi definerer ikke hva som regnes som familie, så hvem du ønsker å invitere med er opp til deg selv. Om det så er partner, barn, foreldre eller venner. Vi sier: hjertelig velkommen!
+For oss er ikke jobb og fritid to helt ulike verdener. Selv om vi vil at varianter skal ha en god jobb- og livsbalanse, ønsker vi å invitere familiene inn i selskapet som en del av oss og det vi gjør. Hver høst reiser vi på tur utabys, vi arrangerer en del aktiviteter gjennom året og vi har et årlig julebord. Alt  dette er familie eller ledsager velkommen til å bli med på. Vi definerer ikke hva som regnes som familie, så hvem du ønsker å invitere med er opp til deg selv – om det så er partner, barn, foreldre eller venner. Vi sier: Hjertelig velkommen!
 
 Variant skal også bidra til nærmiljøet og samfunnet der vi finnes. Som beskrevet
 under [goder og ytelser](#andre-goder-og-ytelser) så har hver variant 10 000 kr
-i året til å kjøpe gadgets for. Disse pengene kan også brukes til å sponse en frivillig eller veldedig organisasjon. Fotballaget til dattera, UNICEF eller eldrekafeen i bydelen. Valget er ditt!
+i året til å kjøpe gadgets/dingser for. Disse pengene kan også brukes til å sponse en frivillig eller veldedig organisasjon. Fotballaget til dattera, UNICEF eller eldrekafeen i bydelen. Valget er ditt!
 
 Årlig
 [gir Variant et beløp tilsvarende 500 kr per ansatt](https://medium.com/variant-as/n%C3%A5r-noen-trenger-hjelp-9a8272f9838)
-til en veldedig organisasjon med verdier og formål som harmonerer med våre. Vi tar valget av formålet årlig, som vi diskuterer åpent i hele selskapet og kommer frem til sammen. 
+til en veldedig organisasjon med verdier og formål som harmonerer med våre. Valg av formål skjer årlig på bakgrunn av åpne diskusjoner i hele selskapet.
 
 ### Likestilling
 Likestilling er en grunnleggende verdi for oss som jobber her, og for Variant som selskap. Her snakker vi om grunnleggende likeverd på tvers av blant annet nasjonalitet, etnisk bakgrunn, livssyn, legning og kjønn. 
-Vi har i dag en god kjønnsbalanse, men samtidig ønsker vi alltid å gjøre den bedre. Vi blir jo ikke fornøyd før vi er omtrent fifty-fifty på kvinner og menn. Dette påvirker mange av våre strategiske og operative beslutninger, som blant annet:
+Vi har i dag en god kjønnsbalanse til vår bransje å være, men samtidig ønsker vi sterkt å bedre den. Vi er ikke fornøyd før vi er omtrent fifty-fifty på kvinner og menn. Dette påvirker mange av våre strategiske og operative beslutninger, som blant annet:
 
 -	Foreldrepermisjon reduserer ikke ansiennitet på noen måte
--	Man får utbetalt bonus også mens man er i foreldrepermisjon.
--	Selvsagt får man full lønn under foreldrepermisjon
+-	Du får utbetalt bonus også i foreldrepermisjon.
+-	Du får selvsagt full lønn under foreldrepermisjon.
 
 Vi ønsker ikke at økonomi og karriere skal være momenter i hvordan den enkelte familie planlegger og fordeler arbeidet hjemme.
 
 ### Helse
-Vi ønsker at våre ansatte har et godt liv – og en god helse. Her kan faktisk vi som arbeidsgiver bidra en god del. Vi bryr oss om ergonomi og fysisk arbeidsmiljø. Vi initierer og støtter mosjon og vi har en meget flott helseforsikring. 
+Vi ønsker at våre ansatte har et godt liv – og en god helse. Her kan faktisk vi som arbeidsgiver bidra en god del. Vi bryr oss om ergonomi og fysisk arbeidsmiljø. Vi oppfordrer til og støtter fysisk aktivitet, og vi har en meget flott helseforsikring. 
 
 La oss starte med ergonomi og arbeidsmiljø: Som konsulenter jobber vi ofte, og veldig gjerne, ute hos kunde. Det kan tidvis være at innleide konsulenter får ugunstige arbeidsforhold. Våre avtaler med kundene inneholder reguleringer slik at vi har gode forutsetninger for å levere godt resultat for våre kunder over lang tid. Godt med lys, luft og riktige møbler er avgjørende i så måte. 
 
@@ -174,20 +184,20 @@ Arbeidsdagen er 7,5 timer per dag. Vi har ikke kjernetid i Variant, men kunder k
 Likevel er det slik at mange av våre kunder har kjernetid, eller at oppdraget du
 er på avtaler en kjernetid. Dette må vi forholde oss til.
 
-Vi vet at livet har ulike faser, i noen perioder ønsker eller trenger man å kunne bruke mindre tid på jobb. Hos oss er det mulig å senke stillingsgraden i perioder. Dette avgjør du best selv du. Med åpenhet mellom deg, ledere og kunden om behovet og ønskene dine, vil vi sammen jobbe for å finne løsningen alle trives med. 
+Vi vet at livet har ulike faser. I noen perioder kan du ha behov for å bruke mindre tid på jobb. Hos oss er det mulig å senke stillingsgraden i perioder. Dette avgjør du best selv. Med åpenhet mellom deg, personalleder og kunden om behov og ønsker, vil vi sammen jobbe for å finne en løsning alle trives med. 
 
 ### Fri i jula
 
-I tillegg til de vanlige 5 uker med ferie regner vi alle dagene fra og med
-julaften til og med 1. nyttårsdag som helligdager. Det vil si at du trenger ikke
-bruke feriedager i romjula.
+I tillegg til de vanlige fem uker med ferie regner vi alle dagene fra og med
+julaften til og med 1. nyttårsdag som helligdager. Det vil si at du ikke trenger å
+spare feriedager til romjula.
 
 <img src="./assets/illustrations/graduation.svg" alt="Illustrasjon for kompetanseutvikling" class="illustration illustration--left illustration--competence" />
 
 ### Kompetanseutvikling
-Vi ønsker at fagmiljøet der vi befinner oss er sterkt og pulserende, så da må vi også jobbe med faglig utvikling. Vi ser lite verdi i å bygge kompetanse kun for vår egen del, vi tror heller at kunnskap og erfaring gjør seg best i fellesskap med andre. Vi bidrar derfor gledelig i eksisterende fagmiljø, eller oppretter nye der vi kjenner at det mangler. Vi oppfordrer alle, ja fra daglig leder så vel som sommerstudenter, i selskapet til å være aktive på meetups. Vi er først og fremst læreglade fagpersoner over hele fjøla. 
+Vi ønsker at fagmiljøet der vi er tilstede er sterkt og pulserende. Da må vi også jobbe med faglig utvikling. Vi ser lite verdi i å bygge kompetanse kun for vår egen del, vi tror heller at kunnskap og erfaring gjør seg best i fellesskap med andre. Vi bidrar derfor gledelig i eksisterende fagmiljø, eller oppretter nye der vi kjenner at det mangler. Vi oppfordrer alle – ja fra daglig leder så vel som sommerstudenter i selskapet – til å være aktive på meetups og fagtreff. Vi er først og fremst læreglade fagpersoner over hele fjøla. 
 
-Åpenheten strekker seg selvfølgelig til læringen vi gjør. Vi oppfordrer ansatte til å dele det de lærer og bruker tid på å formidle det på en god måte. Enten det er via Open Source-prosjekter, podcast, video, bloggpost, presentasjoner og kurs. Eller rett og slett samtaler med fagkolleger fra andre selskap. Å kunne formidle kunnskap, mener vi, er like viktig som å kunne gjennomføre den.
+Åpenheten strekker seg selvfølgelig til læringen vi gjør. Vi oppfordrer ansatte til å dele det de lærer og bruker tid på å formidle det på en god måte. Enten det er via Open Source-prosjekter, podcast, video, bloggpost, presentasjoner og kurs. Eller rett og slett samtaler med fagkolleger fra andre selskap. Vi mener kunnskapsformidling er like viktig som praktisk anvendelse av kunnskap.
 
 
 ### Kurs og konferanser
@@ -202,7 +212,7 @@ du har deltatt på det året. Ut å avle læreglede!
 
 
 ### Variantdag
-Den første fredagen i hver måned (foruten januar og juli) har vi det vi kaller en variantdag. Dette er en “innedag”, der vi alle bruker hele dagen sammen, for faglig, administrativt og sosialt påfyll.
+Den første fredagen i hver måned (foruten januar og juli) har vi det vi kaller en Variantdag. Dette er en “innedag”, der vi alle bruker hele dagen sammen, for faglig, administrativt og sosialt påfyll. Vi har også enkelte felles variantdager gjennom året. Da møtes varianter fra alle de ulike lokasjonene i en byene våre slik at vi kan dele enda flere perspektiver og sosialisere.
 
 [Her vil du alltid finne oversikt over gjennomførte og planlagte variantdager](https://medium.com/variant-as/tagged/variantdag).
 #### Fagkomité
@@ -210,10 +220,10 @@ Den første fredagen i hver måned (foruten januar og juli) har vi det vi kaller
 Det er Fagkomitéen (name pending™) som driver Variantdagen. Dette er en
 tverrfaglig gruppe som forvalter læreglede i Variant. De har ikke ansvar for å
 gjennomføre alt av faglig opplegg, men hjelpe til slik at folk som ønsker å ha
-innhold, lære noe nytt, diskutere prosjekt osv får det de trenger til å
+innhold, lære noe nytt, diskutere prosjekt osv. får det de trenger til å
 gjennomføre det.
 
-Komitéen møtes gjevnlig i periodiske møter. Den største leveransen til komitéen
+Komitéen møtes jevnlig i periodiske møter. Den største leveransen til komitéen
 er Variantdager, men de jobber også med annet faglig innhold i og utenfor
 Variant. Komitéen velges inn på årsbasis. På lokasjonsidene kan du se hvem som er i 
 fagkomiteen for akurat din lokasjon. 
@@ -244,7 +254,7 @@ To variantdager er aldri like, men de fleste på lik måte:
 Med totalt 9 ordinære variantdager, har vi 18 halvdagsøkter i året som vi skal
 bruke for å utvikle selskapet. Halvparten av disse er satt av til å drive
 utvikling av oss selv som varianter. Med faste og forutsigbare dager hvor man
-vet at ingen er opptatt med andre ting i prosjekt eller hos kunde har vi en unik
+vet at ingen er opptatt med andre ting i prosjekt eller hos kunde, har vi en unik
 mulighet til å legge opp til hemmelighet i utviklingsløpet.
 
 Vi har utviklingsprogram vi har designet selv, og vi har mulighet til å
@@ -312,9 +322,7 @@ viser.
 
 
 ### Årlig tur
-Variantdagen i **september** er alltid litt spesiell. Da drar vi, med en partner eller venn til følge, utav byen og feirer vår egen bursdag, samt for å oppleve nye ting. Foreløpig har vi vært i London, på Hotell Union Øye i Norangsdal og i Kragerø. 
-
-Så langt drar alle våre avdelinger sammen. Dette kan jo hende utvikler seg med tiden. 
+Variantdagen i **september** er alltid litt spesiell. Da drar vi – med en partner eller venn til følge – ut av byen for å feire vår egen bursdag og oppleve nye ting. Foreløpig har vi vært i London, på Hotell Union Øye i Norangsdal, i Kragerø og København/Praha. I 2022 har Variants Oslo-kontor blitt så stort at Trondheim og Oslo valgte hver sin turdestinasjon. Selv om vi er et samlet selskap som deler verdier og læreglede, har vi som ambisjon at de ulike lokasjonene får frihet og rom til å utvikle sin egen kultur og bli enda bedre kjent – både med hverandre og deb utvidede variantfamilien. 
 
 
 ## Pæng
@@ -325,9 +333,9 @@ Vi betaler godt, samtidig handler raushet om mye mer enn bare lønna.
 
 
 ### Lønn
-Vi er sikre på at flinke folk i liten grad lar seg motivere av lønn alene, men god lønn er like fullt viktig for den frihet og stabilitet vi ønsker å gi. 
+Vi er sikre på at flinke folk i liten grad lar seg motivere av lønn alene, men god lønn er like fullt viktig for den friheten og stabiliteten vi ønsker å gi. 
 
-Lønnen vår bestemmes utelukkende av en utjevnet kurve for øvre kvartil av  Teknas lønnsstatistikk. Lønnsøkninger tas ikke individuelt – det går automatisk. Din lønn baseres rett og slett på antall års erfaring. 
+Lønnen vår bestemmes utelukkende av en utjevnet kurve for øvre kvartil av Teknas lønnsstatistikk. Lønnsøkninger tas ikke individuelt – det skjer automatisk. Din lønn baseres rett og slett på antall års erfaring. 
 Hva den enkelte tjener er ingen hemmelighet i
 Variant. Lurer du på hva du ville tjent hos oss? Vår hjemmesnekra
 [kalkulator](https://www.variant.no/kalkulator) 🧮 gir deg svaret!
@@ -337,10 +345,10 @@ Variant. Lurer du på hva du ville tjent hos oss? Vår hjemmesnekra
 Vi ønsker ikke å jobbe overtid. Kvaliteten på arbeidet blir best hvis vi har
 godt med overskudd, og det sikrer vi med en god balanse mellom jobb og fritid.
 Likevel finnes det kortere perioder hvor det blir veldig travelt, og hvor det
-kan være nødvendig å jobbe litt ekstra.
+kan være nødvendig eller ønskelig å jobbe litt ekstra.
 
-Dette vil da føre til utbetaling av overtidstillegg. Overtidstillegget avregnes
-per måned, og utbetales den påfølgende måneden. Overtidstillegget 40% og
+Dette medfører utbetaling av overtidstillegg. Overtidstillegget avregnes
+per måned, og utbetales den påfølgende måneden. Overtidstillegget er på 40% og
 overtidslønnen beregnes ved å ta
 `antall timer overtid for en måned * årslønn / 1960 * 1,4`.
 
@@ -362,7 +370,7 @@ eller som er sykemeldte får full bonus.
 
 ### Pensjon og forsikring
 
-Vi føler oss jo slett ikke gamle her i Variant. Vi er likevel opptatt av en god
+Vi føler oss slett ikke gamle her i Variant. Likevel er vi opptatt av en god
 pensjon. Vi har valgt en pensjonssparing som går langt utover det lovpålagte.
 Fra 0 til 12G setter vi av 7% i pensjon.
 
@@ -373,13 +381,13 @@ og dekning for annen ulykke enn yrkesskade.
 ### Goder og ytelser
 Vi kjører punktliste! 
 - Gadgetbudsjett på 10 000 pluss moms pr. år. Hva andre har brukt det til finner
-  du på [oversikten her](http://gadget.variant.no).
+  du på [oversikten her](https://dash.variant.no/gadgetusage/trondheim).
 -	Ett kurs eller en konferanse i året
--	Fri bruk av telefoni, innen rimelighetens grenser.
--	Bredbånd hjemme på inntil 500 kr pr. mnd 
--	Betalt 2 uker permisjon for partner etter fødsel.
+-	Fri bruk av telefoni – innen rimelighetens grenser.
+-	Bredbånd hjemme på inntil 500 kr. per måned. 
+-	Betalt to uker permisjon for partner etter fødsel.
 -	Full lønn under foreldrepermisjon, selv om lønnen skulle overstige det NAV betaler.
--	2 dager til barnehagetilvenning.
+-	To dager til barnehagetilvenning.
 - Utvidede rettigheter til
   [egenmelding og sykepenger](information.html#sykemelding-og-egenmelding).
 -	Dekt treningssentermedlemsskap, eller tilsvarende helsebringende aktivitet/utstyr, inntil 500,- per måned (NB! Dette er en skattepliktig fordel som rapporteres på din lønnsslipp ved årsslutt). Utgiftsføres på vanlig måte.
@@ -393,7 +401,7 @@ Det er heller ikke et gitt antall års brukstid på maskinene. Du får en ny mas
 når behovet oppstår, uavhengig av om det har gått ett eller tre år. Se også
 [PC-valg](information.html#pc-valg) for de mest brukte modellene.
 
-Programvare velger du også selv. Vi har noen avtaler for ymse produkter, alt annet kjøre du direkte og fører utlegg for det. Du skal jaggu ikke mangle noe for å gjøre en god jobb. 
+Programvare velger du også selv. Vi har noen avtaler for ymse produkter, alt annet kjøper du direkte og fører utlegg for. Du skal jaggu ikke mangle noe for å gjøre en god jobb. 
 Som konsulenter selger vi ekspertise og kunnskap, så invester gjerne i bøker, kurs og annet læringsmateriale. Bare husk å sende regningen til regnskap. Den betales med stor glede!  🤓
 
 ### Rettigheter og open source

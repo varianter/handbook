@@ -83,6 +83,10 @@ Variant dekker lønn under HV-øvelser. Dette timeføres som vanlig under
 
 Husk også å markere bemanning i god tid som `Permisjon med lønn`.
 
+### Begravelse
+
+Deltakelse i begravelse timeføres under `[VEL1000] Velferdspermisjoner med lønn --> Velferdspermisjon med lønn`.
+
 ### Kundetid
 
 På kundetid fører man det man jobber også hvis man jobber utover 7,5 timer.
@@ -111,7 +115,7 @@ kunde._
 Reiser i regi av Variant er som hovedregel frivillige og timeføres ikke.
 
 Se forøvrig
-[dette avsnittet](https://handbook.variant.no/information.html#reiser-p%C3%A5-variants-regning)
+[dette avsnittet](https://handbook.variant.no/information#skjema-for-reiseregninger)
 for refusjon av reiseutlegg.
 
 ## Faktura
@@ -231,12 +235,14 @@ er at bare
 [Skatteetatens definisjon](https://www.skatteetaten.no/rettskilder/type/handboker/skatte-abc/gjeldende/naturalytelser-i-arbeidsforhold/N-1.023/N-1.038/)
 setter grenser. Kort oppsummert: Mobiltelefon, programvare og datautstyr som
 f.eks hodetelefoner og tastatur. Se gjerne
-[gadgetoversikten](https://gadget.variant.no) hva andre varianter har kjøpt.
+[gadgetoversikten](https://dash.variant.no/gadgetusage/trondheim) hva andre varianter har kjøpt.
 Kjøp av gadgets er skattefritt og utgiftsføres med en vanlig utgiftsrapport.
 Hvis du er i tvil så spør du i #regnskap på Slack.
 
 Pro tip: Tenk på at summen av kjøpet ditt regnes eksklusive mva., da rekker
 budsjettet ditt lenger!
+
+Pro tip 2: Husk at det er fullt mulig å kjøpe brukt! Det eneste vi trenger er dokumentasjon på kjøpet (f.eks skjermbilde av Finn-annonse og Vipps-kvittering)
 
 ## Forsikringer og pensjon
 
@@ -304,7 +310,7 @@ kontakte lege for raskt få riktige råd. Be om sykmelding fremfor å benytte
 egenmelding i slike tilfeller.
 
 Egenmelding leveres formelt ved å føre på riktig timekode i Harvest. Husk
-selvsagt å varsle riktige personer på prosjekt i tillegg.
+selvsagt å varsle nærmeste leder i Variant og riktige personer i oppdraget.
 
 Hvis du må gå hjem midt i arbeidsdagen fører du egenmelding for de timene du er
 fraværende i Harvest, mens dette regnes som en hel dag i med tanke på grensene
@@ -406,7 +412,7 @@ spør du i #helpdesk 🤓
 ## Nyttige lenker
 
 - [Variantdash](https://dash.variant.no) Vårt dashbord for interne løsninger.
-- [Gadgetoversikt](https://gadget.variant.no) Oversikt over hva som er kjøpt på
+- [Gadgetoversikt](https://dash.variant.no/gadgetusage/trondheim) Oversikt over hva som er kjøpt på
   gadget, og hvor mye man har brukt.
 - [Fordelsrapport](https://fordelsrapport.variant.no) Her rapporteres det inn
   bruk av bonuspoeng eller andre fordelsprogam.
