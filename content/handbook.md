@@ -170,6 +170,15 @@ Til slutt har vi en knakende god helseforsikring, eller behandlingsforsikring so
 -	Fysikalsk behandling - 12 behandlinger
 -	Online videolege for deg og dine barn
 
+## Samfundet 
+
+### Spons
+
+Vi ønsker å gi en del tilbake til samfundet vi opererer i. Dette gjelder i flere dimensjoner, blant annet sponsing av ulike aktiteter. Når det gjelder sponsing så ønsker vi at det bidrar til enten
+
+- økt faglig synlighet av Variant i Trondheim, Oslo eller Bergen, eller
+- økt kvinneandel og mangfold i IT-bransjen.
+
 ### Miljøfyrtårn
 Bærekraft for Variant innebærer mye. Det er likestilling i arbeidslivet, en bærekraftig arbeidsdag, som både er spennende, utfordrende og lærerik. Vi ønsker at valgene vi gjør skal begrense vårt klimaavtrykk. Vi skal skape en kultur hvor vi er nysgjerrige, stiller spørsmål og tar gode valg.
 Vi setter oss årlige mål om å redusere vår belastning på miljøet, vi kildesorterer og fører regnskap over eget avfall, energiforbruk og reiser med fly og bil.
