@@ -170,7 +170,7 @@ Til slutt har vi en knakende god helseforsikring, eller behandlingsforsikring so
 -	Fysikalsk behandling - 12 behandlinger
 -	Online videolege for deg og dine barn
 
-## Samfundet 
+## Samfundet
 
 ### Spons
 
