@@ -6,10 +6,12 @@ order: 1
 ## Tollbugata 24
 Vi holder til, så lenge vi ikke er ute hos våre kunder, i [Tollbugata 24](https://g.page/Tollbugata-8-4308?share).
 
-### WiFi
+### WiFi og Internett
 Når du jobber på kontoret benytter du det trådløse nettet med SSID
-**Variant – Employees**. Våre gjester kan bruke **Variant – Guests**.
-Passordet til trådløsnettene finner du ved å skrive ```/info wifi``` i en vilkårlig kanal på Slack.
+**Variant – Employees**. Gjester kan bruke **Variant – Guests**.
+Passord finner du ved å skrive ```/info wifi``` på Slack.
+
+Vi har serviceavtale med [PursueIT](https://pursueit.no/) som installerte nettverksoppsettet vårt. Man kan kontakte de for _alle_ feil på nettverk eller internett. De håndterer også kommunikasjon med ISP [GlobalConnect](https://www.globalconnect.no/driftsmeldinger).
 
 ### Sykkelparkering
 Tollbugata 24 har både sykkelparkering og garderobe. Det er litt knotete å finne fram, men det kommer en video som viser veien. 
