@@ -9,8 +9,7 @@ export default NextAuth({
       clientSecret: process.env.AZURE_AD_CLIENT_SECRET ?? '',
       tenantId: process.env.AZURE_AD_TENANT_ID ?? '',
 
-      // Apparently required for Azure AD.
-      idToken: false,
+      idToken: true,
 
       async profile(profile, tokens) {
         const departmentResponse = await fetch(
