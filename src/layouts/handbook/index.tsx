@@ -7,7 +7,7 @@ import { LayoutProps } from '../signature';
 
 import style from './handbook.module.css';
 
-function createLinkable(el: 'h2' | 'h3') {
+function createLinkable(el: 'h2' | 'h3' | 'h4') {
   return ({ children, ...props }: JSX.IntrinsicElements[typeof el]) => {
     const textContent = getNodeText(children);
     const slug = slugify(textContent, { lower: false });
@@ -28,10 +28,12 @@ function createLinkable(el: 'h2' | 'h3') {
 }
 const LinkableH2 = createLinkable('h2');
 const LinkableH3 = createLinkable('h3');
+const LinkableH4 = createLinkable('h4');
 
 const components = {
   h2: LinkableH2,
   h3: LinkableH3,
+  h4: LinkableH4,
 };
 
 export default function HandbookLayout({ children, ...props }: LayoutProps) {
