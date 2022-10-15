@@ -1,4 +1,3 @@
-import withPlugins from 'next-compose-plugins';
 import withImages from 'next-images';
 
 import { plugins as remarkPlugins } from './mdx-plugins/index.mjs';
@@ -11,31 +10,33 @@ const withMDX = mdx({
   },
 });
 
-export default withPlugins([withImages, withMDX], {
-  pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
-  images: {
-    disableStaticImages: true,
-  },
-  webpack: (config) => {
-    const oneOf = config.module.rules.find(
-      (rule) => typeof rule.oneOf === 'object',
-    );
-    if (oneOf) {
-      const moduleCssRule = oneOf.oneOf.find((rule) =>
-        regexEqual(rule.test, /\.module\.css$/),
+export default withImages(
+  withMDX({
+    pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
+    images: {
+      disableStaticImages: true,
+    },
+    webpack: (config) => {
+      const oneOf = config.module.rules.find(
+        (rule) => typeof rule.oneOf === 'object',
       );
-      if (moduleCssRule) {
-        const cssLoader = moduleCssRule.use.find(({ loader }) =>
-          loader.includes('css-loader'),
+      if (oneOf) {
+        const moduleCssRule = oneOf.oneOf.find((rule) =>
+          regexEqual(rule.test, /\.module\.css$/),
         );
-        if (cssLoader) {
-          cssLoader.options.modules.mode = 'local';
+        if (moduleCssRule) {
+          const cssLoader = moduleCssRule.use.find(({ loader }) =>
+            loader.includes('css-loader'),
+          );
+          if (cssLoader) {
+            cssLoader.options.modules.mode = 'local';
+          }
         }
       }
-    }
-    return config;
-  },
-});
+      return config;
+    },
+  }),
+);
 
 function regexEqual(x, y) {
   return (

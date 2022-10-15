@@ -17,9 +17,10 @@ function createLinkable(el: 'h2' | 'h3' | 'h4') {
       {
         ...props,
         id: slug,
+        key: slug,
       },
       childList.concat(
-        <a className={style.anchor} href={`#${slug}`}>
+        <a className={style.anchor} key="link" href={`#${slug}`}>
           #
         </a>,
       ),
