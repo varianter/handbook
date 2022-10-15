@@ -20,6 +20,16 @@ export default function SearchForm({
   });
 
   useEffect(() => {
+    if (router.query.q && !Array.isArray(router.query.q)) {
+      const qs = decodeURIComponent(router.query.q);
+      setSearchQuery(qs);
+      if (ref.current) {
+        ref.current.value = qs;
+      }
+    }
+  }, [router.query.q]);
+
+  useEffect(() => {
     if (autofocus) {
       ref.current?.focus();
     }
