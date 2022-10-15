@@ -1,7 +1,8 @@
 import { remarkMdxToc } from 'remark-mdx-toc';
 import remarkFrontmatter from 'remark-frontmatter';
 import remarkMdxFrontmatter from 'remark-mdx-frontmatter';
-import { compile } from '@mdx-js/mdx';
+import { remark } from 'remark';
+import remarkMdx from 'remark-mdx';
 
 export const plugins = [
   remarkFrontmatter,
@@ -10,7 +11,11 @@ export const plugins = [
 ];
 
 export function vfileToAst(vfile) {
-  return compile(vfile, {
-    remarkPlugins: plugins,
-  });
+  const data = remark()
+    .use(remarkFrontmatter)
+    .use([remarkMdxFrontmatter, { name: 'frontmatter' }])
+    .use(remarkMdxToc)
+    .use(remarkMdx)
+    .parse(vfile);
+  return data;
 }

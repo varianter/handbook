@@ -2693,7 +2693,7 @@ remark-mdx-toc@^0.3.1:
     unified "^10.1.2"
     unist-util-visit "^4.1.0"
 
-remark-mdx@^2.0.0:
+remark-mdx@^2.0.0, remark-mdx@^2.1.5:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/remark-mdx/-/remark-mdx-2.1.5.tgz#69b19ec42d30a289e0663c3fc7656ebdca0a8d8e"
   integrity sha512-A8vw5s+BgOa968Irt8BO7DfWJTE0Fe7Ge3hX8zzDB1DnwMZTNdK6qF2IcFao+/7nzk1vSysKcFp+3ku4vhMpaQ==
@@ -2731,7 +2731,7 @@ remark-stringify@^10.0.0:
 
 remark@^14.0.2:
   version "14.0.2"
-  resolved "https://registry.npmjs.org/remark/-/remark-14.0.2.tgz"
+  resolved "https://registry.yarnpkg.com/remark/-/remark-14.0.2.tgz#4a1833f7441a5c29e44b37bb1843fb820797b40f"
   integrity sha512-A3ARm2V4BgiRXaUo5K0dRvJ1lbogrbXnhkJRmD0yw092/Yl0kOCZt1k9ZeElEwkZsWGsMumz6qL5MfNJH9nOBA==
   dependencies:
     "@types/mdast" "^3.0.0"

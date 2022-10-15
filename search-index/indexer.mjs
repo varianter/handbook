@@ -57,7 +57,7 @@ function createFileIndexer(metadata, nodeMapper) {
 
 export async function parseFile(file) {
   const vfile = await read(file, 'utf8');
-  return { ast: vfileToAst(vfile), matter: fm(vfile.toString()) };
+  return { ast: await vfileToAst(vfile), matter: fm(vfile.toString()) };
 }
 
 function fileToUrl(file) {
@@ -78,7 +78,7 @@ function getMappedDataWithHeadings(
   let currentHeading = null;
   let contentList = [];
 
-  for (let node of tree.children) {
+  for (let node of tree?.children ?? []) {
     if (node.type === 'heading') {
       currentHeading = getTextValue(node);
     }
