@@ -1,4 +1,5 @@
-import NextAuth from 'next-auth';
+import NextAuth, { User } from 'next-auth';
+import { AdapterUser } from 'next-auth/adapters';
 import AzureADProvider from 'next-auth/providers/azure-ad';
 
 export default NextAuth({
@@ -54,9 +55,14 @@ export default NextAuth({
 
     async jwt({ token, user }) {
       return {
-        department: user?.department,
+        department: departmentFromPotentialUser(user),
         ...token,
       };
     },
   },
 });
+
+function departmentFromPotentialUser(user: User | AdapterUser | undefined) {
+  if (!user) return undefined;
+  return (user as any).department;
+}
