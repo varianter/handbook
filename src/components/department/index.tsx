@@ -7,17 +7,17 @@ export type Departments = 'Molde' | 'Trondheim' | 'Oslo' | 'Bergen';
 
 type DepartmentProps = React.PropsWithChildren<{
   dep: Departments | Departments[];
-  showAnon?: boolean;
+  showAsAnonymous?: boolean;
 }>;
 export function Department({
   dep,
-  showAnon = false,
+  showAsAnonymous = false,
   children,
 }: DepartmentProps) {
   const user = useUserdata();
   const depArray = Array.isArray(dep) ? dep : [dep];
   const showInfo =
-    (!user && showAnon) || depArray.includes(user?.department as any);
+    (!user && showAsAnonymous) || depArray.includes(user?.department as any);
 
   if (!showInfo) {
     return null;
@@ -75,7 +75,7 @@ export function DepartmentGroup({ children }: DepartmentGroupProps) {
       const slug = toSlug(dep!);
       const isVisible = selectedSlug == slug;
 
-      return React.cloneElement<DepartmentItemProps>(child, {
+      return React.cloneElement<DepartmentItemProps>(child as any, {
         user,
         isVisible,
         prefixId,
