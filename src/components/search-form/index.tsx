@@ -8,13 +8,23 @@ import style from './search.module.css';
 
 const stateMapping = simple();
 
+type SearchFormProps = {
+  currentSearch: string;
+  autofocus?: boolean;
+};
+export function SearchBox(props: SearchFormProps) {
+  return (
+    <div className={style.container}>
+      <h2>Søk etter innhold</h2>
+      <SearchForm {...props} />
+    </div>
+  );
+}
+
 export default function SearchForm({
   currentSearch,
   autofocus = false,
-}: {
-  currentSearch: string;
-  autofocus?: boolean;
-}) {
+}: SearchFormProps) {
   const [searchQuery, setSearchQuery] = useState(currentSearch ?? '');
   const router = useRouter();
   const ref = useRef<HTMLInputElement>(null);
