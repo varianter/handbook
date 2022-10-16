@@ -62,7 +62,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "production-build": "npm run search-index && next build",
+    "production-build": "sh build.sh",
     "lint": "eslint 'src/**/*.{ts,tsx}'",
     "start": "next start",
     "export": "next export",
