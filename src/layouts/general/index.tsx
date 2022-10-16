@@ -84,6 +84,7 @@ export default function GeneralLayout({
   frontmatter,
   toc,
   currentSearch = '',
+  noSidebar = false,
   children,
 }: LayoutProps) {
   const subHeadings = toc[0]?.children.map((c) => c.value) ?? [];
@@ -101,8 +102,10 @@ export default function GeneralLayout({
     isActiveHandbook(category.path, asPath, true),
   );
 
+  const classes = and(style.main, !noSidebar ? style.main__sidebar : undefined);
+
   return (
-    <div className={style.main}>
+    <div className={classes}>
       <Head>
         <title>{frontmatter?.title ?? title}</title>
         <link rel="icon" href={favicon} />
@@ -178,66 +181,34 @@ export default function GeneralLayout({
           </ul>
         )}
 
-        <div className={style.burgerButtonContainer}>
-          <span hidden id="menu-label">
-            Hovedmeny
-          </span>
-          <Hamburger
-            onClick={() => setMenuVisible(!isMenuVisible)}
-            isOpen={isMenuVisible}
-          />
-        </div>
+        {!noSidebar && (
+          <div className={style.burgerButtonContainer}>
+            <span hidden id="menu-label">
+              Hovedmeny
+            </span>
+            <Hamburger
+              onClick={() => setMenuVisible(!isMenuVisible)}
+              isOpen={isMenuVisible}
+            />
+          </div>
+        )}
       </header>
 
-      <nav
-        className={and(style.nav, isMenuVisible ? style.nav__active : ' ')}
-        ref={modalRef}
-      >
-        <section className={style.nav__inner}>
-          <ul className={style.nav__handbooks}>
-            {metadata.handbooks.map((handbook) => {
-              return (
-                <li
-                  key={handbook.title}
-                  className={
-                    isActiveHandbook(handbook.path, asPath)
-                      ? style.nav__inner__link__active
-                      : style.nav__inner__link
-                  }
-                >
-                  <Link href={`/${handbook.path}`}>
-                    <a tabIndex={tabIndex}>{handbook.title}</a>
-                  </Link>
-                </li>
-              );
-            })}
-
-            {metadata.categories.map((category) => (
-              <li
-                key={category.title}
-                className={
-                  isActiveHandbook(category.path, asPath, true)
-                    ? style.nav__inner__link__active
-                    : style.nav__inner__link
-                }
-              >
-                <Link href={`/${category.path}`}>
-                  <a tabIndex={tabIndex}>{category.title}</a>
-                </Link>
-              </li>
-            ))}
-          </ul>
-
-          {currentCategory && (
+      {!noSidebar && (
+        <nav
+          className={and(style.nav, isMenuVisible ? style.nav__active : ' ')}
+          ref={modalRef}
+        >
+          <section className={style.nav__inner}>
             <ul className={style.nav__handbooks}>
-              {currentCategory.handbooks.map((handbook) => {
+              {metadata.handbooks.map((handbook) => {
                 return (
                   <li
                     key={handbook.title}
                     className={
                       isActiveHandbook(handbook.path, asPath)
                         ? style.nav__inner__link__active
-                        : style.nav__inner__lin
+                        : style.nav__inner__link
                     }
                   >
                     <Link href={`/${handbook.path}`}>
@@ -246,33 +217,69 @@ export default function GeneralLayout({
                   </li>
                 );
               })}
-            </ul>
-          )}
 
-          {subHeadings.length > 0 ? (
-            <>
-              <p>Innhold</p>
-              <ul>
-                {subHeadings.map((heading) => {
+              {metadata.categories.map((category) => (
+                <li
+                  key={category.title}
+                  className={
+                    isActiveHandbook(category.path, asPath, true)
+                      ? style.nav__inner__link__active
+                      : style.nav__inner__link
+                  }
+                >
+                  <Link href={`/${category.path}`}>
+                    <a tabIndex={tabIndex}>{category.title}</a>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+
+            {currentCategory && (
+              <ul className={style.nav__handbooks}>
+                {currentCategory.handbooks.map((handbook) => {
                   return (
-                    <li key={heading} className={style.nav__inner__link}>
-                      <a
-                        href={`#${slugify(heading, { lower: false })}`}
-                        tabIndex={tabIndex}
-                      >
-                        {heading}
-                      </a>
+                    <li
+                      key={handbook.title}
+                      className={
+                        isActiveHandbook(handbook.path, asPath)
+                          ? style.nav__inner__link__active
+                          : style.nav__inner__lin
+                      }
+                    >
+                      <Link href={`/${handbook.path}`}>
+                        <a tabIndex={tabIndex}>{handbook.title}</a>
+                      </Link>
                     </li>
                   );
                 })}
               </ul>
-            </>
-          ) : null}
-        </section>
+            )}
 
-        <LoginForm />
-        <SearchForm currentSearch={currentSearch} />
-      </nav>
+            {subHeadings.length > 0 ? (
+              <>
+                <p>Innhold</p>
+                <ul>
+                  {subHeadings.map((heading) => {
+                    return (
+                      <li key={heading} className={style.nav__inner__link}>
+                        <a
+                          href={`#${slugify(heading, { lower: false })}`}
+                          tabIndex={tabIndex}
+                        >
+                          {heading}
+                        </a>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </>
+            ) : null}
+          </section>
+
+          <LoginForm />
+          <SearchForm currentSearch={currentSearch} />
+        </nav>
+      )}
       <section className={style.content}>{children}</section>
 
       <BackgroundBlobs />

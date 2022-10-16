@@ -22,9 +22,9 @@
 }
 
 .refinement__pill {
-  border-radius: 1rem;
+  border-radius: 0.7rem;
   font-size: 0.8rem;
-  padding: 0.2rem 0.6rem;
+  padding: 0.1rem 0.5rem;
   background: var(--color-secondary2);
   color: var(--color-secondary2--text);
   margin-left: 0.2rem;

@@ -1,7 +1,6 @@
 import algoliasearch from 'algoliasearch/lite';
 import {
   Configure,
-  CurrentRefinements,
   Highlight,
   Hits,
   InstantSearch,
@@ -38,7 +37,7 @@ export default function Search(props: SearchPageProps) {
   const userInfo = useUserdata();
 
   return (
-    <GeneralLayout toc={[]} frontmatter={{ title: 'Søk' }}>
+    <GeneralLayout toc={[]} frontmatter={{ title: 'Søk' }} noSidebar>
       <h2>Søk</h2>
       <SearchPage {...props} userInfo={userInfo} />
     </GeneralLayout>

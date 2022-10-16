@@ -276,7 +276,7 @@
   .nav {
     transform: translateX(0);
   }
-  .main {
+  .main__sidebar {
     padding-right: 20rem;
   }
   .hamburger {
