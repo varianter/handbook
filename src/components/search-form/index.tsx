@@ -1,8 +1,12 @@
 import { useRouter } from 'next/router';
 import { useEffect, useRef, useState } from 'react';
 import { useHotkeys } from 'react-hotkeys-hook';
+import { simple } from 'instantsearch.js/es/lib/stateMappings';
+import qs from 'qs';
 
 import style from './search.module.css';
+
+const stateMapping = simple();
 
 export default function SearchForm({
   currentSearch,
@@ -20,25 +24,25 @@ export default function SearchForm({
   });
 
   useEffect(() => {
-    if (router.query.q && !Array.isArray(router.query.q)) {
-      const qs = decodeURIComponent(router.query.q);
-      setSearchQuery(qs);
-      if (ref.current) {
-        ref.current.value = qs;
-      }
-    }
-  }, [router.query.q]);
-
-  useEffect(() => {
     if (autofocus) {
       ref.current?.focus();
     }
   }, [autofocus]);
 
   const performSearch = () => {
+    const s = stateMapping.stateToRoute({
+      handbook_content: {
+        query: searchQuery,
+      },
+    });
+    const q = qs.stringify(s, {
+      addQueryPrefix: false,
+      arrayFormat: 'repeat',
+    });
+
     router.push({
-      pathname: '/search',
-      query: { query: searchQuery },
+      pathname: `/search`,
+      query: q,
     });
   };
 
