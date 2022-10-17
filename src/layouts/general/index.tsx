@@ -89,7 +89,7 @@ export default function GeneralLayout({
 }: LayoutProps) {
   const subHeadings = toc[0]?.children.map((c) => c.value) ?? [];
   const modalRef = React.createRef<HTMLDivElement>();
-  const closeRef = React.createRef<HTMLButtonElement>();
+  const closeRef = React.createRef<HTMLDivElement>();
 
   const { isMenuVisible, setMenuVisible, tabIndex } = useTogglableBurgerMenu(
     modalRef,
@@ -182,7 +182,7 @@ export default function GeneralLayout({
         )}
 
         {!noSidebar && (
-          <div className={style.burgerButtonContainer}>
+          <div className={style.burgerButtonContainer} ref={closeRef}>
             <span hidden id="menu-label">
               Hovedmeny
             </span>
