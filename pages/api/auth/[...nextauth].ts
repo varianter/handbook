@@ -13,23 +13,32 @@ export default NextAuth({
       idToken: true,
 
       async profile(profile, tokens) {
-        const departmentResponse = await fetch(
-          'https://graph.microsoft.com/v1.0/me/department/$value',
-          {
-            headers: {
-              Authorization: `Bearer ${tokens.access_token}`,
+        try {
+          const departmentResponse = await fetch(
+            'https://graph.microsoft.com/v1.0/me/department/$value',
+            {
+              headers: {
+                Authorization: `Bearer ${tokens.access_token}`,
+              },
             },
-          },
-        );
+          );
 
-        const department = await departmentResponse.text();
+          const department = await departmentResponse.text();
 
-        return {
-          id: profile.sub,
-          name: profile.name,
-          email: profile.email,
-          department,
-        };
+          return {
+            id: profile.sub,
+            name: profile.name,
+            email: profile.email,
+            department,
+          };
+        } catch (e) {
+          return {
+            id: profile.sub,
+            name: profile.name,
+            email: profile.email,
+            department: 'none',
+          };
+        }
       },
     }),
   ],
