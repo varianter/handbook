@@ -12,6 +12,11 @@
   background: var(--color-secondary1);
   color: var(--color-secondary1--text);
 }
+@media (max-width: 500px) {
+  .button {
+    padding: 0.5rem 1rem;
+  }
+}
 .button:hover {
   background: var(--color-secondary1__tint2);
   color: var(--color-secondary1__tint2--text);
