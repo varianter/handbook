@@ -67,22 +67,22 @@ export function DepartmentGroup({ children }: DepartmentGroupProps) {
   const [prefixId] = useState(generateId);
 
   const newChildren = React.Children.map(children, (child) => {
-    if (React.isValidElement(child)) {
-      if (child.type != DepartmentItem) {
-        return null;
-      }
-      const dep = getDepartmentPropsAsArray(child);
-      const slug = toSlug(dep!);
-      const isVisible = selectedSlug == slug;
-
-      return React.cloneElement<DepartmentItemProps>(child as any, {
-        user,
-        isVisible,
-        prefixId,
-        slug,
-      });
+    if (!React.isValidElement(child)) {
+      return null;
     }
-    return null;
+    if (child.type != DepartmentItem) {
+      return null;
+    }
+    const dep = getDepartmentPropsAsArray(child);
+    const slug = toSlug(dep!);
+    const isVisible = selectedSlug == slug;
+
+    return React.cloneElement<DepartmentItemProps>(child as any, {
+      user,
+      isVisible,
+      prefixId,
+      slug,
+    });
   });
 
   return (
