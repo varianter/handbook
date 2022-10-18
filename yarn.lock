@@ -1519,12 +1519,7 @@ isexe@^2.0.0:
   resolved "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
 
-jose@^4.1.4:
-  version "4.3.8"
-  resolved "https://registry.npmjs.org/jose/-/jose-4.3.8.tgz"
-  integrity sha512-dFiqN5FPLNWa/v+J3ShFjV/9sRGickxMbGUbqBrYr+BkrqLOieACaavSi9XmLJXe0Uzd7Cgs1oYtDvDrOyWLgw==
-
-jose@^4.9.3:
+jose@^4.1.4, jose@^4.9.3:
   version "4.10.0"
   resolved "https://registry.yarnpkg.com/jose/-/jose-4.10.0.tgz#2e0b7bcc80dd0775f8a4588e55beb9460c37d60a"
   integrity sha512-KEhB/eLGLomWGPTb+/RNbYsTjIyx03JmbqAyIyiXBuNSa7CmNrJd5ysFhblayzs/e/vbOPMUaLnjHUMhGp4yLw==
