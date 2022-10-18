@@ -1,0 +1,38 @@
+.button {
+  border-radius: 3.125rem;
+  border: 0;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  padding: 0.75rem 1.25rem;
+  cursor: pointer;
+  line-height: 1;
+
+  border: 1px solid transparent;
+
+  background: var(--color-secondary1);
+  color: var(--color-secondary1--text);
+}
+@media (max-width: 500px) {
+  .button {
+    padding: 0.5rem 1rem;
+  }
+}
+.button:hover {
+  background: var(--color-secondary1__tint2);
+  color: var(--color-secondary1__tint2--text);
+}
+
+.button--selected {
+  background: transparent;
+  border: 1px solid var(--color-secondary1);
+  color: var(--color-standard__black);
+}
+
+.button--secondary {
+  background: var(--color-secondary2);
+  color: var(--color-secondary2--text);
+}
+.button--secondary:hover {
+  background: var(--color-secondary2__tint2);
+  color: var(--color-secondary2__tint2--text);
+}

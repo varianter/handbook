@@ -1,13 +1,20 @@
-import { AppProps } from "next/app";
-import React from "react";
-import "src/app.css";
+import { AppProps } from 'next/app';
+import React from 'react';
+import 'src/app.css';
+import { SessionProvider } from 'next-auth/react';
+import type { Session } from 'next-auth';
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({
+  Component,
+  pageProps,
+}: AppProps<{ session: Session | null | undefined }>) {
   return (
     <React.StrictMode>
-      <main id="root">
-        <Component {...pageProps} />
-      </main>
+      <SessionProvider session={pageProps.session}>
+        <main id="root">
+          <Component {...pageProps} />
+        </main>
+      </SessionProvider>
     </React.StrictMode>
   );
 }

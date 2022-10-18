@@ -1,33 +1,37 @@
-import { useRouter } from "next/router";
-import { useEffect, useRef, useState } from "react";
-import { useHotkeys } from "react-hotkeys-hook";
+import { useRouter } from 'next/router';
+import { useEffect, useRef, useState } from 'react';
+import { useHotkeys } from 'react-hotkeys-hook';
+import { simple } from 'instantsearch.js/es/lib/stateMappings';
+import qs from 'qs';
 
-import style from "./search.module.css";
+import style from './search.module.css';
+
+const stateMapping = simple();
+
+type SearchFormProps = {
+  currentSearch: string;
+  autofocus?: boolean;
+};
+export function SearchBox(props: SearchFormProps) {
+  return (
+    <div className={style.container}>
+      <h2>Søk etter innhold</h2>
+      <SearchForm {...props} />
+    </div>
+  );
+}
 
 export default function SearchForm({
   currentSearch,
   autofocus = false,
-}: {
-  currentSearch: string;
-  autofocus?: boolean;
-}) {
-  const [searchQuery, setSearchQuery] = useState(currentSearch ?? "");
+}: SearchFormProps) {
+  const [searchQuery, setSearchQuery] = useState(currentSearch ?? '');
   const router = useRouter();
   const ref = useRef<HTMLInputElement>(null);
 
-  useHotkeys("shift+cmd+p,shift+ctrl+p", () => {
+  useHotkeys('shift+cmd+p,shift+ctrl+p', () => {
     ref.current?.focus();
   });
-
-  useEffect(() => {
-    if (router.query.q && !Array.isArray(router.query.q)) {
-      const qs = decodeURIComponent(router.query.q);
-      setSearchQuery(qs);
-      if (ref.current) {
-        ref.current.value = qs;
-      }
-    }
-  }, [router.query.q]);
 
   useEffect(() => {
     if (autofocus) {
@@ -36,9 +40,19 @@ export default function SearchForm({
   }, [autofocus]);
 
   const performSearch = () => {
+    const s = stateMapping.stateToRoute({
+      handbook_content: {
+        query: searchQuery,
+      },
+    });
+    const q = qs.stringify(s, {
+      addQueryPrefix: false,
+      arrayFormat: 'repeat',
+    });
+
     router.push({
-      pathname: "/search",
-      query: { q: encodeURIComponent(searchQuery) },
+      pathname: `/search`,
+      query: q,
     });
   };
 
@@ -52,7 +66,7 @@ export default function SearchForm({
     >
       <input
         defaultValue={searchQuery}
-        placeholder="Søk etter noe..."
+        placeholder="Hva leter du etter?"
         onChange={(e) => setSearchQuery(e.target.value)}
         ref={ref}
         autoFocus={autofocus}

@@ -10,8 +10,8 @@ body {
   margin: 0;
 }
 
-@import "~@variant/profile/lib/colors/index.module.css";
-@import "~@variant/profile/lib/typography/index.module.css";
+@import '~@variant/profile/lib/colors/index.module.css';
+@import '~@variant/profile/lib/typography/index.module.css';
 
 html,
 body,
@@ -42,12 +42,12 @@ h2 {
 }
 h3 {
   font-size: 1.6rem;
-  font-family: "Graphik", sans-serif;
+  font-family: 'Graphik', sans-serif;
   font-weight: 500;
 }
 h4 {
   font-size: 1.2rem;
-  font-family: "Graphik", sans-serif;
+  font-family: 'Graphik', sans-serif;
 }
 li + li {
   margin-top: 0.5rem;
@@ -158,7 +158,7 @@ a:hover {
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: normal;
-  font-family: "Recoleta", serif;
+  font-family: 'Recoleta', serif;
   opacity: 0.8;
 }
 .markdownIt-Anchor:hover {
@@ -178,4 +178,9 @@ h3 .markdownIt-Anchor {
 }
 h4 .markdownIt-Anchor {
   font-size: 1rem;
+}
+
+.ais-Highlight-highlighted {
+  background-color: var(--color-secondary3__tint1);
+  color: var(--color-secondary3__tint1--text);
 }

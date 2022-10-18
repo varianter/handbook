@@ -1,0 +1,3 @@
+type Frontmatter = {
+  title: string;
+};

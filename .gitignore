@@ -107,3 +107,7 @@ dist
 
 # IntelliJ
 .idea/
+
+next-env.d.ts
+
+.env.local

@@ -1,0 +1,25 @@
+.container {
+  background: var(--color-secondary4__tint2);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0px 73px 80px rgba(0, 0, 0, 0.05),
+    0px 26.6462px 29.2013px rgba(0, 0, 0, 0.0344991),
+    0px 12.9362px 14.1767px rgba(0, 0, 0, 0.0278145),
+    0px 6.34158px 6.94968px rgba(0, 0, 0, 0.0221855),
+    0px 2.50747px 2.74791px rgba(0, 0, 0, 0.0155009);
+
+  margin: 3rem 0;
+}
+
+.tablist {
+  margin-bottom: 1rem;
+}
+.tablist__nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.tabpanel[hidden] {
+  display: none;
+}
