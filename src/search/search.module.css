@@ -78,6 +78,10 @@
   gap: 0 1.5rem;
   align-items: baseline;
   margin: 0 2rem;
+  padding: 0.5rem;
+}
+:global(.ais-RefinementList-item) {
+  margin-top: 0;
 }
 :global(.ais-SearchBox-reset) {
   display: none;
