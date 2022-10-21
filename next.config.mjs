@@ -16,6 +16,17 @@ export default withImages(
     images: {
       disableStaticImages: true,
     },
+
+    async redirects() {
+      return [
+        {
+          source: '/handbook',
+          destination: '/',
+          permanent: false,
+        },
+      ];
+    },
+
     webpack: (config) => {
       const oneOf = config.module.rules.find(
         (rule) => typeof rule.oneOf === 'object',
