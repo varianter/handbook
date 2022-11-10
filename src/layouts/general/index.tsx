@@ -33,17 +33,17 @@ const metadata = {
     },
     {
       data: {
-        title: 'Det praktiske',
+        title: 'Praktisk info',
       },
       path: 'information',
-      title: 'Det praktiske',
+      title: 'Praktisk info',
     },
     {
       data: {
-        title: 'Kvalitetsrutiner',
+        title: 'Prosesser',
       },
-      path: 'quality_manual',
-      title: 'Kvalitetsrutiner',
+      path: 'prosesser',
+      title: 'Prosesser',
     },
   ],
   categories: [
