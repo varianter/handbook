@@ -13,6 +13,7 @@ import { and } from 'src/utils/css';
 import { LayoutProps } from '../signature';
 import style from './layout.module.css';
 import navBackground from './navBackground.svg';
+import backArrow from './backArrow.svg';
 
 import backArrow from './backArrow.svg';
 import magnifyingGlass from './magnifyingGlass.svg';
@@ -281,6 +282,12 @@ export default function GeneralLayout({
 
             {subHeadings.length > 0 ? (
               <>
+                <div className={style.backToVariant}>
+                  <img src={backArrow} alt="Pil tilbake til variant" />
+                  <Link href={'/'}>
+                    <a>Til Variant.no</a>
+                  </Link>
+                </div>
                 <ul>
                   {subHeadings.map((heading) => {
                     return (
