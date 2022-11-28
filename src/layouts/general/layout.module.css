@@ -115,6 +115,11 @@
   z-index: 100;
 }
 
+.backToVariant a {
+  color: white;
+  text-decoration: none;
+}
+
 .nav {
   width: 20rem;
 
@@ -329,6 +334,7 @@
     display: none;
   }
   .header__handbooks {
+    padding-top: 2rem;
     display: flex;
   }
   .nav__background {
