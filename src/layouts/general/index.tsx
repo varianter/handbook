@@ -12,6 +12,7 @@ import SearchForm from 'src/components/search-form';
 import { and } from 'src/utils/css';
 import { LayoutProps } from '../signature';
 import style from './layout.module.css';
+import navBackground from './navBackground.svg';
 
 import backArrow from './backArrow.svg';
 import magnifyingGlass from './magnifyingGlass.svg';
@@ -208,6 +209,15 @@ export default function GeneralLayout({
         )}
       </header>
 
+      <div
+        className={and(
+          style.nav__background,
+          isMenuVisible ? style.nav__background__active : ' ',
+        )}
+      >
+        <img src={navBackground} alt="" role="none" />
+      </div>
+
       {!noSidebar && (
         <nav
           className={and(style.nav, isMenuVisible ? style.nav__active : ' ')}
@@ -271,7 +281,6 @@ export default function GeneralLayout({
 
             {subHeadings.length > 0 ? (
               <>
-                <p>Innhold</p>
                 <ul>
                   {subHeadings.map((heading) => {
                     return (
