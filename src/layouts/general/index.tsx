@@ -4,7 +4,6 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useCallback, useEffect, useState } from 'react';
-import slugify from 'slugify';
 import { getAuthServerSideProps } from 'src/auth';
 import BackgroundBlobs from 'src/background';
 import LoginForm from 'src/components/login-form';
@@ -14,6 +13,7 @@ import { LayoutProps } from '../signature';
 import style from './layout.module.css';
 import navBackground from './navBackground.svg';
 import backArrow from './backArrow.svg';
+import NavbarLinks from 'src/components/navbarLinks/navbarLinks';
 
 import backArrow from './backArrow.svg';
 import magnifyingGlass from './magnifyingGlass.svg';
@@ -100,7 +100,7 @@ export default function GeneralLayout({
   noSidebar = false,
   children,
 }: LayoutProps) {
-  const subHeadings = toc[0]?.children.map((c) => c.value) ?? [];
+  const subHeadings = toc[0]?.children;
   const modalRef = React.createRef<HTMLDivElement>();
   const closeRef = React.createRef<HTMLDivElement>();
 
@@ -108,6 +108,8 @@ export default function GeneralLayout({
     modalRef,
     closeRef,
   );
+
+  const [activeHeading, setActiveHeading] = useState('');
 
   const { asPath } = useRouter();
 
@@ -291,14 +293,13 @@ export default function GeneralLayout({
                 <ul>
                   {subHeadings.map((heading) => {
                     return (
-                      <li key={heading} className={style.nav__inner__link}>
-                        <a
-                          href={`#${slugify(heading, { lower: false })}`}
+                      <div onClick={() => setActiveHeading(heading.value)}>
+                        <NavbarLinks
+                          heading={heading}
                           tabIndex={tabIndex}
-                        >
-                          {heading}
-                        </a>
-                      </li>
+                          isOpen={activeHeading == heading.value}
+                        />
+                      </div>
                     );
                   })}
                 </ul>
