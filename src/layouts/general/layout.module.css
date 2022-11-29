@@ -27,6 +27,7 @@
 
   position: fixed;
   z-index: 100;
+  left: 0;
 
   background-color: var(--color-secondary1__shade2);
 }
@@ -129,7 +130,7 @@
   height: -webkit-fill-available;
 
   left: 0;
-  top: 0;
+  top: 5rem;
 
   z-index: 50;
 
