@@ -116,7 +116,7 @@
 }
 
 .backToVariant a {
-  color: white;
+  color: var(--color-standard__white);
   text-decoration: none;
 }
 
@@ -201,6 +201,11 @@
   color: var(--color-secondary3__shade1);
 }
 
+.nav__inner__link a {
+  color: var(--color-standard__white);
+  font-size: 1.125rem;
+}
+
 .nav__inner__link__active {
   padding-bottom: 1rem;
   color: var(--color-primary__tint1);
@@ -208,14 +213,26 @@
 .nav__inner__link__active a {
   border-bottom: 2px solid var(--color-primary__tint2);
 }
-.nav__inner ul li:hover {
+
+.nav__inner__link__child {
+  display: none;
+}
+.nav__inner__link__children a {
+  color: var(--color-standard__white);
+  font-size: 0.825rem;
+  padding-left: 1rem;
+}
+
+.nav__inner__link__child__active {
+  display: block;
+}
+
+.nav__inner__link__child .nav__inner ul li:hover {
   color: var(--color-primary);
 }
 
 .nav__inner ul a {
   text-decoration: none;
-  color: var(--color-standard__white);
-  font-size: 1.125rem;
 }
 
 .nav__inner ul a:hover {
