@@ -97,7 +97,7 @@
   color: var(--color-standard__white);
 }
 .header__handbooks a:hover {
-  border-bottom: 2px solid var(--color-secondary2);
+  border-bottom: 2px solid var(--color-primary__tint2);
   cursor: pointer;
 }
 .header__handbooks__category {
@@ -220,7 +220,7 @@
 .nav__inner__link__children a {
   color: var(--color-standard__white);
   font-size: 0.825rem;
-  padding-left: 1rem;
+  margin-left: 1rem;
 }
 
 .nav__inner__link__child__active {
@@ -236,7 +236,7 @@
 }
 
 .nav__inner ul a:hover {
-  border-bottom: 2px solid var(--color-secondary2);
+  border-bottom: 2px solid var(--color-primary__tint2);
   cursor: pointer;
 }
 
