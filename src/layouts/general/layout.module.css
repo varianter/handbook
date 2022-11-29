@@ -355,6 +355,7 @@
     display: flex;
   }
   .nav__background {
-    left: 0;
+    left: -2rem;
+    top: -1px;
   }
 }
