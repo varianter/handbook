@@ -13,6 +13,10 @@ import { and } from 'src/utils/css';
 import { LayoutProps } from '../signature';
 import style from './layout.module.css';
 
+import backArrow from './backArrow.svg';
+import magnifyingGlass from './magnifyingGlass.svg';
+import searchBlob from './searchBlob.svg';
+
 const title = 'Variant Håndbok';
 
 const isActiveHandbook = (path: string, asPath: string, isCategory = false) => {
@@ -44,6 +48,13 @@ const metadata = {
       },
       path: 'prosesser',
       title: 'Prosesser',
+    },
+    {
+      data: {
+        title: 'Lokasjoner',
+      },
+      path: 'avdelinger',
+      title: 'Lokasjoner',
     },
   ],
   categories: [
@@ -122,13 +133,11 @@ export default function GeneralLayout({
         />
       </Head>
       <header className={style.header}>
-        <Link href="/">
-          <a className={style.header__logo}>
-            <img src={require('./variant-bw.svg')} alt="Variant" />
-          </a>
-        </Link>
-
         <ul className={style.header__handbooks}>
+          <li className={style.header__handbooks__back}>
+            <img src={backArrow} alt="" role="none" />
+            <a href="">Til variant.no</a>
+          </li>
           {metadata.handbooks.map((handbook) => (
             <li
               key={handbook.title}
@@ -144,7 +153,12 @@ export default function GeneralLayout({
             </li>
           ))}
 
-          {metadata.categories.map((category) => (
+          <li className={style.header__handbooks__search}>
+            <p>Søk</p>
+            <img src={magnifyingGlass} alt="" role="none" />
+            <img src={searchBlob} alt="" role="none" />
+          </li>
+          {/* {metadata.categories.map((category) => (
             <li
               key={category.title}
               className={
@@ -157,10 +171,10 @@ export default function GeneralLayout({
                 <a tabIndex={tabIndex}>{category.title}</a>
               </Link>
             </li>
-          ))}
+          ))} */}
         </ul>
 
-        {currentCategory && (
+        {/* {currentCategory && (
           <ul className={style.header__handbooks__category}>
             {currentCategory.handbooks.map((handbook) => {
               return (
@@ -179,7 +193,7 @@ export default function GeneralLayout({
               );
             })}
           </ul>
-        )}
+        )} */}
 
         {!noSidebar && (
           <div className={style.burgerButtonContainer} ref={closeRef}>
