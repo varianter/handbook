@@ -231,6 +231,7 @@
 }
 .nav__inner__link__active a {
   border-bottom: 2px solid var(--color-primary__tint2);
+  color: var(--color-standard__white);
 }
 
 .nav__inner__link__child {
