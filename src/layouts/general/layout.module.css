@@ -54,6 +54,8 @@
 
 .header__handbooks__dark {
   background-color: var(--color-secondary1__shade2);
+  position: relative;
+  z-index: 0;
 }
 
 .header__handbooks__back {
