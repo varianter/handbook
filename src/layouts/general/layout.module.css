@@ -20,12 +20,18 @@
   box-sizing: border-box;
 }
 
-.header {
-  width: 85vw;
-
+.header,
+.header__dark {
   position: fixed;
   z-index: 1;
   right: 0;
+  width: 85vw;
+}
+
+.header__dark {
+  z-index: 100;
+  width: 86vw;
+  background-color: var(--color-secondary1__shade2);
 }
 
 .header__logo {
@@ -183,7 +189,7 @@
 }
 
 .nav__background img {
-  width: 20rem;
+  width: 20vw;
 }
 
 .nav__background__active {
@@ -362,6 +368,16 @@
   top: calc(var(--spacings) * 1);
   width: 0%;
   left: 50%;
+}
+
+@media (max-width: 1450px) {
+  .nav__background img {
+    width: 25vw;
+  }
+
+  .header__dark {
+    width: 85vw;
+  }
 }
 
 @media (min-width: 1200px) {
