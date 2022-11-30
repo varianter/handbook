@@ -231,6 +231,7 @@
 .nav__inner__link {
   padding-bottom: 1rem;
   color: var(--color-secondary3__shade1);
+  max-width: 11rem;
 }
 
 .nav__inner__link a {
