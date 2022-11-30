@@ -21,11 +21,11 @@
 }
 
 .header {
-  width: 100%;
+  width: 85vw;
 
   position: fixed;
-  z-index: 100;
-  left: 0;
+  z-index: 0;
+  right: 0;
 }
 
 .header__logo {
@@ -40,22 +40,29 @@
 .header__handbooks,
 .header__handbooks__dark {
   display: none;
-
   list-style: none;
 
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+
   margin: 0 auto;
   padding-block: 2.125rem;
   padding-inline: 2rem;
 
   font-weight: 500;
 }
+.header__handbooks,
+.header__handbooks__dark {
+  position: relative;
+  z-index: 0;
+}
 
 .header__handbooks__dark {
   background-color: var(--color-secondary1__shade2);
-  position: relative;
-  z-index: 0;
+}
+
+.header__handbooks {
+  background-color: var(--color-secondary4__tint2);
 }
 
 .header__handbooks__back {
@@ -148,7 +155,7 @@
   height: -webkit-fill-available;
 
   left: 0;
-  top: 5rem;
+  top: 0rem;
 
   z-index: 50;
 

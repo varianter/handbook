@@ -144,10 +144,6 @@ export default function GeneralLayout({
               : style.header__handbooks
           }
         >
-          <li className={style.header__handbooks__back}>
-            <img src={backArrow} alt="" role="none" />
-            <a href="">Til variant.no</a>
-          </li>
           {metadata.handbooks.map((handbook) => (
             <li
               key={handbook.title}
@@ -294,6 +290,10 @@ export default function GeneralLayout({
 
             {subHeadings.length > 0 ? (
               <>
+                <li className={style.header__handbooks__back}>
+                  <img src={backArrow} alt="" role="none" />
+                  <a href="">Til variant.no</a>
+                </li>
                 <ul>
                   {subHeadings.map((heading) => {
                     return (
