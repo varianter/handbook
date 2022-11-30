@@ -117,6 +117,7 @@ export default function GeneralLayout({
   );
 
   const classes = and(style.main, !noSidebar ? style.main__sidebar : undefined);
+  console.log(asPath);
 
   return (
     <div className={classes}>
@@ -136,7 +137,13 @@ export default function GeneralLayout({
         />
       </Head>
       <header className={style.header}>
-        <ul className={style.header__handbooks}>
+        <ul
+          className={
+            asPath === '/'
+              ? style.header__handbooks__dark
+              : style.header__handbooks
+          }
+        >
           <li className={style.header__handbooks__back}>
             <img src={backArrow} alt="" role="none" />
             <a href="">Til variant.no</a>

@@ -21,8 +21,6 @@
 }
 
 .header {
-  padding: 0 1rem;
-
   width: 100%;
 
   position: fixed;
@@ -39,7 +37,8 @@
   margin: 1rem 0;
 }
 
-.header__handbooks {
+.header__handbooks,
+.header__handbooks__dark {
   display: none;
 
   list-style: none;
@@ -51,6 +50,10 @@
   padding-inline: 2rem;
 
   font-weight: 500;
+}
+
+.header__handbooks__dark {
+  background-color: var(--color-secondary1__shade2);
 }
 
 .header__handbooks__back {
@@ -87,17 +90,30 @@
 .header__handbooks__link__active a {
   border-bottom: 2px solid var(--color-standard__black);
 }
-.header__handbooks li {
+.header__handbooks__link__dark a {
+  color: var(--color-standard__white);
+}
+.header__handbooks__link__dark__active {
+  border-bottom: 2px solid var(--color-standard__white);
+}
+.header__handbooks__link__dark__active a {
+  color: var(--color-standard__white);
+}
+.header__handbooks li,
+.header__handbooks__dark li {
   margin: 0;
 }
-.header__handbooks li:not(:first-of-type) {
+.header__handbooks li:not(:first-of-type),
+.header__handbooks__darkli:not(:first-of-type) {
   margin-left: 1.5rem;
 }
 
-.header__handbooks a {
+.header__handbooks a,
+.header__handbooks__dark a {
   text-decoration: none;
 }
-.header__handbooks a:hover {
+.header__handbooks a:hover,
+.header__handbooks__dark a:hover {
   border-bottom: 2px solid var(--color-primary__tint2);
   cursor: pointer;
 }
@@ -351,7 +367,8 @@
   .nav__handbooks {
     display: none;
   }
-  .header__handbooks {
+  .header__handbooks,
+  .header__handbooks__dark {
     padding-top: 2rem;
     display: flex;
   }
