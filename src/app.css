@@ -93,24 +93,36 @@ li + li {
 }
 
 .wave {
-  position: relative;
   z-index: 0;
-  bottom: 6rem;
-  right: 25rem;
+  background: rgb(40, 37, 82);
+  background: linear-gradient(
+    0deg,
+    rgba(40, 37, 82, 1) 0%,
+    rgba(40, 37, 82, 1) 97%,
+    rgba(0, 212, 255, 0) 100%
+  );
 
   width: 200%;
   height: auto;
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
+
+  left: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: 100vw;
+  position: relative;
+  right: 50%;
+  width: 100vw;
 }
 
 .darkBackground {
   background-color: var(--color-secondary1__shade2);
   padding: 20rem;
   margin: -20rem;
-  padding-inline: 30rem;
-  margin-inline: -30rem;
+  padding-inline: 50rem;
+  margin-inline: -50rem;
   z-index: -1;
 }
 
