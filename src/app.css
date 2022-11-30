@@ -102,10 +102,6 @@ li + li {
     rgba(0, 212, 255, 0) 100%
   );
 
-  width: 200%;
-  height: auto;
-  overflow: hidden;
-  line-height: 0;
   transform: rotate(180deg);
 
   left: 50%;
