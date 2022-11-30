@@ -145,8 +145,12 @@ export default function GeneralLayout({
             <li
               key={handbook.title}
               className={
-                isActiveHandbook(handbook.path, asPath)
+                isActiveHandbook(handbook.path, asPath) && asPath != '/'
                   ? style.header__handbooks__link__active
+                  : isActiveHandbook(handbook.path, asPath) && asPath == '/'
+                  ? style.header__handbooks__link__dark__active
+                  : asPath == '/'
+                  ? style.header__handbooks__link__dark
                   : style.header__handbooks__link
               }
             >

@@ -28,8 +28,6 @@
   position: fixed;
   z-index: 100;
   left: 0;
-
-  background-color: var(--color-secondary1__shade2);
 }
 
 .header__logo {
@@ -58,6 +56,9 @@
 .header__handbooks__back {
   display: flex;
 }
+.header__handbooks__back a {
+  color: var(--color-standard__white);
+}
 .header__handbooks__search {
   display: flex;
   gap: 0.25rem;
@@ -84,7 +85,7 @@
   color: var(--color-primary__tint1);
 }
 .header__handbooks__link__active a {
-  border-bottom: 2px solid var(--color-standard__white);
+  border-bottom: 2px solid var(--color-standard__black);
 }
 .header__handbooks li {
   margin: 0;
@@ -95,7 +96,6 @@
 
 .header__handbooks a {
   text-decoration: none;
-  color: var(--color-standard__white);
 }
 .header__handbooks a:hover {
   border-bottom: 2px solid var(--color-primary__tint2);
