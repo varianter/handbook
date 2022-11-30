@@ -35,4 +35,7 @@
     0px 2.50747px 2.74791px rgba(0, 0, 0, 0.0155009);
 
   margin: 3rem 0;
+
+  position: relative;
+  z-index: 1;
 }
