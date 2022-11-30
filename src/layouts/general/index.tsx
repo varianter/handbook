@@ -26,6 +26,10 @@ const isActiveHandbook = (path: string, asPath: string, isCategory = false) => {
   return `/${path}` === asPath;
 };
 
+const isLandingpage = (asPath: string) => {
+  return asPath === '/';
+};
+
 // @TODO This should be automatically generated from the tree structure
 const metadata = {
   handbooks: [
@@ -117,7 +121,6 @@ export default function GeneralLayout({
   );
 
   const classes = and(style.main, !noSidebar ? style.main__sidebar : undefined);
-  console.log(asPath);
 
   return (
     <div className={classes}>
@@ -136,10 +139,12 @@ export default function GeneralLayout({
           content="https://www.variant.no/og-header-min.png"
         />
       </Head>
-      <header className={style.header}>
+      <header
+        className={isLandingpage(asPath) ? style.header__dark : style.header}
+      >
         <ul
           className={
-            asPath === '/'
+            isLandingpage(asPath)
               ? style.header__handbooks__dark
               : style.header__handbooks
           }
@@ -148,11 +153,13 @@ export default function GeneralLayout({
             <li
               key={handbook.title}
               className={
-                isActiveHandbook(handbook.path, asPath) && asPath != '/'
+                isActiveHandbook(handbook.path, asPath) &&
+                !isLandingpage(asPath)
                   ? style.header__handbooks__link__active
-                  : isActiveHandbook(handbook.path, asPath) && asPath == '/'
+                  : isActiveHandbook(handbook.path, asPath) &&
+                    isLandingpage(asPath)
                   ? style.header__handbooks__link__dark__active
-                  : asPath == '/'
+                  : isLandingpage(asPath)
                   ? style.header__handbooks__link__dark
                   : style.header__handbooks__link
               }
@@ -168,42 +175,7 @@ export default function GeneralLayout({
             <img src={magnifyingGlass} alt="" role="none" />
             <img src={searchBlob} alt="" role="none" />
           </li>
-          {/* {metadata.categories.map((category) => (
-            <li
-              key={category.title}
-              className={
-                isActiveHandbook(category.path, asPath, true)
-                  ? style.header__handbooks__link__active
-                  : style.header__handbooks__link
-              }
-            >
-              <Link href={`/${category.path}`}>
-                <a tabIndex={tabIndex}>{category.title}</a>
-              </Link>
-            </li>
-          ))} */}
         </ul>
-
-        {/* {currentCategory && (
-          <ul className={style.header__handbooks__category}>
-            {currentCategory.handbooks.map((handbook) => {
-              return (
-                <li
-                  key={handbook.title}
-                  className={
-                    isActiveHandbook(handbook.path, asPath)
-                      ? style.header__handbooks__link__active
-                      : style.header__handbooks__link
-                  }
-                >
-                  <Link href={`/${handbook.path}`}>
-                    <a tabIndex={tabIndex}>{handbook.title}</a>
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
-        )} */}
 
         {!noSidebar && (
           <div className={style.burgerButtonContainer} ref={closeRef}>
