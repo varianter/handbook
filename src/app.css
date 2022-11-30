@@ -36,6 +36,7 @@ h4 {
 }
 h1 {
   font-size: 4rem;
+  position: relative;
 }
 h2 {
   font-size: 2.4rem;
@@ -89,6 +90,36 @@ li + li {
   display: block;
   top: 8rem;
   max-width: 35rem;
+}
+
+.wave {
+  position: relative;
+  z-index: 0;
+  bottom: 6rem;
+  right: 25rem;
+
+  width: 200%;
+  height: auto;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.darkBackground {
+  background-color: var(--color-secondary1__shade2);
+  padding: 20rem;
+  margin: -20rem;
+  padding-inline: 30rem;
+  margin-inline: -30rem;
+  z-index: -1;
+}
+
+.darkBackground * {
+  color: var(--color-standard__white);
+}
+
+.darkBackground p a {
+  color: var(--color-standard__white);
 }
 
 .illustration--headquarter {
