@@ -24,7 +24,7 @@
   width: 85vw;
 
   position: fixed;
-  z-index: 0;
+  z-index: 1;
   right: 0;
 }
 
