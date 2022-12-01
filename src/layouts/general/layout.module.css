@@ -208,7 +208,6 @@
   top: 0;
   overflow: auto;
   padding: 2rem 2rem 6rem;
-
   font-size: 1.2rem;
 }
 
@@ -377,6 +376,9 @@
   .nav__handbooks {
     display: none;
   }
+  .nav__inner {
+    width: 25vw;
+  }
   .header__handbooks,
   .header__handbooks__dark {
     padding-top: 2rem;
@@ -385,6 +387,9 @@
   .nav__background {
     left: -2rem;
     top: -1px;
-    width: 20vw;
+  }
+
+  .nav__background img {
+    width: 25vw;
   }
 }
