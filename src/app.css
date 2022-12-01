@@ -37,6 +37,7 @@ h4 {
 h1 {
   font-size: 4rem;
   position: relative;
+  z-index: 0;
 }
 h2 {
   font-size: 2.4rem;
