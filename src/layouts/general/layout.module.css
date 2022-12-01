@@ -25,13 +25,7 @@
   position: fixed;
   z-index: 1;
   right: 0;
-  width: 85vw;
-}
-
-.header__dark {
-  z-index: 100;
-  width: 86vw;
-  background-color: var(--color-secondary1__shade2);
+  width: 100vw;
 }
 
 .header__logo {
@@ -51,16 +45,15 @@
   flex-wrap: wrap;
   justify-content: space-around;
 
-  margin: 0 auto;
-  padding-block: 2.125rem;
-  padding-inline: 2rem;
-
-  font-weight: 500;
-}
-.header__handbooks,
-.header__handbooks__dark {
   position: relative;
   z-index: 0;
+
+  margin: 0 auto;
+  padding-block: 2.125rem;
+  padding-right: 2rem;
+  padding-left: 20vw;
+
+  font-weight: 500;
 }
 
 .header__handbooks__dark {
@@ -369,16 +362,6 @@
   top: calc(var(--spacings) * 1);
   width: 0%;
   left: 50%;
-}
-
-@media (max-width: 1450px) {
-  .nav__background img {
-    width: 25vw;
-  }
-
-  .header__dark {
-    width: 85vw;
-  }
 }
 
 @media (min-width: 1200px) {
