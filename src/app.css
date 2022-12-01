@@ -116,8 +116,10 @@ li + li {
 
 .darkBackground {
   background-color: var(--color-secondary1__shade2);
-  padding: 20rem;
-  margin: -20rem;
+  padding-bottom: 20rem;
+  margin-bottom: -20rem;
+  padding-top: 30rem;
+  margin-top: -30rem;
   padding-inline: 50rem;
   margin-inline: -50rem;
   position: relative;
