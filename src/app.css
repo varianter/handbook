@@ -37,7 +37,7 @@ h4 {
 h1 {
   font-size: 4rem;
   position: relative;
-  z-index: -1;
+  z-index: 1;
 }
 h2 {
   font-size: 2.4rem;
@@ -94,7 +94,7 @@ li + li {
 }
 
 .wave {
-  z-index: -1;
+  z-index: 1;
   background: rgb(40, 37, 82);
   background: linear-gradient(
     0deg,
@@ -123,7 +123,7 @@ li + li {
   padding-inline: 50rem;
   margin-inline: -50rem;
   position: relative;
-  z-index: -2;
+  z-index: 0;
 }
 
 .darkBackground * {
