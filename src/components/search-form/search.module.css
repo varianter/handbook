@@ -37,5 +37,5 @@
   margin: 3rem 0;
 
   position: relative;
-  z-index: 1;
+  z-index: -1;
 }
