@@ -385,5 +385,6 @@
   .nav__background {
     left: -2rem;
     top: -1px;
+    width: 20vw;
   }
 }
