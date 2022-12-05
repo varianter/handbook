@@ -106,6 +106,7 @@ export default function GeneralLayout({
   const subHeadings = toc[0]?.children;
   const modalRef = React.createRef<HTMLDivElement>();
   const closeRef = React.createRef<HTMLDivElement>();
+  const waveVisible = useOnScreen(waveRef);
 
   const { isMenuVisible, setMenuVisible, tabIndex } = useTogglableBurgerMenu(
     modalRef,
@@ -159,7 +160,7 @@ export default function GeneralLayout({
       >
         <ul
           className={
-            isLandingpage(asPath) && scrollPosition < 1100
+            isLandingpage(asPath) && (waveVisible || scrollPosition < 500)
               ? style.header__handbooks__dark
               : style.header__handbooks
           }
@@ -173,9 +174,10 @@ export default function GeneralLayout({
                   ? style.header__handbooks__link__active
                   : isActiveHandbook(handbook.path, asPath) &&
                     isLandingpage(asPath) &&
-                    scrollPosition < 1100
+                    (waveVisible || scrollPosition < 500)
                   ? style.header__handbooks__link__dark__active
-                  : isLandingpage(asPath) && scrollPosition < 1100
+                  : isLandingpage(asPath) &&
+                    (waveVisible || scrollPosition < 500)
                   ? style.header__handbooks__link__dark
                   : style.header__handbooks__link
               }
@@ -557,4 +559,23 @@ function removeListener(
     return matcher.removeEventListener('change', cb);
   }
   return matcher.removeListener(cb);
+}
+
+export const waveRef = React.createRef<HTMLImageElement>();
+
+function useOnScreen(ref: React.RefObject<HTMLImageElement>) {
+  const [isIntersecting, setIntersecting] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) =>
+      setIntersecting(entry.isIntersecting),
+    );
+    if (ref.current != null) observer.observe(ref.current);
+    // Remove the observer as soon as the component is unmounted
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
+  return isIntersecting;
 }
