@@ -3,6 +3,7 @@ title: En variants håndbok
 ---
 
 import { SearchBox } from 'src/components/search-form';
+import { waveRef } from 'src/layouts/general/index.tsx';
 
 # En variants håndbok
 
@@ -23,7 +24,12 @@ om oss på [nettsiden vår](https://www.variant.no).
 </div>
 <SearchBox />
 
-<img src="./assets/illustrations/wave.svg" alt="" className="wave" />
+<img
+  ref={waveRef}
+  src="./assets/illustrations/wave.svg"
+  alt=""
+  className="wave"
+/>
 
 <div>
 <img
