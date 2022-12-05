@@ -38,7 +38,7 @@ export default function Search(props: SearchPageProps) {
 
   return (
     <GeneralLayout toc={[]} frontmatter={{ title: 'Søk' }} noSidebar>
-      <h2>Søk</h2>
+      <h2>Hva leter du etter?</h2>
       <SearchPage {...props} userInfo={userInfo} />
     </GeneralLayout>
   );

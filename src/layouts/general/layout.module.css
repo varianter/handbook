@@ -8,6 +8,29 @@
   flex-direction: column;
 }
 
+.search__main {
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--color-secondary1__shade3);
+  color: var(--color-standard__white);
+}
+
+.search__main a {
+  color: var(--color-standard__white);
+  font-family: 'Recoleta', serif;
+}
+
+.search__main h2 {
+  font-family: 'Recoleta', serif;
+  font-size: 4rem;
+}
+
 .content {
   max-width: 45rem;
   min-height: 100vh;

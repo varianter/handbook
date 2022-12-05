@@ -102,7 +102,7 @@ export default function GeneralLayout({
     isActiveHandbook(category.path, asPath, true),
   );
 
-  const classes = and(style.main, !noSidebar ? style.main__sidebar : undefined);
+  const classes = and(asPath === '/search' ? style.search__main : style.main, !noSidebar ? style.main__sidebar : undefined);
 
   return (
     <div className={classes}>
@@ -122,12 +122,6 @@ export default function GeneralLayout({
         />
       </Head>
       <header className={style.header}>
-        <Link href="/">
-          <a className={style.header__logo}>
-            <img src={require('./variant-bw.svg')} alt="Variant" />
-          </a>
-        </Link>
-
         <ul className={style.header__handbooks}>
           {metadata.handbooks.map((handbook) => (
             <li
