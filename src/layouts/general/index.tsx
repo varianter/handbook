@@ -112,6 +112,21 @@ export default function GeneralLayout({
     closeRef,
   );
 
+  const [scrollPosition, setscrollPosition] = useState(0);
+
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setscrollPosition(position);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   const [activeHeading, setActiveHeading] = useState('');
 
   const { asPath } = useRouter();
@@ -144,7 +159,7 @@ export default function GeneralLayout({
       >
         <ul
           className={
-            isLandingpage(asPath)
+            isLandingpage(asPath) && scrollPosition < 1100
               ? style.header__handbooks__dark
               : style.header__handbooks
           }
@@ -157,9 +172,10 @@ export default function GeneralLayout({
                 !isLandingpage(asPath)
                   ? style.header__handbooks__link__active
                   : isActiveHandbook(handbook.path, asPath) &&
-                    isLandingpage(asPath)
+                    isLandingpage(asPath) &&
+                    scrollPosition < 1100
                   ? style.header__handbooks__link__dark__active
-                  : isLandingpage(asPath)
+                  : isLandingpage(asPath) && scrollPosition < 1100
                   ? style.header__handbooks__link__dark
                   : style.header__handbooks__link
               }
