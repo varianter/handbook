@@ -165,7 +165,7 @@ export default function GeneralLayout({
               : style.header__handbooks
           }
         >
-          {metadata.handbooks.map((handbook) => (
+          {metadata.handbooks.map((handbook, index) => (
             <li
               key={handbook.title}
               className={
@@ -183,7 +183,7 @@ export default function GeneralLayout({
               }
             >
               <Link href={`/${handbook.path}`}>
-                <a tabIndex={tabIndex}>{handbook.title}</a>
+                <a tabIndex={tabIndex}>{`${index + 1}.${handbook.title}`}</a>
               </Link>
             </li>
           ))}
