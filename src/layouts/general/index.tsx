@@ -102,7 +102,7 @@ export default function GeneralLayout({
     isActiveHandbook(category.path, asPath, true),
   );
 
-  const classes = and(asPath === '/search' ? style.search__main : style.main, !noSidebar ? style.main__sidebar : undefined);
+  const classes = and(asPath.split('?')[0] === '/search' ? style.search__main : style.main, !noSidebar ? style.main__sidebar : undefined);
 
   return (
     <div className={classes}>
