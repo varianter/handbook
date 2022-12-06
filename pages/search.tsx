@@ -94,8 +94,9 @@ function SearchPage(props: SearchPagePropsWithUser) {
         <Configure hitsPerPage={SEARCH_HITS_PER_PAGE} />
 
         <div className={style.searchInputs}>
-          <SearchBox autoFocus placeholder="Hva leter du etter?" />
-          <RefinementList
+          <SearchBox autoFocus placeholder="Skriv her" />
+          <div className={style.searchDivider} />
+          {/* <RefinementList
             attribute="department"
             sortBy={['name:desc']}
             classNames={{
@@ -103,7 +104,7 @@ function SearchPage(props: SearchPagePropsWithUser) {
               labelText: style.refinement__labelText,
               label: style.refinement__label,
             }}
-          />
+          /> */}
         </div>
 
         <Hits hitComponent={Hit} />
