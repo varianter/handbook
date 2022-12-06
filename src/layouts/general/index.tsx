@@ -12,11 +12,11 @@ import { and } from 'src/utils/css';
 import { LayoutProps } from '../signature';
 import style from './layout.module.css';
 import navBackground from './navBackground.svg';
-import NavbarLinks from 'src/components/navbarLinks/navbarLinks';
 
 import backArrow from './backArrow.svg';
 import magnifyingGlass from './magnifyingGlass.svg';
 import searchBlob from './searchBlob.svg';
+import slugify from 'slugify';
 
 const title = 'Variant Håndbok';
 
@@ -287,13 +287,51 @@ export default function GeneralLayout({
                 <ul>
                   {subHeadings.map((heading) => {
                     return (
-                      <div onClick={() => setActiveHeading(heading.value)}>
-                        <NavbarLinks
-                          heading={heading}
+                      <li
+                        key={heading.value}
+                        className={style.nav__inner__link}
+                      >
+                        <a
+                          href={`#${slugify(heading.value, { lower: false })}`}
                           tabIndex={tabIndex}
-                          isOpen={activeHeading == heading.value}
-                        />
-                      </div>
+                        >
+                          {heading.value}
+                        </a>
+                        {heading.children.map((children) => {
+                          return (
+                            <ul className={style.nav__inner__link__h3}>
+                              <a
+                                onClick={() => setActiveHeading(children.value)}
+                                href={`#${slugify(children.value, {
+                                  lower: false,
+                                })}`}
+                              >
+                                {children.value}
+                              </a>
+                              {children.children.map((children2) => {
+                                return (
+                                  <li
+                                    className={and(
+                                      style.nav__inner__link__h3__children,
+                                      activeHeading == children.value
+                                        ? style.nav__inner__link__h3__children__active
+                                        : ' ',
+                                    )}
+                                  >
+                                    <a
+                                      href={`#${slugify(children2.value, {
+                                        lower: false,
+                                      })}`}
+                                    >
+                                      {children2.value}
+                                    </a>
+                                  </li>
+                                );
+                              })}
+                            </ul>
+                          );
+                        })}
+                      </li>
                     );
                   })}
                 </ul>

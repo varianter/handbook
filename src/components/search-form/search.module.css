@@ -39,3 +39,18 @@
   position: relative;
   z-index: 2;
 }
+
+.container h2 {
+  display: block;
+  text-align: start;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  color: var(--color--standard__black);
+
+  font-size: 2.4rem;
+}
+
+.container h2:after {
+  content: none;
+}
