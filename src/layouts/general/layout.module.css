@@ -189,7 +189,7 @@
 .nav__background__active {
   position: absolute;
   z-index: 50;
-  left: -4px;
+  left: -1rem;
 }
 
 .nav li {
