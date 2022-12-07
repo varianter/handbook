@@ -7,7 +7,6 @@ import {
   InstantSearchServerState,
   InstantSearchSSRProvider,
   Pagination,
-  RefinementList,
   SearchBox,
 } from 'react-instantsearch-hooks-web';
 
@@ -96,15 +95,7 @@ function SearchPage(props: SearchPagePropsWithUser) {
         <div className={style.searchInputs}>
           <SearchBox autoFocus placeholder="Skriv her" />
           <div className={style.searchDivider} />
-          {/* <RefinementList
-            attribute="department"
-            sortBy={['name:desc']}
-            classNames={{
-              count: style.refinement__pill,
-              labelText: style.refinement__labelText,
-              label: style.refinement__label,
-            }}
-          /> */}
+          <RecentSearches />
         </div>
 
         <Hits hitComponent={Hit} />
@@ -112,6 +103,38 @@ function SearchPage(props: SearchPagePropsWithUser) {
       </InstantSearch>
     </InstantSearchSSRProvider>
   );
+}
+
+function RecentSearches() {
+  const recentSearches: any[] = [
+    {label: 'Lønnskalkulator', color: 'var(--color-primary__tint4)'}, 
+    {label: 'Aksjer', color: 'var(--color-secondary1__tint4)'}, 
+    {label: 'Fordeler', color: 'var(--color-secondary2__tint4)'}, 
+    {label: 'Miljøfyrtårn', color: 'var(--color-secondary3__tint4)'}, 
+  ];
+
+  const results: any = [];
+  recentSearches.forEach((search, index) => {
+    results.push(
+      <div key={index} style={{backgroundColor: search.color}} className={style.recentSearchChip} onClick={() => updateSearch(search.label)}>
+        {search.label}
+      </div>
+      );
+  });
+
+  return (
+    <div className={style.recentSearchesContainer}>
+      <h3 className={style.subHeader}>Andre har søkt etter</h3>
+      <div className={style.recentSearchChipsContainer}>
+        {results}
+      </div>
+    </div>
+  )
+}
+
+function updateSearch(term: string) {
+  
+  console.log(term);
 }
 
 export async function getServerSideProps({

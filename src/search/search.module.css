@@ -9,7 +9,7 @@
 
 .searchItem h3 > a > span {
   border-bottom: 2px solid;
-  border-color: white;
+  border-color: var(--color-standard__white);
 }
 
 :global(.ais-Hits-list) {
@@ -62,7 +62,7 @@
   font-size: 2.813rem;
   border: 0;
   line-height: 59.85px;
-  color: white;
+  color: var(--color-standard__white);
   outline: none;
   background-color: var(--color-secondary1__shade3);
 }
@@ -91,7 +91,48 @@
   display: none;
 }
 
+:global(.ais-Highlight-highlighted) {
+  background-color: var(--color-secondary3__tint3);
+}
+
 .searchDivider {
   border-bottom: 1px solid;
-  border-color: white;  
+  border-color: var(--color-standard__white);
+}
+
+.recentSearchesContainer {
+  margin-top: 1.875rem;
+}
+
+.recentSearchChipsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recentSearchChip {
+  border-radius: 3.125rem;
+  padding: 0.25rem 1.25rem;
+  margin-right: 1.5rem;
+  margin-top: 1rem;
+  color: black;
+}
+
+/* .recentSearchChipColor1 {
+  background-color: var(--color-primary__tint4);
+}
+
+.recentSearchChipColor2 {
+  background-color: var(--color-secondary1__tint4);
+}
+
+.recentSearchChipColor3 {
+  background-color: var(--color-secondary2__tint4);
+}
+
+.recentSearchChipColor4 {
+  background-color: var(--color-secondary3__tint4);
+} */
+
+.subHeader {
+  font-size: 1.25rem;
 }
