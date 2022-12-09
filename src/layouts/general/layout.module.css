@@ -80,8 +80,9 @@
 .header__handbooks__search p:hover {
   color: var(--color-standard__white);
 }
-.header__handbooks__search img:nth-child(1) {
-  width: 1.25rem;
+
+.header__handbooks__search img:nth-child(2) {
+  width: 1.5rem;
 }
 
 .header__handbooks__search img:nth-last-child(1) {
@@ -112,7 +113,7 @@
   margin: 0;
 }
 .header__handbooks li:not(:first-of-type),
-.header__handbooks__darkli:not(:first-of-type) {
+.header__handbooks__dark li:not(:first-of-type) {
   margin-left: 1.5rem;
 }
 
