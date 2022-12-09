@@ -79,7 +79,6 @@
 }
 .header__handbooks__search p:hover {
   color: var(--color-standard__white);
-  border-bottom: 2px solid var(--color-secondary2);
 }
 .header__handbooks__search img:nth-child(1) {
   width: 1.25rem;
@@ -123,7 +122,6 @@
 }
 .header__handbooks a:hover,
 .header__handbooks__dark a:hover {
-  border-bottom: 2px solid var(--color-primary__tint2);
   cursor: pointer;
 }
 .header__handbooks__category {
