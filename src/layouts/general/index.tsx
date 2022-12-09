@@ -7,7 +7,6 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { getAuthServerSideProps } from 'src/auth';
 import BackgroundBlobs from 'src/background';
 import LoginForm from 'src/components/login-form';
-import SearchForm from 'src/components/search-form';
 import { and } from 'src/utils/css';
 import { LayoutProps } from '../signature';
 import style from './layout.module.css';
@@ -99,7 +98,6 @@ const metadata = {
 export default function GeneralLayout({
   frontmatter,
   toc,
-  currentSearch = '',
   noSidebar = false,
   children,
 }: LayoutProps) {
@@ -203,6 +201,9 @@ export default function GeneralLayout({
             <Hamburger
               onClick={() => setMenuVisible(!isMenuVisible)}
               isOpen={isMenuVisible}
+              path={asPath}
+              waveVisible={waveVisible}
+              scrollPosition={scrollPosition}
             />
           </div>
         )}
@@ -392,17 +393,27 @@ export default function GeneralLayout({
 
 export const getServerSideProps: GetServerSideProps = getAuthServerSideProps;
 
+type HamburgerProps = {
+  isOpen: boolean;
+  onClick: () => void;
+  path: string;
+  waveVisible: boolean;
+  scrollPosition: number;
+};
+
 function Hamburger({
   isOpen,
   onClick,
-}: {
-  isOpen: boolean;
-  onClick: () => void;
-}) {
+  path,
+  waveVisible,
+  scrollPosition,
+}: HamburgerProps) {
   return (
     <button
       className={and(
-        style.hamburger,
+        isLandingpage(path) && (waveVisible || scrollPosition < 500)
+          ? style.hamburger__dark
+          : style.hamburger,
         isOpen ? style.hamburger__open : undefined,
       )}
       type="button"

@@ -301,7 +301,8 @@
   display: block;
 }
 
-.hamburger {
+.hamburger,
+.hamburger__dark {
   width: 2rem;
   height: 1.7rem;
   position: relative;
@@ -313,7 +314,8 @@
   border: 0;
 }
 
-.hamburger span {
+.hamburger span,
+.hamburger__dark span {
   display: block;
   position: absolute;
   height: 4px;
@@ -324,22 +326,34 @@
   transform: rotate(0deg);
   transition: 0.25s ease-in-out;
   --spacings: 0.5rem;
-  border: 0.1px solid var(--color-secondary1__shade2);
-}
-.hamburger__open span {
-  background: var(--color-secondary1__tint3);
 }
 
-.hamburger span:nth-child(1) {
+.hamburger span {
+  border: 2px solid var(--color-secondary1__shade2);
+}
+
+.hamburger__dark span {
+  border: 2px solid var(--color-secondary4__tint2);
+}
+
+.hamburger__open span {
+  border: 2px solid var(--color-secondary4__tint2);
+}
+
+.hamburger span:nth-child(1),
+.hamburger__dark span:nth-child(1) {
   top: calc(var(--spacings) * 0);
 }
 
 .hamburger span:nth-child(2),
-.hamburger span:nth-child(3) {
+.hamburger span:nth-child(3),
+.hamburger__dark span:nth-child(2),
+.hamburger__dark span:nth-child(3) {
   top: calc(var(--spacings) * 1);
 }
 
-.hamburger span:nth-child(4) {
+.hamburger span:nth-child(4),
+.hamburger__dark span:nth-child(4) {
   top: calc(var(--spacings) * 2);
 }
 
