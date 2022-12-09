@@ -302,7 +302,6 @@ export default function GeneralLayout({
           </section>
 
           <LoginForm />
-          <SearchForm currentSearch={currentSearch} />
         </nav>
       )}
       <section className={style.content}>{children}</section>
