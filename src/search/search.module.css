@@ -39,16 +39,11 @@
   color: var(--color-secondary2--text);
   margin-left: 0.2rem;
 }
-.refinement__labelText {
-}
 .refinement__label {
   display: flex;
   align-items: center;
 }
 
-.searchInputs {
-  /* margin: 3rem 1rem 4rem; */
-}
 :global(.ais-SearchBox-form) {
   display: flex;
   width: 100%;
@@ -116,22 +111,6 @@
   margin-top: 1rem;
   color: black;
 }
-
-/* .recentSearchChipColor1 {
-  background-color: var(--color-primary__tint4);
-}
-
-.recentSearchChipColor2 {
-  background-color: var(--color-secondary1__tint4);
-}
-
-.recentSearchChipColor3 {
-  background-color: var(--color-secondary2__tint4);
-}
-
-.recentSearchChipColor4 {
-  background-color: var(--color-secondary3__tint4);
-} */
 
 .subHeader {
   font-size: 1.25rem;

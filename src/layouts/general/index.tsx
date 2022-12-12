@@ -121,8 +121,8 @@ export default function GeneralLayout({
           content="https://www.variant.no/og-header-min.png"
         />
       </Head>
-      <header className={style.header}>
-        <ul className={style.header__handbooks}>
+      <header className={style.header}> {/* TODO: as path != search*/}
+      {asPath.split('?')[0] !== '/search' && <ul className={and(true ? style.header__handbooks : '')}>
           {metadata.handbooks.map((handbook) => (
             <li
               key={handbook.title}
@@ -152,7 +152,8 @@ export default function GeneralLayout({
               </Link>
             </li>
           ))}
-        </ul>
+        </ul>}
+
 
         {currentCategory && (
           <ul className={style.header__handbooks__category}>

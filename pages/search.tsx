@@ -8,6 +8,7 @@ import {
   InstantSearchSSRProvider,
   Pagination,
   SearchBox,
+  useInstantSearch
 } from 'react-instantsearch-hooks-web';
 
 import type { Hit as AlgoliaHit } from 'instantsearch.js';
@@ -18,12 +19,12 @@ import { getServerState } from 'react-instantsearch-hooks-server';
 import Link from 'next/link';
 import { Userdata, useUserdata } from 'src/auth';
 import GeneralLayout from 'src/layouts/general';
+import style from 'src/search/search.module.css';
+import { useEffect } from 'react';
 
 const appId = process.env.NEXT_PUBLIC_ALGOLIA_APP_ID || '';
 const apiKey = process.env.NEXT_PUBLIC_ALGOLIA_READ_KEY || '';
 const searchClient = algoliasearch(appId, apiKey);
-
-import style from 'src/search/search.module.css';
 
 const SEARCH_HITS_PER_PAGE = 8;
 
@@ -70,6 +71,7 @@ function Hit({ hit }: HitProps) {
 type SearchPagePropsWithUser = SearchPageProps & {
   userInfo?: Userdata;
 };
+
 function SearchPage(props: SearchPagePropsWithUser) {
   const { serverState, url } = props;
 
@@ -92,7 +94,7 @@ function SearchPage(props: SearchPagePropsWithUser) {
       >
         <Configure hitsPerPage={SEARCH_HITS_PER_PAGE} />
 
-        <div className={style.searchInputs}>
+        <div>
           <SearchBox autoFocus placeholder="Skriv her" />
           <div className={style.searchDivider} />
           <RecentSearches />
@@ -106,35 +108,44 @@ function SearchPage(props: SearchPagePropsWithUser) {
 }
 
 function RecentSearches() {
+  const { setIndexUiState } = useInstantSearch();
+
   const recentSearches: any[] = [
-    {label: 'Lønnskalkulator', color: 'var(--color-primary__tint4)'}, 
+    {label: 'Lønn', color: 'var(--color-primary__tint4)'}, 
     {label: 'Aksjer', color: 'var(--color-secondary1__tint4)'}, 
     {label: 'Fordeler', color: 'var(--color-secondary2__tint4)'}, 
     {label: 'Miljøfyrtårn', color: 'var(--color-secondary3__tint4)'}, 
   ];
 
-  const results: any = [];
-  recentSearches.forEach((search, index) => {
-    results.push(
-      <div key={index} style={{backgroundColor: search.color}} className={style.recentSearchChip} onClick={() => updateSearch(search.label)}>
-        {search.label}
-      </div>
-      );
-  });
+  // TODO: add condition
+  if (true) 
+    return (
+        <div className={style.recentSearchesContainer}>
+          <h3 className={style.subHeader}>Andre har søkt etter</h3>
+          <div className={style.recentSearchChipsContainer}>
+            {
+              recentSearches.map((search, index) => 
+              (
+                <button
+                  type="button" 
+                  key={index} 
+                  style={{backgroundColor: search.color}} 
+                  className={style.recentSearchChip} 
+                  onClick={() => {
+                    setIndexUiState({query: search.label})
+                  }}
+                  >
+                  
+                  {search.label}
+                </button>
+                )
+              )
+            }
+          </div>
+        </div>
+    )
 
-  return (
-    <div className={style.recentSearchesContainer}>
-      <h3 className={style.subHeader}>Andre har søkt etter</h3>
-      <div className={style.recentSearchChipsContainer}>
-        {results}
-      </div>
-    </div>
-  )
-}
-
-function updateSearch(term: string) {
-  
-  console.log(term);
+    return (null);
 }
 
 export async function getServerSideProps({
