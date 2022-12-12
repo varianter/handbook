@@ -128,14 +128,11 @@ function RecentSearches() {
               (
                 <button
                   type="button" 
-                  key={index} 
-                  style={{backgroundColor: search.color}} 
+                  key={index}
+                  style={{backgroundColor: search.color, cursor: "pointer"}}
                   className={style.recentSearchChip} 
-                  onClick={() => {
-                    setIndexUiState({query: search.label})
-                  }}
-                  >
-                  
+                  onClick={() => {setIndexUiState({query: search.label})}}
+                > 
                   {search.label}
                 </button>
                 )
