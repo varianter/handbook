@@ -90,6 +90,36 @@
   background-color: var(--color-secondary3__tint3);
 }
 
+.closeSearchContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.closeSearch {
+  display: flex;
+  width: 89px;
+  height: 89px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: url('../../public/assets/illustrations/closeSearchBlob.svg');
+}
+
+.closeSearchButton {
+  display: flex;
+  margin: auto;
+  background-color: transparent;
+  color: var(--color-standard__white);
+  border: 0;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 27px;
+  align-items: center;
+}
+
+.closeSearchIcon {
+  margin-left: 0.3rem;
+}
+
 .searchDivider {
   border-bottom: 1px solid;
   border-color: var(--color-standard__white);

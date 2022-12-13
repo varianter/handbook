@@ -8,7 +8,7 @@ import {
   InstantSearchSSRProvider,
   Pagination,
   SearchBox,
-  useInstantSearch
+  useInstantSearch,
 } from 'react-instantsearch-hooks-web';
 
 import type { Hit as AlgoliaHit } from 'instantsearch.js';
@@ -20,7 +20,6 @@ import Link from 'next/link';
 import { Userdata, useUserdata } from 'src/auth';
 import GeneralLayout from 'src/layouts/general';
 import style from 'src/search/search.module.css';
-import { useEffect } from 'react';
 
 const appId = process.env.NEXT_PUBLIC_ALGOLIA_APP_ID || '';
 const apiKey = process.env.NEXT_PUBLIC_ALGOLIA_READ_KEY || '';
@@ -38,7 +37,8 @@ export default function Search(props: SearchPageProps) {
 
   return (
     <GeneralLayout toc={[]} frontmatter={{ title: 'Søk' }} noSidebar>
-      <h2>Hva leter du etter?</h2>
+      <CloseSearch />
+      <h2 style={{ paddingTop: '3.375rem' }}>Hva leter du etter?</h2>
       <SearchPage {...props} userInfo={userInfo} />
     </GeneralLayout>
   );
@@ -107,42 +107,82 @@ function SearchPage(props: SearchPagePropsWithUser) {
   );
 }
 
+function CloseSearch() {
+  return (
+    <div className={style.closeSearchContainer}>
+      <div className={style.closeSearch}>
+        <button
+          className={style.closeSearchButton}
+          onClick={() => {
+            console.log('Will close search');
+          }}
+        >
+          Lukk
+          <svg
+            className={style.closeSearchIcon}
+            width="15"
+            height="15"
+            viewBox="0 0 15 15"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="0.777268"
+              y1="14.2929"
+              x2="13.7774"
+              y2="1.2928"
+              stroke="#F9F7F2"
+              stroke-width="2"
+            />
+            <line
+              x1="1.19148"
+              y1="1.29289"
+              x2="14.1916"
+              y2="14.293"
+              stroke="#F9F7F2"
+              stroke-width="2"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  );
+}
+
 function RecentSearches() {
   const { setIndexUiState } = useInstantSearch();
 
   const recentSearches: any[] = [
-    {label: 'Lønn', color: 'var(--color-primary__tint4)'}, 
-    {label: 'Aksjer', color: 'var(--color-secondary1__tint4)'}, 
-    {label: 'Fordeler', color: 'var(--color-secondary2__tint4)'}, 
-    {label: 'Miljøfyrtårn', color: 'var(--color-secondary3__tint4)'}, 
+    { label: 'Lønn', color: 'var(--color-primary__tint4)' },
+    { label: 'Aksjer', color: 'var(--color-secondary1__tint4)' },
+    { label: 'Fordeler', color: 'var(--color-secondary2__tint4)' },
+    { label: 'Miljøfyrtårn', color: 'var(--color-secondary3__tint4)' },
   ];
 
   // TODO: add condition
-  if (true) 
+  if (true)
     return (
-        <div className={style.recentSearchesContainer}>
-          <h3 className={style.subHeader}>Andre har søkt etter</h3>
-          <div className={style.recentSearchChipsContainer}>
-            {
-              recentSearches.map((search, index) => 
-              (
-                <button
-                  type="button" 
-                  key={index}
-                  style={{backgroundColor: search.color, cursor: "pointer"}}
-                  className={style.recentSearchChip} 
-                  onClick={() => {setIndexUiState({query: search.label})}}
-                > 
-                  {search.label}
-                </button>
-                )
-              )
-            }
-          </div>
+      <div className={style.recentSearchesContainer}>
+        <h3 className={style.subHeader}>Andre har søkt etter</h3>
+        <div className={style.recentSearchChipsContainer}>
+          {recentSearches.map((search, index) => (
+            <button
+              type="button"
+              key={index}
+              style={{ backgroundColor: search.color, cursor: 'pointer' }}
+              className={style.recentSearchChip}
+              onClick={() => {
+                setIndexUiState({ query: search.label });
+              }}
+            >
+              {search.label}
+            </button>
+          ))}
         </div>
-    )
+      </div>
+    );
 
-    return (null);
+  return null;
 }
 
 export async function getServerSideProps({
