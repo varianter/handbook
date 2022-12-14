@@ -114,6 +114,11 @@
   font-size: 20px;
   line-height: 27px;
   align-items: center;
+  gap: 0.3rem;
+}
+
+.closeSearchButton a {
+  font-family: 'Graphik', sans-serif;  
 }
 
 .closeSearchIcon {
