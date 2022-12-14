@@ -90,6 +90,10 @@
   background-color: var(--color-secondary3__tint3);
 }
 
+.header {
+  padding-top: 3.375rem;
+}
+
 .closeSearchContainer {
   display: flex;
   justify-content: flex-end;
@@ -107,9 +111,7 @@
 .closeSearchButton {
   display: flex;
   margin: auto;
-  background-color: transparent;
   color: var(--color-standard__white);
-  border: 0;
   cursor: pointer;
   font-size: 20px;
   line-height: 27px;
@@ -144,7 +146,7 @@
   padding: 0.25rem 1.25rem;
   margin-right: 1.5rem;
   margin-top: 1rem;
-  color: black;
+  color: var(--color-standard__black);
 }
 
 .subHeader {

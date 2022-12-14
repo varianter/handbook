@@ -102,7 +102,10 @@ export default function GeneralLayout({
     isActiveHandbook(category.path, asPath, true),
   );
 
-  const classes = and(asPath.split('?')[0] === '/search' ? style.search__main : style.main, !noSidebar ? style.main__sidebar : undefined);
+  const classes = and(
+    asPath.split('?')[0] === '/search' ? style.search__main : style.main,
+    !noSidebar ? style.main__sidebar : undefined,
+  );
 
   return (
     <div className={classes}>
@@ -121,39 +124,40 @@ export default function GeneralLayout({
           content="https://www.variant.no/og-header-min.png"
         />
       </Head>
-      <header className={style.header}> {/* TODO: as path != search*/}
-      {asPath.split('?')[0] !== '/search' && <ul className={and(true ? style.header__handbooks : '')}>
-          {metadata.handbooks.map((handbook) => (
-            <li
-              key={handbook.title}
-              className={
-                isActiveHandbook(handbook.path, asPath)
-                  ? style.header__handbooks__link__active
-                  : style.header__handbooks__link
-              }
-            >
-              <Link href={`/${handbook.path}`}>
-                <a tabIndex={tabIndex}>{handbook.title}</a>
-              </Link>
-            </li>
-          ))}
+      <header className={style.header}>
+        {asPath.split('?')[0] !== '/search' && (
+          <ul className={and(true ? style.header__handbooks : '')}>
+            {metadata.handbooks.map((handbook) => (
+              <li
+                key={handbook.title}
+                className={
+                  isActiveHandbook(handbook.path, asPath)
+                    ? style.header__handbooks__link__active
+                    : style.header__handbooks__link
+                }
+              >
+                <Link href={`/${handbook.path}`}>
+                  <a tabIndex={tabIndex}>{handbook.title}</a>
+                </Link>
+              </li>
+            ))}
 
-          {metadata.categories.map((category) => (
-            <li
-              key={category.title}
-              className={
-                isActiveHandbook(category.path, asPath, true)
-                  ? style.header__handbooks__link__active
-                  : style.header__handbooks__link
-              }
-            >
-              <Link href={`/${category.path}`}>
-                <a tabIndex={tabIndex}>{category.title}</a>
-              </Link>
-            </li>
-          ))}
-        </ul>}
-
+            {metadata.categories.map((category) => (
+              <li
+                key={category.title}
+                className={
+                  isActiveHandbook(category.path, asPath, true)
+                    ? style.header__handbooks__link__active
+                    : style.header__handbooks__link
+                }
+              >
+                <Link href={`/${category.path}`}>
+                  <a tabIndex={tabIndex}>{category.title}</a>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        )}
 
         {currentCategory && (
           <ul className={style.header__handbooks__category}>

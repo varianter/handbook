@@ -40,7 +40,7 @@ export default function Search(props: SearchPageProps) {
   return (
     <GeneralLayout toc={[]} frontmatter={{ title: 'Søk' }} noSidebar>
       <CloseSearch />
-      <h2 style={{ paddingTop: '3.375rem' }}>Hva leter du etter?</h2>
+      <h2 className={style.header}>Hva leter du etter?</h2>
       <SearchPage {...props} userInfo={userInfo} />
     </GeneralLayout>
   );
@@ -140,7 +140,7 @@ function RecentSearches() {
     { label: 'Miljøfyrtårn', color: 'var(--color-secondary3__tint4)' },
   ];
 
-  if (indexUiState.query === undefined || indexUiState.query === '')
+  if (!indexUiState.query)
     return (
       <div className={style.recentSearchesContainer}>
         <h3 className={style.subHeader}>Andre har søkt etter</h3>
