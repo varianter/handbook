@@ -103,6 +103,7 @@ function SearchPage(props: SearchPagePropsWithUser) {
         </div>
 
         <Hits hitComponent={Hit} />
+        <HandleNoHits />
         <Pagination />
       </InstantSearch>
     </InstantSearchSSRProvider>
@@ -163,6 +164,13 @@ function RecentSearches() {
     );
 
   return null;
+}
+
+function HandleNoHits() {
+  const { results } = useInstantSearch();
+  if (results.nbHits > 0) return null;
+
+  return <div>Ingen søkeresultater funnet</div>;
 }
 
 export async function getServerSideProps({
