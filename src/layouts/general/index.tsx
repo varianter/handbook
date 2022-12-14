@@ -123,6 +123,10 @@ export default function GeneralLayout({
           property="og:image"
           content="https://www.variant.no/og-header-min.png"
         />
+        <meta
+          name="description"
+          content="En variants håndbok. Hvordan ting gjøres i Variant, hva vi prøver å oppnå og hvorfor vi tenker som vi gjør"
+        />
       </Head>
       <header className={style.header}>
         {asPath.split('?')[0] !== '/search' && (
