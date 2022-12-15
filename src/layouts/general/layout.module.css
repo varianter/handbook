@@ -71,8 +71,10 @@
   border-bottom: 2px solid var(--color-secondary2);
   cursor: pointer;
 }
-.header__handbooks__category {
-  composes: header__handbooks;
+.header__offices {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 
   margin-top: 2rem;
 }

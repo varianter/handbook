@@ -1,0 +1,29 @@
+.offices {
+  display: flex;
+  gap: 1rem;
+}
+
+.office:hover {
+  background-color: var(--color-secondary1__tint1);
+}
+
+.office,
+.office__active {
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+  transition: background-color 0.25s ease-out, scale 0.1s ease-out;
+  border: 1px solid var(--color-standard__black);
+}
+
+.office:hover a,
+.office__active:hover a {
+  color: var(--color-standard__white);
+}
+
+.office__active {
+  background-color: var(--color-secondary1);
+}
+
+.office__active a {
+  color: var(--color-standard__white);
+}

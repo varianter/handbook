@@ -8,6 +8,7 @@ import slugify from 'slugify';
 import { getAuthServerSideProps } from 'src/auth';
 import BackgroundBlobs from 'src/background';
 import LoginForm from 'src/components/login-form';
+import Offices from 'src/components/offices';
 import SearchForm from 'src/components/search-form';
 import { and } from 'src/utils/css';
 import { LayoutProps } from '../signature';
@@ -22,7 +23,7 @@ const isActiveHandbook = (path: string, asPath: string, isCategory = false) => {
 };
 
 // @TODO This should be automatically generated from the tree structure
-const metadata = {
+const metadata: HeaderMetadata = {
   handbooks: [
     {
       data: {
@@ -161,24 +162,13 @@ export default function GeneralLayout({
         </ul>
 
         {currentCategory && (
-          <ul className={style.header__handbooks__category}>
-            {currentCategory.handbooks.map((handbook) => {
-              return (
-                <li
-                  key={handbook.title}
-                  className={
-                    isActiveHandbook(handbook.path, asPath)
-                      ? style.header__handbooks__link__active
-                      : style.header__handbooks__link
-                  }
-                >
-                  <Link href={`/${handbook.path}`}>
-                    <a tabIndex={tabIndex}>{handbook.title}</a>
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
+          <div className={style.header__offices}>
+            <Offices
+              handbook={currentCategory.handbooks}
+              isActiveHandbook={isActiveHandbook}
+              currentPath={asPath}
+            />
+          </div>
         )}
 
         {!noSidebar && (
