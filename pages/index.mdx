@@ -3,6 +3,11 @@ title: En variants håndbok
 ---
 
 import { SearchBox } from 'src/components/search-form';
+import {
+  IllustrationList,
+  IllustrationListHeader,
+} from 'src/components/illustrationList';
+import { Values } from 'src/components/values/';
 
 # En variants håndbok
 
@@ -33,29 +38,29 @@ Dette gjør vi ved å samle flinke personer som tenker nye tanker, og som har ko
   className="illustration illustration--right"
 />
 
-#### Teknologi
+<IllustrationListHeader
+  headerText="Teknologi"
+  text="Vår arena, som vi bruker for å utgjøre en forskjell sammen med kundene våre."
+  figureName="rocket"
+/>
 
-Vår arena, som vi bruker for å utgjøre en forskjell sammen med kundene våre.
+<IllustrationListHeader
+  headerText="Bærekraft"
+  text="Vårt ansvar til miljøet som vi er en del av. Klimaavtrykk og bidrag til lokalsamfunnet."
+  figureName="tree"
+/>
 
-#### Bærekraft
-
-Vårt ansvar til miljøet som vi er en del av. Klimaavtrykk og bidrag til lokalsamfunnet.
-
-#### Likestilling
-
-Våre muligheter til å blomstre, uavhengig nasjonalitet, etnisk bakgrunn, livssyn, legning og kjønn.
+<IllustrationListHeader
+  headerText="Likestilling"
+  text="Våre muligheter til å blomstre, uavhengig nasjonalitet, etnisk bakgrunn, livssyn, legning og kjønn."
+  figureName="scale"
+/>
 
 ### Våre grunnverdier
 
 Verdiene våre ligger til grunn for hvordan vi behandler hverandre. Det skal være lav terskel for ros og tilbakemeldinger fordi vi ønsker at du lykkes. Vær den som sier hva du har på hjertet ditt og som tør å utfordre sannheter og gjeldende praksis. [Konkrete tiltak for åpen selskapskultur i Variant](variant.no)
 
-- **Raushet** - Dette vises i hvordan vi møter hverandre, våre kunder og folk i
-  nærmiljøet.
-- **Åpenhet** - Hva i all verden skal et selskap tjene på å holde informasjon
-  hemmelig for sine ansatte?
-- **Læreglede** - Vi er folk som ønsker å lære og lære bort. Vi skal ha ydmykhet
-  nok til å skjønne at vi kan lære noe fra alle, og troen på at alle kan lære
-  noe fra oss.
+<Values />
 
 <img
   src="./assets/illustrations/index-icon-2.svg"
@@ -80,24 +85,32 @@ publiseres. Stikk motsatt faktisk! Vi må ha en god grunn for at det **ikke**
 skal publiseres. Denne forskjellen er betydelig. Her er noen eksempler på hva
 dette betyr i praksis.
 
-#### Salg
-
-Vi har ingen hemmelig eller begrenset salgsprosess hvor bare noen få vet hva
-som tilbys hvor og hvordan. Alle ansatte har full tilgang til Trello-boardet
-hvor alle salgs-caser legges inn og følges opp. I det ukentlige salgsmøtet
-møtes, naturlig nok, de som jobber salg. For oss andre er det frivillig, men
-kaffen her er like varm som vi er velkommen!
-
-#### Lønn
-
-I Variant vet alle hva alle tjener. Ikke bare basert på at lønnen beregnes ut
+<IllustrationListHeader
+  headerText="Salg"
+  text="Vi har ingen hemmelig eller begrenset salgsprosess hvor bare noen få vet hva som tilbys hvor og hvordan. Alle ansatte har full tilgang til Trello-boardet hvor alle salgs-caser legges inn og følges opp. I det ukentlige salgsmøtet møtes, naturlig nok, de som jobber salg. For oss andre er det frivillig, men kaffen her er like varm som vi er velkommen!"
+  figureName="presentationChart"
+/>
+<IllustrationListHeader
+  headerText="Lønn"
+  text="I Variant vet alle hva alle tjener. Ikke bare basert på at lønnen beregnes ut
 fra en kjent statistikk, men faktisk også slik at selskapet har en åpen
-lønnsbok, hvor varianter har tilgang.
-
-#### Dokumenter
-
-Alle styredokumenter ligger på vårt felles filområde der alle ansatte har,
-sjokkerende nok, også tilgang!
+lønnsbok, hvor varianter har tilgang."
+  figureName="coins"
+/>
+<IllustrationListHeader
+  headerText="Dokumenter"
+  text="Alle styredokumenter ligger på vårt felles filområde der alle ansatte har,
+sjokkerende nok, også tilgang!"
+  figureName="documents"
+/>
+<IllustrationListHeader
+  headerText="Håndboka"
+  text="
+Denne håndboken! Åpen for hele verden å se. Vi setter pris på hvert bidrag
+hit, variant eller ikke. Dette gjelder egentlig alt vi har i det åpne. Vi
+heier på alle våre kollegaer som deler åpent og bidra til Open Source."
+  figureName="book"
+/>
 
 #### Håndboka
 
@@ -525,6 +538,8 @@ av overskuddet dette kvartalet, delt likt på alle ansatte. Vi må også betale
 arbeidsgiveravgift på bonus, slik at dette trekkes fra. Dette regnes som lønn
 inklusive feriepenger, så 10,7% utsettes til neste års feriepenger.
 
+<div className="backgroundExample background-color-secondary4__tint2">
+
 **Eksempel**: Gitt 10 ansatte og et kvartalsvis overskudd på _én million_, deler
 vi `30%` av overskuddet på 10 og får `30 000`. Så skal det betales `14,1%`
 arbeidsgiveravgift slik at hver enkelts bonus dette kvartalet blir `25 770 kr`.
@@ -533,6 +548,8 @@ Av dette kommer `2 761 kr` som neste års feriepenger.
 De som har vært ansatt bare deler av et kvartal eller har valgt hel eller delvis
 permisjon får sin andel redusert etter dette. Ansatte som er i foreldrepermisjon
 eller som er sykemeldte får full bonus.
+
+</div>
 
 ### Eierskap
 
@@ -555,18 +572,65 @@ og dekning for annen ulykke enn yrkesskade.
 
 Vi kjører punktliste!
 
-- Gadgetbudsjett på 10 000 pluss moms pr. år. Hva andre har brukt det til finner
-  du på [oversikten her](https://dash.variant.no/gadgetusage/trondheim).
-- Ett kurs eller en konferanse i året
-- Fri bruk av telefoni – innen rimelighetens grenser.
-- Bredbånd hjemme på inntil 500 kr. per måned.
-- Betalt to uker permisjon for partner etter fødsel.
-- Full lønn under foreldrepermisjon, selv om lønnen skulle overstige det NAV betaler.
-- To dager til barnehagetilvenning.
-- Utvidede rettigheter til
-  [egenmelding og sykepenger](information.html#sykemelding-og-egenmelding).
-- Dekt treningssentermedlemsskap, eller tilsvarende helsebringende
+<div className="backgroundBenefits background-color-secondary4__tint2">
+
+<IllustrationList
+  text="Gadgetbudsjett på 10 000 pluss moms pr. år. Hva andre har brukt det til finner
+  du på"
+  href="https://dash.variant.no/gadgetusage/trondheim"
+  linkText="oversikten her"
+  figureName="deviceMobile"
+/>
+
+<IllustrationList
+  text="Ett kurs eller en konferanse i året"
+  figureName="graduationCap"
+/>
+
+<IllustrationList
+  text="Fri bruk av telefoni – innen rimelighetens grenser."
+  figureName="phoneCall"
+/>
+
+<IllustrationList
+  text="Bredbånd hjemme på inntil 500 kr. per måned."
+  figureName="wifiHigh"
+/>
+
+<IllustrationList
+  text="Betalt to uker permisjon for partner etter fødsel."
+  figureName="baby"
+/>
+
+<IllustrationList
+  text="Full lønn under foreldrepermisjon, selv om lønnen skulle overstige det NAV betaler."
+  figureName="coinVertical"
+/>
+
+<IllustrationList
+  text="To dager til barnehagetilvenning."
+  figureName="houseLine"
+/>
+
+<IllustrationList
+  text="Utvidede rettigheter til"
+  href="information#Sykemelding-og-egenmelding"
+  linkText="egenmelding og sykepenger"
+  figureName="firstAidkit"
+/>
+
+<IllustrationList
+  text="Dekt treningssentermedlemsskap, eller tilsvarende helsebringende
   aktivitet/utstyr, inntil 500,- per måned (NB! Dette er en skattepliktig fordel
-  som rapporteres på din lønnsslipp ved årsslutt). Utgiftsføres på vanlig måte.
-- Behandlingsforsikring.
-- Reiseforsikring for deg og din familie.
+  som rapporteres på din lønnsslipp ved årsslutt). Utgiftsføres på vanlig måte."
+  figureName="barbell"
+/>
+
+<IllustrationList text="Behandlingsforsikring." figureName="firstAid" />
+
+<IllustrationList
+  text="Reiseforsikring for deg og din familie.."
+  figureName="airplaneTilt"
+/>
+
+</div>
