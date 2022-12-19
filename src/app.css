@@ -55,7 +55,7 @@ li + li {
 
 * + h2 {
   margin-top: 0;
-  padding-top: 4rem;
+  padding-top: 9rem;
 }
 * + h3 {
   margin-top: 0;
@@ -76,13 +76,11 @@ li + li {
 }
 .illustration--right {
   float: right;
-  margin: 5rem 0 2rem 2rem;
+  margin: 3rem 0 2rem 2rem;
   right: -4rem;
 }
 .illustration--left {
   float: left;
-  margin: 5rem 2rem 2rem 0;
-  left: -4rem;
 }
 .illustration--center {
   margin: 2rem auto;
