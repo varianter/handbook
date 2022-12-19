@@ -93,6 +93,23 @@ li + li {
   top: 1rem;
 }
 
+.background-color-secondary4__tint2 {
+  background-color: var(--color-secondary4__tint1);
+  padding: 2rem;
+  margin: -2rem;
+}
+
+.backgroundExample {
+  margin-top: 15rem;
+}
+
+.backgroundBenefits {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 0.5rem;
+}
+
 .handbook > h1:first-child {
   margin: 4rem 0;
   background: linear-gradient(
