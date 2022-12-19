@@ -1,0 +1,22 @@
+.blobBackgroundText {
+  position: relative;
+}
+
+.blobBackgroundText h4 {
+  font-size: 2.25rem;
+  font-family: 'Recoleta', serif;
+  font-weight: 400;
+}
+
+.blobBackgroundText__blob {
+  position: absolute;
+  z-index: -1;
+  left: -3rem;
+}
+
+@media (max-width: 500px) {
+  .blobBackgroundText {
+    text-align: center;
+    max-width: 50vw;
+  }
+}
