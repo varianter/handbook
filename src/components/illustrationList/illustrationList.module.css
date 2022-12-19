@@ -1,0 +1,17 @@
+.illustrationList {
+  padding-block: 0.5rem;
+}
+
+.illustrationList h4 {
+  padding-top: 0;
+}
+
+.illustrationList__flex {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.illustrationList img {
+  align-self: center;
+}
