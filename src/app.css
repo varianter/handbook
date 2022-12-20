@@ -160,7 +160,7 @@ a:visited {
   color: var(--color-standard__black);
   transition: color 250ms ease-in;
 }
-
+a,
 a:hover {
   color: var(--color-secondary2__shade2);
 }
