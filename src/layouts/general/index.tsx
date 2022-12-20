@@ -12,10 +12,10 @@ import { LayoutProps } from '../signature';
 import style from './layout.module.css';
 import navBackground from './navBackground.svg';
 import NavbarLinks from 'src/components/navbarLinks/navbarLinks';
+import Image from 'next/image';
 
 import backArrow from './backArrow.svg';
 import magnifyingGlass from './magnifyingGlass.svg';
-import searchBlob from './searchBlob.svg';
 
 const title = 'Variant Håndbok';
 
@@ -34,10 +34,10 @@ const metadata = {
   handbooks: [
     {
       data: {
-        title: 'En variants håndbok',
+        title: 'Fundamentet',
       },
       path: '',
-      title: 'En variants håndbok',
+      title: 'Fundamentet',
     },
     {
       data: {
@@ -181,15 +181,25 @@ export default function GeneralLayout({
               }
             >
               <Link href={`/${handbook.path}`}>
-                <a tabIndex={tabIndex}>{`${index + 1}.${handbook.title}`}</a>
+                <a tabIndex={tabIndex}>{`${index + 1}. ${handbook.title}`}</a>
               </Link>
             </li>
           ))}
 
-          <li className={style.header__handbooks__search}>
-            <p>Søk</p>
-            <img src={magnifyingGlass} alt="" role="none" />
-            <img src={searchBlob} alt="" role="none" />
+          <li>
+            <div className={style.header__handbooks__search}>
+              <Link href={'./search'}>
+                <div className={style.header__handbooks__search__button}>
+                  <a>Søk</a>
+                  <Image
+                    priority
+                    src={magnifyingGlass}
+                    height={'30px'}
+                    width={'30px'}
+                  />
+                </div>
+              </Link>
+            </div>
           </li>
         </ul>
 
@@ -224,7 +234,8 @@ export default function GeneralLayout({
           ref={modalRef}
         >
           <section className={style.nav__inner}>
-            <ul className={style.nav__handbooks}>
+            {/* @TODO: Implement new side menu to cover all handbook pages */}
+            {/* <ul className={style.nav__handbooks}>
               {metadata.handbooks.map((handbook) => {
                 return (
                   <li
@@ -256,9 +267,9 @@ export default function GeneralLayout({
                   </Link>
                 </li>
               ))}
-            </ul>
+            </ul> */}
 
-            {currentCategory && (
+            {/* {currentCategory && (
               <ul className={style.nav__handbooks}>
                 {currentCategory.handbooks.map((handbook) => {
                   return (
@@ -277,15 +288,36 @@ export default function GeneralLayout({
                   );
                 })}
               </ul>
-            )}
+            )} */}
 
             {subHeadings.length > 0 ? (
               <>
                 <li className={style.header__handbooks__back}>
                   <img src={backArrow} alt="" role="none" />
-                  <a href="">Til variant.no</a>
+                  <a href="https://www.variant.no">Til Variant.no</a>
                 </li>
-                <ul>
+                <ul className={style.nav__handbooks__container}>
+                  {currentCategory && (
+                    <ul className={style.nav__handbooks}>
+                      {currentCategory.handbooks.map((handbook) => {
+                        return (
+                          <li
+                            key={handbook.title}
+                            className={
+                              isActiveHandbook(handbook.path, asPath)
+                                ? style.nav__handbooks__location__active
+                                : style.nav__handbooks__location
+                            }
+                          >
+                            <Link href={`/${handbook.path}`}>
+                              <a tabIndex={tabIndex}>{handbook.title}</a>
+                            </Link>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  )}
+
                   {subHeadings.map((heading) => {
                     return (
                       <div onClick={() => setActiveHeading(heading.value)}>
