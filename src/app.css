@@ -93,6 +93,28 @@ li + li {
   top: 1rem;
 }
 
+.illustrations--flex {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 600px) {
+  .illustrations--flex {
+    flex-direction: column;
+  }
+
+  .illustrations--flex img {
+    display: block;
+    margin: auto;
+  }
+}
+
+.illustrations--flex img {
+  width: auto;
+  height: auto;
+}
+
 .background-color-secondary4__tint2 {
   background-color: var(--color-secondary4__tint1);
   padding: 2rem;
@@ -100,7 +122,7 @@ li + li {
 }
 
 .backgroundExample {
-  margin-top: 15rem;
+  margin-top: 3rem;
 }
 
 .backgroundBenefits {
@@ -134,7 +156,6 @@ code {
   background-color: var(--color-secondary3);
 }
 
-a,
 a:visited {
   color: var(--color-standard__black);
   transition: color 250ms ease-in;
