@@ -1,11 +1,11 @@
 .values {
   display: flex;
   padding-block: 5rem;
-  justify-content: space-around;
-  gap: 3rem;
+  justify-content: space-between;
+  gap: 5rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .values {
     flex-direction: column;
     align-items: center;

@@ -11,10 +11,10 @@
 .blobBackgroundText__blob {
   position: absolute;
   z-index: -1;
-  left: -3rem;
+  left: -2rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .blobBackgroundText {
     text-align: center;
     max-width: 50vw;
