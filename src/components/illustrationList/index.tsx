@@ -39,8 +39,6 @@ export const IllustrationList = ({
   href,
   linkText,
 }: IllustrationListProps) => {
-  console.log(href);
-
   return (
     <div className={style.illustrationList}>
       <div className={style.illustrationList__flex}>

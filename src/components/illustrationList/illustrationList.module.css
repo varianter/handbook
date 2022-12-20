@@ -1,15 +1,21 @@
+:not(.illustrationlist) + .illustrationList {
+  margin-top: 2rem;
+}
 .illustrationList {
   padding-block: 0.5rem;
 }
 
 .illustrationList h4 {
   padding-top: 0;
+  margin: 0;
+  line-height: 1;
 }
 
 .illustrationList__flex {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 0.5rem;
+  margin-block-end: 0.5rem;
 }
 
 .illustrationList img {
