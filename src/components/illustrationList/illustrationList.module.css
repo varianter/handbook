@@ -1,4 +1,4 @@
-:not(.illustrationlist) + .illustrationList {
+:not(.illustrationList) + .illustrationList {
   margin-top: 2rem;
 }
 .illustrationList {
