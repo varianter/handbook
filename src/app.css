@@ -125,7 +125,7 @@ li + li {
   margin-top: 3rem;
 }
 
-.backgroundBenefits {
+.listGap {
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
