@@ -3,6 +3,11 @@ title: En variants håndbok
 ---
 
 import { SearchBox } from 'src/components/search-form';
+import {
+  IllustrationList,
+  IllustrationListHeader,
+} from 'src/components/illustrationList';
+import { Values } from 'src/components/values/';
 
 # En variants håndbok
 
@@ -27,29 +32,42 @@ om oss på [nettsiden vår](https://www.variant.no).
 
 Dette gjør vi ved å samle flinke personer som tenker nye tanker, og som har kompetansen til å utvikle de riktige løsningene for kundene vi jobber med.
 
-#### Teknologi
+<img
+  src="./assets/illustrations/index-icon-1.svg"
+  alt="icon1"
+  className="illustration illustration--right"
+/>
 
-Vår arena, som vi bruker for å utgjøre en forskjell sammen med kundene våre.
+<IllustrationListHeader
+  headerText="Teknologi"
+  text="Vår arena, som vi bruker for å utgjøre en forskjell sammen med kundene våre."
+  figureName="rocket"
+/>
 
-#### Bærekraft
+<IllustrationListHeader
+  headerText="Bærekraft"
+  text="Vårt ansvar til miljøet som vi er en del av. Klimaavtrykk og bidrag til lokalsamfunnet."
+  figureName="tree"
+/>
 
-Vårt ansvar til miljøet som vi er en del av. Klimaavtrykk og bidrag til lokalsamfunnet.
-
-#### Likestilling
-
-Våre muligheter til å blomstre, uavhengig nasjonalitet, etnisk bakgrunn, livssyn, legning og kjønn.
+<IllustrationListHeader
+  headerText="Likestilling"
+  text="Våre muligheter til å blomstre, uavhengig nasjonalitet, etnisk bakgrunn, livssyn, legning og kjønn."
+  figureName="scale"
+/>
 
 ### Våre grunnverdier
 
 Verdiene våre ligger til grunn for hvordan vi behandler hverandre. Det skal være lav terskel for ros og tilbakemeldinger fordi vi ønsker at du lykkes. Vær den som sier hva du har på hjertet ditt og som tør å utfordre sannheter og gjeldende praksis. [Konkrete tiltak for åpen selskapskultur i Variant](https://blog.variant.no/konkrete-tiltak-for-%C3%A5pen-selskapskultur-i-variant-87fc37baa58)
 
-- **Raushet** - Dette vises i hvordan vi møter hverandre, våre kunder og folk i
-  nærmiljøet.
-- **Åpenhet** - Hva i all verden skal et selskap tjene på å holde informasjon
-  hemmelig for sine ansatte?
-- **Læreglede** - Vi er folk som ønsker å lære og lære bort. Vi skal ha ydmykhet
-  nok til å skjønne at vi kan lære noe fra alle, og troen på at alle kan lære
-  noe fra oss.
+<Values />
+
+<img
+  src="./assets/illustrations/index-icon-2.svg"
+  alt="icon1"
+  className='illustration illustration--left'
+
+/>
 
 ### Læreglede
 
@@ -68,24 +86,36 @@ publiseres. Stikk motsatt faktisk! Vi må ha en god grunn for at det **ikke**
 skal publiseres. Denne forskjellen er betydelig. Her er noen eksempler på hva
 dette betyr i praksis.
 
-#### Salg
+<div className='listGap'>
 
-Vi har ingen hemmelig eller begrenset salgsprosess hvor bare noen få vet hva
-som tilbys hvor og hvordan. Alle ansatte har full tilgang til Trello-boardet
-hvor alle salgs-caser legges inn og følges opp. I det ukentlige salgsmøtet
-møtes, naturlig nok, de som jobber salg. For oss andre er det frivillig, men
-kaffen her er like varm som vi er velkommen!
-
-#### Lønn
-
-I Variant vet alle hva alle tjener. Ikke bare basert på at lønnen beregnes ut
+<IllustrationListHeader
+  headerText="Salg"
+  text="Vi har ingen hemmelig eller begrenset salgsprosess hvor bare noen få vet hva som tilbys hvor og hvordan. Alle ansatte har full tilgang til Trello-boardet hvor alle salgs-caser legges inn og følges opp. I det ukentlige salgsmøtet møtes, naturlig nok, de som jobber salg. For oss andre er det frivillig, men kaffen her er like varm som vi er velkommen!"
+  figureName="presentationChart"
+/>
+<IllustrationListHeader
+  headerText="Lønn"
+  text="I Variant vet alle hva alle tjener. Ikke bare basert på at lønnen beregnes ut
 fra en kjent statistikk, men faktisk også slik at selskapet har en åpen
-lønnsbok, hvor varianter har tilgang.
+lønnsbok, hvor varianter har tilgang."
+  figureName="coins"
+/>
+<IllustrationListHeader
+  headerText="Dokumenter"
+  text="Alle styredokumenter ligger på vårt felles filområde der alle ansatte har,
+sjokkerende nok, også tilgang!"
+  figureName="documents"
+/>
+<IllustrationListHeader
+  headerText="Håndboka"
+  text="
+Denne håndboken! Åpen for hele verden å se. Vi setter pris på hvert bidrag
+hit, variant eller ikke. Dette gjelder egentlig alt vi har i det åpne. Vi
+heier på alle våre kollegaer som deler åpent og bidra til Open Source."
+  figureName="book"
+/>
 
-#### Dokumenter
-
-Alle styredokumenter ligger på vårt felles filområde der alle ansatte har,
-sjokkerende nok, også tilgang!
+</div>
 
 #### Håndboka
 
@@ -100,6 +130,12 @@ samme tilbake. Vi har full tillit til hverandre fordi vi vet at alle er i stand 
 gjøre riktige valg. Hva du trenger for å lære noe nytt eller gjøre jobben din, er
 opp til deg. Vi forventer bare at du selv vurderer kostnadene opp mot vinningen
 og sparrer med andre når du er usikker.
+
+<img
+  src="./assets/illustrations/index-icon-3.svg"
+  alt="icon1"
+  className="illustration illustration--left"
+/>
 
 #### Ha det morsomt
 
@@ -124,6 +160,12 @@ fra hele Variant-illustrasjonen, typografi, veiledning for valg av logo, osv.
 Alt dette legges åpent med en åpen lisens, foruten illustrasjonen hvor designer
 sitter på åndsverk.`
 
+<img
+  src="./assets/illustrations/index-icon-4.svg"
+  alt="icon1"
+  className="illustration illustration--right"
+/>
+
 ## Selve livet
 
 ### Familie
@@ -135,13 +177,15 @@ For oss er ikke jobb og fritid to helt ulike verdener. Selv om vi vil at variant
 Likestilling er en grunnleggende verdi for oss som jobber her, og for Variant som selskap. Her snakker vi om grunnleggende likeverd på tvers av blant annet nasjonalitet, etnisk bakgrunn, livssyn, legning og kjønn.
 Vi har i dag en god kjønnsbalanse til vår bransje å være, men samtidig ønsker vi sterkt å bedre den. Vi er ikke fornøyd før vi er omtrent fifty-fifty på kvinner og menn. Dette påvirker mange av våre strategiske og operative beslutninger, som blant annet:
 
+<img
+  src="./assets/illustrations/index-icon-5.svg"
+  alt="icon1"
+  className="illustration illustration--right"
+/>
+
 - Foreldrepermisjon reduserer ikke ansiennitet på noen måte
 - Du får utbetalt bonus også i foreldrepermisjon.
 - Du får selvsagt full lønn under foreldrepermisjon.
-
-- Foreldrepermisjon reduserer ikke ansiennitet på noen måte
-- Man får utbetalt bonus også mens man er i foreldrepermisjon.
-- Selvsagt får man full lønn under foreldrepermisjon
 
 Vi ønsker ikke at økonomi og karriere skal være momenter i hvordan den enkelte
 familie planlegger og fordeler arbeidet hjemme.
@@ -156,6 +200,12 @@ ugunstige arbeidsforhold. Våre avtaler med kundene inneholder reguleringer slik
 at vi har gode forutsetninger for å levere godt resultat for våre kunder over
 lang tid. Godt med lys, luft og riktige møbler er avgjørende i så måte.
 
+<img
+  src="./assets/illustrations/index-icon-6.svg"
+  alt="icon1"
+  className="illustration illustration--left"
+/>
+
 Variant dekker medlemsskap på treningssenter eller aktiviteter for den ansatte,
 for å gjøre det enkelt for de som synes sånt er fint å gjøre. Det hender også at
 vi arrangerer aktiviteter i løpet av året, for alle ansatte. Som en fjelltur,
@@ -166,6 +216,12 @@ influensavaksine kan du få dekt det det koster ved å levere utgiftsrapport.
 
 Til slutt har vi en knakende god helseforsikring, eller behandlingsforsikring
 som Gjensidige kaller det. Forsikringen dekker:
+
+<img
+  src="./assets/illustrations/medicine.svg"
+  alt="icon1"
+  className="illustration illustration--right"
+/>
 
 - Røntgen og bildediagnostikk
 - Utredning og behandling hos legespesialist
@@ -199,6 +255,12 @@ Enten må arrangementet eller aktiviteten bidra til
 
 Hvis en av disse er tilstede vil saken behandles av ledergruppen, sett opp i mot øvrig sponsorvirksomhet. [Se våre mangfoldssider for mer info](https://www.variant.no/mangfold).
 
+<img
+  src="./assets/illustrations/miljofyrtarn.png"
+  alt="icon1"
+  className="illustration illustration--left"
+/>
+
 #### Miljøfyrtårn
 
 Bærekraft for Variant innebærer mye. Det er likestilling i arbeidslivet, en
@@ -217,6 +279,12 @@ For at dette skal lykkes og en utplassering skal være en god opplevelse for ele
 
 Ønsker du utplassering hos oss ta kontakt via [post@variant.no](mailto:post@variant.no)
 
+<img
+  src="./assets/illustrations/projects.svg"
+  alt="icon1"
+  className="illustration illustration--right"
+/>
+
 ## Arbeidet
 
 ### Fleksitid
@@ -228,6 +296,12 @@ du velger din arbeidsrytme regner vi med at det er med i vurderingen.
 
 Vi vet at livet har ulike faser. I noen perioder kan du ha behov for å bruke mindre tid på jobb. Hos oss er det mulig å senke stillingsgraden i perioder. Dette avgjør du best selv. Med åpenhet mellom deg, personalleder og kunden om behov og ønsker, vil vi sammen jobbe for å finne en løsning alle trives med.
 
+<img
+  src="./assets/illustrations/rocket.svg"
+  alt="icon1"
+  className="illustration illustration--left"
+/>
+
 ### Fri i jula
 
 I tillegg til de vanlige fem uker med ferie regner vi alle dagene fra og med
@@ -237,6 +311,12 @@ spare feriedager til romjula.
 ### Kompetanseutvikling
 
 Vi ønsker at fagmiljøet der vi er tilstede er sterkt og pulserende. Da må vi også jobbe med faglig utvikling. Vi ser lite verdi i å bygge kompetanse kun for vår egen del, vi tror heller at kunnskap og erfaring gjør seg best i fellesskap med andre. Vi bidrar derfor gledelig i eksisterende fagmiljø, eller oppretter nye der vi kjenner at det mangler. Vi oppfordrer alle – ja fra daglig leder så vel som sommerstudenter i selskapet – til å være aktive på meetups og fagtreff. Vi er først og fremst læreglade fagpersoner over hele fjøla.
+
+<img
+  src="./assets/illustrations/competance.svg"
+  alt="icon1"
+  className="illustration illustration--right"
+/>
 
 Åpenheten strekker seg selvfølgelig til læringen vi gjør. Vi oppfordrer ansatte
 til å dele det de lærer og bruker tid på å formidle det på en god måte. Enten
@@ -256,6 +336,12 @@ konferanser og lignende, dekker Variant deltagelse, reise og opphold. Helt
 uavhengig av hvor i verden, og hvor mange andre konferanser du har deltatt på
 det året. Ut å avle læreglede!
 
+<img
+  src="./assets/illustrations/singer.svg"
+  alt="icon1"
+  className="illustration illustration--right"
+/>
+
 #### Variantdag
 
 Den første fredagen i hver måned (foruten januar og juli) har vi det vi kaller en Variantdag. Dette er en “innedag”, der vi alle bruker hele dagen sammen, for faglig, administrativt og sosialt påfyll. Vi har også noen felles variantdager gjennom året. Da møtes varianter fra alle de ulike lokasjonene i en byene våre slik at vi kan dele enda flere perspektiver og sosialisere.
@@ -263,6 +349,12 @@ Den første fredagen i hver måned (foruten januar og juli) har vi det vi kaller
 Planlegging av variantdag skjer litt ulikt i de ulike byene. Les mer om hvordan vi gjør det under [Lokasjoner](https://handbook.variant.no/avdelinger/).
 
 [Her vil du alltid finne oversikt over gjennomførte og planlagte variantdager](https://medium.com/variant-as/tagged/variantdag).
+
+<img
+  src="./assets/illustrations/variantdag.png"
+  alt="icon1"
+  className="illustration illustration--left"
+/>
 
 #### Variantdagen som rammeverk for utvikling
 
@@ -274,6 +366,12 @@ mulighet til å legge opp til hemmelighet i utviklingsløpet.
 
 Vi har utviklingsprogram vi har designet selv, og vi har mulighet til å
 investere i andre program.
+
+<img
+  src="./assets/illustrations/developmentProgram.png"
+  alt="icon1"
+  className="illustration illustration--right"
+/>
 
 #### Utviklingsprogram
 
@@ -357,6 +455,12 @@ men også da kan både kunde og samfunn ha nytte av at noe åpnes. Vi skal hjelp
 kundene våre med å ta gode avgjørelser rundt dette, og ikke være redd for å
 stille spørsmålet: “Kan ikke dette legges ut, da?”
 
+<img
+  src="./assets/illustrations/social.svg"
+  alt="icon1"
+  className="illustration illustration--right"
+/>
+
 ## Sosialt
 
 Som konsulenter sitter vi ofte ute hos kunde, og derfor gjør vi en ekstra
@@ -378,9 +482,21 @@ I tillegg har vi et fond på 50 000 kr som vi kan bruke som midler til forskjell
 
 Variantdagen i **september** er alltid litt spesiell. Da drar vi – med en partner eller venn til følge – ut av byen for å feire vår egen bursdag og oppleve nye ting. Foreløpig har vi vært i London, på Hotell Union Øye i Norangsdal, i Kragerø og København/Praha. I 2022 har Variants Oslo-kontor blitt så stort at Trondheim og Oslo valgte hver sin turdestinasjon. Selv om vi er et samlet selskap som deler verdier og læreglede, har vi som ambisjon at de ulike lokasjonene får frihet og rom til å utvikle sin egen kultur og bli enda bedre kjent – både med hverandre og den utvidede variantfamilien.
 
+<img
+  src="./assets/illustrations/dragonboat.png"
+  alt="icon1"
+  className="illustration illustration--left"
+/>
+
 ### SosKom
 
 Sosialkomiteen planlegger og arrangerer varierte aktiviteter - og man blir med på det man har lyst til. Tidligere har vi vært på go-cart, klatring, sip-and-paint, meditasjonskurs, topptur, og variant-frokost der vi tester ut byens beste hotell-frokoster sammen.
+
+<img
+  src="./assets/illustrations/money.svg"
+  alt="icon1"
+  className="illustration illustration--right"
+/>
 
 ## Penger
 
@@ -406,12 +522,20 @@ per måned, og utbetales den påfølgende måneden. Overtidstillegget er på 40%
 overtidslønnen beregnes ved å ta
 `antall timer overtid for en måned * årslønn / 1960 * 1,4`.
 
+<img
+  src="./assets/illustrations/happy.svg"
+  alt="icon1"
+  className="illustration illustration--left"
+/>
+
 ### Bonus
 
 Hvert kvartal utbetaler vi bonus til alle ansatte. Bonusen beregnes som 30%
 av overskuddet dette kvartalet, delt likt på alle ansatte. Vi må også betale
 arbeidsgiveravgift på bonus, slik at dette trekkes fra. Dette regnes som lønn
 inklusive feriepenger, så 10,7% utsettes til neste års feriepenger.
+
+<div className="backgroundExample background-color-secondary4__tint2">
 
 **Eksempel**: Gitt 10 ansatte og et kvartalsvis overskudd på _én million_, deler
 vi `30%` av overskuddet på 10 og får `30 000`. Så skal det betales `14,1%`
@@ -421,6 +545,8 @@ Av dette kommer `2 761 kr` som neste års feriepenger.
 De som har vært ansatt bare deler av et kvartal eller har valgt hel eller delvis
 permisjon får sin andel redusert etter dette. Ansatte som er i foreldrepermisjon
 eller som er sykemeldte får full bonus.
+
+</div>
 
 ### Eierskap
 
@@ -443,18 +569,65 @@ og dekning for annen ulykke enn yrkesskade.
 
 Vi kjører punktliste!
 
-- Gadgetbudsjett på 10 000 pluss moms pr. år. Hva andre har brukt det til finner
-  du på [oversikten her](https://dash.variant.no/gadgetusage/trondheim).
-- Ett kurs eller en konferanse i året
-- Fri bruk av telefoni – innen rimelighetens grenser.
-- Bredbånd hjemme på inntil 500 kr. per måned.
-- Betalt to uker permisjon for partner etter fødsel.
-- Full lønn under foreldrepermisjon, selv om lønnen skulle overstige det NAV betaler.
-- To dager til barnehagetilvenning.
-- Utvidede rettigheter til
-  [egenmelding og sykepenger](information.html#sykemelding-og-egenmelding).
-- Dekt treningssentermedlemsskap, eller tilsvarende helsebringende
+<div className="listGap background-color-secondary4__tint2">
+
+<IllustrationList
+  text="Gadgetbudsjett på 10 000 pluss moms pr. år. Hva andre har brukt det til finner
+  du på"
+  href="https://dash.variant.no/gadgetusage/trondheim"
+  linkText="oversikten her"
+  figureName="deviceMobile"
+/>
+
+<IllustrationList
+  text="Ett kurs eller en konferanse i året"
+  figureName="graduationCap"
+/>
+
+<IllustrationList
+  text="Fri bruk av telefoni – innen rimelighetens grenser."
+  figureName="phoneCall"
+/>
+
+<IllustrationList
+  text="Bredbånd hjemme på inntil 500 kr. per måned."
+  figureName="wifiHigh"
+/>
+
+<IllustrationList
+  text="Betalt to uker permisjon for partner etter fødsel."
+  figureName="baby"
+/>
+
+<IllustrationList
+  text="Full lønn under foreldrepermisjon, selv om lønnen skulle overstige det NAV betaler."
+  figureName="coinVertical"
+/>
+
+<IllustrationList
+  text="To dager til barnehagetilvenning."
+  figureName="houseLine"
+/>
+
+<IllustrationList
+  text="Utvidede rettigheter til"
+  href="information#Sykemelding-og-egenmelding"
+  linkText="egenmelding og sykepenger"
+  figureName="firstAidKit"
+/>
+
+<IllustrationList
+  text="Dekt treningssentermedlemsskap, eller tilsvarende helsebringende
   aktivitet/utstyr, inntil 500,- per måned (NB! Dette er en skattepliktig fordel
-  som rapporteres på din lønnsslipp ved årsslutt). Utgiftsføres på vanlig måte.
-- Behandlingsforsikring.
-- Reiseforsikring for deg og din familie.
+  som rapporteres på din lønnsslipp ved årsslutt). Utgiftsføres på vanlig måte."
+  figureName="barbell"
+/>
+
+<IllustrationList text="Behandlingsforsikring." figureName="firstAid" />
+
+<IllustrationList
+  text="Reiseforsikring for deg og din familie.."
+  figureName="airplaneTilt"
+/>
+
+</div>
