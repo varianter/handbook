@@ -73,6 +73,7 @@ li + li {
 .illustration {
   width: 15rem;
   margin: 5rem 2rem 2rem;
+  shape-outside: circle(55%);
 }
 .illustration--right {
   float: right;
@@ -91,28 +92,6 @@ li + li {
 
 .illustration--headquarter {
   top: 1rem;
-}
-
-.illustrations--flex {
-  display: flex;
-  gap: 2rem;
-  margin-top: 3rem;
-}
-
-@media (max-width: 600px) {
-  .illustrations--flex {
-    flex-direction: column;
-  }
-
-  .illustrations--flex img {
-    display: block;
-    margin: auto;
-  }
-}
-
-.illustrations--flex img {
-  width: auto;
-  height: auto;
 }
 
 .background-color-secondary4__tint2 {
