@@ -15,7 +15,8 @@ export const BlobBackgroundText = ({
     <div className={style.blobBackgroundText}>
       <img
         src={`./assets/backgroundBlobs/blob${blobNr}.svg`}
-        alt="background blob"
+        role="none"
+        alt=""
         className={style.blobBackgroundText__blob}
       />
       <h4>{headingText}</h4>
