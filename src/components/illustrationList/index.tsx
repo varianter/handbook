@@ -44,7 +44,8 @@ export const IllustrationList = ({
       <div className={style.illustrationList__flex}>
         <img
           src={`./assets/illustrations/bulletpoints/${figureName}.svg`}
-          alt={`Illustrasjon av ${figureName}`}
+          role="none"
+          alt=""
         />
         <p>
           {text} {href ? <Link href={href}>{linkText}</Link> : null}
@@ -64,7 +65,8 @@ export const IllustrationListHeader = ({
       <div className={style.illustrationList__flex}>
         <img
           src={`./assets/illustrations/bulletpoints/${figureName}.svg`}
-          alt={`Illustrasjon av ${figureName}`}
+          role="none"
+          alt=""
         />
         <h4>{headerText}</h4>
       </div>
@@ -87,7 +89,8 @@ export const IllustrasjonListLink = ({
       <div className={style.illustrationList__flex}>
         <img
           src={`./assets/illustrations/bulletpoints/${figureName}.svg`}
-          alt={`Illustrasjon av ${figureName}`}
+          role="none"
+          alt=""
         />
         <Link href={href}>
           <a className={style.illustrationList__link}>{text}</a>
