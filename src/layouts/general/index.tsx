@@ -167,8 +167,7 @@ export default function GeneralLayout({
             <li
               key={handbook.title}
               className={
-                isActiveHandbook(handbook.path, asPath) &&
-                !isLandingpage(asPath)
+                (handbook.path, asPath) && !isLandingpage(asPath)
                   ? style.header__handbooks__link__active
                   : isActiveHandbook(handbook.path, asPath) &&
                     isLandingpage(asPath) &&
@@ -235,25 +234,26 @@ export default function GeneralLayout({
         >
           <section className={style.nav__inner}>
             {/* @TODO: Implement new side menu to cover all handbook pages */}
-            {/* <ul className={style.nav__handbooks}>
-              {metadata.handbooks.map((handbook) => {
-                return (
-                  <li
-                    key={handbook.title}
-                    className={
-                      isActiveHandbook(handbook.path, asPath)
-                        ? style.nav__inner__link__active
-                        : style.nav__inner__link
-                    }
-                  >
-                    <Link href={`/${handbook.path}`}>
-                      <a tabIndex={tabIndex}>{handbook.title}</a>
-                    </Link>
-                  </li>
-                );
-              })}
+            <ul className={style.nav__handbooks}>
+              {isMenuVisible &&
+                metadata.handbooks.map((handbook) => {
+                  return (
+                    <li
+                      key={handbook.title}
+                      className={
+                        isActiveHandbook(handbook.path, asPath)
+                          ? style.nav__inner__link__active
+                          : style.nav__inner__link
+                      }
+                    >
+                      <Link href={`/${handbook.path}`}>
+                        <a tabIndex={tabIndex}>{handbook.title}</a>
+                      </Link>
+                    </li>
+                  );
+                })}
 
-              {metadata.categories.map((category) => (
+              {/* {metadata.categories.map((category) => (
                 <li
                   key={category.title}
                   className={
@@ -266,8 +266,8 @@ export default function GeneralLayout({
                     <a tabIndex={tabIndex}>{category.title}</a>
                   </Link>
                 </li>
-              ))}
-            </ul> */}
+              ))} */}
+            </ul>
 
             {/* {currentCategory && (
               <ul className={style.nav__handbooks}>
