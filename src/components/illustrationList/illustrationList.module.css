@@ -21,3 +21,11 @@
 .illustrationList img {
   align-self: center;
 }
+
+.illustrationList__link {
+  color: var(--color-standard__black);
+  font-weight: 500;
+
+  text-decoration: none;
+  border-bottom: 2px solid var(--color-secondary2);
+}

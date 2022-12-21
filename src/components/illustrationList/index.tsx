@@ -72,3 +72,27 @@ export const IllustrationListHeader = ({
     </div>
   );
 };
+
+type IllustrasjonListLinkProps = {
+  href: Url;
+};
+
+export const IllustrasjonListLink = ({
+  figureName,
+  text,
+  href,
+}: IllustrationListProps & IllustrasjonListLinkProps) => {
+  return (
+    <div className={style.illustrationList}>
+      <div className={style.illustrationList__flex}>
+        <img
+          src={`./assets/illustrations/bulletpoints/${figureName}.svg`}
+          alt={`Illustrasjon av ${figureName}`}
+        />
+        <Link href={href}>
+          <a className={style.illustrationList__link}>{text}</a>
+        </Link>
+      </div>
+    </div>
+  );
+};

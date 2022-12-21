@@ -2,11 +2,22 @@
 title: Det praktiske
 ---
 
+import {
+  IllustrationList,
+  IllustrasjonListLink,
+  IllustrationListHeader,
+} from 'src/components/illustrationList';
+
 # Praktisk informasjon
 
 Her beskrives interne prosedyrer og generelle rutiner for dagligdagse oppgaver
 for en variant. Det kan være ting som utgiftsføring, timeføring, osv.
 
+<img
+  src="./assets/illustrations/money.svg"
+  alt="icon1"
+  className="illustration illustration--right"
+/>
 ## Lønning
 
 Lønningsdag er den siste arbeidsdagen i hver måned. Altså utbetales lønn
@@ -76,6 +87,12 @@ eventuell ekstra informasjon vi trenger for å godkjenne fakturaen. Dette er
 typisk hva fakturaen er relatert til og hva vi bruker det vi har kjøpt til. Noen
 ting er så åpenbare at det sikkert ikke trenges noe særlig ekstra info.
 
+<img
+  src="./assets/illustrations/utgifter.svg"
+  alt="icon1"
+  className="illustration illustration--right"
+/>
+
 ## Utgiftsrapportering
 
 Utgiftsrapporter føres ved at en sender en mail til utgiftsrapport@variant.no.
@@ -90,10 +107,13 @@ Skattemydighetene krever at fordeler du oppnår gjennom ulike fordelsprogam man
 får på grunn av at du er ansatt hos oss skal rapporteres inn slik at det blir
 med på skatteberegningen. Dette gjelder blant annet:
 
-- Kredittkort med bonuspoeng
-- Bonuspoeng på flyreiser
-- Eventuelle ansattrabatter hos butikker eller lignende (P.t. har vi ingen
-  slike).
+<IllustrationList text="Kredittkort med bonuspoeng" figureName="creditCard" />
+<IllustrationList text="Bonuspoeng på flyreiser" figureName="airplaneTilt" />
+<IllustrationList
+  text="Eventuelle ansattrabatter hos butikker eller lignende (P.t. har vi ingen
+  slike)."
+  figureName="coinVertical"
+/>
 
 Det er den ansattes ansvar å rapportere dette til Variant, så skal Variant
 rapportere videre til myndighetene.
@@ -116,9 +136,17 @@ ville kostet uten rabatt eller bonuspoeng.
 Du må også dokumentere estimert verdi. Dette gjøres typisk ved å ta skjermbilder
 av tilsvarende kjøp eller reiser hvor prisene er oppgitt.
 
-- Dokumentasjonen lastes opp på [docs](https://fordelsdokumentasjon.variant.no).
-- Rapportering gjøres ved å fylle ut
-  [dette skjemaet](https://fordelsrapport.variant.no).
+<IllustrasjonListLink
+  text="Rapportering gjøres ved å fylle ut dette skjemaet."
+  figureName="documents"
+  href="https://fordelsrapport.variant.no"
+/>
+
+<IllustrasjonListLink
+  text="Dokumentasjon lastes opp på docs"
+  figureName="cloud"
+  href="https://fordelsdokumentasjon.variant.no"
+/>
 
 ### Restaurantbesøk
 
@@ -146,6 +174,24 @@ benyttes i stedet.
 
 _NB! Hvis reisen skal viderefaktureres til en kunde gjennom megler, se avsnitt
 lenger ned._
+
+<img
+  src="./assets/illustrations/car.svg"
+  alt="figur av en bil"
+  className="illustration illustration--right"
+/>
+
+<IllustrasjonListLink
+  text="Innlands reiseregningsskjema (enkelt)"
+  figureName="documents"
+  href="https://reiseregning.variantapp.com"
+/>
+
+<IllustrasjonListLink
+  text="Registrer klimaavtrykk"
+  figureName="leaf"
+  href="https://reiseregning.variantapp.com"
+/>
 
 ### Reiser på Variants regning
 
@@ -179,29 +225,41 @@ For å håndtere salgsprosessen benytter vi [Trello](https://trello.com/b/kO5kbM
 
 Variant benytter disse fasene:
 
-##### Lead
+<IllustrationListHeader
+  text="Muligheter som foreløpig ikke har blitt materialisert i en konkret forespørsel fra kunde. Salgsmuligheter i denne fasen krever bearbeiding og forberedelser."
+  headerText="Lead"
+  figureName="location"
+/>
 
-Muligheter som foreløpig ikke har blitt materialisert i en konkret forespørsel fra kunde. Salgsmuligheter i denne fasen krever bearbeiding og forberedelser.
+<IllustrationListHeader
+  text="Her ligger konkrete forespørsler fra kunder, og hvor vi skal vurdere om vi ønsker å gå videre med muligheten."
+  headerText="Til kvalifisering"
+  figureName="stopWatch"
+/>
 
-##### Til kvalifisering
+<IllustrationListHeader
+  text="Kvalifiserte muligheter ligger i denne fasen mens tilbudet utarbeides."
+  headerText="Lage tilbud"
+  figureName="documents"
+/>
 
-Her ligger konkrete forespørsler fra kunder, og hvor vi skal vurdere om vi ønsker å gå videre med muligheten.
+<IllustrationListHeader
+  text="I denne fasen ligger muligheter som har blitt til leverte tilbud. Her ligger tilbudene til muligheten er konkludert eller i forhandling."
+  headerText="Levert tilbud"
+  figureName="documents"
+/>
 
-##### Lage tilbud
+<IllustrationListHeader
+  text="Tilbud som er i forhandling med kunde, eller hvor konsulenter er intervjuet ligger i denne fasen."
+  headerText="Til forhandling"
+  figureName="group"
+/>
 
-Kvalifiserte muligheter ligger i denne fasen mens tilbudet utarbeides.
-
-##### Levert tilbud
-
-I denne fasen ligger muligheter som har blitt til leverte tilbud. Her ligger tilbudene til muligheten er konkludert eller i forhandling.
-
-##### Til forhandling
-
-Tilbud som er i forhandling med kunde, eller hvor konsulenter er intervjuet ligger i denne fasen.
-
-##### Ferdig konkludert
-
-I denne fasen ligger muligheter som enten er vunnet eller tapt.
+<IllustrationListHeader
+  text="I denne fasen ligger muligheter som enten er vunnet eller tapt."
+  headerText="Ferdig konkludert"
+  figureName="confetti"
+/>
 
 ### Kvalifisering
 
@@ -264,6 +322,12 @@ orden å flekse tid innenfor en måned. Dette forutsetter selvsagt at det er
 avklart og greit for prosjektet og kunden også. Det betyr at du kan jobbe litt
 mer en dag og mindre en annen dag innenfor samme måned.
 
+<img
+  src="./assets/illustrations/clock.svg"
+  alt="figur av en bil"
+  className="illustration illustration--right"
+/>
+
 Vi har to hovedtyper timeføring. Det ene er kundetid, det andre er annen
 timeføring som føres under Varianttid. All tid skal timeføres inkludert reisetid
 og pålagt overtid.
@@ -315,7 +379,11 @@ timeføres reisetid utenfor normalarbeidstid.
 For noen oppdrag timeføres reisetid utenfor normalarbeidstid på egen
 timeføringskode.
 
-For eksempel: _du bes av kunde om å stille klokken 9:00 i en annen by. Reisetid
+<div className="backgroundExample background-color-secondary4__tint2">
+
+#### For eksempel:
+
+_du bes av kunde om å stille klokken 9:00 i en annen by. Reisetid
 planlegges og kunde informeres om hvordan tiden vil bli timeført. Reisetid fra
 reisens start til oppmøte timeføres i Harvest i tråd med det som er avtalt med
 kunde._
@@ -326,6 +394,8 @@ Se forøvrig
 [dette avsnittet](https://handbook.variant.no/information#skjema-for-reiseregninger)
 for refusjon av reiseutlegg.
 
+</div>
+
 ## Forsikringer og pensjon
 
 Vi har gode forsikringsordninger og obligatorisk tjenestepensjon (OTP). Faktisk så betaler vi [7% av årslønn](https://www.variant.no/kalkulator) opp til 12G ekstra til sparing i pensjon for deg. Sammenlignet med 2% som er det lovpålagte for bedrifter i Norge. Både forsikring og pensjon har vi gjennom Gjensidige.
@@ -334,6 +404,12 @@ Alle kan administrere sin pensjon ved å logge inn på
 [Gjensidiges nettsider](https://www.gjensidige.no/) med BankID. Blant annet kan
 man her velge spareprofil, og her finner dere også informasjon om de ulike
 forsikringsordninger dere er medlemmer i.
+
+<img
+  src="./assets/illustrations/manOnBench.svg"
+  alt="icon1"
+  className="illustration illustration--right"
+/>
 
 I tillegg til lovbestemt forsikring mot yrkesskade og yrkessykdom samt
 yrkesreiseforsikrinig har vi også følgende forsikringer:
@@ -463,6 +539,12 @@ Pro tip 2: Husk at det er fullt mulig å kjøpe brukt! Det eneste vi trenger er 
 Du skal jaggu ikke mangle noe for å gjøre en god jobb.
 
 ### PC-valg
+
+<img
+  src="./assets/illustrations/pc.svg"
+  alt="icon1"
+  className="illustration illustration--right"
+/>
 
 Skikkelig jobb krever skikkelige verktøy. Du velger selv datamaskin og størrelse, farge og modell på den. Melder behovet seg for en ny, skal du også selvfølgelig få det. Vi stoler på at du velger det beste for at du skal kunne gjøre en best mulig jobb. Er du usikker kan du godt spørre i vår Slackkanal #helpdesk.
 
