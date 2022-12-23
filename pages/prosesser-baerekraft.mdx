@@ -2,17 +2,24 @@
 title: Bærekraft - Prosesser
 ---
 
+import { IllustrasjonListLink } from 'src/components/illustrationList';
+import { ProcessSelector } from 'src/components/ProcessSelector';
+
 # Hvordan vi gjør ting
 
 Her samler vi strategier, rutiner og prosesser for hvordan ting gjøres i Variant. Noen områder krever derimot mer bakgrunnsinfo og utdyping og er derfor skilt ut som egne sider
 
 ## Temaer
 
-- [Ansatt](./prosesser-ansatt)
-- [HMS](./prosesser-hms)
-- [**Bærekraft**](./prosesser-baerekraft)
-- [Mangfold](./prosesser-mangfold)
-- [Avtaler](https://avtaler.variant.no/)
+<ProcessSelector
+  sections={[
+    { section: 'Ansatt', href: './prosesser-ansatt' },
+    { section: 'HMS', href: './prosesser-hms' },
+    { section: 'Bærekraft', href: './prosesser-baerekraft' },
+    { section: 'Mangfold', href: './prosesser-mangfold' },
+    { section: 'Avtaler', href: 'https://avtaler.variant.no/' },
+  ]}
+/>
 
 Vi bryr oss om miljøet, og har fokus på å begrense reiser og utslipp. For å ha oversikt fører vi regnskap over alle reiser og utslippene det medfører. Ta en kikk i klimaregnskapet for å se aktuelle tall.
 
