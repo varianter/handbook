@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { useRouter } from 'next/router';
+import { NextRouter, useRouter } from 'next/router';
 import { and } from 'src/utils/css';
 import style from './processSelector.module.css';
 
@@ -36,12 +36,13 @@ const ProcessSelectorButton = ({
   section,
   hrefPath,
 }: ProcessSelectorButtonProps) => {
+  const route = useRouter();
   return (
     <div
       key={section}
       className={and(
         style.processSelectorButton,
-        isCurrentPath(hrefPath) ? style.processSelectorButtonActive : '',
+        isCurrentPath(hrefPath, route) ? style.processSelectorButtonActive : '',
       )}
     >
       <Link href={hrefPath}>
@@ -51,6 +52,6 @@ const ProcessSelectorButton = ({
   );
 };
 
-function isCurrentPath(buttonPath: string) {
-  return buttonPath.slice(1) === useRouter().asPath;
+function isCurrentPath(buttonPath: string, route: NextRouter) {
+  return buttonPath.slice(1) === route.asPath;
 }
