@@ -4,7 +4,7 @@ import style from './illustrationList.module.css';
 
 type IllustrationListProps = {
   figureName: FigureName;
-  headingText: string;
+  headerText: string;
   text: string;
   href?: Url;
   linkText?: string;
@@ -55,9 +55,9 @@ export const IllustrationList = ({
   );
 };
 
-export const IllustrationListHeading = ({
+export const IllustrationListHeader = ({
   figureName,
-  headingText,
+  headerText,
   text,
 }: IllustrationListProps) => {
   return (
@@ -68,27 +68,9 @@ export const IllustrationListHeading = ({
           role="none"
           alt=""
         />
-        <h4>{headingText}</h4>
+        <h4>{headerText}</h4>
       </div>
       <p>{text}</p>
-    </div>
-  );
-};
-
-export const IllustrationHeading = ({
-  figureName,
-  headingText,
-}: IllustrationListProps) => {
-  return (
-    <div className={style.illustrationList}>
-      <div className={style.illustrationList__flex}>
-        <img
-          src={`../assets/illustrations/bulletpoints/${figureName}.svg`}
-          role="none"
-          alt=""
-        />
-        <h3>{headingText}</h3>
-      </div>
     </div>
   );
 };
