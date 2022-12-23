@@ -24,7 +24,7 @@ body,
 html {
   --font-size-min: 14;
   --font-size-max: 18;
-  background: var(--color-secondary4__tint2);
+  background: var(--color-secondary4__tint3);
   scroll-behavior: smooth;
 }
 h1,
@@ -88,6 +88,11 @@ li + li {
   display: block;
   top: 8rem;
   max-width: 35rem;
+}
+
+.illustration--bottom {
+  margin-top: 2rem;
+  width: 100%;
 }
 
 .illustration--headquarter {
