@@ -5,14 +5,23 @@ department: Oslo
 ---
 
 import { IllustrationHeading } from 'src/components/illustrationList';
-
-# Oslo
+import { ProcessSelector } from 'src/components/processSelector';
 
 <img
   src="../assets/illustrations/office-oslo.png"
   role="none"
   alt=""
   className="illustration illustration--right"
+/>
+
+# Oslo
+
+<ProcessSelector
+  sections={[
+    { section: 'Trondheim', href: './trondheim' },
+    { section: 'Oslo', href: './oslo' },
+    { section: 'Bergen', href: './bergen' },
+  ]}
 />
 
 ## Tollbugata 24
