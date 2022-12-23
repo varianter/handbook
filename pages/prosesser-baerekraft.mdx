@@ -3,6 +3,7 @@ title: Bærekraft - Prosesser
 ---
 
 import { IllustrasjonListLink } from 'src/components/illustrationList';
+import { ProcessSelector } from 'src/components/processSelector';
 
 # Hvordan vi gjør ting
 
@@ -10,11 +11,15 @@ Her samler vi strategier, rutiner og prosesser for hvordan ting gjøres i Varian
 
 ## Temaer
 
-- [Ansatt](./prosesser-ansatt)
-- [HMS](./prosesser-hms)
-- [**Bærekraft**](./prosesser-baerekraft)
-- [Mangfold](./prosesser-mangfold)
-- [Avtaler](https://avtaler.variant.no/)
+<ProcessSelector
+  sections={[
+    { section: 'Ansatt', href: './prosesser-ansatt' },
+    { section: 'HMS', href: './prosesser-hms' },
+    { section: 'Bærekraft', href: './prosesser-baerekraft' },
+    { section: 'Mangfold', href: './prosesser-mangfold' },
+    { section: 'Avtaler', href: 'https://avtaler.variant.no/' },
+  ]}
+/>
 
 <img
   src="./assets/illustrations/baerekraft-icon-1.svg"
