@@ -32,7 +32,10 @@ type PageSelectorButtonProps = {
   hrefPath: string;
 };
 
-const PageSelectorButton = ({ section, hrefPath }: PageSelectorButtonProps) => {
+export const PageSelectorButton = ({
+  section,
+  hrefPath,
+}: PageSelectorButtonProps) => {
   const route = useRouter();
   return (
     <div
