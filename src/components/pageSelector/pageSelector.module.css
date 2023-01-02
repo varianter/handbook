@@ -1,25 +1,25 @@
-.processSelector {
+.pageSelector {
   display: flex;
   gap: 2rem;
   margin-block: 1rem;
 }
 
-.processSelectorButton {
+.pageSelectorButton {
   padding: 0.25rem 0.5rem;
   background-color: var(--color-secondary4);
   border-radius: 0.5rem;
 }
 
-.processSelectorButtonActive {
+.pageSelectorButtonActive {
   background-color: var(--color-primary__tint3);
 }
 
-.processSelectorButton a {
+.pageSelectorButton a {
   text-decoration: none;
 }
 
 @media (max-width: 450px) {
-  .processSelector {
+  .pageSelector {
     gap: 0.5rem;
     flex-wrap: wrap;
   }

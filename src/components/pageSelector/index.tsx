@@ -1,23 +1,23 @@
 import Link from 'next/link';
 import { NextRouter, useRouter } from 'next/router';
 import { and } from 'src/utils/css';
-import style from './processSelector.module.css';
+import style from './pageSelector.module.css';
 
-type Process = {
+type Page = {
   section: string;
   href: string;
 };
 
-type ProcessSelectorProps = {
-  sections: Process[];
+type PageSelectorProps = {
+  sections: Page[];
 };
 
-export const ProcessSelector = ({ sections }: ProcessSelectorProps) => {
+export const PageSelector = ({ sections }: PageSelectorProps) => {
   return (
-    <div className={style.processSelector}>
+    <div className={style.pageSelector}>
       {sections.map((section) => {
         return (
-          <ProcessSelectorButton
+          <PageSelectorButton
             section={section.section}
             hrefPath={section.href}
           />
@@ -27,22 +27,19 @@ export const ProcessSelector = ({ sections }: ProcessSelectorProps) => {
   );
 };
 
-type ProcessSelectorButtonProps = {
+type PageSelectorButtonProps = {
   section: string;
   hrefPath: string;
 };
 
-const ProcessSelectorButton = ({
-  section,
-  hrefPath,
-}: ProcessSelectorButtonProps) => {
+const PageSelectorButton = ({ section, hrefPath }: PageSelectorButtonProps) => {
   const route = useRouter();
   return (
     <div
       key={section}
       className={and(
-        style.processSelectorButton,
-        isCurrentPath(hrefPath, route) ? style.processSelectorButtonActive : '',
+        style.pageSelectorButton,
+        isCurrentPath(hrefPath, route) ? style.pageSelectorButtonActive : '',
       )}
     >
       <Link href={hrefPath}>
