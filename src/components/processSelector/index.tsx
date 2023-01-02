@@ -53,5 +53,6 @@ const ProcessSelectorButton = ({
 };
 
 function isCurrentPath(buttonPath: string, route: NextRouter) {
-  return buttonPath.slice(1) === route.asPath;
+  const currentPath = route.asPath.split('/');
+  return buttonPath.slice(2) === currentPath[currentPath.length - 1];
 }

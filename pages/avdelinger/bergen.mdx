@@ -4,19 +4,37 @@ order: 2
 department: Bergen
 ---
 
+import { IllustrationHeading } from 'src/components/illustrationList';
+import { ProcessSelector } from 'src/components/processSelector';
+
+<ProcessSelector
+  sections={[
+    { section: 'Trondheim', href: './trondheim' },
+    { section: 'Oslo', href: './oslo' },
+    { section: 'Bergen', href: './bergen' },
+  ]}
+/>
+
 # Bergen
+
+<img
+  src="../assets/illustrations/office-bergen.png"
+  role="none"
+  alt=""
+  className="illustration illustration--right"
+/>
 
 ## Spaces Vaskerelven
 
 Vi holder til, så lenge vi ikke er ute hos våre kunder, hos
 [Spaces](https://g.page/Vaskerelven-39-5323?share) i Vaskerelven.
 
-### Wifi
+<IllustrationHeading headingText="Wifi" figureName="wifiHigh" />
 
 Når du jobber på kontoret benytter du det trådløse nettet med SSID Spaces.
 Du logger inn med din Variant-epost, og kobler deg til via Spaces-appen
 
-### Sykkelparkering
+<IllustrationHeading headingText="Sykkelparkering" figureName="bike" />
 
 Spaces har både sykkelparkering og garderobe. Sykkelparkeringen ligger i
 bakgården.
@@ -55,7 +73,7 @@ Hvis ansatte opplever feil, mangler eller farlige situasjoner ute hos kunde
 ønsker vi at dette forsøkes varslet i henhold til kundens HMS-rutiner. Skulle
 dette ikke føre fram vil vi ta imot og håndtere saken i Variant-kontekst.
 
-### Branninstruks
+<IllustrationHeading headingText="Branninstruks" figureName="fire" />
 
 Gjør deg kjent med følgende hos Spaces Vaskerelven:
 
@@ -78,7 +96,7 @@ redningsplan finnes som oppslag i kontorlokalet og gjennomgås med alle
 nyansatte. Brannøvelse gjennomføres i regi av Spaces. Vedlikehold av
 brannvarslere og slukkeustyr utføres av Spaces.
 
-### Kildesortering
+<IllustrationHeading headingText="Kildesortering" figureName="recycle" />
 
 Det er kildesortering hos Spaces, både i fellesarealet og i søppelrommet i
 kjelleren.
