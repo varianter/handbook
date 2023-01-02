@@ -73,6 +73,7 @@
 }
 .header__handbooks__category {
   composes: header__handbooks;
+  gap: 2rem;
 
   margin-top: 2rem;
 }
