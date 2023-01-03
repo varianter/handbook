@@ -167,19 +167,12 @@ export default function GeneralLayout({
           {metadata.handbooks.map((handbook, index) => (
             <li
               key={handbook.title}
-              className={
-                isActiveHandbook(handbook.path, asPath) &&
-                !isLandingpage(asPath)
-                  ? style.header__handbooks__link__active
-                  : isActiveHandbook(handbook.path, asPath) &&
-                    isLandingpage(asPath) &&
-                    (waveVisible || scrollPosition < 500)
-                  ? style.header__handbooks__link__dark__active
-                  : isLandingpage(asPath) &&
-                    (waveVisible || scrollPosition < 500)
-                  ? style.header__handbooks__link__dark
-                  : style.header__handbooks__link
-              }
+              className={setActiveNavLink(
+                handbook.path,
+                asPath,
+                waveVisible,
+                scrollPosition,
+              )}
             >
               <Link href={`/${handbook.path}`}>
                 <a tabIndex={tabIndex}>{`${index + 1}. ${handbook.title}`}</a>
@@ -479,6 +472,27 @@ function Hamburger({
       <span></span>
     </button>
   );
+}
+
+function setActiveNavLink(
+  handbookPath: string,
+  asPath: string,
+  waveVisible: boolean,
+  scrollPosition: number,
+) {
+  if (!isLandingpage(asPath) || (!waveVisible && scrollPosition > 500)) {
+    if (isActiveHandbook(handbookPath, asPath)) {
+      return style.header__handbooks__link__active;
+    } else {
+      return style.header__handbooks__link;
+    }
+  } else {
+    if (isActiveHandbook(handbookPath, asPath)) {
+      return style.header__handbooks__link__dark__active;
+    } else {
+      return style.header__handbooks__link__dark;
+    }
+  }
 }
 
 function useTogglableBurgerMenu<T extends HTMLElement, R extends HTMLElement>(
