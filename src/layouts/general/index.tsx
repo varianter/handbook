@@ -12,6 +12,7 @@ import { LayoutProps } from '../signature';
 import style from './layout.module.css';
 import navBackground from './navBackground.svg';
 import NavbarLinks from 'src/components/navbarLinks/navbarLinks';
+import NavbarLinksMobile from 'src/components/navbarLinks/navbarLinksMobile';
 import Image from 'next/image';
 
 import backArrow from './backArrow.svg';
@@ -167,7 +168,8 @@ export default function GeneralLayout({
             <li
               key={handbook.title}
               className={
-                (handbook.path, asPath) && !isLandingpage(asPath)
+                isActiveHandbook(handbook.path, asPath) &&
+                !isLandingpage(asPath)
                   ? style.header__handbooks__link__active
                   : isActiveHandbook(handbook.path, asPath) &&
                     isLandingpage(asPath) &&
@@ -233,12 +235,11 @@ export default function GeneralLayout({
           ref={modalRef}
         >
           <section className={style.nav__inner}>
-            {/* @TODO: Implement new side menu to cover all handbook pages */}
             <ul className={style.nav__handbooks}>
               {isMenuVisible &&
-                metadata.handbooks.map((handbook) => {
+                metadata.handbooks.map((handbook, index) => {
                   return (
-                    <li
+                    <div
                       key={handbook.title}
                       className={
                         isActiveHandbook(handbook.path, asPath)
@@ -247,56 +248,38 @@ export default function GeneralLayout({
                       }
                     >
                       <Link href={`/${handbook.path}`}>
-                        <a tabIndex={tabIndex}>{handbook.title}</a>
+                        <a tabIndex={tabIndex}>
+                          {index + 1}. {handbook.title}
+                        </a>
                       </Link>
-                    </li>
+                      {hamburgerHeaderNesting(
+                        handbook.title,
+                        asPath,
+                        subHeadings,
+                        tabIndex,
+                        activeHeading,
+                        setActiveHeading,
+                      )}
+                    </div>
                   );
                 })}
-
-              {/* {metadata.categories.map((category) => (
-                <li
-                  key={category.title}
-                  className={
-                    isActiveHandbook(category.path, asPath, true)
-                      ? style.nav__inner__link__active
-                      : style.nav__inner__link
-                  }
-                >
-                  <Link href={`/${category.path}`}>
-                    <a tabIndex={tabIndex}>{category.title}</a>
-                  </Link>
-                </li>
-              ))} */}
             </ul>
-
-            {/* {currentCategory && (
-              <ul className={style.nav__handbooks}>
-                {currentCategory.handbooks.map((handbook) => {
-                  return (
-                    <li
-                      key={handbook.title}
-                      className={
-                        isActiveHandbook(handbook.path, asPath)
-                          ? style.nav__inner__link__active
-                          : style.nav__inner__lin
-                      }
-                    >
-                      <Link href={`/${handbook.path}`}>
-                        <a tabIndex={tabIndex}>{handbook.title}</a>
-                      </Link>
-                    </li>
-                  );
-                })}
-              </ul>
-            )} */}
 
             {subHeadings.length > 0 ? (
               <>
-                <li className={style.header__handbooks__back}>
-                  <img src={backArrow} alt="" role="none" />
-                  <a href="https://www.variant.no">Til Variant.no</a>
-                </li>
+                {/* TODO: Bør benytte logikk tilsvarende "isNotHamburger" */}
+                {!isMenuVisible && (
+                  <li className={style.header__handbooks__back}>
+                    <img
+                      src={backArrow}
+                      alt="Arrow to Variant.no"
+                      role="none"
+                    />
+                    <a href="https://www.variant.no">Til Variant.no</a>
+                  </li>
+                )}
                 <ul className={style.nav__handbooks__container}>
+                  {/* Lokasjoner */}
                   {currentCategory && (
                     <ul className={style.nav__handbooks}>
                       {currentCategory.handbooks.map((handbook) => {
@@ -317,18 +300,20 @@ export default function GeneralLayout({
                       })}
                     </ul>
                   )}
-
-                  {subHeadings.map((heading) => {
-                    return (
-                      <div onClick={() => setActiveHeading(heading.value)}>
-                        <NavbarLinks
-                          heading={heading}
-                          tabIndex={tabIndex}
-                          isOpen={activeHeading == heading.value}
-                        />
-                      </div>
-                    );
-                  })}
+                  {/* Menypunkter */}
+                  {/* TODO: Bør benytte logikk tilsvarende "isNotHamburger" */}
+                  {!isMenuVisible &&
+                    subHeadings.map((heading) => {
+                      return (
+                        <div onClick={() => setActiveHeading(heading.value)}>
+                          <NavbarLinks
+                            heading={heading}
+                            tabIndex={tabIndex}
+                            isOpen={activeHeading == heading.value}
+                          />
+                        </div>
+                      );
+                    })}
                 </ul>
               </>
             ) : null}
@@ -337,8 +322,8 @@ export default function GeneralLayout({
           <LoginForm />
         </nav>
       )}
-      <section className={style.content}>{children}</section>
 
+      <section className={style.content}>{children}</section>
       <BackgroundBlobs />
 
       <footer className={style.footer}>
@@ -423,6 +408,41 @@ export default function GeneralLayout({
   );
 }
 
+// Finds the correct menu item to nest headers under, depending on path
+function hamburgerHeaderNesting(
+  handbookTitle: string,
+  asPath: string,
+  subHeadings: TocItem[],
+  tabIndex: number,
+  activeHeading: string,
+  setActiveHeading: any,
+) {
+  const subMenuItems = subHeadings.map((heading) => {
+    return (
+      <div onClick={() => setActiveHeading(heading.value)}>
+        <NavbarLinksMobile
+          heading={heading}
+          tabIndex={tabIndex}
+          isOpen={activeHeading == heading.value}
+        />
+      </div>
+    );
+  });
+
+  // use first part of path for comparisons, without any #subheaders
+  let basepath = `${asPath.split('/')[1].split('#')[0]}`;
+
+  for (var i = 0; i < metadata.handbooks.length; i++) {
+    if (
+      handbookTitle === metadata.handbooks[i].title &&
+      basepath === metadata.handbooks[i].path
+    )
+      return subMenuItems;
+  }
+
+  return null;
+}
+
 export const getServerSideProps: GetServerSideProps = getAuthServerSideProps;
 
 type HamburgerProps = {
@@ -486,9 +506,6 @@ function useTogglableBurgerMenu<T extends HTMLElement, R extends HTMLElement>(
     const handleClickOutside = (e: MouseEvent) => {
       if (!isMenuVisible || closeButton.current?.contains(e.target as Node)) {
         return;
-      }
-      if (!e.target || !modalRef.current?.contains(e.target as Node)) {
-        return setMenuVisible(false);
       }
       if ((e.target as Node).nodeName === 'A') {
         return setMenuVisible(false);

@@ -27,6 +27,7 @@
   right: 0;
   z-index: 150;
   width: 100vw;
+  height: 20px;
 }
 
 .header__logo {
@@ -100,7 +101,7 @@
 
 .header__handbooks__search__button a {
   color: var(--color-standard__white);
-  font-family: 'Graphik', sans-serif;  
+  font-family: 'Graphik', sans-serif;
 }
 
 .header__handbooks__link {
@@ -150,7 +151,8 @@
   margin-top: 2rem;
 }
 
-.nav__handbooks__location a, .nav__handbooks__location__active a {
+.nav__handbooks__location a,
+.nav__handbooks__location__active a {
   color: var(--color-standard__white);
 }
 
@@ -164,6 +166,10 @@
   margin-top: 1rem;
 }
 
+.header__handbooks__submenu {
+  padding-left: 1.25rem;
+}
+
 .backToVariant a {
   color: var(--color-standard__white);
   text-decoration: none;
@@ -171,7 +177,6 @@
 
 .nav {
   position: fixed;
-
   height: 100vh;
   height: -webkit-fill-available;
 
@@ -202,6 +207,7 @@
   overflow: hidden;
   height: 100%;
   background-color: var(--color-secondary1__shade2);
+  width: 100%;
   display: flex;
   align-items: center;
 }
@@ -213,7 +219,7 @@
 .nav__background__active {
   position: absolute;
   z-index: 50;
-  left: -1rem;
+  left: 0rem;
 }
 
 .nav li {
@@ -282,11 +288,11 @@
 
 .nav__inner__link__child {
   display: none;
+  margin-left: 1rem;
 }
 .nav__inner__link__children a {
   color: var(--color-standard__white);
   font-size: 1.5rem;
-  margin-left: 1rem;
 }
 
 .nav__inner__link__child__active {
@@ -433,10 +439,12 @@
   .nav__handbooks li {
     padding-left: 2rem;
   }
-  .nav__handbooks__location, .nav__handbooks__location__active {
+  .nav__handbooks__location,
+  .nav__handbooks__location__active {
     width: 100%;
   }
-  .nav__handbooks__location a, .nav__handbooks__location__active a {
+  .nav__handbooks__location a,
+  .nav__handbooks__location__active a {
     color: var(--color-standard__white);
   }
   .nav__inner {
@@ -444,7 +452,7 @@
     padding-right: 0;
     padding-left: 0;
     background-color: transparent;
-    padding-top: 0;
+    padding-top: 0rem;
     overflow: hidden;
   }
   .nav__handbooks__container {
@@ -474,6 +482,8 @@
     left: -2rem;
     top: -1px;
     background-color: transparent;
+    /* Needed to click the nav bar buttons on big screens*/
+    width: 30%;
   }
 
   .nav__background img {
@@ -501,4 +511,15 @@
   .content {
     padding-left: 12rem;
   }
+}
+
+/* navbar for small screens */
+.nav__hamburger_subheader a {
+  color: var(--color-secondary1__tint4);
+  border: 0;
+  font-size: 1rem;
+}
+
+.nav__hamburger_subheader__active a {
+  border-bottom: solid 2px var(--color-primary__tint2);
 }
