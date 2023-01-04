@@ -113,8 +113,8 @@ export default function GeneralLayout({
   );
 
   const { width } = useWindowDimensions();
+  var isNotMobile = true;
 
-  let isNotMobile = true;
   if (width) {
     isNotMobile = width > 1200;
   }
@@ -236,8 +236,7 @@ export default function GeneralLayout({
         >
           <section className={style.nav__inner}>
             {subHeadings.length > 0 ? (
-              <>
-                {/* TODO: Bør benytte logikk tilsvarende "isNotHamburger" */}
+              <div className={style.nav__handbooks__container}>
                 {isNotMobile ? (
                   <div>
                     <li className={style.header__handbooks__back}>
@@ -270,8 +269,6 @@ export default function GeneralLayout({
                           })}
                         </ul>
                       )}
-                      {/* Menypunkter */}
-                      {/* TODO: Bør benytte logikk tilsvarende "isNotHamburger" */}
                       {!isMenuVisible &&
                         subHeadings.map((heading) => {
                           return (
@@ -318,7 +315,7 @@ export default function GeneralLayout({
                     })}
                   </ul>
                 )}
-              </>
+              </div>
             ) : null}
           </section>
 
