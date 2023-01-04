@@ -1,11 +1,17 @@
 import slugify from 'slugify';
 import style from 'src/layouts/general/layout.module.css';
 import { and } from 'src/utils/css';
-const NavbarLinksMobile = (props: {
+type NavbarLinksMobileProps = {
   heading: TocItem;
   tabIndex: number;
   isOpen: boolean;
-}) => {
+};
+
+const NavbarLinksMobile = ({
+  heading,
+  tabIndex,
+  isOpen,
+}: NavbarLinksMobileProps) =>
   return (
     <li
       key={props.heading.value}
