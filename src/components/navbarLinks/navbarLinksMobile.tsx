@@ -11,22 +11,22 @@ const NavbarLinksMobile = ({
   heading,
   tabIndex,
   isOpen,
-}: NavbarLinksMobileProps) =>
+}: NavbarLinksMobileProps) => {
   return (
     <li
-      key={props.heading.value}
+      key={heading.value}
       className={and(
         style.nav__hamburger_subheader,
-        props.isOpen
+        isOpen
           ? style.nav__hamburger_subheader__active
           : style.nav__hamburger_subheader,
       )}
     >
       <a
-        href={`#${slugify(props.heading.value, { lower: false })}`}
-        tabIndex={props.tabIndex}
+        href={`#${slugify(heading.value, { lower: false })}`}
+        tabIndex={tabIndex}
       >
-        {props.heading.value}
+        {heading.value}
       </a>
     </li>
   );
