@@ -112,7 +112,12 @@ export default function GeneralLayout({
     closeRef,
   );
 
-  const isNotMobile = useMediaQuery(`(min-width: 1200px)`);
+  const { width } = useWindowDimensions();
+
+  let isNotMobile = true;
+  if (width) {
+    isNotMobile = width > 1200;
+  }
 
   const [scrollPosition, setscrollPosition] = useState(0);
 
@@ -657,3 +662,25 @@ function useOnScreen(ref: React.RefObject<HTMLImageElement>) {
 
   return isIntersecting;
 }
+
+type WindowDimentions = {
+  width: number | undefined;
+};
+
+const useWindowDimensions = (): WindowDimentions => {
+  const [windowDimensions, setWindowDimensions] = useState<WindowDimentions>({
+    width: undefined,
+  });
+  useEffect(() => {
+    function handleResize(): void {
+      setWindowDimensions({
+        width: window.innerWidth,
+      });
+    }
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return (): void => window.removeEventListener('resize', handleResize);
+  }, []); // Empty array ensures that effect is only run on mount
+
+  return windowDimensions;
+};
