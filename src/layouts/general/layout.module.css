@@ -187,6 +187,7 @@
 
   transform: translateX(-100%);
   transition: transform 450ms ease-in-out;
+  background-color: var(--color-secondary1__shade2);
 
   display: flex;
   flex-direction: column;
@@ -518,6 +519,12 @@
   color: var(--color-secondary1__tint4);
   border: 0;
   font-size: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .nav__hamburger_subheader {
+    display: none;
+  }
 }
 
 .nav__hamburger_subheader__active a {

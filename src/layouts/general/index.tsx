@@ -112,6 +112,8 @@ export default function GeneralLayout({
     closeRef,
   );
 
+  const isNotMobile = useMediaQuery(`(min-width: 1200px)`);
+
   const [scrollPosition, setscrollPosition] = useState(0);
 
   const handleScroll = () => {
@@ -228,86 +230,89 @@ export default function GeneralLayout({
           ref={modalRef}
         >
           <section className={style.nav__inner}>
-            <ul className={style.nav__handbooks}>
-              {isMenuVisible &&
-                metadata.handbooks.map((handbook, index) => {
-                  return (
-                    <div
-                      key={handbook.title}
-                      className={
-                        isActiveHandbook(handbook.path, asPath)
-                          ? style.nav__inner__link__active
-                          : style.nav__inner__link
-                      }
-                    >
-                      <Link href={`/${handbook.path}`}>
-                        <a tabIndex={tabIndex}>
-                          {index + 1}. {handbook.title}
-                        </a>
-                      </Link>
-                      {hamburgerHeaderNesting(
-                        handbook.title,
-                        asPath,
-                        subHeadings,
-                        tabIndex,
-                        activeHeading,
-                        setActiveHeading,
-                      )}
-                    </div>
-                  );
-                })}
-            </ul>
-
             {subHeadings.length > 0 ? (
               <>
                 {/* TODO: Bør benytte logikk tilsvarende "isNotHamburger" */}
-                {!isMenuVisible && (
-                  <li className={style.header__handbooks__back}>
-                    <img
-                      src={backArrow}
-                      alt="Arrow to Variant.no"
-                      role="none"
-                    />
-                    <a href="https://www.variant.no">Til Variant.no</a>
-                  </li>
-                )}
-                <ul className={style.nav__handbooks__container}>
-                  {/* Lokasjoner */}
-                  {currentCategory && (
-                    <ul className={style.nav__handbooks}>
-                      {currentCategory.handbooks.map((handbook) => {
-                        return (
-                          <li
-                            key={handbook.title}
-                            className={
-                              isActiveHandbook(handbook.path, asPath)
-                                ? style.nav__handbooks__location__active
-                                : style.nav__handbooks__location
-                            }
-                          >
-                            <Link href={`/${handbook.path}`}>
-                              <a tabIndex={tabIndex}>{handbook.title}</a>
-                            </Link>
-                          </li>
-                        );
-                      })}
+                {isNotMobile ? (
+                  <div>
+                    <li className={style.header__handbooks__back}>
+                      <img
+                        src={backArrow}
+                        alt="Arrow to Variant.no"
+                        role="none"
+                      />
+                      <a href="https://www.variant.no">Til Variant.no</a>
+                    </li>
+                    <ul className={style.nav__handbooks__container}>
+                      {/* Lokasjoner */}
+                      {currentCategory && (
+                        <ul className={style.nav__handbooks}>
+                          {currentCategory.handbooks.map((handbook) => {
+                            return (
+                              <li
+                                key={handbook.title}
+                                className={
+                                  isActiveHandbook(handbook.path, asPath)
+                                    ? style.nav__handbooks__location__active
+                                    : style.nav__handbooks__location
+                                }
+                              >
+                                <Link href={`/${handbook.path}`}>
+                                  <a tabIndex={tabIndex}>{handbook.title}</a>
+                                </Link>
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      )}
+                      {/* Menypunkter */}
+                      {/* TODO: Bør benytte logikk tilsvarende "isNotHamburger" */}
+                      {!isMenuVisible &&
+                        subHeadings.map((heading) => {
+                          return (
+                            <div
+                              onClick={() => setActiveHeading(heading.value)}
+                            >
+                              <NavbarLinks
+                                heading={heading}
+                                tabIndex={tabIndex}
+                                isOpen={activeHeading == heading.value}
+                              />
+                            </div>
+                          );
+                        })}
                     </ul>
-                  )}
-                  {/* Menypunkter */}
-                  {/* TODO: Bør benytte logikk tilsvarende "isNotHamburger" */}
-                  {!isMenuVisible &&
-                    subHeadings.map((heading) => {
+                  </div>
+                ) : (
+                  <ul className={style.nav__handbooks}>
+                    {metadata.handbooks.map((handbook, index) => {
                       return (
-                        <div onClick={() => setActiveHeading(heading.value)}>
-                          <NavbarLinks
-                            heading={heading}
-                            tabIndex={tabIndex}
-                            isOpen={activeHeading == heading.value}
-                          />
+                        <div
+                          key={handbook.title}
+                          className={
+                            isActiveHandbook(handbook.path, asPath)
+                              ? style.nav__inner__link__active
+                              : style.nav__inner__link
+                          }
+                        >
+                          <Link href={`/${handbook.path}`}>
+                            <a tabIndex={tabIndex}>
+                              {index + 1}. {handbook.title}
+                            </a>
+                          </Link>
+                          {hamburgerHeaderNesting(
+                            handbook.title,
+                            asPath,
+                            subHeadings,
+                            tabIndex,
+                            activeHeading,
+                            setActiveHeading,
+                          )}
                         </div>
                       );
                     })}
-                </ul>
+                  </ul>
+                )}
               </>
             ) : null}
           </section>
