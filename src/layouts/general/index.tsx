@@ -302,13 +302,16 @@ export default function GeneralLayout({
                               {index + 1}. {handbook.title}
                             </a>
                           </Link>
-                          {hamburgerHeaderNesting(
+
+                          {/* Decides if we need to nest the menu under a location or not */}
+                          {hambugerMenuWithNesting(
                             handbook.title,
                             asPath,
                             subHeadings,
                             tabIndex,
                             activeHeading,
                             setActiveHeading,
+                            currentCategory?.handbooks,
                           )}
                         </div>
                       );
@@ -409,7 +412,7 @@ export default function GeneralLayout({
 }
 
 // Finds the correct menu item to nest headers under, depending on path
-function hamburgerHeaderNesting(
+function hamburgerTopLevelNesting(
   handbookTitle: string,
   asPath: string,
   subHeadings: TocItem[],
@@ -431,7 +434,6 @@ function hamburgerHeaderNesting(
 
   // use first part of path for comparisons, without any #subheaders
   let basepath = `${asPath.split('/')[1].split('#')[0]}`;
-
   for (var i = 0; i < metadata.handbooks.length; i++) {
     if (
       handbookTitle === metadata.handbooks[i].title &&
@@ -441,6 +443,79 @@ function hamburgerHeaderNesting(
   }
 
   return null;
+}
+
+// Nest the menu under the approperiate location
+function hambugerMenuWithNesting(
+  handbookTitle: string,
+  asPath: string,
+  subHeadings: TocItem[],
+  tabIndex: number,
+  activeHeading: string,
+  setActiveHeading: any,
+  handbooks: any,
+) {
+  let pathSegments = asPath.split('/');
+  if (
+    pathSegments[1] == 'avdelinger' &&
+    handbookTitle.toLowerCase() == 'lokasjoner'
+  ) {
+    return handbooks.map((loc: any) => {
+      if (
+        `/${loc.path}` == asPath ||
+        (pathSegments.length == 2 &&
+          loc.title.toLowerCase() == handbooks[0].title.toLowerCase())
+      ) {
+        return (
+          <div>
+            <li
+              key={loc.title}
+              className={
+                isActiveHandbook(loc.path, asPath)
+                  ? style.nav__handbooks__location__active
+                  : style.nav__handbooks__location
+              }
+            >
+              <Link href={`/${loc.path}`}>
+                <a tabIndex={tabIndex}>{loc.title}</a>
+              </Link>
+            </li>
+            {hamburgerTopLevelNesting(
+              handbookTitle,
+              asPath,
+              subHeadings,
+              tabIndex,
+              activeHeading,
+              setActiveHeading,
+            )}
+          </div>
+        );
+      }
+      return (
+        <li
+          key={loc.title}
+          className={
+            isActiveHandbook(loc.path, asPath)
+              ? style.nav__handbooks__location__active
+              : style.nav__handbooks__location
+          }
+        >
+          <Link href={`/${loc.path}`}>
+            <a tabIndex={tabIndex}>{loc.title}</a>
+          </Link>
+        </li>
+      );
+    });
+  }
+
+  return hamburgerTopLevelNesting(
+    handbookTitle,
+    asPath,
+    subHeadings,
+    tabIndex,
+    activeHeading,
+    setActiveHeading,
+  );
 }
 
 export const getServerSideProps: GetServerSideProps = getAuthServerSideProps;
