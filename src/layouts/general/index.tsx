@@ -457,12 +457,12 @@ function hambugerMenuWithNesting(
 ) {
   let pathSegments = asPath.split('/');
   if (
-    pathSegments[1] == 'avdelinger' &&
+    pathSegments[1].split('#')[0] == 'avdelinger' &&
     handbookTitle.toLowerCase() == 'lokasjoner'
   ) {
     return handbooks.map((loc: any) => {
       if (
-        `/${loc.path}` == asPath ||
+        `/${loc.path}` == asPath.split('#')[0] ||
         (pathSegments.length == 2 &&
           loc.title.toLowerCase() == handbooks[0].title.toLowerCase())
       ) {
