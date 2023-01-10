@@ -273,6 +273,7 @@ export default function GeneralLayout({
                         subHeadings.map((heading) => {
                           return (
                             <div
+                              className={style.nav__inner__container}
                               onClick={() => setActiveHeading(heading.value)}
                             >
                               <NavbarLinks

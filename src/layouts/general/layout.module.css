@@ -484,6 +484,10 @@
   .nav__background img {
     width: 29vw;
   }
+  .nav__inner__container {
+    width: 100%;
+  }
+
   .nav__inner__link a {
     font-size: 0.813rem;
     color: var(--color-secondary1__tint4);
@@ -494,6 +498,7 @@
   }
   .nav__inner__link {
     width: 11rem;
+    padding-left: 2rem;
   }
   .nav__inner__link__active {
     padding-bottom: 1rem;
