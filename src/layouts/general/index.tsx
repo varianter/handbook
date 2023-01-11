@@ -291,6 +291,14 @@ export default function GeneralLayout({
                   </div>
                 ) : (
                   <ul className={style.nav__handbooks}>
+                    <li className={style.nav__hamburger__link_to_variant}>
+                      <img
+                        src={backArrow}
+                        alt="Arrow to Variant.no"
+                        role="none"
+                      />
+                      <a href="https://www.variant.no">Til Variant.no</a>
+                    </li>
                     {metadata.handbooks.map((handbook, index) => {
                       return (
                         <div

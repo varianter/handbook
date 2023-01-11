@@ -254,6 +254,18 @@
   z-index: 100;
 }
 
+.nav__hamburger__link_to_variant {
+  flex: 1;
+  width: 20rem;
+  padding-top: 2rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.nav__hamburger__link_to_variant a {
+  color: var(--color-standard__white);
+}
+
 .nav__inner {
   position: sticky;
   top: 0;
