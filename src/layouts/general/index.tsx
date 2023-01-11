@@ -112,7 +112,7 @@ export default function GeneralLayout({
     closeRef,
   );
 
-  const { width } = useWindowDimensions();
+  const { width } = useWindowDimensions(setMenuVisible);
   var isNotMobile = true;
 
   if (width) {
@@ -756,7 +756,7 @@ type WindowDimentions = {
   width: number | undefined;
 };
 
-const useWindowDimensions = (): WindowDimentions => {
+const useWindowDimensions = (setMenuVisible: any): WindowDimentions => {
   const [windowDimensions, setWindowDimensions] = useState<WindowDimentions>({
     width: undefined,
   });
@@ -765,6 +765,8 @@ const useWindowDimensions = (): WindowDimentions => {
       setWindowDimensions({
         width: window.innerWidth,
       });
+
+      setMenuVisible(false);
     }
     handleResize();
     window.addEventListener('resize', handleResize);
