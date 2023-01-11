@@ -147,13 +147,36 @@
 }
 .header__handbooks__category {
   composes: header__handbooks;
-
   margin-top: 2rem;
+}
+
+.nav__handbooks__location a {
+  margin-left: 1.8rem;
 }
 
 .nav__handbooks__location a,
 .nav__handbooks__location__active a {
   color: var(--color-standard__white);
+  font-size: 1.5rem;
+}
+
+.nav__handbooks__location__active a {
+  margin-left: 1.8rem;
+  border-bottom: 2px solid var(--color-primary__tint2);
+  cursor: pointer;
+  font-size: 0.5rem;
+}
+
+.nav__handbooks__submenu {
+  margin-bottom: 1rem;
+}
+
+.nav__handbooks__submenu a {
+  font-size: 1.5rem;
+}
+
+.nav__handbooks__submenu div {
+  margin-left: 2.25rem;
 }
 
 .burgerButtonContainer {
@@ -167,7 +190,7 @@
 }
 
 .header__handbooks__submenu {
-  padding-left: 1.25rem;
+  margin-left: 1.25rem;
 }
 
 .backToVariant a {
@@ -266,6 +289,8 @@
 
 .nav__inner__link a {
   color: var(--color-standard__white);
+}
+.nav_header_link {
   font-size: 1.75rem;
 }
 
@@ -281,6 +306,28 @@
 .nav__inner__link__active a {
   border-bottom: 2px solid var(--color-primary__tint2);
   color: var(--color-standard__white);
+}
+
+.nav__inner__link__active__submenu_location {
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+  color: var(--color-primary__tint1);
+  flex: 1;
+  width: 20rem;
+  align-items: flex-start;
+  font-size: 1.75rem;
+}
+.nav__inner__link__active__submenu_location a {
+  cursor: pointer;
+  color: var(--color-standard__white);
+}
+
+.nav__inner__link__active__location {
+  font-size: 1.75rem;
+  color: var(--color-standard__white);
+  margin-bottom: 1rem;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .nav__inner__link__child {
@@ -439,10 +486,12 @@
   .nav__handbooks__location,
   .nav__handbooks__location__active {
     width: 100%;
+    color: var(--color-standard__white);
   }
   .nav__handbooks__location a,
   .nav__handbooks__location__active a {
     color: var(--color-standard__white);
+    font-size: 1.25rem;
   }
   .nav__inner {
     width: 20vw;
@@ -510,6 +559,16 @@
 
   .content {
     padding-left: 12rem;
+  }
+
+  .nav__handbooks__location a {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .nav__handbooks__location__active a {
+    margin-left: 0;
+    padding-left: 0;
   }
 }
 

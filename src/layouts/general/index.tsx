@@ -256,7 +256,10 @@ export default function GeneralLayout({
                               <li
                                 key={handbook.title}
                                 className={
-                                  isActiveHandbook(handbook.path, asPath)
+                                  isActiveHandbook(handbook.path, asPath) ||
+                                  (asPath.split('/').length == 2 &&
+                                    handbook.title.toLowerCase() ==
+                                      metadata.categories[0].handbooks[0].title.toLowerCase())
                                     ? style.nav__handbooks__location__active
                                     : style.nav__handbooks__location
                                 }
@@ -293,19 +296,29 @@ export default function GeneralLayout({
                         <div
                           key={handbook.title}
                           className={
-                            isActiveHandbook(handbook.path, asPath)
+                            isActiveHandbook(handbook.path, asPath) &&
+                            asPath != '/avdelinger'
                               ? style.nav__inner__link__active
+                              : asPath == '/avdelinger' &&
+                                handbook.title.toLowerCase() == 'lokasjoner'
+                              ? style.nav__inner__link__active__submenu_location
                               : style.nav__inner__link
                           }
                         >
                           <Link href={`/${handbook.path}`}>
-                            <a tabIndex={tabIndex}>
+                            <a
+                              tabIndex={tabIndex}
+                              className={
+                                handbook.title.toLowerCase() == 'lokasjoner'
+                                  ? style.nav__inner__link__active__location
+                                  : style.nav_header_link
+                              }
+                            >
                               {index + 1}. {handbook.title}
                             </a>
                           </Link>
 
-                          {/* Decides if we need to nest the menu under a location or not */}
-                          {hambugerMenuWithNesting(
+                          {hamburgerMenu(
                             handbook.title,
                             asPath,
                             subHeadings,
@@ -412,42 +425,8 @@ export default function GeneralLayout({
   );
 }
 
-// Finds the correct menu item to nest headers under, depending on path
-function hamburgerTopLevelNesting(
-  handbookTitle: string,
-  asPath: string,
-  subHeadings: TocItem[],
-  tabIndex: number,
-  activeHeading: string,
-  setActiveHeading: any,
-) {
-  const subMenuItems = subHeadings.map((heading) => {
-    return (
-      <div onClick={() => setActiveHeading(heading.value)}>
-        <NavbarLinksMobile
-          heading={heading}
-          tabIndex={tabIndex}
-          isOpen={activeHeading == heading.value}
-        />
-      </div>
-    );
-  });
-
-  // use first part of path for comparisons, without any #subheaders
-  let basepath = `${asPath.split('/')[1].split('#')[0]}`;
-  for (var i = 0; i < metadata.handbooks.length; i++) {
-    if (
-      handbookTitle === metadata.handbooks[i].title &&
-      basepath === metadata.handbooks[i].path
-    )
-      return subMenuItems;
-  }
-
-  return null;
-}
-
-// Nest the menu under the approperiate location
-function hambugerMenuWithNesting(
+// Menu with nesting and special handling of locations
+function hamburgerMenu(
   handbookTitle: string,
   asPath: string,
   subHeadings: TocItem[],
@@ -468,11 +447,14 @@ function hambugerMenuWithNesting(
           loc.title.toLowerCase() == handbooks[0].title.toLowerCase())
       ) {
         return (
-          <div>
+          <div className={style.nav__handbooks__submenu}>
             <li
               key={loc.title}
               className={
-                isActiveHandbook(loc.path, asPath)
+                isActiveHandbook(loc.path, asPath) ||
+                (pathSegments.length == 2 &&
+                  loc.title.toLowerCase() ==
+                    metadata.categories[0].handbooks[0].title.toLocaleLowerCase())
                   ? style.nav__handbooks__location__active
                   : style.nav__handbooks__location
               }
@@ -517,6 +499,40 @@ function hambugerMenuWithNesting(
     activeHeading,
     setActiveHeading,
   );
+}
+
+// Finds the correct menu item to nest headers under, depending on path
+function hamburgerTopLevelNesting(
+  handbookTitle: string,
+  asPath: string,
+  subHeadings: TocItem[],
+  tabIndex: number,
+  activeHeading: string,
+  setActiveHeading: any,
+) {
+  const subMenuItems = subHeadings.map((heading) => {
+    return (
+      <div onClick={() => setActiveHeading(heading.value)}>
+        <NavbarLinksMobile
+          heading={heading}
+          tabIndex={tabIndex}
+          isOpen={activeHeading == heading.value}
+        />
+      </div>
+    );
+  });
+
+  // use first part of path for comparisons, without any #subheaders
+  let basepath = `${asPath.split('/')[1].split('#')[0]}`;
+  for (var i = 0; i < metadata.handbooks.length; i++) {
+    if (
+      handbookTitle === metadata.handbooks[i].title &&
+      basepath === metadata.handbooks[i].path
+    )
+      return subMenuItems;
+  }
+
+  return null;
 }
 
 export const getServerSideProps: GetServerSideProps = getAuthServerSideProps;
