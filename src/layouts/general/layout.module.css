@@ -54,7 +54,7 @@
 
   margin: 0 auto;
   padding-right: 2rem;
-  padding-left: 25vw;
+  padding-left: 26vw;
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
 
@@ -258,7 +258,7 @@
   position: sticky;
   top: 0;
   overflow: auto;
-  padding: 2rem 2rem 6rem;
+  padding: 2rem 2rem 2rem;
   font-size: 1.2rem;
   width: 100vw;
 }
