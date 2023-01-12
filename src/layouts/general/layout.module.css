@@ -80,6 +80,12 @@
   font-weight: 500;
   line-height: 30px;
 }
+.header__handbooks__search__container {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  justify-content: flex-end;
+}
 .header__handbooks__search {
   display: flex;
   width: 89px;
@@ -254,7 +260,7 @@
   z-index: 100;
 }
 
-.nav__hamburger__link_to_variant {
+.nav__hamburger__link__to__variant {
   flex: 1;
   width: 20rem;
   padding-top: 2rem;
@@ -262,15 +268,16 @@
   align-items: flex-start;
 }
 
-.nav__hamburger__link_to_variant a {
+.nav__hamburger__link__to__variant a {
   color: var(--color-standard__white);
+  font-size: 1.75rem;
 }
 
 .nav__inner {
   position: sticky;
   top: 0;
   overflow: auto;
-  padding: 2rem 2rem 2rem;
+  padding: 0rem 2rem 2rem;
   font-size: 1.2rem;
   width: 100vw;
 }
@@ -404,10 +411,10 @@
 
 .hamburger,
 .hamburger__dark {
-  width: 2rem;
-  height: 1.7rem;
+  width: 3rem;
+  height: 3rem;
   position: relative;
-  margin: 0 auto;
+  margin: 2rem auto;
   transform: rotate(0deg);
   transition: 0.5s ease-in-out;
   cursor: pointer;
@@ -509,6 +516,7 @@
     width: 20vw;
     padding-right: 0;
     padding-left: 0;
+    padding-top: 2rem;
     background-color: transparent;
   }
   .nav__handbooks__container {

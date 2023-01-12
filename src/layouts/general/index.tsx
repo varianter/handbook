@@ -181,27 +181,31 @@ export default function GeneralLayout({
                 scrollPosition,
               )}
             >
-              <Link href={`/${handbook.path}`}>
-                <a tabIndex={tabIndex}>{`${index + 1}. ${handbook.title}`}</a>
-              </Link>
+              {isNotMobile && (
+                <Link href={`/${handbook.path}`}>
+                  <a tabIndex={tabIndex}>{`${index + 1}. ${handbook.title}`}</a>
+                </Link>
+              )}
             </li>
           ))}
 
-          <li>
-            <div className={style.header__handbooks__search}>
-              <Link href={'./search'}>
-                <div className={style.header__handbooks__search__button}>
-                  <a>Søk</a>
-                  <Image
-                    priority
-                    src={magnifyingGlass}
-                    height={'30px'}
-                    width={'30px'}
-                  />
-                </div>
-              </Link>
-            </div>
-          </li>
+          {isNotMobile && (
+            <li>
+              <div className={style.header__handbooks__search}>
+                <Link href={'./search'}>
+                  <div className={style.header__handbooks__search__button}>
+                    <a>Søk</a>
+                    <Image
+                      priority
+                      src={magnifyingGlass}
+                      height={'30px'}
+                      width={'30px'}
+                    />
+                  </div>
+                </Link>
+              </div>
+            </li>
+          )}
         </ul>
 
         {!noSidebar && (
@@ -290,8 +294,26 @@ export default function GeneralLayout({
                     </ul>
                   </div>
                 ) : (
+                  // hamburger menu
                   <ul className={style.nav__handbooks}>
-                    <li className={style.nav__hamburger__link_to_variant}>
+                    <div className={style.header__handbooks__search__container}>
+                      <div className={style.header__handbooks__search}>
+                        <Link href={'./search'}>
+                          <div
+                            className={style.header__handbooks__search__button}
+                          >
+                            <a>Søk</a>
+                            <Image
+                              priority
+                              src={magnifyingGlass}
+                              height={'30px'}
+                              width={'30px'}
+                            />
+                          </div>
+                        </Link>
+                      </div>
+                    </div>
+                    <li className={style.nav__hamburger__link__to__variant}>
                       <img
                         src={backArrow}
                         alt="Arrow to Variant.no"
