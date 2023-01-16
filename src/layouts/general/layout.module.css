@@ -322,6 +322,9 @@
 .nav__inner__link a {
   color: var(--color-standard__white);
 }
+.nav__inner__link a:hover {
+  border-bottom: 2px solid transparent;
+}
 .nav_header_link {
   border-bottom: 2px solid transparent;
   font-size: 1.75rem;
@@ -339,6 +342,9 @@
 .nav__inner__link__active a {
   border-bottom: 2px solid var(--color-primary__tint2);
   color: var(--color-standard__white);
+}
+.nav__inner__link__active a:hover {
+  border-bottom: 2px solid var(--color-primary__tint2);
 }
 
 .nav__inner__link__active__submenu_location {
@@ -371,13 +377,12 @@
   color: var(--color-standard__white);
   font-size: 1.5rem;
 }
+.nav__inner__link__children a:hover {
+  border-bottom: 2px solid var(--color-primary__tint2);
+}
 
 .nav__inner__link__child__active {
   display: block;
-}
-
-.nav__inner__link__child .nav__inner ul li:hover {
-  color: var(--color-primary);
 }
 
 .nav__inner ul a {
@@ -385,7 +390,6 @@
 }
 
 .nav__inner ul a:hover {
-  border-bottom: 2px solid var(--color-primary__tint2);
   cursor: pointer;
 }
 
@@ -553,7 +557,7 @@
   }
   .header__handbooks__back {
     padding-top: 0rem;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
     justify-content: flex-start;
   }
   .nav__background {
