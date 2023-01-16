@@ -208,7 +208,7 @@ export default function GeneralLayout({
           )}
         </ul>
 
-        {!noSidebar && (
+        {!noSidebar && !isNotMobile && (
           <div className={style.burgerButtonContainer} ref={closeRef}>
             <span hidden id="menu-label">
               Hovedmeny

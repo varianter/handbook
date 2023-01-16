@@ -80,6 +80,9 @@
   font-weight: 500;
   line-height: 30px;
 }
+.header__handbooks__back a:hover {
+  border-bottom: 2px solid var(--color-primary__tint2);
+}
 .header__handbooks__search__container {
   display: flex;
   flex: 1;
@@ -95,6 +98,11 @@
   background: url('./searchBlob.svg');
 }
 
+.header__handbooks__search:hover {
+  filter: drop-shadow(2px 3px 10px rgba(0, 0, 0, 0.5));
+  background-repeat: no-repeat;
+}
+
 .header__handbooks__search__button {
   display: flex;
   margin: auto;
@@ -108,6 +116,10 @@
 .header__handbooks__search__button a {
   color: var(--color-standard__white);
   font-family: 'Graphik', sans-serif;
+}
+
+.header__handbooks__search__button a:active {
+  border-bottom: 2px solid white;
 }
 
 .header__handbooks__link {
@@ -271,6 +283,7 @@
 .nav__hamburger__link__to__variant a {
   color: var(--color-standard__white);
   font-size: 1.75rem;
+  border-bottom: 2px solid transparent;
 }
 
 .nav__inner {
@@ -310,6 +323,7 @@
   color: var(--color-standard__white);
 }
 .nav_header_link {
+  border-bottom: 2px solid transparent;
   font-size: 1.75rem;
 }
 
@@ -520,7 +534,7 @@
     background-color: transparent;
   }
   .nav__handbooks__container {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
   }
   .nav__handbooks__container::-webkit-scrollbar {
@@ -555,19 +569,22 @@
   }
   .nav__inner__container {
     width: 100%;
+    display: flex;
   }
 
+  .nav__inner__link {
+    flex: 1;
+    padding-left: 1rem;
+  }
   .nav__inner__link a {
     font-size: 0.813rem;
     color: var(--color-secondary1__tint4);
+    border-bottom: 2px solid transparent;
+    margin-right: 2rem;
   }
   .nav__inner__link__children a {
     color: var(--color-standard__white);
-    font-size: 1.125rem;
-  }
-  .nav__inner__link {
-    width: 11rem;
-    padding-left: 2rem;
+    font-size: 1rem;
   }
   .nav__inner__link__active {
     padding-bottom: 1rem;
