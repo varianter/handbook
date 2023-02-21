@@ -2,21 +2,38 @@
 title: HMS - Prosesser
 ---
 
+import { PageSelector } from 'src/components/pageSelector';
+
 # Hvordan vi gjør ting
 
 Her samler vi strategier, rutiner og prosesser for hvordan ting gjøres i Variant. Noen områder krever derimot mer bakgrunnsinfo og utdyping og er derfor skilt ut som egne sider
 
 ## Temaer
 
-- [Ansatt](./prosesser-ansatt)
-- [**HMS**](./prosesser-hms)
-- [Bærekraft](./prosesser-baerekraft)
-- [Mangfold](./prosesser-mangfold)
-- [Avtaler](https://avtaler.variant.no/)
+<PageSelector
+  sections={[
+    { section: 'Ansatt', href: './prosesser-ansatt' },
+    { section: 'HMS', href: './prosesser-hms' },
+    { section: 'Bærekraft', href: './prosesser-baerekraft' },
+    { section: 'Mangfold', href: './prosesser-mangfold' },
+    { section: 'Avtaler', href: 'https://avtaler.variant.no/' },
+  ]}
+/>
 
 ## Helse, miljø og sikkerhet
 
-Variant er rause i vårt miljøarbeid. Det gjelder både arbeidsmiljøet vi jobber i på en daglig basis og det globale miljøet vi alle er en del av. Som mange er vi forbrukere, men vi skal gjøre vårt ytterste for å gi så mye vi kan tilbake. Vi skal være en bedrift med engasjerte ansatte som ønsker å gjøre en forskjell med riktige valg i arbeidet vi gjør.
+Variant er rause i vårt miljøarbeid. Det gjelder både arbeidsmiljøet vi jobber i
+på en daglig basis og det globale miljøet vi alle er en del av. Som mange er vi forbrukere,
+men vi skal gjøre vårt ytterste for å gi så mye vi kan tilbake. Vi skal være en bedrift
+med engasjerte ansatte som ønsker å gjøre en forskjell med riktige valg i arbeidet
+vi gjør.
+
+<img
+  src="./assets/illustrations/hms-icon-1.svg"
+  role="none"
+  alt=""
+  className="illustration illustration--right"
+/>
 
 Vi jobber for å unngå ulykker, miljø- og helseskader. For å bidra til dette planlegger og prioriterer vi HMS-arbeidet på lik linje som fakturerbart arbeid.
 
@@ -54,6 +71,13 @@ Se også [Arbeidstilsynets sider](https://www.arbeidstilsynet.no/tema/ergonomi/a
 ### Dokumentasjon
 
 Det er viktig at alle i Variant har tilgang til dokumentasjon på ulike deler av HMS-arbeidet. I Variant har vi følgende HMS-dokumentasjon tilgjengelig:
+
+<img
+  src="./assets/illustrations/hms-icon-2.svg"
+  role="none"
+  alt=""
+  className="illustration illustration--right"
+/>
 
 - [Arbeidsavtaler](https://varianttrh.sharepoint.com/Delte%20dokumenter/Forms/AllItems.aspx?viewpath=%2FDelte%20dokumenter%2FForms%2FAllItems%2Easpx&newTargetListUrl=%2FDelte%20dokumenter&viewid=3370557d%2D1740%2D4ec2%2D9d5c%2D6d34dad352f6&id=%2FDelte%20dokumenter%2FAnsatte)
 - Kursbevis for verneombudsopplæring

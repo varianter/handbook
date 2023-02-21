@@ -1,19 +1,19 @@
 import favicon from '@variant/profile/lib/logo/favicon.png';
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useCallback, useEffect, useState } from 'react';
 import { getAuthServerSideProps } from 'src/auth';
 import BackgroundBlobs from 'src/background';
 import LoginForm from 'src/components/login-form';
+import NavbarLinks from 'src/components/navbarLinks/navbarLinks';
+import NavbarLinksMobile from 'src/components/navbarLinks/navbarLinksMobile';
 import { and } from 'src/utils/css';
 import { LayoutProps } from '../signature';
 import style from './layout.module.css';
 import navBackground from './navBackground.svg';
-import NavbarLinks from 'src/components/navbarLinks/navbarLinks';
-import NavbarLinksMobile from 'src/components/navbarLinks/navbarLinksMobile';
-import Image from 'next/image';
 
 import backArrow from './backArrow.svg';
 import magnifyingGlass from './magnifyingGlass.svg';
@@ -72,7 +72,7 @@ const metadata = {
             title: 'Trondheim',
             order: 0,
           },
-          path: 'avdelinger/trondheim',
+          path: './trondheim',
           title: 'Trondheim',
         },
         {
@@ -80,7 +80,7 @@ const metadata = {
             title: 'Oslo',
             order: 1,
           },
-          path: 'avdelinger/oslo',
+          path: './oslo',
           title: 'Oslo',
         },
         {
@@ -88,7 +88,7 @@ const metadata = {
             title: 'Bergen',
             order: 1,
           },
-          path: 'avdelinger/bergen',
+          path: './bergen',
           title: 'Bergen',
         },
       ],
@@ -182,8 +182,8 @@ export default function GeneralLayout({
               )}
             >
               {isNotMobile && (
-                <Link href={`/${handbook.path}`}>
-                  <a tabIndex={tabIndex}>{`${index + 1}. ${handbook.title}`}</a>
+                <Link href={`/${handbook.path}`} tabIndex={tabIndex}>
+                  {`${index + 1}. ${handbook.title}`}
                 </Link>
               )}
             </li>
@@ -194,12 +194,13 @@ export default function GeneralLayout({
               <div className={style.header__handbooks__search}>
                 <Link href={'./search'}>
                   <div className={style.header__handbooks__search__button}>
-                    <a>Søk</a>
+                    <span>Søk</span>
                     <Image
                       priority
                       src={magnifyingGlass}
-                      height={'30px'}
-                      width={'30px'}
+                      height={'30'}
+                      width={'30'}
+                      alt="Søk"
                     />
                   </div>
                 </Link>
@@ -268,8 +269,11 @@ export default function GeneralLayout({
                                     : style.nav__handbooks__location
                                 }
                               >
-                                <Link href={`/${handbook.path}`}>
-                                  <a tabIndex={tabIndex}>{handbook.title}</a>
+                                <Link
+                                  href={`/${handbook.path}`}
+                                  tabIndex={tabIndex}
+                                >
+                                  {handbook.title}
                                 </Link>
                               </li>
                             );
@@ -302,12 +306,13 @@ export default function GeneralLayout({
                           <div
                             className={style.header__handbooks__search__button}
                           >
-                            <a>Søk</a>
+                            <span>Søk</span>
                             <Image
                               priority
                               src={magnifyingGlass}
-                              height={'30px'}
-                              width={'30px'}
+                              height={30}
+                              width={30}
+                              alt="Søk"
                             />
                           </div>
                         </Link>
@@ -335,17 +340,16 @@ export default function GeneralLayout({
                               : style.nav__inner__link
                           }
                         >
-                          <Link href={`/${handbook.path}`}>
-                            <a
-                              tabIndex={tabIndex}
-                              className={
-                                handbook.title.toLowerCase() == 'lokasjoner'
-                                  ? style.nav__inner__link__active__location
-                                  : style.nav_header_link
-                              }
-                            >
-                              {index + 1}. {handbook.title}
-                            </a>
+                          <Link
+                            href={`/${handbook.path}`}
+                            tabIndex={tabIndex}
+                            className={
+                              handbook.title.toLowerCase() == 'lokasjoner'
+                                ? style.nav__inner__link__active__location
+                                : style.nav_header_link
+                            }
+                          >
+                            {index + 1}. {handbook.title}
                           </Link>
 
                           {hamburgerMenu(
@@ -777,7 +781,7 @@ function useOnScreen(ref: React.RefObject<HTMLImageElement>) {
     return () => {
       observer.disconnect();
     };
-  }, []);
+  }, [ref]);
 
   return isIntersecting;
 }
@@ -801,7 +805,7 @@ const useWindowDimensions = (setMenuVisible: any): WindowDimentions => {
     handleResize();
     window.addEventListener('resize', handleResize);
     return (): void => window.removeEventListener('resize', handleResize);
-  }, []); // Empty array ensures that effect is only run on mount
+  }, [setMenuVisible]); // Empty array ensures that effect is only run on mount
 
   return windowDimensions;
 };

@@ -24,7 +24,7 @@ body,
 html {
   --font-size-min: 14;
   --font-size-max: 18;
-  background: var(--color-secondary4__tint2);
+  background: var(--color-secondary4__tint3);
   scroll-behavior: smooth;
 }
 h1,
@@ -75,16 +75,15 @@ li + li {
 .illustration {
   width: 15rem;
   margin: 5rem 2rem 2rem;
+  shape-outside: circle(55%);
 }
 .illustration--right {
   float: right;
-  margin: 5rem 0 2rem 2rem;
+  margin: 3rem 0 2rem 2rem;
   right: -4rem;
 }
 .illustration--left {
   float: left;
-  margin: 5rem 2rem 2rem 0;
-  left: -4rem;
 }
 .illustration--center {
   margin: 2rem auto;
@@ -134,8 +133,30 @@ li + li {
   color: var(--color-standard__white);
 }
 
+.illustration--bottom {
+  margin-top: 2rem;
+  width: 100%;
+}
+
 .illustration--headquarter {
   top: 1rem;
+}
+
+.background-color-secondary4__tint2 {
+  background-color: var(--color-secondary4__tint1);
+  padding: 2rem;
+  margin: -2rem;
+}
+
+.backgroundExample {
+  margin-top: 3rem;
+}
+
+.listGap {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 0.5rem;
 }
 
 .handbook > h1:first-child {
@@ -162,12 +183,11 @@ code {
   background-color: var(--color-secondary3);
 }
 
-a,
 a:visited {
   color: var(--color-standard__black);
   transition: color 250ms ease-in;
 }
-
+a,
 a:hover {
   color: var(--color-secondary2__shade2);
 }
@@ -221,6 +241,10 @@ h3 .markdownIt-Anchor {
 }
 h4 .markdownIt-Anchor {
   font-size: 1rem;
+}
+
+.illustration--center {
+  width: 100%;
 }
 
 .ais-Highlight-highlighted {

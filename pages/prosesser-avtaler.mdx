@@ -2,17 +2,23 @@
 title: Avtaler - Prosesser
 ---
 
+import { PageSelector } from 'src/components/pageSelector';
+
 # Hvordan vi gjør ting
 
 Her samler vi strategier, rutiner og prosesser for hvordan ting gjøres i Variant. Noen områder krever derimot mer bakgrunnsinfo og utdyping og er derfor skilt ut som egne sider
 
 ## Temaer
 
-- [Ansatt](./prosesser-ansatt)
-- [HMS](./prosesser-hms)
-- [Bærekraft](./prosesser-baerekraft)
-- [Mangfold](./prosesser-mangfold)
-- [**Avtaler**](./prosesser-avtaler)
+<PageSelector
+  sections={[
+    { section: 'Ansatt', href: './prosesser-ansatt' },
+    { section: 'HMS', href: './prosesser-hms' },
+    { section: 'Bærekraft', href: './prosesser-baerekraft' },
+    { section: 'Mangfold', href: './prosesser-mangfold' },
+    { section: 'Avtaler', href: 'https://avtaler.variant.no/' },
+  ]}
+/>
 
 Her finner du et sett med dokumentmaler og kontraktmaler vi bruker i Variant og som du gjerne kan bruke også! De er helt åpne og lisensiert under MIT lisens. Det er ingen krav til attributering.
 
