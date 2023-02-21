@@ -58,9 +58,7 @@ function Hit({ hit }: HitProps) {
     <article className={style.searchItem}>
       <h3>
         <Link href={`${hit.urlPath}#${hit.slug}`}>
-          <a>
-            <Highlight attribute="title" hit={hit} />
-          </a>
+          <Highlight attribute="title" hit={hit} />
         </Link>
       </h3>
       <Highlight attribute="content" hit={hit} />

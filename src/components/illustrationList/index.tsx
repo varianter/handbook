@@ -31,7 +31,7 @@ const figureName = [
   'wifiHigh',
 ] as const;
 
-type FigureName = typeof figureName[number];
+type FigureName = (typeof figureName)[number];
 
 export const IllustrationList = ({
   figureName,
@@ -110,8 +110,8 @@ export const IllustrasjonListLink = ({
           role="none"
           alt=""
         />
-        <Link href={href}>
-          <a className={style.illustrationList__link}>{text}</a>
+        <Link href={href} className={style.illustrationList__link}>
+          {text}
         </Link>
       </div>
     </div>
