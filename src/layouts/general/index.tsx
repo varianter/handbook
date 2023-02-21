@@ -123,10 +123,8 @@ export default function GeneralLayout({
         />
       </Head>
       <header className={style.header}>
-        <Link href="/">
-          <a className={style.header__logo}>
-            <img src={require('./variant-bw.svg')} alt="Variant" />
-          </a>
+        <Link href="/" className={style.header__logo}>
+          <img src={require('./variant-bw.svg')} alt="Variant" />
         </Link>
 
         <ul className={style.header__handbooks}>
@@ -139,8 +137,8 @@ export default function GeneralLayout({
                   : style.header__handbooks__link
               }
             >
-              <Link href={`/${handbook.path}`}>
-                <a tabIndex={tabIndex}>{handbook.title}</a>
+              <Link href={`/${handbook.path}`} tabIndex={tabIndex}>
+                {handbook.title}
               </Link>
             </li>
           ))}
@@ -154,8 +152,8 @@ export default function GeneralLayout({
                   : style.header__handbooks__link
               }
             >
-              <Link href={`/${category.path}`}>
-                <a tabIndex={tabIndex}>{category.title}</a>
+              <Link href={`/${category.path}`} tabIndex={tabIndex}>
+                {category.title}
               </Link>
             </li>
           ))}
@@ -204,8 +202,8 @@ export default function GeneralLayout({
                         : style.nav__inner__link
                     }
                   >
-                    <Link href={`/${handbook.path}`}>
-                      <a tabIndex={tabIndex}>{handbook.title}</a>
+                    <Link href={`/${handbook.path}`} tabIndex={tabIndex}>
+                      {handbook.title}
                     </Link>
                   </li>
                 );
@@ -220,8 +218,8 @@ export default function GeneralLayout({
                       : style.nav__inner__link
                   }
                 >
-                  <Link href={`/${category.path}`}>
-                    <a tabIndex={tabIndex}>{category.title}</a>
+                  <Link href={`/${category.path}`} tabIndex={tabIndex}>
+                    {category.title}
                   </Link>
                 </li>
               ))}
@@ -239,8 +237,8 @@ export default function GeneralLayout({
                           : style.nav__inner__lin
                       }
                     >
-                      <Link href={`/${handbook.path}`}>
-                        <a tabIndex={tabIndex}>{handbook.title}</a>
+                      <Link href={`/${handbook.path}`} tabIndex={tabIndex}>
+                        {handbook.title}
                       </Link>
                     </li>
                   );

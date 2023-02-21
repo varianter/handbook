@@ -45,9 +45,7 @@ export const PageSelectorButton = ({
         isCurrentPath(hrefPath, route) ? style.pageSelectorButtonActive : '',
       )}
     >
-      <Link href={hrefPath}>
-        <a>{section}</a>
-      </Link>
+      <Link href={hrefPath}>{section}</Link>
     </div>
   );
 };
