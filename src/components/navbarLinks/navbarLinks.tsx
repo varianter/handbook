@@ -9,14 +9,17 @@ const NavbarLinks = (props: {
   return (
     <li key={props.heading.value} className={style.nav__inner__link}>
       <a
-        href={`#${slugify(props.heading.value, { lower: false })}`}
+        href={`#${slugify(props.heading.value, {
+          lower: false,
+        })}`}
         tabIndex={props.tabIndex}
       >
         {props.heading.value}
       </a>
-      {props.heading.children.map((c) => {
+      {props.heading.children.map((c, index) => {
         return (
           <ul
+            key={index}
             className={and(
               style.nav__inner__link__child,
               props.isOpen ? style.nav__inner__link__child__active : ' ',

@@ -277,9 +277,10 @@ export default function GeneralLayout({
                         </ul>
                       )}
                       {!isMenuVisible &&
-                        subHeadings.map((heading) => {
+                        subHeadings.map((heading, index) => {
                           return (
                             <div
+                              key={index}
                               className={style.nav__inner__container}
                               onClick={() => setActiveHeading(heading.value)}
                             >
