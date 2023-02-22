@@ -98,11 +98,6 @@
   background: url('./searchBlob.svg');
 }
 
-.header__handbooks__search:hover {
-  filter: drop-shadow(2px 3px 10px rgba(0, 0, 0, 0.5));
-  background-repeat: no-repeat;
-}
-
 .header__handbooks__search__button {
   display: flex;
   margin: auto;
