@@ -106,15 +106,17 @@
   line-height: 27px;
   align-items: center;
   gap: 0.3rem;
+
+  transition: all 200ms ease-in;
 }
 
-.header__handbooks__search__button a {
+.header__handbooks__search__button span {
   color: var(--color-standard__white);
   font-family: 'Graphik', sans-serif;
 }
 
-.header__handbooks__search__button a:active {
-  border-bottom: 2px solid white;
+.header__handbooks__search__button:active span {
+  opacity: 0.8;
 }
 
 .header__handbooks__link {

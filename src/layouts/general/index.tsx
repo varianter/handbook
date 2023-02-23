@@ -192,17 +192,18 @@ export default function GeneralLayout({
           {isNotMobile && (
             <li>
               <div className={style.header__handbooks__search}>
-                <Link href={'./search'}>
-                  <div className={style.header__handbooks__search__button}>
-                    <span>Søk</span>
-                    <Image
-                      priority
-                      src={magnifyingGlass}
-                      height={'30'}
-                      width={'30'}
-                      alt="Søk"
-                    />
-                  </div>
+                <Link
+                  href={'./search'}
+                  className={style.header__handbooks__search__button}
+                >
+                  <span>Søk</span>
+                  <Image
+                    priority
+                    src={magnifyingGlass}
+                    height={'30'}
+                    width={'30'}
+                    alt="Søk"
+                  />
                 </Link>
               </div>
             </li>
@@ -303,19 +304,18 @@ export default function GeneralLayout({
                   <ul className={style.nav__handbooks}>
                     <div className={style.header__handbooks__search__container}>
                       <div className={style.header__handbooks__search}>
-                        <Link href={'./search'}>
-                          <div
-                            className={style.header__handbooks__search__button}
-                          >
-                            <span>Søk</span>
-                            <Image
-                              priority
-                              src={magnifyingGlass}
-                              height={30}
-                              width={30}
-                              alt="Søk"
-                            />
-                          </div>
+                        <Link
+                          href={'./search'}
+                          className={style.header__handbooks__search__button}
+                        >
+                          <span>Søk</span>
+                          <Image
+                            priority
+                            src={magnifyingGlass}
+                            height={30}
+                            width={30}
+                            alt="Søk"
+                          />
                         </Link>
                       </div>
                     </div>
