@@ -281,9 +281,10 @@ export default function GeneralLayout({
                         </ul>
                       )}
                       {!isMenuVisible &&
-                        subHeadings.map((heading) => {
+                        subHeadings.map((heading, index) => {
                           return (
                             <div
+                              key={index}
                               className={style.nav__inner__container}
                               onClick={() => setActiveHeading(heading.value)}
                             >
@@ -481,9 +482,8 @@ function hamburgerMenu(
           loc.title.toLowerCase() == handbooks[0].title.toLowerCase())
       ) {
         return (
-          <div className={style.nav__handbooks__submenu}>
+          <div key={loc.title} className={style.nav__handbooks__submenu}>
             <li
-              key={loc.title}
               className={
                 isActiveHandbook(loc.path, asPath) ||
                 (pathSegments.length == 2 &&
@@ -544,9 +544,9 @@ function hamburgerTopLevelNesting(
   activeHeading: string,
   setActiveHeading: any,
 ) {
-  const subMenuItems = subHeadings.map((heading) => {
+  const subMenuItems = subHeadings.map((heading, index) => {
     return (
-      <div onClick={() => setActiveHeading(heading.value)}>
+      <div key={index} onClick={() => setActiveHeading(heading.value)}>
         <NavbarLinksMobile
           heading={heading}
           tabIndex={tabIndex}
