@@ -72,7 +72,7 @@ const metadata = {
             title: 'Trondheim',
             order: 0,
           },
-          path: './trondheim',
+          path: 'avdelinger/trondheim',
           title: 'Trondheim',
         },
         {
@@ -80,7 +80,7 @@ const metadata = {
             title: 'Oslo',
             order: 1,
           },
-          path: './oslo',
+          path: 'avdelinger/oslo',
           title: 'Oslo',
         },
         {
@@ -88,7 +88,7 @@ const metadata = {
             title: 'Bergen',
             order: 1,
           },
-          path: './bergen',
+          path: 'avdelinger/bergen',
           title: 'Bergen',
         },
       ],
@@ -498,8 +498,8 @@ function hamburgerMenu(
                   : style.nav__handbooks__location
               }
             >
-              <Link href={`/${loc.path}`}>
-                <a tabIndex={tabIndex}>{loc.title}</a>
+              <Link href={`/${loc.path}`} tabIndex={tabIndex}>
+                {loc.title}
               </Link>
             </li>
             {hamburgerTopLevelNesting(
@@ -522,8 +522,8 @@ function hamburgerMenu(
               : style.nav__handbooks__location
           }
         >
-          <Link href={`/${loc.path}`}>
-            <a tabIndex={tabIndex}>{loc.title}</a>
+          <Link href={`/${loc.path}`} tabIndex={tabIndex}>
+            {loc.title}
           </Link>
         </li>
       );
