@@ -13,7 +13,6 @@ import NavbarLinksMobile from 'src/components/navbarLinks/navbarLinksMobile';
 import { and } from 'src/utils/css';
 import { LayoutProps } from '../signature';
 import style from './layout.module.css';
-import navBackground from './navBackground.svg';
 
 import backArrow from './backArrow.svg';
 import magnifyingGlass from './magnifyingGlass.svg';
@@ -231,9 +230,7 @@ export default function GeneralLayout({
           style.nav__background,
           isMenuVisible ? style.nav__background__active : ' ',
         )}
-      >
-        <img src={navBackground} alt="" role="none" />
-      </div>
+      ></div>
 
       {!noSidebar && (
         <nav

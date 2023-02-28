@@ -246,14 +246,12 @@
 
   overflow: hidden;
   height: 100%;
-  background-color: var(--color-secondary1__shade2);
   width: 100%;
   display: flex;
   align-items: center;
-}
 
-.nav__background img {
-  width: 95vw;
+  background: url('./navBackground.svg') var(--color-secondary1__shade2) right -100px
+    repeat-y;
 }
 
 .nav__background__active {
@@ -569,9 +567,6 @@
     width: 30%;
   }
 
-  .nav__background img {
-    width: 29vw;
-  }
   .nav__inner__container {
     width: 100%;
     display: flex;
