@@ -3,7 +3,7 @@ import Button from '../button';
 
 import style from './login.module.css';
 
-export default function LoginForm({}: {}) {
+export default function LoginForm({ tabIndex }: { tabIndex: number }) {
   const user = useUserdata();
 
   return (
@@ -13,10 +13,14 @@ export default function LoginForm({}: {}) {
           <div className={style.text}>
             {user.name} ({user.department})
           </div>
-          <Button onClick={() => signOut()}>Logg ut</Button>
+          <Button onClick={() => signOut()} tabIndex={tabIndex}>
+            Logg ut
+          </Button>
         </>
       ) : (
-        <Button onClick={() => signIn('azure-ad')}>Logg inn</Button>
+        <Button onClick={() => signIn('azure-ad')} tabIndex={tabIndex}>
+          Logg inn
+        </Button>
       )}
     </div>
   );

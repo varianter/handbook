@@ -251,7 +251,9 @@ export default function GeneralLayout({
                         alt="Arrow to Variant.no"
                         role="none"
                       />
-                      <a href="https://www.variant.no">Til Variant.no</a>
+                      <a href="https://www.variant.no" tabIndex={tabIndex}>
+                        Til Variant.no
+                      </a>
                     </li>
                     <ul className={style.nav__handbooks__container}>
                       {/* Lokasjoner */}
@@ -306,6 +308,7 @@ export default function GeneralLayout({
                       <div className={style.header__handbooks__search}>
                         <Link
                           href={'./search'}
+                          tabIndex={tabIndex}
                           className={style.header__handbooks__search__button}
                         >
                           <span>Søk</span>
@@ -325,7 +328,9 @@ export default function GeneralLayout({
                         alt="Arrow to Variant.no"
                         role="none"
                       />
-                      <a href="https://www.variant.no">Til Variant.no</a>
+                      <a href="https://www.variant.no" tabIndex={tabIndex}>
+                        Til Variant.no
+                      </a>
                     </li>
                     {metadata.handbooks.map((handbook, index) => {
                       return (
@@ -371,7 +376,7 @@ export default function GeneralLayout({
             ) : null}
           </section>
 
-          <LoginForm />
+          <LoginForm tabIndex={tabIndex} />
         </nav>
       )}
 
