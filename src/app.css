@@ -183,6 +183,21 @@ code {
   background-color: var(--color-secondary3);
 }
 
+table {
+  margin: 2rem 1rem;
+}
+table tbody tr td {
+  background: var(--color-secondary4__tint2);
+}
+table tbody tr:nth-child(2n + 1) td {
+  background: var(--color-secondary4__tint1);
+}
+
+table th,
+table td {
+  padding: 0.8rem;
+}
+
 a:visited {
   color: var(--color-standard__black);
   transition: color 250ms ease-in;

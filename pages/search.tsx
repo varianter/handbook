@@ -1,4 +1,5 @@
 import algoliasearch from 'algoliasearch/lite';
+import { renderToString } from 'react-dom/server';
 import {
   Configure,
   Highlight,
@@ -118,7 +119,9 @@ export async function getServerSideProps({
 > {
   const protocol = req.headers.referer?.split('://')[0] || 'https';
   const url = `${protocol}://${req.headers.host}${req.url}`;
-  const serverState = await getServerState(<SearchPage url={url} />);
+  const serverState = await getServerState(<SearchPage url={url} />, {
+    renderToString,
+  });
 
   return {
     props: {
