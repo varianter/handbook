@@ -193,7 +193,7 @@ export default function GeneralLayout({
             <li>
               <div className={style.header__handbooks__search}>
                 <Link
-                  href={'./search'}
+                  href={'/search'}
                   className={style.header__handbooks__search__button}
                 >
                   <span>Søk</span>
@@ -307,7 +307,7 @@ export default function GeneralLayout({
                     <div className={style.header__handbooks__search__container}>
                       <div className={style.header__handbooks__search}>
                         <Link
-                          href={'./search'}
+                          href={'/search'}
                           tabIndex={tabIndex}
                           className={style.header__handbooks__search__button}
                         >
