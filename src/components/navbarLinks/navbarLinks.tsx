@@ -33,6 +33,23 @@ const NavbarLinks = (props: {
               >
                 {c.value}
               </a>
+              {c.children.map((c, index) => {
+                return (
+                  <ul key={index}>
+                    <li
+                      className={style.nav__inner__link__children__of__children}
+                    >
+                      <a
+                        href={`#${slugify(c.value, {
+                          lower: false,
+                        })}`}
+                      >
+                        {c.value}
+                      </a>
+                    </li>
+                  </ul>
+                );
+              })}
             </li>
           </ul>
         );
