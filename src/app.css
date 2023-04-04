@@ -83,6 +83,10 @@ li + li {
   padding-top: 2rem;
 }
 
+.divspace--top {
+  margin-top: 10rem;
+}
+
 .illustration {
   width: 15rem;
   margin: 5rem 2rem 2rem;
