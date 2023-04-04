@@ -28,6 +28,27 @@ const NavbarLinksMobile = ({
       >
         {heading.value}
       </a>
+      {heading.children.map((c, index) => {
+        return (
+          <ul
+            key={index}
+            className={and(
+              style.nav__inner__link__child,
+              isOpen ? style.nav__inner__link__child__active : ' ',
+            )}
+          >
+            <li className={style.nav__inner__link__children}>
+              <a
+                href={`#${slugify(c.value, {
+                  lower: false,
+                })}`}
+              >
+                {c.value}
+              </a>
+            </li>
+          </ul>
+        );
+      })}
     </li>
   );
 };
