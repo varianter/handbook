@@ -44,6 +44,8 @@ h2 {
 
   position: relative;
 
+  padding-top: 0.6rem;
+
   background-color: transparent;
 
   background-image: url('/assets/backgroundBlobs/headerBlob.svg');
