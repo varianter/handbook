@@ -78,7 +78,6 @@ export const IllustrationListHeading = ({
 
 export const IllustrationHeading = ({
   figureName,
-  headingText,
   children,
 }: IllustrationListProps) => {
   return (
