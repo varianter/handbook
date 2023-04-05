@@ -92,6 +92,55 @@ const metadata = {
       ],
     },
   ],
+  ProcessThemes: [
+    {
+      path: 'prosesser',
+      title: 'Prosesser',
+      heading: 'Temaer',
+      handbooks: [
+        {
+          data: {
+            title: 'Ansatt',
+            order: 0,
+          },
+          path: 'prosesser-ansatt',
+          title: 'Ansatt',
+        },
+        {
+          data: {
+            title: 'HMS',
+            order: 1,
+          },
+          path: 'prosesser-hms',
+          title: 'HMS',
+        },
+        {
+          data: {
+            title: 'Bærekraft',
+            order: 2,
+          },
+          path: 'prosesser-baerekraft',
+          title: 'Bærekraft',
+        },
+        {
+          data: {
+            title: 'Mangfold',
+            order: 3,
+          },
+          path: 'prosesser-mangfold',
+          title: 'Mangfold',
+        },
+        {
+          data: {
+            title: 'Ledelse',
+            order: 4,
+          },
+          path: 'prosesser-ledelse',
+          title: 'Ledelse',
+        },
+      ],
+    },
+  ],
 };
 
 export default function GeneralLayout({
@@ -138,6 +187,10 @@ export default function GeneralLayout({
 
   const currentCategory = metadata.categories.find((category) =>
     isActiveHandbook(category.path, asPath, true),
+  );
+
+  const currentProcessTheme = metadata.ProcessThemes.find((theme) =>
+    isActiveHandbook(theme.path, asPath, true),
   );
 
   const classes = and(style.main, !noSidebar ? style.main__sidebar : undefined);
@@ -237,139 +290,164 @@ export default function GeneralLayout({
           ref={modalRef}
         >
           <section className={style.nav__inner}>
-            {subHeadings.length > 0 ? (
-              <div className={style.nav__handbooks__container}>
-                {isNotMobile ? (
-                  <div>
-                    <li className={style.header__handbooks__back}>
-                      <img
-                        src={backArrow}
-                        alt="Arrow to Variant.no"
-                        role="none"
-                      />
-                      <a href="https://www.variant.no" tabIndex={tabIndex}>
-                        Til Variant.no
-                      </a>
-                    </li>
-                    <ul className={style.nav__handbooks__container}>
-                      {/* Lokasjoner */}
-                      {currentCategory && (
-                        <ul className={style.nav__handbooks}>
-                          {currentCategory.handbooks.map((handbook) => {
-                            return (
-                              <li
-                                key={handbook.title}
-                                className={
-                                  isActiveHandbook(handbook.path, asPath) ||
-                                  (asPath.split('/').length == 2 &&
-                                    handbook.title.toLowerCase() ==
-                                      metadata.categories[0].handbooks[0].title.toLowerCase())
-                                    ? style.nav__handbooks__location__active
-                                    : style.nav__handbooks__location
-                                }
-                              >
-                                <Link
-                                  href={`/${handbook.path}`}
-                                  tabIndex={tabIndex}
-                                >
-                                  {handbook.title}
-                                </Link>
-                              </li>
-                            );
-                          })}
-                        </ul>
-                      )}
-                      {!isMenuVisible &&
-                        subHeadings.map((heading, index) => {
+            <div className={style.nav__handbooks__container}>
+              {isNotMobile ? (
+                <div>
+                  <li className={style.header__handbooks__back}>
+                    <img
+                      src={backArrow}
+                      alt="Arrow to Variant.no"
+                      role="none"
+                    />
+                    <a href="https://www.variant.no" tabIndex={tabIndex}>
+                      Til Variant.no
+                    </a>
+                  </li>
+                  <ul className={style.nav__handbooks__container}>
+                    {/* Lokasjoner */}
+                    {currentCategory && (
+                      <ul className={style.nav__handbooks}>
+                        {currentCategory.handbooks.map((handbook) => {
                           return (
-                            <div
-                              key={index}
-                              className={style.nav__inner__container}
-                              onClick={() => setActiveHeading(heading.value)}
+                            <li
+                              key={handbook.title}
+                              className={
+                                isActiveHandbook(handbook.path, asPath) ||
+                                (asPath.split('/').length == 2 &&
+                                  handbook.title.toLowerCase() ==
+                                    metadata.categories[0].handbooks[0].title.toLowerCase())
+                                  ? style.nav__handbooks__location__active
+                                  : style.nav__handbooks__location
+                              }
                             >
-                              <NavbarLinks
-                                heading={heading}
+                              <Link
+                                href={`/${handbook.path}`}
                                 tabIndex={tabIndex}
-                                isOpen={activeHeading == heading.value}
-                              />
-                            </div>
+                              >
+                                {handbook.title}
+                              </Link>
+                            </li>
                           );
                         })}
-                    </ul>
-                  </div>
-                ) : (
-                  // hamburger menu
-                  <ul className={style.nav__handbooks}>
-                    <div className={style.header__handbooks__search__container}>
-                      <div className={style.header__handbooks__search}>
-                        <Link
-                          href={'/search'}
-                          tabIndex={tabIndex}
-                          className={style.header__handbooks__search__button}
-                        >
-                          <span>Søk</span>
-                          <Image
-                            priority
-                            src={magnifyingGlass}
-                            height={30}
-                            width={30}
-                            alt="Søk"
-                          />
-                        </Link>
+                      </ul>
+                    )}
+                    {/* {Prosesser} */}
+                    {currentProcessTheme && (
+                      <div className={style.nav__inner__container}>
+                        {/* <ul className={style.nav__handbooks}> */}
+                        <li className={style.nav__inner__link}>
+                          <a href="">{currentProcessTheme.heading}</a>
+                          {currentProcessTheme.handbooks.map((handbook) => {
+                            return (
+                              <ul className={style.nav__inner__link__child}>
+                                <li
+                                  className={style.nav__inner__link__children}
+                                >
+                                  <Link
+                                    href={`/${handbook.path}`}
+                                    tabIndex={tabIndex}
+                                  >
+                                    {handbook.title}
+                                  </Link>
+                                </li>
+                              </ul>
+                            );
+                          })}
+                        </li>
+                        {/* </ul> */}
                       </div>
+                    )}
+
+                    {!isMenuVisible &&
+                      subHeadings.map((heading, index) => {
+                        return (
+                          <div
+                            key={index}
+                            className={style.nav__inner__container}
+                            onClick={() => setActiveHeading(heading.value)}
+                          >
+                            <NavbarLinks
+                              heading={heading}
+                              tabIndex={tabIndex}
+                              isOpen={activeHeading == heading.value}
+                            />
+                          </div>
+                        );
+                      })}
+                  </ul>
+                </div>
+              ) : (
+                // hamburger menu
+                <ul className={style.nav__handbooks}>
+                  <div className={style.header__handbooks__search__container}>
+                    <div className={style.header__handbooks__search}>
+                      <Link
+                        href={'/search'}
+                        tabIndex={tabIndex}
+                        className={style.header__handbooks__search__button}
+                      >
+                        <span>Søk</span>
+                        <Image
+                          priority
+                          src={magnifyingGlass}
+                          height={30}
+                          width={30}
+                          alt="Søk"
+                        />
+                      </Link>
                     </div>
-                    <li className={style.nav__hamburger__link__to__variant}>
-                      <img
-                        src={backArrow}
-                        alt="Arrow to Variant.no"
-                        role="none"
-                      />
-                      <a href="https://www.variant.no" tabIndex={tabIndex}>
-                        Til Variant.no
-                      </a>
-                    </li>
-                    {metadata.handbooks.map((handbook, index) => {
-                      return (
-                        <div
-                          key={handbook.title}
+                  </div>
+                  <li className={style.nav__hamburger__link__to__variant}>
+                    <img
+                      src={backArrow}
+                      alt="Arrow to Variant.no"
+                      role="none"
+                    />
+                    <a href="https://www.variant.no" tabIndex={tabIndex}>
+                      Til Variant.no
+                    </a>
+                  </li>
+                  {metadata.handbooks.map((handbook, index) => {
+                    return (
+                      <div
+                        key={handbook.title}
+                        className={
+                          isActiveHandbook(handbook.path, asPath) &&
+                          asPath != '/avdelinger'
+                            ? style.nav__inner__link__active
+                            : asPath == '/avdelinger' &&
+                              handbook.title.toLowerCase() == 'lokasjoner'
+                            ? style.nav__inner__link__active__submenu_location
+                            : style.nav__inner__link
+                        }
+                      >
+                        <Link
+                          href={`/${handbook.path}`}
+                          tabIndex={tabIndex}
                           className={
-                            isActiveHandbook(handbook.path, asPath) &&
-                            asPath != '/avdelinger'
-                              ? style.nav__inner__link__active
-                              : asPath == '/avdelinger' &&
-                                handbook.title.toLowerCase() == 'lokasjoner'
-                              ? style.nav__inner__link__active__submenu_location
-                              : style.nav__inner__link
+                            handbook.title.toLowerCase() == 'lokasjoner'
+                              ? style.nav__inner__link__active__location
+                              : style.nav_header_link
                           }
                         >
-                          <Link
-                            href={`/${handbook.path}`}
-                            tabIndex={tabIndex}
-                            className={
-                              handbook.title.toLowerCase() == 'lokasjoner'
-                                ? style.nav__inner__link__active__location
-                                : style.nav_header_link
-                            }
-                          >
-                            {index + 1}. {handbook.title}
-                          </Link>
+                          {index + 1}. {handbook.title}
+                        </Link>
 
-                          {hamburgerMenu(
-                            handbook.title,
-                            asPath,
-                            subHeadings,
-                            tabIndex,
-                            activeHeading,
-                            setActiveHeading,
-                            currentCategory?.handbooks,
-                          )}
-                        </div>
-                      );
-                    })}
-                  </ul>
-                )}
-              </div>
-            ) : null}
+                        {hamburgerMenu(
+                          handbook.title,
+                          asPath,
+                          subHeadings,
+                          tabIndex,
+                          activeHeading,
+                          setActiveHeading,
+                          currentCategory?.handbooks,
+                        )}
+                      </div>
+                    );
+                  })}
+                </ul>
+              )}
+            </div>
           </section>
 
           <LoginForm tabIndex={tabIndex} />
