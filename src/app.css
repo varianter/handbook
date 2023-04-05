@@ -31,7 +31,7 @@ h1,
 h2,
 h3,
 h4 {
-  word-wrap: break-word;
+  word-wrap: normal;
   margin-bottom: 0.5rem;
 }
 h1 {
@@ -49,20 +49,6 @@ h2 {
   background-image: url('/assets/backgroundBlobs/headerBlob.svg');
   background-repeat: no-repeat;
   background-position: bottom left;
-}
-
-h3,
-h2,
-h4 {
-  white-space: nowrap;
-}
-
-@media (max-width: 500px) {
-  h2,
-  h3,
-  h4 {
-    white-space: normal;
-  }
 }
 
 h3 {
@@ -283,6 +269,12 @@ h3 .markdownIt-Anchor {
 }
 h4 .markdownIt-Anchor {
   font-size: 1rem;
+}
+
+div .fakeHeading3 > * {
+  font-size: 1.6rem;
+  font-family: 'Graphik', sans-serif;
+  font-weight: 500;
 }
 
 .illustration--center {
