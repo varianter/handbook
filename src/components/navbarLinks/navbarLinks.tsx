@@ -33,7 +33,8 @@ const NavbarLinks = (props: {
               >
                 {c.value}
               </a>
-              {c.children.map((c, index) => {
+              {/* {For å ha et ekstra lag med linker i navbaren (h4)} */}
+              {/* {c.children.map((c, index) => {
                 return (
                   <ul key={index}>
                     <li
@@ -49,7 +50,7 @@ const NavbarLinks = (props: {
                     </li>
                   </ul>
                 );
-              })}
+              })} */}
             </li>
           </ul>
         );
