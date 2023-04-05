@@ -40,17 +40,29 @@ h1 {
   z-index: 1;
 }
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
 
   position: relative;
 
   padding-top: 1.5rem;
-
   background-color: transparent;
-
   background-image: url('/assets/backgroundBlobs/headerBlob.svg');
   background-repeat: no-repeat;
   background-position: bottom left;
+}
+
+h3,
+h2,
+h4 {
+  white-space: nowrap;
+}
+
+@media (max-width: 500px) {
+  h2,
+  h3,
+  h4 {
+    white-space: normal;
+  }
 }
 
 h3 {
