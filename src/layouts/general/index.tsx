@@ -378,7 +378,6 @@ export default function GeneralLayout({
       )}
 
       <section className={style.content}>{children}</section>
-      <BackgroundBlobs />
 
       <footer className={style.footer}>
         <div className={style.footer__inner}>
