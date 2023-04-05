@@ -16,6 +16,15 @@
 
 .pageSelectorButton a {
   text-decoration: none;
+  color: var(--color-standard__black);
+}
+
+.pageSelectorButton a:visited {
+  color: var(--color-standard__black);
+}
+
+.pageSelectorButton:hover {
+  background-color: var(--color-primary__tint4);
 }
 
 @media (max-width: 450px) {
