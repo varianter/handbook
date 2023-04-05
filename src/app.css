@@ -52,8 +52,7 @@ h2 {
 }
 
 h2 {
-  margin-top: -2.3rem;
-  padding-top: 6rem;
+  padding-top: 5rem;
 }
 
 h3 {
@@ -70,7 +69,6 @@ li + li {
 }
 
 * + h2 {
-  margin-top: -2rem;
   padding-top: 6rem;
 }
 * + h3 {
