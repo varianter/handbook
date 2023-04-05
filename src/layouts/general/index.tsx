@@ -6,7 +6,6 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useCallback, useEffect, useState } from 'react';
 import { getAuthServerSideProps } from 'src/auth';
-import BackgroundBlobs from 'src/background';
 import LoginForm from 'src/components/login-form';
 import NavbarLinks from 'src/components/navbarLinks/navbarLinks';
 import NavbarLinksMobile from 'src/components/navbarLinks/navbarLinksMobile';
