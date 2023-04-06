@@ -42,6 +42,7 @@ const NavbarLinksMobile = ({
                 href={`#${slugify(c.value, {
                   lower: false,
                 })}`}
+                tabIndex={tabIndex}
               >
                 {c.value}
               </a>
