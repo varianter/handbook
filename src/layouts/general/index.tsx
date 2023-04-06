@@ -293,7 +293,7 @@ export default function GeneralLayout({
             <div className={style.nav__handbooks__container}>
               {isNotMobile ? (
                 <div>
-                  <li className={style.header__handbooks__back}>
+                  <div className={style.header__handbooks__back}>
                     <img
                       src={backArrow}
                       alt="Arrow to Variant.no"
@@ -302,66 +302,68 @@ export default function GeneralLayout({
                     <a href="https://www.variant.no" tabIndex={tabIndex}>
                       Til Variant.no
                     </a>
-                  </li>
+                  </div>
                   <ul className={style.nav__handbooks__container}>
                     {/* Lokasjoner */}
                     {currentCategory && (
-                      <ul className={style.nav__handbooks}>
-                        {currentCategory.handbooks.map((handbook) => {
-                          return (
-                            <li
-                              key={handbook.title}
-                              className={
-                                isActiveHandbook(handbook.path, asPath) ||
-                                (asPath.split('/').length == 2 &&
-                                  handbook.title.toLowerCase() ==
-                                    metadata.categories[0].handbooks[0].title.toLowerCase())
-                                  ? style.nav__handbooks__location__active
-                                  : style.nav__handbooks__location
-                              }
-                            >
-                              <Link
-                                href={`/${handbook.path}`}
-                                tabIndex={tabIndex}
+                      <li>
+                        <ul className={style.nav__handbooks}>
+                          {currentCategory.handbooks.map((handbook) => {
+                            return (
+                              <li
+                                key={handbook.title}
+                                className={
+                                  isActiveHandbook(handbook.path, asPath) ||
+                                  (asPath.split('/').length == 2 &&
+                                    handbook.title.toLowerCase() ==
+                                      metadata.categories[0].handbooks[0].title.toLowerCase())
+                                    ? style.nav__handbooks__location__active
+                                    : style.nav__handbooks__location
+                                }
                               >
-                                {handbook.title}
-                              </Link>
-                            </li>
-                          );
-                        })}
-                      </ul>
+                                <Link
+                                  href={`/${handbook.path}`}
+                                  tabIndex={tabIndex}
+                                >
+                                  {handbook.title}
+                                </Link>
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      </li>
                     )}
                     {/* {Prosesser} */}
                     {currentProcessTheme && (
-                      <div className={style.nav__inner__container}>
-                        {/* <ul className={style.nav__handbooks}> */}
-                        <li className={style.nav__inner__link}>
-                          <a href="">{currentProcessTheme.heading}</a>
-                          {currentProcessTheme.handbooks.map((handbook) => {
-                            return (
-                              <ul className={style.nav__inner__link__child}>
-                                <li
-                                  className={style.nav__inner__link__children}
-                                >
-                                  <Link
-                                    href={`/${handbook.path}`}
-                                    tabIndex={tabIndex}
+                      <li>
+                        <ul className={style.nav__inner__container}>
+                          <li className={style.nav__inner__link}>
+                            <a href="">{currentProcessTheme.heading}</a>
+                            {currentProcessTheme.handbooks.map((handbook) => {
+                              return (
+                                <ul className={style.nav__inner__link__child}>
+                                  <li
+                                    className={style.nav__inner__link__children}
                                   >
-                                    {handbook.title}
-                                  </Link>
-                                </li>
-                              </ul>
-                            );
-                          })}
-                        </li>
-                        {/* </ul> */}
-                      </div>
+                                    <Link
+                                      href={`/${handbook.path}`}
+                                      tabIndex={tabIndex}
+                                    >
+                                      {handbook.title}
+                                    </Link>
+                                  </li>
+                                </ul>
+                              );
+                            })}
+                          </li>
+                        </ul>
+                      </li>
                     )}
 
                     {!isMenuVisible &&
                       subHeadings.map((heading, index) => {
                         return (
-                          <div
+                          <li
                             key={index}
                             className={style.nav__inner__container}
                             onClick={() => setActiveHeading(heading.value)}
@@ -371,7 +373,7 @@ export default function GeneralLayout({
                               tabIndex={tabIndex}
                               isOpen={activeHeading == heading.value}
                             />
-                          </div>
+                          </li>
                         );
                       })}
                   </ul>

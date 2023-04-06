@@ -7,7 +7,7 @@ const NavbarLinks = (props: {
   isOpen: boolean;
 }) => {
   return (
-    <li key={props.heading.value} className={style.nav__inner__link}>
+    <div key={props.heading.value} className={style.nav__inner__link}>
       <a
         href={`#${slugify(props.heading.value, {
           lower: false,
@@ -55,7 +55,7 @@ const NavbarLinks = (props: {
           </ul>
         );
       })}
-    </li>
+    </div>
   );
 };
 

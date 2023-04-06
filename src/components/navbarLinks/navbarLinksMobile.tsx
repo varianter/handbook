@@ -13,7 +13,7 @@ const NavbarLinksMobile = ({
   isOpen,
 }: NavbarLinksMobileProps) => {
   return (
-    <li
+    <div
       key={heading.value}
       className={and(
         style.nav__hamburger_subheader,
@@ -50,7 +50,7 @@ const NavbarLinksMobile = ({
           </ul>
         );
       })}
-    </li>
+    </div>
   );
 };
 
