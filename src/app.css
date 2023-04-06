@@ -22,7 +22,7 @@ body,
   position: relative;
 }
 html {
-  --font-size-min: 14;
+  --font-size-min: 16;
   --font-size-max: 18;
   background: var(--color-secondary4__tint3);
   scroll-behavior: smooth;
@@ -221,7 +221,7 @@ a:visited {
 }
 a,
 a:hover {
-  color: var(--color-secondary2__shade2);
+  color: var(--color-secondary2__shade3);
 }
 
 @media (max-width: 1100px) {

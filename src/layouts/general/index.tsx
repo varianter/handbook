@@ -379,7 +379,7 @@ export default function GeneralLayout({
               ) : (
                 // hamburger menu
                 <ul className={style.nav__handbooks}>
-                  <div className={style.header__handbooks__search__container}>
+                  <li className={style.header__handbooks__search__container}>
                     <div className={style.header__handbooks__search}>
                       <Link
                         href={'/search'}
@@ -396,7 +396,7 @@ export default function GeneralLayout({
                         />
                       </Link>
                     </div>
-                  </div>
+                  </li>
                   <li className={style.nav__hamburger__link__to__variant}>
                     <img
                       src={backArrow}
@@ -409,7 +409,7 @@ export default function GeneralLayout({
                   </li>
                   {metadata.handbooks.map((handbook, index) => {
                     return (
-                      <div
+                      <li
                         key={handbook.title}
                         className={
                           isActiveHandbook(handbook.path, asPath) &&
@@ -442,7 +442,7 @@ export default function GeneralLayout({
                           setActiveHeading,
                           currentCategory?.handbooks,
                         )}
-                      </div>
+                      </li>
                     );
                   })}
                 </ul>
@@ -589,18 +589,20 @@ function hamburgerMenu(
         );
       }
       return (
-        <li
-          key={loc.title}
-          className={
-            isActiveHandbook(loc.path, asPath)
-              ? style.nav__handbooks__location__active
-              : style.nav__handbooks__location
-          }
-        >
-          <Link href={`/${loc.path}`} tabIndex={tabIndex}>
-            {loc.title}
-          </Link>
-        </li>
+        <ul>
+          <li
+            key={loc.title}
+            className={
+              isActiveHandbook(loc.path, asPath)
+                ? style.nav__handbooks__location__active
+                : style.nav__handbooks__location
+            }
+          >
+            <Link href={`/${loc.path}`} tabIndex={tabIndex}>
+              {loc.title}
+            </Link>
+          </li>
+        </ul>
       );
     });
   }
