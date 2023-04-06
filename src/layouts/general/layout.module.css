@@ -299,6 +299,7 @@
 .nav__inner ul {
   list-style-type: none;
   padding-left: 0;
+  /* line-height: 1; */
   display: flex;
   flex-direction: column;
   /* align-items: center; */
@@ -618,6 +619,10 @@
 }
 
 /* navbar for small screens */
+.nav__hamburger_subheader {
+  margin-top: 2rem;
+  line-height: 1;
+}
 .nav__hamburger_subheader a {
   color: var(--color-secondary1__tint4);
   border: 0;
