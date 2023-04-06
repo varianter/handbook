@@ -22,7 +22,7 @@ type TabListProps = PropsWithChildren<{ label: string }>;
 export function TabList({ label, children }: TabListProps) {
   return (
     <div role="tablist" aria-label={label} className={style.tablist}>
-      <nav className={style.tablist__nav}>{children}</nav>
+      {children}
     </div>
   );
 }

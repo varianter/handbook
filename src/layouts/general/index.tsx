@@ -560,7 +560,7 @@ function hamburgerMenu(
           loc.title.toLowerCase() == handbooks[0].title.toLowerCase())
       ) {
         return (
-          <div key={loc.title} className={style.nav__handbooks__submenu}>
+          <ul key={loc.title} className={style.nav__handbooks__submenu}>
             <li
               className={
                 isActiveHandbook(loc.path, asPath) ||
@@ -575,15 +575,17 @@ function hamburgerMenu(
                 {loc.title}
               </Link>
             </li>
-            {hamburgerTopLevelNesting(
-              handbookTitle,
-              asPath,
-              subHeadings,
-              tabIndex,
-              activeHeading,
-              setActiveHeading,
-            )}
-          </div>
+            <li>
+              {hamburgerTopLevelNesting(
+                handbookTitle,
+                asPath,
+                subHeadings,
+                tabIndex,
+                activeHeading,
+                setActiveHeading,
+              )}
+            </li>
+          </ul>
         );
       }
       return (
