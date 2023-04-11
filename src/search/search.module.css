@@ -61,6 +61,11 @@
   outline: none;
   background-color: var(--color-secondary1__shade3);
 }
+
+:global(.ais-SearchBox-input::placeholder) {
+  color: var(--color-standard__white);
+}
+
 :global(.ais-SearchBox-input)::-webkit-search-cancel-button {
   display: none;
 }
