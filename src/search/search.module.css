@@ -101,6 +101,8 @@
 
 .closeSearch {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 89px;
   height: 89px;
   background-repeat: no-repeat;
@@ -120,7 +122,7 @@
 }
 
 .closeSearchButton a {
-  font-family: 'Graphik', sans-serif;  
+  font-family: 'Graphik', sans-serif;
 }
 
 .closeSearchIcon {
