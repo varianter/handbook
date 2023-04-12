@@ -1,4 +1,5 @@
-.main, .search__main {
+.main,
+.search__main {
   position: relative;
   overflow-x: hidden;
   width: 100%;
@@ -21,10 +22,11 @@
 .search__main h2 {
   font-family: 'Recoleta', serif;
   font-size: 4rem;
-  line-height: 87,04px;
+  line-height: 87, 04px;
 }
 
-.content {
+.content,
+.searchContent {
   max-width: 50rem;
   min-height: 100vh;
   width: 100%;
