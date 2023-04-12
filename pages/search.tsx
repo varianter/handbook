@@ -120,8 +120,8 @@ function CloseSearch() {
               className={style.closeSearchIcon}
               priority
               src={clear}
-              height={20}
-              width={20}
+              height={15}
+              width={15}
               alt={'Close'}
             />
           </div>

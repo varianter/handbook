@@ -116,14 +116,16 @@
   background: url('../../public/assets/illustrations/closeSearchBlob.svg');
 }
 
+.closeSearch a {
+  text-decoration: none;
+}
+
 .closeSearchButton {
-  display: flex;
   margin: auto;
   color: var(--color-standard__white);
   cursor: pointer;
   font-size: 20px;
   line-height: 27px;
-  align-items: center;
   gap: 0.3rem;
 }
 
