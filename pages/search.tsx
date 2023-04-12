@@ -114,7 +114,7 @@ function CloseSearch() {
     <div className={style.closeSearchContainer}>
       <div className={style.closeSearch}>
         <Link href={'./'}>
-          <div className={style.closeSearchButton}>
+          <span className={style.closeSearchButton}>
             Lukk
             <Image
               className={style.closeSearchIcon}
@@ -124,7 +124,7 @@ function CloseSearch() {
               width={15}
               alt={'Close'}
             />
-          </div>
+          </span>
         </Link>
       </div>
     </div>
