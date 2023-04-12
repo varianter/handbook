@@ -29,7 +29,7 @@ const isLandingpage = (asPath: string) => {
 };
 
 const isSearchpage = (asPath: string) => {
-  return asPath === '/search';
+  return asPath.split('?')[0] === '/search';
 };
 
 // @TODO This should be automatically generated from the tree structure
