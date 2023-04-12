@@ -17,6 +17,8 @@ const NavbarLinks = (props: {
         {props.heading.value}
       </a>
       {props.heading.children.map((c, index) => {
+        if (c.value === 'Vårt formål er å utvikle samfunnet vi lever i')
+          return null;
         return (
           <ul
             key={index}
