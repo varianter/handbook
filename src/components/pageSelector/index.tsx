@@ -14,15 +14,18 @@ type PageSelectorProps = {
 
 export const PageSelector = ({ sections }: PageSelectorProps) => {
   return (
-    <div className={style.pageSelector}>
-      {sections.map((section) => {
-        return (
-          <PageSelectorButton
-            section={section.section}
-            hrefPath={section.href}
-          />
-        );
-      })}
+    <div>
+      <h2>Temaer</h2>
+      <div className={style.pageSelector}>
+        {sections.map((section) => {
+          return (
+            <PageSelectorButton
+              section={section.section}
+              hrefPath={section.href}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 };

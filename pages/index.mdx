@@ -3,6 +3,7 @@ title: En variants håndbok
 ---
 
 import { SearchBox } from 'src/components/search-form';
+import { waveRef } from 'src/layouts/general/index.tsx';
 import {
   IllustrationList,
   IllustrationListHeading,
@@ -11,6 +12,7 @@ import { Values } from 'src/components/values/';
 
 # En variants håndbok
 
+<div className="darkBackground">
 Her forsøker vi å beskrive hvordan ting gjøres i Variant, hva vi prøver å oppnå
 og hvorfor vi tenker som vi gjør. Denne er både for ansatte og folk som er
 nysgjerrige på hvordan det er å være en variant. Håndboka er et levende dokument
@@ -24,11 +26,18 @@ Om du ikke er en variant men liker det du leser,
 [ta en titt på ledige stillinger hos oss](https://www.variant.no/jobs). Mer info
 om oss på [nettsiden vår](https://www.variant.no).
 
+</div>
 <SearchBox />
+
+<div className="wave" ref={waveRef}></div>
+
+<div>
 
 ## Formål og verdier
 
-### Vårt formål er å utvikle samfunnet vi lever i
+<div className="fakeHeading3">
+  Vårt formål er å utvikle samfunnet vi lever i
+</div>
 
 Dette gjør vi ved å samle flinke personer som tenker nye tanker, og som har kompetansen til å utvikle de riktige løsningene for kundene vi jobber med.
 
@@ -120,11 +129,7 @@ heier på alle våre kollegaer som deler åpent og bidra til Open Source."
 
 </div>
 
-#### Håndboka
-
-Denne håndboken! Åpen for hele verden å se. Vi setter pris på hvert bidrag
-hit, variant eller ikke. Dette gjelder egentlig alt vi har i det åpne. Vi
-heier på alle våre kollegaer som deler åpent og bidra til Open Source.
+</div>
 
 ### Tillit og ansvar
 
@@ -173,19 +178,19 @@ sitter på åndsverk.`
 
 ### Familie
 
-For oss er ikke jobb og fritid to helt ulike verdener. Selv om vi vil at varianter skal ha en god 
-jobb- og livsbalanse, ønsker vi å invitere familiene inn i selskapet som en del av oss og det vi gjør. 
-Hver høst reiser vi på tur utabys, vi arrangerer en del aktiviteter gjennom året og vi har et årlig 
-julebord. Alt dette er familie eller ledsager velkommen til å bli med på. Vi definerer ikke hva som 
-regnes som familie, så hvem du ønsker å invitere med er opp til deg selv – om det så er partner, barn, 
+For oss er ikke jobb og fritid to helt ulike verdener. Selv om vi vil at varianter skal ha en god
+jobb- og livsbalanse, ønsker vi å invitere familiene inn i selskapet som en del av oss og det vi gjør.
+Hver høst reiser vi på tur utabys, vi arrangerer en del aktiviteter gjennom året og vi har et årlig
+julebord. Alt dette er familie eller ledsager velkommen til å bli med på. Vi definerer ikke hva som
+regnes som familie, så hvem du ønsker å invitere med er opp til deg selv – om det så er partner, barn,
 foreldre eller venner. Vi sier: Hjertelig velkommen!
 
 ### Likestilling
 
-Likestilling er en grunnleggende verdi for oss som jobber her, og for Variant som selskap. Her 
-snakker vi om grunnleggende likeverd på tvers av blant annet nasjonalitet, etnisk bakgrunn, 
-livssyn, legning og kjønn. Vi har i dag en god kjønnsbalanse til vår bransje å være, men samtidig ønsker vi sterkt å 
-bedre den. Vi er ikke fornøyd før vi er omtrent fifty-fifty på kvinner og menn. Dette 
+Likestilling er en grunnleggende verdi for oss som jobber her, og for Variant som selskap. Her
+snakker vi om grunnleggende likeverd på tvers av blant annet nasjonalitet, etnisk bakgrunn,
+livssyn, legning og kjønn. Vi har i dag en god kjønnsbalanse til vår bransje å være, men samtidig ønsker vi sterkt å
+bedre den. Vi er ikke fornøyd før vi er omtrent fifty-fifty på kvinner og menn. Dette
 påvirker mange av våre strategiske og operative beslutninger, som blant annet:
 
 <img
@@ -203,8 +208,8 @@ familie planlegger og fordeler arbeidet hjemme.
 
 ### Helse
 
-Vi ønsker at våre ansatte har et godt liv – og en god helse. Her kan faktisk vi som arbeidsgiver 
-bidra en god del. Vi bryr oss om ergonomi og fysisk arbeidsmiljø. Vi oppfordrer til og støtter fysisk 
+Vi ønsker at våre ansatte har et godt liv – og en god helse. Her kan faktisk vi som arbeidsgiver
+bidra en god del. Vi bryr oss om ergonomi og fysisk arbeidsmiljø. Vi oppfordrer til og støtter fysisk
 aktivitet, og vi har en meget flott helseforsikring.
 
 La oss starte med ergonomi og arbeidsmiljø: Som konsulenter jobber vi ofte, og
@@ -252,8 +257,8 @@ som Gjensidige kaller det. Forsikringen dekker:
 
 Variant skal også bidra til nærmiljøet og samfunnet der vi finnes. Som beskrevet
 under [goder og ytelser](#andre-goder-og-ytelser) så har hver variant 11 000 kr
-i året til å kjøpe gadgets/dingser for. Disse pengene kan også brukes til å sponse en 
-frivillig eller veldedig organisasjon. Fotballaget til dattera, UNICEF eller eldrekafeen 
+i året til å kjøpe gadgets/dingser for. Disse pengene kan også brukes til å sponse en
+frivillig eller veldedig organisasjon. Fotballaget til dattera, UNICEF eller eldrekafeen
 i bydelen. Valget er ditt!
 
 Årlig
@@ -262,11 +267,11 @@ til en veldedig organisasjon med verdier og formål som harmonerer med våre. Va
 
 #### Sponsorat
 
-Variant har et samfunnsansvar og i den sammenheng vil det tidvis være riktig å sponse 
-ulike frivillige arrangement eller aktiviteter. Vi har følgende forutsetninger 
+Variant har et samfunnsansvar og i den sammenheng vil det tidvis være riktig å sponse
+ulike frivillige arrangement eller aktiviteter. Vi har følgende forutsetninger
 for at et sponsorat skal kvalifisere: Enten må arrangementet eller aktiviteten bidra til
 
-- økt faglig synlighet av Variant i Trondheim, Oslo eller Bergen, eller
+- økt faglig synlighet av Variant i Trondheim, Oslo eller Bergen
 - økt kvinneandel og mangfold i IT-bransjen
 
 Hvis en av disse er tilstede vil saken behandles av ledergruppen, sett opp i mot øvrig sponsorvirksomhet. [Se våre mangfoldssider for mer info](https://www.variant.no/mangfold).
@@ -289,14 +294,14 @@ ansvar for oppfølging og håndtering av dette.
 
 #### Utplassering og lærlinger
 
-Variant har et ansvar om å etablere erfaring hos unge mennesker. Tidvis kommer det henvendelser om 
-utplassering eller hospitering fra skolesystemet. Dette kan være både fra ungdomsskole, videregående, 
-høyskole eller universitet. Felles for disse er at de kommer utenom sommerjobbordningen vi har. Dette er 
+Variant har et ansvar om å etablere erfaring hos unge mennesker. Tidvis kommer det henvendelser om
+utplassering eller hospitering fra skolesystemet. Dette kan være både fra ungdomsskole, videregående,
+høyskole eller universitet. Felles for disse er at de kommer utenom sommerjobbordningen vi har. Dette er
 initiativ vi gjerne ønsker å imøtekomme, men som kan være utfordrende å løse i en prosjekthverdag ute hos kunder.
 
-For at dette skal lykkes og en utplassering skal være en god opplevelse for eleven eller studenten 
-trenger vi for hvert tilfelle en fadder. Denne fadderen vil ha et spesielt og daglig ansvar for å 
-følge opp og lage opplegg for studenten eller eleven. Fadder kan selv avgjøre om det for eksempel er 
+For at dette skal lykkes og en utplassering skal være en god opplevelse for eleven eller studenten
+trenger vi for hvert tilfelle en fadder. Denne fadderen vil ha et spesielt og daglig ansvar for å
+følge opp og lage opplegg for studenten eller eleven. Fadder kan selv avgjøre om det for eksempel er
 mulig å gjennomføre dette ute hos kunde eller ikke. Det er en forutsetning at fadder ikke mister mye fakturerbar tid.
 
 Ønsker du utplassering hos oss ta kontakt via [post@variant.no](mailto:post@variant.no)
@@ -316,9 +321,9 @@ kan jo ofte ha dette. Vi synes det er viktig å følge kunden på dette, for å 
 en del av deres kultur. Vi oppnår mest når vi får jobbe tett med andre, så når
 du velger din arbeidsrytme regner vi med at det er med i vurderingen.
 
-Vi vet at livet har ulike faser. I noen perioder kan du ha behov for å bruke mindre tid på 
-jobb. Hos oss er det mulig å senke stillingsgraden i perioder. Dette avgjør du best selv. Med 
-åpenhet mellom deg, personalleder og kunden om behov og ønsker, vil vi sammen jobbe for å finne 
+Vi vet at livet har ulike faser. I noen perioder kan du ha behov for å bruke mindre tid på
+jobb. Hos oss er det mulig å senke stillingsgraden i perioder. Dette avgjør du best selv. Med
+åpenhet mellom deg, personalleder og kunden om behov og ønsker, vil vi sammen jobbe for å finne
 en løsning alle trives med.
 
 <img
@@ -335,11 +340,11 @@ spare feriedager til romjula.
 
 ### Kompetanseutvikling
 
-Vi ønsker at fagmiljøet der vi er tilstede er sterkt og pulserende. Da må vi også jobbe med faglig 
-utvikling. Vi ser lite verdi i å bygge kompetanse kun for vår egen del, vi tror heller at kunnskap 
-og erfaring gjør seg best i fellesskap med andre. Vi bidrar derfor gledelig i eksisterende fagmiljø, 
-eller oppretter nye der vi kjenner at det mangler. Vi oppfordrer alle – ja fra daglig leder så 
-vel som sommerstudenter i selskapet – til å være aktive på meetups og fagtreff. Vi er først og 
+Vi ønsker at fagmiljøet der vi er tilstede er sterkt og pulserende. Da må vi også jobbe med faglig
+utvikling. Vi ser lite verdi i å bygge kompetanse kun for vår egen del, vi tror heller at kunnskap
+og erfaring gjør seg best i fellesskap med andre. Vi bidrar derfor gledelig i eksisterende fagmiljø,
+eller oppretter nye der vi kjenner at det mangler. Vi oppfordrer alle – ja fra daglig leder så
+vel som sommerstudenter i selskapet – til å være aktive på meetups og fagtreff. Vi er først og
 fremst læreglade fagpersoner over hele fjøla.
 
 <img
@@ -374,9 +379,9 @@ det året. Ut å avle læreglede!
 
 #### Variantdag
 
-Den første fredagen i hver måned (foruten januar og juli) har vi det vi kaller en Variantdag. 
-Dette er en “innedag”, der vi alle bruker hele dagen sammen, for faglig, administrativt og 
-sosialt påfyll. Vi har også noen felles variantdager gjennom året. Da møtes varianter fra 
+Den første fredagen i hver måned (foruten januar og juli) har vi det vi kaller en Variantdag.
+Dette er en “innedag”, der vi alle bruker hele dagen sammen, for faglig, administrativt og
+sosialt påfyll. Vi har også noen felles variantdager gjennom året. Da møtes varianter fra
 alle de ulike lokasjonene i en byene våre slik at vi kan dele enda flere perspektiver og sosialisere.
 
 Planlegging av variantdag skjer litt ulikt i de ulike byene. Les mer om hvordan vi gjør det under [Lokasjoner](https://handbook.variant.no/avdelinger/).
@@ -408,7 +413,7 @@ investere i andre program.
 
 #### Utviklingsprogram
 
-Det å være en variant er på ingen måte en statisk øvelse. Vi må alle utvikle oss for å alltid 
+Det å være en variant er på ingen måte en statisk øvelse. Vi må alle utvikle oss for å alltid
 være godt egnet til å løse krevende oppgaver for våre kunder.
 
 Vi har derfor et utviklingsprogram for ulike varianter med ulike erfaring og
@@ -417,11 +422,11 @@ for nyutdannede og konsulenter med mindre enn 2 års erfaring.
 
 **variant:skudd**
 
-Dette er vårt oppstartsprogram og er skreddersydd for de som kommer rett fra skolen eller har 
+Dette er vårt oppstartsprogram og er skreddersydd for de som kommer rett fra skolen eller har
 mindre enn to års erfaring.
 
-Merk, det er ingen tvil om at den viktigste læringen skjer i prosjekter ute hos kunder 37,5 timer 
-i uka. For å forsterke læringen i prosjekt samt sikre at alle har et felles begrepsapparata og 
+Merk, det er ingen tvil om at den viktigste læringen skjer i prosjekter ute hos kunder 37,5 timer
+i uka. For å forsterke læringen i prosjekt samt sikre at alle har et felles begrepsapparata og
 ett felles grunnlag har vi etablert variant:skudd
 
 <img
@@ -503,9 +508,9 @@ stille spørsmålet: “Kan ikke dette legges ut, da?”
 Som konsulenter sitter vi ofte ute hos kunde, og derfor gjør vi en ekstra
 innsats for å finne på hyggelige ting sammen.
 
-Vi oppfordrer alle til å inkludere hverandre i sosiale lag og gjerne dyrke sine 
-interesser sammen. Dette kan være å lage mat, lese tegneserier eller se på sportslige 
-aktiviteter. I tillegg har vi faste organiserte sosiale aktiviteter som hver 
+Vi oppfordrer alle til å inkludere hverandre i sosiale lag og gjerne dyrke sine
+interesser sammen. Dette kan være å lage mat, lese tegneserier eller se på sportslige
+aktiviteter. I tillegg har vi faste organiserte sosiale aktiviteter som hver
 enkelt kan delta på:
 
 - Hver 14. dag: Donut med tilfeldig trekt kollega
@@ -516,17 +521,17 @@ enkelt kan delta på:
 - September: Utenlandstur med følge
 - Desember: Julebord med følge
 
-I tillegg har vi et fond på 50 000 kr som vi kan bruke som midler til forskjellige sosiale 
+I tillegg har vi et fond på 50 000 kr som vi kan bruke som midler til forskjellige sosiale
 aktiviteter utover året. Dette kan være til leie av hytte, turer eller andre aktiviteter.
 
 ### Årlig tur
 
-Variantdagen i **september** er alltid litt spesiell. Da drar vi – med en partner eller venn 
-til følge – ut av byen for å feire vår egen bursdag og oppleve nye ting. Foreløpig har vi vært 
-i London, på Hotell Union Øye i Norangsdal, i Kragerø og København/Praha. I 2022 har Variants 
-Oslo-kontor blitt så stort at Trondheim og Oslo valgte hver sin turdestinasjon. Selv om vi er 
-et samlet selskap som deler verdier og læreglede, har vi som ambisjon at de ulike lokasjonene 
-får frihet og rom til å utvikle sin egen kultur og bli enda bedre kjent – både med hverandre 
+Variantdagen i **september** er alltid litt spesiell. Da drar vi – med en partner eller venn
+til følge – ut av byen for å feire vår egen bursdag og oppleve nye ting. Foreløpig har vi vært
+i London, på Hotell Union Øye i Norangsdal, i Kragerø og København/Praha. I 2022 har Variants
+Oslo-kontor blitt så stort at Trondheim og Oslo valgte hver sin turdestinasjon. Selv om vi er
+et samlet selskap som deler verdier og læreglede, har vi som ambisjon at de ulike lokasjonene
+får frihet og rom til å utvikle sin egen kultur og bli enda bedre kjent – både med hverandre
 og den utvidede variantfamilien.
 
 <img
@@ -537,8 +542,8 @@ og den utvidede variantfamilien.
 
 ### SosKom
 
-Sosialkomiteen planlegger og arrangerer varierte aktiviteter - og man blir med på det man har 
-lyst til. Tidligere har vi vært på go-cart, klatring, sip-and-paint, meditasjonskurs, topptur, 
+Sosialkomiteen planlegger og arrangerer varierte aktiviteter - og man blir med på det man har
+lyst til. Tidligere har vi vært på go-cart, klatring, sip-and-paint, meditasjonskurs, topptur,
 og variant-frokost der vi tester ut byens beste hotell-frokoster sammen.
 
 <img
@@ -547,26 +552,31 @@ og variant-frokost der vi tester ut byens beste hotell-frokoster sammen.
   className="illustration illustration--right"
 />
 
+<div className="divspace--top"></div>
+
 ## Penger
 
-Raushet handler om så mye og styrer hvordan vi forholder oss til hverandre. Men det legger oså noen føringer på 
+Raushet handler om så mye og styrer hvordan vi forholder oss til hverandre. Men det legger oså noen føringer på
 hvordan vi skal kompensere alle varianter av alle slag.
 
 ### Lønn
-Vi er sikre på at flinke folk i liten grad lar seg motivere av lønn alene, men god lønn er like fullt viktig for den frihet og stabilitet vi ønsker å gi. Et prinsipp i Variant er at lønn skal være konkurransedyktig. 
+
+Vi er sikre på at flinke folk i liten grad lar seg motivere av lønn alene, men god lønn er like fullt viktig for den frihet og stabilitet vi ønsker å gi. Et prinsipp i Variant er at lønn skal være konkurransedyktig.
 
 #### Konsulenter
-Lønnen vår bestemmes utelukkende av en utjevnet kurve for øvre kvartil av Teknas lønnsstatistikk. 
+
+Lønnen vår bestemmes utelukkende av en utjevnet kurve for øvre kvartil av Teknas lønnsstatistikk.
 Lønnsøkninger tas ikke individuelt – det skjer automatisk. Din lønn baseres rett og slett på antall års erfaring.
 
-Hva den enkelte tjener er ingen hemmelighet i Variant. Lurer du på hva du ville tjent 
+Hva den enkelte tjener er ingen hemmelighet i Variant. Lurer du på hva du ville tjent
 hos oss? Vår hjemmesnekra [kalkulator](https://www.variant.no/kalkulator) 🧮 gir deg svaret!
 
-
 #### Ledere
+
 Også lederlønninger i Variant skal være konkurransedyktige. Flinke ledere erfaringsmessig er (om mulig) enda vanskeligere å få tak i enn flinke konsulenter. Ledere i Variant arbeider operativt som konsulenter samtidig som de har ekstra ansvar for salg, selskapsutvikling og personal. Lederlønnen for ledere med CxO-roller (CEO, CTO, CDO, etc) er individuell og bestemmes ut fra rolle, ansvar og verdien av selskapet de leder. Den bestemmes ikke av ansiennitet. CxO-ledere har ikke overtidsbetalt og får heller ikke bonus. Lederlønningene besluttes av selskapenes styre. Lederlønningene er i likhet med alt annet som handler om betingelser i Variant åpent tilgjengelig for alle.
 
 I 2023 er dette konsernledelsens lønner
+
 - Konserndirektør: 1 600 000 kr
 - Komersiell direktør: 1 600 000 kr
 - CTO: 1 600 000 kr
@@ -574,25 +584,28 @@ I 2023 er dette konsernledelsens lønner
 - CRO: 1 100 000 kr
 
 Våre daglige ledere har fastlønn i tillegg til bonus
+
 - CEO for Bergen, Oslo og Trondheim: Fastlønn fra 1 100 000 til 1 500 000 kr
 
 ##### Overgangstid ledertillegg
+
 Vi har til nå operert med tillegg til kalkulatorlønn for ledere i ulike selskaper. Disse ligger i dag på 150 000 til 200 000 kr for hver leder (CTO og CDO i selskaper). I tillegg er disse med å deler på bonus. Målet er å gå over til lønn ut i fra prinsippene beskrevet i forrige avsnitt.
 
-Følgende ledere lønnes etter denne modellen. 
+Følgende ledere lønnes etter denne modellen.
+
 - CTO og CDO i Bergen: 150 000 kr i ledertillegg
 - CTO og CDO i Oslo: 200 000 kr i ledertillegg
 - CTO i Trondheim: 200 000 kr i ledertillegg
 
-
 #### Andre som jobber for Variant
-Etter hvert som Variant har vokst, får vi behov for administrative og driftskritiske ressurser som gir 
-uvurderlige bidrag til organisasjonen. Støtteroller som økonomi, drift og renhold skal også sikres gode 
-betingelser. I dag har vi ansatt unge reholdere som både får arbeidserfaring og mulighet til å ha en egen 
-økonomi. Her følger vi  arbeidstilynets anbefalinger for minstelønn for renhold. 
 
+Etter hvert som Variant har vokst, får vi behov for administrative og driftskritiske ressurser som gir
+uvurderlige bidrag til organisasjonen. Støtteroller som økonomi, drift og renhold skal også sikres gode
+betingelser. I dag har vi ansatt unge reholdere som både får arbeidserfaring og mulighet til å ha en egen
+økonomi. Her følger vi arbeidstilynets anbefalinger for minstelønn for renhold.
 
 #### Overtidstillegg
+
 Vi ønsker ikke å jobbe overtid. Kvaliteten på arbeidet blir best hvis vi har
 godt med overskudd, og det sikrer vi med en god balanse mellom jobb og fritid.
 Likevel finnes det kortere perioder hvor det blir veldig travelt, og hvor det
@@ -647,7 +660,6 @@ gruppelivsforsikring med engangsutbetaling ved dødsfall, behandlingsforsikring
 og dekning for annen ulykke enn yrkesskade.
 
 ### Goder og ytelser
-
 
 <div className="listGap background-color-secondary4__tint2">
 

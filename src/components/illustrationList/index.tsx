@@ -8,6 +8,7 @@ type IllustrationListProps = {
   text: string;
   href?: Url;
   linkText?: string;
+  children: React.ReactNode;
 };
 
 const figureName = [
@@ -31,7 +32,7 @@ const figureName = [
   'wifiHigh',
 ] as const;
 
-type FigureName = (typeof figureName)[number];
+type FigureName = typeof figureName[number];
 
 export const IllustrationList = ({
   figureName,
@@ -77,7 +78,7 @@ export const IllustrationListHeading = ({
 
 export const IllustrationHeading = ({
   figureName,
-  headingText,
+  children,
 }: IllustrationListProps) => {
   return (
     <div className={style.illustrationList}>
@@ -87,7 +88,7 @@ export const IllustrationHeading = ({
           role="none"
           alt=""
         />
-        <h3>{headingText}</h3>
+        {children}
       </div>
     </div>
   );

@@ -3,6 +3,9 @@
   font-size: 0.8em;
   padding: 0 0.5rem;
   align-self: baseline;
+
+  /* Incase we want anchor tags after headings remove this!*/
+  display: none;
 }
 .anchor:visited,
 .anchor:link {

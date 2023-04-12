@@ -22,7 +22,7 @@ body,
   position: relative;
 }
 html {
-  --font-size-min: 14;
+  --font-size-min: 16;
   --font-size-max: 18;
   background: var(--color-secondary4__tint3);
   scroll-behavior: smooth;
@@ -31,15 +31,30 @@ h1,
 h2,
 h3,
 h4 {
-  word-wrap: break-word;
+  word-wrap: normal;
   margin-bottom: 0.5rem;
 }
 h1 {
   font-size: 4rem;
+  position: relative;
+  z-index: 1;
 }
 h2 {
-  font-size: 2.4rem;
+  font-size: 2.25rem;
+
+  position: relative;
+
+  padding-top: 1.5rem;
+  background-color: transparent;
+  background-image: url('/assets/backgroundBlobs/headerBlob.svg');
+  background-repeat: no-repeat;
+  background-position: bottom left;
 }
+
+h2 {
+  padding-top: 5rem;
+}
+
 h3 {
   font-size: 1.6rem;
   font-family: 'Graphik', sans-serif;
@@ -54,20 +69,23 @@ li + li {
 }
 
 * + h2 {
-  margin-top: 0;
-  padding-top: 4rem;
+  padding-top: 6rem;
 }
 * + h3 {
-  margin-top: 0;
-  padding-top: 3.5rem;
+  margin-top: -3.5rem;
+  padding-top: 6.5rem;
 }
 * + h4 {
-  margin-top: 0;
-  padding-top: 3rem;
+  margin-top: -3rem;
+  padding-top: 6rem;
 }
 * + h5 {
   margin-top: 0;
   padding-top: 2rem;
+}
+
+.divspace--top {
+  margin-top: 10rem;
 }
 
 .illustration {
@@ -88,6 +106,51 @@ li + li {
   display: block;
   top: 8rem;
   max-width: 35rem;
+}
+
+.wave {
+  z-index: 1;
+  background: rgb(40, 37, 82);
+  background: url('/assets/illustrations/wave.svg'),
+    linear-gradient(
+      0deg,
+      rgba(40, 37, 82, 1) 0%,
+      rgba(40, 37, 82, 1) 97%,
+      rgba(0, 212, 255, 0) 100%
+    );
+
+  transform: rotate(180deg);
+
+  height: 5rem;
+  background-size: contain;
+
+  margin-left: -50vw;
+  margin-right: -50vw;
+  position: relative;
+  right: 50%;
+  left: 50%;
+  bottom: 2rem;
+  width: 100vw;
+}
+
+.darkBackground {
+  background-color: var(--color-secondary1__shade2);
+  padding-bottom: 20rem;
+  margin-bottom: -20rem;
+  padding-top: 30rem;
+  margin-top: -30rem;
+  padding-inline: 50rem;
+  margin-inline: -50rem;
+  position: relative;
+  z-index: 0;
+}
+
+.darkBackground * {
+  color: var(--color-standard__white);
+}
+
+.darkBackground p a {
+  color: var(--color-standard__white);
 }
 
 .illustration--bottom {
@@ -161,7 +224,7 @@ a:visited {
 }
 a,
 a:hover {
-  color: var(--color-secondary2__shade2);
+  color: var(--color-secondary2__shade3);
 }
 
 @media (max-width: 1100px) {
@@ -213,6 +276,12 @@ h3 .markdownIt-Anchor {
 }
 h4 .markdownIt-Anchor {
   font-size: 1rem;
+}
+
+div .fakeHeading3 > * {
+  font-size: 1.6rem;
+  font-family: 'Graphik', sans-serif;
+  font-weight: 500;
 }
 
 .illustration--center {
