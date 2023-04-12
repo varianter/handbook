@@ -8,8 +8,8 @@ import {
   InstantSearchServerState,
   InstantSearchSSRProvider,
   Pagination,
-  RefinementList,
   SearchBox,
+  useInstantSearch,
 } from 'react-instantsearch-hooks-web';
 
 import type { Hit as AlgoliaHit } from 'instantsearch.js';
@@ -20,12 +20,13 @@ import { getServerState } from 'react-instantsearch-hooks-server';
 import Link from 'next/link';
 import { Userdata, useUserdata } from 'src/auth';
 import GeneralLayout from 'src/layouts/general';
+import style from 'src/search/search.module.css';
+import Image from 'next/image';
+import clear from 'public/assets/illustrations/clear.svg';
 
 const appId = process.env.NEXT_PUBLIC_ALGOLIA_APP_ID || '';
 const apiKey = process.env.NEXT_PUBLIC_ALGOLIA_READ_KEY || '';
 const searchClient = algoliasearch(appId, apiKey);
-
-import style from 'src/search/search.module.css';
 
 const SEARCH_HITS_PER_PAGE = 8;
 
@@ -39,7 +40,8 @@ export default function Search(props: SearchPageProps) {
 
   return (
     <GeneralLayout toc={[]} frontmatter={{ title: 'Søk' }} noSidebar>
-      <h2>Søk</h2>
+      <CloseSearch />
+      <h2 className={style.header}>Hva leter du etter?</h2>
       <SearchPage {...props} userInfo={userInfo} />
     </GeneralLayout>
   );
@@ -70,6 +72,7 @@ function Hit({ hit }: HitProps) {
 type SearchPagePropsWithUser = SearchPageProps & {
   userInfo?: Userdata;
 };
+
 function SearchPage(props: SearchPagePropsWithUser) {
   const { serverState, url } = props;
 
@@ -92,24 +95,82 @@ function SearchPage(props: SearchPagePropsWithUser) {
       >
         <Configure hitsPerPage={SEARCH_HITS_PER_PAGE} />
 
-        <div className={style.searchInputs}>
-          <SearchBox autoFocus placeholder="Hva leter du etter?" />
-          <RefinementList
-            attribute="department"
-            sortBy={['name:desc']}
-            classNames={{
-              count: style.refinement__pill,
-              labelText: style.refinement__labelText,
-              label: style.refinement__label,
-            }}
-          />
+        <div>
+          <SearchBox autoFocus placeholder="Skriv her" />
+          <div className={style.searchDivider} />
+          <RecentSearches />
         </div>
 
         <Hits hitComponent={Hit} />
+        <HandleNoHits />
         <Pagination />
       </InstantSearch>
     </InstantSearchSSRProvider>
   );
+}
+
+function CloseSearch() {
+  return (
+    <div className={style.closeSearchContainer}>
+      <div className={style.closeSearch}>
+        <Link href={'./'}>
+          <span className={style.closeSearchButton}>
+            Lukk
+            <Image
+              className={style.closeSearchIcon}
+              priority
+              src={clear}
+              height={15}
+              width={15}
+              alt={'Close'}
+            />
+          </span>
+        </Link>
+      </div>
+    </div>
+  );
+}
+
+function RecentSearches() {
+  const { indexUiState, setIndexUiState } = useInstantSearch();
+
+  const recentSearches: any[] = [
+    { label: 'Lønn', color: 'var(--color-primary__tint4)' },
+    { label: 'Aksjer', color: 'var(--color-secondary1__tint4)' },
+    { label: 'Fordeler', color: 'var(--color-secondary2__tint4)' },
+    { label: 'Miljøfyrtårn', color: 'var(--color-secondary3__tint4)' },
+  ];
+
+  if (!indexUiState.query)
+    return (
+      <div className={style.recentSearchesContainer}>
+        <h3 className={style.subHeader}>Andre har søkt etter</h3>
+        <div className={style.recentSearchChipsContainer}>
+          {recentSearches.map((search, index) => (
+            <button
+              type="button"
+              key={index}
+              style={{ backgroundColor: search.color, cursor: 'pointer' }}
+              className={style.recentSearchChip}
+              onClick={() => {
+                setIndexUiState({ query: search.label });
+              }}
+            >
+              {search.label}
+            </button>
+          ))}
+        </div>
+      </div>
+    );
+
+  return null;
+}
+
+function HandleNoHits() {
+  const { results } = useInstantSearch();
+  if (results.nbHits > 0) return null;
+
+  return <div>Ingen søkeresultater funnet</div>;
 }
 
 export async function getServerSideProps({

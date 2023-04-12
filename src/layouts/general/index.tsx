@@ -28,6 +28,10 @@ const isLandingpage = (asPath: string) => {
   return asPath === '/';
 };
 
+const isSearchpage = (asPath: string) => {
+  return asPath.split('?')[0] === '/search';
+};
+
 // @TODO This should be automatically generated from the tree structure
 const metadata = {
   handbooks: [
@@ -189,11 +193,13 @@ export default function GeneralLayout({
     isActiveHandbook(category.path, asPath, true),
   );
 
+  const classes = and(
+    asPath.split('?')[0] === '/search' ? style.search__main : style.main,
+    !noSidebar ? style.main__sidebar : undefined,
+  );
   const currentProcessTheme = metadata.ProcessThemes.find((theme) =>
     isActiveHandbook(theme.path, asPath, true),
   );
-
-  const classes = and(style.main, !noSidebar ? style.main__sidebar : undefined);
 
   return (
     <div className={classes}>
@@ -211,55 +217,61 @@ export default function GeneralLayout({
           property="og:image"
           content="https://www.variant.no/og-header-min.png"
         />
+        <meta
+          name="description"
+          content="En variants håndbok. Hvordan ting gjøres i Variant, hva vi prøver å oppnå og hvorfor vi tenker som vi gjør"
+        />
       </Head>
       <header
         className={isLandingpage(asPath) ? style.header__dark : style.header}
       >
-        <ul
-          className={
-            isLandingpage(asPath) && (waveVisible || scrollPosition < 500)
-              ? style.header__handbooks__dark
-              : style.header__handbooks
-          }
-        >
-          {metadata.handbooks.map((handbook, index) => (
-            <li
-              key={handbook.title}
-              className={setActiveNavLink(
-                handbook.path,
-                asPath,
-                waveVisible,
-                scrollPosition,
-              )}
-            >
-              {isNotMobile && (
-                <Link href={`/${handbook.path}`} tabIndex={tabIndex}>
-                  {`${index + 1}. ${handbook.title}`}
-                </Link>
-              )}
-            </li>
-          ))}
+        {!isSearchpage(asPath) && (
+          <ul
+            className={
+              isLandingpage(asPath) && (waveVisible || scrollPosition < 500)
+                ? style.header__handbooks__dark
+                : style.header__handbooks
+            }
+          >
+            {metadata.handbooks.map((handbook, index) => (
+              <li
+                key={handbook.title}
+                className={setActiveNavLink(
+                  handbook.path,
+                  asPath,
+                  waveVisible,
+                  scrollPosition,
+                )}
+              >
+                {isNotMobile && (
+                  <Link href={`/${handbook.path}`} tabIndex={tabIndex}>
+                    {`${index + 1}. ${handbook.title}`}
+                  </Link>
+                )}
+              </li>
+            ))}
 
-          {isNotMobile && (
-            <li>
-              <div className={style.header__handbooks__search}>
-                <Link
-                  href={'/search'}
-                  className={style.header__handbooks__search__button}
-                >
-                  <span>Søk</span>
-                  <Image
-                    priority
-                    src={magnifyingGlass}
-                    height={'30'}
-                    width={'30'}
-                    alt="Søk"
-                  />
-                </Link>
-              </div>
-            </li>
-          )}
-        </ul>
+            {isNotMobile && (
+              <li>
+                <div className={style.header__handbooks__search}>
+                  <Link
+                    href={'/search'}
+                    className={style.header__handbooks__search__button}
+                  >
+                    <span>Søk</span>
+                    <Image
+                      priority
+                      src={magnifyingGlass}
+                      height={'30'}
+                      width={'30'}
+                      alt="Søk"
+                    />
+                  </Link>
+                </div>
+              </li>
+            )}
+          </ul>
+        )}
 
         {!noSidebar && !isNotMobile && (
           <div className={style.burgerButtonContainer} ref={closeRef}>
@@ -277,12 +289,14 @@ export default function GeneralLayout({
         )}
       </header>
 
-      <div
-        className={and(
-          style.nav__background,
-          isMenuVisible ? style.nav__background__active : ' ',
-        )}
-      ></div>
+      {!isSearchpage(asPath) && (
+        <div
+          className={and(
+            style.nav__background,
+            isMenuVisible ? style.nav__background__active : ' ',
+          )}
+        ></div>
+      )}
 
       {!noSidebar && (
         <nav
@@ -456,7 +470,11 @@ export default function GeneralLayout({
         </nav>
       )}
 
-      <section className={style.content}>{children}</section>
+      <section
+        className={!isSearchpage(asPath) ? style.content : style.searchContent}
+      >
+        {children}
+      </section>
 
       <footer className={style.footer}>
         <div className={style.footer__inner}>

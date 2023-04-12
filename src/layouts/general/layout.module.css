@@ -1,4 +1,5 @@
-.main {
+.main,
+.search__main {
   position: relative;
   overflow-x: hidden;
   width: 100%;
@@ -8,7 +9,24 @@
   flex-direction: column;
 }
 
-.content {
+.search__main {
+  background-color: var(--color-secondary1__shade3);
+  color: var(--color-standard__white);
+}
+
+.search__main a {
+  color: var(--color-standard__white);
+  font-family: 'Recoleta', serif;
+}
+
+.search__main h2 {
+  font-family: 'Recoleta', serif;
+  font-size: 4rem;
+  line-height: 87px;
+}
+
+.content,
+.searchContent {
   max-width: 50rem;
   min-height: 100vh;
   width: 100%;
