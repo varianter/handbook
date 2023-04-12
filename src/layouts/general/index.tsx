@@ -28,6 +28,10 @@ const isLandingpage = (asPath: string) => {
   return asPath === '/';
 };
 
+const isSearchpage = (asPath: string) => {
+  return asPath === '/search';
+};
+
 // @TODO This should be automatically generated from the tree structure
 const metadata = {
   handbooks: [
@@ -197,8 +201,6 @@ export default function GeneralLayout({
     isActiveHandbook(theme.path, asPath, true),
   );
 
-  // const classes = and(style.main, !noSidebar ? style.main__sidebar : undefined);
-
   return (
     <div className={classes}>
       <Head>
@@ -223,7 +225,7 @@ export default function GeneralLayout({
       <header
         className={isLandingpage(asPath) ? style.header__dark : style.header}
       >
-        {asPath.split('?')[0] !== '/search' && (
+        {!isSearchpage(asPath) && (
           <ul
             className={
               isLandingpage(asPath) && (waveVisible || scrollPosition < 500)
@@ -287,12 +289,14 @@ export default function GeneralLayout({
         )}
       </header>
 
-      <div
-        className={and(
-          style.nav__background,
-          isMenuVisible ? style.nav__background__active : ' ',
-        )}
-      ></div>
+      {!isSearchpage(asPath) && (
+        <div
+          className={and(
+            style.nav__background,
+            isMenuVisible ? style.nav__background__active : ' ',
+          )}
+        ></div>
+      )}
 
       {!noSidebar && (
         <nav
@@ -466,7 +470,11 @@ export default function GeneralLayout({
         </nav>
       )}
 
-      <section className={style.content}>{children}</section>
+      <section
+        className={!isSearchpage(asPath) ? style.content : style.searchContent}
+      >
+        {children}
+      </section>
 
       <footer className={style.footer}>
         <div className={style.footer__inner}>
