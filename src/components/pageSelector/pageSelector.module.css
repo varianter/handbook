@@ -1,0 +1,35 @@
+.pageSelector {
+  display: flex;
+  gap: 2rem;
+  margin-block: 1rem;
+}
+
+.pageSelectorButton {
+  padding: 0.25rem 0.5rem;
+  background-color: var(--color-secondary4);
+  border-radius: 0.5rem;
+}
+
+.pageSelectorButtonActive {
+  background-color: var(--color-primary__tint3);
+}
+
+.pageSelectorButton a {
+  text-decoration: none;
+  color: var(--color-standard__black);
+}
+
+.pageSelectorButton a:visited {
+  color: var(--color-standard__black);
+}
+
+.pageSelectorButton:hover {
+  background-color: var(--color-primary__tint4);
+}
+
+@media (max-width: 450px) {
+  .pageSelector {
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+}

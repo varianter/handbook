@@ -50,7 +50,7 @@ export default withImages(
         type: 'asset/resource',
         generator: {
           publicPath:
-            process.env.NODE_ENV === 'development' ? '_next/' : '../../',
+            process.env.NODE_ENV === 'development' ? '../../_next/' : '../../',
           filename: 'static/fonts/[name].[contenthash][ext]',
         },
       });

@@ -1,17 +1,20 @@
 import favicon from '@variant/profile/lib/logo/favicon.png';
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useCallback, useEffect, useState } from 'react';
-import slugify from 'slugify';
 import { getAuthServerSideProps } from 'src/auth';
-import BackgroundBlobs from 'src/background';
 import LoginForm from 'src/components/login-form';
-import SearchForm from 'src/components/search-form';
+import NavbarLinks from 'src/components/navbarLinks/navbarLinks';
+import NavbarLinksMobile from 'src/components/navbarLinks/navbarLinksMobile';
 import { and } from 'src/utils/css';
 import { LayoutProps } from '../signature';
 import style from './layout.module.css';
+
+import backArrow from './backArrow.svg';
+import magnifyingGlass from './magnifyingGlass.svg';
 
 const title = 'Variant Håndbok';
 
@@ -21,29 +24,40 @@ const isActiveHandbook = (path: string, asPath: string, isCategory = false) => {
   return `/${path}` === asPath;
 };
 
+const isLandingpage = (asPath: string) => {
+  return asPath === '/';
+};
+
 // @TODO This should be automatically generated from the tree structure
 const metadata = {
   handbooks: [
     {
       data: {
-        title: 'En variants håndbok',
+        title: 'Fundamentet',
       },
       path: '',
-      title: 'En variants håndbok',
+      title: 'Fundamentet',
     },
     {
       data: {
-        title: 'Det praktiske',
+        title: 'Praktisk info',
       },
       path: 'information',
-      title: 'Det praktiske',
+      title: 'Praktisk info',
     },
     {
       data: {
-        title: 'Kvalitetsrutiner',
+        title: 'Prosesser',
       },
-      path: 'quality_manual',
-      title: 'Kvalitetsrutiner',
+      path: 'prosesser',
+      title: 'Prosesser',
+    },
+    {
+      data: {
+        title: 'Lokasjoner',
+      },
+      path: 'avdelinger',
+      title: 'Lokasjoner',
     },
   ],
   categories: [
@@ -78,23 +92,96 @@ const metadata = {
       ],
     },
   ],
+  ProcessThemes: [
+    {
+      path: 'prosesser',
+      title: 'Prosesser',
+      heading: 'Temaer',
+      handbooks: [
+        {
+          data: {
+            title: 'Ansatt',
+            order: 0,
+          },
+          path: 'prosesser-ansatt',
+          title: 'Ansatt',
+        },
+        {
+          data: {
+            title: 'HMS',
+            order: 1,
+          },
+          path: 'prosesser-hms',
+          title: 'HMS',
+        },
+        {
+          data: {
+            title: 'Bærekraft',
+            order: 2,
+          },
+          path: 'prosesser-baerekraft',
+          title: 'Bærekraft',
+        },
+        {
+          data: {
+            title: 'Mangfold',
+            order: 3,
+          },
+          path: 'prosesser-mangfold',
+          title: 'Mangfold',
+        },
+        {
+          data: {
+            title: 'Ledelse',
+            order: 4,
+          },
+          path: 'prosesser-ledelse',
+          title: 'Ledelse',
+        },
+      ],
+    },
+  ],
 };
 
 export default function GeneralLayout({
   frontmatter,
   toc,
-  currentSearch = '',
   noSidebar = false,
   children,
 }: LayoutProps) {
-  const subHeadings = toc[0]?.children.map((c) => c.value) ?? [];
+  const subHeadings = toc[0]?.children;
   const modalRef = React.createRef<HTMLDivElement>();
   const closeRef = React.createRef<HTMLDivElement>();
+  const waveVisible = useOnScreen(waveRef);
 
   const { isMenuVisible, setMenuVisible, tabIndex } = useTogglableBurgerMenu(
     modalRef,
     closeRef,
   );
+
+  const { width } = useWindowDimensions(setMenuVisible);
+  var isNotMobile = true;
+
+  if (width) {
+    isNotMobile = width > 1200;
+  }
+
+  const [scrollPosition, setscrollPosition] = useState(0);
+
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setscrollPosition(position);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const [activeHeading, setActiveHeading] = useState('');
 
   const { asPath } = useRouter();
 
@@ -106,6 +193,11 @@ export default function GeneralLayout({
     asPath.split('?')[0] === '/search' ? style.search__main : style.main,
     !noSidebar ? style.main__sidebar : undefined,
   );
+  const currentProcessTheme = metadata.ProcessThemes.find((theme) =>
+    isActiveHandbook(theme.path, asPath, true),
+  );
+
+  // const classes = and(style.main, !noSidebar ? style.main__sidebar : undefined);
 
   return (
     <div className={classes}>
@@ -128,63 +220,58 @@ export default function GeneralLayout({
           content="En variants håndbok. Hvordan ting gjøres i Variant, hva vi prøver å oppnå og hvorfor vi tenker som vi gjør"
         />
       </Head>
-      <header className={style.header}>
+      <header
+        className={isLandingpage(asPath) ? style.header__dark : style.header}
+      >
         {asPath.split('?')[0] !== '/search' && (
-          <ul className={and(true ? style.header__handbooks : '')}>
-            {metadata.handbooks.map((handbook) => (
+          <ul
+            className={
+              isLandingpage(asPath) && (waveVisible || scrollPosition < 500)
+                ? style.header__handbooks__dark
+                : style.header__handbooks
+            }
+          >
+            {metadata.handbooks.map((handbook, index) => (
               <li
                 key={handbook.title}
-                className={
-                  isActiveHandbook(handbook.path, asPath)
-                    ? style.header__handbooks__link__active
-                    : style.header__handbooks__link
-                }
+                className={setActiveNavLink(
+                  handbook.path,
+                  asPath,
+                  waveVisible,
+                  scrollPosition,
+                )}
               >
-                <Link href={`/${handbook.path}`}>
-                  <a tabIndex={tabIndex}>{handbook.title}</a>
-                </Link>
-              </li>
-            ))}
-
-            {metadata.categories.map((category) => (
-              <li
-                key={category.title}
-                className={
-                  isActiveHandbook(category.path, asPath, true)
-                    ? style.header__handbooks__link__active
-                    : style.header__handbooks__link
-                }
-              >
-                <Link href={`/${category.path}`}>
-                  <a tabIndex={tabIndex}>{category.title}</a>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        )}
-
-        {currentCategory && (
-          <ul className={style.header__handbooks__category}>
-            {currentCategory.handbooks.map((handbook) => {
-              return (
-                <li
-                  key={handbook.title}
-                  className={
-                    isActiveHandbook(handbook.path, asPath)
-                      ? style.header__handbooks__link__active
-                      : style.header__handbooks__link
-                  }
-                >
-                  <Link href={`/${handbook.path}`}>
-                    <a tabIndex={tabIndex}>{handbook.title}</a>
+                {isNotMobile && (
+                  <Link href={`/${handbook.path}`} tabIndex={tabIndex}>
+                    {`${index + 1}. ${handbook.title}`}
                   </Link>
-                </li>
-              );
-            })}
+                )}
+              </li>
+            ))}
+
+            {isNotMobile && (
+              <li>
+                <div className={style.header__handbooks__search}>
+                  <Link
+                    href={'/search'}
+                    className={style.header__handbooks__search__button}
+                  >
+                    <span>Søk</span>
+                    <Image
+                      priority
+                      src={magnifyingGlass}
+                      height={'30'}
+                      width={'30'}
+                      alt="Søk"
+                    />
+                  </Link>
+                </div>
+              </li>
+            )}
           </ul>
         )}
 
-        {!noSidebar && (
+        {!noSidebar && !isNotMobile && (
           <div className={style.burgerButtonContainer} ref={closeRef}>
             <span hidden id="menu-label">
               Hovedmeny
@@ -192,10 +279,20 @@ export default function GeneralLayout({
             <Hamburger
               onClick={() => setMenuVisible(!isMenuVisible)}
               isOpen={isMenuVisible}
+              path={asPath}
+              waveVisible={waveVisible}
+              scrollPosition={scrollPosition}
             />
           </div>
         )}
       </header>
+
+      <div
+        className={and(
+          style.nav__background,
+          isMenuVisible ? style.nav__background__active : ' ',
+        )}
+      ></div>
 
       {!noSidebar && (
         <nav
@@ -203,89 +300,173 @@ export default function GeneralLayout({
           ref={modalRef}
         >
           <section className={style.nav__inner}>
-            <ul className={style.nav__handbooks}>
-              {metadata.handbooks.map((handbook) => {
-                return (
-                  <li
-                    key={handbook.title}
-                    className={
-                      isActiveHandbook(handbook.path, asPath)
-                        ? style.nav__inner__link__active
-                        : style.nav__inner__link
-                    }
-                  >
-                    <Link href={`/${handbook.path}`}>
-                      <a tabIndex={tabIndex}>{handbook.title}</a>
-                    </Link>
-                  </li>
-                );
-              })}
+            <div className={style.nav__handbooks__container}>
+              {isNotMobile ? (
+                <div>
+                  <div className={style.header__handbooks__back}>
+                    <img
+                      src={backArrow}
+                      alt="Arrow to Variant.no"
+                      role="none"
+                    />
+                    <a href="https://www.variant.no" tabIndex={tabIndex}>
+                      Til Variant.no
+                    </a>
+                  </div>
+                  <ul className={style.nav__handbooks__container}>
+                    {/* Lokasjoner */}
+                    {currentCategory && (
+                      <li>
+                        <ul className={style.nav__handbooks}>
+                          {currentCategory.handbooks.map((handbook) => {
+                            return (
+                              <li
+                                key={handbook.title}
+                                className={
+                                  isActiveHandbook(handbook.path, asPath) ||
+                                  (asPath.split('/').length == 2 &&
+                                    handbook.title.toLowerCase() ==
+                                      metadata.categories[0].handbooks[0].title.toLowerCase())
+                                    ? style.nav__handbooks__location__active
+                                    : style.nav__handbooks__location
+                                }
+                              >
+                                <Link
+                                  href={`/${handbook.path}`}
+                                  tabIndex={tabIndex}
+                                >
+                                  {handbook.title}
+                                </Link>
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      </li>
+                    )}
+                    {/* {Prosesser} */}
+                    {currentProcessTheme && (
+                      <li>
+                        <ul className={style.nav__inner__container}>
+                          <li className={style.nav__inner__link}>
+                            <a href="">{currentProcessTheme.heading}</a>
+                            {currentProcessTheme.handbooks.map((handbook) => {
+                              return (
+                                <ul className={style.nav__inner__link__child}>
+                                  <li
+                                    className={style.nav__inner__link__children}
+                                  >
+                                    <Link
+                                      href={`/${handbook.path}`}
+                                      tabIndex={tabIndex}
+                                    >
+                                      {handbook.title}
+                                    </Link>
+                                  </li>
+                                </ul>
+                              );
+                            })}
+                          </li>
+                        </ul>
+                      </li>
+                    )}
 
-              {metadata.categories.map((category) => (
-                <li
-                  key={category.title}
-                  className={
-                    isActiveHandbook(category.path, asPath, true)
-                      ? style.nav__inner__link__active
-                      : style.nav__inner__link
-                  }
-                >
-                  <Link href={`/${category.path}`}>
-                    <a tabIndex={tabIndex}>{category.title}</a>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-
-            {currentCategory && (
-              <ul className={style.nav__handbooks}>
-                {currentCategory.handbooks.map((handbook) => {
-                  return (
-                    <li
-                      key={handbook.title}
-                      className={
-                        isActiveHandbook(handbook.path, asPath)
-                          ? style.nav__inner__link__active
-                          : style.nav__inner__lin
-                      }
-                    >
-                      <Link href={`/${handbook.path}`}>
-                        <a tabIndex={tabIndex}>{handbook.title}</a>
+                    {!isMenuVisible &&
+                      subHeadings.map((heading, index) => {
+                        return (
+                          <li
+                            key={index}
+                            className={style.nav__inner__container}
+                            onClick={() => setActiveHeading(heading.value)}
+                          >
+                            <NavbarLinks
+                              heading={heading}
+                              tabIndex={tabIndex}
+                              isOpen={activeHeading == heading.value}
+                            />
+                          </li>
+                        );
+                      })}
+                  </ul>
+                </div>
+              ) : (
+                // hamburger menu
+                <ul className={style.nav__handbooks}>
+                  <li className={style.header__handbooks__search__container}>
+                    <div className={style.header__handbooks__search}>
+                      <Link
+                        href={'/search'}
+                        tabIndex={tabIndex}
+                        className={style.header__handbooks__search__button}
+                      >
+                        <span>Søk</span>
+                        <Image
+                          priority
+                          src={magnifyingGlass}
+                          height={30}
+                          width={30}
+                          alt="Søk"
+                        />
                       </Link>
-                    </li>
-                  );
-                })}
-              </ul>
-            )}
-
-            {subHeadings.length > 0 ? (
-              <>
-                <p>Innhold</p>
-                <ul>
-                  {subHeadings.map((heading) => {
+                    </div>
+                  </li>
+                  <li className={style.nav__hamburger__link__to__variant}>
+                    <img
+                      src={backArrow}
+                      alt="Arrow to Variant.no"
+                      role="none"
+                    />
+                    <a href="https://www.variant.no" tabIndex={tabIndex}>
+                      Til Variant.no
+                    </a>
+                  </li>
+                  {metadata.handbooks.map((handbook, index) => {
                     return (
-                      <li key={heading} className={style.nav__inner__link}>
-                        <a
-                          href={`#${slugify(heading, { lower: false })}`}
+                      <li
+                        key={handbook.title}
+                        className={
+                          isActiveHandbook(handbook.path, asPath) &&
+                          asPath != '/avdelinger'
+                            ? style.nav__inner__link__active
+                            : asPath == '/avdelinger' &&
+                              handbook.title.toLowerCase() == 'lokasjoner'
+                            ? style.nav__inner__link__active__submenu_location
+                            : style.nav__inner__link
+                        }
+                      >
+                        <Link
+                          href={`/${handbook.path}`}
                           tabIndex={tabIndex}
+                          className={
+                            handbook.title.toLowerCase() == 'lokasjoner'
+                              ? style.nav__inner__link__active__location
+                              : style.nav_header_link
+                          }
                         >
-                          {heading}
-                        </a>
+                          {index + 1}. {handbook.title}
+                        </Link>
+
+                        {hamburgerMenu(
+                          handbook.title,
+                          asPath,
+                          subHeadings,
+                          tabIndex,
+                          activeHeading,
+                          setActiveHeading,
+                          currentCategory?.handbooks,
+                        )}
                       </li>
                     );
                   })}
                 </ul>
-              </>
-            ) : null}
+              )}
+            </div>
           </section>
 
-          <LoginForm />
-          <SearchForm currentSearch={currentSearch} />
+          <LoginForm tabIndex={tabIndex} />
         </nav>
       )}
-      <section className={style.content}>{children}</section>
 
-      <BackgroundBlobs />
+      <section className={style.content}>{children}</section>
 
       <footer className={style.footer}>
         <div className={style.footer__inner}>
@@ -369,19 +550,142 @@ export default function GeneralLayout({
   );
 }
 
+// Menu with nesting and special handling of locations
+function hamburgerMenu(
+  handbookTitle: string,
+  asPath: string,
+  subHeadings: TocItem[],
+  tabIndex: number,
+  activeHeading: string,
+  setActiveHeading: any,
+  handbooks: any,
+) {
+  let pathSegments = asPath.split('/');
+  if (
+    pathSegments[1].split('#')[0] == 'avdelinger' &&
+    handbookTitle.toLowerCase() == 'lokasjoner'
+  ) {
+    return handbooks.map((loc: any) => {
+      if (
+        `/${loc.path}` == asPath.split('#')[0] ||
+        (pathSegments.length == 2 &&
+          loc.title.toLowerCase() == handbooks[0].title.toLowerCase())
+      ) {
+        return (
+          <ul key={loc.title} className={style.nav__handbooks__submenu}>
+            <li
+              className={
+                isActiveHandbook(loc.path, asPath) ||
+                (pathSegments.length == 2 &&
+                  loc.title.toLowerCase() ==
+                    metadata.categories[0].handbooks[0].title.toLocaleLowerCase())
+                  ? style.nav__handbooks__location__active
+                  : style.nav__handbooks__location
+              }
+            >
+              <Link href={`/${loc.path}`} tabIndex={tabIndex}>
+                {loc.title}
+              </Link>
+            </li>
+            <li>
+              {hamburgerTopLevelNesting(
+                handbookTitle,
+                asPath,
+                subHeadings,
+                tabIndex,
+                activeHeading,
+                setActiveHeading,
+              )}
+            </li>
+          </ul>
+        );
+      }
+      return (
+        <ul>
+          <li
+            key={loc.title}
+            className={
+              isActiveHandbook(loc.path, asPath)
+                ? style.nav__handbooks__location__active
+                : style.nav__handbooks__location
+            }
+          >
+            <Link href={`/${loc.path}`} tabIndex={tabIndex}>
+              {loc.title}
+            </Link>
+          </li>
+        </ul>
+      );
+    });
+  }
+
+  return hamburgerTopLevelNesting(
+    handbookTitle,
+    asPath,
+    subHeadings,
+    tabIndex,
+    activeHeading,
+    setActiveHeading,
+  );
+}
+
+// Finds the correct menu item to nest headers under, depending on path
+function hamburgerTopLevelNesting(
+  handbookTitle: string,
+  asPath: string,
+  subHeadings: TocItem[],
+  tabIndex: number,
+  activeHeading: string,
+  setActiveHeading: any,
+) {
+  const subMenuItems = subHeadings.map((heading, index) => {
+    return (
+      <div key={index} onClick={() => setActiveHeading(heading.value)}>
+        <NavbarLinksMobile
+          heading={heading}
+          tabIndex={tabIndex}
+          isOpen={activeHeading == heading.value}
+        />
+      </div>
+    );
+  });
+
+  // use first part of path for comparisons, without any #subheaders
+  let basepath = `${asPath.split('/')[1].split('#')[0]}`;
+  for (var i = 0; i < metadata.handbooks.length; i++) {
+    if (
+      handbookTitle === metadata.handbooks[i].title &&
+      basepath === metadata.handbooks[i].path
+    )
+      return subMenuItems;
+  }
+
+  return null;
+}
+
 export const getServerSideProps: GetServerSideProps = getAuthServerSideProps;
+
+type HamburgerProps = {
+  isOpen: boolean;
+  onClick: () => void;
+  path: string;
+  waveVisible: boolean;
+  scrollPosition: number;
+};
 
 function Hamburger({
   isOpen,
   onClick,
-}: {
-  isOpen: boolean;
-  onClick: () => void;
-}) {
+  path,
+  waveVisible,
+  scrollPosition,
+}: HamburgerProps) {
   return (
     <button
       className={and(
-        style.hamburger,
+        isLandingpage(path) && (waveVisible || scrollPosition < 500)
+          ? style.hamburger__dark
+          : style.hamburger,
         isOpen ? style.hamburger__open : undefined,
       )}
       type="button"
@@ -395,6 +699,27 @@ function Hamburger({
       <span></span>
     </button>
   );
+}
+
+function setActiveNavLink(
+  handbookPath: string,
+  asPath: string,
+  waveVisible: boolean,
+  scrollPosition: number,
+) {
+  if (!isLandingpage(asPath) || (!waveVisible && scrollPosition > 500)) {
+    if (isActiveHandbook(handbookPath, asPath)) {
+      return style.header__handbooks__link__active;
+    } else {
+      return style.header__handbooks__link;
+    }
+  } else {
+    if (isActiveHandbook(handbookPath, asPath)) {
+      return style.header__handbooks__link__dark__active;
+    } else {
+      return style.header__handbooks__link__dark;
+    }
+  }
 }
 
 function useTogglableBurgerMenu<T extends HTMLElement, R extends HTMLElement>(
@@ -422,9 +747,6 @@ function useTogglableBurgerMenu<T extends HTMLElement, R extends HTMLElement>(
     const handleClickOutside = (e: MouseEvent) => {
       if (!isMenuVisible || closeButton.current?.contains(e.target as Node)) {
         return;
-      }
-      if (!e.target || !modalRef.current?.contains(e.target as Node)) {
-        return setMenuVisible(false);
       }
       if ((e.target as Node).nodeName === 'A') {
         return setMenuVisible(false);
@@ -538,3 +860,46 @@ function removeListener(
   }
   return matcher.removeListener(cb);
 }
+
+export const waveRef = React.createRef<HTMLImageElement>();
+
+function useOnScreen(ref: React.RefObject<HTMLImageElement>) {
+  const [isIntersecting, setIntersecting] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) =>
+      setIntersecting(entry.isIntersecting),
+    );
+    if (ref.current != null) observer.observe(ref.current);
+    // Remove the observer as soon as the component is unmounted
+    return () => {
+      observer.disconnect();
+    };
+  }, [ref]);
+
+  return isIntersecting;
+}
+
+type WindowDimentions = {
+  width: number | undefined;
+};
+
+const useWindowDimensions = (setMenuVisible: any): WindowDimentions => {
+  const [windowDimensions, setWindowDimensions] = useState<WindowDimentions>({
+    width: undefined,
+  });
+  useEffect(() => {
+    function handleResize(): void {
+      setWindowDimensions({
+        width: window.innerWidth,
+      });
+
+      setMenuVisible(false);
+    }
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return (): void => window.removeEventListener('resize', handleResize);
+  }, [setMenuVisible]); // Empty array ensures that effect is only run on mount
+
+  return windowDimensions;
+};

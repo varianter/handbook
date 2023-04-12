@@ -2,18 +2,33 @@
 title: Det praktiske
 ---
 
+import {
+  IllustrationList,
+  IllustrasjonListLink,
+  IllustrationListHeading,
+} from 'src/components/illustrationList';
+
 # Praktisk informasjon
 
 Her beskrives interne prosedyrer og generelle rutiner for dagligdagse oppgaver
 for en variant. Det kan være ting som utgiftsføring, timeføring, osv.
 
-## Lønning
+<img
+  src="./assets/illustrations/money.svg"
+  role="none"
+  alt=""
+  className="illustration illustration--right"
+/>
+
+## Om Penger
+
+### Lønning
 
 Lønningsdag er den siste arbeidsdagen i hver måned. Altså utbetales lønn
 fredag 30. hvis den 31. kommer på lørdag. Det trekkes halv skatt av
 novemberlønnen. Desemberlønnen utbetales den 20. desember.
 
-### Beregning av lønnsnivå
+#### Beregning av lønnsnivå
 
 Alle konsulenter i Variant knyttes til et ansiennitetsnivå. Så bruker vi Teknas
 lønnsstatistikk som grunnlag og legger alle inn på øvre kvartil tilsvarende sitt
@@ -29,7 +44,7 @@ eller etter nyttår.
 Se vår [kalkulator](https://www.variant.no/kalkulator) for hvordan lønn beregnes
 basert på ekamensår og utdanning.
 
-### Feriepenger
+#### Feriepenger
 
 Feriepenger utbetales i juni. Det fungerer slik at feriepenger opptjent året før
 utbetales. Det trekkes ikke skatt av dette beløpet. All ferie trekkes denne
@@ -45,80 +60,7 @@ hele året. Så i praksis betaler man mer skatt de øvrige månedene for å ha m
 penger å rutte med i sommerferien. Tilsvarende gjelder også med ordningen med
 halv skatt i november.
 
-## Timeføring
-
-Timene skal leveres ukentlig. Fristen er mandag morgen kl 9.00 den påfølgende
-uken. Timene føres i Harvest. Ulike byer har ulike kontoer sjekk siden for din
-by for å finne riktig harvest-adresse.
-
-En full dag regnes som 7,5 timer og en full uke som 37,5 timer. Det er helt i
-orden å flekse tid innenfor en måned. Dette forutsetter selvsagt at det er
-avklart og greit for prosjektet og kunden også. Det betyr at du kan jobbe litt
-mer en dag og mindre en annen dag innenfor samme måned.
-
-Vi har to hovedtyper timeføring. Det ene er kundetid, det andre er annen
-timeføring som føres under Varianttid. All tid skal timeføres inkludert reisetid
-og pålagt overtid.
-
-### Varianttid
-
-Under kontoen for Varianttid finner du ulike «prosjekter» med tilhørende
-oppgaver. Vi håper at navngiving er såpass selvforklarende at utdypende
-veiledning her ikke skal være nødvendig. Vi har like fullt noen korte føringer:
-
-- Oppgaven «Mellom prosjekter» benyttes bare når man er helt eller delvis ledig,
-  og ikke kan fylle opp dagen med andre aktiviteter.
-- Man kan føre inntil 7,5 timer pr dag med «Kurs og konferanse» selv om
-  varigheten er lenger. Tilsvarende fører man ikke tid i helg og helligdag.
-- Oppgaven «Legetime» dekker også tannlege, kiropraktor, etc samt blodgiving.
-
-_Merk at frivillige aktiviteter på kveldstid som deltagelse på meetups,
-konsumering av faglitteratur, podcasts, videoer, etc ikke timeføres, med mindre
-man sammen med selskapet har kommet til at dette er å regne som pålagt arbeid._
-
-### Heimevernet (HV) og militærtjeneste
-
-Variant dekker lønn under HV-øvelser. Dette timeføres som vanlig under
-`[VEL 1000] Velferdspermisjon med lønn -> Militærtjeneste`.
-
-Husk også å markere bemanning i god tid som `Permisjon med lønn`.
-
-### Begravelse
-
-Deltakelse i begravelse timeføres under `[VEL1000] Velferdspermisjoner med lønn --> Velferdspermisjon med lønn`.
-
-### Kundetid
-
-På kundetid fører man det man jobber også hvis man jobber utover 7,5 timer.
-_NB!_ Overtid på et oppdrag må være avklart med kunde eller den som har ansvar
-for oppdraget eller prosjektet. Lunsj føres ikke.
-
-### Reisetid
-
-Reiser som er pålagt av kunde timeføres som hovedregel på kundens prosjekt.
-Timeføring skjer da på kundes timeføringskonto i Harvest. Reisetid og
-timeføringskode avklares for hvert enkelt tilfelle med kunde.
-
-Om du og kunde avtaler at du skal reise i ditt oppdrag og du selv avgjør
-reisetid og plan, er tid utenfor normalarbeidstid vanligvis ikke timeførbart. Om
-du derimot på kundes forespørsel må reise i henhold til en spesifikk plan
-timeføres reisetid utenfor normalarbeidstid.
-
-For noen oppdrag timeføres reisetid utenfor normalarbeidstid på egen
-timeføringskode.
-
-For eksempel: _du bes av kunde om å stille klokken 9:00 i en annen by. Reisetid
-planlegges og kunde informeres om hvordan tiden vil bli timeført. Reisetid fra
-reisens start til oppmøte timeføres i Harvest i tråd med det som er avtalt med
-kunde._
-
-Reiser i regi av Variant er som hovedregel frivillige og timeføres ikke.
-
-Se forøvrig
-[dette avsnittet](https://handbook.variant.no/information#skjema-for-reiseregninger)
-for refusjon av reiseutlegg.
-
-## Faktura
+### Faktura
 
 Hvis du får en faktura som skal betales av variant sendes den til selskapets
 epostmottak for faktura. De ulike lokasjonene har ulike adresser.
@@ -133,7 +75,7 @@ epostmottak for faktura. De ulike lokasjonene har ulike adresser.
   <p>`faktura.bergen@variant.no`</p>
 </DepartmentItem>
 
-<DepartmentItem dep={["Trondheim", "Molde"]}>
+<DepartmentItem dep={['Trondheim', 'Molde']}>
   <p>`faktura.trondheim@variant.no`</p>
 </DepartmentItem>
 
@@ -149,7 +91,14 @@ eventuell ekstra informasjon vi trenger for å godkjenne fakturaen. Dette er
 typisk hva fakturaen er relatert til og hva vi bruker det vi har kjøpt til. Noen
 ting er så åpenbare at det sikkert ikke trenges noe særlig ekstra info.
 
-## Utgiftsrapportering
+<img
+  src="./assets/illustrations/utgifter.svg"
+  role="none"
+  alt=""
+  className="illustration illustration--right"
+/>
+
+### Utgiftsrapportering
 
 Utgiftsrapporter føres ved at en sender en mail til utgiftsrapport@variant.no.
 Ta bilde av kvitteringer og skriv inn samlet beløp i mailen.
@@ -157,16 +106,19 @@ Ta bilde av kvitteringer og skriv inn samlet beløp i mailen.
 Du får tilsendt en kvittering etter rapport har blitt generert, se gjerne over
 vedlegget i e-posten. Hvis det feiler, får du en e-post med feilmelding.
 
-### Fordelsprogram og rabatt
+#### Fordelsprogram og rabatt
 
 Skattemydighetene krever at fordeler du oppnår gjennom ulike fordelsprogam man
 får på grunn av at du er ansatt hos oss skal rapporteres inn slik at det blir
 med på skatteberegningen. Dette gjelder blant annet:
 
-- Kredittkort med bonuspoeng
-- Bonuspoeng på flyreiser
-- Eventuelle ansattrabatter hos butikker eller lignende (P.t. har vi ingen
-  slike).
+<IllustrationList text="Kredittkort med bonuspoeng" figureName="creditCard" />
+<IllustrationList text="Bonuspoeng på flyreiser" figureName="airplaneTilt" />
+<IllustrationList
+  text="Eventuelle ansattrabatter hos butikker eller lignende (P.t. har vi ingen
+  slike)."
+  figureName="coinVertical"
+/>
 
 Det er den ansattes ansvar å rapportere dette til Variant, så skal Variant
 rapportere videre til myndighetene.
@@ -189,17 +141,25 @@ ville kostet uten rabatt eller bonuspoeng.
 Du må også dokumentere estimert verdi. Dette gjøres typisk ved å ta skjermbilder
 av tilsvarende kjøp eller reiser hvor prisene er oppgitt.
 
-- Dokumentasjonen lastes opp på [docs](https://fordelsdokumentasjon.variant.no).
-- Rapportering gjøres ved å fylle ut
-  [dette skjemaet](https://fordelsrapport.variant.no).
+<IllustrasjonListLink
+  text="Rapportering gjøres ved å fylle ut dette skjemaet."
+  figureName="documents"
+  href="https://fordelsrapport.variant.no"
+/>
 
-### Restaurantbesøk
+<IllustrasjonListLink
+  text="Dokumentasjon lastes opp på docs"
+  figureName="cloud"
+  href="https://fordelsdokumentasjon.variant.no"
+/>
+
+#### Restaurantbesøk
 
 Av bokføringsgrunner trenger vi å vite hvem som var med når noen har lagt ut for
 et restaurantbesøk. Dette gjelder både eksterne og interne. Lag en enkel liste i
 e-posten som lister ut deltagere.
 
-### Skjema for reiseregninger
+#### Skjema for reiseregninger
 
 For enkle reiser innenlands benyttes vårt
 [reiseregningsskjema](https://reiseregning.variantapp.com). Her beregnes diett,
@@ -220,18 +180,37 @@ benyttes i stedet.
 _NB! Hvis reisen skal viderefaktureres til en kunde gjennom megler, se avsnitt
 lenger ned._
 
-### Reiser på Variants regning
+<img
+  src="./assets/illustrations/car.svg"
+  role="none"
+  alt=""
+  className="illustration illustration--right"
+/>
+
+<IllustrasjonListLink
+  text="Innlands reiseregningsskjema (enkelt)"
+  figureName="documents"
+  href="https://reiseregning.variantapp.com"
+/>
+
+<IllustrasjonListLink
+  text="Registrer klimaavtrykk"
+  figureName="leaf"
+  href="https://reiseregning.variantapp.com"
+/>
+
+#### Reiser på Variants regning
 
 Reiser på Variants regning refunderes mot kvitteringer (ikke diett). Lever som
 andre utgiftsrapporter, men husk å påfør reiserute og formål med reisen.
 
-### Reiser og utgifter som viderefaktureres til kunde
+#### Reiser og utgifter som viderefaktureres til kunde
 
 Reiser på kundes regning føres i tråd med det som er avtalt med kunde (diett
 dersom det er avtalt på forhånd). Husk å påfør at reisen er viderefakturerbar og
 hvilket oppdrag det gjelder.
 
-### Reiser og utgifter som viderefaktureres via meglere (eWork, Experis m.fl)
+#### Reiser og utgifter som viderefaktureres via meglere (eWork, Experis m.fl)
 
 Meglere har egne systemer for viderefakturering av reiser.
 
@@ -240,39 +219,211 @@ Meglere har egne systemer for viderefakturering av reiser.
    utgiftsrapporter. Skriv i mailen at det viderefaktureres, og hvilken kunde
    det gjelder.
 
-### Utgifter i utenlandsk valuta
+#### Utgifter i utenlandsk valuta
 
 For utgifter ført i annen valuta som skal refunderes må du oppgi korrekt beløp i
 norske kroner som du skal refunderes. Valutakurser varierer og hva du faktisk
 ble belastet og betalte vet du best.
 
-### Gadgets
+## Om salg
 
-Folk har lurt "Dette gadgetbudsjettet deres, hva kan det brukes til?" og svaret
-er at bare
-[Skatteetatens definisjon](https://www.skatteetaten.no/rettskilder/type/handboker/skatte-abc/gjeldende/naturalytelser-i-arbeidsforhold/N-1.023/N-1.038/)
-setter grenser. Kort oppsummert: Mobiltelefon, programvare og datautstyr som
-f.eks hodetelefoner og tastatur. Se gjerne
-[gadgetoversikten](https://dash.variant.no/gadgetusage/trondheim) hva andre varianter har kjøpt.
-Kjøp av gadgets er skattefritt og utgiftsføres med en vanlig utgiftsrapport.
-Hvis du er i tvil så spør du i #regnskap på Slack.
+### Salgsprosessen
 
-Pro tip: Tenk på at summen av kjøpet ditt regnes eksklusive mva., da rekker
-budsjettet ditt lenger!
+For å håndtere salgsprosessen benytter vi [Trello](https://trello.com/b/kO5kbMNf/salg). En salgsmulighet representeres med et kort i Trello, og tavlen representerer en salgstrakt hvor muligheter trekkes gjennom ulike salgsfaser til muligheten har blitt konkludert med.
 
-Pro tip 2: Husk at det er fullt mulig å kjøpe brukt! Det eneste vi trenger er dokumentasjon på kjøpet (f.eks skjermbilde av Finn-annonse og Vipps-kvittering)
+Variant benytter disse fasene:
 
-## Forsikringer og pensjon
+<IllustrationListHeading
+  text="Muligheter som foreløpig ikke har blitt materialisert i en konkret forespørsel fra kunde. Salgsmuligheter i denne fasen krever bearbeiding og forberedelser."
+  headingText="Lead"
+  figureName="location"
+/>
 
-Som beskrevet i
-[håndboka](https://handbook.variant.no/index.html#pensjon-og-forsikring) har vi
-gode forsikringsordninger og obligatorisk tjenestepensjon (OTP). Både forsikring
-og pensjon har vi gjennom Gjensidige.
+<IllustrationListHeading
+  text="Her ligger konkrete forespørsler fra kunder, og hvor vi skal vurdere om vi ønsker å gå videre med muligheten."
+  headingText="Til kvalifisering"
+  figureName="stopWatch"
+/>
+
+<IllustrationListHeading
+  text="Kvalifiserte muligheter ligger i denne fasen mens tilbudet utarbeides."
+  headingText="Lage tilbud"
+  figureName="documents"
+/>
+
+<IllustrationListHeading
+  text="I denne fasen ligger muligheter som har blitt til leverte tilbud. Her ligger tilbudene til muligheten er konkludert eller i forhandling."
+  headingText="Levert tilbud"
+  figureName="documents"
+/>
+
+<IllustrationListHeading
+  text="Tilbud som er i forhandling med kunde, eller hvor konsulenter er intervjuet ligger i denne fasen."
+  headingText="Til forhandling"
+  figureName="group"
+/>
+
+<IllustrationListHeading
+  text="I denne fasen ligger muligheter som enten er vunnet eller tapt."
+  headingText="Ferdig konkludert"
+  figureName="confetti"
+/>
+
+#### Kvalifisering
+
+Dette steget er veldig viktig med tanke på medarbeidertilfredshet. Her vurderer vi om oppdraget vil være bra for de enkelte konsulenter og for selskapet. I tillegg gjør vi også vurderinger om man skal benytte tid og penger på å levere tilbudt.
+
+- Høre med aktuelle konsulenter om de ønsker å delta i oppdraget eller prosjektet. (Se under.)
+- Vurdere vinnersjanser opp mot innsats og oppdragets omfang. Er det verdt arbeidet? Har vi riktig kompetanse? Har vi kapasitet?
+- Vurdere etiske sider ved oppdraget. Er dette innafor Variants verdisett?
+
+Vi er opptatt av at våre konsulenter skal oppleve oppdrag som meningsfylte, passe utfordrende og morsomme. Vi har tillit til at den ansatte vurderer hva som er bra for selskapet og samtidig bra for seg selv. Her er det viktig å ta hensyn til selskapets økonomiske situasjon til enhver tid. Basert på begge disse perspektiver velger konsulenten om han eller hun ønsker å delta.
+
+#### Lage tilbud
+
+Her må den enkelte bruke sin kreativitet, kunnskap og erfaring for å lage best mulige tilbud. Ingen prosess kan erstatte dette, men det er lov å la seg inspirere av tidligere arbeid.
+
+Alt salgsarbeid skal kontinuerlig lagres på docs, under Salg. Hver kunde har her sin egen mappe. For kunder der vi får flere forespørsler (typisk rammeavtaler) lager vi en mappe per avrop prefikset av tilbudsfrist som iso-dato (yyyy-mm-dd).
+
+Viktig at det det som oversendes kunde (typisk pdf-er) lagres i en egen undermappe kalt ‘Til kunde’.
+
+Det er viktig for oss å levere gode tilbud og stå for det vi sier. For å koordinere at vi ikke lover mer enn vi kan holde legges konsulenter vi har forpliktet gjennom et tilbud, inn som tilbudt i bemanning. Dette sikrer også at visibilitet og prognose beregnes riktig.
+
+#### Etter ferdig konkludert
+
+Etter at en salgsprosess er konkludert er det viktig at vi lærer og oppdaterer prosessen med eventuell ny kunnskap.
+
+###### For hver mulighet skal vi:
+
+- definere ulike parameter på hvert kort i Trello og
+- tenke igjennom om det var noen spesielle grunner til tap eller vinn som man skal oppdatere prosessen med
+
+###### Etter en vinn skal:
+
+- signert kontrakt lagres på i egen undermappe kalt ‘Avtale’
+- [bemanning](https://bemanning.variant.no/login) oppdateres
+- tilbudte konsulenter varsles
+- seieren feires (om ikke annet så på Slack)
+
+#### Salgs- og bemanningsmøte
+
+Hver fredag morgen, arrangeres et salgs- og bemanningsmøte. Møtet er åpent for alle ansatte, men frivillig for alle unntatt:
+
+- Salgsdirektør
+- Daglig ledere i driftsselskapene
+- Prosjektledere
+
+I dette møtet oppdateres [bemanning](https://bemanning.variant.no/login). Vi har spesielt fokus på alle eventuelt ledige de neste 8 ukene.
+
+Deretter gjennomgås alle salgsmuligheter. Her kvalifiseres alle som ligger til kvalifisering.
+
+Til slutt lages et kort referat fra møtet på Slack i kanalen #bemanning.
+
+## Om tid
+
+### Timeføring
+
+Timene skal leveres ukentlig. Fristen er mandag morgen kl 9.00 den påfølgende
+uken. Timene føres i Harvest. Ulike byer har ulike kontoer sjekk siden for din
+by for å finne riktig harvest-adresse.
+
+En full dag regnes som 7,5 timer og en full uke som 37,5 timer. Det er helt i
+orden å flekse tid innenfor en måned. Dette forutsetter selvsagt at det er
+avklart og greit for prosjektet og kunden også. Det betyr at du kan jobbe litt
+mer en dag og mindre en annen dag innenfor samme måned.
+
+<img
+  src="./assets/illustrations/clock.svg"
+  role="none"
+  alt=""
+  className="illustration illustration--right"
+/>
+
+Vi har to hovedtyper timeføring. Det ene er kundetid, det andre er annen
+timeføring som føres under Varianttid. All tid skal timeføres inkludert reisetid
+og pålagt overtid.
+
+#### Varianttid
+
+Under kontoen for Varianttid finner du ulike «prosjekter» med tilhørende
+oppgaver. Vi håper at navngiving er såpass selvforklarende at utdypende
+veiledning her ikke skal være nødvendig. Vi har like fullt noen korte føringer:
+
+- Oppgaven «Mellom prosjekter» benyttes bare når man er helt eller delvis ledig,
+  og ikke kan fylle opp dagen med andre aktiviteter.
+- Man kan føre inntil 7,5 timer pr dag med «Kurs og konferanse» selv om
+  varigheten er lenger. Tilsvarende fører man ikke tid i helg og helligdag.
+- Oppgaven «Legetime» dekker også tannlege, kiropraktor, etc samt blodgiving.
+
+_Merk at frivillige aktiviteter på kveldstid som deltagelse på meetups,
+konsumering av faglitteratur, podcasts, videoer, etc ikke timeføres, med mindre
+man sammen med selskapet har kommet til at dette er å regne som pålagt arbeid._
+
+#### Heimevernet (HV) og militærtjeneste
+
+Variant dekker lønn under HV-øvelser. Dette timeføres som vanlig under
+`[VEL 1000] Velferdspermisjon med lønn -> Militærtjeneste`.
+
+Husk også å markere bemanning i god tid som `Permisjon med lønn`.
+
+#### Begravelse
+
+Deltakelse i begravelse timeføres under `[VEL1000] Velferdspermisjoner med lønn -> Velferdspermisjon med lønn`.
+
+#### Kundetid
+
+På kundetid fører man det man jobber også hvis man jobber utover 7,5 timer.
+_NB!_ Overtid på et oppdrag må være avklart med kunde eller den som har ansvar
+for oppdraget eller prosjektet. Lunsj føres ikke.
+
+#### Reisetid
+
+Reiser som er pålagt av kunde timeføres som hovedregel på kundens prosjekt.
+Timeføring skjer da på kundes timeføringskonto i Harvest. Reisetid og
+timeføringskode avklares for hvert enkelt tilfelle med kunde.
+
+Om du og kunde avtaler at du skal reise i ditt oppdrag og du selv avgjør
+reisetid og plan, er tid utenfor normalarbeidstid vanligvis ikke timeførbart. Om
+du derimot på kundes forespørsel må reise i henhold til en spesifikk plan
+timeføres reisetid utenfor normalarbeidstid.
+
+For noen oppdrag timeføres reisetid utenfor normalarbeidstid på egen
+timeføringskode.
+
+<div className="backgroundExample background-color-secondary4__tint2">
+
+##### For eksempel:
+
+_du bes av kunde om å stille klokken 9:00 i en annen by. Reisetid
+planlegges og kunde informeres om hvordan tiden vil bli timeført. Reisetid fra
+reisens start til oppmøte timeføres i Harvest i tråd med det som er avtalt med
+kunde._
+
+Reiser i regi av Variant er som hovedregel frivillige og timeføres ikke.
+
+Se forøvrig
+[dette avsnittet](https://handbook.variant.no/information#skjema-for-reiseregninger)
+for refusjon av reiseutlegg.
+
+</div>
+
+## Om liv og helse
+
+### Forsikringer og pensjon
+
+Vi har gode forsikringsordninger og obligatorisk tjenestepensjon (OTP). Faktisk så betaler vi [7% av årslønn](https://www.variant.no/kalkulator) opp til 12G ekstra til sparing i pensjon for deg. Sammenlignet med 2% som er det lovpålagte for bedrifter i Norge. Både forsikring og pensjon har vi gjennom Gjensidige.
 
 Alle kan administrere sin pensjon ved å logge inn på
 [Gjensidiges nettsider](https://www.gjensidige.no/) med BankID. Blant annet kan
 man her velge spareprofil, og her finner dere også informasjon om de ulike
 forsikringsordninger dere er medlemmer i.
+
+<img
+  src="./assets/illustrations/manOnBench.svg"
+  role="none"
+  alt=""
+  className="illustration illustration--right"
+/>
 
 I tillegg til lovbestemt forsikring mot yrkesskade og yrkessykdom samt
 yrkesreiseforsikrinig har vi også følgende forsikringer:
@@ -282,7 +433,7 @@ yrkesreiseforsikrinig har vi også følgende forsikringer:
 - Annen ulykke enn yrkesskade
 - Ferie og fritidsreise
 
-### Behandlingsforsikring
+#### Behandlingsforsikring
 
 Inkludert i forsikringen har alle ansatte behandlingsforsikring med følgende
 elementer:
@@ -302,23 +453,7 @@ elementer:
 Her finner dere informasjon om hvordan
 [benytte behandlingsforsikring](https://www.gjensidige.no/privat/meld-skade/behandlingsforsikring).
 
-## Fordelsavtaler
-
-### SATS
-
-Variant har en samarbeidsavtale med SATS som gir 15% rabatt på nye og eksisterende abonnement. [Les mer her](https://varianttrh.sharepoint.com/:b:/g/EbNkuLOu8X1NhFMzuEgXWoIBhzK-wSPBaOFGYlyzB_K3Aw?e=OwPdCE)
-
-## Sossis-fond
-
-Vi har et fond på 50 000 NOK som kan brukes som midler til sosiale aktiviteter
-utover [de faste vi har satt opp](/quality_manual#sosiale-aktiviteter).
-
-Dette kan være aktiviteter som hytteleie i Sverige, fjellturer, Rush
-trampolinepark, matlaging eller hva enn vi kommer på kan være en god idé. Legg
-inn forslag som Trello-kort under "Til behandling i ledermøtet" på Operativt. Vi
-burde sikte inn på aktiviteter som er inkluderende og tilgjengelig for alle.
-
-## Sykemelding og egenmelding
+### Sykemelding og egenmelding
 
 Variant praktiserer en utvidet ordning for uttak av egenmelding. Vi er formelt
 ikke en IA-bedrift, men benytter samme egenmeldingsordning som IA-bedrifter.
@@ -370,7 +505,7 @@ arbeidsdagene og følge deg opp.
 Varsle så snart du har anledning. Det er stor variasjon i hvor lang tid det går
 før legens varsel mottas via Altinn.
 
-## Planlegging av ferie og permisjoner
+### Planlegging av ferie og permisjoner
 
 Du avgjør selv når du ønsker å ta ut ferie i Variant. Dette avtales med nærmeste
 leder og avklares tidlig med kunde slik at oppdraget løses godt. Det samme
@@ -389,7 +524,7 @@ dette er ønskelig avklares også dette med nærmeste leder og så tidlig som mu
 _NB!_ Husk alltid å oppdatere [bemanning](https://bemanning.variant.no) med
 planlagt ferie og permisjon slik at de som jobber med salg har oversikt.
 
-### Ammefri
+#### Ammefri
 
 [Mødre som ammer kan bruke en time om dagen med lønn til dette](https://www.arbeidstilsynet.no/arbeidsforhold/permisjoner/foreldrepermisjon/ammefri/).
 Dette gjelder fram til barna er ett år gamle. Du finner selv ut når det passer
@@ -397,7 +532,156 @@ med deg og ditt barns rutiner her. Her gjelder det selvfølgelig å ha en god
 dialog med kunde på dette, så dagene er forutsigbare og enkle å planlegge rundt
 for alle involverte.
 
-## Portere mobilabonnement
+## Om ting og tang
+
+### Gadgets
+
+Folk har lurt "Dette gadgetbudsjettet deres, hva kan det brukes til?" og svaret
+er at bare
+[Skatteetatens definisjon](https://www.skatteetaten.no/rettskilder/type/handboker/skatte-abc/gjeldende/naturalytelser-i-arbeidsforhold/N-1.023/N-1.038/)
+setter grenser. Kort oppsummert: Mobiltelefon, programvare og datautstyr som
+f.eks hodetelefoner og tastatur. Se gjerne
+[gadgetoversikten](https://dash.variant.no/gadgetusage/trondheim) hva andre varianter har kjøpt.
+Kjøp av gadgets er skattefritt og utgiftsføres med en vanlig utgiftsrapport.
+Hvis du er i tvil så spør du i #regnskap på Slack.
+
+Pro tip: Tenk på at summen av kjøpet ditt regnes eksklusive mva., da rekker
+budsjettet ditt lenger!
+
+Pro tip 2: Husk at det er fullt mulig å kjøpe brukt! Det eneste vi trenger er dokumentasjon på
+kjøpet (f.eks skjermbilde av Finn-annonse og Vipps-kvittering)
+
+#### Størrelse på årlig beløp
+
+Akkurat nå er det årlige beløpet på 11 000 kr. Budsjettet øker altså med dette beløpet hver gang
+du passerer oppstartsdatoen din 😀.
+
+Beløpets størrelse justeres med
+[Konsumprisindeksen](https://www.ssb.no/priser-og-prisindekser/konsumpriser/statistikk/konsumprisindeksen)
+og tar utgangspunkt i 10 000 kr pr september 2018, rundet ned til hele tusen kroner. Dette betyr at gadgetbudsjettet justeres med en gang endringene passerer en tusenlapp.
+
+Beløpshistorikk;
+
+- Aug 2018: 10 000 kr
+- Mai 2022: 11 000 kr
+
+Gadgetbudsjettet er basert på et helt år med ansettelse. I praksis betyr det litt
+gadgetbudsjett hver dag. Dette er gjort for å enklere se på gadgetbudsjett om noen
+slutter. Om noen slutter ett halvt år etter oppstartsdatoen din, vil det årlige
+budsjettet tilsvare 5 500 kr.
+
+#### Gadgets ved fratredelse
+
+Ting kjøpt med selskapets penger er selskapets eiendom. Det er i alle
+fall det Skatteetaten sier. Det betyr at det er noen regler vi må
+forholde oss til om du slutter og har benyttet deg av gadgetbudsjettet.
+
+Variant ønsker jo ikke et lager med brukte tastaturer, sekker eller telefoner.
+Så her har vi lagt oss på en god linje som overholder krav fra revisor og
+Skatteetaten, men som fortsatt er ganske gunstig for de som slutter. Her er
+en oversikt over hvordan det håndteres.
+
+##### Beløp utover gjeldende budsjett (f.eks lånt av neste år, eller utover summen for året)
+
+Må betales tilbake. Eksempelvis trekkes av lønn.
+
+##### Gadgets med kjøpsverdi under 10 000 kr
+
+Meldes inn av Variant som skattbar inntekt i henhold til avskriving fra skatteloven.
+Sum til skattemelding regnes ut i fra følgende:
+
+<table>
+  <thead>
+    <tr>
+      <th>Alder</th>
+      <th>Verdi</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mindre enn 1 år</td>
+      <td>80% av kostpris</td>
+    </tr>
+    <tr>
+      <td>1 år - 2 år</td>
+      <td>50% av kostpris</td>
+    </tr>
+    <tr>
+      <td>Over 2 år</td>
+      <td>20% av kostpris</td>
+    </tr>
+  </tbody>
+</table>
+
+##### Mobiltelefoner/andre enheter på verdi over 10 000 kr
+
+For enheter som er over 10 000 kr, må det kjøpes ut fra kostpris,
+men med noe justeringer for å gjore det rausere en lovene sier.
+Staten skal fortsatt få det de har krav på, så differansen mellom
+det du betaler og verdien fra forrige tabell må innberettes.
+
+<table>
+  <thead>
+    <tr>
+      <th>Alder</th>
+      <th>Tilbakebetales</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Under halvt år</td>
+      <td>Kjøpe ut for 80% av kostpris</td>
+    </tr>
+    <tr>
+      <td>1/2 år - 2 år</td>
+      <td>Kjøpe ut for 50% av kostpris</td>
+    </tr>
+    <tr>
+      <td>Over 2 år</td>
+      <td>Samme som tabellen over (regnes som avskrevet).</td>
+    </tr>
+  </tbody>
+</table>
+
+Kan velge å ikke kjøpe ut men levere tilbake gadgeten.
+
+<div className="listGap background-color-secondary4__tint2">
+
+**Eksempel**
+
+Du har kjøpt en mobil til 15 000 kr for 8 måneder siden. Du ønsker å beholde mobilen,
+som nå har en markedsverdi på 50% av 15 000 kr; altså 7 500 kr.
+Skatteetaten sier at verdien på mobilen er 12 000 kr (tilsvarer 80%).
+Det vil derfor også rapporteres inn på skattbar inntekt på 4 500 kr (`12 000 - 7 500`).
+
+</div>
+
+### Verktøykassen 🛠📚
+
+Du skal jaggu ikke mangle noe for å gjøre en god jobb.
+
+#### PC-valg
+
+<img
+  src="./assets/illustrations/pc.svg"
+  role="none"
+  alt=""
+  className="illustration illustration--right"
+/>
+
+Skikkelig jobb krever skikkelige verktøy. Du velger selv datamaskin og størrelse, farge og modell på den. Melder behovet seg for en ny, skal du også selvfølgelig få det. Vi stoler på at du velger det beste for at du skal kunne gjøre en best mulig jobb. Er du usikker kan du godt spørre i vår Slackkanal #helpdesk.
+
+Det er heller ikke et gitt antall års brukstid på maskinene. Du får en ny maskin når behovet oppstår, uavhengig av om det har gått ett eller tre år.
+
+#### Programvare
+
+Programvare velger du også selv. Vi har noen avtaler for ymse produkter, alt annet kjøper du direkte og fører utlegg for.
+
+#### Kunnskap
+
+Som konsulenter selger vi ekspertise og kunnskap, så invester gjerne i bøker, kurs og annet læringsmateriale. Bare husk å sende regningen til regnskap. Den betales med stor glede! 🤓
+
+### Mobilabonnement
 
 For at Variant skal betale for mobilbruk må abonnementet overføres til Variant
 AS.
@@ -411,14 +695,7 @@ Etter at telefonabonnementet er portert er det lurt å oppdatere tilholdssted p�
 [telia.no](https://www.telia.no/). Logg inn og
 [naviger til Endre kontaktinformasjon](https://min-side.telia.no/re/endre-kontaktinformasjon).
 
-## PC-valg
-
-Våre konsulenter skal ha det verktøyet de er mest komfortabel med, og som trengs
-for å gjøre jobben. Derfor er det viktig at du selv velger hvilken maskin du
-liker å jobbe på. Mac eller PC, spiller ingen rolle. Og du, om er du usikker så
-spør du i #helpdesk 🤓
-
-## Våre internsystemer
+### Våre internsystemer
 
 - [CV Partner](https://variant.cvpartner.com/) for å forvalte alles CV
 - [Recruitee](https://recruitee.com/admin) for å håndtere rekruttering og
@@ -432,8 +709,9 @@ spør du i #helpdesk 🤓
   nedlastingssiden
 - [Åpne Web Analytics](https://variant.innocraft.cloud/)
 - [Energi.ai](https://dashboard.energi.ai/) for vårt automatiserte karbonregnskap
+- [Fotobank](https://photo.variant.no/) (se `/info` på slack for innlogging.)
 
-## Nyttige lenker
+### Nyttige lenker
 
 - [Variantdash](https://dash.variant.no) Vårt dashbord for interne løsninger.
 - [Gadgetoversikt](https://dash.variant.no/gadgetusage/trondheim) Oversikt over hva som er kjøpt på
@@ -447,4 +725,4 @@ import {
   Department,
   DepartmentItem,
   DepartmentGroup,
-} from "src/components/department";
+} from 'src/components/department';

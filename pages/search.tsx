@@ -1,4 +1,5 @@
 import algoliasearch from 'algoliasearch/lite';
+import { renderToString } from 'react-dom/server';
 import {
   Configure,
   Highlight,
@@ -60,9 +61,7 @@ function Hit({ hit }: HitProps) {
     <article className={style.searchItem}>
       <h3>
         <Link href={`${hit.urlPath}#${hit.slug}`}>
-          <a>
-            <Highlight attribute="title" hit={hit} />
-          </a>
+          <Highlight attribute="title" hit={hit} />
         </Link>
       </h3>
       <Highlight attribute="content" hit={hit} />
@@ -116,13 +115,14 @@ function CloseSearch() {
       <div className={style.closeSearch}>
         <Link href={'./'}>
           <div className={style.closeSearchButton}>
-            <a>Lukk</a>
+            Lukk
             <Image
               className={style.closeSearchIcon}
               priority
               src={clear}
-              height={'20px'}
-              width={'20px'}
+              height={20}
+              width={20}
+              alt={'Close'}
             />
           </div>
         </Link>
@@ -180,7 +180,9 @@ export async function getServerSideProps({
 > {
   const protocol = req.headers.referer?.split('://')[0] || 'https';
   const url = `${protocol}://${req.headers.host}${req.url}`;
-  const serverState = await getServerState(<SearchPage url={url} />);
+  const serverState = await getServerState(<SearchPage url={url} />, {
+    renderToString,
+  });
 
   return {
     props: {
