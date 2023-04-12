@@ -119,12 +119,12 @@ li + li {
       rgba(0, 212, 255, 0) 100%
     );
   background-repeat: no-repeat;
+
   background-size: 100vw 4rem;
 
   transform: rotate(180deg);
 
   height: 5rem;
-  background-size: contain;
 
   margin-left: -50vw;
   margin-right: -50vw;
