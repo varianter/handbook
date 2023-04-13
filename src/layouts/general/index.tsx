@@ -264,7 +264,7 @@ export default function GeneralLayout({
                       src={magnifyingGlass}
                       height={'30'}
                       width={'30'}
-                      alt="Søk"
+                      alt="Forstørrelseglass"
                     />
                   </Link>
                 </div>
