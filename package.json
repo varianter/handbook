@@ -10,6 +10,7 @@
   "license": "MIT",
   "description": "Variant's handbook-v2",
   "devDependencies": {
+    "@pinecone-database/pinecone": "^0.0.12",
     "@types/mdx": "^2.0.2",
     "@types/node": "^18.11.0",
     "@types/qs": "^6.9.7",
@@ -26,6 +27,7 @@
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "lodash.isequal": "^4.5.0",
+    "openai": "^3.2.1",
     "prettier": "^2.7.1",
     "remark": "^14.0.2",
     "to-vfile": "^7.2.3",

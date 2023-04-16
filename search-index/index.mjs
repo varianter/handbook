@@ -1,5 +1,6 @@
 import { dirname, join } from 'path';
 import { createIndexer } from './indexer.mjs';
+import { generateEmbeddings } from './generate-embeddings.mjs';
 import { selectAttributeValue } from './tree-tools.mjs';
 import algoliasearch from 'algoliasearch';
 import dotenv from 'dotenv';
@@ -56,6 +57,9 @@ const result = await indexer
     };
   })
   .generateIndexes();
+
+// Generate and save embeddings for chatbot
+generateEmbeddings(result);
 
 const client = algoliasearch(appId, apiKey);
 const index = client.initIndex('handbook_content');
