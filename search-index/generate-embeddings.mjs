@@ -54,10 +54,7 @@ export async function generateEmbeddings(index) {
 
     // Need to replace newlines with spaces for embeddings
     // apparently leads to better results
-    const input = `${title} ved ${department.join(',')}: ${content}`.replace(
-      /\n/g,
-      ' ',
-    );
+    const input = `${title}: ${content}`.replace(/\n/g, ' ');
 
     try {
       progress.update(i, { operation: 'Creating embedding' });
