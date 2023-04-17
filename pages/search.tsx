@@ -21,8 +21,8 @@ import Link from 'next/link';
 import { Userdata, useUserdata } from 'src/auth';
 import GeneralLayout from 'src/layouts/general';
 import style from 'src/search/search.module.css';
-import Image from 'next/image';
 import clear from 'public/assets/illustrations/clear.svg';
+import ButtonBlob from 'src/components/buttonBlob';
 
 const appId = process.env.NEXT_PUBLIC_ALGOLIA_APP_ID || '';
 const apiKey = process.env.NEXT_PUBLIC_ALGOLIA_READ_KEY || '';
@@ -113,19 +113,14 @@ function CloseSearch() {
   return (
     <div className={style.closeSearchContainer}>
       <div className={style.closeSearch}>
-        <Link href={'./'}>
-          <span className={style.closeSearchButton}>
-            Lukk
-            <Image
-              className={style.closeSearchIcon}
-              priority
-              src={clear}
-              height={15}
-              width={15}
-              alt={'Close'}
-            />
-          </span>
-        </Link>
+        <ButtonBlob
+          imgName={clear}
+          buttonText={'Lukk'}
+          altText={'Lukk illustrasjon'}
+          href={'/'}
+          height={15}
+          width={15}
+        />
       </div>
     </div>
   );

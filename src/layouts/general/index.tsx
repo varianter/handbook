@@ -15,6 +15,7 @@ import style from './layout.module.css';
 
 import backArrow from './backArrow.svg';
 import magnifyingGlass from './magnifyingGlass.svg';
+import ButtonBlob from 'src/components/buttonBlob';
 
 const title = 'Variant Håndbok';
 
@@ -253,21 +254,14 @@ export default function GeneralLayout({
 
             {isNotMobile && (
               <li>
-                <div className={style.header__handbooks__search}>
-                  <Link
-                    href={'/search'}
-                    className={style.header__handbooks__search__button}
-                  >
-                    <span>Søk</span>
-                    <Image
-                      priority
-                      src={magnifyingGlass}
-                      height={'30'}
-                      width={'30'}
-                      alt="Forstørrelseglass"
-                    />
-                  </Link>
-                </div>
+                <ButtonBlob
+                  imgName={magnifyingGlass}
+                  buttonText={'Søk'}
+                  altText={'Forstørrelsesglass'}
+                  href={'/search'}
+                  height={30}
+                  width={30}
+                />
               </li>
             )}
           </ul>
