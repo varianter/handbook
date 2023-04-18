@@ -1,7 +1,6 @@
 import favicon from '@variant/profile/lib/logo/favicon.png';
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useCallback, useEffect, useState } from 'react';
