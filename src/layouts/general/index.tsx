@@ -390,22 +390,14 @@ export default function GeneralLayout({
                 // hamburger menu
                 <ul className={style.nav__handbooks}>
                   <li className={style.header__handbooks__search__container}>
-                    <div className={style.header__handbooks__search}>
-                      <Link
-                        href={'/search'}
-                        tabIndex={tabIndex}
-                        className={style.header__handbooks__search__button}
-                      >
-                        <span>Søk</span>
-                        <Image
-                          priority
-                          src={magnifyingGlass}
-                          height={30}
-                          width={30}
-                          alt="Søk"
-                        />
-                      </Link>
-                    </div>
+                    <ButtonBlob
+                      imgName={magnifyingGlass}
+                      buttonText={'Søk'}
+                      altText={'Forstørrelsesglass'}
+                      href={'/search'}
+                      height={30}
+                      width={30}
+                    />
                   </li>
                   <li className={style.nav__hamburger__link__to__variant}>
                     <img
