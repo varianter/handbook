@@ -190,31 +190,11 @@ li + li {
 }
 
 .handbook > h1:first-child {
-  background: linear-gradient(
-    to right,
-    var(--color-primary),
-    var(--color-secondary1),
-    var(--color-secondary2)
-  );
-  background-size: 100% 100%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  transition: color 0.2s ease-in-out;
-  color: transparent;
+  color: var(--color-standard__black);
 }
 
 .darkBackgroundHeading > h1 {
-  background: linear-gradient(
-    to right,
-    var(--color-primary),
-    var(--color-secondary1__tint2),
-    var(--color-secondary2)
-  );
-  background-size: 100% 100%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  transition: color 0.2s ease-in-out;
-  color: transparent;
+  color: var(--color-standard__white);
 }
 
 code {
