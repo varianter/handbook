@@ -80,7 +80,6 @@
 
   margin: 0 auto;
   padding-right: 2rem;
-  padding-left: 26vw;
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
 
@@ -567,11 +566,14 @@
     z-index: 3;
     visibility: visible;
   }
+
   .header__handbooks,
   .header__handbooks__dark {
     display: flex;
     margin-bottom: 2rem;
     visibility: visible;
+    max-width: 80rem;
+    margin-left: 30%;
   }
   .header__handbooks__back {
     padding-top: 0rem;
@@ -633,14 +635,6 @@
   .nav__handbooks__location__active a {
     margin-left: 0;
     padding-left: 0;
-  }
-}
-
-@media (min-width: 2000px) {
-  .header__handbooks,
-  .header__handbooks__dark {
-    max-width: 60rem;
-    padding-left: 12rem;
   }
 }
 
