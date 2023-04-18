@@ -165,3 +165,40 @@
 .subHeader {
   font-size: 1.25rem;
 }
+
+/* Chat compontent */
+.chatResult {
+  margin: 2rem 0;
+}
+.chatResult header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  border-radius: 3.125rem;
+  background: var(--color-secondary1__shade2);
+  color: var(--color-secondary1__shade2--text);
+  gap: 0.5rem;
+}
+.chatResult h3 {
+  line-height: 1;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+.chatResult__result {
+  margin: 0 2rem;
+  padding: 1rem 2rem;
+  background: var(--color-secondary1__shade2);
+  color: var(--color-secondary1__shade2--text);
+  border-bottom-left-radius: 1.5625rem;
+  border-bottom-right-radius: 1.5625rem;
+}
+.beta__pill {
+  border-radius: 0.7rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  padding: 0.1rem 0.3rem;
+  background: var(--color-secondary3);
+  color: var(--color-secondary3--text);
+}

@@ -3,8 +3,8 @@ import { queryOpenai } from 'src/search/openai-data';
 import rateLimit from 'src/utils/ratelimit';
 
 const limiter = rateLimit({
-  interval: 60 * 1000, // 60 seconds
-  uniqueTokenPerInterval: 500, // Max 500 users per second
+  interval: 60 * 1000,
+  uniqueTokenPerInterval: 500,
 });
 
 export default async function handler(
