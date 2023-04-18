@@ -20,8 +20,8 @@ const ButtonBlob = ({
   width,
 }: ButtonBlobProps) => {
   return (
-    <Link href={href} className={style.header__handbooks__search}>
-      <div className={style.header__handbooks__search__button}>
+    <Link href={href} className={style.buttonBlob}>
+      <div className={style.buttonBlob__button}>
         <span>{buttonText}</span>
         <Image
           priority

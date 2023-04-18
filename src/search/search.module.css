@@ -105,40 +105,6 @@
   justify-content: flex-end;
 }
 
-.closeSearch {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 89px;
-  height: 89px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background: url('../../public/assets/illustrations/closeSearchBlob.svg');
-}
-
-.closeSearch a {
-  text-decoration: none;
-  font-family: 'Graphik', sans-serif;
-  font-weight: 500;
-}
-
-.closeSearchButton {
-  margin: auto;
-  color: var(--color-standard__white);
-  cursor: pointer;
-  font-size: 20px;
-  line-height: 27px;
-  gap: 0.3rem;
-}
-
-.closeSearchButton a {
-  font-family: 'Graphik', sans-serif;
-}
-
-.closeSearchIcon {
-  margin-left: 0.3rem;
-}
-
 .searchDivider {
   border-bottom: 1px solid;
   border-color: var(--color-standard__white);
