@@ -565,8 +565,8 @@
   }
   .nav__handbooks__container::-webkit-scrollbar {
     background-color: var(--color-secondary1__shade2);
-    border-radius: 10px;
-    width: 10px;
+    border-radius: 0.625rem;
+    width: 0.625rem;
   }
 
   .nav__handbooks__container::-webkit-scrollbar-thumb {
