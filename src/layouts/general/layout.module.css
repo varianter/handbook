@@ -571,7 +571,7 @@
 
   .nav__handbooks__container::-webkit-scrollbar-thumb {
     background-color: var(--color-secondary4__shade2);
-    border-radius: 10px;
+    border-radius: 0.625rem;
   }
 
   .header,
