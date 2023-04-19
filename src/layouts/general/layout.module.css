@@ -45,7 +45,15 @@
   right: 0;
   z-index: 150;
   width: 100vw;
-  height: 20px;
+  height: 6rem;
+}
+
+.header {
+  background-color: var(--color-secondary4__tint2);
+}
+
+.header__dark {
+  background-color: var(--color-secondary1__shade2);
 }
 
 .header__logo {
@@ -72,19 +80,10 @@
 
   margin: 0 auto;
   padding-right: 2rem;
-  padding-left: 26vw;
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
 
   font-weight: 500;
-}
-
-.header__handbooks__dark {
-  background-color: var(--color-secondary1__shade2);
-}
-
-.header__handbooks {
-  background-color: var(--color-secondary4__tint2);
 }
 
 .header__handbooks__back {
@@ -582,11 +581,14 @@
     z-index: 3;
     visibility: visible;
   }
+
   .header__handbooks,
   .header__handbooks__dark {
     display: flex;
     margin-bottom: 2rem;
     visibility: visible;
+    max-width: 80rem;
+    margin-left: 30%;
   }
   .header__handbooks__back {
     padding-top: 0rem;

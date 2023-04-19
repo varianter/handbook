@@ -141,8 +141,8 @@ li + li {
   margin-bottom: -20rem;
   padding-top: 30rem;
   margin-top: -30rem;
-  padding-inline: 50rem;
-  margin-inline: -50rem;
+  padding-inline: 100vw;
+  margin-inline: -100vw;
   position: relative;
   z-index: 0;
 }
