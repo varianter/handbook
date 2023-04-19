@@ -181,22 +181,20 @@ li + li {
   gap: 0.5rem;
 }
 
-.handbook > h1:first-child {
+.handbook > h1:first-child,
+.darkBackgroundHeading > h1 {
   margin: 4rem 0;
-  background: linear-gradient(
-    to right,
-    var(--color-primary),
-    var(--color-secondary1),
-    var(--color-secondary2)
-  );
-  background-size: 100% 100%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  transition: color 0.2s ease-in-out;
-  color: transparent;
 
   word-wrap: break-word;
   overflow-wrap: break-word;
+}
+
+.handbook > h1:first-child {
+  color: var(--color-standard__black);
+}
+
+.darkBackgroundHeading > h1 {
+  color: var(--color-standard__white);
 }
 
 code {
