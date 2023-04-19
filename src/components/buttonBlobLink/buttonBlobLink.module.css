@@ -6,6 +6,10 @@
   transition: all 0.3s;
 }
 
+.buttonBlobLink:active {
+  transform: scale(0.9);
+}
+
 .buttonBlobLink div {
   width: 89px;
   height: 89px;
