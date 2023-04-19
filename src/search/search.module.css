@@ -62,6 +62,12 @@
   background-color: var(--color-secondary1__shade3);
 }
 
+@media (max-width: 700px) {
+  :global(.ais-SearchBox-input) {
+    font-size: 2rem;
+  }
+}
+
 :global(.ais-SearchBox-input::placeholder) {
   color: var(--color-standard__white);
 }
