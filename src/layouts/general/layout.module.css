@@ -270,6 +270,8 @@
 
   background: url('./navBackground.svg') var(--color-secondary1__shade2) right -100px
     repeat-y;
+
+  background-size: cover;
 }
 
 .nav__background__active {
@@ -521,6 +523,7 @@
 @media (min-width: 1200px) {
   .nav {
     transform: translateX(0);
+    max-width: 25%;
   }
   .hamburger {
     display: none;
