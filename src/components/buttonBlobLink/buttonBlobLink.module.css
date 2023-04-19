@@ -2,29 +2,34 @@
   display: flex;
   width: 89px;
   height: 89px;
-
-  background-repeat: no-repeat;
-  background-position: center;
-  background: url('./illustrations/searchBlob.svg');
-  filter: hue-rotate(0deg); /* rotate the hue by 180 degrees */
-
-  transition: filter 0.3s ease, scale 0.3s ease;
-
   text-decoration: none;
+  transition: all 0.3s;
 }
 
-.buttonBlobLink:hover {
-  scale: 1.05;
-  filter: hue-rotate(10deg); /* rotate the hue by 180 degrees */
+.buttonBlobLink div {
+  width: 89px;
+  height: 89px;
+  position: absolute;
+}
+
+.buttonBlobLink div svg path {
+  transition: all 0.3s;
+}
+
+.buttonBlobLink:hover div svg path {
+  fill: var(--color-secondary1__tint2);
 }
 
 .buttonBlobLink__button {
+  position: relative;
+
   display: flex;
   margin: auto;
   cursor: pointer;
   font-size: 20px;
   line-height: 27px;
   align-items: center;
+  justify-content: center;
   gap: 0.3rem;
 
   transition: all 200ms ease-in;
