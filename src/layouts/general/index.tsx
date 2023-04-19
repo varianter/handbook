@@ -1,7 +1,6 @@
 import favicon from '@variant/profile/lib/logo/favicon.png';
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useCallback, useEffect, useState } from 'react';
@@ -15,6 +14,7 @@ import style from './layout.module.css';
 
 import backArrow from './backArrow.svg';
 import magnifyingGlass from './magnifyingGlass.svg';
+import ButtonBlob from 'src/components/buttonBlobLink';
 
 const title = 'Variant Håndbok';
 
@@ -402,22 +402,14 @@ export default function GeneralLayout({
                 // hamburger menu
                 <ul className={style.nav__handbooks}>
                   <li className={style.header__handbooks__search__container}>
-                    <div className={style.header__handbooks__search}>
-                      <Link
-                        href={'/search'}
-                        tabIndex={tabIndex}
-                        className={style.header__handbooks__search__button}
-                      >
-                        <span>Søk</span>
-                        <Image
-                          priority
-                          src={magnifyingGlass}
-                          height={30}
-                          width={30}
-                          alt="Søk"
-                        />
-                      </Link>
-                    </div>
+                    <ButtonBlob
+                      imgName={magnifyingGlass}
+                      buttonText={'Søk'}
+                      altText={'Forstørrelsesglass'}
+                      href={'/search'}
+                      height={30}
+                      width={30}
+                    />
                   </li>
                   <li className={style.nav__hamburger__link__to__variant}>
                     <img
