@@ -45,7 +45,7 @@
   right: 0;
   z-index: 150;
   width: 100vw;
-  height: 6rem;
+  height: 0rem;
 }
 
 .header {
@@ -580,6 +580,7 @@
   .header__dark {
     z-index: 3;
     visibility: visible;
+    height: 6rem;
   }
 
   .header__handbooks,
