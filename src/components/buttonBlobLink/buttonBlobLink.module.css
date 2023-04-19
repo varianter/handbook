@@ -1,0 +1,49 @@
+.buttonBlobLink {
+  display: flex;
+  width: 89px;
+  height: 89px;
+  text-decoration: none;
+  transition: all 150ms ease-in;
+}
+
+.buttonBlobLink:active {
+  transform: scale(0.95);
+}
+
+.buttonBlobLink div {
+  width: 89px;
+  height: 89px;
+  position: absolute;
+}
+
+.buttonBlobLink div svg path {
+  transition: all 0.3s;
+}
+
+.buttonBlobLink:hover div svg path {
+  fill: var(--color-secondary1__tint2);
+}
+
+.buttonBlobLink__button {
+  position: relative;
+
+  display: flex;
+  margin: auto;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 27px;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+
+  transition: all 200ms ease-in;
+}
+
+.buttonBlobLink__button span {
+  color: var(--color-standard__white);
+  font-family: 'Graphik', sans-serif;
+}
+
+.buttonBlobLink__button:active span {
+  opacity: 0.8;
+}
