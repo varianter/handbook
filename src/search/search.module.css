@@ -176,6 +176,7 @@
 }
 .chatResult header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 0.75rem;
@@ -184,11 +185,22 @@
   color: var(--color-secondary1__shade2--text);
   gap: 0.5rem;
 }
-.chatResult h3 {
+.chatResult__notice {
+  width: 100%;
+  font-style: italic;
+}
+.chatResult__title {
   line-height: 1;
-  flex: 1;
+  flex: 1 1;
+  min-width: 10rem;
+}
+.chatResult__title h3 {
+  line-height: 1;
   margin: 0;
   padding: 0;
+}
+.chatResult__button {
+  margin-left: auto;
 }
 .chatResult hr {
   border-color: var(--color-secondary1);

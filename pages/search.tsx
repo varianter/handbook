@@ -135,14 +135,22 @@ function ChatGPTResults() {
   const header = (
     <header>
       <span className={style.beta__pill}>beta</span>
-      <h3>GPT-svar</h3>
-      <Button
-        onClick={() => setHidden((h) => !h)}
-        aria-expanded={!hidden}
-        aria-controls="gpt-result"
-      >
-        {buttonText}
-      </Button>
+      <div className={style.chatResult__title}>
+        <h3>GPT-svar*</h3>
+        <small className={style.chatResult__notice}>
+          (*bruk her sender spørsmål til OpenAI)
+        </small>
+      </div>
+
+      <div className={style.chatResult__button}>
+        <Button
+          onClick={() => setHidden((h) => !h)}
+          aria-expanded={!hidden}
+          aria-controls="gpt-result"
+        >
+          {buttonText}
+        </Button>
+      </div>
     </header>
   );
 
