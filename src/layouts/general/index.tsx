@@ -14,7 +14,7 @@ import style from './layout.module.css';
 
 import backArrow from './backArrow.svg';
 import magnifyingGlass from './magnifyingGlass.svg';
-import ButtonBlob from 'src/components/buttonBlob';
+import ButtonBlob from 'src/components/buttonBlobLink';
 
 const title = 'Variant Håndbok';
 

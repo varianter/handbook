@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import style from './buttonBlob.module.css';
+import style from './buttonBlobLink.module.css';
 
-type ButtonBlobProps = {
+type ButtonBlobLinkProps = {
   imgName: string;
   buttonText: string;
   altText: string;
@@ -11,17 +11,17 @@ type ButtonBlobProps = {
   width: number;
 };
 
-const ButtonBlob = ({
+const ButtonBlobLink = ({
   imgName,
   buttonText,
   altText,
   href,
   height,
   width,
-}: ButtonBlobProps) => {
+}: ButtonBlobLinkProps) => {
   return (
-    <Link href={href} className={style.buttonBlob}>
-      <div className={style.buttonBlob__button}>
+    <Link href={href} className={style.buttonBlobLink}>
+      <div className={style.buttonBlobLink__button}>
         <span>{buttonText}</span>
         <Image
           priority
@@ -35,4 +35,4 @@ const ButtonBlob = ({
   );
 };
 
-export default ButtonBlob;
+export default ButtonBlobLink;

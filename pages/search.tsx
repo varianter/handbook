@@ -22,7 +22,7 @@ import { Userdata, useUserdata } from 'src/auth';
 import GeneralLayout from 'src/layouts/general';
 import style from 'src/search/search.module.css';
 import clear from 'public/assets/illustrations/clear.svg';
-import ButtonBlob from 'src/components/buttonBlob';
+import ButtonBlob from 'src/components/buttonBlobLink';
 
 const appId = process.env.NEXT_PUBLIC_ALGOLIA_APP_ID || '';
 const apiKey = process.env.NEXT_PUBLIC_ALGOLIA_READ_KEY || '';

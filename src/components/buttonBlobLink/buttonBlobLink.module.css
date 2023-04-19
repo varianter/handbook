@@ -1,4 +1,4 @@
-.buttonBlob {
+.buttonBlobLink {
   display: flex;
   width: 89px;
   height: 89px;
@@ -10,7 +10,7 @@
   text-decoration: none;
 }
 
-.buttonBlob__button {
+.buttonBlobLink__button {
   display: flex;
   margin: auto;
   cursor: pointer;
@@ -22,11 +22,11 @@
   transition: all 200ms ease-in;
 }
 
-.buttonBlob__button span {
+.buttonBlobLink__button span {
   color: var(--color-standard__white);
   font-family: 'Graphik', sans-serif;
 }
 
-.buttonBlob__button:active span {
+.buttonBlobLink__button:active span {
   opacity: 0.8;
 }
