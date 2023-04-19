@@ -122,7 +122,8 @@ function ChatGPTResults() {
   const [hidden, setHidden] = useState(true);
   const debouncedQuery = useDebounce(indexUiState.query);
   const { data, isLoading } = useSWR<{ result: string[] }>(
-    () => (debouncedQuery ? `/api/chat?query=${debouncedQuery}` : null),
+    () =>
+      debouncedQuery && !hidden ? `/api/chat?query=${debouncedQuery}` : null,
     fetcher,
   );
 
