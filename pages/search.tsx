@@ -178,6 +178,7 @@ function ChatGPTResults() {
         {isLoading ? (
           <div className={style.chatResult__loading}>
             <progress id="progress-bar" aria-label="Laster..."></progress>
+            <p>Henter svar...</p>
           </div>
         ) : (
           <p>{result}</p>
