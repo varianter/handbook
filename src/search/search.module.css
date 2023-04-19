@@ -153,6 +153,10 @@
   flex-wrap: wrap;
 }
 
+.noHits {
+  text-align: center;
+}
+
 .recentSearchChip {
   border-radius: 3.125rem;
   padding: 0.25rem 1.25rem;
@@ -186,6 +190,10 @@
   margin: 0;
   padding: 0;
 }
+.chatResult hr {
+  border-color: var(--color-secondary1);
+  margin: 1rem 0;
+}
 .chatResult__result {
   margin: 0 2rem;
   padding: 1rem 2rem;
@@ -194,11 +202,18 @@
   border-bottom-left-radius: 1.5625rem;
   border-bottom-right-radius: 1.5625rem;
 }
+.chatResult__loading {
+  display: flex;
+  justify-content: center;
+}
+.chatResult__nb {
+  font-size: 0.8rem;
+}
 .beta__pill {
   border-radius: 0.7rem;
   font-size: 0.8rem;
   text-transform: uppercase;
-  padding: 0.1rem 0.3rem;
+  padding: 0 0.3rem;
   background: var(--color-secondary3);
   color: var(--color-secondary3--text);
 }

@@ -135,7 +135,13 @@ function ChatGPTResults() {
     <header>
       <span className={style.beta__pill}>beta</span>
       <h3>GPT-svar</h3>
-      <Button onClick={() => setHidden((h) => !h)}>{buttonText}</Button>
+      <Button
+        onClick={() => setHidden((h) => !h)}
+        aria-expanded={!hidden}
+        aria-controls="gpt-result"
+      >
+        {buttonText}
+      </Button>
     </header>
   );
 
@@ -153,8 +159,27 @@ function ChatGPTResults() {
   return (
     <aside className={style.chatResult}>
       {header}
-      <div className={style.chatResult__result}>
-        <p>{isLoading ? 'Laster...' : result}</p>
+      <div
+        className={style.chatResult__result}
+        role="region"
+        id="gpt-result"
+        aria-busy={isLoading}
+        aria-describedby="progress-bar"
+      >
+        {isLoading ? (
+          <div className={style.chatResult__loading}>
+            <progress id="progress-bar" aria-label="Laster..."></progress>
+          </div>
+        ) : (
+          <p>{result}</p>
+        )}
+
+        <hr />
+        <em className={style.chatResult__nb}>
+          OBS: Dette er i prøvefase og svaret kan i mange tilfeller ikke være
+          komplett eller korrekt. Verifiser alltid med håndboken direkte om det
+          er noe kritisk.
+        </em>
       </div>
     </aside>
   );
@@ -221,7 +246,9 @@ function HandleNoHits() {
   const { results } = useInstantSearch();
   if (results.nbHits > 0) return null;
 
-  return <div>Ingen søkeresultater funnet</div>;
+  return (
+    <div className={style.noHits}>🔎 Ingen direkte søkeresultater funnet.</div>
+  );
 }
 
 export async function getServerSideProps({
