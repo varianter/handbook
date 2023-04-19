@@ -18,9 +18,7 @@ import { history } from 'instantsearch.js/es/lib/routers/index.js';
 import { GetServerSidePropsContext, GetServerSidePropsResult } from 'next';
 import { getServerState } from 'react-instantsearch-hooks-server';
 
-import Image from 'next/image';
 import Link from 'next/link';
-import clear from 'public/assets/illustrations/clear.svg';
 import { useState } from 'react';
 import { Userdata, useUserdata } from 'src/auth';
 import GeneralLayout from 'src/layouts/general';
