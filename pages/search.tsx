@@ -138,7 +138,7 @@ function ChatGPTResults() {
       <div className={style.chatResult__title}>
         <h3>GPT-svar*</h3>
         <small className={style.chatResult__notice}>
-          (*bruk her sender spørsmål til OpenAI)
+          (*bruk av GPT sender søketeksten din til OpenAI)
         </small>
       </div>
 
