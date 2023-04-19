@@ -222,76 +222,78 @@ export default function GeneralLayout({
           content="En variants håndbok. Hvordan ting gjøres i Variant, hva vi prøver å oppnå og hvorfor vi tenker som vi gjør"
         />
       </Head>
-      <header
-        className={
-          isLandingpage(asPath) && (waveVisible || scrollPosition < 500)
-            ? style.header__dark
-            : style.header
-        }
-      >
-        {!isSearchpage(asPath) && (
-          <ul
-            className={
-              isLandingpage(asPath) && (waveVisible || scrollPosition < 500)
-                ? style.header__handbooks__dark
-                : style.header__handbooks
-            }
-          >
-            {metadata.handbooks.map((handbook, index) => (
-              <li
-                key={handbook.title}
-                className={setActiveNavLink(
-                  handbook.path,
-                  asPath,
-                  waveVisible,
-                  scrollPosition,
-                )}
-              >
-                {isNotMobile && (
-                  <Link href={`/${handbook.path}`} tabIndex={tabIndex}>
-                    {`${index + 1}. ${handbook.title}`}
-                  </Link>
-                )}
-              </li>
-            ))}
+      {!isSearchpage(asPath) && (
+        <header
+          className={
+            isLandingpage(asPath) && (waveVisible || scrollPosition < 500)
+              ? style.header__dark
+              : style.header
+          }
+        >
+          {!isSearchpage(asPath) && (
+            <ul
+              className={
+                isLandingpage(asPath) && (waveVisible || scrollPosition < 500)
+                  ? style.header__handbooks__dark
+                  : style.header__handbooks
+              }
+            >
+              {metadata.handbooks.map((handbook, index) => (
+                <li
+                  key={handbook.title}
+                  className={setActiveNavLink(
+                    handbook.path,
+                    asPath,
+                    waveVisible,
+                    scrollPosition,
+                  )}
+                >
+                  {isNotMobile && (
+                    <Link href={`/${handbook.path}`} tabIndex={tabIndex}>
+                      {`${index + 1}. ${handbook.title}`}
+                    </Link>
+                  )}
+                </li>
+              ))}
 
-            {isNotMobile && (
-              <li>
-                <div className={style.header__handbooks__search}>
-                  <Link
-                    href={'/search'}
-                    className={style.header__handbooks__search__button}
-                  >
-                    <span>Søk</span>
-                    <Image
-                      priority
-                      src={magnifyingGlass}
-                      height={'30'}
-                      width={'30'}
-                      alt="Forstørrelseglass"
-                    />
-                  </Link>
-                </div>
-              </li>
-            )}
-          </ul>
-        )}
+              {isNotMobile && (
+                <li>
+                  <div className={style.header__handbooks__search}>
+                    <Link
+                      href={'/search'}
+                      className={style.header__handbooks__search__button}
+                    >
+                      <span>Søk</span>
+                      <Image
+                        priority
+                        src={magnifyingGlass}
+                        height={'30'}
+                        width={'30'}
+                        alt="Forstørrelseglass"
+                      />
+                    </Link>
+                  </div>
+                </li>
+              )}
+            </ul>
+          )}
 
-        {!noSidebar && !isNotMobile && (
-          <div className={style.burgerButtonContainer} ref={closeRef}>
-            <span hidden id="menu-label">
-              Hovedmeny
-            </span>
-            <Hamburger
-              onClick={() => setMenuVisible(!isMenuVisible)}
-              isOpen={isMenuVisible}
-              path={asPath}
-              waveVisible={waveVisible}
-              scrollPosition={scrollPosition}
-            />
-          </div>
-        )}
-      </header>
+          {!noSidebar && !isNotMobile && (
+            <div className={style.burgerButtonContainer} ref={closeRef}>
+              <span hidden id="menu-label">
+                Hovedmeny
+              </span>
+              <Hamburger
+                onClick={() => setMenuVisible(!isMenuVisible)}
+                isOpen={isMenuVisible}
+                path={asPath}
+                waveVisible={waveVisible}
+                scrollPosition={scrollPosition}
+              />
+            </div>
+          )}
+        </header>
+      )}
 
       {!isSearchpage(asPath) && (
         <div
