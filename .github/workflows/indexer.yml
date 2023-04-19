@@ -4,7 +4,8 @@ on:
     branches:
       - main
     paths:
-      - './pages/**/*.{md,mdx}'
+      - './pages/**/*.mdx'
+      - './pages/**/*.md'
 jobs:
   build:
     name: Run search index
