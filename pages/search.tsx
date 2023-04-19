@@ -11,18 +11,24 @@ import {
   SearchBox,
   useInstantSearch,
 } from 'react-instantsearch-hooks-web';
+import useSWR from 'swr';
 
 import type { Hit as AlgoliaHit } from 'instantsearch.js';
 import { history } from 'instantsearch.js/es/lib/routers/index.js';
 import { GetServerSidePropsContext, GetServerSidePropsResult } from 'next';
 import { getServerState } from 'react-instantsearch-hooks-server';
 
+import Image from 'next/image';
 import Link from 'next/link';
+import clear from 'public/assets/illustrations/clear.svg';
+import { useState } from 'react';
 import { Userdata, useUserdata } from 'src/auth';
 import GeneralLayout from 'src/layouts/general';
 import style from 'src/search/search.module.css';
 import clear from 'public/assets/illustrations/clear.svg';
 import ButtonBlob from 'src/components/buttonBlobLink';
+import useDebounce from 'src/utils/use-debounce';
+import Button from 'src/components/button';
 
 const appId = process.env.NEXT_PUBLIC_ALGOLIA_APP_ID || '';
 const apiKey = process.env.NEXT_PUBLIC_ALGOLIA_READ_KEY || '';
@@ -96,16 +102,98 @@ function SearchPage(props: SearchPagePropsWithUser) {
         <Configure hitsPerPage={SEARCH_HITS_PER_PAGE} />
 
         <div>
-          <SearchBox autoFocus placeholder="Skriv her" />
+          <SearchBox autoFocus placeholder="Søk eller still spørsmål..." />
           <div className={style.searchDivider} />
+
           <RecentSearches />
         </div>
 
+        <ChatGPTResults />
         <Hits hitComponent={Hit} />
         <HandleNoHits />
         <Pagination />
       </InstantSearch>
     </InstantSearchSSRProvider>
+  );
+}
+
+const fetcher = (url: string) => fetch(url).then((r) => r.json());
+
+function ChatGPTResults() {
+  const { indexUiState } = useInstantSearch();
+  const [hidden, setHidden] = useState(true);
+  const debouncedQuery = useDebounce(indexUiState.query);
+  const { data, isLoading } = useSWR<{ result: string[] }>(
+    () =>
+      debouncedQuery && !hidden ? `/api/chat?query=${debouncedQuery}` : null,
+    fetcher,
+  );
+
+  let buttonText = hidden ? 'Vis' : 'Skjul';
+  if (isLoading) {
+    buttonText = 'Laster...';
+  }
+
+  const header = (
+    <header>
+      <span className={style.beta__pill}>beta</span>
+      <div className={style.chatResult__title}>
+        <h3>GPT-svar*</h3>
+        <small className={style.chatResult__notice}>
+          (*bruk av GPT sender søketeksten din til OpenAI)
+        </small>
+      </div>
+
+      <div className={style.chatResult__button}>
+        <Button
+          onClick={() => setHidden((h) => !h)}
+          aria-expanded={!hidden}
+          aria-controls="gpt-result"
+        >
+          {buttonText}
+        </Button>
+      </div>
+    </header>
+  );
+
+  if (!indexUiState.query) {
+    return null;
+  }
+
+  if (hidden) {
+    return <aside className={style.chatResult}>{header}</aside>;
+  }
+
+  const result =
+    data?.result?.join('...') ?? 'Beep boop. Fant ingen resultater...';
+
+  return (
+    <aside className={style.chatResult}>
+      {header}
+      <div
+        className={style.chatResult__result}
+        role="region"
+        id="gpt-result"
+        aria-busy={isLoading}
+        aria-describedby="progress-bar"
+      >
+        {isLoading ? (
+          <div className={style.chatResult__loading}>
+            <progress id="progress-bar" aria-label="Laster..."></progress>
+            <p>Henter svar...</p>
+          </div>
+        ) : (
+          <p>{result}</p>
+        )}
+
+        <hr />
+        <em className={style.chatResult__nb}>
+          OBS: Dette er i prøvefase og svaret kan i mange tilfeller ikke være
+          komplett eller korrekt. Verifiser alltid med håndboken direkte om det
+          er noe kritisk.
+        </em>
+      </div>
+    </aside>
   );
 }
 
@@ -165,7 +253,9 @@ function HandleNoHits() {
   const { results } = useInstantSearch();
   if (results.nbHits > 0) return null;
 
-  return <div>Ingen søkeresultater funnet</div>;
+  return (
+    <div className={style.noHits}>🔎 Ingen direkte søkeresultater funnet.</div>
+  );
 }
 
 export async function getServerSideProps({

@@ -223,7 +223,11 @@ export default function GeneralLayout({
         />
       </Head>
       <header
-        className={isLandingpage(asPath) ? style.header__dark : style.header}
+        className={
+          isLandingpage(asPath) && (waveVisible || scrollPosition < 500)
+            ? style.header__dark
+            : style.header
+        }
       >
         {!isSearchpage(asPath) && (
           <ul
