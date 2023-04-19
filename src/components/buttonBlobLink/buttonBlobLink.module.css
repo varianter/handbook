@@ -6,8 +6,16 @@
   background-repeat: no-repeat;
   background-position: center;
   background: url('./illustrations/searchBlob.svg');
+  filter: hue-rotate(0deg); /* rotate the hue by 180 degrees */
+
+  transition: filter 0.3s ease, scale 0.3s ease;
 
   text-decoration: none;
+}
+
+.buttonBlobLink:hover {
+  scale: 1.05;
+  filter: hue-rotate(10deg); /* rotate the hue by 180 degrees */
 }
 
 .buttonBlobLink__button {
