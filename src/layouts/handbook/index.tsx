@@ -27,13 +27,16 @@ function createLinkable(el: 'h2' | 'h3' | 'h4') {
     );
   };
 }
+/**
+ * OBS!!
+ * krever unike titler på headings. Hvis ikke vil man gå til en
+ * h4 selv om man mente å gå til h3
+ *
+ */
 const LinkableH2 = createLinkable('h2');
 const LinkableH3 = createLinkable('h3');
 const LinkableH4 = createLinkable('h4');
-// TODO: link h4 er foreløpig kommentert ut, fordi alle "LinkableHx"-overskrifter må være unike, og dette sparer oss for ett nivå av nøsting.
-// Klikker man på "Lønn" (H3), så risikerer man at det navigeres til "Lønn" (H4). Bør lages en løsning som gjør hver lenke unik, uten å gi en rar path
 
-// const LinkableH4 = createLinkable('h4');
 const components = {
   h2: LinkableH2,
   h3: LinkableH3,
