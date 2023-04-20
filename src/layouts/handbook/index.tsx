@@ -27,6 +27,12 @@ function createLinkable(el: 'h2' | 'h3' | 'h4') {
     );
   };
 }
+/**
+ * OBS!!
+ * krever unike titler på headings. Hvis ikke vil man gå til en
+ * h4 selv om man mente å gå til h3
+ *
+ */
 const LinkableH2 = createLinkable('h2');
 const LinkableH3 = createLinkable('h3');
 const LinkableH4 = createLinkable('h4');
