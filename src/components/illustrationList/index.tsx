@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Url } from 'url';
 import style from './illustrationList.module.css';
+import React from 'react';
 
 type IllustrationListProps = {
   figureName: FigureName;
@@ -8,7 +9,7 @@ type IllustrationListProps = {
   text: string;
   href?: Url;
   linkText?: string;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 };
 
 const figureName = [
@@ -32,7 +33,7 @@ const figureName = [
   'wifiHigh',
 ] as const;
 
-type FigureName = typeof figureName[number];
+type FigureName = (typeof figureName)[number];
 
 export const IllustrationList = ({
   figureName,
@@ -58,9 +59,10 @@ export const IllustrationList = ({
 
 export const IllustrationListHeading = ({
   figureName,
-  headingText,
-  text,
+  children,
 }: IllustrationListProps) => {
+  const childrenArray = React.Children.toArray(children);
+
   return (
     <div className={style.illustrationList}>
       <div className={style.illustrationList__flex}>
@@ -69,9 +71,9 @@ export const IllustrationListHeading = ({
           role="none"
           alt=""
         />
-        <h4>{headingText}</h4>
+        {childrenArray[0]}
       </div>
-      <p>{text}</p>
+      {childrenArray[1]}
     </div>
   );
 };
