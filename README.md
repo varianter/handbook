@@ -2,7 +2,7 @@
 
 ## Text
 
-Edit text by changing files in [content](./content).
+Edit text by changing files in [pages](./pages).
 
 ## Development
 
@@ -58,3 +58,10 @@ Styles are used as CSS Modules with as specific naming as possible. If nested co
 Reusable or generic components should be moved to the [Styleguide monorepo](https://github.com/varianter/styleguide).
 
 This site should be static and exportable as clean HTML.
+
+## License
+
+Code is licensesd under **MIT**.
+
+Content is licensed under [**CC BY-SA 4.0**](https://creativecommons.org/licenses/by-sa/4.0/).
+_Tl;DR: Please use our content! But also take part in making the industriy a bit better by being open!_

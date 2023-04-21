@@ -1,6 +1,18 @@
 This license is valid for all content except the header illustration which is copyrighted by Sandra Blikås.
 
-Copyright 2018 Variant AS
+==== Text content and other content ====
+
+Handbook content (c) by Variant AS
+
+Handbook content is licensed under a
+Creative Commons Attribution-ShareAlike 4.0 International License.
+
+You should have received a copy of the license along with this
+work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.
+
+==== Code ====
+
+Copyright 2023 Variant AS
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

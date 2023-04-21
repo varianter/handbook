@@ -7,7 +7,7 @@
     "node": ">=16.0.0"
   },
   "author": "Anders N. Slinde <ans@variant.no>",
-  "license": "MIT",
+  "license": "MIT, CC BY-SA 4.0",
   "description": "Variant's handbook-v2",
   "devDependencies": {
     "@pinecone-database/pinecone": "^0.0.12",
