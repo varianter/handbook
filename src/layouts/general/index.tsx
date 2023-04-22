@@ -544,6 +544,17 @@ export default function GeneralLayout({
               </a>
             </li>
           </ul>
+          <div>
+            <a
+              rel="license"
+              href="http://creativecommons.org/licenses/by-sa/4.0/"
+            >
+              <img
+                alt="Creative Commons License"
+                src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+              />
+            </a>
+          </div>
         </div>
       </footer>
     </div>
