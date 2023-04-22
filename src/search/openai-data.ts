@@ -33,7 +33,7 @@ export async function queryOpenai(query: string): Promise<string[]> {
   const index = pinecone.Index(config.indexName);
   const queryRequest: QueryRequest = {
     vector: embedding,
-    topK: 10,
+    topK: 5,
     includeValues: false,
     includeMetadata: true,
     namespace: config.namespace,
@@ -47,20 +47,33 @@ export async function queryOpenai(query: string): Promise<string[]> {
     throw new Error('No matches found');
   }
 
+  const uniqueFullContent = queryResponse.matches
+    ?.map((m: any) => ({
+      title: m.metadata?.title,
+      fullContent: m.metadata?.fullContent,
+    }))
+    .reduce((uniqueArr, item) => {
+      const isDuplicate = uniqueArr.some(
+        (uniqueObj) =>
+          uniqueObj.title === item.title &&
+          uniqueObj.fullContent === item.fullContent,
+      );
+
+      return isDuplicate ? uniqueArr : [...uniqueArr, item];
+    }, [] as { title: string; fullContent: string }[]);
   let contextText = '';
-  for (let i = 0; i < queryResponse.matches.length; i++) {
-    const hit = queryResponse.matches[i];
-    const { content, title } = hit.metadata! as any;
-    const encoded = tokenizer.encode(
-      title + ' - ' + content.replace(/\n/g, ' '),
-    );
+  for (let i = 0; i < uniqueFullContent.length; i++) {
+    const uniqueItem = uniqueFullContent[i];
+    const { title, fullContent } = uniqueItem;
+    const text = title + ' - ' + fullContent.replace(/\n/g, ' ');
+    const encoded = tokenizer.encode(text);
     tokenCount += encoded.text.length;
 
     if (tokenCount >= 1500) {
       break;
     }
 
-    contextText += `${content.trim()}\n---\n`;
+    contextText += `${text.trim()}\n---\n`;
   }
 
   const prompt = codeBlock`
