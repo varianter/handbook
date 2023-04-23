@@ -1,5 +1,9 @@
 import { Configuration, CreateCompletionRequest, OpenAIApi } from 'openai';
-import { PineconeClient, QueryRequest } from '@pinecone-database/pinecone';
+import {
+  PineconeClient,
+  QueryRequest,
+  ScoredVector,
+} from '@pinecone-database/pinecone';
 import GPT3Tokenizer from 'gpt3-tokenizer';
 import { codeBlock, oneLine } from 'common-tags';
 
@@ -11,12 +15,12 @@ const config = {
 };
 
 export async function queryOpenai(query: string): Promise<string[]> {
-  const { openai, pinecone } = await connect();
+  const openai = await createOpenAIClient();
   // Moderate the content to comply with OpenAI T&C
   const moderationResponse = await openai.createModeration({ input: query });
   const [results] = moderationResponse.data.results;
   if (results.flagged) {
-    throw new Error('Flagged content');
+    throw new Error("Doesn't comply with OpenAI T&C");
   }
 
   const embeddingResponse = await openai.createEmbedding({
@@ -30,52 +34,29 @@ export async function queryOpenai(query: string): Promise<string[]> {
 
   const [{ embedding }] = embeddingResponse.data.data;
 
-  const index = pinecone.Index(config.indexName);
-  const queryRequest: QueryRequest = {
-    vector: embedding,
-    topK: 5,
-    includeValues: false,
-    includeMetadata: true,
-    namespace: config.namespace,
+  const scoredHandbookItems = await queryHandbookIndex(embedding);
+
+  const uniqueMetadatas = uniqueMetadataByFullContent(
+    scoredHandbookItems.map((s) => s.metadata),
+  );
+
+  const contextText = getContextText(uniqueMetadatas);
+
+  const prompt = getPrompt(query, contextText);
+
+  const completionOptions: CreateCompletionRequest = {
+    model: config.queryModel,
+    prompt,
+    max_tokens: 512,
+    temperature: 0,
+    stream: false,
   };
-  const queryResponse = await index.query({ queryRequest });
+  const res = await openai.createCompletion(completionOptions);
+  const { choices } = res.data;
+  return choices.map((c) => c.text).filter(Boolean) as string[];
+}
 
-  const tokenizer = new GPT3Tokenizer({ type: 'gpt3' });
-  let tokenCount = 0;
-
-  if (!queryResponse?.matches?.length) {
-    throw new Error('No matches found');
-  }
-
-  const uniqueFullContent = queryResponse.matches
-    ?.map((m: any) => ({
-      title: m.metadata?.title,
-      fullContent: m.metadata?.fullContent,
-    }))
-    .reduce((uniqueArr, item) => {
-      const isDuplicate = uniqueArr.some(
-        (uniqueObj) =>
-          uniqueObj.title === item.title &&
-          uniqueObj.fullContent === item.fullContent,
-      );
-
-      return isDuplicate ? uniqueArr : [...uniqueArr, item];
-    }, [] as { title: string; fullContent: string }[]);
-  let contextText = '';
-  for (let i = 0; i < uniqueFullContent.length; i++) {
-    const uniqueItem = uniqueFullContent[i];
-    const { title, fullContent } = uniqueItem;
-    const text = title + ' - ' + fullContent.replace(/\n/g, ' ');
-    const encoded = tokenizer.encode(text);
-    tokenCount += encoded.text.length;
-
-    if (tokenCount >= 1500) {
-      break;
-    }
-
-    contextText += `${text.trim()}\n---\n`;
-  }
-
+function getPrompt(query: string, contextText: string) {
   const prompt = codeBlock`
   ${oneLine`
     Du er en veldig entusiastisk Variant-representant som elsker
@@ -96,53 +77,123 @@ export async function queryOpenai(query: string): Promise<string[]> {
   ${query}
   """
 `;
-  const completionOptions: CreateCompletionRequest = {
-    model: config.queryModel,
-    prompt,
-    max_tokens: 512,
-    temperature: 0,
-    stream: false,
-  };
-  const res = await openai.createCompletion(completionOptions);
-  const { choices } = res.data;
-  return choices.map((c) => c.text).filter(Boolean) as string[];
+
+  return prompt;
 }
 
-async function connect() {
-  const { openApiKey, pineconeApiEnvironment, pineconeApiKey } =
-    getEnvironmentVariables();
+function getContextText(metadataArr: HandbookItemMetadata[]) {
+  const tokenizer = new GPT3Tokenizer({ type: 'gpt3' });
+  let tokenCount = 0;
+  let contextText = '';
+  for (let { title, fullContent } of metadataArr) {
+    const text = title + ' - ' + fullContent.replace(/\n/g, ' ');
+    const encoded = tokenizer.encode(text);
+    tokenCount += encoded.text.length;
 
-  const configuration = new Configuration({
-    apiKey: openApiKey,
-  });
-  const openai = new OpenAIApi(configuration);
-  const pinecone = new PineconeClient();
-  await pinecone.init({
-    environment: pineconeApiEnvironment,
-    apiKey: pineconeApiKey,
-  });
+    if (tokenCount >= 1500) {
+      break;
+    }
 
-  return { openai, pinecone };
+    contextText += `${text.trim()}\n---\n`;
+  }
+  return contextText;
 }
 
-function getEnvironmentVariables() {
-  const openApiKey = process.env.OPENAI_API_KEY;
-  if (!openApiKey)
+async function createOpenAIClient() {
+  const apiKey = process.env.OPENAI_API_KEY;
+  if (!apiKey)
     throw new Error('Please set the OPENAI_API_KEY environment variable');
 
-  const pineconeApiKey = process.env.PINECONE_API_KEY;
-  if (!pineconeApiKey)
+  const configuration = new Configuration({
+    apiKey,
+  });
+
+  return new OpenAIApi(configuration);
+}
+
+function uniqueMetadataByFullContent(
+  metadataArr: HandbookItemMetadata[],
+): HandbookItemMetadata[] {
+  const isDuplicate = (
+    uniques: HandbookItemMetadata[],
+    item: HandbookItemMetadata,
+  ): boolean => uniques.some((u) => u.fullContent === item.fullContent);
+
+  const reduceToUniqueContent = (
+    uniques: HandbookItemMetadata[],
+    item: HandbookItemMetadata,
+  ): HandbookItemMetadata[] =>
+    isDuplicate(uniques, item) ? uniques : [...uniques, item];
+
+  return metadataArr.reduce(
+    reduceToUniqueContent,
+    [] as HandbookItemMetadata[],
+  );
+}
+
+type HandbookItemMetadata = {
+  title: string;
+  url: string;
+  department: string[];
+  content: string;
+  fullContent: string;
+};
+
+type HandbookItemScoredVector = ScoredVector & {
+  metadata: HandbookItemMetadata;
+};
+
+function isHandbookItemScoredVector(
+  scoredVector: ScoredVector,
+): scoredVector is HandbookItemScoredVector {
+  return (
+    !!scoredVector.metadata &&
+    'title' in scoredVector.metadata &&
+    'url' in scoredVector.metadata &&
+    'department' in scoredVector.metadata &&
+    'content' in scoredVector.metadata &&
+    'fullContent' in scoredVector.metadata
+  );
+}
+
+async function queryHandbookIndex(
+  queryEmbedding: number[],
+): Promise<HandbookItemScoredVector[]> {
+  const pinecone = await createPineconeClient();
+
+  const index = pinecone.Index(config.indexName);
+  const queryRequest: QueryRequest = {
+    vector: queryEmbedding,
+    topK: 5,
+    includeValues: false,
+    includeMetadata: true,
+    namespace: config.namespace,
+  };
+  const queryResponse = await index.query({ queryRequest });
+
+  if (!queryResponse?.matches?.length) {
+    throw new Error('No matches found');
+  }
+
+  return queryResponse.matches.filter(isHandbookItemScoredVector);
+}
+
+async function createPineconeClient() {
+  const apiKey = process.env.PINECONE_API_KEY;
+  if (!apiKey)
     throw new Error('Please set the PINECONE_API_KEY environment variable');
 
-  const pineconeApiEnvironment = process.env.PINECONE_API_ENVIRONMENT;
-  if (!pineconeApiEnvironment)
+  const environment = process.env.PINECONE_API_ENVIRONMENT;
+  if (!environment)
     throw new Error(
       'Please set the PINECONE_API_ENVIRONMENT environment variable',
     );
 
-  return {
-    openApiKey,
-    pineconeApiKey,
-    pineconeApiEnvironment,
-  };
+  const pinecone = new PineconeClient();
+  await pinecone.init({
+    environment,
+    apiKey,
+  });
+
+  return pinecone;
 }
