@@ -3,9 +3,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - './pages/**/*.mdx'
-      - './pages/**/*.md'
 jobs:
   build:
     name: Run search index
