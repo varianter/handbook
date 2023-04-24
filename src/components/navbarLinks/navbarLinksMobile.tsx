@@ -1,6 +1,7 @@
 import slugify from 'slugify';
 import style from 'src/layouts/general/layout.module.css';
 import { and } from 'src/utils/css';
+import checkIfInclude from './checkIfHeadingShouldBeRemoved';
 type NavbarLinksMobileProps = {
   heading: TocItem;
   tabIndex: number;
@@ -29,6 +30,7 @@ const NavbarLinksMobile = ({
         {heading.value}
       </a>
       {heading.children.map((c, index) => {
+        if (checkIfInclude(c)) return null;
         return (
           <ul
             key={index}
