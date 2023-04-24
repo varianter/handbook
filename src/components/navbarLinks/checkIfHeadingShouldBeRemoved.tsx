@@ -4,10 +4,10 @@
  * @returns true hvis den skal fjernes. false hvis den skal inkluderes
  */
 
-const checkIfHeadingShouldBeRemoved = (headingValue: string) => {
-  if (headingValue === 'Vårt formål er å utvikle samfunnet vi lever i') {
-    return true;
-  }
+const checkIfHeadingShouldBeRemoved = (toc: TocItem) => {
+  if(toc.attributes.className === "toc-ignore") {
+      return true
+    }
   return false;
 };
 

@@ -30,7 +30,7 @@ const NavbarLinksMobile = ({
         {heading.value}
       </a>
       {heading.children.map((c, index) => {
-        if (checkIfInclude(c.value)) return null;
+        if (checkIfInclude(c)) return null;
         return (
           <ul
             key={index}
