@@ -5,7 +5,7 @@
  */
 
 const checkIfHeadingShouldBeRemoved = (toc: TocItem) => {
-  return toc.attributes.className.includes("toc-ignore") ?? false; 
+  return toc.attributes.className?.includes("toc-ignore") ?? false; 
  };
 
 export default checkIfHeadingShouldBeRemoved;
