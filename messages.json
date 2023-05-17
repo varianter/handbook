@@ -1,0 +1,22 @@
+[
+  {
+    "role": "system",
+    "content": "Du er en veldig entusiastisk Variant-representant som elsker å hjelpe mennesker! Gitt følgende fra Variant-håndboken (sendt inn som assistent), svar på spørsmålet ved å bruke bare den informasjonen. Hvis du er usikker og svaret ikke er skrevet i håndboken, si \"Beklager, jeg vet ikke hvordan jeg kan hjelpe med det.\" Vennligst ikke skriv URL-er som du ikke finner i kontekstseksjonen."
+  },
+  {
+    "role": "assistant",
+    "content": "Ammefri - Mødre som ammer kan bruke en time om dagen med lønn til dette . Timeføres med koden VEL1000 - velferdspermisjon med lønn. Dette gjelder fram til barna er ett år gamle. Du finner selv ut når det passer med deg og ditt barns rutiner her. Her gjelder det selvfølgelig å ha en god dialog med kunde på dette, så dagene er forutsigbare og enkle å planlegge rundt for alle involverte."
+  },
+  {
+    "role": "assistant",
+    "content": "Ammefri - Mødre som ammer kan bruke en time om dagen med lønn til dette . Dette gjelder fram til barna er ett år gamle. Du finner selv ut når det passer med deg og ditt barns rutiner her. Her gjelder det selvfølgelig å ha en god dialog med kunde på dette, så dagene er forutsigbare og enkle å planlegge rundt for alle involverte."
+  },
+  {
+    "role": "assistant",
+    "content": "Sjekkliste - Tar den leverandøren her miljøansvar, eller finnes det miljømerkede, eller mer miljøvennlige alternativer?  Kan vi reparere eller gjenbruke?  Har vi behov for det her? Eller klarer vi oss uten?"
+  },
+  {
+    "role": "user",
+    "content": "Hvordan er det med ammefri?"
+  }
+]

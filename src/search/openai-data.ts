@@ -1,4 +1,9 @@
-import { Configuration, CreateCompletionRequest, OpenAIApi } from 'openai';
+import {
+  ChatCompletionRequestMessage,
+  Configuration,
+  CreateChatCompletionRequest,
+  OpenAIApi,
+} from 'openai';
 import {
   PineconeClient,
   QueryRequest,
@@ -7,26 +12,33 @@ import {
 import GPT3Tokenizer from 'gpt3-tokenizer';
 import { codeBlock, oneLine } from 'common-tags';
 
+import fs from 'fs';
 const config = {
   indexName: 'handbook-index',
   namespace: 'handbook-namespace',
   embeddingModel: 'text-embedding-ada-002',
-  queryModel: 'text-davinci-003',
+  queryModel: 'gpt-3.5-turbo',
 };
 
 export async function queryOpenai(query: string): Promise<string[]> {
   const openai = await createOpenAIClient();
   // Moderate the content to comply with OpenAI T&C
+
+  const stopModTimer = timerLog('Moderation');
   const moderationResponse = await openai.createModeration({ input: query });
+  stopModTimer();
+
   const [results] = moderationResponse.data.results;
   if (results.flagged) {
     throw new Error("Doesn't comply with OpenAI T&C");
   }
 
+  const stopEmbTimer = timerLog('Embedding');
   const embeddingResponse = await openai.createEmbedding({
     model: config.embeddingModel,
     input: query,
   });
+  stopEmbTimer();
 
   if (embeddingResponse.status !== 200) {
     throw new Error(JSON.stringify(embeddingResponse.data));
@@ -40,20 +52,49 @@ export async function queryOpenai(query: string): Promise<string[]> {
     scoredHandbookItems.map((s) => s.metadata),
   );
 
+  fs.writeFileSync(
+    'uniqueMetadatas.json',
+    JSON.stringify(uniqueMetadatas, null, 2),
+  );
+  const assistentTexts: ChatCompletionRequestMessage[] = uniqueMetadatas.map(
+    (m) => ({
+      role: 'assistant',
+      content: m.title + ' - ' + m.fullContent.replace(/\n/g, ' '),
+    }),
+  );
+
   const contextText = getContextText(uniqueMetadatas);
 
   const prompt = getPrompt(query, contextText);
+  const messages: ChatCompletionRequestMessage[] = [
+    {
+      role: 'system',
+      content:
+        'Du er en veldig entusiastisk Variant-representant som elsker å hjelpe mennesker! Gitt følgende fra Variant-håndboken (sendt inn som assistent), svar på spørsmålet ved å bruke bare den informasjonen. Hvis du er usikker og svaret ikke er skrevet i håndboken, si "Beklager, jeg vet ikke hvordan jeg kan hjelpe med det." Vennligst ikke skriv URL-er som du ikke finner i kontekstseksjonen.',
+    },
+    ...assistentTexts,
+    {
+      role: 'user',
+      content: query,
+    },
+  ];
 
-  const completionOptions: CreateCompletionRequest = {
+  fs.writeFileSync('messages.json', JSON.stringify(messages, null, 2));
+
+  const completionOptions: CreateChatCompletionRequest = {
     model: config.queryModel,
-    prompt,
+    // prompt,
+    messages,
     max_tokens: 512,
     temperature: 0,
     stream: false,
   };
-  const res = await openai.createCompletion(completionOptions);
+
+  const stopCompletionTimer = timerLog('Completion');
+  const res = await openai.createChatCompletion(completionOptions);
+  stopCompletionTimer();
   const { choices } = res.data;
-  return choices.map((c) => c.text).filter(Boolean) as string[];
+  return choices.map((c) => c.message?.content).filter(Boolean) as string[];
 }
 
 function getPrompt(query: string, contextText: string) {
@@ -61,9 +102,9 @@ function getPrompt(query: string, contextText: string) {
   ${oneLine`
     Du er en veldig entusiastisk Variant-representant som elsker
     å hjelpe mennesker! Gitt følgende seksjoner fra Variant-håndboken,
-    svar på spørsmålet ved å bruke bare den informasjonen,
-    utgitt i markdown-format. Hvis du er usikker og svaret
-    ikke er skrevet i dokumentasjonen, si
+    svar på spørsmålet ved å bruke bare den informasjonen. 
+    Hvis du er usikker og svaret
+    ikke er skrevet i håndboken, si
     "Beklager, jeg vet ikke hvordan jeg kan hjelpe med det."
     Vennligst ikke skriv URL-er som du ikke finner i kontekstseksjonen.
 
@@ -159,17 +200,26 @@ function isHandbookItemScoredVector(
 async function queryHandbookIndex(
   queryEmbedding: number[],
 ): Promise<HandbookItemScoredVector[]> {
+  const stopIdxTimer = timerLog('Get index');
   const pinecone = await createPineconeClient();
 
   const index = pinecone.Index(config.indexName);
+  stopIdxTimer();
   const queryRequest: QueryRequest = {
     vector: queryEmbedding,
-    topK: 5,
+    topK: 3,
     includeValues: false,
     includeMetadata: true,
     namespace: config.namespace,
   };
+
+  const stopQueryTimer = timerLog('Query index');
   const queryResponse = await index.query({ queryRequest });
+  stopQueryTimer();
+  fs.writeFileSync(
+    'queryResponse.json',
+    JSON.stringify(queryResponse, null, 2),
+  );
 
   if (!queryResponse?.matches?.length) {
     throw new Error('No matches found');
@@ -196,4 +246,13 @@ async function createPineconeClient() {
   });
 
   return pinecone;
+}
+
+function timerLog(tag: string) {
+  const startTime = process.hrtime.bigint();
+  return function endTimerDebug() {
+    const endTime = process.hrtime.bigint();
+    const duration = Number(endTime - startTime) / 1000000;
+    console.log(`${tag}: ${duration}ms`);
+  };
 }
