@@ -9,8 +9,13 @@ import { createHash } from 'crypto';
  * These arrays are saved to a vector-database, which we can query at a later point to find similar text items.
  */
 export async function generateEmbeddings(index) {
-  const { openApiKey, pineconeApiKey, pineconeApiEnvironment, isProduction } =
-    getEnvironmentVariables();
+  const {
+    azureOpenAIKey,
+    azureOpenAIEndpoint,
+    pineconeApiKey,
+    pineconeApiEnvironment,
+    isProduction,
+  } = getEnvironmentVariables();
 
   console.log('Running merge on index, current item count:', index.length);
 
@@ -21,7 +26,10 @@ export async function generateEmbeddings(index) {
   console.log('Item count after merge:', mergedIndex.length);
 
   const configuration = new Configuration({
-    apiKey: openApiKey,
+    azure: {
+      apiKey: azureOpenAIKey,
+      endpoint: azureOpenAIEndpoint,
+    },
   });
   const openaiClient = new OpenAIApi(configuration);
   const pinecone = new PineconeClient();
@@ -170,9 +178,15 @@ function getItemKey(item) {
 }
 
 function getEnvironmentVariables() {
-  const openApiKey = process.env.OPENAI_API_KEY;
-  if (!openApiKey)
-    throw new Error('Please set the OPENAI_API_KEY environment variable');
+  const azureOpenAIKey = process.env.AZURE_OPENAI_API_KEY;
+  if (!azureOpenAIKey)
+    throw new Error('Please set the AZURE_OPENAI_API_KEY environment variable');
+
+  const azureOpenAIEndpoint = process.env.AZURE_OPENAI_ENDPOINT;
+  if (!azureOpenAIEndpoint)
+    throw new Error(
+      'Please set the AZURE_OPENAI_ENDPOINT environment variable',
+    );
 
   const pineconeApiKey = process.env.PINECONE_API_KEY;
   if (!pineconeApiKey)
@@ -185,7 +199,8 @@ function getEnvironmentVariables() {
     );
 
   return {
-    openApiKey,
+    azureOpenAIKey,
+    azureOpenAIEndpoint,
     pineconeApiKey,
     pineconeApiEnvironment,
     isProduction: process.env.NODE_ENV === 'production',
