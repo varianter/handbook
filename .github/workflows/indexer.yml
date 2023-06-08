@@ -19,6 +19,7 @@ jobs:
           BASE_URL: ${{ secrets.BASE_URL }}
           ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
+          AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_ENDPOINT }}
           PINECONE_API_ENVIRONMENT: ${{ secrets.PINECONE_API_ENVIRONMENT }}
           PINECONE_API_KEY: ${{ secrets.PINECONE_API_KEY }}
