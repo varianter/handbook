@@ -38,19 +38,19 @@ export async function queryOpenai(query: string): Promise<string[]> {
     scoredHandbookItems.map((s) => s.metadata),
   );
 
-  const assistentTexts: ChatCompletionRequestMessage[] =
-    getAssistantTexts(uniqueMetadatas);
+  const contextTexts: ChatCompletionRequestMessage[] =
+    getContextTexts(uniqueMetadatas);
 
   const messages: ChatCompletionRequestMessage[] = [
     {
       role: 'system',
       content:
-        'Du er en veldig entusiastisk Variant-representant som elsker å hjelpe mennesker! Gitt følgende fra Variant-håndboken (sendt inn som assistent), svar på spørsmålet ved å bruke bare den informasjonen. Hvis du er usikker og svaret ikke er skrevet i håndboken, si "Beklager, jeg vet ikke hvordan jeg kan hjelpe med det." Vennligst ikke skriv URL-er som du ikke finner i kontekstseksjonen.',
+        "Du er en intelligent assistent designet for å hjelpe brukere med å finne informasjon i Variant-håndboken. All informasjon du trenger er sendt i meldingene nedenfor hvor det står 'Fra håndboken:' foran. Du må bare bruke denne informasjonen for å svare på brukerens spørsmål. Hvis spørsmålet ikke er relatert til noe fra håndboken, skal du ikke prøve å svare på det, men si 'Beklager, jeg vet ikke hvordan jeg kan hjelpe med det'. Assistentmeldingene nedenfor er fra Variant-håndboken, og de er på norsk. Brukeren kan stille spørsmål på norsk eller engelsk. Veldig viktig: Hvis du ikke finner svaret i meldingene nedenfor, og er usikker, så må du ikke prøve å svare på spørsmålet, men heller si 'Beklager, jeg vet ikke hvordan jeg kan hjelpe med det'",
     },
-    ...assistentTexts,
+    ...contextTexts,
     {
       role: 'user',
-      content: query,
+      content: `Spørsmål: ${query}`,
     },
   ];
 
@@ -67,13 +67,13 @@ export async function queryOpenai(query: string): Promise<string[]> {
   return choices.map((c) => c.message?.content).filter(Boolean) as string[];
 }
 
-function getAssistantTexts(
+function getContextTexts(
   metadataArr: HandbookItemMetadata[],
 ): ChatCompletionRequestMessage[] {
   const tokenizer = new GPT3Tokenizer({ type: 'gpt3' });
   let tokenCount = 0;
 
-  let assistantTexts: ChatCompletionRequestMessage[] = [];
+  let contextTexts: ChatCompletionRequestMessage[] = [];
   for (let { title, fullContent } of metadataArr) {
     const text = title + ' - ' + fullContent.replace(/\n/g, ' ');
     const encoded = tokenizer.encode(text);
@@ -83,12 +83,12 @@ function getAssistantTexts(
       break;
     }
 
-    assistantTexts.push({
-      role: 'assistant',
-      content: text,
+    contextTexts.push({
+      role: 'user',
+      content: `Fra håndboken: ${text}`,
     });
   }
-  return assistantTexts;
+  return contextTexts;
 }
 
 async function createOpenAIClient() {
