@@ -238,10 +238,7 @@
   display: flex;
   align-items: center;
 
-  background: url('./navBackground.svg') var(--color-secondary1__shade2) right -100px
-    repeat-y;
-
-  background-size: cover;
+  background: var(--color-secondary1__shade2);
 }
 
 .nav__background__active {
