@@ -11,7 +11,7 @@ function createLinkable(el: 'h2' | 'h3' | 'h4') {
   return ({ children, ...props }: JSX.IntrinsicElements[typeof el]) => {
     const textContent = getNodeText(children);
     const slug = slugify(textContent, { lower: false });
-    const childList = React.Children.toArray(children);
+
     return React.createElement(
       el,
       {
@@ -19,11 +19,9 @@ function createLinkable(el: 'h2' | 'h3' | 'h4') {
         id: slug,
         key: slug,
       },
-      childList.concat(
-        <a className={style.anchor} key="link" href={`#${slug}`}>
-          #
-        </a>,
-      ),
+      <a className={style.titleLink} href={`#${slug}`}>
+        {children}
+      </a>,
     );
   };
 }
