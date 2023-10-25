@@ -1,16 +1,8 @@
-.anchor {
+.titleLink {
+  color: inherit;
   text-decoration: none;
-  font-size: 0.8em;
-  padding: 0 0.5rem;
-  align-self: baseline;
+}
 
-  /* Incase we want anchor tags after headings remove this!*/
-  display: none;
-}
-.anchor:visited,
-.anchor:link {
-  color: var(--color-secondary1__tint4);
-}
-.anchor:hover {
-  color: var(--color-primary);
+.titleLink:hover {
+  color: inherit;
 }
