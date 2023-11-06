@@ -88,6 +88,11 @@ li + li {
   margin-top: 10rem;
 }
 
+.coverImage {
+  max-width: 100%;
+  display: block;
+  margin: 1rem 0;
+}
 .illustration {
   width: 15rem;
   margin: 5rem 2rem 2rem;
@@ -168,6 +173,12 @@ li + li {
   background-color: var(--color-secondary4__tint1);
   padding: 2rem;
   margin: -2rem;
+}
+
+.backgroundHighlight {
+  background-color: var(--color-secondary4__tint1);
+  padding: 2rem;
+  margin: 1rem -2rem;
 }
 
 .backgroundExample {

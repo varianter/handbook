@@ -4,6 +4,7 @@ export function ProcessMenu() {
   return (
     <PageSelector
       sections={[
+        { section: 'RÅ', href: './prosesser-raa' },
         { section: 'Ansatt', href: './prosesser-ansatt' },
         { section: 'HMS', href: './prosesser-hms' },
         { section: 'Bærekraft', href: './prosesser-baerekraft' },
