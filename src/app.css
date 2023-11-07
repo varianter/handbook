@@ -178,7 +178,7 @@ li + li {
 .backgroundHighlight {
   background-color: var(--color-secondary4__tint1);
   padding: 2rem;
-  margin: 1rem -2rem;
+  margin: 1rem 0;
 }
 
 .backgroundExample {
