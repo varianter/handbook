@@ -38,6 +38,10 @@
   box-sizing: border-box;
 }
 
+.content img {
+  max-width: 100%;
+}
+
 .header,
 .header__dark {
   position: fixed;
