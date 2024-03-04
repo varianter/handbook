@@ -143,6 +143,14 @@ const metadata = {
           path: 'prosesser-ledelse',
           title: 'Ledelse',
         },
+        {
+          data: {
+            title: 'Sikkerhetshendelser',
+            order: 4,
+          },
+          path: 'prosesser-sikkerhet',
+          title: 'Sikkerhetshendelser',
+        },
       ],
     },
   ],

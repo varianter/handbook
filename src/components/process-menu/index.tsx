@@ -10,6 +10,7 @@ export function ProcessMenu() {
         { section: 'Bærekraft', href: './prosesser-baerekraft' },
         { section: 'Mangfold', href: './prosesser-mangfold' },
         { section: 'Ledelse', href: './prosesser-ledelse' },
+        { section: 'Sikkerhetshendelser', href: './prosesser-sikkerhet' },
         { section: 'Avtaler', href: 'https://avtaler.variant.no/' },
       ]}
     />
