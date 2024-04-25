@@ -13,7 +13,7 @@ export const plugins = [
 export function vfileToAst(vfile) {
   const data = remark()
     .use(remarkFrontmatter)
-    .use([remarkMdxFrontmatter, { name: 'frontmatter' }])
+    .use(remarkMdxFrontmatter, { name: 'frontmatter' })
     .use(remarkMdxToc)
     .use(remarkMdx)
     .parse(vfile);
