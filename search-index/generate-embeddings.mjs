@@ -80,7 +80,7 @@ export async function generateEmbeddings(index) {
       };
 
       progress.update(i, { operation: 'Inserting embedding' });
-      await pineconeIndex.upsert({ upsertRequest });
+      await pineconeIndex.upsert([{ upsertRequest }]);
       progress.update(i + 1);
     } catch (e) {
       errorCount++;
