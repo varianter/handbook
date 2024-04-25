@@ -62,25 +62,20 @@ export async function generateEmbeddings(index) {
 
       const embedding = await createEmbedding(input, openaiClient);
 
-      const upsertRequest = {
-        vectors: [
-          {
-            id: inputChecksum,
-            values: embedding,
-            metadata: {
-              title: title ?? '',
-              content,
-              fullContent,
-              url,
-              department,
-            },
-          },
-        ],
-        namespace: indexVectorNamespace,
-      };
-
       progress.update(i, { operation: 'Inserting embedding' });
-      await pineconeIndex.upsert([{ upsertRequest }]);
+      await pineconeIndex.upsert([
+        {
+          id: inputChecksum,
+          values: embedding,
+          metadata: {
+            title: title ?? '',
+            content,
+            fullContent,
+            url,
+            department,
+          },
+        },
+      ]);
       progress.update(i + 1);
     } catch (e) {
       errorCount++;
