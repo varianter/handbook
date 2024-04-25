@@ -10,13 +10,13 @@ import {
   Pagination,
   SearchBox,
   useInstantSearch,
-} from 'react-instantsearch-hooks-web';
+} from 'react-instantsearch';
 import useSWR from 'swr';
 
 import type { Hit as AlgoliaHit } from 'instantsearch.js';
 import { history } from 'instantsearch.js/es/lib/routers/index.js';
 import { GetServerSidePropsContext, GetServerSidePropsResult } from 'next';
-import { getServerState } from 'react-instantsearch-hooks-server';
+import { getServerState } from 'react-instantsearch-core';
 
 import Link from 'next/link';
 import { useState } from 'react';
