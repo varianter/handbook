@@ -105,10 +105,7 @@ async function getFonts(): Promise<Font[]> {
   return [
     {
       data: await readFile(
-        join(
-          process.cwd(),
-          'node_modules/@variant/profile/lib/typography/fonts/graphik/Graphik-Regular-Web.woff',
-        ),
+        join(process.cwd(), 'public/fonts/Graphik-Regular-Web.woff'),
       ),
       name: 'Graphik',
       weight: 400,
@@ -116,22 +113,14 @@ async function getFonts(): Promise<Font[]> {
     },
     {
       data: await readFile(
-        join(
-          process.cwd(),
-          'node_modules/@variant/profile/lib/typography/fonts/graphik/Graphik-Medium-Web.woff',
-        ),
+        join(process.cwd(), 'public/fonts/Graphik-Medium-Web.woff'),
       ),
       name: 'Graphik',
       weight: 600,
       style: 'normal',
     },
     {
-      data: await readFile(
-        join(
-          process.cwd(),
-          'node_modules/@variant/profile/lib/typography/fonts/recoleta/3A95AC_6_0.ttf',
-        ),
-      ),
+      data: await readFile(join(process.cwd(), 'public/fonts/3A95AC_6_0.ttf')),
       name: 'Recoleta',
       weight: 600,
       style: 'normal',
