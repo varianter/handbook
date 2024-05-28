@@ -27,6 +27,7 @@ import clear from 'public/assets/illustrations/clear.svg';
 import ButtonBlob from 'src/components/buttonBlobLink';
 import useDebounce from 'src/utils/use-debounce';
 import Button from 'src/components/button';
+import Head from 'next/head';
 
 const appId = process.env.NEXT_PUBLIC_ALGOLIA_APP_ID || '';
 const apiKey = process.env.NEXT_PUBLIC_ALGOLIA_READ_KEY || '';
@@ -42,8 +43,32 @@ type SearchPageProps = {
 export default function Search(props: SearchPageProps) {
   const userInfo = useUserdata();
 
+  const searchQuery = encodeURIComponent(
+    props.serverState?.initialResults.handbook_content.state.query ?? '',
+  );
+
+  const firstResultPotential = (
+    props.serverState?.initialResults.handbook_content.results[0]?.hits[0]
+      ?.content ?? 'Ikke funnet'
+  ).substring(0, 255);
+
+  console.log('Dsadsa\n\n\\n\n\n\n', firstResultPotential, '\n\n\\n\n\n\n');
   return (
     <GeneralLayout toc={[]} frontmatter={{ title: 'Søk' }} noSidebar>
+      <Head>
+        <meta
+          property="og:image"
+          content={`https://handbook.variant.no/api/og-search?query=${searchQuery}`}
+          key="og-image"
+        />
+        <meta property="og:url" content={props.url} key="og-url" />
+
+        <meta
+          property="og:description"
+          content={`Søkeresultat: ${firstResultPotential}`}
+          key="og-desc"
+        />
+      </Head>
       <CloseSearch />
       <h2 className={style.header}>Hva leter du etter?</h2>
       <SearchPage {...props} userInfo={userInfo} />
