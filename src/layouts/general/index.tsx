@@ -221,10 +221,15 @@ export default function GeneralLayout({
         <meta name="twitter:site" content="@variant_as" />
         <meta property="og:title" content={frontmatter?.title ?? title} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://handbook.variant.no/" />
+        <meta
+          property="og:url"
+          content="https://handbook.variant.no/"
+          key="og-url"
+        />
         <meta
           property="og:image"
           content="https://www.variant.no/og-header-min.png"
+          key="og-image"
         />
         <meta
           name="description"
@@ -432,9 +437,9 @@ export default function GeneralLayout({
                           asPath != '/avdelinger'
                             ? style.nav__inner__link__active
                             : asPath == '/avdelinger' &&
-                              handbook.title.toLowerCase() == 'lokasjoner'
-                            ? style.nav__inner__link__active__submenu_location
-                            : style.nav__inner__link
+                                handbook.title.toLowerCase() == 'lokasjoner'
+                              ? style.nav__inner__link__active__submenu_location
+                              : style.nav__inner__link
                         }
                       >
                         <Link
