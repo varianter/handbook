@@ -28,7 +28,7 @@ export async function generateEmbeddings(index) {
 
   const pinecone = new Pinecone({ apiKey: pineconeApiKey });
 
-  const indexName = 'handbook-index';
+  const indexName = 'handbook-index-1718677251';
   const indexVectorNamespace = 'handbook-namespace';
 
   const pineconeIndex = pinecone
