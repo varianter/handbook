@@ -10,7 +10,7 @@
   "license": "MIT, CC BY-SA 4.0",
   "description": "Variant's handbook-v2",
   "devDependencies": {
-    "@pinecone-database/pinecone": "^2.2.0",
+    "@pinecone-database/pinecone": "^3.0.0",
     "@types/mdx": "^2.0.13",
     "@types/node": "^20.12.7",
     "@types/qs": "^6.9.15",
