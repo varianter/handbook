@@ -94,14 +94,12 @@ li + li {
   margin: 1rem 0;
 }
 .illustration {
-  width: 15rem;
-  margin: 5rem 2rem 2rem;
-  shape-outside: circle(55%);
+  width: 17rem;
+  shape-outside: circle(50%);
+  padding: 2rem;
 }
 .illustration--right {
   float: right;
-  margin: 3rem 0 2rem 2rem;
-  right: -4rem;
 }
 .illustration--left {
   float: left;
@@ -247,15 +245,7 @@ a:hover {
   }
   .illustration {
     max-width: 40%;
-    width: 13rem;
-  }
-  .illustration--right {
-    margin: 3rem 0 1rem 1rem;
-    right: -1rem;
-  }
-  .illustration--left {
-    margin: 3rem 1rem 1rem 0;
-    left: -1rem;
+    width: 15rem;
   }
   .illustration--center {
     margin: 0 auto;
