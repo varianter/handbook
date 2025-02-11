@@ -64,6 +64,15 @@ h4 {
   font-size: 1.2rem;
   font-family: 'Graphik', sans-serif;
 }
+h5 {
+  font-size: 1.1rem;
+  font-family: 'Graphik', sans-serif;
+}
+h6 {
+  font-size: 1rem;
+  font-family: 'Graphik', sans-serif;
+  margin-bottom: 0.5rem;
+}
 li + li {
   margin-top: 0.5rem;
 }
@@ -79,7 +88,7 @@ li + li {
   margin-top: -3rem;
   padding-top: 6rem;
 }
-* + h5 {
+* + h5, * + h6 {
   margin-top: 0;
   padding-top: 2rem;
 }
