@@ -2,24 +2,9 @@
 @font-face {
   font-family: 'Britti Sans';
   src: url('/fonts/britti-sans-variable.woff2') format('woff2');
-  font-weight: normal;
+  font-weight: 100 900;
+  font-display: swap;
   font-style: normal;
-}
-
-/* Load Britti Sans Semibold Italic */
-@font-face {
-  font-family: 'Britti Sans';
-  src: url('/fonts/britti-sans-semibolditalic.woff2') format('woff2');
-  font-weight: 600;
-  font-style: italic;
-}
-
-/* Load Britti Sans Regular Italic */
-@font-face {
-  font-family: 'Britti Sans';
-  src: url('/fonts/britti-sans-regularitalic.woff2') format('woff2');
-  font-weight: 400;
-  font-style: italic;
 }
 
 html {
@@ -33,6 +18,8 @@ html {
 body {
   margin: 0;
   font-family: 'Britti Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
 }
 
 @import '~@variant/profile/lib/colors/index.module.css';
@@ -55,10 +42,22 @@ html {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   word-wrap: normal;
   margin-bottom: 0.5rem;
   font-family: 'Britti Sans', sans-serif;
+  font-weight: 400;
+  scroll-margin-top: 3rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  scroll-margin-top: 4rem;
 }
 h1 {
   font-size: 4rem;
@@ -70,7 +69,6 @@ h2 {
   position: relative;
   padding-top: 1.5rem;
   background-color: transparent;
-  background-image: url('/assets/backgroundBlobs/headerBlob.svg');
   background-repeat: no-repeat;
   background-position: bottom left;
 }
@@ -164,24 +162,12 @@ li + li {
   width: 100vw;
 }
 
-.darkBackground {
-  background-color: var(--color-secondary1__shade2);
-  padding-bottom: 20rem;
-  margin-bottom: -20rem;
-  padding-top: 30rem;
-  margin-top: -30rem;
-  padding-inline: 100vw;
-  margin-inline: -100vw;
-  position: relative;
-  z-index: 0;
-}
-
 .darkBackground * {
-  color: var(--color-standard__white);
+  color: var(--text-primary-light);
 }
 
 .darkBackground p a {
-  color: var(--color-standard__white);
+  color: var(--text-primary-light);
 }
 
 .illustration--bottom {
@@ -224,17 +210,17 @@ li + li {
 }
 
 .handbook > h1:first-child {
-  color: var(--color-standard__black);
+  color: var(--text-primary);
 }
 
 .darkBackgroundHeading > h1 {
-  color: var(--color-standard__white);
+  color: var(--text-primary-light);
 }
 
 code {
   padding: 0.2rem;
   border-radius: 0.2rem;
-  background-color: var(--color-secondary3);
+  background-color: var(--Blue-200);
 }
 
 table {
@@ -253,12 +239,12 @@ table td {
 }
 
 a:visited {
-  color: var(--color-standard__black);
+  color: var(--text-primary);
   transition: color 250ms ease-in;
 }
 a,
 a:hover {
-  color: var(--color-secondary2__shade3);
+  color: var(--Blue-800);
 }
 
 @media (max-width: 1100px) {
@@ -320,13 +306,15 @@ div .fakeHeading3 > * {
 }
 
 :root {
+  --Blue-50: #f2f3fd;
+  --Blue-100: #cde5ff;
   --Blue-200: #bee0ff;
   --Blue-300: #c3c8f6;
   --Blue-400: #788aea;
   --Blue-500: #3840ff;
   --Blue-600: #007ddc;
   --Blue-700: #0014cd;
-  --Blue-50: #f2f3fd;
+  --Blue-800: #003563;
 
   --Green-900: #024105;
   --Green-800: #035506;
@@ -366,12 +354,12 @@ div .fakeHeading3 > * {
   --Violet-200: #e8c8f0;
   --Violet-50: #f0ebfe;
 
-  --Light-500: #eaeaea;
   --Light-50: #fefefe;
   --Light-100: #fafafa;
   --Light-200: #f9f9f9;
   --Light-300: #f6f6f6;
   --Light-400: #f5f5f5;
+  --Light-500: #eaeaea;
   --Light-700: #acacac;
   --Light-600: #dcdcdc;
   --Light-800: #858585;
