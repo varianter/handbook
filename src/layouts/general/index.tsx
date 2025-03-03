@@ -12,11 +12,6 @@ import { and } from 'src/utils/css';
 import { LayoutProps } from '../signature';
 import style from './layout.module.css';
 
-import backArrow from './backArrow.svg';
-import magnifyingGlass from './magnifyingGlass.svg';
-import ButtonBlob from 'src/components/buttonBlobLink';
-import ButtonBlobLink from 'src/components/buttonBlobLink';
-
 const title = 'Variant Håndbok';
 
 const isActiveHandbook = (path: string, asPath: string, isCategory = false) => {
@@ -173,10 +168,10 @@ export default function GeneralLayout({
   );
 
   const { width } = useWindowDimensions(setMenuVisible);
-  var isNotMobile = true;
+  let isNotMobile = true;
 
   if (width) {
-    isNotMobile = width > 1200;
+    isNotMobile = width > 1000;
   }
 
   const [scrollPosition, setscrollPosition] = useState(0);
@@ -210,6 +205,19 @@ export default function GeneralLayout({
     isActiveHandbook(theme.path, asPath, true),
   );
 
+  const router = useRouter();
+
+  const handleSearchKeyPress = (
+    event: React.KeyboardEvent<HTMLInputElement>,
+  ) => {
+    if (event.key === 'Enter') {
+      const searchQuery = (event.target as HTMLInputElement).value;
+      router.push(
+        `/search?handbook_content%5Bquery%5D=${encodeURIComponent(searchQuery)}`,
+      );
+    }
+  };
+
   return (
     <div className={classes}>
       <Head>
@@ -237,69 +245,67 @@ export default function GeneralLayout({
         />
       </Head>
       {!isSearchpage(asPath) && (
-        <header
-          className={
-            isLandingpage(asPath) && (waveVisible || scrollPosition < 500)
-              ? style.header__dark
-              : style.header
-          }
-        >
-          {!isSearchpage(asPath) && (
-            <ul
-              className={
-                isLandingpage(asPath) && (waveVisible || scrollPosition < 500)
-                  ? style.header__handbooks__dark
-                  : style.header__handbooks
-              }
+        <>
+          <div className={style.backToVariantLinkContainer}>
+            <Link
+              href="https://www.variant.no/"
+              tabIndex={tabIndex}
+              className={style.backToVariantLink}
             >
-              {metadata.handbooks.map((handbook, index) => (
-                <li
-                  key={handbook.title}
-                  className={setActiveNavLink(
-                    handbook.path,
-                    asPath,
-                    waveVisible,
-                    scrollPosition,
-                  )}
-                >
-                  {isNotMobile && (
-                    <Link href={`/${handbook.path}`} tabIndex={tabIndex}>
-                      {`${index + 1}. ${handbook.title}`}
-                    </Link>
-                  )}
-                </li>
-              ))}
-
-              {isNotMobile && (
-                <li>
-                  <ButtonBlobLink
-                    imgName={magnifyingGlass}
-                    buttonText={'Søk'}
-                    altText={'Forstørrelseglass'}
-                    href={'/search'}
-                    height={30}
-                    width={30}
+              Tilbake til Variant.no
+            </Link>
+          </div>
+          <header className={style.header}>
+            {!isSearchpage(asPath) && (
+              <ul
+                className={
+                  isLandingpage(asPath) && (waveVisible || scrollPosition < 500)
+                    ? style.header__handbooks__dark
+                    : style.header__handbooks
+                }
+              >
+                <span className={style.handbookNavTitle}>Håndboka</span>
+                {metadata.handbooks.map((handbook) => (
+                  <li
+                    key={handbook.title}
+                    className={setActiveNavLink(handbook.path, asPath)}
+                  >
+                    {isNotMobile && (
+                      <Link href={`/${handbook.path}`} tabIndex={tabIndex}>
+                        {handbook.title}
+                      </Link>
+                    )}
+                  </li>
+                ))}
+                <div className={style.search_navbar_container}>
+                  <img
+                    src={require('src/components/search-form/search.svg')}
+                    alt="Search"
+                    className={style.search_navbar_icon}
                   />
-                </li>
-              )}
-            </ul>
-          )}
-
-          {!noSidebar && !isNotMobile && (
-            <div className={style.burgerButtonContainer} ref={closeRef}>
-              <span hidden id="menu-label">
-                Hovedmeny
-              </span>
-              <Hamburger
-                onClick={() => setMenuVisible(!isMenuVisible)}
-                isOpen={isMenuVisible}
-                path={asPath}
-                waveVisible={waveVisible}
-                scrollPosition={scrollPosition}
-              />
-            </div>
-          )}
-        </header>
+                  <input
+                    type="text"
+                    placeholder="Søk etter innhold"
+                    className={`${style.search_navbar} ${style.search_navbar_with_icon}`}
+                    tabIndex={tabIndex}
+                    onKeyPress={handleSearchKeyPress}
+                  />
+                </div>
+              </ul>
+            )}
+            {!noSidebar && !isNotMobile && (
+              <div className={style.burgerButtonContainer} ref={closeRef}>
+                <span hidden id="menu-label">
+                  Hovedmeny
+                </span>
+                <Hamburger
+                  onClick={() => setMenuVisible(!isMenuVisible)}
+                  isOpen={isMenuVisible}
+                />
+              </div>
+            )}
+          </header>
+        </>
       )}
 
       {!isSearchpage(asPath) && (
@@ -320,16 +326,6 @@ export default function GeneralLayout({
             <div className={style.nav__handbooks__container}>
               {isNotMobile ? (
                 <div>
-                  <div className={style.header__handbooks__back}>
-                    <img
-                      src={backArrow}
-                      alt="Arrow to Variant.no"
-                      role="none"
-                    />
-                    <a href="https://www.variant.no" tabIndex={tabIndex}>
-                      Til Variant.no
-                    </a>
-                  </div>
                   <ul className={style.nav__handbooks__container}>
                     {/* Lokasjoner */}
                     {currentCategory && (
@@ -408,27 +404,14 @@ export default function GeneralLayout({
               ) : (
                 // hamburger menu
                 <ul className={style.nav__handbooks}>
-                  <li className={style.header__handbooks__search__container}>
-                    <ButtonBlob
-                      imgName={magnifyingGlass}
-                      buttonText={'Søk'}
-                      altText={'Forstørrelsesglass'}
-                      href={'/search'}
-                      height={30}
-                      width={30}
-                    />
-                  </li>
-                  <li className={style.nav__hamburger__link__to__variant}>
-                    <img
-                      src={backArrow}
-                      alt="Arrow to Variant.no"
-                      role="none"
-                    />
-                    <a href="https://www.variant.no" tabIndex={tabIndex}>
-                      Til Variant.no
-                    </a>
-                  </li>
-                  {metadata.handbooks.map((handbook, index) => {
+                  <input
+                    type="text"
+                    placeholder="Søk etter innhold"
+                    className={`${style.search_navbar__hamburger} ${style.search_navbar_with_icon}`}
+                    tabIndex={tabIndex}
+                    onKeyPress={handleSearchKeyPress}
+                  />
+                  {metadata.handbooks.map((handbook) => {
                     return (
                       <li
                         key={handbook.title}
@@ -451,9 +434,8 @@ export default function GeneralLayout({
                               : style.nav_header_link
                           }
                         >
-                          {index + 1}. {handbook.title}
+                          {handbook.title}
                         </Link>
-
                         {hamburgerMenu(
                           handbook.title,
                           asPath,
@@ -470,7 +452,6 @@ export default function GeneralLayout({
               )}
             </div>
           </section>
-
           <LoginForm tabIndex={tabIndex} />
         </nav>
       )}
@@ -692,24 +673,13 @@ export const getServerSideProps: GetServerSideProps = getAuthServerSideProps;
 type HamburgerProps = {
   isOpen: boolean;
   onClick: () => void;
-  path: string;
-  waveVisible: boolean;
-  scrollPosition: number;
 };
 
-function Hamburger({
-  isOpen,
-  onClick,
-  path,
-  waveVisible,
-  scrollPosition,
-}: HamburgerProps) {
+function Hamburger({ isOpen, onClick }: HamburgerProps) {
   return (
     <button
       className={and(
-        isLandingpage(path) && (waveVisible || scrollPosition < 500)
-          ? style.hamburger__dark
-          : style.hamburger,
+        style.hamburger,
         isOpen ? style.hamburger__open : undefined,
       )}
       type="button"
@@ -725,31 +695,18 @@ function Hamburger({
   );
 }
 
-function setActiveNavLink(
-  handbookPath: string,
-  asPath: string,
-  waveVisible: boolean,
-  scrollPosition: number,
-) {
-  if (!isLandingpage(asPath) || (!waveVisible && scrollPosition > 500)) {
-    if (isActiveHandbook(handbookPath, asPath)) {
-      return style.header__handbooks__link__active;
-    } else {
-      return style.header__handbooks__link;
-    }
+function setActiveNavLink(handbookPath: string, asPath: string) {
+  if (isActiveHandbook(handbookPath, asPath)) {
+    return style.header__handbooks__link__active;
   } else {
-    if (isActiveHandbook(handbookPath, asPath)) {
-      return style.header__handbooks__link__dark__active;
-    } else {
-      return style.header__handbooks__link__dark;
-    }
+    return style.header__handbooks__link;
   }
 }
 
 function useTogglableBurgerMenu<T extends HTMLElement, R extends HTMLElement>(
   modalRef: React.RefObject<T>,
   closeButton: React.RefObject<R>,
-  breakpointMinWidth = '1200px',
+  breakpointMinWidth = '1000px',
 ) {
   const [isMenuVisible, setMenuVisible] = useState(false);
   const [tabIndex, setTabIndex] = useState(0);
@@ -904,12 +861,12 @@ function useOnScreen(ref: React.RefObject<HTMLImageElement>) {
   return isIntersecting;
 }
 
-type WindowDimentions = {
+type WindowDimensions = {
   width: number | undefined;
 };
 
-const useWindowDimensions = (setMenuVisible: any): WindowDimentions => {
-  const [windowDimensions, setWindowDimensions] = useState<WindowDimentions>({
+const useWindowDimensions = (setMenuVisible: any): WindowDimensions => {
+  const [windowDimensions, setWindowDimensions] = useState<WindowDimensions>({
     width: undefined,
   });
   useEffect(() => {
