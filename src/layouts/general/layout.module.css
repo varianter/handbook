@@ -322,7 +322,7 @@
   z-index: 50;
   transform: translateX(-100%);
   transition: transform 450ms ease-in-out;
-  background-color: var(--Blue-600);
+  background-color: var(--Blue-700);
 
   display: flex;
   flex-direction: column;
@@ -526,7 +526,7 @@
   position: absolute;
   height: 3px;
   width: 100%;
-  background: var(--color-secondary4__tint2);
+  background: var(--Blue-50);
   border-radius: 9px;
   opacity: 1;
   transform: rotate(0deg);
@@ -539,11 +539,11 @@
 }
 
 .hamburger__dark span {
-  border: 2px solid var(--color-secondary4__tint2);
+  border: 2px solid var(--Blue-50);
 }
 
 .hamburger__open span {
-  border: 2px solid var(--color-secondary4__tint2);
+  border: 2px solid var(--Blue-50);
 }
 
 .hamburger span:nth-child(1),

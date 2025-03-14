@@ -15,6 +15,46 @@ type SearchFormProps = {
 export function SearchBox(props: SearchFormProps) {
   return (
     <div className={style.container}>
+      <div className={style.face_decoration}>
+        <svg
+          width="21"
+          height="26"
+          viewBox="0 0 21 26"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M10.1123 2V9.46511H13.1891"
+            stroke="#282828"
+            stroke-width="3.61593"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M18.4079 2V3.32584"
+            stroke="#282828"
+            stroke-width="3.61593"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M1.81803 2V3.32584"
+            stroke="#282828"
+            stroke-width="3.61593"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <circle
+            cx="11.3181"
+            cy="20.53"
+            r="3.61594"
+            stroke="#282828"
+            stroke-width="3.61593"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
       <h2>Søk etter innhold</h2>
       <SearchForm {...props} />
     </div>

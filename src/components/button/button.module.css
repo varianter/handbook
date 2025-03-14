@@ -19,7 +19,7 @@
     padding: 0.5rem 1rem;
   }
 }
-.button:hover {
+.button:is(:hover, :focus) {
   background: var(--color-secondary1__tint2);
   color: var(--color-secondary1__tint2--text);
 }

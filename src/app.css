@@ -185,8 +185,14 @@ li + li {
   margin: -2rem;
 }
 
+.background-color-blue-100 {
+  background-color: var(--Blue-100);
+  padding: 2rem;
+  margin: -2rem;
+}
+
 .backgroundHighlight {
-  background-color: var(--color-secondary4__tint1);
+  background-color: var(--Blue-50);
   padding: 2rem;
   margin: 1rem 0;
 }
@@ -227,10 +233,10 @@ table {
   margin: 2rem 1rem;
 }
 table tbody tr td {
-  background: var(--color-secondary4__tint2);
+  background: var(--Blue-50);
 }
 table tbody tr:nth-child(2n + 1) td {
-  background: var(--color-secondary4__tint1);
+  background: var(--Blue-100);
 }
 
 table th,
@@ -306,7 +312,7 @@ div .fakeHeading3 > * {
 }
 
 :root {
-  --Blue-50: #f2f3fd;
+  --Blue-50: #ebf4ff;
   --Blue-100: #cde5ff;
   --Blue-200: #bee0ff;
   --Blue-300: #c3c8f6;
