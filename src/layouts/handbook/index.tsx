@@ -55,6 +55,7 @@ function getNodeText(node: React.ReactNode): string {
   if (typeof node == 'string') return node;
   if (typeof node == 'number') return String(node);
   if (typeof node == 'boolean') return '';
+  if (typeof node == 'bigint') return '';
   if (node == null) return '';
   if (Array.isArray(node)) return node.map(getNodeText).join('');
   if ('props' in node) {
