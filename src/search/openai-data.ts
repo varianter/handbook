@@ -1,13 +1,15 @@
 import {
-  ChatCompletionRequestMessage,
-  Configuration,
-  CreateChatCompletionRequest,
-  OpenAIApi,
-} from 'openai';
+  OpenAIClient,
+  AzureKeyCredential,
+  type GetChatCompletionsOptions,
+  type ChatRequestMessageUnion,
+} from '@azure/openai';
+
 import {
-  PineconeClient,
-  QueryRequest,
-  ScoredVector,
+  Pinecone,
+  QueryOptions,
+  RecordMetadata,
+  ScoredPineconeRecord,
 } from '@pinecone-database/pinecone';
 import GPT3Tokenizer from 'gpt3-tokenizer';
 
@@ -21,16 +23,13 @@ const config = {
 export async function queryOpenai(query: string): Promise<string[]> {
   const openai = await createOpenAIClient();
 
-  const embeddingResponse = await openai.createEmbedding({
-    model: config.embeddingModel,
-    input: query,
-  });
+  const embeddingResponse = await openai.getEmbeddings(config.embeddingModel, [query]);
 
-  if (embeddingResponse.status !== 200) {
+  if (!embeddingResponse.data) {
     throw new Error(JSON.stringify(embeddingResponse.data));
   }
 
-  const [{ embedding }] = embeddingResponse.data.data;
+  const [{ embedding }] = embeddingResponse.data;
 
   const scoredHandbookItems = await queryHandbookIndex(embedding);
 
@@ -40,7 +39,7 @@ export async function queryOpenai(query: string): Promise<string[]> {
 
   const contextTexts = getContextTexts(uniqueMetadatas);
 
-  const messages: ChatCompletionRequestMessage[] = [
+  const messages: ChatRequestMessageUnion[] = [
     {
       role: 'system',
       content:
@@ -60,16 +59,13 @@ export async function queryOpenai(query: string): Promise<string[]> {
     },
   ];
 
-  const completionOptions: CreateChatCompletionRequest = {
-    model: config.queryModel,
-    messages,
-    max_tokens: 512,
+  const completionOptions: GetChatCompletionsOptions = {
+    maxTokens: 512,
     temperature: 0,
-    stream: false,
   };
 
-  const res = await openai.createChatCompletion(completionOptions);
-  const { choices } = res.data;
+  const res = await openai.getChatCompletions(config.queryModel, messages, completionOptions);
+  const { choices } = res;
   return choices.map((c) => c.message?.content).filter(Boolean) as string[];
 }
 
@@ -103,14 +99,7 @@ async function createOpenAIClient() {
       'Please set the AZURE_OPENAI_ENDPOINT environment variable',
     );
 
-  const configuration = new Configuration({
-    azure: {
-      apiKey,
-      endpoint,
-    },
-  });
-
-  return new OpenAIApi(configuration);
+  return new OpenAIClient(endpoint, new AzureKeyCredential(apiKey));
 }
 
 function uniqueMetadataByFullContent(
@@ -141,12 +130,12 @@ type HandbookItemMetadata = {
   fullContent: string;
 };
 
-type HandbookItemScoredVector = ScoredVector & {
+type HandbookItemScoredVector = ScoredPineconeRecord<RecordMetadata> & {
   metadata: HandbookItemMetadata;
 };
 
 function isHandbookItemScoredVector(
-  scoredVector: ScoredVector,
+  scoredVector: ScoredPineconeRecord<RecordMetadata>,
 ): scoredVector is HandbookItemScoredVector {
   return (
     !!scoredVector.metadata &&
@@ -163,16 +152,15 @@ async function queryHandbookIndex(
 ): Promise<HandbookItemScoredVector[]> {
   const pinecone = await createPineconeClient();
 
-  const index = pinecone.Index(config.indexName);
-  const queryRequest: QueryRequest = {
+  const index = pinecone.Index(config.indexName).namespace(config.namespace);
+  const queryRequest: QueryOptions = {
     vector: queryEmbedding,
     topK: 3,
     includeValues: false,
     includeMetadata: true,
-    namespace: config.namespace,
   };
 
-  const queryResponse = await index.query({ queryRequest });
+  const queryResponse = (await index.query(queryRequest));
 
   if (!queryResponse?.matches?.length) {
     throw new Error('No matches found');
@@ -186,17 +174,13 @@ async function createPineconeClient() {
   if (!apiKey)
     throw new Error('Please set the PINECONE_API_KEY environment variable');
 
-  const environment = process.env.PINECONE_API_ENVIRONMENT;
-  if (!environment)
-    throw new Error(
-      'Please set the PINECONE_API_ENVIRONMENT environment variable',
-    );
+  // const environment = process.env.PINECONE_API_ENVIRONMENT;
+  // if (!environment)
+  //   throw new Error(
+  //     'Please set the PINECONE_API_ENVIRONMENT environment variable',
+  //   );
 
-  const pinecone = new PineconeClient();
-  await pinecone.init({
-    environment,
-    apiKey,
-  });
+  const pinecone = new Pinecone({apiKey});
 
   return pinecone;
 }
