@@ -6,7 +6,7 @@ export const OsloEmissionTable = () => {
     <table className={style.osloEmissionTable}>
       <tr>
         <th>År</th>
-        <th>Utlipp per årsverk</th>
+        <th>Utlipp per ansatt</th>
         <th>Utslipp for året</th>
       </tr>
       <tr>
