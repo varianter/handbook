@@ -21,8 +21,13 @@ export const OsloEmissionTable = () => {
       </tr>
       <tr>
         <td>2022</td>
-        <td>3 039 kgCo2e</td>
+        <td>4 625 kgCo2e</td>
         <td>106 370 kgCo2e</td>
+      </tr>
+      <tr>
+        <td>2021</td>
+        <td>3 107 kgCo2e</td>
+        <td>21 746 kgCo2e</td>
       </tr>
     </table>
   );
