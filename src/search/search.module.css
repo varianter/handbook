@@ -9,7 +9,7 @@
 
 .searchItem h3 > a > span {
   border-bottom: 2px solid;
-  border-color: var(--color-standard__white);
+  border-color: var(--text-primary-light);
 }
 
 :global(.ais-Hits-list) {
@@ -55,11 +55,13 @@
   flex: 1;
   padding: 0.6875rem 0 0.6875rem 0;
   font-size: 2.813rem;
-  border: 0;
   line-height: 59.85px;
-  color: var(--color-standard__white);
+  color: var(--text-primary);
   outline: none;
-  background-color: var(--color-secondary1__shade3);
+  background-color: var(--background-bg-light-primary);
+  border: 2px solid var(--text-primary);
+  border-radius: 0.625rem;
+  padding-left: 1.5rem;
 }
 
 @media (max-width: 700px) {
@@ -69,7 +71,7 @@
 }
 
 :global(.ais-SearchBox-input::placeholder) {
-  color: var(--color-standard__white);
+  color: var(--text-primary-light);
 }
 
 :global(.ais-SearchBox-input)::-webkit-search-cancel-button {
@@ -98,7 +100,7 @@
 }
 
 :global(.ais-Highlight-highlighted) {
-  background-color: var(--color-secondary3__tint3);
+  background-color: var(--Blue-200);
 }
 
 .header {
@@ -113,7 +115,7 @@
 
 .searchDivider {
   border-bottom: 1px solid;
-  border-color: var(--color-standard__white);
+  border-color: var(--text-primary-light);
 }
 
 .recentSearchesContainer {
@@ -153,8 +155,8 @@
   align-items: center;
   padding: 0.5rem 0.75rem;
   border-radius: 3.125rem;
-  background: var(--color-secondary1__shade2);
-  color: var(--color-secondary1__shade2--text);
+  background: var(--Blue-100);
+  color: var(--text-primary);
   gap: 0.5rem;
 }
 .chatResult__notice {
@@ -200,6 +202,6 @@
   font-size: 0.8rem;
   text-transform: uppercase;
   padding: 0 0.3rem;
-  background: var(--color-secondary3);
-  color: var(--color-secondary3--text);
+  background: var(--Blue-400);
+  color: var(--text-primary);
 }

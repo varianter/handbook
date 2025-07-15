@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import style from './buttonBlobLink.module.css';
-import SearchBlob from './illustrations/searchBlob';
 
 type ButtonBlobLinkProps = {
   imgName: string;
@@ -21,8 +20,7 @@ const ButtonBlobLink = ({
   width,
 }: ButtonBlobLinkProps) => {
   return (
-    <Link href={href} className={style.buttonBlobLink}>
-      <SearchBlob />
+    <Link href={href} className={style.search__main}>
       <div className={style.buttonBlobLink__button}>
         <span>{buttonText}</span>
         <Image

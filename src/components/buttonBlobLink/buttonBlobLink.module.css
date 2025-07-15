@@ -40,8 +40,7 @@
 }
 
 .buttonBlobLink__button span {
-  color: var(--color-standard__white);
-  font-family: 'Graphik', sans-serif;
+  color: var(--text-primary);
 }
 
 .buttonBlobLink__button:active span {
