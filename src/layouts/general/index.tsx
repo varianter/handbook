@@ -94,6 +94,14 @@ const metadata = {
           path: 'avdelinger/bergen',
           title: 'Bergen',
         },
+        {
+          data: {
+            title: 'Stavanger',
+            order: 1,
+          },
+          path: 'avdelinger/stavanger',
+          title: 'Stavanger',
+        },
       ],
     },
   ],

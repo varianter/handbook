@@ -3,7 +3,7 @@ import slugify from 'slugify';
 import { Userdata, useUserdata } from 'src/auth';
 import { TabButton, TabContainer, TabList, TabPanel } from '../tabbar';
 
-export type Departments = 'Molde' | 'Trondheim' | 'Oslo' | 'Bergen';
+export type Departments = 'Molde' | 'Trondheim' | 'Oslo' | 'Bergen' | 'Stavanger';
 
 type DepartmentProps = React.PropsWithChildren<{
   dep: Departments | Departments[];
