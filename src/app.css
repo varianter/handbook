@@ -1,3 +1,12 @@
+/* Load Britti Sans Variable font */
+@font-face {
+  font-family: 'Britti Sans';
+  src: url('/fonts/britti-sans-variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -8,6 +17,9 @@ html {
 }
 body {
   margin: 0;
+  font-family: 'Britti Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
 }
 
 @import '~@variant/profile/lib/colors/index.module.css';
@@ -30,9 +42,22 @@ html {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   word-wrap: normal;
   margin-bottom: 0.5rem;
+  font-family: 'Britti Sans', sans-serif;
+  font-weight: 400;
+  scroll-margin-top: 3rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  scroll-margin-top: 4rem;
 }
 h1 {
   font-size: 4rem;
@@ -41,12 +66,9 @@ h1 {
 }
 h2 {
   font-size: 2.25rem;
-
   position: relative;
-
   padding-top: 1.5rem;
   background-color: transparent;
-  background-image: url('/assets/backgroundBlobs/headerBlob.svg');
   background-repeat: no-repeat;
   background-position: bottom left;
 }
@@ -57,20 +79,16 @@ h2 {
 
 h3 {
   font-size: 1.6rem;
-  font-family: 'Graphik', sans-serif;
   font-weight: 500;
 }
 h4 {
   font-size: 1.2rem;
-  font-family: 'Graphik', sans-serif;
 }
 h5 {
   font-size: 1.1rem;
-  font-family: 'Graphik', sans-serif;
 }
 h6 {
   font-size: 1rem;
-  font-family: 'Graphik', sans-serif;
   margin-bottom: 0.5rem;
 }
 li + li {
@@ -88,7 +106,8 @@ li + li {
   margin-top: -3rem;
   padding-top: 6rem;
 }
-* + h5, * + h6 {
+* + h5,
+* + h6 {
   margin-top: 0;
   padding-top: 2rem;
 }
@@ -131,13 +150,9 @@ li + li {
       rgba(0, 212, 255, 0) 100%
     );
   background-repeat: no-repeat;
-
   background-size: 100vw 4.2rem;
-
   transform: rotate(180deg);
-
   height: 5rem;
-
   margin-left: -50vw;
   margin-right: -50vw;
   position: relative;
@@ -147,24 +162,12 @@ li + li {
   width: 100vw;
 }
 
-.darkBackground {
-  background-color: var(--color-secondary1__shade2);
-  padding-bottom: 20rem;
-  margin-bottom: -20rem;
-  padding-top: 30rem;
-  margin-top: -30rem;
-  padding-inline: 100vw;
-  margin-inline: -100vw;
-  position: relative;
-  z-index: 0;
-}
-
 .darkBackground * {
-  color: var(--color-standard__white);
+  color: var(--text-primary-light);
 }
 
 .darkBackground p a {
-  color: var(--color-standard__white);
+  color: var(--text-primary-light);
 }
 
 .illustration--bottom {
@@ -182,8 +185,14 @@ li + li {
   margin: -2rem;
 }
 
+.background-color-blue-100 {
+  background-color: var(--Blue-100);
+  padding: 2rem;
+  margin: -2rem;
+}
+
 .backgroundHighlight {
-  background-color: var(--color-secondary4__tint1);
+  background-color: var(--Blue-50);
   padding: 2rem;
   margin: 1rem 0;
 }
@@ -202,33 +211,32 @@ li + li {
 .handbook > h1:first-child,
 .darkBackgroundHeading > h1 {
   margin: 4rem 0;
-
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
 
 .handbook > h1:first-child {
-  color: var(--color-standard__black);
+  color: var(--text-primary);
 }
 
 .darkBackgroundHeading > h1 {
-  color: var(--color-standard__white);
+  color: var(--text-primary-light);
 }
 
 code {
   padding: 0.2rem;
   border-radius: 0.2rem;
-  background-color: var(--color-secondary3);
+  background-color: var(--Blue-200);
 }
 
 table {
   margin: 2rem 1rem;
 }
 table tbody tr td {
-  background: var(--color-secondary4__tint2);
+  background: var(--Blue-50);
 }
 table tbody tr:nth-child(2n + 1) td {
-  background: var(--color-secondary4__tint1);
+  background: var(--Blue-100);
 }
 
 table th,
@@ -237,12 +245,12 @@ table td {
 }
 
 a:visited {
-  color: var(--color-standard__black);
+  color: var(--text-primary);
   transition: color 250ms ease-in;
 }
 a,
 a:hover {
-  color: var(--color-secondary2__shade3);
+  color: var(--Blue-800);
 }
 
 @media (max-width: 1100px) {
@@ -266,7 +274,7 @@ a:hover {
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: normal;
-  font-family: 'Recoleta', serif;
+  font-family: 'Britti Sans', sans-serif;
   opacity: 0.8;
 }
 .markdownIt-Anchor:hover {
@@ -290,7 +298,7 @@ h4 .markdownIt-Anchor {
 
 div .fakeHeading3 > * {
   font-size: 1.6rem;
-  font-family: 'Graphik', sans-serif;
+  font-family: 'Britti Sans', sans-serif;
   font-weight: 500;
 }
 
@@ -301,4 +309,150 @@ div .fakeHeading3 > * {
 .ais-Highlight-highlighted {
   background-color: var(--color-secondary3__tint1);
   color: var(--color-secondary3__tint1--text);
+}
+
+:root {
+  --Blue-50: #ebf4ff;
+  --Blue-100: #cde5ff;
+  --Blue-200: #bee0ff;
+  --Blue-300: #c3c8f6;
+  --Blue-400: #788aea;
+  --Blue-500: #3840ff;
+  --Blue-600: #007ddc;
+  --Blue-700: #0014cd;
+  --Blue-800: #003563;
+
+  --Green-900: #024105;
+  --Green-800: #035506;
+  --Green-700: #046d08;
+  --Green-600: #058c0a;
+  --Green-500: #059a0b;
+  --Green-400: #37ae3c;
+  --Green-300: #58bb5c;
+  --Green-200: #8cd18f;
+  --Green-100: #b2e0b3;
+  --Green-50: #e6f5e7;
+
+  --Red-900: #46100a;
+  --Red-700: #7c2318;
+  --Red-600: #b63729;
+  --Red-500: #f0503f;
+  --Red-300: #f3948f;
+  --Red-100: #fabbb4;
+  --Red-50: #fdedec;
+
+  --Yellow-900: #3b2800;
+  --Yellow-800: #634601;
+  --Yellow-700: #8e6703;
+  --Yellow-600: #bd8905;
+  --Yellow-500: #edad08;
+  --Yellow-400: #ffd02f;
+  --Yellow-300: #fbe186;
+  --Yellow-100: #fdefbb;
+  --Yellow-50: #fffbf6;
+
+  --Violet-900: #220548;
+  --Violet-800: #47128c;
+  --Violet-700: #7022d6;
+  --Violet-500: #a160f6;
+  --Violet-400: #ac8df7;
+  --Violet-300: #cdbdfa;
+  --Violet-200: #e8c8f0;
+  --Violet-50: #f0ebfe;
+
+  --Light-50: #fefefe;
+  --Light-100: #fafafa;
+  --Light-200: #f9f9f9;
+  --Light-300: #f6f6f6;
+  --Light-400: #f5f5f5;
+  --Light-500: #eaeaea;
+  --Light-700: #acacac;
+  --Light-600: #dcdcdc;
+  --Light-800: #858585;
+  --Light-900: #666666;
+
+  --Dark-50: #e7e7e7;
+  --Dark-100: #b4b5b5;
+  --Dark-200: #909191;
+  --Dark-300: #5e5e5e;
+  --Dark-400: #3e3f3f;
+  --Dark-500: #2d2d2d;
+  --Dark-600: #222424;
+  --Dark-700: #0a0b0b;
+  --Dark-800: #080808;
+  --Dark-900: #060606;
+
+  --text-primary: var(--Dark-600);
+  --text-link: var(--Blue-500);
+  --text-secondary: var(--Dark-400);
+  --text-tertiary: var(--Dark-300);
+  --text-primary-light: var(--Light-100);
+  --text-secondary-light: var(--Light-300);
+  --text-placeholder: var(--Dark-200);
+  --text-disabled: var(--Dark-200);
+  --text-warning: var(--Yellow-500);
+  --text-error: var(--Red-500);
+  --text-success: var(--Green-500);
+
+  --background-bg-dark: var(--Dark-500);
+  --background-bg-light-primary: var(--Light-100);
+  --background-bg-light-secondary: var(--Light-500);
+  --background-bg-green: var(--Green-500);
+  --background-bg-red: var(--Red-500);
+  --background-bg-blue: var(--Blue-500);
+  --background-bg-yellow: var(--Yellow-500);
+  --background-disabled: var(--Light-700);
+  --background-header-light-transparent: #fafafabf;
+  --background-employees-green: #dafbdc;
+
+  --stroke-primary: var(--Dark-700);
+  --stroke-secondary: var(--Dark-400);
+  --stroke-tertiary: var(--Dark-300);
+
+  --background-button-outline-dark: var(--background-bg-dark);
+  --background-button-disabled: var(--background-disabled);
+  --background-button-outline-light: var(--background-bg-light-primary);
+
+  --surface-yellow: var(--Yellow-400);
+  --surface-red: var(--Red-500);
+  --surface-blue: var(--Blue-500);
+  --surface-green: var(--Green-400);
+  --surface-green-light: var(--Green-100);
+  --surface-blue-light: var(--Blue-200);
+  --surface-red-light: var(--Red-100);
+  --surface-yellow-light: var(--Yellow-50);
+  --surface-white: var(--Light-50);
+  --surface-violet-light: var(--Violet-50);
+  --surface-violet-accent: var(--Violet-200);
+  --surface-violet-vivid: var(--Violet-700);
+  --surface-blue-subtle: var(--Blue-50);
+
+  /* breakpoints */
+  /* NOTE: Media queries does not accept variables,
+  so use pixel values instead */
+  --breakpoint-mobile: 425px;
+  --breakpoint-tablet: 834px;
+  --breakpoint-large: 1024px;
+
+  /* max widths, corresponds to 'widest section', 'major 10 col' and '2-3 - 8col' in Figma variables */
+  --max-content-width-large: 1408px; /* 88rem */
+  --max-content-width-medium: 1091px; /* 68.1875rem */
+  --max-content-width-small: 869px; /* 54.3125rem */
+  --max-content-width-half: 50%; /* 54.3125rem */
+
+  /* Radius */
+  --radius-small: 6px;
+  --radius-medium: 12px;
+  --radius-large: 24px;
+
+  /* Padding */
+  --padding-xs: 0.25rem;
+  --padding-s: 0.75rem;
+  --padding-rem: 1rem;
+  --padding-m: 1.5rem;
+  --padding-l: 3rem;
+  --padding-xl: 6rem;
+  --padding-xxl: 9rem;
+
+  font-size: clamp(1rem, 0.9rem + 0.5vw, 1.2rem);
 }

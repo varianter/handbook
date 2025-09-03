@@ -52,7 +52,6 @@ export default function Search(props: SearchPageProps) {
       ?.content ?? 'Ikke funnet'
   ).substring(0, 255);
 
-  console.log('Dsadsa\n\n\\n\n\n\n', firstResultPotential, '\n\n\\n\n\n\n');
   return (
     <GeneralLayout toc={[]} frontmatter={{ title: 'Søk' }} noSidebar>
       <Head>

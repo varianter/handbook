@@ -17,11 +17,11 @@
 
 .pageSelectorButton a {
   text-decoration: none;
-  color: var(--color-standard__black);
+  color: var(--text-primary);
 }
 
 .pageSelectorButton a:visited {
-  color: var(--color-standard__black);
+  color: var(--text-primary);
 }
 
 .pageSelectorButton:hover {
