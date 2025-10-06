@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "keywords": [],
   "engines": {
-    "node": "^20.0.0"
+    "node": "^22.0.0"
   },
   "author": "Anders N. Slinde <ans@variant.no>",
   "license": "MIT, CC BY-SA 4.0",
