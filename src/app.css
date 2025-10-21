@@ -17,6 +17,7 @@ html,
 body,
 #root {
   min-height: 100vh;
+  font-family: "Britti Sans Variable";
 }
 #root {
   position: relative;
@@ -27,12 +28,14 @@ html {
   background: var(--color-secondary4__tint3);
   scroll-behavior: smooth;
 }
+
 h1,
 h2,
 h3,
 h4 {
   word-wrap: normal;
   margin-bottom: 0.5rem;
+  font-family: 'Britti Sans Variable'; 
 }
 h1 {
   font-size: 4rem;
@@ -40,10 +43,8 @@ h1 {
   z-index: 1;
 }
 h2 {
-  font-size: 2.25rem;
-
+  font-size: 2.25rem; 
   position: relative;
-
   padding-top: 1.5rem;
   background-color: transparent;
   background-image: url('/assets/backgroundBlobs/headerBlob.svg');
@@ -52,27 +53,29 @@ h2 {
 }
 
 h2 {
-  padding-top: 5rem;
+  padding-top: 5rem; 
 }
 
 h3 {
   font-size: 1.6rem;
-  font-family: 'Graphik', sans-serif;
   font-weight: 500;
 }
+
 h4 {
   font-size: 1.2rem;
-  font-family: 'Graphik', sans-serif;
 }
+
 h5 {
   font-size: 1.1rem;
-  font-family: 'Graphik', sans-serif;
+  font-family: 'Britti Sans Variable';
 }
+
 h6 {
   font-size: 1rem;
-  font-family: 'Graphik', sans-serif;
+  font-family: 'Britti Sans Variable';
   margin-bottom: 0.5rem;
 }
+
 li + li {
   margin-top: 0.5rem;
 }
@@ -80,10 +83,12 @@ li + li {
 * + h2 {
   padding-top: 6rem;
 }
+
 * + h3 {
   margin-top: -3.5rem;
   padding-top: 6.5rem;
 }
+
 * + h4 {
   margin-top: -3rem;
   padding-top: 6rem;
@@ -102,17 +107,21 @@ li + li {
   display: block;
   margin: 1rem 0;
 }
+
 .illustration {
   width: 17rem;
   shape-outside: circle(50%);
   padding: 2rem;
 }
+
 .illustration--right {
   float: right;
 }
+
 .illustration--left {
   float: left;
 }
+
 .illustration--center {
   margin: 2rem auto;
   display: block;
@@ -131,13 +140,9 @@ li + li {
       rgba(0, 212, 255, 0) 100%
     );
   background-repeat: no-repeat;
-
   background-size: 100vw 4.2rem;
-
   transform: rotate(180deg);
-
   height: 5rem;
-
   margin-left: -50vw;
   margin-right: -50vw;
   position: relative;
@@ -260,38 +265,6 @@ a:hover {
     margin: 0 auto;
     display: block;
   }
-}
-.markdownIt-Anchor {
-  margin-left: -1.5rem;
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: normal;
-  font-family: 'Recoleta', serif;
-  opacity: 0.8;
-}
-.markdownIt-Anchor:hover {
-  opacity: 1;
-}
-@media (max-width: 600px) {
-  .markdownIt-Anchor {
-    margin-left: 0rem;
-  }
-}
-
-h1 .markdownIt-Anchor {
-  display: none;
-}
-h3 .markdownIt-Anchor {
-  font-size: 1.2rem;
-}
-h4 .markdownIt-Anchor {
-  font-size: 1rem;
-}
-
-div .fakeHeading3 > * {
-  font-size: 1.6rem;
-  font-family: 'Graphik', sans-serif;
-  font-weight: 500;
 }
 
 .illustration--center {

@@ -71,7 +71,6 @@ export default async function handler(
       >
         <h1
           style={{
-            fontFamily: 'Recoleta',
             fontWeight: 600,
             fontSize: '80px',
             lineHeight: 1.2,
@@ -79,7 +78,7 @@ export default async function handler(
         >
           {first.title}
         </h1>
-        <p style={{ fontFamily: 'Graphik', fontSize: 32 }}>
+        <p style={{ fontFamily: 'Britti Sans Regular', fontSize: 32 }}>
           {highlightedText.trim()}[...]
         </p>
       </div>
@@ -105,26 +104,12 @@ async function getFonts(): Promise<Font[]> {
   return [
     {
       data: await readFile(
-        join(process.cwd(), 'public/fonts/Graphik-Regular-Web.woff'),
+        join(process.cwd(), 'public/fonts/Britti-Sans-Regular.otf'),
       ),
-      name: 'Graphik',
+      name: 'Britti Sans Regular',
       weight: 400,
       style: 'normal',
-    },
-    {
-      data: await readFile(
-        join(process.cwd(), 'public/fonts/Graphik-Medium-Web.woff'),
-      ),
-      name: 'Graphik',
-      weight: 600,
-      style: 'normal',
-    },
-    {
-      data: await readFile(join(process.cwd(), 'public/fonts/3A95AC_6_0.ttf')),
-      name: 'Recoleta',
-      weight: 600,
-      style: 'normal',
-    },
+    }
   ];
 }
 
