@@ -5,5 +5,6 @@ export const OsloLedelse = () => {
         <li>CTO: Nikolai</li>
         <li>CGO: Even</li>
         <li>CCO: Arash</li>
+        <li>CLCO: Charlotte</li>
     </ul>)
 };
