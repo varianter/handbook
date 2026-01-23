@@ -10,6 +10,11 @@ export const OsloEmissionTable = () => {
         <th>Utslipp for året</th>
       </tr>
       <tr>
+        <td>2025</td>
+        <td>6 213 kgCo2e</td>
+        <td>229 881 kgCo2e</td>
+      </tr>
+      <tr>
         <td>2024</td>
         <td>4 312 kgCo2e</td>
         <td>155 235 kgCo2e</td>
