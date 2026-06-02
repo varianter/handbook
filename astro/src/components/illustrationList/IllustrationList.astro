@@ -1,0 +1,21 @@
+---
+export interface Props {
+  figureName: string;
+  text: string;
+  href?: string;
+  linkText?: string;
+}
+const { figureName, text, href, linkText } = Astro.props;
+---
+<div class="illustrationList">
+  <div class="illustrationList__flex">
+    <img src={`/assets/illustrations/bulletpoints/${figureName}.svg`} role="none" alt="" />
+    <p>
+      {text}
+      {href ? <a href={href}>{linkText}</a> : null}
+    </p>
+  </div>
+</div>
+<style>
+  @import './illustrationList.module.css';
+</style>

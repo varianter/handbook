@@ -1,0 +1,24 @@
+---
+// ProsesserLayout.astro — shared layout for all /prosesser/* pages.
+// Automatically includes the intro heading, intro paragraph, and ProcessMenu.
+// Eliminates the boilerplate that was duplicated across 8+ pages.
+
+import GeneralLayout from './GeneralLayout.astro';
+
+export interface Props {
+  frontmatter?: { title?: string; [key: string]: any };
+  headings?: Array<{ depth: number; slug: string; text: string }>;
+}
+
+const { frontmatter, headings = [] } = Astro.props;
+---
+
+<GeneralLayout frontmatter={frontmatter} headings={headings}>
+  <h1>Hvordan vi gjør ting</h1>
+  <p>
+    Her samler vi strategier, rutiner og prosesser for hvordan ting gjøres i Variant.
+    Noen områder krever derimot mer bakgrunnsinfo og utdyping og er derfor skilt ut
+    som egne sider.
+  </p>
+  <slot />
+</GeneralLayout>

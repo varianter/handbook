@@ -1,0 +1,26 @@
+---
+// BookFooter.astro — "edit this page" link shown below page content
+interface Props {
+  editUrl: string;
+}
+
+const { editUrl } = Astro.props;
+---
+
+<footer class="book-footer">
+  <p>
+    Ser du en feil eller noe som ikke kommer klart nok frem?{' '}
+    <a href={editUrl}>Send beskjed eller foreslå en endring! 🥰</a>
+  </p>
+</footer>
+
+<style>
+  .book-footer {
+    margin-top: 5rem;
+    padding: 0 2rem;
+  }
+  .book-footer p {
+    font-size: 0.8rem;
+    font-style: italic;
+  }
+</style>

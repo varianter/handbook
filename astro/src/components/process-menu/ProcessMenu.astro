@@ -1,0 +1,25 @@
+---
+// ProcessMenu.astro — renders the process theme selector.
+// Data imported from shared navigation config.
+
+import { PROCESS_THEMES } from 'src/config/navigation';
+
+const currentPath = Astro.url.pathname;
+---
+<div>
+  <h2>Temaer</h2>
+  <div class="pageSelector">
+    {PROCESS_THEMES.map((item) => {
+      const href = item.external ? item.path : `/${item.path}`;
+      const isActive = currentPath === href;
+      return (
+        <div class={`pageSelectorButton ${isActive ? 'pageSelectorButtonActive' : ''}`}>
+          <a href={href}>{item.section}</a>
+        </div>
+      );
+    })}
+  </div>
+</div>
+<style>
+  @import './pageSelector.module.css';
+</style>

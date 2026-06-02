@@ -1,0 +1,24 @@
+---
+// PageSelector.astro — navigation chip selector for sections
+export interface Props {
+  sections: Array<{ section: string; href: string }>;
+}
+const { sections } = Astro.props;
+const currentPath = Astro.url.pathname;
+---
+<div>
+  <h2>Temaer</h2>
+  <div class="pageSelector">
+    {sections.map((s) => {
+      const isActive = currentPath === s.href;
+      return (
+        <div class={`pageSelectorButton ${isActive ? 'pageSelectorButtonActive' : ''}`}>
+          <a href={s.href}>{s.section}</a>
+        </div>
+      );
+    })}
+  </div>
+</div>
+<style>
+  @import './pageSelector.module.css';
+</style>

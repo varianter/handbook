@@ -1,0 +1,559 @@
+---
+// Sidebar.astro — sidebar navigation with location, process, and TOC variants.
+// Renders conditionally based on current URL path and available headings.
+import backArrowSvg from './backArrow.svg';
+import { HANDBOOK_SECTIONS, FUNDAMENTET_SECTIONS, INFORMATION_SECTIONS, PROCESS_THEMES, LOCATIONS } from '../config/navigation';
+import type { TocItem } from './types';
+
+interface Props {
+  asPath: string;
+  pathSegments: string[];
+  subHeadings: TocItem[];
+  noSidebar: boolean;
+}
+
+const { asPath, pathSegments, subHeadings, noSidebar } = Astro.props;
+
+// Top-level handbook links (fallback when no sub-headings exist)
+const handbooks = HANDBOOK_SECTIONS.map((s) => ({
+  path: s.path,
+  title: s.title,
+}));
+
+// Information sub-navigation (shown when on /information/*)
+const informationCategory = {
+  path: 'information',
+  title: 'Praktisk info',
+  heading: 'Praktisk info',
+  handbooks: INFORMATION_SECTIONS.map((i) => ({
+    path: i.path,
+    title: i.title,
+  })),
+};
+
+// Fundamentet sub-navigation (shown when on /fundamentet/*)
+const fundamentetCategory = {
+  path: 'fundamentet',
+  title: 'Fundamentet',
+  heading: 'Fundamentet',
+  handbooks: FUNDAMENTET_SECTIONS.map((f) => ({
+    path: f.path,
+    title: f.title,
+  })),
+};
+
+// Location sub-navigation (shown when on /avdelinger/*)
+const locationCategory = {
+  path: 'avdelinger/trondheim',
+  title: 'Lokasjoner',
+  handbooks: LOCATIONS.map((l) => ({
+    path: l.path,
+    title: l.title,
+  })),
+};
+
+// Process theme sub-navigation (shown when on /prosesser/*)
+// External links (like Avtaler) are excluded — they only appear in ProcessMenu
+const processTheme = {
+  path: 'prosesser',
+  title: 'Prosesser',
+  heading: 'Temaer',
+  handbooks: PROCESS_THEMES
+    .filter((p) => !p.external)
+    .map((p) => ({
+      path: p.path,
+      title: p.title,
+    })),
+};
+
+// Determine which sub-navigation to show
+const isInformationPage = asPath.startsWith('/information') && asPath !== '/information';
+const isFundamentetPage = asPath.startsWith('/fundamentet') && asPath !== '/fundamentet';
+const isLocationPage = asPath.startsWith('/avdelinger');
+const isProcessPage = asPath.startsWith('/prosesser');
+---
+
+{!noSidebar && (
+  <nav class="nav" id="sidebar-nav" popover="auto">
+    <section class="nav__inner">
+      <div class="nav__handbooks__container">
+
+        <!-- Back to Variant.no -->
+        <div class="header__handbooks__back">
+          <img src={backArrowSvg.src} alt="Arrow to Variant.no" role="none" />
+          <a href="https://www.variant.no">Til Variant.no</a>
+        </div>
+
+        <ul>
+          <!-- Information sub-navigation -->
+          {isInformationPage && (
+            <li>
+              <ul class="nav__handbooks">
+                {informationCategory.handbooks.map((handbook) => {
+                  const isActive = `/${handbook.path}` === asPath;
+                  return (
+                    <li class={
+                      isActive
+                        ? 'nav__handbooks__location__active'
+                        : 'nav__handbooks__location'
+                    }>
+                      <a href={`/${handbook.path}`}>{handbook.title}</a>
+                    </li>
+                  );
+                })}
+              </ul>
+            </li>
+          )}
+
+          <!-- Fundamentet sub-navigation -->
+          {isFundamentetPage && (
+            <li>
+              <ul class="nav__handbooks">
+                {fundamentetCategory.handbooks.map((handbook) => {
+                  const isActive = `/${handbook.path}` === asPath;
+                  return (
+                    <li class={
+                      isActive
+                        ? 'nav__handbooks__location__active'
+                        : 'nav__handbooks__location'
+                    }>
+                      <a href={`/${handbook.path}`}>{handbook.title}</a>
+                    </li>
+                  );
+                })}
+              </ul>
+            </li>
+          )}
+
+          <!-- Location sub-navigation -->
+          {isLocationPage && (
+            <li>
+              <ul class="nav__handbooks">
+                {locationCategory.handbooks.map((handbook) => {
+                  const isActive = `/${handbook.path}` === asPath ||
+                    (pathSegments.length === 2 &&
+                      handbook.title.toLowerCase() === locationCategory.handbooks[0].title.toLowerCase());
+                  return (
+                    <li class={
+                      isActive
+                        ? 'nav__handbooks__location__active'
+                        : 'nav__handbooks__location'
+                    }>
+                      <a href={`/${handbook.path}`}>{handbook.title}</a>
+                    </li>
+                  );
+                })}
+              </ul>
+            </li>
+          )}
+
+          <!-- Process theme sub-navigation -->
+          {isProcessPage && (
+            <li>
+              <ul class="nav__inner__container">
+                <li class="nav__inner__link">
+                  <a href="">{processTheme.heading}</a>
+                  {processTheme.handbooks.map((handbook) => (
+                    <ul class="nav__inner__link__child__active">
+                      <li class="nav__inner__link__children">
+                        <a href={`/${handbook.path}`}>{handbook.title}</a>
+                      </li>
+                    </ul>
+                  ))}
+                </li>
+              </ul>
+            </li>
+          )}
+
+          <!-- Sub-headings (TOC) -->
+          {subHeadings.map((heading: TocItem) => (
+            <li class="nav__inner__container nav__inner__link toc-heading-item">
+              <a
+                href={`#${heading.slug}`}
+                class="toc-heading-link"
+              >
+                {heading.value}
+              </a>
+              {heading.children && heading.children.length > 0 && (
+                <ul class="toc-subheadings">
+                  {heading.children.map((child: TocItem) => (
+                    <li class="nav__inner__link__children">
+                      <a href={`#${child.slug}`}>
+                        {child.value}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
+          ))}
+
+          <!-- Fallback: handbook links when no sub-headings exist -->
+          {subHeadings.length === 0 && (
+            <li>
+              <ul class="nav__handbooks">
+                {handbooks.map((handbook, index) => (
+                  <li
+                    class={
+                      (`/${handbook.path}` === asPath ||
+                        (asPath === '/' && handbook.path === ''))
+                        ? 'nav__inner__link__active'
+                        : 'nav__inner__link'
+                    }
+                  >
+                    <a href={`/${handbook.path}`} class="nav_header_link">
+                      {`${index + 1}. ${handbook.title}`}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </li>
+          )}
+        </ul>
+      </div>
+    </section>
+  </nav>
+)}
+
+<style>
+  .nav {
+    position: fixed;
+    height: 100vh;
+    height: -webkit-fill-available;
+    left: 0;
+    top: 0rem;
+    z-index: 50;
+    transform: translateX(-100%);
+    transition: transform 450ms ease-in-out;
+    background-color: var(--color-secondary1__shade2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 600px) {
+    .nav {
+      width: 100vw;
+    }
+  }
+
+  /* Lock body scroll when popover is open on mobile */
+  body:has(#sidebar-nav:popover-open) {
+    overflow: hidden;
+  }
+
+  /* Popover open state — browser manages display, Escape, and light-dismiss */
+  .nav:popover-open {
+    transform: translateX(0);
+    max-width: none;
+  }
+
+  .nav::backdrop {
+    background: var(--color-secondary1__shade2);
+  }
+
+  .nav__inner {
+    position: sticky;
+    top: 0;
+    overflow-y: auto;
+    padding: 0rem 2rem 2rem;
+    font-size: 1.2rem;
+    width: 100vw;
+  }
+
+  .nav__inner p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--color-primary);
+  }
+
+  .nav__inner ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav__inner__link {
+    flex: 1;
+    width: 20rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: var(--color-secondary3__shade1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav__inner__link a {
+    color: var(--color-standard__white);
+  }
+
+  .nav__inner__link a:hover {
+    opacity: 0.8;
+  }
+
+  .nav_header_link {
+    border-bottom: 2px solid transparent;
+    font-size: 1.75rem;
+  }
+
+  .nav__inner__link__active {
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    color: var(--color-primary__tint1);
+    flex: 1;
+    width: 20rem;
+    align-items: flex-start;
+    font-size: 1.75rem;
+  }
+
+  .nav__inner__link__active a {
+    border-bottom: 2px solid var(--color-primary__tint2);
+    color: var(--color-standard__white);
+  }
+
+  .nav__inner__link__active a:hover {
+    border-bottom: 2px solid var(--color-primary__tint2);
+  }
+
+  .nav__inner__link__active__submenu_location {
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    color: var(--color-primary__tint1);
+    flex: 1;
+    width: 20rem;
+    align-items: flex-start;
+    font-size: 1.75rem;
+  }
+
+  .nav__inner__link__active__submenu_location a {
+    cursor: pointer;
+    color: var(--color-standard__white);
+  }
+
+  .nav__inner__link__active__location {
+    font-size: 1.75rem;
+    color: var(--color-standard__white);
+    margin-bottom: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav__inner__link__children a {
+    color: var(--color-standard__white);
+    font-size: 1.5rem;
+  }
+
+  .nav__inner__link__children a:hover {
+    border-bottom: 2px solid var(--color-primary__tint2);
+  }
+
+  .nav__inner ul a {
+    text-decoration: none;
+  }
+
+  .nav__inner ul a:hover {
+    cursor: pointer;
+  }
+
+  .nav__hamburger__link__to__variant {
+    flex: 1;
+    width: 20rem;
+    padding-top: 2rem;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .nav__hamburger__link__to__variant a {
+    color: var(--color-standard__white);
+    font-size: 1.75rem;
+    border-bottom: 2px solid transparent;
+  }
+
+  .nav__handbooks__location a {
+    margin-left: 1.8rem;
+  }
+
+  .nav__handbooks__location a,
+  .nav__handbooks__location__active a {
+    color: var(--color-standard__white);
+    font-size: 1.5rem;
+  }
+
+  .nav__handbooks__location__active a {
+    margin-left: 1.8rem;
+    border-bottom: 2px solid var(--color-primary__tint2);
+    cursor: pointer;
+  }
+
+  .nav__handbooks__submenu {
+    margin-bottom: 1rem;
+  }
+
+  .nav__handbooks__submenu a {
+    font-size: 1.5rem;
+  }
+
+  .nav__handbooks__submenu div {
+    margin-left: 2.25rem;
+  }
+
+  .backToVariant a {
+    color: var(--color-standard__white);
+    text-decoration: none;
+  }
+
+  .nav__hamburger_subheader {
+    margin-top: 2rem;
+    line-height: 1;
+  }
+
+  .nav__hamburger_subheader a {
+    color: var(--color-secondary1__tint4);
+    border: 0;
+    font-size: 1rem;
+  }
+
+  .nav__hamburger_subheader ul li a {
+    color: white;
+  }
+
+  .nav__hamburger_subheader__active a:nth-child(0) {
+    border-bottom: solid 2px var(--color-primary__tint2);
+  }
+
+  .toc-subheadings {
+    margin-left: 1rem;
+    margin-top: 0.25rem;
+  }
+
+  .toc-heading-link {
+    color: var(--color-standard__white);
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+  }
+
+  .toc-heading-link:hover {
+    opacity: 0.8;
+  }
+
+  @media (min-width: 1200px) {
+    .nav {
+      display: block !important;         /* override popover's display:none */
+      position: fixed !important;        /* override popover top-layer positioning */
+      transform: translateX(0);
+      max-width: 25%;
+      inset: unset;                      /* undo popover's inset:0 */
+      border: none;                      /* undo popover's default border */
+      width: auto;
+      height: 100vh;
+      height: -webkit-fill-available;
+    }
+
+    .nav__handbooks {
+      display: flex;
+      justify-content: flex-start;
+      background-color: transparent;
+      color: var(--color-standard__white);
+      width: 100%;
+    }
+
+    .nav__handbooks li {
+      padding-left: 2rem;
+    }
+
+    .nav__handbooks__location,
+    .nav__handbooks__location__active {
+      width: 100%;
+      color: var(--color-standard__white);
+    }
+
+    .nav__handbooks__location a,
+    .nav__handbooks__location__active a {
+      color: var(--color-standard__white);
+      font-size: 1.25rem;
+    }
+
+    .nav__handbooks__location a:hover {
+      opacity: 0.8;
+    }
+
+    .nav__inner {
+      width: 20vw;
+      padding-right: 0;
+      padding-left: 0;
+      padding-top: 2rem;
+      background-color: transparent;
+    }
+
+    .nav__handbooks__container {
+      overflow-x: hidden;
+      padding-right: 1rem;
+      height: 100%;
+      scrollbar-color: var(--color-secondary4__shade2)
+        var(--color-secondary1__shade2);
+    }
+
+    .nav__handbooks__container::-webkit-scrollbar {
+      background-color: var(--color-secondary1__shade2);
+      border-radius: 0.625rem;
+      width: 0.625rem;
+    }
+
+    .nav__handbooks__container::-webkit-scrollbar-thumb {
+      background-color: var(--color-secondary4__shade2);
+      border-radius: 0.625rem;
+    }
+
+    .nav__inner__container {
+      width: 100%;
+      display: flex;
+    }
+
+    .nav__inner__link {
+      flex: 1;
+      padding-left: 1rem;
+    }
+
+    .nav__inner__link a {
+      font-size: 0.813rem;
+      color: var(--color-secondary1__tint4);
+      border-bottom: 2px solid transparent;
+      margin-right: 2rem;
+    }
+
+    .nav__inner__link__children a {
+      color: var(--color-standard__white);
+      font-size: 1.125rem;
+    }
+
+    .nav__inner__link__active {
+      padding-bottom: 1rem;
+      color: var(--color-primary__tint1);
+      background-color: transparent;
+      font-size: 1.125rem;
+      width: 11rem;
+    }
+
+    .nav__inner__link__children__of__children {
+      margin-left: 1rem;
+    }
+
+    .nav__inner__link__children__of__children a {
+      font-size: 0.875rem;
+    }
+
+    .nav__handbooks__location a {
+      margin-left: 0;
+      padding-left: 0;
+    }
+
+    .nav__handbooks__location__active a {
+      margin-left: 0;
+      padding-left: 0;
+    }
+  }
+</style>

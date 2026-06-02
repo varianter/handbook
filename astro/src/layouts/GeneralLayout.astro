@@ -1,0 +1,154 @@
+---
+// GeneralLayout.astro — the single layout for all handbook pages.
+// Composes: BaseLayout shell, Header, PageToc, BookFooter, SiteFooter.
+// Keeps only orchestration: path detection, TOC building, and layout assembly.
+
+import BaseLayout from './BaseLayout.astro';
+import Header from './Header.astro';
+import PageToc from './PageToc.astro';
+import BookFooter from './BookFooter.astro';
+import SiteFooter from './SiteFooter.astro';
+import ClientScripts from './ClientScripts.astro';
+import { HANDBOOK_SECTIONS } from '../config/navigation';
+import type { Heading, TocItem, LayoutProps } from './types';
+
+// Re-export types for consumers (e.g. ProsesserLayout)
+export type { Heading, TocItem, LayoutProps as Props };
+
+const {
+  frontmatter,
+  headings = [],
+} = Astro.props as LayoutProps;
+
+const pageTitle = frontmatter?.title ?? 'Variant Håndbok';
+const showToc = frontmatter?.toc ?? false;
+
+// --- Path detection ---
+const url = Astro.url;
+const asPath = url.pathname;
+const pathSegments = asPath.split('/').filter(Boolean);
+const isSearchpage = pathSegments[0] === 'search';
+
+// --- Handbook links (passed to Header) ---
+const handbooks = HANDBOOK_SECTIONS.map((s) => ({
+  path: s.path,
+  title: s.title,
+}));
+
+// --- Build TOC tree from flat headings ---
+function buildTocTree(headings: Heading[]): TocItem[] {
+  const root: TocItem[] = [];
+  const stack: TocItem[] = [];
+
+  for (const h of headings) {
+    const item: TocItem = {
+      value: h.text,
+      slug: h.slug,
+      depth: h.depth,
+      children: [],
+    };
+
+    while (stack.length > 0 && stack[stack.length - 1].depth >= h.depth) {
+      stack.pop();
+    }
+
+    if (stack.length === 0) {
+      root.push(item);
+    } else {
+      stack[stack.length - 1].children.push(item);
+    }
+    stack.push(item);
+  }
+  return root;
+}
+
+const tocTree = buildTocTree(headings);
+const pageHeadings = tocTree[0]?.children ?? [];
+
+// --- GitHub edit link ---
+const filename = asPath.replace(/\/$/, '') || '';
+const editUrl = `https://github.com/varianter/handbook/tree/main/pages${filename}`;
+---
+
+<BaseLayout title={pageTitle}>
+  <div class={isSearchpage ? 'search__main' : 'main'}>
+
+    <!-- HEADER -->
+      <Header
+        handbooks={handbooks}
+        asPath={asPath}
+      />
+
+    <!-- CONTENT AREA -->
+    <section
+      class={!isSearchpage ? 'content' : 'searchContent'}
+    >
+      <!-- On this page ToC -->
+      {showToc && !isSearchpage && (
+        <PageToc headings={pageHeadings} />
+      )}
+
+      <article class="handbook" data-pagefind-body>
+        <slot />
+      </article>
+
+      <BookFooter editUrl={editUrl} />
+    </section>
+
+    <!-- SITE FOOTER -->
+    <SiteFooter />
+  </div>
+</BaseLayout>
+
+<ClientScripts />
+
+<style>
+  .main,
+  .search__main {
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search__main {
+    background-color: var(--color-secondary1__shade3);
+    color: var(--color-standard__white);
+  }
+
+  .search__main a {
+    color: var(--color-standard__white);
+    font-family: 'Recoleta', serif;
+  }
+
+  .search__main h2 {
+    font-family: 'Recoleta', serif;
+    font-size: 4rem;
+    line-height: 87px;
+  }
+
+  .content,
+  .searchContent {
+    max-width: 50rem;
+    min-height: 100vh;
+    width: 100%;
+    min-height: -webkit-fill-available;
+    margin: 3.5rem auto 0;
+    padding: 1rem;
+    padding-bottom: 5rem;
+    flex-grow: 1;
+    box-sizing: border-box;
+  }
+
+  .content img {
+    max-width: 100%;
+  }
+
+  @media (min-width: 1200px) {
+    .content {
+      padding-left: 0;
+    }
+  }
+</style>

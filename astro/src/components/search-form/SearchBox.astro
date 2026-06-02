@@ -1,0 +1,23 @@
+---
+export interface Props {
+  currentSearch?: string;
+  autofocus?: boolean;
+}
+const { currentSearch = '', autofocus = false } = Astro.props;
+---
+<div class="container">
+  <h2>Søk etter innhold</h2>
+  <form class="searchform" action="/search" method="get">
+    <input
+      type="text"
+      name="q"
+      value={currentSearch}
+      placeholder="Hva leter du etter?"
+      autofocus={autofocus}
+    />
+    <button type="submit">Søk</button>
+  </form>
+</div>
+<style>
+  @import './search.module.css';
+</style>

@@ -1,0 +1,92 @@
+---
+// Header.astro — top navigation bar with handbook links and popover sub-menus.
+import magnifyingGlassSvg from './magnifyingGlass.svg';
+import { PROCESS_THEMES, LOCATIONS, FUNDAMENTET_SECTIONS, INFORMATION_SECTIONS } from '../config/navigation';
+
+interface HandbookLink {
+  path: string;
+  title: string;
+}
+
+interface Props {
+  handbooks: HandbookLink[];
+  asPath: string;
+}
+
+const { handbooks, asPath } = Astro.props;
+
+function getSubItems(path: string) {
+  if (path === 'fundamentet') return FUNDAMENTET_SECTIONS;
+  if (path === 'information') return INFORMATION_SECTIONS;
+  if (path === 'prosesser') return PROCESS_THEMES;
+  if (path === 'avdelinger') return LOCATIONS;
+  return null;
+}
+---
+
+<header class="header" id="top-header">
+  <ul class="header__handbooks">
+    {handbooks.map((handbook, index) => {
+      const isActive = `/${handbook.path}` === asPath ||
+        (asPath === '/' && handbook.path === '') ||
+        (handbook.path !== '' && asPath.startsWith(`/${handbook.path}`));
+
+      const linkClass = isActive
+        ? 'active'
+        : '';
+
+      const subItems = getSubItems(handbook.path);
+      const popoverId = `header-popover-${handbook.path || 'fundamentet'}`;
+      return (
+        <li class={linkClass}>
+          {subItems ? (
+            <>
+              <button
+                popovertarget={popoverId}
+              >
+                {`${index + 1}. ${handbook.title}`}
+              </button>
+              <div id={popoverId} popover="auto" class="header-popover">
+                <ul>
+                  {subItems.map((item) => (
+                    <li>
+                      <a href={item.external ? item.path : `/${item.path}`}>
+                        {item.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </>
+          ) : (
+            <a href={`/${handbook.path}`} class="desktop-nav-link">
+              {`${index + 1}. ${handbook.title}`}
+            </a>
+          )}
+        </li>
+      );
+    })}
+    <li >
+      <search-popover>
+        <img
+          slot="trigger"
+          src={magnifyingGlassSvg.src}
+          alt="Forstørrelseglass"
+          width="30"
+          height="30"
+        />
+        <span slot="trigger">Søk</span>
+      </search-popover>
+    </li>
+  </ul>
+</header>
+
+<style>
+  .header-popover {
+    margin: 0;
+    padding: 0.75rem 1rem;
+
+    position-area: bottom span-left;
+  }
+
+</style>
