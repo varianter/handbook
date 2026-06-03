@@ -1,7 +1,8 @@
 ---
 // Header.astro — top navigation bar with handbook links and popover sub-menus.
 import magnifyingGlassSvg from './magnifyingGlass.svg';
-import { PROCESS_THEMES, LOCATIONS, FUNDAMENTET_SECTIONS, INFORMATION_SECTIONS } from '../config/navigation';
+import { getSectionPages } from '../config/navigation';
+import type { NavItem } from '../config/navigation';
 
 interface HandbookLink {
   path: string;
@@ -15,22 +16,29 @@ interface Props {
 
 const { handbooks, asPath } = Astro.props;
 
-function getSubItems(path: string) {
-  if (path === 'fundamentet') return FUNDAMENTET_SECTIONS;
-  if (path === 'information') return INFORMATION_SECTIONS;
-  if (path === 'prosesser') return PROCESS_THEMES;
-  if (path === 'avdelinger') return LOCATIONS;
-  return null;
+// Pre-fetch all section sub-pages so the template can look them up synchronously
+const subItemsCache: Record<string, NavItem[]> = {
+  fundamentet: await getSectionPages('fundamentet'),
+  information: await getSectionPages('information'),
+  avdelinger: await getSectionPages('avdelinger'),
+  prosesser: await getSectionPages('prosesser'),
+};
+
+function getSubItems(path: string): NavItem[] {
+  return subItemsCache[path] ?? [];
 }
 ---
 
-<header class="header stack-horizontal justify-center gap-xl py-xl" id="top-header">
-  <div class="stack items-start">
-    <img style="height: 12px;" src="/assets/logos/variant-logo.svg" alt="Variants logo" />
-    <span class="fs-l">Handbok</span>
-  </div>
+<header class="header pt-3xl pb-xl" id="top-header">
+  <nav class="stack-horizontal justify-center gap-xl">
 
-  <ul class="header__handbooks stack-horizontal gap-m">
+
+  <a href="/"  aria-label="Variants handbook homepage"class="header-logo-link stack items-start">
+    <img style="height: 12px;" src="/assets/logos/variant-logo.svg" alt="Variants logo" />
+    <span class="fs-l ">Handbok</span>
+  </a>
+
+  <ul class="header__handbooks stack-horizontal gap-xl">
     {handbooks.map((handbook, index) => {
       const isActive = `/${handbook.path}` === asPath ||
         (asPath === '/' && handbook.path === '') ||
@@ -44,36 +52,30 @@ function getSubItems(path: string) {
       const popoverId = `header-popover-${handbook.path || 'fundamentet'}`;
       return (
         <li class={linkClass}>
-          {subItems ? (
-            <>
               <button
-                class="fs-s"
+                class="fs-m t-bold"
                 popovertarget={popoverId}
+                data-js-hover
               >
-                {`${index + 1}. ${handbook.title}`}
+                {`${handbook.title}`}
               </button>
               <div id={popoverId} popover="auto" class="header-popover" data-anchored>
-                <ul stagger-reveal>
+                <ul stagger-reveal class="stack gap-s">
                   {subItems.map((item) => (
-                    <li>
-                      <a href={item.external ? item.path : `/${item.path}`}>
-                        {item.title}
+                    <li class="stack gap-xs">
+                      <a class="subnav-link" href={item.external ? item.path : `/${item.path}`}>
+                        <span class="t-bold">{item.title}</span>
+                        {item.description && <span class="subnav-description">{item.description}</span>}
                       </a>
                     </li>
                   ))}
                 </ul>
               </div>
-            </>
-          ) : (
-            <a href={`/${handbook.path}`} class="desktop-nav-link">
-              {`${index + 1}. ${handbook.title}`}
-            </a>
-          )}
         </li>
       );
     })}
-
-      <button class="header-search-trigger" aria-label="Åpne søk">
+  </ul>
+      <button class="header-search-trigger fs-s stack-horizontal" aria-label="Åpne søk">
         <img
           src={magnifyingGlassSvg.src}
           alt="Forstørrelseglass"
@@ -83,14 +85,38 @@ function getSubItems(path: string) {
         <span>Søk</span>
       </button>
       <search-popover target=".header-search-trigger"></search-popover>
-
-  </ul>
+   </nav>
 </header>
 
 <style>
+  .header-logo-link{
+    text-decoration: none;
+    color: var(--text-primary);
+
+  }
   .header-popover {
     margin: 0;
-    padding: 0.75rem 1rem;
+    margin-top: var(--spacing-xs);
+    margin-left: calc(var(--spacing-l) * -1);
+    padding: var(--spacing-l) var(--spacing-l);
     border: none;
+    background: var(--surface-violet-light);
+    max-width: 20ch;
+    color: var(--text-primary);
   }
+
+  .subnav-link{
+    text-decoration: none;
+    display: inline-flex;
+    flex-direction: column;
+    color: currentColor;
+    font-size: var(--font-size-xs);
+  }
+
+  .subnav-description {
+    color: var(--text-secondary);
+    text-wrap: pretty;
+  }
+
+
 </style>

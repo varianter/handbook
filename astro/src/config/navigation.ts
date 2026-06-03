@@ -1,10 +1,13 @@
-// Single source of truth for all handbook navigation.
-// Both GeneralLayout and ProcessMenu import from here.
+// Navigation derived from the content collection at build time.
+// The only manually maintained data: section overviews and external links.
+// Everything else comes from frontmatter in src/content/handbook/.
+import { getCollection } from 'astro:content';
 
 export interface NavItem {
   title: string;
   path: string;
   order: number;
+  description?: string;
   external?: boolean;
 }
 
@@ -12,7 +15,7 @@ export interface ProcessNavItem extends NavItem {
   section: string;
 }
 
-/** Top-level sections shown in the header and mobile sidebar */
+/** Top-level sections — these are section landing pages in src/pages/, not the collection. */
 export const HANDBOOK_SECTIONS: NavItem[] = [
   { title: 'Fundamentet', path: 'fundamentet', order: 0 },
   { title: 'Praktisk info', path: 'information', order: 1 },
@@ -20,40 +23,43 @@ export const HANDBOOK_SECTIONS: NavItem[] = [
   { title: 'Lokasjoner', path: 'avdelinger', order: 3 },
 ];
 
-/** Information sub-pages — shown in header popover and sidebar under /information */
-export const INFORMATION_SECTIONS: NavItem[] = [
-  { title: 'Om Penger', path: 'information/om-penger', order: 0 },
-  { title: 'Om salg', path: 'information/om-salg', order: 1 },
-  { title: 'Om tid', path: 'information/om-tid', order: 2 },
-  { title: 'Om liv og helse', path: 'information/om-liv-og-helse', order: 3 },
-  { title: 'Om ting og tang', path: 'information/om-ting-og-tang', order: 4 },
-];
+/** External links that aren't content pages. */
+export const EXTERNAL_LINKS: NavItem[] = [];
 
-/** Fundamentet sub-pages — shown in header popover and sidebar under /fundamentet */
-export const FUNDAMENTET_SECTIONS: NavItem[] = [
-  { title: 'Formål og verdier', path: 'fundamentet/formaal-og-verdier', order: 0 },
-  { title: 'Selve livet', path: 'fundamentet/selve-livet', order: 1 },
-  { title: 'Arbeidet', path: 'fundamentet/arbeidet', order: 2 },
-  { title: 'Sosialt', path: 'fundamentet/sosialt', order: 3 },
-  { title: 'Penger', path: 'fundamentet/penger', order: 4 },
-];
+/** Derive sub-pages for a given section from the content collection. */
+export async function getSectionPages(section: string): Promise<NavItem[]> {
+  const entries = await getCollection('handbook');
+  return entries
+    .filter((e) => e.id.startsWith(`${section}/`))
+    .sort((a, b) => a.data.order - b.data.order)
+    .map((e) => ({
+      title: e.data.navTitle ?? e.data.title,
+      path: e.id,
+      order: e.data.order,
+      description: e.data.description,
+    }));
+}
 
-/** Process sub-pages — shown in sidebar and ProcessMenu component */
-export const PROCESS_THEMES: ProcessNavItem[] = [
-  { section: 'RÅ', title: 'Rå', path: 'prosesser/raa', order: 0 },
-  { section: 'Ansatt', title: 'Ansatt', path: 'prosesser/ansatt', order: 1 },
-  { section: 'HMS', title: 'HMS', path: 'prosesser/hms', order: 2 },
-  { section: 'Bærekraft', title: 'Bærekraft', path: 'prosesser/baerekraft', order: 3 },
-  { section: 'Mangfold', title: 'Mangfold', path: 'prosesser/mangfold', order: 4 },
-  { section: 'Ledelse', title: 'Ledelse', path: 'prosesser/ledelse', order: 5 },
-  { section: 'Sikkerhetshendelser', title: 'Sikkerhetshendelser', path: 'prosesser/sikkerhet', order: 6 },
-  { section: 'Avtaler', title: 'Avtaler', path: 'https://avtaler.variant.no/', order: 7, external: true },
-];
-
-/** Location pages — shown in sidebar under /avdelinger */
-export const LOCATIONS: NavItem[] = [
-  { title: 'Trondheim', path: 'avdelinger/trondheim', order: 0 },
-  { title: 'Oslo', path: 'avdelinger/oslo', order: 1 },
-  { title: 'Bergen', path: 'avdelinger/bergen', order: 2 },
-  { title: 'Stavanger', path: 'avdelinger/stavanger', order: 3 },
-];
+/** Derive process sub-pages with section labels for ProcessMenu. */
+export async function getProcessSectionPages(): Promise<ProcessNavItem[]> {
+  const entries = await getCollection('handbook');
+  return entries
+    .filter((e) => e.id.startsWith('prosesser/'))
+    .sort((a, b) => a.data.order - b.data.order)
+    .map((e) => ({
+      section: e.data.section ?? e.data.title,
+      title: e.data.navTitle ?? e.data.title,
+      path: e.id,
+      order: e.data.order,
+    }))
+    .concat(
+      EXTERNAL_LINKS.map((l) => ({
+        section: l.title,
+        title: l.title,
+        path: l.path,
+        order: l.order,
+        external: true,
+      })),
+    )
+    .sort((a, b) => a.order - b.order);
+}

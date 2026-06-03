@@ -1,6 +1,8 @@
 ---
 title: Sikkerhetshendelser - Prosesser
-layout: ../../layouts/ProsesserLayout.astro
+navTitle: Sikkerhetshendelser
+section: Sikkerhetshendelser
+order: 6
 ---
 
 ## Sikkerhetshendelser
