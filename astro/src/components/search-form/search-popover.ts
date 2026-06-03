@@ -100,9 +100,6 @@ async function showSearchResults(container: HTMLElement, query: string): Promise
 
 const template = document.createElement('template');
 template.innerHTML = `
-  <button class="trigger" type="button" aria-label="Åpne søk">
-    <slot name="trigger">🔍 Søk</slot>
-  </button>
   <div class="panel" popover="auto">
     <form class="search-form" role="search">
       <input
@@ -152,20 +149,29 @@ let panelSeq = 0;
 
 class SearchPopover extends HTMLElement {
   connectedCallback() {
-    this.attachShadow({ mode: 'open' });
-    this.shadowRoot!.append(template.content.cloneNode(true));
+    this.append(template.content.cloneNode(true));
 
-    const trigger = find(this.shadowRoot!, '.trigger', HTMLButtonElement);
-    const panel = find(this.shadowRoot!, '.panel', HTMLElement);
-    const form = find(this.shadowRoot!, '.search-form', HTMLFormElement);
-    const input = find(this.shadowRoot!, '.search-input', HTMLInputElement);
-    const recent = find(this.shadowRoot!, '.recent', HTMLElement);
-    const results = find(this.shadowRoot!, '.results', HTMLElement);
+    const panel = find(this, '.panel', HTMLElement);
+    const form = find(this, '.search-form', HTMLFormElement);
+    const input = find(this, '.search-input', HTMLInputElement);
+    const recent = find(this, '.recent', HTMLElement);
+    const results = find(this, '.results', HTMLElement);
 
-    // Let the platform open/close the panel and label the trigger for a11y.
+    // Generate a unique panel id for popovertarget wiring.
     panel.id = `search-popover-panel-${panelSeq++}`;
-    trigger.setAttribute('popovertarget', panel.id);
 
+    // Wire an external trigger (the component doesn't own the button).
+    const targetSelector = this.getAttribute('target');
+    if (targetSelector) {
+      const trigger = document.querySelector(targetSelector);
+      if (trigger instanceof HTMLElement) {
+        trigger.setAttribute('popovertarget', panel.id);
+      } else {
+        console.warn(`SearchPopover: no element matching "${targetSelector}"`);
+      }
+    }
+
+    // Start loading Pagefind as soon as the panel opens.
     panel.addEventListener('toggle', (event) => {
       if (event instanceof ToggleEvent && event.newState === 'open') void loadPagefind();
     });

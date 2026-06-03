@@ -24,8 +24,13 @@ function getSubItems(path: string) {
 }
 ---
 
-<header class="header" id="top-header">
-  <ul class="header__handbooks">
+<header class="header stack-horizontal justify-center gap-xl py-xl" id="top-header">
+  <div class="stack items-start">
+    <img style="height: 12px;" src="/assets/logos/variant-logo.svg" alt="Variants logo" />
+    <span class="fs-l">Handbok</span>
+  </div>
+
+  <ul class="header__handbooks stack-horizontal gap-m">
     {handbooks.map((handbook, index) => {
       const isActive = `/${handbook.path}` === asPath ||
         (asPath === '/' && handbook.path === '') ||
@@ -42,12 +47,13 @@ function getSubItems(path: string) {
           {subItems ? (
             <>
               <button
+                class="fs-s"
                 popovertarget={popoverId}
               >
                 {`${index + 1}. ${handbook.title}`}
               </button>
-              <div id={popoverId} popover="auto" class="header-popover">
-                <ul>
+              <div id={popoverId} popover="auto" class="header-popover" data-anchored>
+                <ul stagger-reveal>
                   {subItems.map((item) => (
                     <li>
                       <a href={item.external ? item.path : `/${item.path}`}>
@@ -66,18 +72,18 @@ function getSubItems(path: string) {
         </li>
       );
     })}
-    <li >
-      <search-popover>
+
+      <button class="header-search-trigger" aria-label="Åpne søk">
         <img
-          slot="trigger"
           src={magnifyingGlassSvg.src}
           alt="Forstørrelseglass"
           width="30"
           height="30"
         />
-        <span slot="trigger">Søk</span>
-      </search-popover>
-    </li>
+        <span>Søk</span>
+      </button>
+      <search-popover target=".header-search-trigger"></search-popover>
+
   </ul>
 </header>
 
@@ -85,8 +91,6 @@ function getSubItems(path: string) {
   .header-popover {
     margin: 0;
     padding: 0.75rem 1rem;
-
-    position-area: bottom span-left;
+    border: none;
   }
-
 </style>

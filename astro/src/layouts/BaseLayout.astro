@@ -1,6 +1,6 @@
 ---
 // BaseLayout.astro — replaces _document.tsx and _app.tsx
-import '../styles/global.css';
+import '../styles/varde/index.css';
 
 export interface Props {
   title?: string;
@@ -58,21 +58,6 @@ const {
         s.parentNode.insertBefore(g, s);
       })();
 
-      // Remove old and outdated service workers.
-      if (
-        typeof window !== "undefined" &&
-        typeof navigator !== "undefined" &&
-        "serviceWorker" in navigator
-      ) {
-        window.addEventListener("load", async function () {
-          const registrations = await navigator.serviceWorker.getRegistrations();
-          if (!registrations || !registrations.length) return;
-          for (let registration of registrations) {
-            await registration.unregister();
-          }
-          window.location.reload();
-        });
-      }
     </script>
   </head>
   <body>

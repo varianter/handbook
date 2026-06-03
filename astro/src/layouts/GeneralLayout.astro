@@ -88,7 +88,7 @@ const editUrl = `https://github.com/varianter/handbook/tree/main/pages${filename
         <PageToc headings={pageHeadings} />
       )}
 
-      <article class="handbook" data-pagefind-body>
+      <article class="handbook typeset" data-pagefind-body>
         <slot />
       </article>
 
@@ -120,11 +120,9 @@ const editUrl = `https://github.com/varianter/handbook/tree/main/pages${filename
 
   .search__main a {
     color: var(--color-standard__white);
-    font-family: 'Recoleta', serif;
   }
 
   .search__main h2 {
-    font-family: 'Recoleta', serif;
     font-size: 4rem;
     line-height: 87px;
   }
