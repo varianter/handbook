@@ -1,6 +1,7 @@
 ---
 // Header.astro — top navigation bar with handbook links and popover sub-menus.
 import magnifyingGlassSvg from './magnifyingGlass.svg';
+import MobileNav from './MobileNav.astro';
 import { getSectionPages } from '../config/navigation';
 import type { NavItem } from '../config/navigation';
 
@@ -30,12 +31,12 @@ function getSubItems(path: string): NavItem[] {
 ---
 
 <header class="header pt-3xl pb-xl" id="top-header">
-  <nav class="stack-horizontal justify-center gap-xl">
+  <nav class="stack-horizontal gap-xl">
 
 
-  <a href="/"  aria-label="Variants handbook homepage"class="header-logo-link stack items-start">
-    <img style="height: 12px;" src="/assets/logos/variant-logo.svg" alt="Variants logo" />
-    <span class="fs-l ">Handbok</span>
+  <a href="/"  aria-label="Variants handbook homepage"class="stack-horizontal gap-xs">
+    <img src="https://varde.variant.dev/static/logos/variant-circle-filled.svg" alt="Varde" width="24" height="24">
+    <span class="fs-m">Handbok</span>
   </a>
 
   <ul class="header__handbooks stack-horizontal gap-xl">
@@ -53,7 +54,7 @@ function getSubItems(path: string): NavItem[] {
       return (
         <li class={linkClass}>
               <button
-                class="fs-m t-bold"
+                class="fs-s t-bold"
                 popovertarget={popoverId}
                 data-js-hover
               >
@@ -86,14 +87,16 @@ function getSubItems(path: string): NavItem[] {
       </button>
       <search-popover target=".header-search-trigger"></search-popover>
    </nav>
+
+   <MobileNav handbooks={handbooks} asPath={asPath} subItems={subItemsCache} />
 </header>
 
 <style>
-  .header-logo-link{
-    text-decoration: none;
-    color: var(--text-primary);
-
+  .header{
+    max-width: 1200px;
+    margin-inline: auto;
   }
+
   .header-popover {
     margin: 0;
     margin-top: var(--spacing-xs);
@@ -118,5 +121,9 @@ function getSubItems(path: string): NavItem[] {
     text-wrap: pretty;
   }
 
-
+  @media (max-width: 800px) {
+    .header__handbooks {
+      display: none;
+    }
+  }
 </style>

@@ -1,6 +1,4 @@
 ---
-// BaseLayout.astro — replaces _document.tsx and _app.tsx
-import '../styles/varde/index.css';
 
 export interface Props {
   title?: string;
@@ -16,7 +14,7 @@ const {
 ---
 
 <!doctype html>
-<html lang="no">
+<html lang="no" class="fg-default bg-surface-default">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -26,6 +24,8 @@ const {
 
     <link rel="icon" href="/favicon.png" />
     <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" href="https://varde.variant.dev/v/latest/themes.css" />
+    <link rel="stylesheet" href="https://varde.variant.dev/v/latest/styles.css" />
 
     <!-- Open Graph -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -35,7 +35,6 @@ const {
     <meta property="og:url" content="https://handbook.variant.no/" />
     <meta property="og:image" content={ogImage} />
 
-    <!-- Global styles -->
     <meta name="generator" content={Astro.generator} />
 
     <!-- Matomo Analytics -->
@@ -60,7 +59,7 @@ const {
 
     </script>
   </head>
-  <body>
+  <body class="fs-m">
     <main id="root">
       <slot />
     </main>

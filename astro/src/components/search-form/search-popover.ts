@@ -54,19 +54,23 @@ function message(text: string): HTMLParagraphElement {
   return p;
 }
 
+const resultTemplate = document.createElement('template');
+resultTemplate.innerHTML = `
+  <article>
+    <h4><a data-slot="link"></a></h4>
+    <div data-slot="excerpt"></div>
+  </article>`;
+
 function renderResult(data: PagefindData): HTMLElement {
-  const link = document.createElement('a');
+  const article = resultTemplate.content.firstElementChild!.cloneNode(true) as HTMLElement;
+
+  const link = article.querySelector('[data-slot="link"]') as HTMLAnchorElement;
   link.href = data.url;
   link.textContent = data.meta?.title ?? data.url; // textContent: titles can't inject markup
 
-  const heading = document.createElement('h3');
-  heading.append(link);
-
-  const excerpt = document.createElement('div');
+  const excerpt = article.querySelector('[data-slot="excerpt"]')!;
   excerpt.innerHTML = data.excerpt; // Pagefind returns its own <mark>-highlighted HTML
 
-  const article = document.createElement('article');
-  article.append(heading, excerpt);
   return article;
 }
 
@@ -99,44 +103,40 @@ async function showSearchResults(container: HTMLElement, query: string): Promise
 // ---------------------------------------------------------------------------
 
 const template = document.createElement('template');
-template.innerHTML = `
-  <div class="panel" popover="auto">
-    <form class="search-form" role="search">
+template.innerHTML = /*html*/`
+  <div
+    style="max-width: 50ch; width: 100%; right: 0;left: auto;margin: var(--spacing-xl);height: calc(100svh - (var(--spacing-xl) * 2));"
+    class="panel p-m b-all b-faint"
+    popover="auto"
+  >
+    <form class="search-form stack py-l" role="search">
+      <label for="search">Søk i håndboken</label>
       <input
-        class="search-input"
+        class="search-input input flex-1"
         type="search"
+        id="search"
         name="q"
-        placeholder="Søk eller still spørsmål…"
         aria-label="Søk"
         autocomplete="off"
         enterkeyhint="search"
         autofocus
       />
-      <div class="recent" data-pagefind-ignore>
-        <h3>Andre har søkt etter</h3>
-        <div class="chips">
-          <button type="submit" value="Lønn">Lønn</button>
-          <button type="submit" value="Aksjer">Aksjer</button>
-          <button type="submit" value="Fordeler">Fordeler</button>
-          <button type="submit" value="Miljøfyrtårn">Miljøfyrtårn</button>
-        </div>
-      </div>
     </form>
-    <div class="results" aria-live="polite"></div>
+    <div class="recent" data-pagefind-ignore>
+      <h3>Andre har søkt etter</h3>
+      <div class="chips">
+        <a href="?q=Lønn">Lønn</a>
+        <a href="?q=Aksjer">Aksjer</a>
+        <a href="?q=Fordeler">Fordeler</a>
+        <a href="?q=Miljøfyrtårn">Miljøfyrtårn</a>
+      </div>
+    </div>
+    <div class="results typeset py-xl" aria-live="polite"></div>
   </div>`;
 
 // ---------------------------------------------------------------------------
 // Component — just wiring
 // ---------------------------------------------------------------------------
-
-/** The chosen query: a clicked chip's value wins, otherwise the typed text. */
-function submittedQuery(event: SubmitEvent, input: HTMLInputElement): string {
-  const submitter = event.submitter;
-  if (submitter instanceof HTMLButtonElement && submitter.value) {
-    return submitter.value;
-  }
-  return input.value.trim();
-}
 
 function syncUrl(query: string): void {
   const url = new URL(window.location.href);
@@ -176,14 +176,24 @@ class SearchPopover extends HTMLElement {
       if (event instanceof ToggleEvent && event.newState === 'open') void loadPagefind();
     });
 
-    // One path for the search button, the Enter key, and every chip.
+    // Submit handler: the input is the source of truth.
     form.addEventListener('submit', (event) => {
       event.preventDefault();
-      const query = submittedQuery(event, input);
+      const query = input.value.trim();
       input.value = query;
       recent.hidden = query !== '';
       syncUrl(query);
       void showSearchResults(results, query);
+    });
+
+    // Chip links: intercept clicks to avoid a full page reload.
+    recent.querySelector('.chips')!.addEventListener('click', (event) => {
+      const link = (event.target as HTMLElement).closest('a[href]');
+      if (!(link instanceof HTMLAnchorElement)) return;
+      event.preventDefault();
+      input.value = new URLSearchParams(link.search).get('q') ?? '';
+      panel.showPopover();
+      form.requestSubmit();
     });
 
     // Open and run if the URL already carries a query (or `open` is set).

@@ -7,17 +7,17 @@ const { currentSearch = '', autofocus = false } = Astro.props;
 ---
 <div class="container">
   <h2>Søk etter innhold</h2>
-  <form class="searchform" action="/search" method="get">
+  <form class="searchform stack-horizontal gap-s" action="/search" method="get">
     <input
       type="text"
+      class="input flex-1"
+      data-size="large"
       name="q"
       value={currentSearch}
       placeholder="Hva leter du etter?"
       autofocus={autofocus}
     />
-    <button type="submit">Søk</button>
+    <button class="button" data-size="large" type="submit">Søk</button>
   </form>
 </div>
-<style>
-  @import './search.module.css';
-</style>
+
