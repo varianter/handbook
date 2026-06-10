@@ -1,0 +1,120 @@
+---
+// MobileNav.astro — always-visible mobile navigation using <details>/<summary> accordion.
+// No JS required: the "name" attribute gives exclusive accordion behavior for free.
+import type { NavItem } from '../config/navigation';
+
+interface HandbookLink {
+  path: string;
+  title: string;
+}
+
+interface Props {
+  handbooks: HandbookLink[];
+  asPath: string;
+  subItems: Record<string, NavItem[]>;
+}
+
+const { handbooks, asPath, subItems } = Astro.props;
+
+function getSubItems(path: string): NavItem[] {
+  return subItems[path] ?? [];
+}
+---
+
+<nav class="mobile-nav">
+  {handbooks.map((handbook) => {
+    const isActive = `/${handbook.path}` === asPath ||
+      (handbook.path !== '' && asPath.startsWith(`/${handbook.path}`));
+
+    const items = getSubItems(handbook.path);
+
+    return (
+      <details name="handbook-nav" open={isActive}>
+        <summary>{handbook.title}</summary>
+        <ul stagger-reveal>
+          {items.map((item) => (
+            <li>
+              <a href={item.external ? item.path : `/${item.path}`}>
+                {item.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </details>
+    );
+  })}
+</nav>
+
+<style>
+  .mobile-nav {
+    display: none;
+  }
+
+  @media (max-width: 800px) {
+    .mobile-nav {
+      display: block;
+      padding: 0 var(--spacing-m);
+      background: var(--surface-white);
+      border-bottom: 1px solid var(--Light-500);
+    }
+
+    .mobile-nav details {
+      border-bottom: 1px solid var(--Light-500);
+    }
+
+    .mobile-nav details:first-child {
+      border-top: 1px solid var(--Light-500);
+    }
+
+    .mobile-nav summary {
+      padding: var(--spacing-s) 0;
+      font-weight: var(--font-weight-medium);
+      font-size: var(--font-size-s);
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: var(--text-primary);
+    }
+
+    .mobile-nav summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .mobile-nav summary::after {
+      content: '';
+      width: 0.5rem;
+      height: 0.5rem;
+      border-right: 2px solid var(--text-secondary);
+      border-bottom: 2px solid var(--text-secondary);
+      transform: rotate(45deg);
+      transition: transform 0.15s;
+    }
+
+    .mobile-nav details[open] > summary::after {
+      transform: rotate(-135deg);
+    }
+
+    .mobile-nav ul {
+      list-style: none;
+      padding: 0 0 var(--spacing-s) var(--spacing-m);
+      margin: 0;
+    }
+
+    .mobile-nav li {
+      padding: var(--spacing-2xs) 0;
+    }
+
+    .mobile-nav a {
+      text-decoration: none;
+      color: var(--text-secondary);
+      font-size: var(--font-size-s);
+    }
+
+    .mobile-nav a:hover {
+      color: var(--text-primary);
+      text-decoration: underline;
+    }
+  }
+</style>
