@@ -6,9 +6,6 @@ description: Lønnsutbetaling, reiseregninger, utgiftsføring og alt som har med
 
 import IllustrationList from 'src/components/illustrationList/IllustrationList.astro';
 import IllustrasjonListLink from 'src/components/illustrationList/IllustrasjonListLink.astro';
-import Department from 'src/components/department/Department.astro';
-import DepartmentItem from 'src/components/department/DepartmentItem.astro';
-import DepartmentGroup from 'src/components/department/DepartmentGroup.astro';
 
 ## Om Penger
 
@@ -55,29 +52,15 @@ halv skatt i november.
 Hvis du får en faktura som skal betales av variant sendes den til selskapets
 epostmottak for faktura. De ulike lokasjonene har ulike adresser.
 
-<DepartmentGroup>
+<p>`faktura.oslo@variant.no`</p>
 
-<DepartmentItem dep="Oslo">
-  <p>`faktura.oslo@variant.no`</p>
-</DepartmentItem>
+<p>`faktura.bergen@variant.no`</p>
 
-<DepartmentItem dep="Bergen">
-  <p>`faktura.bergen@variant.no`</p>
-</DepartmentItem>
+<p>`faktura.trondheim@variant.no`</p>
 
-<DepartmentItem dep={['Trondheim', 'Molde']}>
-  <p>`faktura.trondheim@variant.no`</p>
-</DepartmentItem>
+<p>`faktura.stavanger@variant.no`</p>
 
-<DepartmentItem dep="Stavanger">
-  <p>`faktura.stavanger@variant.no`</p>
-</DepartmentItem>
-
-<DepartmentItem dep="all">
-  <p>`faktura@variant.no`</p>
-</DepartmentItem>
-
-</DepartmentGroup>
+<p>`faktura@variant.no`</p>
 
 Eventuelle papirfaktura må altså scannes eller fotograferes. Det siste funker
 helt greit, men pass på at teksten er leselig. I mailen så skriver du inn

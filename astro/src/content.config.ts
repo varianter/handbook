@@ -11,8 +11,6 @@ const handbook = defineCollection({
     order: z.number().default(0),
     /** Short description shown below link titles in sub-navigation menus */
     description: z.string().optional(),
-    /** Display label in the ProcessMenu sidebar (prosesser pages only) */
-    section: z.string().optional(),
   }),
 });
 

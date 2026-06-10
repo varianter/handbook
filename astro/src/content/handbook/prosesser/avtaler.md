@@ -1,7 +1,6 @@
 ---
 title: Avtaler - Prosesser
 navTitle: Avtaler
-section: Avtaler
 order: 7
 ---
 

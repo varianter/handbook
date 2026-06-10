@@ -4,9 +4,6 @@ order: 1
 ---
 
 import IllustrationHeading from 'src/components/illustrationList/IllustrationHeading.astro';
-import OsloLedelse from 'src/components/avdelninger/OsloLedelse.astro';
-import OsloEmissionTable from 'src/components/osloEmissionTable/OsloEmissionTable.astro';
-import OsloUsedGadgetTable from 'src/components/osloUsedGadgetTable/OsloUsedGadgetTable.astro';
 
 # Oslo
 
@@ -54,7 +51,12 @@ Hvis du får en faktura som skal betales av Variant Oslo sendes den til
 
 </IllustrationHeading>
 
-<OsloLedelse />
+- CEO: Linn
+- CDO: Lars
+- CTO: Nikolai
+- CGO: Even
+- CCO: Arash
+- CLCO: Charlotte
 
 <IllustrationHeading figureName="person">
 
@@ -193,14 +195,24 @@ Annenhver uke møtes vi for å jobbe med oppgaver som er knyttet til delmålene 
 
 Vi bruker [Energi.ai](https://energi.ai/) for å rapportere på utslippene våre, og har gjort det helt siden oppstarten vår i mai 2021. Hovedsakelig er det to måleenheter vi følger med på for øyeblikket – utslipp for året i sin helhet, og utslipp per årsverk.
 
-<OsloEmissionTable />
+| År   | Utslipp per ansatt | Utslipp for året |
+| ---- | ------------------ | ---------------- |
+| 2025 | 6 213 kgCo2e       | 229 881 kgCo2e   |
+| 2024 | 4 312 kgCo2e       | 155 235 kgCo2e   |
+| 2023 | 3 834 kgCo2e       | 88 183 KgCo2e    |
+| 2022 | 4 625 kgCo2e       | 106 370 kgCo2e   |
+| 2021 | 3 107 kgCo2e       | 21 746 kgCo2e    |
 
 #### Gadget kjøp
 
 Et av bærekraftsmålene i Variant Oslo er å øke andelen bruktkjøp blant gadgets.
 Vi oppfordrer til å kjøpe brukt der det er hensiktismessig. Her er tallene fra tidligere år:
 
-<OsloUsedGadgetTable />
+| Årstall | Antall nye | Antall brukt | Prosent brukt |
+| ------- | ---------- | ------------ | ------------- |
+| 2025    | 77         | 5            | 6.1 %         |
+| 2024    | 56         | 8            | 12.5 %        |
+| 2023    | 72         | 4            | 5.3 %         |
 
 #### Bærekraftsmål
 
