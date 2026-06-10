@@ -1,0 +1,116 @@
+---
+title: Arbeidet
+order: 2
+description: Fleksitid, arbeidsforhold og alt om hvordan vi jobber
+---
+
+## Arbeidet
+
+### Fleksitid
+
+Arbeidsdagen er 7,5 timer per dag. Vi har ikke kjernetid i Variant, men kunder
+kan jo ofte ha dette. Vi synes det er viktig å følge kunden på dette, for å bli
+en del av deres kultur. Vi oppnår mest når vi får jobbe tett med andre, så når
+du velger din arbeidsrytme regner vi med at det er med i vurderingen.
+
+Vi vet at livet har ulike faser. I noen perioder kan du ha behov for å bruke mindre tid på
+jobb. Hos oss er det mulig å senke stillingsgraden i perioder. Dette avgjør du best selv. Med
+åpenhet mellom deg, personalleder og kunden om behov og ønsker, vil vi sammen jobbe for å finne
+en løsning alle trives med.
+
+### Kompetanseutvikling
+
+Vi ønsker at fagmiljøet der vi er tilstede er sterkt og pulserende. Da må vi også jobbe med faglig
+utvikling. Vi ser lite verdi i å bygge kompetanse kun for vår egen del, vi tror heller at kunnskap
+og erfaring gjør seg best i fellesskap med andre. Vi bidrar derfor gledelig i eksisterende fagmiljø,
+eller oppretter nye der vi kjenner at det mangler. Vi oppfordrer alle – ja fra daglig leder så
+vel som sommerstudenter i selskapet – til å være aktive på meetups og fagtreff. Vi er først og
+fremst læreglade fagpersoner over hele fjøla.
+
+Åpenheten strekker seg selvfølgelig til læringen vi gjør. Vi oppfordrer ansatte
+til å dele det de lærer og bruker tid på å formidle det på en god måte. Enten
+det er via Open Source-prosjekter, podcast, video, bloggpost, presentasjoner og
+kurs. Eller rett og slett samtaler med fagkolleger fra andre selskap. Å kunne
+formidle kunnskap, mener vi, er like viktig som å kunne gjennomføre den.
+
+#### RÅ
+
+RÅ er Variants kompetanseprogram som tar for seg alt fra din spesifikke fagdisiplin,
+til utvikling av konsulentferdigheter, personlig utvikling og business skills.
+
+RÅ er en konkretisering av strukturer og verktøy for individuell oppfølging og felles
+læring over tid. Dette for å sikre at vi blir de råeste konsulentene for vår egen del og
+for våre kunder.
+
+RÅ er en garanti til deg om å få rammer og oppfølging til å utvikle deg selv og til våre
+kunder om at vi har og utvikler de råeste konsulentene.
+
+[Les mer om RÅ](/prosesser/raa)
+
+#### Kurs og konferanser
+
+For å være gode må vi av og til ut i verden for å lære mer og tenke nytt. Alle
+oppfordres til å delta på kurs eller konferanse en gang i løpet av året. Om du
+har sett for deg en reise lengre enn langt, blir det naturlig nok ikke like
+ofte.
+
+Samtidig oppfordrer vi også ALLE til å holde foredrag og kurs. Bidrar du ofte på
+konferanser og lignende, dekker Variant deltagelse, reise og opphold. Helt
+uavhengig av hvor i verden, og hvor mange andre konferanser du har deltatt på
+det året. Ut å avle læreglede!
+
+#### Etterutdanning
+
+Det kan være bra både for Variant og den enkelte variant bygge ny formell kompetanse eller ferdigstille et løp man er i. Sånn uten videre kan man benytte seg av "kurs og konferanse"-potten til å heller gjøre dette. Da blir det enten etterutdanning eller konferanse. Ikke begge deler 😀.
+
+- vi dekker kostnadene tilsvarene et kurs eller konferanse hvert år. Eksempelvis koster deltakelse på NDC ca. kr. 20 000 inkl. reise og opphold
+- vi gir inntil tre studiedager med lønn, dette tilsvarer deltakelse på kurs/konferanse
+- vi har lokale variantdager som kan benyttes som studiedager
+
+Så kan det være at omfanget er større. Kanskje er også nytteverdien er støre. Ikke alt passer inn på et A4-ark. Ta det i så fall opp med nærmeste leder.
+
+#### Variantdag
+
+Den første fredagen i hver måned (foruten januar og juli) har vi det vi kaller en Variantdag.
+Dette er en "innedag", der vi alle bruker hele dagen sammen, for faglig, administrativt og
+sosialt påfyll. Vi har også noen felles variantdager gjennom året. Da møtes varianter fra
+alle de ulike lokasjonene i en byene våre slik at vi kan dele enda flere perspektiver og sosialisere.
+
+Planlegging av variantdag skjer litt ulikt i de ulike byene. Les mer om hvordan vi gjør det under [Lokasjoner](https://handbook.variant.no/avdelinger/).
+
+[Her vil du alltid finne oversikt over gjennomførte og planlagte variantdager](https://medium.com/variant-as/tagged/variantdag).
+
+#### Variantdagen som rammeverk for utvikling
+
+Med totalt 9 ordinære variantdager, har vi 18 halvdagsøkter i året som vi skal
+bruke for å utvikle selskapet. Halvparten av disse er satt av til å drive
+utvikling av oss selv som varianter. Med faste og forutsigbare dager hvor man
+vet at ingen er opptatt med andre ting i prosjekt eller hos kunde, har vi en unik
+mulighet til å legge opp til hemmelighet i utviklingsløpet.
+
+Vi har utviklingsprogram vi har designet selv, og vi har mulighet til å
+investere i andre program.
+
+### Rettigheter og open source
+
+Kjernevirksomheten vår er i utgangspunktet å selge kompetanse. Men vi er
+eksperimentelle og tilpasningsdyktige. Det kan komme en tid der vi ser på
+muligheten for å samarbeide tett med startups eller skape egne startups. I Norge
+er det helt vanlig at arbeidsplassen innehar rettigheter til det ansatte måtte
+lage eller komme på. Det kan være vanskelig å komme seg rundt dersom Variant har
+brukt mye penger på å hjelpe ansatte å utvikle noe.
+
+Vi ønsker å være reale på dette. Om du har en god idé som du ønsker å gå videre
+med, snakk med din personalleder så finner vi ut av hvordan vi kan gå frem og
+hvordan vi skal løse det på en best mulig måte. Kanskje er det slik at Variant
+kan hjelpe deg å nå frem? Eller kanskje det kan Open Sources? Eller kanskje kan
+ansatte få fulle rettigheter? Vi finner en løsning som passer best til
+situasjonen.
+
+Med risiko for å gjenta i det uendelige –– vi ønsker å være åpne. Vi
+oppfordrer derfor hverandre til å tenke på hva som kan Open Sources. Både av det
+vi lager internt, hva kollegaer lager og hva kunder lager. Når vi sitter ute hos
+kunde er det som regel kunden som sitter på rettighetene til det vi produserer,
+men også da kan både kunde og samfunn ha nytte av at noe åpnes. Vi skal hjelpe
+kundene våre med å ta gode avgjørelser rundt dette, og ikke være redd for å
+stille spørsmålet: "Kan ikke dette legges ut, da?"

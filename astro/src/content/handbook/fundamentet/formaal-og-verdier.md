@@ -1,0 +1,111 @@
+---
+title: Formål og verdier
+order: 0
+description: Hvorfor vi finnes, og verdiene som styrer valgene våre
+---
+
+## Formål og verdier
+
+### Vårt formål er å utvikle samfunnet vi lever i
+
+Dette gjør vi ved å samle flinke personer som tenker nye tanker, og som har kompetansen til å utvikle de riktige løsningene for kundene vi jobber med.
+
+#### Teknologi
+
+Vår arena, som vi bruker for å utgjøre en forskjell sammen med kundene våre.
+
+#### Bærekraft
+
+Vårt ansvar til miljøet som vi er en del av. Klimaavtrykk og bidrag til lokalsamfunnet.
+
+#### Likestilling
+
+Våre muligheter til å blomstre, uavhengig nasjonalitet, etnisk bakgrunn, livssyn, legning og kjønn.
+
+### Våre grunnverdier
+
+Verdiene våre ligger til grunn for hvordan vi behandler hverandre. Det skal være lav terskel for ros og tilbakemeldinger fordi vi ønsker at du lykkes. Vær den som sier hva du har på hjertet ditt og som tør å utfordre sannheter og gjeldende praksis. [Konkrete tiltak for åpen selskapskultur i Variant](https://blog.variant.no/konkrete-tiltak-for-%C3%A5pen-selskapskultur-i-variant-87fc37baa58)
+
+> #### Åpenhet
+>
+> Hva i all verden skal et selskap tjene på å holde informasjon hemmelig for sine ansatte?
+>
+> #### Læreglede
+>
+> Vi ønsker å lære og lære bort. Vi skal ha ydmykhet nok til å skjønne at vi kan lære noe fra alle, og troen på at all kan lære noe fra oss.
+>
+> #### Raushet
+>
+> Dette vises i hvordan vi møter hverandre, våre kunder og folk i nærmiljøet.
+
+### Læreglede
+
+For å lykkes, både i Variant og livet ellers, trenger vi at alle bidrar til å dele
+både nyvunnet og veletablert kunnskap. Del med dine kollegaer hele
+tiden. Ikke hold tilbake fordi noen kanskje har hørt om dette før – alle har
+garantert _ikke_ det. Da er det verdt det! Det spiller ingen rolle om du er
+selveste Gandalf eller om du ble ansatt forrige mandag – vi trenger hjelp fra
+deg.
+
+### Åpenhet
+
+Her i Variant er åpenhet utgangspunktet. Hvis noe lages, etableres, dokumenteres
+eller hva det enn måtte være, så skal ingen trenge å vurdere om dette skal
+publiseres. Stikk motsatt faktisk! Vi må ha en god grunn for at det **ikke**
+skal publiseres. Denne forskjellen er betydelig. Her er noen eksempler på hva
+dette betyr i praksis.
+
+#### Salg
+
+Vi har ingen hemmelig eller begrenset salgsprosess hvor bare noen få vet hva som tilbys
+hvor og hvordan. Alle ansatte har full tilgang til Trello-boardet hvor alle salgs-caser legges
+inn og følges opp. I det ukentlige salgsmøtet møtes, naturlig nok, de som jobber salg. For oss
+andre er det frivillig, men kaffen her er like varm som vi er velkommen!
+
+#### Lønn
+
+I Variant vet alle hva alle tjener. Ikke bare basert på at lønnen beregnes ut
+fra en kjent statistikk, men faktisk også slik at selskapet har en åpen
+lønnsbok, hvor varianter har tilgang.
+
+#### Dokumenter
+
+Alle styredokumenter ligger på vårt felles filområde der alle ansatte har,
+sjokkerende nok, også tilgang!
+
+#### Håndboka
+
+Denne håndboken! Åpen for hele verden å se. Vi setter pris på hvert bidrag
+hit, variant eller ikke. Dette gjelder egentlig alt vi har i det åpne. Vi
+heier på alle våre kollegaer som deler åpent og bidra til Open Source.
+
+### Tillit og ansvar
+
+Variant vil gi sine ansatte det beste, og vi som jobber her forventes å gi det
+samme tilbake. Vi har full tillit til hverandre fordi vi vet at alle er i stand til å
+gjøre riktige valg. Hva du trenger for å lære noe nytt eller gjøre jobben din, er
+opp til deg. Vi forventer bare at du selv vurderer kostnadene opp mot vinningen
+og sparrer med andre når du er usikker.
+
+#### Ha det morsomt
+
+Et arbeidsliv består av maaaange timer. Vi vil gjøre noe som gir mening og
+samtidig ha det morsomt. Det spekuleres i om Variant eksisterer fordi det er
+hyggeligere å skape noe sammen med mennesker man trives med. Det får vi nok ikke
+svaret på, men inntil videre så kan du le ofte og gjøre gærne ting!
+
+#### Vær stolt
+
+Vi vil at du skal være stolt av det du gjør. Er du ikke den stolte typen? Da vil
+vi gjerne at du har mot til å endre på det. Du skal kunne være stolt av å være
+her, nettopp fordi du har gjort så mye bra tidligere. Så rett deg opp i ryggen,
+og si at du jobber i Variant. 🦄
+
+### Stilguide
+
+Profilen til Variant er, som alt annet, åpen og i evig utvikling. Arbeidet rundt
+gjeldende profil kan følges på en
+[egen side med style guide](https://styleguide.variant.no). Her legger vi alt
+fra hele Variant-illustrasjonen, typografi, veiledning for valg av logo, osv.
+Alt dette legges åpent med en åpen lisens, foruten illustrasjonen hvor designer
+sitter på åndsverk.`
