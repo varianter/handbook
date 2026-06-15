@@ -1,0 +1,36 @@
+---
+import SearchBox from 'src/components/search-form/SearchBox.astro';
+import GeneralLayout from '../layouts/GeneralLayout.astro';
+---
+
+<GeneralLayout frontmatter={{ title: 'En variants håndbok' }}>
+  <h1>En variants håndbok</h1>
+
+  <p>Her forsøker vi å beskrive hvordan ting gjøres i Variant, hva vi prøver å oppnå
+  og hvorfor vi tenker som vi gjør. Denne er både for ansatte og folk som er
+  nysgjerrige på hvordan det er å være en variant. Håndboka er et levende dokument
+  som vi ønsker alle ansatte skal ha eierskap til. Vi oppfordrer alle til å endre
+  eller legge til innhold i den. Håndboken
+  <a href="https://github.com/varianter/handbook/">ligger åpent på GitHub</a> hvor
+  <a href="https://help.github.com/articles/editing-files-in-your-repository/">alle kan sende inn endringer</a>
+  eller <a href="https://github.com/varianter/handbook/issues">stille spørsmål</a>.</p>
+
+  <p>Om du ikke er en variant men liker det du leser,
+  <a href="https://www.variant.no/jobs">ta en titt på ledige stillinger hos oss</a>. Mer info
+  om oss på <a href="https://www.variant.no">nettsiden vår</a>.</p>
+
+  <SearchBox />
+
+  <h2>Fundamentet</h2>
+
+  <p>Her finner du alt om hvordan vi tenker og jobber i Variant – verdiene våre,
+  hvordan vi balanserer jobb og liv, og hvordan vi kompenserer våre ansatte.</p>
+
+  <ul>
+    <li><a href="/fundamentet/formaal-og-verdier">Formål og verdier</a> – Hva vi tror på og hvorfor</li>
+    <li><a href="/fundamentet/selve-livet">Selve livet</a> – Familie, helse og samfunn</li>
+    <li><a href="/fundamentet/arbeidet">Arbeidet</a> – Fleksitid, kompetanseutvikling og open source</li>
+    <li><a href="/fundamentet/sosialt">Sosialt</a> – Hvordan vi har det gøy sammen</li>
+    <li><a href="/fundamentet/penger">Penger</a> – Lønn, bonus, eierskap og goder</li>
+  </ul>
+</GeneralLayout>

@@ -11,6 +11,8 @@ const {
   description = 'En variants håndbok. Hvordan ting gjøres i Variant, hva vi prøver å oppnå og hvorfor vi tenker som vi gjør',
   ogImage = 'https://www.variant.no/og-header-min.png',
 } = Astro.props;
+
+
 ---
 
 <!doctype html>
@@ -59,6 +61,9 @@ const {
         s.parentNode.insertBefore(g, s);
       })();
 
+    </script>
+    <script>
+      import '../components/search-form/search-popover.ts';
     </script>
   </head>
   <body class="fs-m">
