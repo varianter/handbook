@@ -2,10 +2,17 @@
 // Types
 // ---------------------------------------------------------------------------
 
+interface SubResult {
+  title: string;
+  url: string;
+  excerpt: string;
+}
+
 interface PagefindData {
   url: string;
   excerpt: string;
   meta?: { title?: string };
+  sub_results?: SubResult[];
 }
 
 interface PagefindResponse {
@@ -56,9 +63,10 @@ function message(text: string): HTMLParagraphElement {
 
 const resultTemplate = document.createElement('template');
 resultTemplate.innerHTML = `
-  <article>
+  <article class="typeset">
     <h4><a data-slot="link"></a></h4>
     <div data-slot="excerpt"></div>
+    <ul data-slot="subs" hidden></ul>
   </article>`;
 
 function renderResult(data: PagefindData): HTMLElement {
@@ -70,6 +78,24 @@ function renderResult(data: PagefindData): HTMLElement {
 
   const excerpt = article.querySelector('[data-slot="excerpt"]')!;
   excerpt.innerHTML = data.excerpt; // Pagefind returns its own <mark>-highlighted HTML
+
+  // Append section-level sub-results (Pagefind splits on heading IDs).
+  // Skip the page-level entry (no # in URL) — the main link already covers it.
+  const subs = (data.sub_results ?? []).filter((sr) => sr.url.includes('#'));
+  if (subs.length) {
+    const list = article.querySelector('[data-slot="subs"]') as HTMLUListElement;
+    list.hidden = false;
+    for (const sr of subs) {
+      const li = document.createElement('li');
+      const srLink = document.createElement('a');
+      srLink.href = sr.url;
+      srLink.textContent = sr.title;
+      const srExcerpt = document.createElement('p');
+      srExcerpt.innerHTML = sr.excerpt;
+      li.append(srLink, srExcerpt);
+      list.append(li);
+    }
+  }
 
   return article;
 }
@@ -105,10 +131,27 @@ async function showSearchResults(container: HTMLElement, query: string): Promise
 const template = document.createElement('template');
 template.innerHTML = /*html*/`
   <div
-    style="max-width: 50ch; width: 100%; right: 0;left: auto;margin: var(--spacing-xl);height: calc(100svh - (var(--spacing-xl) * 2));"
-    class="panel p-m b-all b-faint"
+    style="
+      max-width: 60ch;
+      width: 100%;
+      right: 0;
+      left: 0;
+      margin-top: max(15svh, var(--spacing-2xl));
+      margin-inline: auto;
+      height: calc(100svh - (var(--spacing-l) * 2));
+      padding: var(--spacing-m);
+      border: none;
+    "
+    class="panel p-m b-all b-faint bg-surface-default fg-default "
     popover="auto"
   >
+    <div style="
+      display: grid;
+      grid-auto-rows: max-content;
+      grid-template-columns: min(50ch, 100%);
+      justify-content: center;
+    ">
+
     <form class="search-form stack py-l" role="search">
       <label for="search">Søk i håndboken</label>
       <input
@@ -125,13 +168,14 @@ template.innerHTML = /*html*/`
     <div class="recent" data-pagefind-ignore>
       <h3>Andre har søkt etter</h3>
       <div class="chips">
-        <a href="?q=Lønn">Lønn</a>
-        <a href="?q=Aksjer">Aksjer</a>
-        <a href="?q=Fordeler">Fordeler</a>
-        <a href="?q=Miljøfyrtårn">Miljøfyrtårn</a>
+        <a class="link" data-size="small" href="?q=Lønn">Lønn</a>
+        <a class="link" data-size="small" href="?q=Aksjer">Aksjer</a>
+        <a class="link" data-size="small" href="?q=Fordeler">Fordeler</a>
+        <a class="link" data-size="small" href="?q=Miljøfyrtårn">Miljøfyrtårn</a>
       </div>
     </div>
-    <div class="results typeset py-xl" aria-live="polite"></div>
+    <div class="results py-xl" aria-live="polite"></div>
+    </div>
   </div>`;
 
 // ---------------------------------------------------------------------------
