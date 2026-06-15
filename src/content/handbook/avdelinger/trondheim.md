@@ -5,12 +5,7 @@ order: 0
 
 # Trondheim
 
-<img
-  src="/assets/illustrations/office-trondheim.png"
-  role="none"
-  alt=""
-  className="illustration illustration--right"
-/>
+![Kontoret vårt i Trondheim](/assets/illustrations/office-trondheim.png)
 
 ## Varianthuset
 

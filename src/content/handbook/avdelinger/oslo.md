@@ -3,26 +3,15 @@ title: Oslo
 order: 1
 ---
 
-import IllustrationHeading from 'src/components/illustrationList/IllustrationHeading.astro';
-
 # Oslo
 
-<img
-  src="/assets/illustrations/office-oslo.png"
-  role="none"
-  alt=""
-  className="illustration illustration--right"
-/>
+![](/assets/illustrations/office-oslo.png)
 
 ## Tollbugata 24
 
 Vi holder til, så lenge vi ikke er ute hos våre kunder, i [Tollbugata 24](https://g.page/Tollbugata-8-4308?share).
 
-<IllustrationHeading  figureName="wifiHigh">
-
 ### Wifi
-
-</IllustrationHeading>
 
 Når du jobber på kontoret benytter du det trådløse nettet med SSID
 **Variant – Employees**. Gjester kan bruke **Variant – Guests**.
@@ -30,11 +19,7 @@ Passord finner du ved å skrive `/info wifi` på Slack.
 
 Vi har serviceavtale med [PursueIT](https://pursueit.no/) som installerte nettverksoppsettet vårt. Man kan kontakte de for _alle_ feil på nettverk eller internett. De håndterer også kommunikasjon med ISP [GlobalConnect](https://www.globalconnect.no/driftsmeldinger).
 
-<IllustrationHeading figureName="bike">
-
 ### Sykkelparkering
-
-</IllustrationHeading>
 
 Tollbugata 24 har både sykkelparkering og garderobe. Det er litt knotete å finne fram, men det kommer en video som viser veien.
 
@@ -45,11 +30,7 @@ Hvis du får en faktura som skal betales av Variant Oslo sendes den til
 
 ## Roller
 
-<IllustrationHeading figureName="group">
-
 ### Ledelse
-
-</IllustrationHeading>
 
 - CEO: Linn
 - CDO: Lars
@@ -58,11 +39,7 @@ Hvis du får en faktura som skal betales av Variant Oslo sendes den til
 - CCO: Arash
 - CLCO: Charlotte
 
-<IllustrationHeading figureName="person">
-
 ### Personalledere
-
-</IllustrationHeading>
 
 For tiden har følgende varianter personalansvar:
 
@@ -78,11 +55,7 @@ For tiden har følgende varianter personalansvar:
 Relasjonen mellom deg og personallederen er basert på coaching. Se også
 [listen over hvem som har lederansvar for hvem](https://varianttrh.sharepoint.com/:x:/g/Ec7R5SqfFFlJsPIXPYCZHqkBgw6eytVEbqY3CTjXJCyANw?e=8gavud).
 
-<IllustrationHeading figureName="person">
-
 ### Arbeidsmiljøutvalget
-
-</IllustrationHeading>
 
 Ansattrepresentanter:
 
@@ -96,11 +69,7 @@ Medlemmer fra ledelsen:
 - Linn Sandvik (leder)
 - Lars Løwenborg
 
-<IllustrationHeading figureName="group">
-
 ### Soskom
-
-</IllustrationHeading>
 
 - Jonas R.
 - Jon
@@ -133,7 +102,7 @@ Hvis ansatte opplever feil, mangler eller farlige situasjoner ute hos kunde
 ønsker vi at dette forsøkes varslet i henhold til kundens HMS-rutiner. Skulle
 dette ikke føre fram vil vi ta imot og håndtere saken i Variant-kontekst.
 
-<IllustrationHeading figureName="barbell">### Trening</IllustrationHeading>
+### Trening
 
 Variant har en [samarbeidsavtale med SATS som gir 15% rabatt på nye og eksisterende abonnement](https://varianttrh.sharepoint.com/:b:/g/EbNkuLOu8X1NhFMzuEgXWoIBhzK-wSPBaOFGYlyzB_K3Aw?e=OwPdCE) og [rabattavtaler gjennom Nordea Liv Pluss](https://www.nordealiv.no/nordea-liv/nordea-liv-pluss.html).
 
@@ -146,7 +115,7 @@ Variant Oslo har avtale om coachingtjenester til oss som ansatte. Noen ganger tr
 Da tar du kontakt med nærmeste leder, og dere vurderer det i fellesskap. Lederen din sørger for at du kommer i kontakt med en coach. Alt du snakker om med denne vil naturligvis være konfidensielt mellom dere.
 Variant Oslo vil betale for timen, men du må ta det utenfor fakturerbart arbeid.
 
-<IllustrationHeading figureName="fire">### Branninstruks</IllustrationHeading>
+### Branninstruks
 
 Gjør deg kjent med følgende hos Tollbugata 24:
 
@@ -160,15 +129,11 @@ Rømningsveier og brannslukningsutstyr er godt merket. Branninstruks og rednings
 
 **Nødnummer til brannvesen er 110.**
 
-<IllustrationHeading figureName="triangle">
-  ### Tilfluktsrom
-</IllustrationHeading>
+### Tilfluktsrom
 
 Nærmeste tilfluktsrom finnes ved Tollbugata 40 / Nedre Vollgate 11 eller i Stortinget T-bane.
 
-<IllustrationHeading figureName="recycle">
-  ### Kildesortering
-</IllustrationHeading>
+### Kildesortering
 
 Det er kildesortering hos på Variantkontoret, både i fellesarealet og i søppelrommet i kjelleren. Gjør deg kjent med hvordan kildesortering fungerer i Oslo [på hjemmesiden til Oslo Kommune](https://www.oslo.kommune.no/avfall-og-gjenvinning/hvordan-kildesortere-i-oslo/).
 
@@ -218,12 +183,7 @@ Vi oppfordrer til å kjøpe brukt der det er hensiktismessig. Her er tallene fra
 
 Sammen med konsernet har vi kommet til noen felles mål som vi tror kan bidra til en mer bærekraftig fremtid.
 
-<img
-  src="/assets/illustrations/baerekraftsmål11.png"
-  role="none"
-  alt=""
-  className="illustration illustration--right"
-/>
+![](/assets/illustrations/baerekraftsmål11.png)
 
 ##### Minske utslipp
 
@@ -256,12 +216,7 @@ Dette er knyttet til fire av våre delmål:
 - Forsterke vår kunnskap om utslipp knyttet til våre tjenester innen digital produktutvikling.
 - Invitere folk som kan mer enn oss om dette til å holde foredrag e.l. for å lære mer om utslipp knyttet til våre tjenester innen digital produktutvikling.
 
-<img
-  src="/assets/illustrations/baerekraftsmål17.png"
-  role="none"
-  alt=""
-  className="illustration illustration--right"
-/>
+![](/assets/illustrations/baerekraftsmål17.png)
 
 ##### Utvikle kompetansen
 
@@ -293,12 +248,7 @@ Vi skal utvikle vår bærekraftskompetanse innen våre fagdisipliner, og samarbe
 - Utarbeide bærekrafts-sjekkliste over arbeidsmetodikker og tiltak som kan minske databruk og lette fotavtrykket på kloden, som vi kan ta med oss ut i oppdrag.
 - Gjennomføre sesjoner knyttet til bærekraftig kompetanse og fag på minst to Variantdager (interne dager satt av til fagutvikling) i løpet av året.
 
-<img
-  src="/assets/illustrations/baerekraftsmål12.png"
-  role="none"
-  alt=""
-  className="illustration illustration--right"
-/>
+![](/assets/illustrations/baerekraftsmål12.png)
 
 ##### Bevisste forbrukere
 

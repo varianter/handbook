@@ -5,8 +5,6 @@ description: Lønn, bonus, overskuddsdeling og hvordan vi tenker rundt kompensas
 toc: true
 ---
 
-import IllustrationList from 'src/components/illustrationList/IllustrationList.astro';
-
 ## Penger
 
 Raushet handler om så mye og styrer hvordan vi forholder oss til hverandre. Men det legger også noen føringer på
@@ -145,7 +143,7 @@ arbeidsgiveravgift på bonus, slik at dette trekkes fra. Dette regnes som lønn 
 feriepenger, så 12% utsettes til neste års feriepenger. Bonus utbetales sammen med
 sammen med lønn når årsregnskapet er klart på nyåret.
 
-<div className="backgroundExample background-color-secondary4__tint2">
+<div class="backgroundExample background-color-secondary4__tint2">
 
 **Eksempel**: Gitt 10 ansatte og et årlig overskudd på _én millioner_, deler
 vi `30%` av overskuddet på 10 og får `30 000`. Så skal det betales `14,1%`
@@ -177,65 +175,30 @@ og dekning for annen ulykke enn yrkesskade.
 
 ### Goder og ytelser
 
-<div className="listGap background-color-secondary4__tint2">
+<div class="listGap background-color-secondary4__tint2">
 
-<IllustrationList
-  text="Gadgetbudsjett på 12 000 pluss moms pr. år. Hva andre har brukt det til finner
-  du på"
-  href="https://dash.variant.no/gadgetusage/trondheim"
-  linkText="oversikten her"
-  figureName="deviceMobile"
-/>
+- Gadgetbudsjett på 12 000 pluss moms pr. år. Hva andre har brukt det til finner du på [oversikten her](https://dash.variant.no/gadgetusage/trondheim)
 
-<IllustrationList
-  text="Ett kurs eller en konferanse i året"
-  figureName="graduationCap"
-/>
+- Ett kurs eller en konferanse i året
 
-<IllustrationList
-  text="Fri bruk av telefoni – innen rimelighetens grenser."
-  figureName="phoneCall"
-/>
+- Fri bruk av telefoni – innen rimelighetens grenser.
 
-<IllustrationList
-  text="Bredbånd hjemme på inntil 500 kr. per måned."
-  figureName="wifiHigh"
-/>
+- Bredbånd hjemme på inntil 500 kr. per måned.
 
-<IllustrationList
-  text="Betalt to uker permisjon for partner etter fødsel."
-  figureName="baby"
-/>
+- Betalt to uker permisjon for partner etter fødsel.
 
-<IllustrationList
-  text="Full lønn under foreldrepermisjon og ved sykemelding, selv om lønnen skulle overstige det NAV betaler."
-  figureName="coinVertical"
-/>
+- Full lønn under foreldrepermisjon og ved sykemelding, selv om lønnen skulle overstige det NAV betaler.
 
-<IllustrationList
-  text="To dager til barnehagetilvenning."
-  figureName="houseLine"
-/>
+- To dager til barnehagetilvenning.
 
-<IllustrationList
-  text="Utvidede rettigheter til"
-  href="/information/om-liv-og-helse#sykemelding-og-egenmelding"
-  linkText="egenmelding og sykepenger"
-  figureName="firstAidKit"
-/>
+- Utvidede rettigheter til [egenmelding og sykepenger](/information/om-liv-og-helse#sykemelding-og-egenmelding)
 
-<IllustrationList
-  text="Dekt treningssentermedlemsskap, eller tilsvarende helsebringende
+- Dekt treningssentermedlemsskap, eller tilsvarende helsebringende
   aktivitet/utstyr, inntil 600,- per måned (NB! Dette er en skattepliktig fordel
-  som rapporteres på din lønnsslipp ved årsslutt). Utgiftsføres på vanlig måte."
-  figureName="barbell"
-/>
+  som rapporteres på din lønnsslipp ved årsslutt). Utgiftsføres på vanlig måte.
 
-<IllustrationList text="Behandlingsforsikring." figureName="firstAid" />
+- Behandlingsforsikring.
 
-<IllustrationList
-  text="Reiseforsikring for deg og din familie.."
-  figureName="airplaneTilt"
-/>
+- Reiseforsikring for deg og din familie..
 
 </div>

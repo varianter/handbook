@@ -4,9 +4,6 @@ order: 0
 description: Lønnsutbetaling, reiseregninger, utgiftsføring og alt som har med penger ut å gjøre
 ---
 
-import IllustrationList from 'src/components/illustrationList/IllustrationList.astro';
-import IllustrasjonListLink from 'src/components/illustrationList/IllustrasjonListLink.astro';
-
 ## Om Penger
 
 ### Lønning
@@ -52,15 +49,15 @@ halv skatt i november.
 Hvis du får en faktura som skal betales av variant sendes den til selskapets
 epostmottak for faktura. De ulike lokasjonene har ulike adresser.
 
-<p>`faktura.oslo@variant.no`</p>
+`faktura.oslo@variant.no`
 
-<p>`faktura.bergen@variant.no`</p>
+`faktura.bergen@variant.no`
 
-<p>`faktura.trondheim@variant.no`</p>
+`faktura.trondheim@variant.no`
 
-<p>`faktura.stavanger@variant.no`</p>
+`faktura.stavanger@variant.no`
 
-<p>`faktura@variant.no`</p>
+`faktura@variant.no`
 
 Eventuelle papirfaktura må altså scannes eller fotograferes. Det siste funker
 helt greit, men pass på at teksten er leselig. I mailen så skriver du inn
@@ -82,13 +79,9 @@ Skattemyndighetene krever at fordeler du oppnår gjennom ulike fordelsprogram ma
 får på grunn av at du er ansatt hos oss skal rapporteres inn slik at det blir
 med på skatteberegningen. Dette gjelder blant annet:
 
-<IllustrationList text="Kredittkort med bonuspoeng" figureName="creditCard" />
-<IllustrationList text="Bonuspoeng på flyreiser" figureName="airplaneTilt" />
-<IllustrationList
-  text="Eventuelle ansattrabatter hos butikker eller lignende (P.t. har vi ingen
-  slike)."
-  figureName="coinVertical"
-/>
+- Kredittkort med bonuspoeng
+- Bonuspoeng på flyreiser
+- Eventuelle ansattrabatter hos butikker eller lignende (P.t. har vi ingen slike).
 
 Det er den ansattes ansvar å rapportere dette til Variant, så skal Variant
 rapportere videre til myndighetene.
@@ -111,17 +104,8 @@ ville kostet uten rabatt eller bonuspoeng.
 Du må også dokumentere estimert verdi. Dette gjøres typisk ved å ta skjermbilder
 av tilsvarende kjøp eller reiser hvor prisene er oppgitt.
 
-<IllustrasjonListLink
-  text="Rapportering gjøres ved å fylle ut dette skjemaet."
-  figureName="documents"
-  href="https://fordelsrapport.variant.no"
-/>
-
-<IllustrasjonListLink
-  text="Dokumentasjon lastes opp på docs"
-  figureName="cloud"
-  href="https://fordelsdokumentasjon.variant.no"
-/>
+- [Rapportering gjøres ved å fylle ut dette skjemaet.](https://fordelsrapport.variant.no)
+- [Dokumentasjon lastes opp på docs](https://fordelsdokumentasjon.variant.no)
 
 #### Restaurantbesøk
 
@@ -150,17 +134,8 @@ benyttes i stedet.
 _NB! Hvis reisen skal viderefaktureres til en kunde gjennom megler, se avsnitt
 lenger ned._
 
-<IllustrasjonListLink
-  text="Innlands reiseregningsskjema (enkelt)"
-  figureName="documents"
-  href="https://reiseregning.variantapp.com"
-/>
-
-<IllustrasjonListLink
-  text="Registrer klimaavtrykk"
-  figureName="leaf"
-  href="https://reiseregning.variantapp.com"
-/>
+- [Innlands reiseregningsskjema (enkelt)](https://reiseregning.variantapp.com)
+- [Registrer klimaavtrykk](https://reiseregning.variantapp.com)
 
 #### Reiser på Variants regning
 

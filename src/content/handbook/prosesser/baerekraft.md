@@ -4,20 +4,10 @@ navTitle: Bærekraft
 order: 3
 ---
 
-import IllustrasjonListLink from 'src/components/illustrationList/IllustrasjonListLink.astro';
-
 Vi bryr oss om miljøet, og har fokus på å begrense reiser og utslipp. For å ha oversikt fører vi regnskap over alle reiser og utslippene det medfører. Ta en kikk i klimaregnskapet for å se aktuelle tall.
 
-<IllustrasjonListLink
-  text="Registrer reiseutslipp"
-  figureName="leaf"
-  href="https://dash.variant.no/climate/registration"
-/>
-<IllustrasjonListLink
-  text="Se klimaregnskap"
-  figureName="leaf"
-  href="https://varianttrh.sharepoint.com/:x:/r/_layouts/15/Doc.aspx?sourcedoc=%7BDEA0DAC0-2495-486E-9AAD-3F5C285122C9%7D&file=Karbonregnskap%202021.xlsx&action=default&mobileredirect=true&cid=9d35a231-8702-4ff1-ad6f-681a612377e4"
-/>
+- [Registrer reiseutslipp](https://dash.variant.no/climate/registration)
+- [Se klimaregnskap](https://varianttrh.sharepoint.com/:x:/r/_layouts/15/Doc.aspx?sourcedoc=%7BDEA0DAC0-2495-486E-9AAD-3F5C285122C9%7D&file=Karbonregnskap%202021.xlsx&action=default&mobileredirect=true&cid=9d35a231-8702-4ff1-ad6f-681a612377e4)
 
 ## Hvordan jobber vi med bærekraft
 
@@ -29,23 +19,13 @@ Samtidig skal vi skape en kultur hvor vi er nysgjerrige, stiller spørsmål og t
 
 For å kunne gjøre tiltak og forsøke å bidra til en mer bærekraftig klode har Variant satt seg noen felles mål som vi ønsker å oppnå.
 
-<img
-  src="/assets/illustrations/baerekraftsmål11.png"
-  role="none"
-  alt=""
-  className="illustration illustration--right"
-/>
+![](/assets/illustrations/baerekraftsmål11.png)
 
 ### Minske utslipp
 
 Vi skal minke utslipp per årsverk sammenliknet med utslipp fra forrige årsverk.
 
-<img
-  src="/assets/illustrations/baerekraftsmål17.png"
-  role="none"
-  alt=""
-  className="illustration illustration--right"
-/>
+![](/assets/illustrations/baerekraftsmål17.png)
 
 ### Utvikle kompetansen
 
@@ -55,23 +35,14 @@ Vi skal utvikle vår bærekraftskompetanse innen våre fagdisipliner, og samarbe
 
 Vi skal i samarbeid med våre kunder jobbe med bærekraftig utvikling i tråd med bærekraftsmålene og på denne måten forbedre vårt felles håndavtrykk (håndavtrykk = der vi bidrar positivt).
 
-<img
-  src="/assets/illustrations/baerekraftsmål12.png"
-  role="none"
-  alt=""
-  className="illustration illustration--right"
-/>
+![](/assets/illustrations/baerekraftsmål12.png)
 
 ### Bevisste forbrukere
 
 Vi skal være bevisste forbrukere, både som bedrift og som ansatte. Vi skal minimere mengden avfall, og prioritere og motivere til gjenbruk.
 
-<img
-  src="/assets/illustrations/baerekraftsmål8.png"
-  role="none"
-  alt=""
-  className="illustration illustration--right"
-/>
+![](/assets/illustrations/baerekraftsmål8.png)
+
 ### Faglig og personlig utvikling
 
 Vi skal tiltrekke, utvikle og beholde medarbeidere for å bygge fremtidens Variant med kjerneverdiene raushet, åpenhet og læreglede i fokus. Vi skal ha sterkt fokus på trivsel, trygghet og mangfold, og ha en proaktiv holdning til det å framme faglig og personlig utvikling for alle ansatte.

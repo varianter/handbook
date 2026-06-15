@@ -3,36 +3,21 @@ title: Bergen
 order: 2
 ---
 
-import IllustrationHeading from 'src/components/illustrationList/IllustrationHeading.astro';
-
 # Bergen
 
-<img
-  src="/assets/illustrations/office-bergen.png"
-  role="none"
-  alt=""
-  className="illustration illustration--right"
-/>
+![](/assets/illustrations/office-bergen.png)
 
 ## Vaskerelven 39 (V39)
 
 Vi holder til, så lenge vi ikke er ute hos våre kunder, hos
 [V39](https://g.page/Vaskerelven-39-5323?share) i Vaskerelven 39.
 
-<IllustrationHeading figureName="wifiHigh">
-
 ### Wifi
-
-</IllustrationHeading>
 
 Når du jobber på kontoret benytter du det trådløse nettet med SSID V39.
 Du logger inn med passordet som du får fra en av kollegaene dine.
 
-<IllustrationHeading figureName="bike">
-
 ### Sykkelparkering
-
-</IllustrationHeading>
 
 V39 har både sykkelparkering og garderobe. Sykkelparkeringen ligger i
 bakgården.
@@ -44,11 +29,7 @@ Hvis du får en faktura som skal betales av Variant Bergen sendes den til
 
 ## Roller
 
-<IllustrationHeading  figureName="group">
-
 ### Ledelse
-
-</IllustrationHeading>
 
 - CEO: Marie
 - CDO: Andreas
@@ -84,11 +65,7 @@ Hvis ansatte opplever feil, mangler eller farlige situasjoner ute hos kunde
 ønsker vi at dette forsøkes varslet i henhold til kundens HMS-rutiner. Skulle
 dette ikke føre fram vil vi ta imot og håndtere saken i Variant-kontekst.
 
-<IllustrationHeading figureName="fire">
-
 ### Branninstruks
-
-</IllustrationHeading>
 
 Gjør deg kjent med følgende hos Vaskerelven 39:
 
@@ -111,11 +88,7 @@ redningsplan finnes som oppslag i kontorlokalet og gjennomgås med alle
 nyansatte. Brannøvelse gjennomføres i regi av V39. Vedlikehold av
 brannvarslere og slukkeustyr utføres av V39.
 
-<IllustrationHeading  figureName="recycle">
-
 ### Kildesortering
-
-</IllustrationHeading>
 
 Det er kildesortering hos V39, både i fellesarealet og i søppelrommet i
 kjelleren.

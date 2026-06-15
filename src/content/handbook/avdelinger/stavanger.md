@@ -3,35 +3,20 @@ title: Stavanger
 order: 3
 ---
 
-import IllustrationHeading from 'src/components/illustrationList/IllustrationHeading.astro';
-
 # Stavanger
 
-<img
-  src="/assets/illustrations/office-stavanger.png"
-  role="none"
-  alt=""
-  className="illustration illustration--right"
-/>
+![](/assets/illustrations/office-stavanger.png)
 
 ## Domkirkeplassen 2
 
 Vi holder til, så lenge vi ikke er ute hos våre kunder, hos
 [Dom2](https://maps.app.goo.gl/9ndB3W5EtFktR62A7) i Domkirkeplassen 2.
 
-<IllustrationHeading figureName="wifiHigh">
-
-    ### Wifi
-
-</IllustrationHeading>
+### Wifi
 
 Når du jobber på kontoret bruker du enn så lenge mobil hotspot.
 
-<IllustrationHeading figureName="bike">
-
-    ### Sykkelparkering
-
-</IllustrationHeading>
+### Sykkelparkering
 
 Dom2 har både sykkelparkering og dusj. Sykkelparkeringen ligger i parkeringshuset under bygget, inngang via Hospitalsgata.
 
@@ -42,11 +27,7 @@ Hvis du får en faktura som skal betales av Variant Stavanger sendes den til
 
 ## Roller
 
-<IllustrationHeading  figureName="group">
-
-    ### Ledelse
-
-</IllustrationHeading>
+### Ledelse
 
 - CEO: Tonje
 - CCO: Per Kristian
@@ -82,11 +63,7 @@ Hvis ansatte opplever feil, mangler eller farlige situasjoner ute hos kunde
 ønsker vi at dette forsøkes varslet i henhold til kundens HMS-rutiner. Skulle
 dette ikke føre fram vil vi ta imot og håndtere saken i Variant-kontekst.
 
-<IllustrationHeading figureName="fire">
-
-    ### Branninstruks
-
-</IllustrationHeading>
+### Branninstruks
 
 Gjør deg kjent med følgende hos Domkirkeplassen 2:
 
@@ -108,11 +85,7 @@ redningsplan finnes som oppslag i kontorlokalet og gjennomgås med alle
 nyansatte. Brannøvelse gjennomføres i regi av Dom2. Vedlikehold av
 brannvarslere og slukkeustyr utføres av Dom2.
 
-<IllustrationHeading  figureName="recycle">
-
-    ### Kildesortering
-
-</IllustrationHeading>
+### Kildesortering
 
 Det er kildesortering hos Dom2, både i fellesarealet og i søppelrommet i
 kjelleren.
