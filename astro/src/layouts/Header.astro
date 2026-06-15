@@ -30,7 +30,7 @@ function getSubItems(path: string): NavItem[] {
 }
 ---
 
-<header class="header pt-3xl pb-xl" id="top-header">
+<header class="header pt-3xl pb-xl w-full" id="top-header">
   <nav class="stack-horizontal gap-xl">
 
 
@@ -40,7 +40,7 @@ function getSubItems(path: string): NavItem[] {
   </a>
 
   <ul class="header__handbooks stack-horizontal gap-xl">
-    {handbooks.map((handbook, index) => {
+    {handbooks.map((handbook) => {
       const isActive = `/${handbook.path}` === asPath ||
         (asPath === '/' && handbook.path === '') ||
         (handbook.path !== '' && asPath.startsWith(`/${handbook.path}`));
@@ -51,16 +51,18 @@ function getSubItems(path: string): NavItem[] {
 
       const subItems = getSubItems(handbook.path);
       const popoverId = `header-popover-${handbook.path || 'fundamentet'}`;
+      const buttonId = `header-btn-${handbook.path || 'fundamentet'}`;
       return (
         <li class={linkClass}>
               <button
+                id={buttonId}
                 class="fs-s t-bold"
                 popovertarget={popoverId}
                 data-js-hover
               >
                 {`${handbook.title}`}
               </button>
-              <div id={popoverId} popover="auto" class="header-popover" data-anchored>
+              <div id={popoverId} popover="auto" class="header-popover" anchor={buttonId}>
                 <ul stagger-reveal class="stack gap-s">
                   {subItems.map((item) => (
                     <li class="stack gap-xs">
@@ -76,16 +78,17 @@ function getSubItems(path: string): NavItem[] {
       );
     })}
   </ul>
-      <button class="header-search-trigger fs-s stack-horizontal" aria-label="Åpne søk">
+      <button class="header-search-trigger t-bold fs-s stack-horizontal gap-2xs ml-auto" aria-label="Åpne søk">
         <img
           src={magnifyingGlassSvg.src}
           alt="Forstørrelseglass"
           width="30"
           height="30"
+          style="width: 1em; height: 1em;"
         />
         <span>Søk</span>
       </button>
-      <search-popover target=".header-search-trigger"></search-popover>
+      <search-popover style="position: absolute;" target=".header-search-trigger"></search-popover>
    </nav>
 
    <MobileNav handbooks={handbooks} asPath={asPath} subItems={subItemsCache} />
@@ -98,14 +101,37 @@ function getSubItems(path: string): NavItem[] {
   }
 
   .header-popover {
+    position: fixed;
+    position-anchor: auto;
+    top: anchor(bottom);
+    left: anchor(left);
+
     margin: 0;
     margin-top: var(--spacing-xs);
     margin-left: calc(var(--spacing-l) * -1);
     padding: var(--spacing-l) var(--spacing-l);
     border: none;
-    background: var(--surface-violet-light);
+    background: var(--surface-raised);
     max-width: 20ch;
     color: var(--text-primary);
+
+    transition:
+      opacity 0.2s ease-out,
+      transform 0.2s ease-out,
+      overlay 0.2s ease-out allow-discrete,
+      display 0.2s ease-out allow-discrete;
+    opacity: 0;
+    transform: translateY(0rem);
+
+    &:popover-open {
+      opacity: 1;
+      transform: none;
+
+      @starting-style {
+        opacity: 0;
+        transform: translateY(-0.5rem);
+      }
+    }
   }
 
   .subnav-link{

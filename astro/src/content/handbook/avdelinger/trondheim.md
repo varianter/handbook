@@ -3,8 +3,6 @@ title: Trondheim
 order: 0
 ---
 
-import IllustrationHeading from 'src/components/illustrationList/IllustrationHeading.astro';
-
 # Trondheim
 
 <img
@@ -18,11 +16,7 @@ import IllustrationHeading from 'src/components/illustrationList/IllustrationHea
 
 Når vi ikke er ute hos kunder, holder vi til i [Varianthuset](https://maps.app.goo.gl/eK2TvGPsxAXYewg26) i Kongens gate 36.
 
-<IllustrationHeading  figureName="wifiHigh">
-
 ### Wifi
-
-</IllustrationHeading>
 
 Når du jobber på kontoret benytter du det trådløse nettet med SSID **Varianthuset**. Wifi-passordet får du ved å skrive `/info wifi` på Slack.
 
@@ -45,11 +39,7 @@ men det er vel selvsagt😃.
 Booking gjøres i Outlook. **NB!** Du kan ikke regne med at huset er ledig på
 kvelden etter variantdag, selv om huset ikke er booket.
 
-<IllustrationHeading  figureName="bike">
-
-### Sykkelparkering
-
-</IllustrationHeading>
+#### Sykkelparkering
 
 Vi har sykkelparkering i kjelleren på huset vårt. Her har vi også garderober.
 
@@ -57,30 +47,18 @@ God sykkeltur!
 
 ## Innkjøp
 
-<IllustrationHeading  figureName="coins">
-
 ### Faktura
-
-</IllustrationHeading>
 
 Hvis du får en faktura som skal betales av Variant Trondheim sendes den til
 **faktura.trondheim@variant.no**.
 
-<IllustrationHeading figureName="creditCard">
-
 ### Kontoer for innkjøp
-
-</IllustrationHeading>
 
 Skal du kjøpe noe felles til Variant som for eksempel et kjøleskap eller en TV, har vi noen kontoer som kan brukes hos ulike forhandlere. Det er ikke et krav å benytte disse kontoene, men det gjør det enklere å holde orden på kvitteringer, og lar oss i noen tilfeller handle på faktura, slik at man slipper personlige utlegg.
 
 En oversikt over kontoene finnes på [docs](http://var.show/bedriftskontoer-trd).
 
-<IllustrationHeading  figureName="confetti">
-
 ### Sossisfond
-
-</IllustrationHeading>
 
 Vi har et fond på 50&nbsp;000 NOK som kan brukes som midler til sosiale aktiviteter
 utover [de faste vi har satt opp](/fundamentet/sosialt).
@@ -95,22 +73,14 @@ gjenstår for året finnes [på docs](http://var.show/sossisfond-trh).
 
 ## Roller
 
-<IllustrationHeading figureName="group">
-
 ### Ledelse
-
-</IllustrationHeading>
 
 - CEO: Kristin
 - CDO: Rolf Anders
 - CTO: Christian
 - CCO: Magnus OS
 
-<IllustrationHeading  figureName="person">
-
 ### Personalledere
-
-</IllustrationHeading>
 
 For tiden har følgende varianter personalansvar:
 
@@ -122,11 +92,7 @@ For tiden har følgende varianter personalansvar:
 
 Relasjonen mellom deg og personallederen er basert på coaching. Se også [listen over hvem som har lederansvar for hvem](https://varianttrh.sharepoint.com/:x:/g/EcciKCrwQFVKi9arVFV9WLEBxh0lqSzlfM7n_nrpkIuDtw?e=gR7JSm).
 
-<IllustrationHeading figureName="group">
-
 ### Soskom
-
-</IllustrationHeading>
 
 - Mathias T. (leder)
 - Magnus D.
@@ -134,17 +100,11 @@ Relasjonen mellom deg og personallederen er basert på coaching. Se også [liste
 - Jonas BL
 - Linea
 
-<IllustrationHeading  figureName="group">
-
 ### Onboardingsansvarlig
-
-</IllustrationHeading>
 
 - Morten
 
-<IllustrationHeading figureName="tree">
-  ### Sommerjobborganisasjon
-</IllustrationHeading>
+### Sommerjobborganisasjon
 
 Hver sommer er vi så heldige å ha en gjeng meget dyktige studenter her som har sommerjobb. For at de skal få et godt utbytte av tiden de bruker hos oss har vi en egen sommerjobborganisasjon som følger opp, veileder og sikrer at studentene har det flott hos oss.
 
@@ -239,11 +199,7 @@ Hvis ansatte opplever feil, mangler eller farlige situasjoner ute hos kunde
 ønsker vi at dette forsøkes varslet i henhold til kundens HMS-rutiner. Skulle
 dette ikke føre fram vil vi ta imot og håndtere saken i Variant-kontekst.
 
-<IllustrationHeading  figureName="fire">
-
 ### Branninstruks
-
-</IllustrationHeading>
 
 Gjør deg kjent med følgende i Varianthuset:
 
@@ -267,11 +223,7 @@ redningsplan finnes som oppslag i kontorlokalet, i håndboka og gjennomgås med
 alle nyansatte. Brannøvelse gjennomføres en gang i året. Vedlikehold av
 brannvarslere og slukkeustyr utføres av gårdeier.
 
-<IllustrationHeading  figureName="recycle">
-
 ### Kildesortering
-
-</IllustrationHeading>
 
 Det meste vi produserer av søppel på kontoret er relatert til mat. Det kan være
 papiret til burritoen, en boks til salaten, et syltetøyglass, pose fra nøttene

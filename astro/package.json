@@ -1,8 +1,12 @@
 {
-  "name": "astro",
+  "name": "@variant/handbook-v3",
   "version": "1.0.0",
   "description": "Variant handbook — Astro SSG",
   "type": "module",
+  "license": "MIT, CC BY-SA 4.0",
+  "engines": {
+    "node": "^22.0.0"
+  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build && pagefind --site dist",

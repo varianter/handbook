@@ -1,5 +1,5 @@
 ---
-// PageToc.astro — "On this page" table of contents showing h2 headings.
+// PageToc.astro — "On this page" table of contents showing h2–h4 headings.
 import type { TocItem } from './types';
 
 interface Props {
@@ -7,48 +7,27 @@ interface Props {
 }
 
 const { headings } = Astro.props;
-const h2Headings = headings.filter((h) => h.depth === 2);
 ---
 
-{h2Headings.length > 0 && (
+{headings.length > 0 && (
   <nav class="page-toc" aria-label="På denne siden">
-    <h2 class="page-toc__title">På denne siden</h2>
+    <h2 class="fs-s">På denne siden</h2>
     <ul>
-      {h2Headings.map((heading) => (
-        <li>
-          <a href={`#${heading.slug}`}>{heading.value}</a>
+      {headings.map((h2) => (
+        <li class="fs-m">
+          <a href={`#${h2.slug}`}>{h2.value}</a>
+          {h2.children.length > 0 && (
+            <ul class="toc-sublist">
+              {h2.children.map((h3) => (
+                <li>
+                  <a href={`#${h3.slug}`}>{h3.value}</a>
+                </li>
+              ))}
+            </ul>
+          )}
         </li>
       ))}
     </ul>
   </nav>
 )}
 
-<style>
-  .page-toc {
-    margin: 2rem 0;
-  }
-
-  .page-toc__title {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .page-toc ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .page-toc li {
-    margin: 0.25rem 0;
-  }
-
-  .page-toc a {
-    text-decoration: none;
-    font-size: 0.938rem;
-  }
-
-  .page-toc a:hover {
-    opacity: 0.8;
-  }
-</style>

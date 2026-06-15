@@ -8,7 +8,6 @@ import Header from './Header.astro';
 import PageToc from './PageToc.astro';
 import BookFooter from './BookFooter.astro';
 import SiteFooter from './SiteFooter.astro';
-import ClientScripts from './ClientScripts.astro';
 import { HANDBOOK_SECTIONS } from '../config/navigation';
 import type { Heading, TocItem, LayoutProps } from './types';
 
@@ -26,8 +25,6 @@ const showToc = frontmatter?.toc ?? false;
 // --- Path detection ---
 const url = Astro.url;
 const asPath = url.pathname;
-const pathSegments = asPath.split('/').filter(Boolean);
-const isSearchpage = pathSegments[0] === 'search';
 
 // --- Handbook links (passed to Header) ---
 const handbooks = HANDBOOK_SECTIONS.map((s) => ({
@@ -63,7 +60,10 @@ function buildTocTree(headings: Heading[]): TocItem[] {
 }
 
 const tocTree = buildTocTree(headings);
-const pageHeadings = tocTree[0]?.children ?? [];
+// If the first root item is an h1 (depth 1), use its children as the page-level TOC.
+// Otherwise (e.g. no h1 in the markdown body), use root items directly.
+const pageHeadings =
+  tocTree[0]?.depth === 1 ? (tocTree[0]?.children ?? []) : tocTree;
 
 // --- GitHub edit link ---
 const filename = asPath.replace(/\/$/, '') || '';
@@ -71,22 +71,16 @@ const editUrl = `https://github.com/varianter/handbook/tree/main/pages${filename
 ---
 
 <BaseLayout title={pageTitle}>
-  <div class={isSearchpage ? 'search__main' : 'main'}>
+  <div class="main">
+    <Header
+      handbooks={handbooks}
+      asPath={asPath}
+    />
 
-    <!-- HEADER -->
-      <Header
-        handbooks={handbooks}
-        asPath={asPath}
-      />
-
-    <!-- CONTENT AREA -->
     <section
-      class={!isSearchpage ? 'content' : 'searchContent'}
+      class="content"
     >
-      <!-- On this page ToC -->
-      {showToc && !isSearchpage && (
-        <PageToc headings={pageHeadings} />
-      )}
+      {showToc ?? <PageToc headings={pageHeadings} />}
 
       <article stagger-reveal class="handbook typeset" data-pagefind-body>
         <slot />
@@ -100,36 +94,21 @@ const editUrl = `https://github.com/varianter/handbook/tree/main/pages${filename
   </div>
 </BaseLayout>
 
-<ClientScripts />
 
 <style>
-  .main,
-  .search__main {
+  .main {
     position: relative;
     overflow-x: hidden;
     width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: var(--spacing-m);
   }
 
-  .search__main {
-    background-color: var(--color-secondary1__shade3);
-    color: var(--color-standard__white);
-  }
-
-  .search__main a {
-    color: var(--color-standard__white);
-  }
-
-  .search__main h2 {
-    font-size: 4rem;
-    line-height: 87px;
-  }
-
-  .content,
-  .searchContent {
-    max-width: 50rem;
+  .content {
     min-height: 100vh;
     width: 100%;
     min-height: -webkit-fill-available;
