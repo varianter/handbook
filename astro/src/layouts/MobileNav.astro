@@ -14,7 +14,7 @@ interface Props {
   subItems: Record<string, NavItem[]>;
 }
 
-const { handbooks, asPath, subItems } = Astro.props;
+const { handbooks, subItems } = Astro.props;
 
 function getSubItems(path: string): NavItem[] {
   return subItems[path] ?? [];
@@ -23,15 +23,12 @@ function getSubItems(path: string): NavItem[] {
 
 <nav class="mobile-nav b-all b-faint bg-surface-raised br-m mt-s px-xs">
   {handbooks.map((handbook) => {
-    const isActive = `/${handbook.path}` === asPath ||
-      (handbook.path !== '' && asPath.startsWith(`/${handbook.path}`));
-
     const items = getSubItems(handbook.path);
 
     return (
-      <details class="b-b b-faint b-last-none py-xs px-xs" name="handbook-nav" open={isActive}>
+      <details class="b-b b-faint b-last-none py-xs px-xs" name="handbook-nav" >
         <summary class="stack-horizontal justify-between fs-s">{handbook.title}</summary>
-        <ul class="pb-s pl-m pt-m" stagger-reveal>
+        <ul class="pb-s pl-m pt-m" >
           {items.map((item) => (
             <li>
               <a class="w-full py-xs" href={item.external ? item.path : `/${item.path}`}>

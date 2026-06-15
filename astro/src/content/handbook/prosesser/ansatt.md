@@ -12,26 +12,13 @@ Vi liker ikke tradisjonelle intervjuer. De plasserer søker i en unaturlig situa
 
 Her møtes vi til en uformell samtale for å finne ut om begge parter har felles verdier
 
-<img src="/assets/illustrations/arrowLeft.svg" role="none" alt="" />
-
 og mål. Rett og slett om vi er rett for hverandre og om vi kan gjøre hverandre bedre.
-
-<img src="/assets/illustrations/teamwork.svg" role="none" alt="" />
 
 #### 2. Samarbeidsmøte️ 🤝 (2-3 timer)
 
 Om begge parter fortsatt er interessert så er det på tide med neste møte. Vi starter med en introduksjon til en problemstilling vi skal løse sammen. Den vil være kortfattet og ikke for ambisiøst – poenget her er å få et inntrykk av hvordan det er å samarbeide med deg.
 
-<br />
-<br />
-<br />
-<br />
-
-<img src="/assets/illustrations/arrowRight.svg" role="none" alt="" />
-
 #### 3. Forventningssamtale 💬 (45 min)
-
-<img src="/assets/illustrations/arrowLeft.svg" role="none" alt="" />
 
 Siste steget i prosessen er en litt mer praktisk rettet samtale. Her får jobbsøker
 mulighet til å stille flere spørsmål til og om Variant samtidig som vi kan stille
@@ -41,8 +28,6 @@ retning.
 #### 4. Tilbud ✍️ (0-7 dager)
 
 Dersom du har vært igjennom hele prosessen, og vi ønsker å tilby deg en stilling, sender vi deg tilbudet på mail. Forhåpentligvis takker du ja til å bli en av oss! 🎉
-
-<img src="/assets/illustrations/twoInMoon.svg" role="none" alt="" />
 
 ## Nyansatte - Velkommen ombord
 
@@ -56,8 +41,6 @@ Vi vil at prosessen fra du har signert med oss, til dagen du starter og også ti
 - Ta bilde til CV.
 
 ### Rett etter signering (Rekrutteringsansvarlig)
-
-<img src="/assets/illustrations/employee-icon-1.svg" role="none" alt="" />
 
 - Invitere ansatt til Variant-dagen(e) og/eller noe sosialt. Mål: Møte og bli kjent med alle i Variant
 - Etabler CV i CV-partner, og inviter den nyansatte inn for å starte på dette arbeidet.
@@ -114,8 +97,6 @@ Se lokasjonsspesifikk side for å finne hvem som er fadder for ditt sted.
 
 Din nærmeste leder kaller vi personalleder. Personalleder har det overordnede ansvaret for å bistå deg og legge til rette for at du kan vokse og utvikle deg i Variant. Personallederen er ditt kontaktpunkt inn i ledergruppen.
 
-<img src="/assets/illustrations/employee-icon-2.svg" role="none" alt="" />
-
 I tillegg til at personalleder er den du kan ta kontakt med har Personallederen ansvar for å jevnlig følge opp deg. I tillegg vil personalleder ta initiativ til å gjennomføre en utviklingssamtale i halvåret.
 
 I Variant praktiserer vi fritt ledervalg. Det vil si at selskapet foreslår en personalleder for deg ved oppstart. I denne prosessen skal Variant avklare valget med deg. Hver høst fasiliterer selskapet et nytt ledervalg. Her kan den ansatte hvis hen ønsker velge en ny leder. Dette kan være av både karrieremessige eller personlige grunner. Det stilles ingen spørsmål rundt dette valget. Det er slett ikke noen forventning om at alle skal bytte leder heller.
@@ -133,5 +114,3 @@ Gjennom samtalen jobber dere med å identifisere og snakke om dine styrker og hv
 I tillegg skal en slik samtale også involvere en diskusjon rundt trivsel, motivasjon og eventuelle personlige utfordringer.
 
 Basert på dine målsetninger og ønsket vekst blir dere enige om hvordan dere skal jobbe videre. Din personalleder vil støtte deg og coache deg i tråd med det dere er enige om.
-
-<img src="/assets/illustrations/employee-icon-3.svg" role="none" alt="" />

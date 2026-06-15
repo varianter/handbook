@@ -143,8 +143,6 @@ Du skal jaggu ikke mangle noe for å gjøre en god jobb.
 
 #### PC-valg
 
-<img src="/assets/illustrations/pc.svg" role="none" alt="" />
-
 Skikkelig jobb krever skikkelige verktøy. Du velger selv datamaskin og størrelse, farge og modell på den. Melder behovet seg for en ny, skal du også selvfølgelig få det. Vi stoler på at du velger det beste for at du skal kunne gjøre en best mulig jobb. Er du usikker kan du godt spørre i vår Slack-kanal #helpdesk.
 
 Det er heller ikke et gitt antall års brukstid på maskinene. Du får en ny maskin når behovet oppstår, uavhengig av om det har gått ett eller tre år.

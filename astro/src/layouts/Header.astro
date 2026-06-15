@@ -56,14 +56,17 @@ function getSubItems(path: string): NavItem[] {
         <li class={linkClass}>
               <button
                 id={buttonId}
-                class="fs-s t-bold"
+                class="fs-s t-bold button"
+                data-variant="plain"
+                data-size="small"
+                data-color="inherit"
                 popovertarget={popoverId}
                 data-js-hover
               >
                 {`${handbook.title}`}
               </button>
-              <div id={popoverId} popover="auto" class="header-popover" anchor={buttonId}>
-                <ul stagger-reveal class="stack gap-s">
+              <div id={popoverId} popover="auto" class="header-popover br-m" anchor={buttonId}>
+                <ul class="stack gap-s">
                   {subItems.map((item) => (
                     <li class="stack gap-xs">
                       <a class="subnav-link" href={item.external ? item.path : `/${item.path}`}>
@@ -78,7 +81,11 @@ function getSubItems(path: string): NavItem[] {
       );
     })}
   </ul>
-      <button class="header-search-trigger t-bold fs-s stack-horizontal gap-2xs ml-auto" aria-label="Åpne søk">
+      <button class="button header-search-trigger t-bold fs-s stack-horizontal gap-2xs ml-auto"
+      data-variant="plain"
+      data-size="small"
+      data-color="inherit"
+      aria-label="Åpne søk">
         <img
           src={magnifyingGlassSvg.src}
           alt="Forstørrelseglass"
@@ -112,8 +119,7 @@ function getSubItems(path: string): NavItem[] {
     padding: var(--spacing-l) var(--spacing-l);
     border: none;
     background: var(--surface-raised);
-    max-width: 20ch;
-    color: var(--text-primary);
+    max-width: 28ch;
 
     transition:
       opacity 0.2s ease-out,
@@ -143,7 +149,7 @@ function getSubItems(path: string): NavItem[] {
   }
 
   .subnav-description {
-    color: var(--text-secondary);
+    color: var(--foreground-muted);
     text-wrap: pretty;
   }
 

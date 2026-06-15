@@ -15,8 +15,6 @@ Alle kan administrere sin pensjon ved å logge inn på
 man her velge spareprofil, og her finner dere også informasjon om de ulike
 forsikringsordninger dere er medlemmer i.
 
-<img src="/assets/illustrations/manOnBench.svg" role="none" alt="" />
-
 I tillegg til lovbestemt forsikring mot yrkesskade og yrkessykdom samt
 yrkesreiseforsikring har vi også følgende forsikringer:
 

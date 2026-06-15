@@ -24,8 +24,6 @@ orden å flekse tid innenfor en måned. Dette forutsetter selvsagt at det er
 avklart og greit for prosjektet og kunden også. Det betyr at du kan jobbe litt
 mer en dag og mindre en annen dag innenfor samme måned.
 
-<img src="/assets/illustrations/clock.svg" role="none" alt="" />
-
 Vi har to hovedtyper timeføring. Det ene er kundetid, det andre er annen
 timeføring som føres under Varianttid. All tid skal timeføres inkludert reisetid
 og pålagt overtid.
