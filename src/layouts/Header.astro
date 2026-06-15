@@ -70,8 +70,8 @@ function getSubItems(path: string): NavItem[] {
                   {subItems.map((item) => (
                     <li class="stack gap-xs">
                       <a class="subnav-link" href={item.external ? item.path : `/${item.path}`}>
-                        <span class="t-bold">{item.title}</span>
-                        {item.description && <span class="subnav-description">{item.description}</span>}
+                        <span class="t-bold fg-default">{item.title}</span>
+                        {item.description && <span class="subnav-description fg-muted">{item.description}</span>}
                       </a>
                     </li>
                   ))}
@@ -115,7 +115,6 @@ function getSubItems(path: string): NavItem[] {
 
     margin: 0;
     margin-top: var(--spacing-xs);
-    margin-left: calc(var(--spacing-l) * -1);
     padding: var(--spacing-l) var(--spacing-l);
     border: none;
     background: var(--surface-raised);
