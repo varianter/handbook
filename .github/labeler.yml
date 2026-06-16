@@ -1,5 +1,5 @@
 text:
-  - content/*.md
+  - src/content/**/*.md
 
 code:
-  - src/**/*.{js,ts,tsx,html,css}
+  - src/**/*.{js,ts,tsx,html,css,astro}
