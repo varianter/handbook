@@ -17,6 +17,6 @@ const { Content, headings } = await render(entry);
 
 ---
 
-<GeneralLayout frontmatter={{ title: entry.data.title }} headings={headings}>
+<GeneralLayout frontmatter={{ title: entry.data.title }} headings={headings} slug={entry.id}>
   <Content />
 </GeneralLayout>

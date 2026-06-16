@@ -7,20 +7,18 @@ interface Props {
 const { editUrl } = Astro.props;
 ---
 
-<footer class="book-footer">
-  <p>
-    Ser du en feil eller noe som ikke kommer klart nok frem?{' '}
-    <a href={editUrl}>Send beskjed eller foreslå en endring! 🥰</a>
-  </p>
+<footer class="book-footer pt-xl my-2xl">
+  <color-mode palette="blue">
+    <div class="bg-surface-sunken br-m p-xl stack-horizontal gap-m">
+      <div class="mw-6">
+        <h6 class="fs-xs t-bold">Boop!</h6>
+        <p>
+          Noe som ikker stemmer eller som kunne vært bedre? Denne håndboken ligger åpen på GitHub.
+        </p>
+      </div>
+      <a class="button ml-auto" data-variant="outlined" data-size="small" data-color="inherit" href={editUrl}>Foreslå endring</a>
+    </div>
+  </color-mode>
 </footer>
 
-<style>
-  .book-footer {
-    margin-top: 5rem;
-    padding: 0 2rem;
-  }
-  .book-footer p {
-    font-size: 0.8rem;
-    font-style: italic;
-  }
-</style>
+

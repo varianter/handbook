@@ -19,4 +19,6 @@ export interface LayoutProps {
     toc?: boolean;
   };
   headings?: Heading[];
+  /** Content collection slug — used to build the GitHub edit URL for .md pages */
+  slug?: string;
 }

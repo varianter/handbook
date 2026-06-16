@@ -1,10 +1,15 @@
 ---
+import { getCollection } from 'astro:content';
 import SearchBox from 'src/components/search-form/SearchBox.astro';
 import GeneralLayout from '../layouts/GeneralLayout.astro';
+
+const fundamentEntries = (await getCollection('handbook'))
+  .filter((e) => e.id.startsWith('fundamentet/'))
+  .sort((a, b) => a.data.order - b.data.order);
 ---
 
 <GeneralLayout frontmatter={{ title: 'En variants håndbok' }}>
-  <h1>En variants håndbok</h1>
+  <h1 class="fs-l">En variants håndbok</h1>
 
   <p>Her forsøker vi å beskrive hvordan ting gjøres i Variant, hva vi prøver å oppnå
   og hvorfor vi tenker som vi gjør. Denne er både for ansatte og folk som er
@@ -21,16 +26,17 @@ import GeneralLayout from '../layouts/GeneralLayout.astro';
 
   <SearchBox />
 
-  <h2>Fundamentet</h2>
+  <h4>Fundamentet</h4>
 
   <p>Her finner du alt om hvordan vi tenker og jobber i Variant – verdiene våre,
   hvordan vi balanserer jobb og liv, og hvordan vi kompenserer våre ansatte.</p>
 
   <ul>
-    <li><a href="/fundamentet/formaal-og-verdier">Formål og verdier</a> – Hva vi tror på og hvorfor</li>
-    <li><a href="/fundamentet/selve-livet">Selve livet</a> – Familie, helse og samfunn</li>
-    <li><a href="/fundamentet/arbeidet">Arbeidet</a> – Fleksitid, kompetanseutvikling og open source</li>
-    <li><a href="/fundamentet/sosialt">Sosialt</a> – Hvordan vi har det gøy sammen</li>
-    <li><a href="/fundamentet/penger">Penger</a> – Lønn, bonus, eierskap og goder</li>
+    {fundamentEntries.map((entry) => (
+      <li>
+        <a href={`/${entry.id}`}>{entry.data.navTitle ?? entry.data.title}</a>
+        {entry.data.description && ` – ${entry.data.description}`}
+      </li>
+    ))}
   </ul>
 </GeneralLayout>

@@ -63,7 +63,7 @@ function message(text: string): HTMLParagraphElement {
 
 const resultTemplate = document.createElement('template');
 resultTemplate.innerHTML = `
-  <article class="typeset">
+  <article class="typeset py-s">
     <h4><a data-slot="link"></a></h4>
     <div data-slot="excerpt"></div>
     <ul data-slot="subs" hidden></ul>

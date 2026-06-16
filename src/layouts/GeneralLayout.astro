@@ -17,6 +17,7 @@ export type { Heading, TocItem, LayoutProps as Props };
 const {
   frontmatter,
   headings = [],
+  slug,
 } = Astro.props as LayoutProps;
 
 const pageTitle = frontmatter?.title ?? 'Variant Håndbok';
@@ -66,8 +67,11 @@ const pageHeadings =
   tocTree[0]?.depth === 1 ? (tocTree[0]?.children ?? []) : tocTree;
 
 // --- GitHub edit link ---
-const filename = asPath.replace(/\/$/, '') || '';
-const editUrl = `https://github.com/varianter/handbook/tree/main/pages${filename}`;
+// Content pages (with a slug) point to src/content/handbook/<slug>.md.
+// The index page (no slug) points to src/pages/index.astro.
+const editUrl = slug
+  ? `https://github.com/varianter/handbook/tree/main/src/content/handbook/${slug}.md`
+  : 'https://github.com/varianter/handbook/tree/main/src/pages/index.astro';
 ---
 
 <BaseLayout title={pageTitle}>
@@ -82,7 +86,7 @@ const editUrl = `https://github.com/varianter/handbook/tree/main/pages${filename
     >
       {showToc ?? <PageToc headings={pageHeadings} />}
 
-      <article stagger-reveal class="handbook typeset" data-pagefind-body>
+      <article stagger-reveal class="handbook typeset mt-xl" data-pagefind-body>
         <slot />
       </article>
 
@@ -90,7 +94,7 @@ const editUrl = `https://github.com/varianter/handbook/tree/main/pages${filename
     </section>
 
     <!-- SITE FOOTER -->
-    <SiteFooter />
+    <SiteFooter handbooks={handbooks} asPath={asPath} />
   </div>
 </BaseLayout>
 

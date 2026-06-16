@@ -2,7 +2,7 @@
 // Header.astro — top navigation bar with handbook links and popover sub-menus.
 import magnifyingGlassSvg from './magnifyingGlass.svg';
 import MobileNav from './MobileNav.astro';
-import { getSectionPages } from '../config/navigation';
+import { getSectionPages, HANDBOOK_SECTIONS } from '../config/navigation';
 import type { NavItem } from '../config/navigation';
 
 interface HandbookLink {
@@ -18,12 +18,11 @@ interface Props {
 const { handbooks, asPath } = Astro.props;
 
 // Pre-fetch all section sub-pages so the template can look them up synchronously
-const subItemsCache: Record<string, NavItem[]> = {
-  fundamentet: await getSectionPages('fundamentet'),
-  information: await getSectionPages('information'),
-  avdelinger: await getSectionPages('avdelinger'),
-  prosesser: await getSectionPages('prosesser'),
-};
+const subItemsCache: Record<string, NavItem[]> = Object.fromEntries(
+  await Promise.all(
+    HANDBOOK_SECTIONS.map(async (s) => [s.path, await getSectionPages(s.path)]),
+  ),
+);
 
 function getSubItems(path: string): NavItem[] {
   return subItemsCache[path] ?? [];
