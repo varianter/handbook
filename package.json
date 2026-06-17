@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Variants' handbook",
   "type": "module",
-  "license": "MIT, CC BY-SA 4.0",
+  "license": "MIT",
   "engines": {
     "node": "^22.0.0"
   },
@@ -17,6 +17,6 @@
     "astro": "6.4.7"
   },
   "devDependencies": {
-    "pagefind": "^1.3.0"
+    "pagefind": "^1.5.2"
   }
 }

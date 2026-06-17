@@ -25,6 +25,14 @@ type PagefindSearch = (query: string) => Promise<PagefindResponse>;
 // Helpers
 // ---------------------------------------------------------------------------
 
+function debounce<T extends (...args: any[]) => void>(fn: T, ms: number): (...args: Parameters<T>) => void {
+  let timer: ReturnType<typeof setTimeout>;
+  return (...args) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => fn(...args), ms);
+  };
+}
+
 /** querySelector that narrows by instanceof instead of casting, and fails loudly. */
 function find<T extends Element>(root: ParentNode, selector: string, ctor: new () => T): T {
   const el = root.querySelector(selector);
@@ -37,18 +45,56 @@ function find<T extends Element>(root: ParentNode, selector: string, ctor: new (
 // Pagefind is a page-level singleton: one index, loaded once, shared by every
 // instance. Memoised here rather than on the component.
 let pagefindPromise: Promise<PagefindSearch | null> | null = null;
+
+// The Pagefind module lives at /pagefind/ at runtime (built by
+// `pagefind --site dist` in production, or served from memory by
+// pagefind-dev.ts in dev).  We construct the path as a variable rather than
+// a string literal so Vite's static analysis won't try to resolve it — the
+// file doesn't exist on disk or in node_modules at build/dev-transform time.
+// This is CSP-safe (no eval) and is more robust than @vite-ignore across
+// different Vite/Astro versions.
+const PAGEFIND_MODULE = '/pagefind/pagefind.js';
+
 function loadPagefind(): Promise<PagefindSearch | null> {
   return (pagefindPromise ??= (async (): Promise<PagefindSearch | null> => {
     try {
-      // Pagefind lives at /pagefind/ at runtime; Function() hides the import
-      // from the bundler's static analysis.
-      const mod = await new Function('return import("/pagefind/pagefind.js")')();
+      const mod = await import(PAGEFIND_MODULE);
       return mod.search;
     } catch {
       console.warn('SearchPopover: Pagefind not available');
       return null;
     }
   })());
+}
+
+// Pre-warm Pagefind during browser idle time so the heavy WASM + index payload
+// loads in the background.  When the user eventually opens search, the module
+// is already cached / parsed and results appear without a loading spinner.
+//
+// This is best-effort: on browsers that don't support requestIdleCallback, or
+// when the callback never fires, Pagefind still loads lazily when the popover
+// opens or a search keystroke arrives.
+function prewarmPagefind(): void {
+  // Don't double-warm if something already triggered the load.
+  if (pagefindPromise) return;
+  pagefindPromise = (async () => {
+    try {
+      const mod = await import(PAGEFIND_MODULE);
+      return mod.search;
+    } catch {
+      // Silently drop — loadPagefind will handle the fallback later.
+      pagefindPromise = null;
+      return null;
+    }
+  })();
+}
+
+if (typeof requestIdleCallback === 'function') {
+  requestIdleCallback(() => prewarmPagefind());
+} else {
+  // Fallback for browsers without requestIdleCallback (e.g. Safari < 17).
+  // The 2 s delay gives critical rendering time to finish.
+  setTimeout(() => prewarmPagefind(), 2000);
 }
 
 // ---------------------------------------------------------------------------
@@ -131,49 +177,40 @@ async function showSearchResults(container: HTMLElement, query: string): Promise
 const template = document.createElement('template');
 template.innerHTML = /*html*/`
   <div
-    style="
-      max-width: 60ch;
-      width: 100%;
-      right: 0;
-      left: 0;
-      margin-top: max(15svh, var(--spacing-2xl));
-      margin-inline: auto;
-      height: calc(100svh - (var(--spacing-l) * 2));
-      padding: var(--spacing-m);
-      border: none;
-    "
-    class="panel p-m b-all b-faint bg-surface-default fg-default "
+    style="max-width: 60ch;width: 100%;"
+    class="panel  b-all b-faint bg-surface-default fg-default shadow-high popover"
+    data-type="drawer"
+    data-backdrop
     popover="auto"
   >
-    <div style="
-      display: grid;
-      grid-auto-rows: max-content;
-      grid-template-columns: min(50ch, 100%);
-      justify-content: center;
-    ">
+    <div class="px-m-l">
 
-    <form class="search-form stack py-l" role="search">
-      <label for="search">Søk i håndboken</label>
-      <input
-        class="search-input input flex-1"
-        type="search"
-        id="search"
-        name="q"
-        aria-label="Søk"
-        autocomplete="off"
-        enterkeyhint="search"
-        autofocus
-      />
-    </form>
-    <div class="recent" data-pagefind-ignore>
+    <color-mode palette="blue" class="block pt-xl-2xl pb-s-m px-m-l mx--m-l bg-surface-sunken b-b b-default" >
+    <div class="recent mb-m-l" data-pagefind-ignore>
       <h3>Andre har søkt etter</h3>
-      <div class="chips">
+      <div class="stack-horizontal gap-xs">
         <a class="link" data-size="small" href="?q=Lønn">Lønn</a>
         <a class="link" data-size="small" href="?q=Aksjer">Aksjer</a>
         <a class="link" data-size="small" href="?q=Fordeler">Fordeler</a>
         <a class="link" data-size="small" href="?q=Miljøfyrtårn">Miljøfyrtårn</a>
       </div>
     </div>
+    <form class="search-form stack " role="search">
+      <label for="search" class="form-label mb-3xs">Søk i håndboken</label>
+      <input
+        class="search-input input flex-1"
+        type="search"
+        id="search"
+        name="q"
+        data-size="large"
+        aria-label="Søk"
+        autocomplete="off"
+        enterkeyhint="search"
+        autofocus
+      />
+    </form>
+    </color-mode>
+
     <div class="results py-xl" aria-live="polite"></div>
     </div>
   </div>`;
@@ -184,10 +221,17 @@ template.innerHTML = /*html*/`
 
 function syncUrl(query: string): void {
   const url = new URL(window.location.href);
+  // Avoid a no-op replaceState that would fire a spurious navigate event, causing
+  // the navigate → doSearch → syncUrl → navigate cycle to recurse infinitely.
+  if ((url.searchParams.get('q') ?? '') === (query ?? '')) return;
   if (query) url.searchParams.set('q', query);
   else url.searchParams.delete('q');
   window.history.replaceState({}, '', url);
 }
+
+// Guard so the Navigation API listener is only wired once
+// (connectedCallback may fire again if the element is moved by a framework).
+let navigateWired = false;
 
 let panelSeq = 0;
 
@@ -215,20 +259,51 @@ class SearchPopover extends HTMLElement {
       }
     }
 
-    // Start loading Pagefind as soon as the panel opens.
+    // Start loading Pagefind as soon as the panel opens;
+    // clear the URL query param when it closes.
     panel.addEventListener('toggle', (event) => {
-      if (event instanceof ToggleEvent && event.newState === 'open') void loadPagefind();
+      if (!(event instanceof ToggleEvent)) return;
+      if (event.newState === 'open') {
+        void loadPagefind();
+      } else {
+        syncUrl('');
+      }
     });
+
+    // Perform a search — shared by both submit and live-typing.
+    const doSearch = (query: string): void => {
+      recent.hidden = query !== '';
+      syncUrl(query);
+      void showSearchResults(results, query);
+    };
+
+    // Intercept same-page navigations that carry a search query — from any
+    // source (plain <form method="get">, <a href="?q=…">, browser back, etc.) —
+    // and open the popover instead of doing a full page load.
+    if (!navigateWired) {
+      navigateWired = true;
+      navigation?.addEventListener('navigate', (event: NavigateEvent) => {
+        const url = new URL(event.destination.url);
+        const q = url.searchParams.get('q');
+        if (!q || url.pathname !== location.pathname) return;
+        event.preventDefault();
+        input.value = q;
+        panel.showPopover();
+        doSearch(q);
+      });
+    }
 
     // Submit handler: the input is the source of truth.
     form.addEventListener('submit', (event) => {
       event.preventDefault();
-      const query = input.value.trim();
-      input.value = query;
-      recent.hidden = query !== '';
-      syncUrl(query);
-      void showSearchResults(results, query);
+      input.value = input.value.trim();
+      doSearch(input.value);
     });
+
+    // Live search as the user types, debounced to avoid hammering Pagefind.
+    input.addEventListener('input', debounce(() => {
+      doSearch(input.value.trim());
+    }, 250));
 
     // Chip links: intercept clicks to avoid a full page reload.
     recent.querySelector('.chips')!.addEventListener('click', (event) => {

@@ -29,7 +29,14 @@ const {
       type="image/svg+xml"
       href="https://varde.variant.dev/static/logos/variant-favicon.svg"
     />
-    <link rel="stylesheet" href="https://varde.variant.dev/v/0.1.2/styles.css" />
+    <link rel="stylesheet" href="https://varde.variant.dev/v/0.3.0/styles.css" />
+
+    <!-- Pagefind prefetch: tells the browser to start downloading the search
+         entry point during idle time.  The actual WASM + index fragments are
+         loaded by the dynamic import() inside search-popover.ts, which also
+         has a requestIdleCallback pre-warm step.  This link gives the browser
+         one more early signal without competing with critical rendering. -->
+    <link rel="prefetch" href="/pagefind/pagefind.js" />
 
     <!-- Open Graph -->
     <meta name="twitter:card" content="summary_large_image" />

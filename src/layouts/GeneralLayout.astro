@@ -86,7 +86,7 @@ const editUrl = slug
     >
       {showToc ?? <PageToc headings={pageHeadings} />}
 
-      <article stagger-reveal class="handbook typeset mt-xl" data-pagefind-body>
+      <article stagger-reveal class="handbook typeset mt-xl mx-auto" data-pagefind-body>
         <slot />
       </article>
 
@@ -103,6 +103,7 @@ const editUrl = slug
   .main {
     max-width: 1200px;
     margin-inline: auto;
-    padding-inline: var(--spacing-m);
+    padding-inline: var(--spacing-m-l);
+    padding-block: var(--spacing-l);
   }
 </style>

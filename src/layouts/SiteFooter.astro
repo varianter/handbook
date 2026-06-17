@@ -44,7 +44,7 @@ function getSubItems(path: string): NavItem[] {
               <ul class="stack gap-xs">
                 {subItems.map((item) => (
                   <li>
-                    <a href={item.external ? item.path : `/${item.path}`}>
+                    <a class="link" href={item.external ? item.path : `/${item.path}`}>
                       {item.title}
                     </a>
                   </li>
