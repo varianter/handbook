@@ -34,9 +34,21 @@ const subItemsCache = Object.fromEntries(
 ---
 
 <BaseLayout title={title} description={description} ogImage={ogImage}>
-  <Header handbooks={handbooks} asPath={asPath} subItemsCache={subItemsCache} />
+  <div class="site-layout">
 
-  <slot />
+    <div>
+      <Header handbooks={handbooks} asPath={asPath} subItemsCache={subItemsCache} />
+      <slot />
+    </div>
 
   <SiteFooter handbooks={handbooks} asPath={asPath} subItemsCache={subItemsCache} />
+  </div>
 </BaseLayout>
+
+<style>
+  .site-layout{
+    display: grid;
+    /* This will push the footer under the viewport, even if the content is smaller */
+    grid-template-rows: minmax(max-content, 100svh) max-content;
+  }
+</style>

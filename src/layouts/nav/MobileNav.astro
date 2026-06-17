@@ -24,10 +24,10 @@ function getSubItems(path: string): NavItem[] {
     return (
       <details class="b-b b-faint b-last-none py-xs px-xs" name="handbook-nav" >
         <summary class="stack-horizontal justify-between fs-s">{handbook.title}</summary>
-        <ul class="pb-s pl-m pt-m" >
+        <ul class="pb-2xs pt-xs" >
           {items.map((item) => (
-            <li>
-              <a class="w-full py-xs" href={item.external ? item.path : `/${item.path}`}>
+            <li class="b-l pl-s b-faint">
+              <a class="w-full block py-3xs" href={item.external ? item.path : `/${item.path}`}>
                 {item.title}
               </a>
             </li>
