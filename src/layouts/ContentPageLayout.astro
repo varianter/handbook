@@ -1,0 +1,75 @@
+---
+// ContentPageLayout.astro — layout for handbook content pages.
+// Extends SiteLayout (chrome) with TOC, article wrapper, and edit-link footer.
+import SiteLayout from './SiteLayout.astro';
+import PageToc from './PageToc.astro';
+import BookFooter from './BookFooter.astro';
+import type { Heading, TocItem } from './types';
+
+export interface Props {
+  frontmatter?: {
+    title?: string;
+    toc?: boolean;
+  };
+  headings?: Heading[];
+  /** Content collection slug — used to build the GitHub edit URL for .md pages */
+  slug?: string;
+}
+
+const {
+  frontmatter,
+  headings = [],
+  slug,
+} = Astro.props;
+
+const pageTitle = frontmatter?.title ?? 'Variant Håndbok';
+const showToc = frontmatter?.toc ?? false;
+
+// --- Build TOC tree from flat headings ---
+function buildTocTree(headings: Heading[]): TocItem[] {
+  const root: TocItem[] = [];
+  const stack: TocItem[] = [];
+
+  for (const h of headings) {
+    const item: TocItem = {
+      value: h.text,
+      slug: h.slug,
+      depth: h.depth,
+      children: [],
+    };
+
+    while (stack.length > 0 && stack[stack.length - 1].depth >= h.depth) {
+      stack.pop();
+    }
+
+    if (stack.length === 0) {
+      root.push(item);
+    } else {
+      stack[stack.length - 1].children.push(item);
+    }
+    stack.push(item);
+  }
+  return root;
+}
+
+const tocTree = buildTocTree(headings);
+// If the first root item is an h1 (depth 1), use its children as the page-level TOC.
+// Otherwise (e.g. no h1 in the markdown body), use root items directly.
+const pageHeadings =
+  tocTree[0]?.depth === 1 ? (tocTree[0]?.children ?? []) : tocTree;
+
+// --- GitHub edit link ---
+const editUrl = slug
+  ? `https://github.com/varianter/handbook/tree/main/src/content/handbook/${slug}.md`
+  : 'https://github.com/varianter/handbook/tree/main/src/pages/index.astro';
+---
+
+<SiteLayout title={pageTitle}>
+  {showToc ?? <PageToc headings={pageHeadings} />}
+
+  <article stagger-reveal class="handbook typeset mt-xl mx-auto" data-pagefind-body>
+    <slot />
+  </article>
+
+  <BookFooter editUrl={editUrl} />
+</SiteLayout>

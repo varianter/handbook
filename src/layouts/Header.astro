@@ -1,163 +1,32 @@
 ---
-// Header.astro — top navigation bar with handbook links and popover sub-menus.
-import magnifyingGlassSvg from './magnifyingGlass.svg';
-import MobileNav from './MobileNav.astro';
-import { getSectionPages, HANDBOOK_SECTIONS } from '../config/navigation';
+// Header.astro — site header composing desktop and mobile navigation.
+import DesktopNav from './nav/DesktopNav.astro';
+import MobileNav from './nav/MobileNav.astro';
+import type { HandbookLink } from './types';
 import type { NavItem } from '../config/navigation';
-
-interface HandbookLink {
-  path: string;
-  title: string;
-}
 
 interface Props {
   handbooks: HandbookLink[];
   asPath: string;
+  subItemsCache: Record<string, NavItem[]>;
 }
 
-const { handbooks, asPath } = Astro.props;
-
-// Pre-fetch all section sub-pages so the template can look them up synchronously
-const subItemsCache: Record<string, NavItem[]> = Object.fromEntries(
-  await Promise.all(
-    HANDBOOK_SECTIONS.map(async (s) => [s.path, await getSectionPages(s.path)]),
-  ),
-);
-
-function getSubItems(path: string): NavItem[] {
-  return subItemsCache[path] ?? [];
-}
+const { handbooks, asPath, subItemsCache } = Astro.props;
 ---
 
 <header class="header pb-xl w-full" id="top-header">
-  <nav class="bg-surface-raised br-xl p-s shadow-medium stack-horizontal">
-  <a href="/"  aria-label="Variants handbook homepage" class="stack-horizontal gap-xs">
-    <img src="https://varde.variant.dev/static/logos/variant-circle-filled.svg" alt="Varde" width="24" height="24">
-    <span class="fs-m">Handbok</span>
-  </a>
-
-  <ul class="header__handbooks stack-horizontal gap-3xs mx-auto">
-    {handbooks.map((handbook) => {
-      const isActive = `/${handbook.path}` === asPath ||
-        (asPath === '/' && handbook.path === '') ||
-        (handbook.path !== '' && asPath.startsWith(`/${handbook.path}`));
-
-      const linkClass = isActive
-        ? 'active'
-        : '';
-
-      const subItems = getSubItems(handbook.path);
-      const popoverId = `header-popover-${handbook.path || 'fundamentet'}`;
-      const buttonId = `header-btn-${handbook.path || 'fundamentet'}`;
-      return (
-        <li class={linkClass}>
-              <button
-                id={buttonId}
-                class="fs-s t-bold button"
-                data-variant="plain"
-                data-size="small"
-                data-color="inherit"
-                popovertarget={popoverId}
-                data-js-hover
-              >
-                {`${handbook.title}`}
-              </button>
-              <div id={popoverId} popover="auto" class="header-popover br-m shadow-medium" anchor={buttonId}>
-                <ul class="stack gap-3xs">
-                  {subItems.map((item) => (
-                    <li class="">
-                      <a class="subnav-link" href={item.external ? item.path : `/${item.path}`}>
-                        <span class="t-bold fg-default">{item.title}</span>
-                        {item.description && <span class="subnav-description fg-muted">{item.description}</span>}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-        </li>
-      );
-    })}
-  </ul>
-      <button class="button header-search-trigger t-bold fs-s stack-horizontal gap-2xs b-all b-faint ml-auto"
-      data-variant="plain"
-      data-size="small"
-      data-color="inherit"
-      aria-label="Åpne søk">
-        <img
-          src={magnifyingGlassSvg.src}
-          alt="Forstørrelseglass"
-          width="30"
-          height="30"
-          style="width: 1em; height: 1em;"
-        />
-        <span>Søk</span>
-      </button>
-      <search-popover style="position: absolute;" target=".header-search-trigger"></search-popover>
-   </nav>
-
-   <MobileNav handbooks={handbooks} asPath={asPath} subItems={subItemsCache} />
+  <DesktopNav handbooks={handbooks} asPath={asPath} subItemsCache={subItemsCache} />
+  <MobileNav handbooks={handbooks} asPath={asPath} subItems={subItemsCache} />
 </header>
 
 <style>
-  .header{
+  .header {
     margin-inline: auto;
-
     z-index: 1;
+
     @media (min-width: 800px) {
       position: sticky;
       top: var(--spacing-m);
-    }
-  }
-
-  .header-popover {
-    position: fixed;
-    position-anchor: auto;
-    top: anchor(bottom);
-    left: anchor(left);
-
-    margin: 0;
-    margin-top: var(--spacing-m);
-    padding: var(--spacing-s-m);
-    border: none;
-    background: var(--surface-raised);
-    max-width: 28ch;
-    min-width: 15ch;
-
-    transition:
-      opacity 0.2s ease-out,
-      transform 0.2s ease-out,
-      overlay 0.2s ease-out allow-discrete,
-      display 0.2s ease-out allow-discrete;
-    opacity: 0;
-    transform: translateY(0rem);
-
-    &:popover-open {
-      opacity: 1;
-      transform: none;
-
-      @starting-style {
-        opacity: 0;
-        transform: translateY(-0.5rem);
-      }
-    }
-  }
-
-  .subnav-link{
-    text-decoration: none;
-    display: inline-flex;
-    flex-direction: column;
-    color: currentColor;
-    font-size: var(--font-size-xs);
-  }
-
-  .subnav-description {
-    color: var(--foreground-muted);
-    text-wrap: pretty;
-  }
-
-  @media (max-width: 800px) {
-    .header__handbooks {
-      display: none;
     }
   }
 </style>

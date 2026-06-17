@@ -1,0 +1,42 @@
+---
+// SiteLayout.astro — site-wide chrome: HTML shell + header + footer.
+// Pre-fetches sub-navigation data once and passes it down to Header and SiteFooter.
+import BaseLayout from './BaseLayout.astro';
+import Header from './Header.astro';
+import SiteFooter from './SiteFooter.astro';
+import { HANDBOOK_SECTIONS, getSectionPages } from '../config/navigation';
+
+export interface Props {
+  title?: string;
+  description?: string;
+  ogImage?: string;
+}
+
+const {
+  title = 'Variant Håndbok',
+  description = 'En variants håndbok. Hvordan ting gjøres i Variant, hva vi prøver å oppnå og hvorfor vi tenker som vi gjør',
+  ogImage = 'https://www.variant.no/og-header-min.png',
+} = Astro.props;
+
+const asPath = Astro.url.pathname;
+
+const handbooks = HANDBOOK_SECTIONS.map((s) => ({
+  path: s.path,
+  title: s.title,
+}));
+
+// Pre-fetch all section sub-pages once — shared by both Header and SiteFooter.
+const subItemsCache = Object.fromEntries(
+  await Promise.all(
+    HANDBOOK_SECTIONS.map(async (s) => [s.path, await getSectionPages(s.path)]),
+  ),
+);
+---
+
+<BaseLayout title={title} description={description} ogImage={ogImage}>
+  <Header handbooks={handbooks} asPath={asPath} subItemsCache={subItemsCache} />
+
+  <slot />
+
+  <SiteFooter handbooks={handbooks} asPath={asPath} subItemsCache={subItemsCache} />
+</BaseLayout>

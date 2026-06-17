@@ -1,12 +1,8 @@
 ---
 // MobileNav.astro — always-visible mobile navigation using <details>/<summary> accordion.
 // No JS required: the "name" attribute gives exclusive accordion behavior for free.
-import type { NavItem } from '../config/navigation';
-
-interface HandbookLink {
-  path: string;
-  title: string;
-}
+import type { HandbookLink } from '../types';
+import type { NavItem } from '../../config/navigation';
 
 interface Props {
   handbooks: HandbookLink[];

@@ -31,11 +31,6 @@ const {
     />
     <link rel="stylesheet" href="https://varde.variant.dev/v/0.3.0/styles.css" />
 
-    <!-- Pagefind prefetch: tells the browser to start downloading the search
-         entry point during idle time.  The actual WASM + index fragments are
-         loaded by the dynamic import() inside search-popover.ts, which also
-         has a requestIdleCallback pre-warm step.  This link gives the browser
-         one more early signal without competing with critical rendering. -->
     <link rel="prefetch" href="/pagefind/pagefind.js" />
 
     <!-- Open Graph -->
@@ -48,34 +43,41 @@ const {
 
     <meta name="generator" content={Astro.generator} />
 
-    <!-- Matomo Analytics -->
-    <script is:inline>
-      var _paq = _paq || [];
-      _paq.push(["disableCookies"]);
-      _paq.push(["trackPageView"]);
-      _paq.push(["enableLinkTracking"]);
-      (function() {
-        var u = "https://variant.innocraft.cloud/";
-        _paq.push(["setTrackerUrl", u + "piwik.php"]);
-        _paq.push(["setSiteId", "2"]);
-        var d = document,
-          g = d.createElement("script"),
-          s = d.getElementsByTagName("script")[0];
-        g.type = "text/javascript";
-        g.async = true;
-        g.defer = true;
-        g.src = u + "piwik.js";
-        s.parentNode.insertBefore(g, s);
-      })();
-
-    </script>
-    <script>
-      import '../components/search-form/search-popover.ts';
-    </script>
+    <!-- Matomo Analytics (production only) -->
+    {import.meta.env.PROD && (
+      <script is:inline>
+        var _paq = _paq || [];
+        _paq.push(["disableCookies"]);
+        _paq.push(["trackPageView"]);
+        _paq.push(["enableLinkTracking"]);
+        (function() {
+          var u = "https://variant.innocraft.cloud/";
+          _paq.push(["setTrackerUrl", u + "piwik.php"]);
+          _paq.push(["setSiteId", "2"]);
+          var d = document,
+            g = d.createElement("script"),
+            s = d.getElementsByTagName("script")[0];
+          g.type = "text/javascript";
+          g.async = true;
+          g.defer = true;
+          g.src = u + "piwik.js";
+          s.parentNode.insertBefore(g, s);
+        })();
+      </script>
+    )}
   </head>
   <body class="fs-m">
-    <main id="root">
+    <main class="main">
       <slot />
     </main>
   </body>
 </html>
+
+<style>
+  .main {
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: var(--spacing-m-l);
+    padding-block: var(--spacing-l);
+  }
+</style>

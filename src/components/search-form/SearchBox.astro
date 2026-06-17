@@ -5,20 +5,21 @@ export interface Props {
 }
 const { currentSearch = '', autofocus = false } = Astro.props;
 ---
-<div class="container">
-  <h2>Søk etter innhold</h2>
-  <form class="searchform stack-horizontal gap-s" method="get">
-    <input
-      type="text"
-      class="input flex-1"
-      data-size="large"
-      name="q"
-      value={currentSearch}
-      placeholder="Hva leter du etter?"
-      autofocus={autofocus}
-    />
-    <button class="button" data-size="large" type="submit">Søk</button>
-  </form>
-</div>
-
-
+<color-mode palette="blue" class="block px-m-l py-m mx--m-l my-xl br-l bg-surface-sunken ">
+    <form method="get" action="/soek">
+      <label for="search" class="mb-xs form-label">Hva leter du etter?</label>
+      <div class="stack-horizontal gap-s">
+        <input
+          id="search"
+          type="text"
+          class="input flex-1"
+          data-size="large"
+          name="q"
+          value={currentSearch}
+          placeholder="Lønn, aksjer, sosialt"
+          autofocus={autofocus}
+        />
+        <button class="button" data-size="large" data-color="inherit" type="submit">Søk</button>
+      </div>
+    </form>
+</color-mode>

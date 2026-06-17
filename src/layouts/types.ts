@@ -1,5 +1,10 @@
 // Shared types for layout components
 
+export interface HandbookLink {
+  path: string;
+  title: string;
+}
+
 export interface Heading {
   depth: number;
   slug: string;

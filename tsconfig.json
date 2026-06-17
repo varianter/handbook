@@ -19,6 +19,7 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "noImplicitAny": true,
+        "types": ["node"],
     "module": "esnext",
     "jsx": "preserve",
     "noEmit": true,

@@ -1,14 +1,15 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, type CollectionEntry } from 'astro:content';
 import SearchBox from 'src/components/search-form/SearchBox.astro';
-import GeneralLayout from '../layouts/GeneralLayout.astro';
+import ContentPageLayout from '../layouts/ContentPageLayout.astro';
 
-const fundamentEntries = (await getCollection('handbook'))
+const allEntries: CollectionEntry<'handbook'>[] = await getCollection('handbook');
+const fundamentEntries = allEntries
   .filter((e) => e.id.startsWith('fundamentet/'))
   .sort((a, b) => a.data.order - b.data.order);
 ---
 
-<GeneralLayout frontmatter={{ title: 'En variants håndbok' }}>
+<ContentPageLayout frontmatter={{ title: 'En variants håndbok' }}>
   <h1 class="fs-l">En variants håndbok</h1>
 
   <p>Her forsøker vi å beskrive hvordan ting gjøres i Variant, hva vi prøver å oppnå
@@ -24,7 +25,9 @@ const fundamentEntries = (await getCollection('handbook'))
   <a href="https://www.variant.no/jobs">ta en titt på ledige stillinger hos oss</a>. Mer info
   om oss på <a href="https://www.variant.no">nettsiden vår</a>.</p>
 
-  <SearchBox />
+
+    <SearchBox />
+
 
   <h4>Fundamentet</h4>
 
@@ -39,4 +42,4 @@ const fundamentEntries = (await getCollection('handbook'))
       </li>
     ))}
   </ul>
-</GeneralLayout>
+</ContentPageLayout>

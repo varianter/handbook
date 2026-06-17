@@ -1,7 +1,6 @@
-// Navigation derived from the content collection at build time.
-// The only manually maintained data: section overviews and external links.
-// Everything else comes from frontmatter in src/content/handbook/.
-import { getCollection } from 'astro:content';
+import { getCollection, type CollectionEntry } from 'astro:content';
+
+type HandbookEntry = CollectionEntry<'handbook'>;
 
 export interface NavItem {
   title: string;
@@ -21,7 +20,7 @@ export const HANDBOOK_SECTIONS: NavItem[] = [
 
 /** Derive sub-pages for a given section from the content collection. */
 export async function getSectionPages(section: string): Promise<NavItem[]> {
-  const entries = await getCollection('handbook');
+  const entries: HandbookEntry[] = await getCollection('handbook');
   return entries
     .filter((e) => e.id.startsWith(`${section}/`))
     .sort((a, b) => a.data.order - b.data.order)
