@@ -14,7 +14,7 @@ interface Props {
 const { handbooks, asPath, subItemsCache } = Astro.props;
 ---
 
-<header class="header pb-xl w-full" id="top-header">
+<header class="header pb-m-l w-full" id="top-header">
   <DesktopNav handbooks={handbooks} asPath={asPath} subItemsCache={subItemsCache} />
   <MobileNav handbooks={handbooks} asPath={asPath} subItems={subItemsCache} />
 </header>

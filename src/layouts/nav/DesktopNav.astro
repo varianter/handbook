@@ -50,10 +50,10 @@ function getSubItems(path: string): NavItem[] {
                 {`${handbook.title}`}
               </button>
               <div id={popoverId} popover="auto" class="header-popover br-m shadow-medium" anchor={buttonId}>
-                <ul class="stack gap-3xs">
+                <ul class="stack">
                   {subItems.map((item) => (
                     <li class="">
-                      <a class="subnav-link" href={item.external ? item.path : `/${item.path}`}>
+                    <a class="stack fs-xs px-3xs py-3xs" href={item.external ? item.path : `/${item.path}`}>
                         <span class="t-bold fg-default">{item.title}</span>
                         {item.description && <span class="subnav-description fg-muted">{item.description}</span>}
                       </a>
