@@ -13,13 +13,11 @@ const { currentSearch = '', autofocus = false } = Astro.props;
           id="search"
           type="text"
           class="input flex-1"
-          data-size="large"
           name="q"
           value={currentSearch}
-          placeholder="Lønn, aksjer, sosialt"
           autofocus={autofocus}
         />
-        <button class="button" data-size="large" data-color="inherit" type="submit">Søk</button>
+        <button class="button" data-color="inherit" type="submit">Søk</button>
       </div>
     </form>
 </color-mode>
