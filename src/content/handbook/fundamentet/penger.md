@@ -143,8 +143,6 @@ arbeidsgiveravgift på bonus, slik at dette trekkes fra. Dette regnes som lønn 
 feriepenger, så 12% utsettes til neste års feriepenger. Bonus utbetales sammen med
 sammen med lønn når årsregnskapet er klart på nyåret.
 
-<div class="backgroundExample background-color-secondary4__tint2">
-
 **Eksempel**: Gitt 10 ansatte og et årlig overskudd på _én millioner_, deler
 vi `30%` av overskuddet på 10 og får `30 000`. Så skal det betales `14,1%`
 arbeidsgiveravgift slik at hver enkelts bonus dette året blir `26 292 kr`.
@@ -153,8 +151,6 @@ Av dette kommer `3 155 kr` som neste års feriepenger.
 Konsulenter som er ansatt i bare deler av året, får sin bonus beregnet tilsvarene antall
 måneder hen har jobbet. Det beregnes bonusgrunnlag også av foreldrepermisjon og
 sykemeldinger.
-
-</div>
 
 ### Eierskap
 
@@ -174,8 +170,6 @@ gruppelivsforsikring med engangsutbetaling ved dødsfall, behandlingsforsikring
 og dekning for annen ulykke enn yrkesskade.
 
 ### Goder og ytelser
-
-<div class="listGap background-color-secondary4__tint2">
 
 - Gadgetbudsjett på 12 000 pluss moms pr. år. Hva andre har brukt det til finner du på [oversikten her](https://dash.variant.no/gadgetusage/trondheim)
 
@@ -200,5 +194,3 @@ og dekning for annen ulykke enn yrkesskade.
 - Behandlingsforsikring.
 
 - Reiseforsikring for deg og din familie..
-
-</div>

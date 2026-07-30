@@ -1,11 +1,10 @@
 // ---------------------------------------------------------------------------
 // Pagefind dev-mode integration for Astro
 //
-// Replaces the need for `pagefind --site dist` during `astro dev`. Uses the
-// Node API to build an in-memory index, serves the /pagefind/* bundle from
-// the Vite dev server, and pre-crawls all known routes on startup.
+// Uses the Node API to build an in-memory index, serves the /pagefind/*
+// bundle from the Vite dev server, and pre-crawls all known routes on startup.
 //
-// Production builds are untouched — they still use `pagefind --site dist`.
+// This is ONLY applicable for dev-mode. Production built separately.
 // ---------------------------------------------------------------------------
 import type { AstroIntegration, AstroIntegrationLogger } from "astro";
 import type { PagefindIndex, IndexFile } from "pagefind";
