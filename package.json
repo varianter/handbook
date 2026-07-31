@@ -12,7 +12,8 @@
     "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
     "check": "astro check",
-    "sync": "astro sync"
+    "sync": "astro sync",
+    "test": "node --test --experimental-strip-types"
   },
   "dependencies": {
     "@astrojs/mdx": "^6.0.1",

@@ -19,8 +19,8 @@ function getSubItems(path: string): NavItem[] {
 
 <nav class="bg-surface-raised br-xl p-s shadow-medium stack-horizontal">
   <a href="/" aria-label="Variants handbook homepage" class="stack-horizontal gap-xs">
-    <img src="https://varde.variant.dev/static/logos/variant-circle-filled.svg" alt="Varde" width="24" height="24">
-    <span class="fs-m">Handbok</span>
+    <img src="https://varde.variant.dev/static/logos/variant-circle-filled.svg" alt="Variant" width="24" height="24">
+    <span class="fs-m">Håndbok</span>
   </a>
 
   <ul class="header__handbooks stack-horizontal gap-3xs mx-auto">
@@ -133,4 +133,11 @@ function getSubItems(path: string): NavItem[] {
       display: none;
     }
   }
+</style>
+
+<style is:global>
+:where(h1,h2,h3,h4,h5,h6){
+  /* When clicking internal anchors, this makes content doesn't wind up below the nav */
+  scroll-margin-top: 10rem;
+}
 </style>

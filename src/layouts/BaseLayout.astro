@@ -12,7 +12,6 @@ const {
   ogImage = 'https://www.variant.no/og-header-min.png',
 } = Astro.props;
 
-
 ---
 
 <!doctype html>
@@ -29,6 +28,8 @@ const {
       type="image/svg+xml"
       href="https://varde.variant.dev/static/logos/variant-favicon.svg"
     />
+
+    <link rel="preload" as="font" type="font/ttf" crossorigin href="https://varde.variant.dev/static/font/varde-bs-variable.ttf" />
     <link rel="stylesheet" href="https://varde.variant.dev/v/0.3.1/styles.css" />
 
     <link rel="prefetch" href="/pagefind/pagefind.js" />
@@ -78,4 +79,6 @@ const {
     padding-inline: var(--spacing-m-l);
     padding-block: var(--spacing-l);
   }
+
+
 </style>

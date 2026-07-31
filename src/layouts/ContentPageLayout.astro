@@ -2,8 +2,7 @@
 // ContentPageLayout.astro — layout for handbook content pages.
 // Extends SiteLayout (chrome) with TOC, article wrapper, and edit-link footer.
 import SiteLayout from './SiteLayout.astro';
-import PageToc from './PageToc.astro';
-import BookFooter from './BookFooter.astro';
+import SidebarNav from './nav/SidebarNav.astro';
 import type { CollectionEntry } from 'astro:content';
 import type { Heading, TocItem } from './types';
 
@@ -22,8 +21,6 @@ const {
 
 const pageTitle = frontmatter?.title ?? 'Variant Håndbok';
 const showToc = frontmatter?.toc ?? false;
-
-console.log(frontmatter);
 
 // --- Build TOC tree from flat headings ---
 function buildTocTree(headings: Heading[]): TocItem[] {
@@ -61,14 +58,38 @@ const pageHeadings =
 const editUrl = slug
   ? `https://github.com/varianter/handbook/tree/main/src/content/handbook/${slug}.md`
   : 'https://github.com/varianter/handbook/tree/main/src/pages/index.astro';
+
+// --- Last-edited git metadata (resolved at build time by the loader) ---
+const lastCommitSha = frontmatter?.lastCommitSha ?? null;
+const lastCommitDate = frontmatter?.lastCommitDate ?? null;
+const lastCommitUrl = frontmatter?.lastCommitUrl ?? null;
 ---
 
 <SiteLayout title={pageTitle}>
-  {showToc && <PageToc headings={pageHeadings} />}
+  <div class="content-layout mt-l-xl">
 
-  <article stagger-reveal class="handbook typeset mt-l-xl mx-auto" data-pagefind-body>
+
+  <div style="grid-area: sidebar">
+    <SidebarNav
+      headings={showToc ? pageHeadings : []}
+      editUrl={editUrl}
+      lastCommitSha={lastCommitSha}
+      lastCommitDate={lastCommitDate}
+      lastCommitUrl={lastCommitUrl}
+    />
+  </div>
+
+  <article style="grid-area: content" stagger-reveal class="handbook typeset mx-auto " data-pagefind-body>
     <slot />
   </article>
-
-  <BookFooter editUrl={editUrl} />
+  </div>
 </SiteLayout>
+
+<style>
+.content-layout{
+  display: grid;
+  grid-template-columns: 1fr 240px;
+  grid-template-areas: "content sidebar";
+  gap: var(--spacing-l-xl);
+}
+</style>

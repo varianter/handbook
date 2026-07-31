@@ -27,17 +27,17 @@ Våre muligheter til å blomstre, uavhengig nasjonalitet, etnisk bakgrunn, livss
 
 Verdiene våre ligger til grunn for hvordan vi behandler hverandre. Det skal være lav terskel for ros og tilbakemeldinger fordi vi ønsker at du lykkes. Vær den som sier hva du har på hjertet ditt og som tør å utfordre sannheter og gjeldende praksis. [Konkrete tiltak for åpen selskapskultur i Variant](https://blog.variant.no/konkrete-tiltak-for-%C3%A5pen-selskapskultur-i-variant-87fc37baa58)
 
-> #### Åpenhet
->
-> Hva i all verden skal et selskap tjene på å holde informasjon hemmelig for sine ansatte?
->
-> #### Læreglede
->
-> Vi ønsker å lære og lære bort. Vi skal ha ydmykhet nok til å skjønne at vi kan lære noe fra alle, og troen på at all kan lære noe fra oss.
->
-> #### Raushet
->
-> Dette vises i hvordan vi møter hverandre, våre kunder og folk i nærmiljøet.
+#### Åpenhet
+
+Hva i all verden skal et selskap tjene på å holde informasjon hemmelig for sine ansatte?
+
+#### Læreglede
+
+Vi ønsker å lære og lære bort. Vi skal ha ydmykhet nok til å skjønne at vi kan lære noe fra alle, og troen på at all kan lære noe fra oss.
+
+#### Raushet
+
+Dette vises i hvordan vi møter hverandre, våre kunder og folk i nærmiljøet.
 
 ### Læreglede
 

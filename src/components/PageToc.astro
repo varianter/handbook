@@ -1,0 +1,40 @@
+---
+// PageToc.astro — "On this page" table of contents showing h2–h4 headings.
+import type { TocItem } from '../layouts/types';
+
+interface Props {
+  headings: TocItem[];
+}
+const { headings } = Astro.props;
+---
+
+{headings.length > 0 && (
+  <nav class="page-toc lh-tight" aria-labelledby="page-toc-heading">
+    <h2 id="page-toc-heading" class="fs-s">På denne siden</h2>
+    <ol class="mt-3xs mb-2xs">
+      {headings.map((h2) => (
+        <li class="fs-m">
+          <a class="block p-3xs" href={`#${h2.slug}`}>{h2.value}</a>
+          {h2.children.length > 0 && (
+            <ol class=" pl-2xs mt-3xs mb-2xs">
+              {h2.children.map((h3) => (
+                <li class="mb-2xs">
+                  <a class="block p-3xs" href={`#${h3.slug}`}>{h3.value}</a>
+                  {h3.children.length > 0 && (
+                    <ol class=" pl-2xs mt-3xs">
+                      {h3.children.map((h4) => (
+                        <li>
+                          <a class="block p-3xs" href={`#${h4.slug}`}>{h4.value}</a>
+                        </li>
+                      ))}
+                    </ol>
+                  )}
+                </li>
+              ))}
+            </ol>
+          )}
+        </li>
+      ))}
+    </ol>
+  </nav>
+)}

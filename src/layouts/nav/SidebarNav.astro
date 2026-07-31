@@ -1,0 +1,58 @@
+---
+// SidebarNav.astro — in-page sidebar combining the "On this page" table of
+// contents with the "last edited" / "suggest an edit" metadata.
+import PageToc from '../../components/PageToc.astro';
+import type { TocItem } from '../types';
+
+interface Props {
+  headings: TocItem[];
+  editUrl: string;
+  lastCommitSha?: string | null;
+  lastCommitDate?: string | null;
+  lastCommitUrl?: string | null;
+}
+
+const {
+  headings,
+  editUrl,
+  lastCommitSha,
+  lastCommitDate,
+  lastCommitUrl,
+} = Astro.props;
+
+const shortSha = lastCommitSha ? lastCommitSha.slice(0, 7) : null;
+// Locale-formatted date; falls back to the raw ISO string if parsing fails.
+const formattedDate = lastCommitDate
+  ? new Date(lastCommitDate).toLocaleDateString('nb-NO', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    })
+  : null;
+---
+
+<aside>
+  <PageToc headings={headings} />
+
+  <footer class="mt-xl">
+    <p class="fs-s">
+      Noe som ikke stemmer eller som kunne vært bedre? Denne håndboken ligger
+      åpen på GitHub.
+    </p>
+    {formattedDate && lastCommitUrl && shortSha && (
+      <p class="fs-xs t-muted">
+        Sist endret {formattedDate} i{' '}
+        <a href={lastCommitUrl} class="link" target="_blank" rel="noreferrer noopener">{shortSha}</a>
+      </p>
+    )}
+    <a
+      class="button"
+      data-variant="outlined"
+      data-size="small"
+      data-color="inherit"
+      href={editUrl}
+    >
+      Foreslå endring
+    </a>
+  </footer>
+</aside>

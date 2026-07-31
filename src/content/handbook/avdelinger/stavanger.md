@@ -5,8 +5,6 @@ order: 3
 
 # Stavanger
 
-![](/assets/illustrations/office-stavanger.png)
-
 ## Domkirkeplassen 2
 
 Vi holder til, så lenge vi ikke er ute hos våre kunder, hos
