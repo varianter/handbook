@@ -5,8 +5,8 @@ import type { TocItem } from './types';
 interface Props {
   headings: TocItem[];
 }
-
 const { headings } = Astro.props;
+console.log(headings);
 ---
 
 {headings.length > 0 && (
@@ -21,6 +21,15 @@ const { headings } = Astro.props;
               {h2.children.map((h3) => (
                 <li>
                   <a href={`#${h3.slug}`}>{h3.value}</a>
+                  {h3.children.length > 0 && (
+                    <ul class="toc-sublist">
+                      {h3.children.map((h4) => (
+                        <li>
+                          <a href={`#${h4.slug}`}>{h4.value}</a>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </li>
               ))}
             </ul>

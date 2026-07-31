@@ -4,13 +4,11 @@
 import SiteLayout from './SiteLayout.astro';
 import PageToc from './PageToc.astro';
 import BookFooter from './BookFooter.astro';
+import type { CollectionEntry } from 'astro:content';
 import type { Heading, TocItem } from './types';
 
 export interface Props {
-  frontmatter?: {
-    title?: string;
-    toc?: boolean;
-  };
+  frontmatter?: CollectionEntry<'handbook'>['data'];
   headings?: Heading[];
   /** Content collection slug — used to build the GitHub edit URL for .md pages */
   slug?: string;
@@ -24,6 +22,8 @@ const {
 
 const pageTitle = frontmatter?.title ?? 'Variant Håndbok';
 const showToc = frontmatter?.toc ?? false;
+
+console.log(frontmatter);
 
 // --- Build TOC tree from flat headings ---
 function buildTocTree(headings: Heading[]): TocItem[] {
@@ -57,7 +57,6 @@ const tocTree = buildTocTree(headings);
 // Otherwise (e.g. no h1 in the markdown body), use root items directly.
 const pageHeadings =
   tocTree[0]?.depth === 1 ? (tocTree[0]?.children ?? []) : tocTree;
-
 // --- GitHub edit link ---
 const editUrl = slug
   ? `https://github.com/varianter/handbook/tree/main/src/content/handbook/${slug}.md`
@@ -65,7 +64,7 @@ const editUrl = slug
 ---
 
 <SiteLayout title={pageTitle}>
-  {showToc ?? <PageToc headings={pageHeadings} />}
+  {showToc && <PageToc headings={pageHeadings} />}
 
   <article stagger-reveal class="handbook typeset mt-l-xl mx-auto" data-pagefind-body>
     <slot />

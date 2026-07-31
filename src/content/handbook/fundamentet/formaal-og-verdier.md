@@ -2,6 +2,7 @@
 title: Formål og verdier
 order: 0
 description: Hvorfor vi finnes, og verdiene som styrer valgene våre
+toc: true
 ---
 
 ## Formål og verdier

@@ -12,6 +12,8 @@ const handbook = defineCollection({
     order: z.number().default(0),
     /** Short description shown below link titles in sub-navigation menus */
     description: z.string().optional(),
+    /** When true, render an "on this page" table of contents (h2–h4) */
+    toc: z.boolean().default(false),
   }),
 });
 
