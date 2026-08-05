@@ -1,69 +1,111 @@
 ---
-// MobileNav.astro — always-visible mobile navigation using <details>/<summary> accordion.
-// No JS required: the "name" attribute gives exclusive accordion behavior for free.
-import type { HandbookLink } from '../types';
-import type { NavItem } from '../../config/navigation';
+import type { NavItem } from "../../config/navigation";
+import type { HandbookLink } from "../types";
+import HeaderSearch from "./HeaderSearch.astro";
 
 interface Props {
-  handbooks: HandbookLink[];
-  asPath: string;
-  subItems: Record<string, NavItem[]>;
+	handbooks: HandbookLink[];
+	asPath: string;
+	subItems: Record<string, NavItem[]>;
 }
 
 const { handbooks, subItems } = Astro.props;
 
 function getSubItems(path: string): NavItem[] {
-  return subItems[path] ?? [];
+	return subItems[path] ?? [];
 }
 ---
 
-<nav class="mobile-nav b-all b-faint bg-surface-raised br-m mt-s px-xs">
-  {handbooks.map((handbook) => {
-    const items = getSubItems(handbook.path);
+<button
+	type="button"
+	class="mobile-nav__trigger button ml-auto"
+	data-variant="plain"
+	data-size="small"
+	data-color="inherit"
+	popovertarget="mobile-nav-popover"
+	aria-haspopup="menu"
+>
+	Meny
+</button>
+<div
+	id="mobile-nav-popover"
+	popover="auto"
+	class="mobile-nav__popover bg-surface-raised br-m"
+>
+	<nav class="stack">
+		<HeaderSearch class="mb-xs" />
 
-    return (
-      <details class="b-b b-faint b-last-none py-xs px-xs" name="handbook-nav" >
-        <summary class="stack-horizontal justify-between fs-s">{handbook.title}</summary>
-        <ul class="pb-2xs pt-xs" >
-          {items.map((item) => (
-            <li class="b-l pl-s b-faint">
-              <a class="w-full block py-3xs" href={item.external ? item.path : `/${item.path}`}>
-                {item.title}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </details>
-    );
-  })}
-</nav>
+		{handbooks.map((handbook) => {
+      const items = getSubItems(handbook.path);
+
+      return (
+        <details class="b-b b-faint b-last-none " name="handbook-nav" >
+          <summary class="stack-horizontal justify-between fs-s p-2xs">{handbook.title}</summary>
+          <ul class="pb-2xs pt-3xs" stagger-reveal>
+            {items.map((item) => (
+              <li class="b-l pl-s b-faint">
+                <a class="w-full block py-3xs" href={item.external ? item.path : `/${item.path}`}>
+                  <h3 class="fs-s">
+                    {item.title}
+                  </h3>
+                  <p class="fs-xs fg-muted">
+                    {item.description}
+                  </p>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </details>
+      );
+    })}
+	</nav>
+</div>
 
 <style>
-  .mobile-nav {
-    display: none;
-  }
+/* Trigger hidden by default; only shown on mobile below. */
+.mobile-nav__trigger {
+	display: none;
+}
 
-  @media (max-width: 800px) {
-    .mobile-nav {
-      display: block;
-    }
+@media (max-width: 800px) {
+	.mobile-nav__trigger {
+		display: inline-flex;
+	}
 
-    .mobile-nav summary::-webkit-details-marker {
-      display: none;
-    }
+	.mobile-nav__popover {
+		position: static;
+		inset: auto;
+		margin: var(--spacing-xs) 0 0;
+		padding: var(--spacing-xs);
+		border: 1px solid var(--border-faint);
+	}
 
-    .mobile-nav summary::after {
-      content: '';
-      width: 0.5rem;
-      height: 0.5rem;
-      border-right: 2px solid var(--border-default);
-      border-bottom: 2px solid var(--border-default);
-      transform: rotate(45deg);
-      transition: transform 0.15s;
-    }
+	@supports (anchor-name: --probe) {
+		.mobile-nav__popover {
+			left: anchor(--header-nav left);
+			right: anchor(--header-nav right);
+			top: anchor(--header-nav bottom);
+			position-anchor: --header-nav;
+			width: anchor-size(width);
+		}
+	}
 
-    .mobile-nav details[open] > summary::after {
-      transform: rotate(-135deg);
-    }
-  }
+	.mobile-nav__popover summary::-webkit-details-marker {
+		display: none;
+	}
+
+	.mobile-nav__popover summary::after {
+		content: "";
+		width: 0.5rem;
+		height: 0.5rem;
+		border-right: 2px solid var(--border-default);
+		border-bottom: 2px solid var(--border-default);
+		transform: rotate(45deg);
+		transition: transform 0.15s;
+	}
+
+	.mobile-nav__popover details[open] > summary::after {
+		transform: rotate(-135deg);
+	}
+}
 </style>

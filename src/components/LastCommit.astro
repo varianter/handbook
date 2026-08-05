@@ -1,0 +1,40 @@
+---
+// LastCommit.astro — sidebar metadata showing the last edit's commit info and
+// a link to suggest an edit.
+import type { GitMeta } from "../loaders/git-meta";
+
+interface Props {
+	lastCommit?: GitMeta | null;
+}
+
+const { lastCommit } = Astro.props;
+
+const sha = lastCommit?.commitSha ?? null;
+const shortSha = sha ? sha.slice(0, 7) : null;
+// Locale-formatted date; falls back to the raw ISO string if parsing fails.
+const formattedDate = lastCommit?.date
+	? new Date(lastCommit.date).toLocaleDateString("nb-NO", {
+			year: "numeric",
+			month: "long",
+			day: "numeric",
+		})
+	: null;
+
+// URL is built from raw git data so format changes don't require
+// clearing the content layer cache.
+const commitUrl = lastCommit
+	? `https://github.com/${lastCommit.repoSlug}/commit/${lastCommit.commitSha}#diff-${lastCommit.pathHash}`
+	: null;
+---
+
+{formattedDate && commitUrl && shortSha && (
+<div class="block fg-muted">
+    <p class="b-all b-faint br-s fs-xs gap-2xs inline-flex pr-2xs stack-horizontal t-muted">
+      <a href={commitUrl} class="b-faint b-r bg-surface-subtle bg-surface-sunken inline-flex lh-relaxed pl-3xs pr-2xs stack-horizontal" target="_blank" rel="noreferrer noopener">
+        <svg style="height: 1lh; width: 1lh; aspect-ratio: 1;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-git-commit-horizontal-icon lucide-git-commit-horizontal"><circle cx="12" cy="12" r="3"/><line x1="3" x2="9" y1="12" y2="12"/><line x1="15" x2="21" y1="12" y2="12"/></svg>
+        <span>{shortSha}</span>
+      </a>
+      <span>Denne siden ble sist endret <time>{formattedDate}</time> i </span>
+    </p>
+</div>
+)}

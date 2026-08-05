@@ -17,7 +17,7 @@ function getSubItems(path: string): NavItem[] {
 ---
 
 
-<footer class="footer">
+<footer class="footer pt-2xl">
   <nav class="py-xl">
     <ul class="stack-horizontal items-start gap-xl">
       {
@@ -30,7 +30,7 @@ function getSubItems(path: string): NavItem[] {
 
           const subItems = getSubItems(handbook.path);
           return (
-            <li class="flex-1 px-s">
+            <li class="flex-1" style="min-width: 10rem;">
               <h6 class="t-bold fs-s mb-m stack">{handbook.title}</h6>
               <ul class="stack gap-xs">
                 {subItems.map((item) => (

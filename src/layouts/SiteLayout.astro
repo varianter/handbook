@@ -2,7 +2,7 @@
 // SiteLayout.astro — site-wide chrome: HTML shell + header + footer.
 // Pre-fetches sub-navigation data once and passes it down to Header and SiteFooter.
 import BaseLayout from './BaseLayout.astro';
-import Header from './Header.astro';
+import SiteHeader from './SiteHeader.astro';
 import SiteFooter from './SiteFooter.astro';
 import { HANDBOOK_SECTIONS, getSectionPages } from '../config/navigation';
 
@@ -37,7 +37,7 @@ const subItemsCache = Object.fromEntries(
   <div class="site-layout">
 
     <div>
-      <Header handbooks={handbooks} asPath={asPath} subItemsCache={subItemsCache} />
+      <SiteHeader handbooks={handbooks} asPath={asPath} subItemsCache={subItemsCache} />
       <slot />
     </div>
 

@@ -5,8 +5,6 @@ description: Hvorfor vi finnes, og verdiene som styrer valgene våre
 toc: true
 ---
 
-## Formål og verdier
-
 ### Vårt formål er å utvikle samfunnet vi lever i
 
 Dette gjør vi ved å samle flinke personer som tenker nye tanker, og som har kompetansen til å utvikle de riktige løsningene for kundene vi jobber med.
