@@ -40,14 +40,10 @@ sammen med ulike tema igjennom året. Alle har sin RÅ-gruppe og slik som med re
 lagt opp til en forutbergnelig kategorisering basert på etablerte prinsipper. Inndelingen
 skjer etter såkalte RÅ-tall.
 
-<div>
-
 RÅ-tall = eksamensår, unntatt de tilfellene hvor relevant arbeidserfaring fra
 før eksamensåret gjenspeiles i lønnstrinn.
 
 Overganger fra en gruppe til en annen skjer i august.
-
-</div>
 
 Gruppene starter på 0 års erfaring (nyutdannet) og varer tiden ut. Gruppene vi har per i dag ser
 sånn ut: Kilimanjaro (0-2 år), Mont Blanc (3-4 år), Denali (5-7 år), Cerro Torre (8-11 år), K2 (12+ år).
