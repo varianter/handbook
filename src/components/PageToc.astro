@@ -1,0 +1,96 @@
+---
+import type { TocItem } from "../layouts/types";
+
+interface Props {
+	headings: TocItem[];
+}
+const { headings } = Astro.props;
+---
+
+{headings.length > 0 && (
+  <nav class="page-toc lh-tight" data-page-toc>
+    <ol class="">
+      {headings.map((h2) => (
+        <li class="fs-m">
+          <a class="fs-s block px-xs py-2xs b-b b-faint" href={`#${h2.slug}`}>{h2.value}</a>
+          {h2.children.length > 0 && (
+            <ol class="">
+              {h2.children.map((h3) => (
+                <li class="">
+                  <a class="fs-s block px-s py-2xs b-b b-faint" href={`#${h3.slug}`}>{h3.value}</a>
+                  {h3.children.length > 0 && (
+                    <ol class="">
+                      {h3.children.map((h4) => (
+                        <li>
+                          <a class="fs-s block px-m py-2xs b-b b-faint" href={`#${h4.slug}`}>{h4.value}</a>
+                        </li>
+                      ))}
+                    </ol>
+                  )}
+                </li>
+              ))}
+            </ol>
+          )}
+        </li>
+      ))}
+    </ol>
+  </nav>
+)}
+
+<script>
+const nav = document.querySelector<HTMLElement>("[data-page-toc]");
+if (nav) {
+	const links = Array.from(
+		nav.querySelectorAll<HTMLAnchorElement>('a[href^="#"]'),
+	);
+	const linkById = new Map<string, HTMLAnchorElement>();
+	for (const link of links) {
+		const href = link.getAttribute("href");
+		if (href) {
+			linkById.set(href.slice(1), link);
+		}
+	}
+
+	const targets = Array.from(linkById.keys())
+		.map((id) => document.getElementById(id))
+		.filter((el): el is HTMLElement => el !== null);
+
+	let current: HTMLAnchorElement | null = null;
+
+	const setActive = (id: string | null) => {
+		const link = id ? linkById.get(id) : null;
+		if (!link || link === current) return;
+		current?.removeAttribute("aria-current");
+		link.setAttribute("aria-current", "true");
+		current = link;
+	};
+
+	// Topmost heading sitting in a thin band near the top of the viewport wins.
+	// -80px accounts for any sticky header; -70% bottom margin keeps only one
+	// heading in the band at a time.
+	const observer = new IntersectionObserver(
+		(entries) => {
+			const visible = entries
+				.filter((e) => e.isIntersecting)
+				.sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+			if (visible[0]) setActive(visible[0].target.id);
+		},
+		{ rootMargin: "-80px 0px -70% 0px", threshold: 0 },
+	);
+
+	for (const target of targets) observer.observe(target);
+
+	// At the very bottom of the page the last heading's band never re-enters,
+	// so force the last heading active when we reach the document floor.
+	const onScroll = () => {
+		if (
+			window.innerHeight + window.scrollY >=
+			document.documentElement.scrollHeight - 2
+		) {
+			const last = targets[targets.length - 1];
+			if (last) setActive(last.id);
+		}
+	};
+	addEventListener("scroll", onScroll, { passive: true });
+}
+</script>

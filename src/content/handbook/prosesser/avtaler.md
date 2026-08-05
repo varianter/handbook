@@ -1,0 +1,29 @@
+---
+title: Avtaler - Prosesser
+navTitle: Avtaler
+order: 7
+---
+
+Her finner du et sett med dokumentmaler og kontraktmaler vi bruker i Variant og som du gjerne kan bruke også! De er helt åpne og lisensiert under MIT lisens. Det er ingen krav til attributering.
+
+Du kan lage dine egne versjoner av disse avtalene med å "forke" [kodebasen på Github](https://github.com/varianter/dokument-mal). Se mer detaljer om hvordan der.
+
+## Medeierskap
+
+- [Variant medeierskap: Erhverv av aksjer](https://avtaler.variant.no/avtaler/norge/aksjeavtaler/aksjekjop.html)
+- [Variant medeierskap: Tiltredelse til aksjonæravtale for datterselskaper av Variant AS](https://avtaler.variant.no/avtaler/norge/aksjeavtaler/aksjonaer-tiltredelse-konsern.html)
+- [Variant medeierskap: Tiltredelse til aksjonæravtale](https://avtaler.variant.no/avtaler/norge/aksjeavtaler/aksjonaer-tiltredelse.html)
+
+## Ansettelser
+
+- [Variant: Ansettelsesavtale assistenter](https://avtaler.variant.no/avtaler/norge/arbeidsavtaler/ansettelse-assistent.html)
+- [Variant: Ansettelsesavtale Lederguppe Norge](https://avtaler.variant.no/avtaler/norge/arbeidsavtaler/ansettelse-konsernledelse.html)
+- [Variant: Ansettelsesavtale ledere](https://avtaler.variant.no/avtaler/norge/arbeidsavtaler/ansettelse-ledelse.html)
+- [Variant: Ansettelsesavtale sommerjobb](https://avtaler.variant.no/avtaler/norge/arbeidsavtaler/ansettelse-sommerjobb.html)
+- [Variant: Ansettelsesavtale](https://avtaler.variant.no/avtaler/norge/arbeidsavtaler/ansettelse.html)
+- [Variant: Arbeidsattest](https://avtaler.variant.no/avtaler/norge/annet/attest.html)
+
+## Avtaler
+
+- [Variant: Avtale om konsulentbistand (kort)](https://avtaler.variant.no/avtaler/norge/oppdragsavtaler/enkel-konsulentbistand.html)
+- [Variant: Avtale om konsulentbistand](https://avtaler.variant.no/avtaler/norge/oppdragsavtaler/konsulentbistand.html)

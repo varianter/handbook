@@ -1,0 +1,99 @@
+---
+title: Bærekraft - Prosesser
+navTitle: Bærekraft
+order: 3
+---
+
+Vi bryr oss om miljøet, og har fokus på å begrense reiser og utslipp. For å ha oversikt fører vi regnskap over alle reiser og utslippene det medfører. Ta en kikk i klimaregnskapet for å se aktuelle tall.
+
+- [Registrer reiseutslipp](https://dash.variant.no/climate/registration)
+- [Se klimaregnskap](https://varianttrh.sharepoint.com/:x:/r/_layouts/15/Doc.aspx?sourcedoc=%7BDEA0DAC0-2495-486E-9AAD-3F5C285122C9%7D&file=Karbonregnskap%202021.xlsx&action=default&mobileredirect=true&cid=9d35a231-8702-4ff1-ad6f-681a612377e4)
+
+## Hvordan jobber vi med bærekraft
+
+Bærekraft i Variant innebærer mye. Det er likestilling i arbeidslivet, meningsfull arbeidshverdag og miljøvennlige valg. Vi ønsker at valgene vi gjør skal begrense vår belastning på miljø og klima. Derfor setter vi årlige mål om å redusere vårt avtrykk, vi har et karbonregnskap og holder oversikt over kildesortering og energiforbruk.
+
+Samtidig skal vi skape en kultur hvor vi er nysgjerrige, stiller spørsmål og tar gode valg. Det handler altså om å skape en bærekraftig arbeidsplass for folk som deg og meg, men også folk som ikke er som deg og meg. Det er nettopp det som skaper mangfold.
+
+## Variant sine felles bærekraftsmål
+
+For å kunne gjøre tiltak og forsøke å bidra til en mer bærekraftig klode har Variant satt seg noen felles mål som vi ønsker å oppnå.
+
+![](/assets/illustrations/baerekraftsmål11.png)
+
+### Minske utslipp
+
+Vi skal minke utslipp per årsverk sammenliknet med utslipp fra forrige årsverk.
+
+![](/assets/illustrations/baerekraftsmål17.png)
+
+### Utvikle kompetansen
+
+Vi skal utvikle vår bærekraftskompetanse innen våre fagdisipliner, og samarbeide på tvers for å bidra til bærekraftig utvikling.
+
+### Bærekraft med kunder
+
+Vi skal i samarbeid med våre kunder jobbe med bærekraftig utvikling i tråd med bærekraftsmålene og på denne måten forbedre vårt felles håndavtrykk (håndavtrykk = der vi bidrar positivt).
+
+![](/assets/illustrations/baerekraftsmål12.png)
+
+### Bevisste forbrukere
+
+Vi skal være bevisste forbrukere, både som bedrift og som ansatte. Vi skal minimere mengden avfall, og prioritere og motivere til gjenbruk.
+
+![](/assets/illustrations/baerekraftsmål8.png)
+
+### Faglig og personlig utvikling
+
+Vi skal tiltrekke, utvikle og beholde medarbeidere for å bygge fremtidens Variant med kjerneverdiene raushet, åpenhet og læreglede i fokus. Vi skal ha sterkt fokus på trivsel, trygghet og mangfold, og ha en proaktiv holdning til det å framme faglig og personlig utvikling for alle ansatte.
+
+## Miljøfyrtårnansvarlig
+
+Miljøfyrtårnansvarlig engasjeres for to år om gangen. [Ansvarsområdet kan du lese om her](https://varianttrh.sharepoint.com/:w:/g/EV8J0KoqPHxKndxz1qAZpPQBFFd938unI7nvt0Ljf4ySpg?e=Ig4lcO). Kontaktinformasjon finnes på hjemmeside og i våre internsystemer.
+
+## Innkjøpsrutine
+
+I den grad det er mulig skal vi bruke leverandører og produkter som forbedrer våre egne miljøprestasjoner, derfor er det viktig at vi stiller oss selv noen kjappe spørsmål før vi kjøper noe.
+
+### Sjekkliste
+
+#### Hva er behovet?
+
+Har vi behov for det her? Eller klarer vi oss uten? Når vi kjøper en ny ting, skal vi vurdere hva behovet er uten å tenke på tingen i seg selv. For eksempel når vi sier at «vi trenger en ny skjerm», er behovet egentlig at «vi vil tilrettelegge for en ergonomisk arbeidshverdag». Dette skal sikre at man kun kjøper ting man faktisk har behov for.
+
+#### Kan vi dekke behovet ved å gjenbruke?
+
+Kan vi dekke behovet ved å reparere det vi har, kjøpe brukt, låne eller leie? Hvis svaret er ja skal det prioriteres.
+
+#### Tar leverandøren miljøansvar?
+
+Eller finnes det miljømerkede eller mer miljøvennlige alternativer? Sjekk alltid om det finnes alternativer som er miljøsertifiserte. Vanlige sertifiseringer i Norge er Svanemerket, Miljøfyrtårn eller EMAS (EUs miljøsertifisering). Du kan [søke på Miljøfyrtårn sine nettsider](https://www.miljofyrtarn.no/sok-virksomheter/) etter bedriften for å sjekke om bedriften er sertifisert som Miljøfyrtårn eller [på Svanemerket sine nettsider](https://svanemerket.no/miljomerkede-produkter/s/?nel-search=Oppvaskmiddel) etter produkter og tjenester som har Svanemerket.
+
+Vi kan også etterspørre bedrifter om hvordan de tar miljøansvar. På den måten kan vi vise våre leverandører at dette er viktig for oss. Dette er særlig viktig hvis det er leverandører vi har et regelmessig forhold til. Her er et eksempel på en epost du kan sende:
+
+> Hei! Vi vurderer å kjøpe "x antall av dette produktet" av dere, men det er viktig for oss at det går overens med de miljøvennlige retningslinjene vi har for innkjøp. Kan du fortelle meg om hvilke grep dere har tatt, og hvordan dere jobber med miljøansvar?
+
+### Retningslinjer for et godt kjøp
+
+1. Er produktet laget i god kvalitet og vil ha lang holdbarhet?
+2. Kan produktet vedlikeholdes/repareres?
+3. Er produktet designet for gjenbruk?
+
+### Mat til arrangement
+
+Når vi bestiller mat skal vi streve etter å begrense svinn og unødvendig avfall. Det gjelder da mer emballasje enn strengt tatt nødvendig, og begrense store mengder med rester.
+
+Mat som er igjen etter et arrangement skal settes i kjøleskapet, samtidig som man sier ifra at det er tilgjengelig på Slack (#varianthuset), så kan noen andre få gleden av det til lunsjen dagen etter. Engangsartikler som kopper, tallerkener, bestikk osv. skal ikke være nødvendig siden vi har nok servise til 30-40 personer.
+
+### Gadgetbudsjettet
+
+Med gadgetbudsjettet er vi alle teknisk sett innkjøpere. Nå skal ikke vi legge noen føringer på hvordan du velger å bruke akkurat ditt gadgetbudsjett, men vi anbefaler å vurdere kvalitet med lengre levetid. Eksempler på gode og smarte investeringer kan være god belysning, en stol med god støtte, hev- og senkepult, ekstern skjerm, tastatur (vi har faktisk en egen Slack-kanal for det og #keebs) og så videre.
+
+Om du vil kjøpe deg en ny telefon så er du hjertelig velkommen til det. Det eneste vi ber deg om er at du vurderer en «så-god-som-ny-telefon» før du kjøper den siste iPhonen. Da forlenger du levetiden til telefonen, samtidig som du får mye mer ut av gadgetbudsjettet ditt. Her finnes mange leverandører.
+
+Hvis du kjøper brukt (eller så god-som-ny) bidrar du også med å nå målet vårt om å øke andelen bruktkjøp blant gadgets 🥳 De siste to årene har vi hatt en liten økning, men her har vi rom for å bli enda bedre:
+
+- I 2023 var 4 av 76 gadgets (5%) kjøpt brukt
+- I 2024 var 8 av 64 gadgets (13%) kjøpt brukt (hvorav 3 outlet-varer)
+
+Når du kjøper brukt sender du fører du det som utgift, på samme måte som annet, kvitteringen i dette tilfelle vil være f. eks et skjermbilde fra Finn-annonsen og Vipps.

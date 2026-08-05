@@ -1,0 +1,99 @@
+---
+import PageToc from "../../components/PageToc.astro";
+import type { TocItem } from "../types";
+
+interface Props {
+  headings: TocItem[];
+}
+
+const { headings } = Astro.props;
+---
+
+<aside class="sidebar sidebar-anchor b-all b-faint br-m">
+  <button
+    type="button"
+    class="sidebar__trigger button w-full justify-start br-inherit gap-2xs"
+    data-variant="plain"
+    data-size="small"
+    data-color="inherit"
+    popovertarget="sidebar-toc-popover"
+    aria-haspopup="menu"
+  >
+    <svg
+      role="presentation"
+      style="height: 1lh; width: 1lh; aspect-ratio: 1;"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="lucide lucide-list-tree-icon lucide-list-tree"
+    >
+      <path d="M8 5h13" />
+      <path d="M13 12h8" />
+      <path d="M13 19h8" />
+      <path d="M3 10a2 2 0 0 0 2 2h3" />
+      <path d="M3 5v12a2 2 0 0 0 2 2h3" />
+    </svg>
+    På denne siden
+  </button>
+  <div id="sidebar-toc-popover" popover="auto" class="sidebar__popover p-xs">
+    <PageToc headings={headings} />
+  </div>
+</aside>
+
+<style>
+/* Trigger button is hidden by default; only shown on mobile below. */
+.sidebar__trigger {
+  display: none;
+}
+
+/* Mobile (≤800px): show the button; the popover toggles via the Popover
+     API. Position depends on Anchor Positioning support. */
+@media (max-width: 800px) {
+  .sidebar__trigger {
+    display: inline-flex;
+  }
+  .sidebar-anchor {
+    anchor-name: --sidebar-trigger;
+  }
+
+  .sidebar__popover {
+    position: static;
+    inset: auto;
+    margin: var(--spacing-xs) 0 0;
+    background: var(--surface-raised);
+    border: none;
+    border-radius: var(--border-radius-l);
+  }
+
+  @supports (anchor-name: --probe) {
+    .sidebar__popover {
+      left: anchor(--sidebar-trigger left);
+      right: anchor(--sidebar-trigger right);
+      top: anchor(--sidebar-trigger bottom);
+      position-anchor: --sidebar-trigger;
+      width: anchor-size(width);
+    }
+  }
+}
+
+/* Desktop (>800px): hide the button, and override the popover element so it
+     renders as normal in-flow sidebar content. Author styles win over the UA
+     rule that hides closed popovers. */
+@media (min-width: 801px) {
+  .sidebar__popover {
+    display: block;
+    position: static;
+    inset: auto;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+  }
+}
+</style>

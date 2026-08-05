@@ -1,0 +1,94 @@
+---
+title: Bergen
+order: 2
+---
+
+# Bergen
+
+![](/assets/illustrations/office-bergen.png)
+
+## Vaskerelven 39 (V39)
+
+Vi holder til, så lenge vi ikke er ute hos våre kunder, hos
+[V39](https://g.page/Vaskerelven-39-5323?share) i Vaskerelven 39.
+
+### Wifi
+
+Når du jobber på kontoret benytter du det trådløse nettet med SSID V39.
+Du logger inn med passordet som du får fra en av kollegaene dine.
+
+### Sykkelparkering
+
+V39 har både sykkelparkering og garderobe. Sykkelparkeringen ligger i
+bakgården.
+
+## Faktura
+
+Hvis du får en faktura som skal betales av Variant Bergen sendes den til
+**faktura.bergen@variant.no**
+
+## Roller
+
+### Ledelse
+
+- CEO: Marie
+- CDO: Andreas
+- CTO: Thomas
+
+## Helse, miljø og sikkerhet
+
+### Bærekraft
+
+Vi gjør nok mange flere tiltak enn man skulle tro på bærekraftsfronten, som sertifisering gjennom Miljøfyrtårn, fortløpende klimaregnskap, og at hvert av selskapene våres skal streve etter å bli karbonnøytrale for hele sin levetid:
+
+- Som det yngste selskapet i Variant Norge jobber vi i Bergen nå med å etablere rutinene våres.
+  - For øyeblikket holder vi på å sertifisere oss som Miljøfyrtårn.
+
+### Lokalt HMS-arbeid
+
+Variant er et konsulentselskap, der hvor mange ansatte tilbringer store deler av
+arbeidstiden ute i kundenes lokaler. HMS-håndboka dekker proaktivt arbeid med
+lokaler, men vi avgrenser dette til vårt kontor på V39.
+
+- Renhold i våre lokaler gjennomføres i regi av Vestenfjeldske Eiendom.
+- Førstehjelpsutstyr ligger under vasken i fellesområdet og er til enhver tid
+  komplett i henhold til
+  [retningslinjer gitt av Arbeidstilsynet](https://www.arbeidstilsynet.no/tema/personlig-verneutstyr/forstehjelpsutstyr/)
+- Ulykker som medfører alvorlig personskade skal straks meldes til
+  lege/ambulanse, politi og Arbeidstilsynets lokalkontor. Innmelding skjer av
+  daglig leder
+- Gårdeier sørger for avfallssystemene i bygget vi leier kontorplass i. Det er
+  kildesorteringssystem med instruks, godt synlig i fellesområdet. Gode rutiner
+  skal bidra til å redusere svinn og avfall
+
+Hvis ansatte opplever feil, mangler eller farlige situasjoner ute hos kunde
+ønsker vi at dette forsøkes varslet i henhold til kundens HMS-rutiner. Skulle
+dette ikke føre fram vil vi ta imot og håndtere saken i Variant-kontekst.
+
+### Branninstruks
+
+Gjør deg kjent med følgende hos Vaskerelven 39:
+
+- Rømningsveiene
+- Nærmeste brannmelder
+- Nærmeste slukkemiddel
+
+Ved brannalarm, forlat bygningen gjennom rømningsveiene og gå deretter til
+[samlingsplassen over gaten foran Kilroy, ved Rummelhoffsmauet.](https://goo.gl/maps/SQCiQ6LS4m77o22X9)
+Hvis brann oppstår uten at automatisk alarm er utløst, trykk på brannmelder hvis
+mulig og gå deretter ut av bygningen og til samlingsplassen.
+
+Vinduer og døren til kontoret må lukkes. Heis skal **IKKE** benyttes som
+rømningsvei.
+
+**Nødnummer til brannvesen er 110.**
+
+Rømningsveier og brannslukningsutstyr er godt merket. Branninstruks og
+redningsplan finnes som oppslag i kontorlokalet og gjennomgås med alle
+nyansatte. Brannøvelse gjennomføres i regi av V39. Vedlikehold av
+brannvarslere og slukkeustyr utføres av V39.
+
+### Kildesortering
+
+Det er kildesortering hos V39, både i fellesarealet og i søppelrommet i
+kjelleren.

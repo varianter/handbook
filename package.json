@@ -1,94 +1,28 @@
 {
-  "name": "@variant/handbook-v2",
-  "private": true,
-  "version": "1.0.0",
-  "keywords": [],
-  "engines": {
-    "node": "^22.0.0"
-  },
-  "author": "Anders N. Slinde <ans@variant.no>",
-  "license": "MIT, CC BY-SA 4.0",
-  "description": "Variant's handbook-v2",
-  "devDependencies": {
-    "@pinecone-database/pinecone": "^3.0.0",
-    "@types/mdx": "^2.0.13",
-    "@types/node": "^20.12.7",
-    "@types/qs": "^6.9.15",
-    "@types/react": "^18.2.79",
-    "@types/react-dom": "^18.2.25",
-    "@typescript-eslint/parser": "^7.7.1",
-    "@variant/prettier-config": "^1.0.2",
-    "algoliasearch": "^4.23.3",
-    "cli-progress": "^3.12.0",
-    "dotenv": "^16.4.5",
-    "eslint": "^9.1.1",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "estree-eval": "^1.0.3",
-    "fast-glob": "^3.3.2",
-    "husky": "^9.0.11",
-    "lint-staged": "^15.2.2",
-    "lodash.isequal": "^4.5.0",
-    "patch-package": "^8.0.0",
-    "prettier": "^3.2.5",
-    "remark": "^15.0.1",
-    "to-vfile": "^8.0.0",
-    "typescript": "^5.4.5",
-    "unist-util-flatmap": "^1.0.0",
-    "unist-util-select": "^5.1.0",
-    "unist-util-visit": "^5.0.0"
-  },
-  "dependencies": {
-    "@azure/openai": "^1.0.0-beta.12",
-    "@mdx-js/loader": "^3.0.1",
-    "@mdx-js/mdx": "3.0.1",
-    "@mdx-js/react": "^3.0.1",
-    "@pabra/sortby": "^1.0.2",
-    "@resvg/resvg-js": "^2.6.2",
-    "@types/common-tags": "^1.8.4",
-    "@variant/profile": "^3.0.1",
-    "common-tags": "^1.8.2",
-    "gpt3-tokenizer": "^1.1.5",
-    "gray-matter": "^4.0.3",
-    "hamburger-react": "^2.5.0",
-    "instantsearch.js": "^4.67.0",
-    "lru-cache": "^10.2.0",
-    "next": "^14.2.10",
-    "next-auth": "^4.24.7",
-    "next-images": "^1.8.5",
-    "openid-client": "^5.6.5",
-    "qs": "^6.12.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-hotkeys-hook": "^4.5.0",
-    "react-instantsearch": "^7.7.2",
-    "react-instantsearch-core": "^7.7.2",
-    "remark-frontmatter": "^5.0.0",
-    "remark-gfm": "^4.0.0",
-    "remark-mdx": "^3.0.1",
-    "remark-mdx-frontmatter": "^4.0.0",
-    "remark-mdx-toc": "^0.3.1",
-    "satori": "^0.10.13",
-    "slugify": "^1.6.6",
-    "swr": "^2.2.5"
-  },
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "production-build": "next build",
-    "lint": "eslint 'src/**/*.{ts,tsx}'",
-    "start": "next start",
-    "export": "next export",
-    "search-index": "node search-index/index.mjs",
-    "postinstall": "patch-package"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.ts": "eslint --cache --fix",
-    "*.{ts,css,md}": "prettier --write"
-  },
-  "prettier": "@variant/prettier-config"
+	"name": "@variant/handbook-v3",
+	"version": "1.0.0",
+	"description": "Variants' handbook",
+	"type": "module",
+	"license": "MIT",
+	"engines": {
+		"node": "^22.0.0"
+	},
+	"scripts": {
+		"dev": "astro dev",
+		"build": "astro check && astro build && pagefind --site dist",
+		"preview": "astro preview",
+		"check": "biome check && astro check",
+		"sync": "astro sync",
+		"test": "node --test --experimental-strip-types"
+	},
+	"dependencies": {
+		"astro": "7.1.6"
+	},
+	"devDependencies": {
+		"@astrojs/check": "^0.9.10",
+		"@biomejs/biome": "2.5.7",
+		"@types/node": "^25.9.3",
+		"pagefind": "^1.5.2",
+		"typescript": "^6.0.3"
+	}
 }
