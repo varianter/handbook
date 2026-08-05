@@ -4,7 +4,7 @@
 import type { GitMeta } from "../loaders/git-meta";
 
 interface Props {
-	lastCommit?: GitMeta | null;
+  lastCommit?: GitMeta | null;
 }
 
 const { lastCommit } = Astro.props;
@@ -13,18 +13,18 @@ const sha = lastCommit?.commitSha ?? null;
 const shortSha = sha ? sha.slice(0, 7) : null;
 // Locale-formatted date; falls back to the raw ISO string if parsing fails.
 const formattedDate = lastCommit?.date
-	? new Date(lastCommit.date).toLocaleDateString("nb-NO", {
-			year: "numeric",
-			month: "long",
-			day: "numeric",
-		})
-	: null;
+  ? new Date(lastCommit.date).toLocaleDateString("nb-NO", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    })
+  : null;
 
 // URL is built from raw git data so format changes don't require
 // clearing the content layer cache.
 const commitUrl = lastCommit
-	? `https://github.com/${lastCommit.repoSlug}/commit/${lastCommit.commitSha}#diff-${lastCommit.pathHash}`
-	: null;
+  ? `https://github.com/${lastCommit.repoSlug}/commit/${lastCommit.commitSha}#diff-${lastCommit.pathHash}`
+  : null;
 ---
 
 {formattedDate && commitUrl && shortSha && (

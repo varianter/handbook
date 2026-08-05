@@ -4,38 +4,38 @@ import type { HandbookLink } from "../types";
 import HeaderSearch from "./HeaderSearch.astro";
 
 interface Props {
-	handbooks: HandbookLink[];
-	asPath: string;
-	subItems: Record<string, NavItem[]>;
+  handbooks: HandbookLink[];
+  asPath: string;
+  subItems: Record<string, NavItem[]>;
 }
 
 const { handbooks, subItems } = Astro.props;
 
 function getSubItems(path: string): NavItem[] {
-	return subItems[path] ?? [];
+  return subItems[path] ?? [];
 }
 ---
 
 <button
-	type="button"
-	class="mobile-nav__trigger button ml-auto"
-	data-variant="plain"
-	data-size="small"
-	data-color="inherit"
-	popovertarget="mobile-nav-popover"
-	aria-haspopup="menu"
+  type="button"
+  class="mobile-nav__trigger button ml-auto"
+  data-variant="plain"
+  data-size="small"
+  data-color="inherit"
+  popovertarget="mobile-nav-popover"
+  aria-haspopup="menu"
 >
-	Meny
+  Meny
 </button>
 <div
-	id="mobile-nav-popover"
-	popover="auto"
-	class="mobile-nav__popover bg-surface-raised br-m"
+  id="mobile-nav-popover"
+  popover="auto"
+  class="mobile-nav__popover bg-surface-raised br-m"
 >
-	<nav class="stack">
-		<HeaderSearch class="mb-xs" />
+  <nav class="stack">
+    <HeaderSearch class="mb-xs" />
 
-		{handbooks.map((handbook) => {
+    {handbooks.map((handbook) => {
       const items = getSubItems(handbook.path);
 
       return (
@@ -58,54 +58,54 @@ function getSubItems(path: string): NavItem[] {
         </details>
       );
     })}
-	</nav>
+  </nav>
 </div>
 
 <style>
 /* Trigger hidden by default; only shown on mobile below. */
 .mobile-nav__trigger {
-	display: none;
+  display: none;
 }
 
 @media (max-width: 800px) {
-	.mobile-nav__trigger {
-		display: inline-flex;
-	}
+  .mobile-nav__trigger {
+    display: inline-flex;
+  }
 
-	.mobile-nav__popover {
-		position: static;
-		inset: auto;
-		margin: var(--spacing-xs) 0 0;
-		padding: var(--spacing-xs);
-		border: 1px solid var(--border-faint);
-	}
+  .mobile-nav__popover {
+    position: static;
+    inset: auto;
+    margin: var(--spacing-xs) 0 0;
+    padding: var(--spacing-xs);
+    border: 1px solid var(--border-faint);
+  }
 
-	@supports (anchor-name: --probe) {
-		.mobile-nav__popover {
-			left: anchor(--header-nav left);
-			right: anchor(--header-nav right);
-			top: anchor(--header-nav bottom);
-			position-anchor: --header-nav;
-			width: anchor-size(width);
-		}
-	}
+  @supports (anchor-name: --probe) {
+    .mobile-nav__popover {
+      left: anchor(--header-nav left);
+      right: anchor(--header-nav right);
+      top: anchor(--header-nav bottom);
+      position-anchor: --header-nav;
+      width: anchor-size(width);
+    }
+  }
 
-	.mobile-nav__popover summary::-webkit-details-marker {
-		display: none;
-	}
+  .mobile-nav__popover summary::-webkit-details-marker {
+    display: none;
+  }
 
-	.mobile-nav__popover summary::after {
-		content: "";
-		width: 0.5rem;
-		height: 0.5rem;
-		border-right: 2px solid var(--border-default);
-		border-bottom: 2px solid var(--border-default);
-		transform: rotate(45deg);
-		transition: transform 0.15s;
-	}
+  .mobile-nav__popover summary::after {
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    border-right: 2px solid var(--border-default);
+    border-bottom: 2px solid var(--border-default);
+    transform: rotate(45deg);
+    transition: transform 0.15s;
+  }
 
-	.mobile-nav__popover details[open] > summary::after {
-		transform: rotate(-135deg);
-	}
+  .mobile-nav__popover details[open] > summary::after {
+    transform: rotate(-135deg);
+  }
 }
 </style>

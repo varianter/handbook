@@ -1,10 +1,8 @@
 ---
-// SiteHeader.astro — site header: the menu bar (logo + handbook nav + search +
-// mobile menu trigger) always visible, plus the MobileNav popover it opens.
-import DesktopNav from './nav/DesktopNav.astro';
-import MobileNav from './nav/MobileNav.astro';
-import type { HandbookLink } from './types';
-import type { NavItem } from '../config/navigation';
+import type { NavItem } from "../config/navigation";
+import DesktopNav from "./nav/DesktopNav.astro";
+import MobileNav from "./nav/MobileNav.astro";
+import type { HandbookLink } from "./types";
 
 interface Props {
   handbooks: HandbookLink[];
@@ -16,29 +14,44 @@ const { handbooks, asPath, subItemsCache } = Astro.props;
 ---
 
 <header class="header pb-m-l w-full" id="top-header">
-  <nav class="header-nav bg-surface-raised br-xl p-s shadow-medium stack-horizontal">
-    <a href="/" aria-label="Variants handbook homepage" class="stack-horizontal gap-xs">
-      <img src="https://varde.variant.dev/static/logos/variant-circle-filled.svg" alt="Variant" width="24" height="24">
+  <nav
+    class="header-nav bg-surface-raised br-xl p-s shadow-medium stack-horizontal"
+  >
+    <a
+      href="/"
+      aria-label="Variants handbook homepage"
+      class="stack-horizontal gap-xs"
+    >
+      <img
+        src="https://varde.variant.dev/static/logos/variant-circle-filled.svg"
+        alt="Variant"
+        width="24"
+        height="24"
+      >
       <span class="fs-m">Håndbok</span>
     </a>
 
-    <DesktopNav handbooks={handbooks} asPath={asPath} subItemsCache={subItemsCache} />
+    <DesktopNav
+      handbooks={handbooks}
+      asPath={asPath}
+      subItemsCache={subItemsCache}
+    />
     <MobileNav handbooks={handbooks} asPath={asPath} subItems={subItemsCache} />
   </nav>
 </header>
 
 <style>
-  .header {
-    margin-inline: auto;
-    z-index: 1;
+.header {
+  margin-inline: auto;
+  z-index: 1;
 
-    @media (min-width: 800px) {
-      position: sticky;
-      top: var(--spacing-m);
-    }
+  @media (min-width: 800px) {
+    position: sticky;
+    top: var(--spacing-m);
   }
+}
 
-  .header-nav{
-    anchor-name: --header-nav;
-  }
+.header-nav {
+  anchor-name: --header-nav;
+}
 </style>

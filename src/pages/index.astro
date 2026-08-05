@@ -4,60 +4,60 @@ import SearchBox from "../components/search-form/SearchBox.astro";
 import SiteLayout from "../layouts/SiteLayout.astro";
 
 const allEntries: CollectionEntry<"handbook">[] =
-	await getCollection("handbook");
+  await getCollection("handbook");
 const fundamentEntries = allEntries
-	.filter((e) => e.id.startsWith("fundamentet/"))
-	.sort((a, b) => a.data.order - b.data.order);
+  .filter((e) => e.id.startsWith("fundamentet/"))
+  .sort((a, b) => a.data.order - b.data.order);
 ---
 
 <SiteLayout title="En variants håndbok">
-	<div class="typeset mx-auto pt-xl">
-		<h1 class="fs-l">En variants håndbok</h1>
+  <div class="typeset mx-auto pt-xl">
+    <h1 class="fs-l">En variants håndbok</h1>
 
-		<p>
-			Her forsøker vi å beskrive hvordan ting gjøres i Variant, hva vi prøver å
-			oppnå og hvorfor vi tenker som vi gjør. Denne er både for ansatte og folk
-			som er nysgjerrige på hvordan det er å være en variant. Håndboka er et
-			levende dokument som vi ønsker alle ansatte skal ha eierskap til. Vi
-			oppfordrer alle til å endre eller legge til innhold i den. Håndboken
-			<a href="https://github.com/varianter/handbook/"
-				>ligger åpent på GitHub</a
-			>
-			hvor
-			<a
-				href="https://help.github.com/articles/editing-files-in-your-repository/"
-				>alle kan sende inn endringer</a
-			>
-			eller
-			<a href="https://github.com/varianter/handbook/issues"
-				>stille spørsmål</a
-			>.
-		</p>
+    <p>
+      Her forsøker vi å beskrive hvordan ting gjøres i Variant, hva vi prøver å
+      oppnå og hvorfor vi tenker som vi gjør. Denne er både for ansatte og folk
+      som er nysgjerrige på hvordan det er å være en variant. Håndboka er et
+      levende dokument som vi ønsker alle ansatte skal ha eierskap til. Vi
+      oppfordrer alle til å endre eller legge til innhold i den. Håndboken
+      <a href="https://github.com/varianter/handbook/"
+        >ligger åpent på GitHub</a
+      >
+      hvor
+      <a
+        href="https://help.github.com/articles/editing-files-in-your-repository/"
+        >alle kan sende inn endringer</a
+      >
+      eller
+      <a href="https://github.com/varianter/handbook/issues"
+        >stille spørsmål</a
+      >.
+    </p>
 
-		<p>
-			Om du ikke er en variant men liker det du leser,
-			<a href="https://www.variant.no/no/jobb"
-				>ta en titt på ledige stillinger hos oss</a
-			>. Mer info om oss på <a href="https://www.variant.no">nettsiden vår</a>.
-		</p>
+    <p>
+      Om du ikke er en variant men liker det du leser,
+      <a href="https://www.variant.no/no/jobb"
+        >ta en titt på ledige stillinger hos oss</a
+      >. Mer info om oss på <a href="https://www.variant.no">nettsiden vår</a>.
+    </p>
 
-		<SearchBox />
+    <SearchBox />
 
-		<h4>Fundamentet</h4>
+    <h4>Fundamentet</h4>
 
-		<p>
-			Her finner du alt om hvordan vi tenker og jobber i Variant – verdiene
-			våre, hvordan vi balanserer jobb og liv, og hvordan vi kompenserer våre
-			ansatte.
-		</p>
+    <p>
+      Her finner du alt om hvordan vi tenker og jobber i Variant – verdiene
+      våre, hvordan vi balanserer jobb og liv, og hvordan vi kompenserer våre
+      ansatte.
+    </p>
 
-		<ul>
-			{fundamentEntries.map((entry) => (
+    <ul>
+      {fundamentEntries.map((entry) => (
       <li>
         <a href={`/${entry.id}`}>{entry.data.navTitle ?? entry.data.title}</a>
         {entry.data.description && ` – ${entry.data.description}`}
       </li>
     ))}
-		</ul>
-	</div>
+    </ul>
+  </div>
 </SiteLayout>

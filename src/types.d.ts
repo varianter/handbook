@@ -1,7 +1,7 @@
 // Augment JSX/HTML types for newer web platform features not yet in Astro's
 // built-in type definitions (as of Astro 6.4 / TypeScript 6.0).
 
-import type { HTMLAttributes } from 'astro/types';
+import type { HTMLAttributes } from "astro/types";
 
 declare global {
   namespace astroHTML.JSX {
@@ -25,7 +25,7 @@ declare global {
 
   interface Navigation extends EventTarget {
     addEventListener(
-      type: 'navigate',
+      type: "navigate",
       listener: (event: NavigateEvent) => void,
       options?: boolean | AddEventListenerOptions,
     ): void;
@@ -33,5 +33,3 @@ declare global {
 
   var navigation: Navigation;
 }
-
-export {};

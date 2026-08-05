@@ -1,11 +1,12 @@
 ---
 // [...slug].astro — catch-all route for all content collection pages.
 // Replaces per-page `layout:` frontmatter with centralized layout selection.
-import { getCollection, render, type CollectionEntry } from 'astro:content';
-import ContentPageLayout from '../layouts/ContentPageLayout.astro';
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import ContentPageLayout from "../layouts/ContentPageLayout.astro";
 
 export async function getStaticPaths() {
-  const entries: CollectionEntry<'handbook'>[] = await getCollection('handbook');
+  const entries: CollectionEntry<"handbook">[] =
+    await getCollection("handbook");
   return entries.map((entry) => ({
     params: { slug: entry.id },
     props: { entry },
@@ -14,7 +15,6 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content, headings } = await render(entry);
-
 ---
 
 <ContentPageLayout frontmatter={entry.data} headings={headings} slug={entry.id}>

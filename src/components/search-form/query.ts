@@ -4,7 +4,7 @@
 // ---------------------------------------------------------------------------
 
 export function currentQuery(): string {
-  return new URL(location.href).searchParams.get('q') ?? '';
+  return new URL(location.href).searchParams.get("q") ?? "";
 }
 
 const subscribers = new Set<(q: string) => void>();
@@ -23,9 +23,9 @@ let lastNotified = currentQuery();
 export function setQuery(q: string): void {
   if (q === currentQuery()) return;
   const url = new URL(location.href);
-  if (q) url.searchParams.set('q', q);
-  else url.searchParams.delete('q');
-  history.replaceState(null, '', url);
+  if (q) url.searchParams.set("q", q);
+  else url.searchParams.delete("q");
+  history.replaceState(null, "", url);
 }
 
 export function onQueryChange(fn: (q: string) => void): void {
@@ -39,12 +39,12 @@ export function onQueryChange(fn: (q: string) => void): void {
 // navigations to the same path are intercepted so they don't reload; same-
 // document changes (replaceState) just notify. Absent the API, nothing here
 // runs and those navigations fall through to a real reload — the fallback.
-if ('navigation' in window) {
-  navigation.addEventListener('navigate', (event) => {
+if ("navigation" in window) {
+  navigation.addEventListener("navigate", (event) => {
     const dest = new URL(event.destination.url);
     if (dest.pathname !== location.pathname) return; // a real navigation elsewhere — let it go
 
-    const next = dest.searchParams.get('q') ?? '';
+    const next = dest.searchParams.get("q") ?? "";
     const notify = () => {
       // Dedupe, and avoid depending on whether location has committed yet
       // (replaceState vs. cross-document timing differs).

@@ -2,35 +2,35 @@
 import magnifyingGlassSvg from "../magnifyingGlass.svg";
 
 interface Props {
-	class?: string;
+  class?: string;
 }
 
 const { class: className } = Astro.props;
 ---
 
 <form
-	class:list={['header-search', 'pile', className]}
-	action="/soek"
-	method="get"
-	aria-label="Søk"
+  class:list={['header-search', 'pile', className]}
+  action="/soek"
+  method="get"
+  aria-label="Søk"
 >
-	<input
-		name="q"
-		type="search"
-		class="input pl-l w-full"
-		data-size="small"
-		aria-label="Søk"
-		autocomplete="off"
-		enterkeyhint="search"
-	>
-	<div style="justify-self: start" class="pl-xs pr-xs">
-		<img
-			src={magnifyingGlassSvg.src}
-			alt=""
-			aria-hidden="true"
-			width="30"
-			height="30"
-			style="width: 0.75em; height: 0.75em;"
-		>
-	</div>
+  <input
+    name="q"
+    type="search"
+    class="input pl-l w-full"
+    data-size="small"
+    aria-label="Søk"
+    autocomplete="off"
+    enterkeyhint="search"
+  >
+  <div style="justify-self: start" class="pl-xs pr-xs">
+    <img
+      src={magnifyingGlassSvg.src}
+      alt=""
+      aria-hidden="true"
+      width="30"
+      height="30"
+      style="width: 0.75em; height: 0.75em;"
+    >
+  </div>
 </form>

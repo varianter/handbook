@@ -1,6 +1,6 @@
-import { currentQuery, onQueryChange } from './query';
-import { search, type PagefindData, type SubResult } from './pagefind';
-import { find } from './dom';
+import { currentQuery, onQueryChange } from "./query";
+import { search, type PagefindData, type SubResult } from "./pagefind";
+import { find } from "./dom";
 
 // ---------------------------------------------------------------------------
 // <search-results> — reacts to the shared query and paints into author-supplied
@@ -16,26 +16,34 @@ import { find } from './dom';
 //            data-template="unavailable"    (optional — absent ⇒ nothing shown on failure)
 // ---------------------------------------------------------------------------
 
-const slot = <T extends Element>(root: ParentNode, name: string, ctor: new () => T): T =>
-  find(root, `[data-slot="${name}"]`, ctor);
+const slot = <T extends Element>(
+  root: ParentNode,
+  name: string,
+  ctor: new () => T,
+): T => find(root, `[data-slot="${name}"]`, ctor);
 
 class SearchResults extends HTMLElement {
   connectedCallback(): void {
-    const output = slot(this, 'output', HTMLElement);
+    const output = slot(this, "output", HTMLElement);
 
     const template = (name: string) =>
-      this.querySelector<HTMLTemplateElement>(`template[data-template="${name}"]`);
+      this.querySelector<HTMLTemplateElement>(
+        `template[data-template="${name}"]`,
+      );
     const required = (name: string): HTMLTemplateElement => {
       const t = template(name);
-      if (!t) throw new Error(`<search-results>: missing <template data-template="${name}">`);
+      if (!t)
+        throw new Error(
+          `<search-results>: missing <template data-template="${name}">`,
+        );
       return t;
     };
 
-    const tResult = required('result');
-    const tEmpty = required('empty');
-    const tSub = template('subresult');
-    const tLoading = template('loading');
-    const tUnavailable = template('unavailable');
+    const tResult = required("result");
+    const tEmpty = required("empty");
+    const tSub = template("subresult");
+    const tLoading = template("loading");
+    const tUnavailable = template("unavailable");
 
     const fill = (t: HTMLTemplateElement): HTMLElement =>
       t.content.firstElementChild!.cloneNode(true) as HTMLElement;
@@ -46,24 +54,24 @@ class SearchResults extends HTMLElement {
 
     const renderSub = (sr: SubResult): HTMLElement => {
       const el = fill(tSub!); // only called when tSub exists
-      const link = slot(el, 'link', HTMLAnchorElement);
+      const link = slot(el, "link", HTMLAnchorElement);
       link.href = sr.url;
       link.textContent = sr.title; // textContent: titles can't inject markup
-      slot(el, 'excerpt', HTMLElement).innerHTML = sr.excerpt; // Pagefind's own <mark> HTML
+      slot(el, "excerpt", HTMLElement).innerHTML = sr.excerpt; // Pagefind's own <mark> HTML
       return el;
     };
 
     const renderResult = (data: PagefindData): HTMLElement => {
       const el = fill(tResult);
-      const link = slot(el, 'link', HTMLAnchorElement);
+      const link = slot(el, "link", HTMLAnchorElement);
       link.href = data.url;
       link.textContent = data.meta?.title ?? data.url;
-      slot(el, 'excerpt', HTMLElement).innerHTML = data.excerpt;
+      slot(el, "excerpt", HTMLElement).innerHTML = data.excerpt;
 
       // Section-level hits (Pagefind splits on heading IDs); skip the page-level
       // entry (no #) — the title link already covers it.
       const host = el.querySelector('[data-slot="subs"]');
-      const subs = (data.sub_results ?? []).filter((s) => s.url.includes('#'));
+      const subs = (data.sub_results ?? []).filter((s) => s.url.includes("#"));
       if (host instanceof HTMLElement) {
         if (!tSub || !subs.length) host.remove();
         else {
@@ -98,4 +106,4 @@ class SearchResults extends HTMLElement {
   }
 }
 
-customElements.define('search-results', SearchResults);
+customElements.define("search-results", SearchResults);

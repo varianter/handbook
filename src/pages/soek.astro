@@ -1,11 +1,14 @@
+<!-- biome-ignore-all lint/a11y/noAutofocus: We want autofocus on this page -->
 ---
-import SiteLayout from '../layouts/SiteLayout.astro';
+import SiteLayout from "../layouts/SiteLayout.astro";
 ---
 
-<SiteLayout title='Søk i håndboken'>
-  <color-mode palette="blue" class="block pt-xl-2xl p-s-m bg-surface-sunken br-l">
-
-    <form role="search" class="search-form stack">
+<SiteLayout title="Søk i håndboken">
+  <color-mode
+    palette="blue"
+    class="block pt-xl-2xl p-s-m bg-surface-sunken br-l"
+  >
+    <form class="search-form stack">
       <label for="q" class="fs-l t-medium mb-xs">Søk i vår håndbok</label>
       <input
         id="q"
@@ -17,17 +20,22 @@ import SiteLayout from '../layouts/SiteLayout.astro';
         autocomplete="off"
         enterkeyhint="search"
         autofocus
-        autocomplete="off"
-      />
+      >
     </form>
 
-    <nav class="recent mt-m-l" aria-label="Andre har søkt etter" data-pagefind-ignore>
+    <nav
+      class="recent mt-m-l"
+      aria-label="Andre har søkt etter"
+      data-pagefind-ignore
+    >
       <h3>Andre har søkt etter</h3>
       <div class="chips stack-horizontal gap-xs">
         <a class="link" data-size="small" href="?q=Lønn">Lønn</a>
         <a class="link" data-size="small" href="?q=Aksjer">Aksjer</a>
         <a class="link" data-size="small" href="?q=Fordeler">Fordeler</a>
-        <a class="link" data-size="small" href="?q=Miljøfyrtårn">Miljøfyrtårn</a>
+        <a class="link" data-size="small" href="?q=Miljøfyrtårn"
+          >Miljøfyrtårn</a
+        >
       </div>
     </nav>
   </color-mode>
@@ -45,7 +53,10 @@ import SiteLayout from '../layouts/SiteLayout.astro';
         <p>🔎 Ingen direkte søkeresultater funnet.</p>
       </template>
       <template data-template="subresult">
-        <li><a data-slot="link"></a><p data-slot="excerpt"></p></li>
+        <li>
+          <a data-slot="link"></a>
+          <p data-slot="excerpt"></p>
+        </li>
       </template>
       <template data-template="loading">
         <p>Søker…</p>
@@ -59,23 +70,30 @@ import SiteLayout from '../layouts/SiteLayout.astro';
 </SiteLayout>
 
 <script>
-  import '../components/search-form/search-results';
-  import { currentQuery, setQuery, onQueryChange } from '../components/search-form/query';
-  import { find, debounce } from '../components/search-form/dom';
+import "../components/search-form/search-results";
+import { debounce, find } from "../components/search-form/dom";
+import {
+  currentQuery,
+  onQueryChange,
+  setQuery,
+} from "../components/search-form/query";
 
-  const input = find(document, 'input[name="q"]', HTMLInputElement);
-  input.value = currentQuery();
+const input = find(document, 'input[name="q"]', HTMLInputElement);
+input.value = currentQuery();
 
-  // Keep the field in sync when the query changes from elsewhere (chip clicks,
-  // deep links, browser back/forward).
-  onQueryChange((q) => {
-    if (input.value.trim() !== q) input.value = q;
-  });
+// Keep the field in sync when the query changes from elsewhere (chip clicks,
+// deep links, browser back/forward).
+onQueryChange((q) => {
+  if (input.value.trim() !== q) input.value = q;
+});
 
-  // Live typing: keystrokes aren't navigations, so push them to the URL
-  // ourselves. Only wired where the Navigation API can relay without a reload
-  // — elsewhere, Enter → form submit → full reload is the fallback.
-  if ('navigation' in window) {
-    input.addEventListener('input', debounce(() => setQuery(input.value.trim()), 250));
-  }
+// Live typing: keystrokes aren't navigations, so push them to the URL
+// ourselves. Only wired where the Navigation API can relay without a reload
+// — elsewhere, Enter → form submit → full reload is the fallback.
+if ("navigation" in window) {
+  input.addEventListener(
+    "input",
+    debounce(() => setQuery(input.value.trim()), 250),
+  );
+}
 </script>

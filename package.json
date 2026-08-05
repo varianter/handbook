@@ -1,28 +1,28 @@
 {
-	"name": "@variant/handbook-v3",
-	"version": "1.0.0",
-	"description": "Variants' handbook",
-	"type": "module",
-	"license": "MIT",
-	"engines": {
-		"node": "^22.0.0"
-	},
-	"scripts": {
-		"dev": "astro dev",
-		"build": "astro check && astro build && pagefind --site dist",
-		"preview": "astro preview",
-		"check": "biome check && astro check",
-		"sync": "astro sync",
-		"test": "node --test --experimental-strip-types"
-	},
-	"dependencies": {
-		"astro": "7.1.6"
-	},
-	"devDependencies": {
-		"@astrojs/check": "^0.9.10",
-		"@biomejs/biome": "2.5.7",
-		"@types/node": "^25.9.3",
-		"pagefind": "^1.5.2",
-		"typescript": "^6.0.3"
-	}
+  "name": "@variant/handbook-v3",
+  "version": "1.0.0",
+  "description": "Variants' handbook",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": "^22.0.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro check && astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "check": "biome check && astro check",
+    "sync": "astro sync",
+    "test": "node --test --experimental-strip-types"
+  },
+  "dependencies": {
+    "astro": "7.1.6"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@biomejs/biome": "2.5.7",
+    "@types/node": "^25.9.3",
+    "pagefind": "^1.5.2",
+    "typescript": "^6.0.3"
+  }
 }
