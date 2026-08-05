@@ -16,11 +16,10 @@
 		"test": "node --test --experimental-strip-types"
 	},
 	"dependencies": {
-		"@astrojs/mdx": "^6.0.1",
-		"astro": "6.4.7"
+		"astro": "7.1.6"
 	},
 	"devDependencies": {
-		"@astrojs/check": "^0.9.9",
+		"@astrojs/check": "^0.9.10",
 		"@biomejs/biome": "2.5.7",
 		"@types/node": "^25.9.3",
 		"pagefind": "^1.5.2",
