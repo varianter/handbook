@@ -6,12 +6,12 @@
 //
 // This is ONLY applicable for dev-mode. Production built separately.
 // ---------------------------------------------------------------------------
-import type { AstroIntegration, AstroIntegrationLogger } from "astro";
-import type { PagefindIndex, IndexFile } from "pagefind";
 
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import type { AstroIntegration, AstroIntegrationLogger } from "astro";
+import type { IndexFile, PagefindIndex } from "pagefind";
 
 // ── MIME ───────────────────────────────────────────────────────────
 // Pure helpers — no mutable state.
@@ -26,7 +26,9 @@ const MIME: Record<string, string> = {
 };
 
 function mimeFor(filePath: string): string {
-  return MIME[path.extname(filePath).toLowerCase()] ?? "application/octet-stream";
+  return (
+    MIME[path.extname(filePath).toLowerCase()] ?? "application/octet-stream"
+  );
 }
 
 // ── URL discovery ──────────────────────────────────────────────────
@@ -217,6 +219,37 @@ export function pagefindDev(): AstroIntegration {
   return {
     name: "pagefind-dev",
     hooks: {
+      "astro:config:setup": ({ injectScript }) => {
+        // Inline script injected into every page that loads pagefind
+        // and exposes it globally.  Inline = not processed by Vite, so
+        // the dynamic import is left as a native browser import()
+        injectScript(
+          "head-inline",
+          `(function() {
+            var pending = null;
+
+            window.__pagefindLoad = function() {
+              if (!pending) {
+                pending = import('/pagefind/pagefind.js')
+                  .then(function(m) { return m.search; })
+                  .catch(function() {
+                    console.warn('pagefind: index not available');
+                    return null;
+                  });
+              }
+              return pending;
+            };
+
+            // Pre-warm during idle so the first query is instant.
+            if (typeof requestIdleCallback === 'function') {
+              requestIdleCallback(function() { window.__pagefindLoad(); });
+            } else {
+              setTimeout(function() { window.__pagefindLoad(); }, 2000);
+            }
+          })();`.trim(),
+        );
+      },
+
       "astro:config:done": ({ config }) => {
         srcDir = config.srcDir;
       },
