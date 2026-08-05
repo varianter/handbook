@@ -9,9 +9,9 @@ import SiteLayout from "./SiteLayout.astro";
 import type { Heading, TocItem } from "./types";
 
 export interface Props {
-	frontmatter?: CollectionEntry<"handbook">["data"];
-	headings?: Heading[];
-	slug?: string;
+  frontmatter?: CollectionEntry<"handbook">["data"];
+  headings?: Heading[];
+  slug?: string;
 }
 
 const { frontmatter, headings = [] } = Astro.props;
@@ -21,82 +21,98 @@ const pageDescription = frontmatter?.description;
 const showToc = frontmatter?.toc ?? false;
 
 function buildTocTree(headings: Heading[]): TocItem[] {
-	const root: TocItem[] = [];
-	const stack: TocItem[] = [];
+  const root: TocItem[] = [];
+  const stack: TocItem[] = [];
 
-	for (const h of headings) {
-		const item: TocItem = {
-			value: h.text,
-			slug: h.slug,
-			depth: h.depth,
-			children: [],
-		};
+  for (const h of headings) {
+    const item: TocItem = {
+      value: h.text,
+      slug: h.slug,
+      depth: h.depth,
+      children: [],
+    };
 
-		while (stack.length > 0 && stack[stack.length - 1].depth >= h.depth) {
-			stack.pop();
-		}
+    while (stack.length > 0 && stack[stack.length - 1].depth >= h.depth) {
+      stack.pop();
+    }
 
-		if (stack.length === 0) {
-			root.push(item);
-		} else {
-			stack[stack.length - 1].children.push(item);
-		}
-		stack.push(item);
-	}
-	return root;
+    if (stack.length === 0) {
+      root.push(item);
+    } else {
+      stack[stack.length - 1].children.push(item);
+    }
+    stack.push(item);
+  }
+  return root;
 }
 
 const tocTree = buildTocTree(headings);
 // If the first root item is an h1 (depth 1), use its children as the page-level TOC.
 // Otherwise (e.g. no h1 in the markdown body), use root items directly.
 const pageHeadings =
-	tocTree[0]?.depth === 1 ? (tocTree[0]?.children ?? []) : tocTree;
+  tocTree[0]?.depth === 1 ? (tocTree[0]?.children ?? []) : tocTree;
 
 const lastCommit = frontmatter?.lastCommit ?? null;
 ---
 
 <SiteLayout title={pageTitle}>
-	<div class="content-layout pt-xl pb-m">
-		<div
-			class="mx-auto typeset w-full"
-			style="grid-row: span 2;"
-			stagger-reveal
-		>
-			<h1>{pageTitle}</h1>
-			<p class="mt-0">{pageDescription}</p>
-			<LastCommit lastCommit={lastCommit} />
-		</div>
-	</div>
-	<div class="content-layout mt-l-xl stack-horizontal items-start">
-		<article
-			style="grid-area: content;"
-			stagger-reveal
-			class="handbook typeset mx-auto "
-			data-pagefind-body
-		>
-			<slot />
-		</article>
-		{showToc &&
+  <div class="content-layout pt-xl pb-m">
+    <div
+      class="mx-auto typeset w-full"
+      style="grid-row: span 2;"
+      stagger-reveal
+    >
+      <h1>{pageTitle}</h1>
+      <p class="mt-0">{pageDescription}</p>
+      <LastCommit lastCommit={lastCommit} />
+    </div>
+  </div>
+  <div class="content-layout mt-l-xl stack-horizontal items-start">
+    <article
+      style="grid-area: content;"
+      stagger-reveal
+      class="handbook typeset mx-auto "
+      data-pagefind-body
+    >
+      <slot />
+    </article>
+    {showToc &&
   <div style="grid-area: sidebar;">
     <SidebarNav
       headings={showToc ? pageHeadings : []}
     />
   </div>}
-	</div>
+  </div>
 </SiteLayout>
 
 <style>
 .content-layout {
-	display: grid;
-	grid-template-columns: 1fr 240px;
-	grid-template-areas: "content sidebar";
-	gap: var(--spacing-l-xl);
+  display: grid;
+  grid-template-columns: 1fr 240px;
+  grid-template-areas: "content sidebar";
+  gap: var(--spacing-l-xl);
 
-	@media (max-width: 800px) {
-		grid-template-columns: 1fr;
-		grid-template-areas:
-			"sidebar"
-			"content";
-	}
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "sidebar"
+      "content";
+  }
+}
+</style>
+
+<style is:global>
+:where(h1, h2, h3, h4, h5, h6):target {
+  --target-offset: var(--spacing-2xs);
+  border-left: 2px solid;
+  padding-left: var(--target-offset);
+  translate: calc(var(--target-offset) * -1);
+  background: var(--surface-sunken);
+  outline: var(--spacing-3xs) solid var(--surface-sunken);
+}
+
+:where(h1, h2, h3, h4, h5, h6) {
+  /* When clicking internal anchors, this makes content doesn't wind up below the nav */
+  scroll-margin-top: 10rem;
 }
 </style>

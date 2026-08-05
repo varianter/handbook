@@ -4,20 +4,20 @@ import type { HandbookLink } from "../types";
 import HeaderSearch from "./HeaderSearch.astro";
 
 interface Props {
-	handbooks: HandbookLink[];
-	asPath: string;
-	subItemsCache: Record<string, NavItem[]>;
+  handbooks: HandbookLink[];
+  asPath: string;
+  subItemsCache: Record<string, NavItem[]>;
 }
 
 const { handbooks, asPath, subItemsCache } = Astro.props;
 
 function getSubItems(path: string): NavItem[] {
-	return subItemsCache[path] ?? [];
+  return subItemsCache[path] ?? [];
 }
 ---
 
 <ul class="header__handbooks stack-horizontal gap-3xs mx-auto">
-	{handbooks.map((handbook) => {
+  {handbooks.map((handbook) => {
     const isActive = `/${handbook.path}` === asPath ||
       (asPath === '/' && handbook.path === '') ||
       (handbook.path !== '' && asPath.startsWith(`/${handbook.path}`));
@@ -61,70 +61,66 @@ function getSubItems(path: string): NavItem[] {
 
 <!-- Hidden on mobile; the MobileNav popover has its own search field. -->
 <div class="header-search--desktop">
-	<HeaderSearch />
+  <HeaderSearch />
 </div>
 
 <style>
 .header-popover {
-	position: fixed;
-	position-anchor: auto;
-	top: anchor(bottom);
-	left: anchor(left);
+  position: fixed;
+  position-anchor: auto;
+  top: anchor(bottom);
+  left: anchor(left);
 
-	margin: 0;
-	margin-top: var(--spacing-m);
-	padding: var(--spacing-s-m);
-	border: none;
-	background: var(--surface-raised);
-	max-width: 28ch;
-	min-width: 15ch;
+  margin: 0;
+  margin-top: var(--spacing-m);
+  padding: var(--spacing-xs-s) var(--spacing-s-m);
+  border: none;
+  background: var(--surface-raised);
+  max-width: 28ch;
+  min-width: 15ch;
 
-	transition:
-		opacity 0.2s ease-out,
-		transform 0.2s ease-out,
-		overlay 0.2s ease-out allow-discrete,
-		display 0.2s ease-out allow-discrete;
-	opacity: 0;
-	transform: translateY(0rem);
+  transition:
+    opacity 0.2s ease-out,
+    transform 0.2s ease-out,
+    overlay 0.2s ease-out allow-discrete,
+    display 0.2s ease-out allow-discrete;
+  opacity: 0;
+  transform: translateY(0rem);
 
-	&:popover-open {
-		opacity: 1;
-		transform: none;
+  &:popover-open {
+    opacity: 1;
+    transform: none;
 
-		@starting-style {
-			opacity: 0;
-			transform: translateY(-0.5rem);
-		}
-	}
+    @starting-style {
+      opacity: 0;
+      transform: translateY(-0.5rem);
+    }
+  }
 }
 
 .subnav-link {
-	text-decoration: none;
-	display: inline-flex;
-	flex-direction: column;
-	color: currentColor;
-	font-size: var(--font-size-xs);
+  text-decoration: none;
+  display: inline-flex;
+  flex-direction: column;
+  color: currentColor;
+  font-size: var(--font-size-xs);
 }
 
 .subnav-description {
-	color: var(--foreground-muted);
-	text-wrap: pretty;
+  color: var(--foreground-muted);
+  text-wrap: pretty;
 }
 
 @media (max-width: 800px) {
-	.header__handbooks {
-		display: none;
-	}
+  .header__handbooks {
+    display: none;
+  }
 
-	.header-search--desktop {
-		display: none;
-	}
+  .header-search--desktop {
+    display: none;
+  }
 }
 </style>
 
 <style is:global>
-:where(h1, h2, h3, h4, h5, h6) {
-	/* When clicking internal anchors, this makes content doesn't wind up below the nav */
-	scroll-margin-top: 10rem;
-}
 </style>
