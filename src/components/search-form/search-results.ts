@@ -1,6 +1,6 @@
-import { currentQuery, onQueryChange } from "./query";
-import { search, type PagefindData, type SubResult } from "./pagefind";
 import { find } from "./dom";
+import { type PagefindData, type SubResult, search } from "./pagefind";
+import { currentQuery, onQueryChange } from "./query";
 
 // ---------------------------------------------------------------------------
 // <search-results> — reacts to the shared query and paints into author-supplied

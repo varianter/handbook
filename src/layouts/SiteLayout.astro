@@ -1,10 +1,11 @@
 ---
 // SiteLayout.astro — site-wide chrome: HTML shell + header + footer.
 // Pre-fetches sub-navigation data once and passes it down to Header and SiteFooter.
+
+import { getSectionPages, HANDBOOK_SECTIONS } from "../config/navigation";
 import BaseLayout from "./BaseLayout.astro";
-import SiteHeader from "./SiteHeader.astro";
 import SiteFooter from "./SiteFooter.astro";
-import { HANDBOOK_SECTIONS, getSectionPages } from "../config/navigation";
+import SiteHeader from "./SiteHeader.astro";
 
 export interface Props {
   title?: string;

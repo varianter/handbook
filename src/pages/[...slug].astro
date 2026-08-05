@@ -1,7 +1,7 @@
 ---
 // [...slug].astro — catch-all route for all content collection pages.
 // Replaces per-page `layout:` frontmatter with centralized layout selection.
-import { getCollection, render, type CollectionEntry } from "astro:content";
+import { type CollectionEntry, getCollection, render } from "astro:content";
 import ContentPageLayout from "../layouts/ContentPageLayout.astro";
 
 export async function getStaticPaths() {
