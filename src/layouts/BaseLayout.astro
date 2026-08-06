@@ -1,5 +1,4 @@
 ---
-
 export interface Props {
   title?: string;
   description?: string;
@@ -7,64 +6,71 @@ export interface Props {
 }
 
 const {
-  title = 'Variant Håndbok',
-  description = 'En variants håndbok. Hvordan ting gjøres i Variant, hva vi prøver å oppnå og hvorfor vi tenker som vi gjør',
-  ogImage = 'https://www.variant.no/og-header-min.png',
+  title = "Variant Håndbok",
+  description = "En variants håndbok. Hvordan ting gjøres i Variant, hva vi prøver å oppnå og hvorfor vi tenker som vi gjør",
+  ogImage = "https://www.variant.no/og-header-min.png",
 } = Astro.props;
-
 ---
 
 <!doctype html>
 <html lang="no" class="fg-default bg-surface-default">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>{title}</title>
-    <meta name="description" content={description} />
+    <meta name="description" content={description}>
 
     <link
       rel="icon"
       type="image/svg+xml"
       href="https://varde.variant.dev/static/logos/variant-favicon.svg"
-    />
+    >
 
-    <link rel="preload" as="font" type="font/ttf" crossorigin href="https://varde.variant.dev/static/font/varde-bs-variable.ttf" />
-    <link rel="stylesheet" href="https://varde.variant.dev/v/0.3.1/styles.css" />
+    <link
+      rel="preload"
+      as="font"
+      type="font/ttf"
+      crossorigin
+      href="https://varde.variant.dev/static/font/varde-bs-variable.ttf"
+    >
+    <link rel="stylesheet" href="https://varde.variant.dev/v/0.3.1/styles.css">
 
-    <link rel="prefetch" href="/pagefind/pagefind.js" />
+    <link rel="prefetch" href="/pagefind/pagefind.js">
 
     <!-- Open Graph -->
-    <meta property="og:title" content={title} />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://handbook.variant.no/" />
-    <meta property="og:image" content={ogImage} />
+    <meta property="og:title" content={title}>
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://handbook.variant.no/">
+    <meta property="og:image" content={ogImage}>
 
-    <meta name="generator" content={Astro.generator} />
-
+    <meta name="generator" content={Astro.generator}>
 
     <!-- Matomo Analytics (production only) -->
-    {import.meta.env.PROD && (
-      <script is:inline>
-        var _paq = _paq || [];
-        _paq.push(["disableCookies"]);
-        _paq.push(["trackPageView"]);
-        _paq.push(["enableLinkTracking"]);
-        (function() {
-          var u = "https://variant.innocraft.cloud/";
-          _paq.push(["setTrackerUrl", u + "piwik.php"]);
-          _paq.push(["setSiteId", "2"]);
-          var d = document,
-            g = d.createElement("script"),
-            s = d.getElementsByTagName("script")[0];
-          g.type = "text/javascript";
-          g.async = true;
-          g.defer = true;
-          g.src = u + "piwik.js";
-          s.parentNode.insertBefore(g, s);
-        })();
-      </script>
-    )}
+    <script>
+    // @ts-nocheck
+    /* biome-ignore-start lint: battle tested */
+    if (import.meta.env.PROD) {
+      var _paq = _paq || [];
+      _paq.push(["disableCookies"]);
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+      (function () {
+        var u = "https://variant.innocraft.cloud/";
+        _paq.push(["setTrackerUrl", u + "piwik.php"]);
+        _paq.push(["setSiteId", "2"]);
+        var d = document,
+          g = d.createElement("script"),
+          s = d.getElementsByTagName("script")[0];
+        g.type = "text/javascript";
+        g.async = true;
+        g.defer = true;
+        g.src = u + "piwik.js";
+        s.parentNode.insertBefore(g, s);
+      })();
+      /* biome-ignore-end lint: battle tested */
+    }
+    </script>
   </head>
   <body class="fs-m">
     <main class="main">
@@ -74,12 +80,10 @@ const {
 </html>
 
 <style>
-  .main {
-    max-width: 1200px;
-    margin-inline: auto;
-    padding-inline: var(--spacing-m-l);
-    padding-block: var(--spacing-l);
-  }
-
-
+.main {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: var(--spacing-m-l);
+  padding-block: var(--spacing-l);
+}
 </style>

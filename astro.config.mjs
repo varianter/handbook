@@ -1,16 +1,16 @@
 import { defineConfig } from "astro/config";
-import { pagefindDev } from "./src/integrations/pagefind-dev.ts";
+import pagefind from "./src/integrations/pagefind.ts";
 
 export default defineConfig({
-	integrations: [pagefindDev()],
-	redirects: {
-		"/avdelinger": "/avdelinger/trondheim",
-	},
-	vite: {
-		resolve: {
-			alias: {
-				src: "/src",
-			},
-		},
-	},
+  integrations: [pagefind()],
+  redirects: {
+    "/avdelinger": "/avdelinger/trondheim",
+  },
+  vite: {
+    resolve: {
+      alias: {
+        src: "/src",
+      },
+    },
+  },
 });

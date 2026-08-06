@@ -1,7 +1,9 @@
 // ---------------------------------------------------------------------------
-// Pagefind — thin wrapper around the global loader injected by the
-// pagefind-dev integration (see src/integrations/pagefind-dev.ts).
-// No dynamic import here → no Vite transformation → no __VITE_PRELOAD__ issues.
+// Pagefind — thin wrapper. The actual pagefind.js bundle is loaded via a
+// global injected by the pagefind integration as a head-inline script.
+//
+// This avoids Vite's import analysis trying to resolve /pagefind/pagefind.js,
+// which is served at runtime by the integration's middleware.
 // ---------------------------------------------------------------------------
 
 export interface SubResult {
