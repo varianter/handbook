@@ -24,9 +24,23 @@ export interface GitMeta {
 // Remote is stable for the lifetime of a build; resolved lazily and cached.
 let originOwnerRepo: string | null | undefined;
 
-/** Resolves `origin` to an `owner/repo` string, or null if it isn't GitHub. */
+/**
+ * Resolves the GitHub `owner/repo` slug.
+ *
+ * In Vercel CI the clone has no `origin` remote, so we prefer Vercel's own
+ * build-time env vars. Falls back to `git remote get-url origin` for local dev.
+ */
 function resolveOwnerRepo(): string | null {
   if (originOwnerRepo !== undefined) return originOwnerRepo;
+
+  // Vercel provides these at build time — use them when available.
+  const vercelOwner = process.env.VERCEL_GIT_REPO_OWNER;
+  const vercelRepo = process.env.VERCEL_GIT_REPO_SLUG;
+  if (vercelOwner && vercelRepo) {
+    originOwnerRepo = `${vercelOwner}/${vercelRepo}`;
+    return originOwnerRepo;
+  }
+
   try {
     const url = execFileSync("git", ["remote", "get-url", "origin"], {
       encoding: "utf-8",
