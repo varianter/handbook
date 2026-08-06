@@ -1,4 +1,3 @@
-<!-- biome-ignore-all lint/a11y/noAutofocus: We want autofocus on this page -->
 ---
 import SiteLayout from "../layouts/SiteLayout.astro";
 ---
@@ -19,7 +18,6 @@ import SiteLayout from "../layouts/SiteLayout.astro";
         aria-label="Søk"
         autocomplete="off"
         enterkeyhint="search"
-        autofocus
       >
     </form>
 
@@ -68,6 +66,38 @@ import SiteLayout from "../layouts/SiteLayout.astro";
     </search-results>
   </div>
 </SiteLayout>
+
+<script is:inline>
+// Lazy-load the pagefind search module. The /pagefind/pagefind.js bundle
+// is served by the pagefind integration's dev middleware (or the built
+// bundle in prod).
+(() => {
+  var pending = null;
+
+  window.__pagefindLoad = () => {
+    if (!pending) {
+      pending = import("/pagefind/pagefind.js")
+        .then((m) => m.search)
+        .catch(() => {
+          console.warn("pagefind: index not available");
+          return null;
+        });
+    }
+    return pending;
+  };
+
+  // Pre-warm during idle so the first query is instant.
+  if (typeof requestIdleCallback === "function") {
+    requestIdleCallback(() => {
+      window.__pagefindLoad();
+    });
+  } else {
+    setTimeout(() => {
+      window.__pagefindLoad();
+    }, 2000);
+  }
+})();
+</script>
 
 <script>
 import "../components/search-form/search-results";
