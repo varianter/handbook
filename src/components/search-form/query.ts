@@ -50,7 +50,9 @@ if ("navigation" in window) {
       // (replaceState vs. cross-document timing differs).
       if (next === lastNotified) return;
       lastNotified = next;
-      subscribers.forEach((fn) => fn(next));
+      subscribers.forEach((fn) => {
+        fn(next);
+      });
     };
 
     // Cross-document navs (form GET, link click) must be intercepted to stay

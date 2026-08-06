@@ -45,15 +45,19 @@ class SearchResults extends HTMLElement {
     const tLoading = template("loading");
     const tUnavailable = template("unavailable");
 
-    const fill = (t: HTMLTemplateElement): HTMLElement =>
-      t.content.firstElementChild!.cloneNode(true) as HTMLElement;
+    const fill = (t: HTMLTemplateElement): HTMLElement => {
+      const el = t.content.firstElementChild;
+      if (!el) throw new Error("Template has no first element child");
+      return el.cloneNode(true) as HTMLElement;
+    };
 
     // For optional states: clone the template if present, otherwise clear.
     const showOptional = (t: HTMLTemplateElement | null): void =>
       output.replaceChildren(...(t ? [fill(t)] : []));
 
     const renderSub = (sr: SubResult): HTMLElement => {
-      const el = fill(tSub!); // only called when tSub exists
+      if (!tSub) throw new Error("subresult template missing");
+      const el = fill(tSub);
       const link = slot(el, "link", HTMLAnchorElement);
       link.href = sr.url;
       link.textContent = sr.title; // textContent: titles can't inject markup

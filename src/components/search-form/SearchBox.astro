@@ -3,7 +3,7 @@ export interface Props {
   currentSearch?: string;
   autofocus?: boolean;
 }
-const { currentSearch = "", autofocus = false } = Astro.props;
+const { currentSearch = "" } = Astro.props;
 ---
 
 <color-mode
@@ -19,7 +19,6 @@ const { currentSearch = "", autofocus = false } = Astro.props;
         class="input flex-1"
         name="q"
         value={currentSearch}
-        autofocus={autofocus}
       >
       <button class="button" data-color="inherit" type="submit">Søk</button>
     </div>

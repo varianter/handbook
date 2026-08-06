@@ -1,3 +1,4 @@
+// biome-ignore lint/suspicious/noExplicitAny: what else? :D
 export function debounce<T extends (...args: any[]) => void>(
   fn: T,
   ms: number,
