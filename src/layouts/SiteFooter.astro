@@ -1,7 +1,8 @@
 ---
 // SiteFooter.astro — global footer with site-wide navigation, social media links and CC license.
-import type { HandbookLink } from './types';
-import type { NavItem } from '../config/navigation';
+
+import type { NavItem } from "../config/navigation";
+import type { HandbookLink } from "./types";
 
 interface Props {
   handbooks: HandbookLink[];
@@ -16,12 +17,10 @@ function getSubItems(path: string): NavItem[] {
 }
 ---
 
-
 <footer class="footer pt-2xl">
   <nav class="py-xl">
     <ul class="stack-horizontal items-start gap-xl">
-      {
-        handbooks.map((handbook) => {
+      {handbooks.map((handbook) => {
           const _isActive = `/${handbook.path}` === asPath ||
             (asPath === '/' && handbook.path === '') ||
             (handbook.path !== '' && asPath.startsWith(`/${handbook.path}`));
@@ -43,42 +42,60 @@ function getSubItems(path: string): NavItem[] {
               </ul>
             </li>
           );
-        })
-      }
+        })}
     </ul>
   </nav>
 
-
-  <div class="py-xs stack-horizontal gap-s" >
+  <div class="py-xs stack-horizontal gap-s">
     <ul class="stack-horizontal justify-center gap-xs mr-auto">
       <li>
         <a href="https://blog.variant.no" title="Variant Blogg" rel="external">
-          <img src="/assets/logos/medium.svg" alt="Variant på Medium.com" />
+          <img src="/assets/logos/medium.svg" alt="Variant på Medium.com">
         </a>
       </li>
       <li>
-        <a href="https://github.com/varianter" title="Variant på Github" rel="external">
-          <img src="/assets/logos/github.svg" alt="Variant på Github" />
+        <a
+          href="https://github.com/varianter"
+          title="Variant på Github"
+          rel="external"
+        >
+          <img src="/assets/logos/github.svg" alt="Variant på Github">
         </a>
       </li>
       <li>
-        <a href="https://instagram.com/variant_as" title="Variant på Instagram" rel="external">
-          <img src="/assets/logos/instagram.svg" alt="Variant på Instagram" />
+        <a
+          href="https://instagram.com/variant_as"
+          title="Variant på Instagram"
+          rel="external"
+        >
+          <img src="/assets/logos/instagram.svg" alt="Variant på Instagram">
         </a>
       </li>
       <li>
-        <a href="https://fb.me/varianter" title="Variant på Facebook" rel="external">
-          <img src="/assets/logos/facebook.svg" alt="Variant på Facebook" />
+        <a
+          href="https://fb.me/varianter"
+          title="Variant på Facebook"
+          rel="external"
+        >
+          <img src="/assets/logos/facebook.svg" alt="Variant på Facebook">
         </a>
       </li>
       <li>
-        <a href="https://www.linkedin.com/company/variant-as/" title="Variant på LinkedIn" rel="external">
-          <img src="/assets/logos/linkedin.svg" alt="Variant på LinkedIn" />
+        <a
+          href="https://www.linkedin.com/company/variant-as/"
+          title="Variant på LinkedIn"
+          rel="external"
+        >
+          <img src="/assets/logos/linkedin.svg" alt="Variant på LinkedIn">
         </a>
       </li>
     </ul>
     <div class="stack items-center py-2xs">
-      <a class="t-bold fs-xs" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <a
+        class="t-bold fs-xs"
+        rel="license"
+        href="http://creativecommons.org/licenses/by-sa/4.0/"
+      >
         CC BY-SA 4.0
       </a>
     </div>

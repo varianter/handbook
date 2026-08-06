@@ -1,6 +1,6 @@
 {
-	"buildCommand": "astro build && pagefind --site dist",
-	"outputDirectory": "dist",
-	"installCommand": "npm ci",
-	"framework": "astro"
+  "buildCommand": "astro build && pagefind --site dist",
+  "outputDirectory": "dist",
+  "installCommand": "npm ci",
+  "framework": "astro"
 }

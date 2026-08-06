@@ -3,21 +3,24 @@ export interface Props {
   currentSearch?: string;
   autofocus?: boolean;
 }
-const { currentSearch = '', autofocus = false } = Astro.props;
+const { currentSearch = "" } = Astro.props;
 ---
-<color-mode palette="blue" class="block px-m-l py-m mx--m-l my-xl br-l bg-surface-sunken ">
-    <form method="get" action="/soek">
-      <label for="search" class="mb-xs form-label">Hva leter du etter?</label>
-      <div class="stack-horizontal gap-s">
-        <input
-          id="search"
-          type="text"
-          class="input flex-1"
-          name="q"
-          value={currentSearch}
-          autofocus={autofocus}
-        />
-        <button class="button" data-color="inherit" type="submit">Søk</button>
-      </div>
-    </form>
+
+<color-mode
+  palette="blue"
+  class="block px-m-l py-m mx--m-l my-xl br-l bg-surface-sunken "
+>
+  <form method="get" action="/soek">
+    <label for="search" class="mb-xs form-label">Hva leter du etter?</label>
+    <div class="stack-horizontal gap-s">
+      <input
+        id="search"
+        type="text"
+        class="input flex-1"
+        name="q"
+        value={currentSearch}
+      >
+      <button class="button" data-color="inherit" type="submit">Søk</button>
+    </div>
+  </form>
 </color-mode>

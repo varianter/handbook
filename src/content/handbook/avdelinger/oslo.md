@@ -48,9 +48,10 @@ For tiden har følgende varianter personalansvar:
 - Nikolai
 - Even
 - Charlotte
-- Sarah
 - Marthe
 - Kristoffer
+- Anina
+- Jonas R.
 
 Relasjonen mellom deg og personallederen er basert på coaching. Se også
 [listen over hvem som har lederansvar for hvem](https://varianttrh.sharepoint.com/:x:/g/Ec7R5SqfFFlJsPIXPYCZHqkBgw6eytVEbqY3CTjXJCyANw?e=8gavud).

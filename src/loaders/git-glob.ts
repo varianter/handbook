@@ -3,8 +3,8 @@ import { glob } from "astro/loaders";
 import { augmentWithGitMeta } from "./git-meta.js";
 
 interface GitGlobOptions {
-	pattern: string | Array<string>;
-	base: string;
+  pattern: string | Array<string>;
+  base: string;
 }
 
 /**
@@ -18,19 +18,19 @@ interface GitGlobOptions {
  * there; this wrapper only wires it into Astro's loader pipeline.
  */
 export function gitGlobLoader(options: GitGlobOptions): Loader {
-	const inner = glob(options);
+  const inner = glob(options);
 
-	return {
-		name: "git-glob",
-		load: async (context: LoaderContext) => {
-			const wrappedContext: LoaderContext = {
-				...context,
-				parseData: async (props) => {
-					const augmentedData = augmentWithGitMeta(props.filePath, props.data);
-					return context.parseData({ ...props, data: augmentedData });
-				},
-			};
-			await inner.load(wrappedContext);
-		},
-	};
+  return {
+    name: "git-glob",
+    load: async (context: LoaderContext) => {
+      const wrappedContext: LoaderContext = {
+        ...context,
+        parseData: async (props) => {
+          const augmentedData = augmentWithGitMeta(props.filePath, props.data);
+          return context.parseData({ ...props, data: augmentedData });
+        },
+      };
+      await inner.load(wrappedContext);
+    },
+  };
 }

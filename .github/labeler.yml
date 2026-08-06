@@ -1,5 +1,13 @@
 text:
-  - src/content/**/*.md
+  - changed-files:
+      - any-glob-to-any-file: src/content/**/*.md
 
 code:
-  - src/**/*.{js,ts,tsx,html,css,astro}
+  - changed-files:
+      - any-glob-to-any-file:
+          - src/**/*.js
+          - src/**/*.ts
+          - src/**/*.tsx
+          - src/**/*.html
+          - src/**/*.css
+          - src/**/*.astro
