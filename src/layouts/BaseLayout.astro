@@ -47,7 +47,8 @@ const {
     <meta name="generator" content={Astro.generator}>
 
     <!-- Matomo Analytics (production only) -->
-    <script is:inline>
+    <script>
+    // @ts-nocheck
     /* biome-ignore-start lint: battle tested */
     if (import.meta.env.PROD) {
       var _paq = _paq || [];
