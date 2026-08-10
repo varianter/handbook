@@ -12,10 +12,12 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "check": "biome check && astro check",
+    "format": "biome format --write",
     "sync": "astro sync",
     "test": "node --test --experimental-strip-types"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.3",
     "astro": "7.1.6"
   },
   "devDependencies": {
