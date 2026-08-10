@@ -4,15 +4,22 @@
 
 Edit text by changing files in [pages](./pages).
 
-## Development
+## Commands
 
-`yarn` to install dependencies
+All commands are run from the root of the project, from a terminal:
 
-`yarn dev` to run development server
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
 ## Configuration
 
-You'll need biome to get formatting in your editor, but other than that: `npm install && npm run dev`.
+You'll need biome to get formatting in your editor.
 
 ### Architecture and design decisions
 
