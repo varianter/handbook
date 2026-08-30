@@ -12,7 +12,7 @@ Vi holder til, så lenge vi ikke er ute hos våre kunder, hos
 
 ### Wifi
 
-Når du jobber på kontoret bruker du enn så lenge mobil hotspot.
+Når du jobber på kontoret bruker du wifi-nettverket med ID: Variant
 
 ### Sykkelparkering
 
@@ -27,11 +27,10 @@ Hvis du får en faktura som skal betales av Variant Stavanger sendes den til
 
 ### Ledelse
 
-- CEO: Tonje
+- CEO: Anders H
+- Forretningsutvikler: Tonje
 - CCO: Per Kristian
 - CDO: Yann
-- CTO: Eugene
-- CSO: Anita
 
 ## Helse, miljø og sikkerhet
 
