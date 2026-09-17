@@ -41,17 +41,17 @@ const { handbooks, asPath, subItemsCache } = Astro.props;
 </header>
 
 <style>
+.header-nav {
+  anchor-name: --header-nav;
+}
+
 .header {
   margin-inline: auto;
   z-index: 1;
 
-  @media (min-width: 800px) {
+  @media (width >= 800px) {
     position: sticky;
     top: var(--spacing-m);
   }
-}
-
-.header-nav {
-  anchor-name: --header-nav;
 }
 </style>
