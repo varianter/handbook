@@ -8,21 +8,21 @@ const { headings } = Astro.props;
 ---
 
 {headings.length > 0 && (
-  <nav class="page-toc lh-tight" data-page-toc>
-    <ol class="">
+  <nav class="page-toc lh-tight" data-page-toc >
+    <ol class="of-clip" stagger-items>
       {headings.map((h2) => (
         <li class="fs-m">
-          <a class="fs-s block px-xs py-2xs b-b b-faint" href={`#${h2.slug}`}>{h2.value}</a>
+          <a class="fs-s d-block px-xs py-2xs b-b bc-subtle bg-wash:hover" href={`#${h2.slug}`}>{h2.value}</a>
           {h2.children.length > 0 && (
             <ol class="">
               {h2.children.map((h3) => (
                 <li class="">
-                  <a class="fs-s block px-s py-2xs b-b b-faint" href={`#${h3.slug}`}>{h3.value}</a>
+                  <a class="fs-s d-block px-s py-2xs b-b bc-subtle bg-wash:hover" href={`#${h3.slug}`}>{h3.value}</a>
                   {h3.children.length > 0 && (
                     <ol class="">
                       {h3.children.map((h4) => (
                         <li>
-                          <a class="fs-s block px-m py-2xs b-b b-faint" href={`#${h4.slug}`}>{h4.value}</a>
+                          <a class="fs-s d-block px-m py-2xs b-b bc-subtle bg-wash:hover" href={`#${h4.slug}`}>{h4.value}</a>
                         </li>
                       ))}
                     </ol>

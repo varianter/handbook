@@ -58,20 +58,20 @@ const lastCommit = frontmatter?.lastCommit ?? null;
 <SiteLayout title={pageTitle}>
   <div class="content-layout pt-xl pb-m">
     <div
-      class="mx-auto typeset w-full"
+      class="mx-auto v-typeset w-full"
       style="grid-row: span 2;"
-      stagger-reveal
+      stagger-items
     >
       <h1>{pageTitle}</h1>
       <p class="mt-0">{pageDescription}</p>
       <LastCommit lastCommit={lastCommit} />
     </div>
   </div>
-  <div class="content-layout mt-l-xl stack-horizontal items-start">
+  <div class="content-layout mt-l-xl stack-h items-start">
     <article
       style="grid-area: content;"
-      stagger-reveal
-      class="handbook typeset mx-auto "
+      stagger-items
+      class="handbook v-typeset"
       data-pagefind-body
     >
       <slot />
@@ -91,6 +91,7 @@ const lastCommit = frontmatter?.lastCommit ?? null;
   grid-template-columns: 1fr 240px;
   grid-template-areas: "content sidebar";
   gap: var(--spacing-l-xl);
+  padding-inline: var(--spacing-s);
 
   @media (max-width: 800px) {
     grid-template-columns: 1fr;
@@ -107,8 +108,8 @@ const lastCommit = frontmatter?.lastCommit ?? null;
   border-left: 2px solid;
   padding-left: var(--target-offset);
   translate: calc(var(--target-offset) * -1);
-  background: var(--surface-sunken);
-  outline: var(--spacing-3xs) solid var(--surface-sunken);
+  background: var(--surface-dyed);
+  outline: var(--spacing-3xs) solid var(--surface-dyed);
 }
 
 :where(h1, h2, h3, h4, h5, h6) {
