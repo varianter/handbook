@@ -6,21 +6,18 @@ export interface Props {
 const { currentSearch = "" } = Astro.props;
 ---
 
-<color-mode
-  palette="blue"
-  class="block px-m-l py-m mx--m-l my-xl br-l bg-surface-sunken "
->
+<color-mode palette="blue" class="d-block px-m-l py-m my-xl br-l surface-dyed">
   <form method="get" action="/soek">
-    <label for="search" class="mb-xs form-label">Hva leter du etter?</label>
-    <div class="stack-horizontal gap-s">
+    <label for="search" class="mb-xs v-form-label">Hva leter du etter?</label>
+    <div class="stack-h gap-s">
       <input
         id="search"
         type="text"
-        class="input flex-1"
+        class="v-input flex-1"
         name="q"
         value={currentSearch}
       >
-      <button class="button" data-color="inherit" type="submit">Søk</button>
+      <button class="v-button" type="submit">Søk</button>
     </div>
   </form>
 </color-mode>

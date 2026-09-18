@@ -28,13 +28,13 @@ const commitUrl = lastCommit
 ---
 
 {formattedDate && commitUrl && shortSha && (
-<div class="block fg-muted">
-    <p class="b-all b-faint br-s fs-xs gap-2xs inline-flex pr-2xs stack-horizontal t-muted">
-      <a href={commitUrl} class="b-faint b-r bg-surface-subtle bg-surface-sunken inline-flex lh-relaxed pl-3xs pr-2xs stack-horizontal" target="_blank" rel="noreferrer noopener">
-        <svg style="height: 1lh; width: 1lh; aspect-ratio: 1;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-git-commit-horizontal-icon lucide-git-commit-horizontal" role="presentation"><circle cx="12" cy="12" r="3"/><line x1="3" x2="9" y1="12" y2="12"/><line x1="15" x2="21" y1="12" y2="12"/></svg>
-        <span>{shortSha}</span>
+<color-mode palette="yellow" class="d-block ink-subtle ">
+    <p class="b-all bc-prominent bw-hairline br-pill fs-xs gap-2xs d-inline-flex pr-2xs stack-h ink-subtle surface-tinted">
+      <a href={commitUrl} class="bc-prominent bw-hairline b-r d-inline-flex lh-relaxed pl-3xs pr-2xs stack-h gap-4xs p-4xs ink-subtle" style="text-decoration: none;" target="_blank" rel="noreferrer noopener">
+        <svg style="height: 1lh; width: 1lh; aspect-ratio: 1; opacity: 0.5;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-git-commit-horizontal-icon lucide-git-commit-horizontal" role="presentation"><circle cx="12" cy="12" r="3"/><line x1="3" x2="9" y1="12" y2="12"/><line x1="15" x2="21" y1="12" y2="12"/></svg>
+        <span class="fw-bold">{shortSha}</span>
       </a>
-      <span>Denne siden ble sist endret <time datetime={lastCommit?.date}>{formattedDate}</time>.</span>
+      <span>Sist endret <time datetime={lastCommit?.date}>{formattedDate}</time>.</span>
     </p>
-</div>
+</color-mode>
 )}

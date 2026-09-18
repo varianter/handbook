@@ -107,4 +107,4 @@ gjeldende profil kan følges på en
 [egen side med style guide](https://styleguide.variant.no). Her legger vi alt
 fra hele Variant-illustrasjonen, typografi, veiledning for valg av logo, osv.
 Alt dette legges åpent med en åpen lisens, foruten illustrasjonen hvor designer
-sitter på åndsverk.`
+sitter på åndsverk.

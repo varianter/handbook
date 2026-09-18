@@ -9,13 +9,12 @@ interface Props {
 const { headings } = Astro.props;
 ---
 
-<aside class="sidebar sidebar-anchor b-all b-faint br-m">
+<aside class="sidebar sidebar-anchor b-all bc-subtle br-m">
   <button
     type="button"
-    class="sidebar__trigger button w-full justify-start br-inherit gap-2xs"
+    class="sidebar__trigger v-button w-full justify-start br-inherit gap-2xs"
     data-variant="plain"
     data-size="small"
-    data-color="inherit"
     popovertarget="sidebar-toc-popover"
     aria-haspopup="menu"
   >
@@ -66,7 +65,7 @@ const { headings } = Astro.props;
     position: static;
     inset: auto;
     margin: var(--spacing-xs) 0 0;
-    background: var(--surface-raised);
+    background: var(--surface-tinted);
     border: none;
     border-radius: var(--border-radius-l);
   }

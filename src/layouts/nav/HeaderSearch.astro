@@ -1,6 +1,4 @@
 ---
-import magnifyingGlassSvg from "../magnifyingGlass.svg";
-
 interface Props {
   class?: string;
 }
@@ -17,20 +15,37 @@ const { class: className } = Astro.props;
   <input
     name="q"
     type="search"
-    class="input pl-l w-full"
-    data-size="small"
+    class="v-input pl-l w-full"
     aria-label="Søk"
     autocomplete="off"
     enterkeyhint="search"
   >
-  <div style="justify-self: start" class="pl-xs pr-xs">
-    <img
-      src={magnifyingGlassSvg.src}
-      alt=""
-      aria-hidden="true"
-      width="30"
-      height="30"
-      style="width: 0.75em; height: 0.75em;"
+  <div
+    class="pl-xs pr-xs self-center justify-self-start d-inline-flex ink-default"
+  >
+    <svg
+      viewBox="0 0 22 21"
+      style="width: 1em;"
+      class="aspect-square"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      role="presentation"
     >
+      <circle
+        cx="9.225"
+        cy="9.225"
+        r="8.225"
+        stroke="currentColor"
+        stroke-width="2"
+      />
+      <line
+        x1="16.0821"
+        y1="14.6679"
+        x2="21.2071"
+        y2="19.7929"
+        stroke="currentColor"
+        stroke-width="2"
+      />
+    </svg>
   </div>
 </form>

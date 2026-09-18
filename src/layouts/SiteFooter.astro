@@ -17,10 +17,15 @@ function getSubItems(path: string): NavItem[] {
 }
 ---
 
-<footer class="footer pt-2xl">
-  <nav class="py-xl">
-    <ul class="stack-horizontal items-start gap-xl">
-      {handbooks.map((handbook) => {
+<footer class="footer pt-3xl mt-l">
+  <color-mode
+    palette="periwinkle"
+    inverted
+    class="pt-l pb-l px-m-l -mx-m-l br-xl surface-dyed d-block"
+  >
+    <nav class="">
+      <ul class="stack-h items-start gap-xl">
+        {handbooks.map((handbook) => {
           const _isActive = `/${handbook.path}` === asPath ||
             (asPath === '/' && handbook.path === '') ||
             (handbook.path !== '' && asPath.startsWith(`/${handbook.path}`));
@@ -30,11 +35,11 @@ function getSubItems(path: string): NavItem[] {
           const subItems = getSubItems(handbook.path);
           return (
             <li class="flex-1" style="min-width: 10rem;">
-              <h6 class="t-bold fs-s mb-m stack">{handbook.title}</h6>
-              <ul class="stack gap-xs">
+              <h6 class="fw-medium fs-s mb-m ink-subtle">{handbook.title}</h6>
+              <ul class="stack-v gap-2xs">
                 {subItems.map((item) => (
                   <li>
-                    <a class="link" href={item.external ? item.path : `/${item.path}`}>
+                    <a class="v-link" href={item.external ? item.path : `/${item.path}`}>
                       {item.title}
                     </a>
                   </li>
@@ -43,11 +48,11 @@ function getSubItems(path: string): NavItem[] {
             </li>
           );
         })}
-    </ul>
-  </nav>
-
-  <div class="py-xs stack-horizontal gap-s">
-    <ul class="stack-horizontal justify-center gap-xs mr-auto">
+      </ul>
+    </nav>
+  </color-mode>
+  <div class=" stack-h gap-s mt-l">
+    <ul class="stack-h justify-center gap-xs mr-auto">
       <li>
         <a href="https://blog.variant.no" title="Variant Blogg" rel="external">
           <img src="/assets/logos/medium.svg" alt="Variant på Medium.com">
@@ -90,9 +95,9 @@ function getSubItems(path: string): NavItem[] {
         </a>
       </li>
     </ul>
-    <div class="stack items-center py-2xs">
+    <div class="stack-v items-center py-2xs">
       <a
-        class="t-bold fs-xs"
+        class="fw-bold fs-xs v-link"
         rel="license"
         href="http://creativecommons.org/licenses/by-sa/4.0/"
       >

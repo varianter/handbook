@@ -16,7 +16,7 @@ function getSubItems(path: string): NavItem[] {
 }
 ---
 
-<ul class="header__handbooks stack-horizontal gap-3xs mx-auto">
+<ul class="header__handbooks stack-h gap-3xs mx-auto">
   {handbooks.map((handbook) => {
     const isActive = `/${handbook.path}` === asPath ||
       (asPath === '/' && handbook.path === '') ||
@@ -34,22 +34,21 @@ function getSubItems(path: string): NavItem[] {
             <button
               type="button"
               id={buttonId}
-              class="fs-s t-bold button"
+              class="v-button"
               data-variant="plain"
               data-size="small"
-              data-color="inherit"
               popovertarget={popoverId}
               data-js-hover
             >
               {`${handbook.title}`}
             </button>
-            <div id={popoverId} popover="auto" class="header-popover br-m shadow-medium">
-              <ul class="stack">
+            <div id={popoverId} popover="auto" class="header-popover v-popover">
+              <ul class="stack-v gap-2xs br-m shadow-mid surface-base p-3xs-2xs b-all bc-subtle" stagger-items>
                 {subItems.map((item) => (
                   <li class="">
-                  <a class="stack fs-xs px-3xs py-3xs" href={item.external ? item.path : `/${item.path}`}>
-                      <span class="t-bold fg-default">{item.title}</span>
-                      {item.description && <span class="subnav-description fg-muted">{item.description}</span>}
+                  <a class="stack-v gap-4xs fs-s px-3xs py-3xs bg-wash:hover br-m" href={item.external ? item.path : `/${item.path}`}>
+                      <span class="fw-medium fs-s">{item.title}</span>
+                      {item.description && <span class="fs-s ink-subtle lh-snug subnav-description">{item.description}</span>}
                     </a>
                   </li>
                 ))}
@@ -74,42 +73,13 @@ function getSubItems(path: string): NavItem[] {
 
   margin: 0;
   margin-top: var(--spacing-m);
-  padding: var(--spacing-xs-s) var(--spacing-s-m);
   border: none;
-  background: var(--surface-raised);
-  max-width: 28ch;
+  max-width: 38ch;
   min-width: 15ch;
-
-  transition:
-    opacity 0.2s ease-out,
-    transform 0.2s ease-out,
-    overlay 0.2s ease-out allow-discrete,
-    display 0.2s ease-out allow-discrete;
-  opacity: 0;
-  transform: translateY(0rem);
-
-  &:popover-open {
-    opacity: 1;
-    transform: none;
-
-    @starting-style {
-      opacity: 0;
-      transform: translateY(-0.5rem);
-    }
-  }
-}
-
-.subnav-link {
-  text-decoration: none;
-  display: inline-flex;
-  flex-direction: column;
-  color: currentColor;
-  font-size: var(--font-size-xs);
 }
 
 .subnav-description {
-  color: var(--foreground-muted);
-  text-wrap: pretty;
+  text-wrap: balance;
 }
 
 @media (max-width: 800px) {
