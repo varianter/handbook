@@ -8,7 +8,7 @@ description: Ferie, fridager, timeføring og hvordan du planlegger tiden din
 
 ### Ferie og fridager
 
-I Variant har vi fem uker (25 dager) ferie hvert år. I tillegg til disse feriedagene regner vi alle dagene fra og med julaften til og med 1. nyttårsdag som helligdager. Det vil si at du ikke trenger å spare feriedager til romjula, eller timeføre noe.
+I Variant har vi fem uker (25 dager) ferie hvert år.
 
 Utover dette følger vi Arbeidsmiljøloven når det gjelder helligdager (se [Lov om helligdager og helligdagsfred](https://lovdata.no/dokument/NL/lov/1995-02-24-12)). Vi har ingen spesielle avtaler for påske, og jobber derfor full dag på påskeonsdagen.
 
