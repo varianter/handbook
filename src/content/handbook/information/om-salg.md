@@ -4,39 +4,37 @@ order: 1
 description: Slik fungerer salgsprosessen vår – fra lead til signert kontrakt
 ---
 
-## Om salg
-
-### Salgsprosessen
+## Salgsprosessen
 
 For å håndtere salgsprosessen benytter vi [Trello](https://trello.com/b/kO5kbMNf/salg). En salgsmulighet representeres med et kort i Trello, og tavlen representerer en salgstrakt hvor muligheter trekkes gjennom ulike salgsfaser til muligheten har blitt konkludert med.
 
 Variant benytter disse fasene:
 
-#### Lead
+### Lead
 
 Muligheter som foreløpig ikke har blitt materialisert i en konkret forespørsel fra kunde. Salgsmuligheter i denne fasen krever bearbeiding og forberedelser.
 
-#### Til kvalifisering
+### Til kvalifisering
 
 Her ligger konkrete forespørsler fra kunder, og hvor vi skal vurdere om vi ønsker å gå videre med muligheten.
 
-#### Lage tilbud
+### Lage tilbud
 
 Kvalifiserte muligheter ligger i denne fasen mens tilbudet utarbeides.
 
-#### Levert tilbud
+### Levert tilbud
 
 I denne fasen ligger muligheter som har blitt til leverte tilbud. Her ligger tilbudene til muligheten er konkludert eller i forhandling.
 
-#### Til forhandling
+### Til forhandling
 
 Tilbud som er i forhandling med kunde, eller hvor konsulenter er intervjuet ligger i denne fasen.
 
-#### Ferdig konkludert
+### Ferdig konkludert
 
 I denne fasen ligger muligheter som enten er vunnet eller tapt.
 
-#### Kvalifisering
+### Kvalifisering
 
 Dette steget er veldig viktig med tanke på medarbeidertilfredshet. Her vurderer vi om oppdraget vil være bra for de enkelte konsulenter og for selskapet. I tillegg gjør vi også vurderinger om man skal benytte tid og penger på å levere tilbudt.
 
@@ -46,7 +44,7 @@ Dette steget er veldig viktig med tanke på medarbeidertilfredshet. Her vurderer
 
 Vi er opptatt av at våre konsulenter skal oppleve oppdrag som meningsfylte, passe utfordrende og morsomme. Vi har tillit til at den ansatte vurderer hva som er bra for selskapet og samtidig bra for seg selv. Her er det viktig å ta hensyn til selskapets økonomiske situasjon til enhver tid. Basert på begge disse perspektiver velger konsulenten om han eller hun ønsker å delta.
 
-#### Lage tilbud
+### Lage tilbud
 
 Her må den enkelte bruke sin kreativitet, kunnskap og erfaring for å lage best mulige tilbud. Ingen prosess kan erstatte dette, men det er lov å la seg inspirere av tidligere arbeid.
 
@@ -56,23 +54,23 @@ Viktig at det det som oversendes kunde (typisk pdf-er) lagres i en egen undermap
 
 Det er viktig for oss å levere gode tilbud og stå for det vi sier. For å koordinere at vi ikke lover mer enn vi kan holde legges konsulenter vi har forpliktet gjennom et tilbud, inn som tilbudt i bemanning. Dette sikrer også at visibilitet og prognose beregnes riktig.
 
-#### Etter ferdig konkludert
+### Etter ferdig konkludert
 
 Etter at en salgsprosess er konkludert er det viktig at vi lærer og oppdaterer prosessen med eventuell ny kunnskap.
 
-###### For hver mulighet skal vi:
+##### For hver mulighet skal vi:
 
 - definere ulike parameter på hvert kort i Trello og
 - tenke igjennom om det var noen spesielle grunner til tap eller vinn som man skal oppdatere prosessen med
 
-###### Etter en vinn skal:
+##### Etter en vinn skal:
 
 - signert kontrakt lagres på i egen undermappe kalt 'Avtale'
 - [bemanning](https://bemanning.variant.no/login) oppdateres
 - tilbudte konsulenter varsles
 - seieren feires (om ikke annet så på Slack)
 
-#### Salgs- og bemanningsmøte
+### Salgs- og bemanningsmøte
 
 Hver fredag morgen, arrangeres et salgs- og bemanningsmøte. Møtet er åpent for alle ansatte, men frivillig for alle unntatt:
 

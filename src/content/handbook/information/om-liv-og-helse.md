@@ -4,9 +4,7 @@ order: 3
 description: Forsikringer, pensjon, sykefravær og permisjonsordninger
 ---
 
-## Om liv og helse
-
-### Forsikringer og pensjon
+## Forsikringer og pensjon
 
 Vi har gode forsikringsordninger og obligatorisk tjenestepensjon (OTP). Faktisk så betaler vi [7% av årslønn](https://www.variant.no/kalkulator) opp til 12G ekstra til sparing i pensjon for deg. Sammenlignet med 2% som er det lovpålagte for bedrifter i Norge. Både forsikring og pensjon har vi gjennom Gjensidige.
 
@@ -23,7 +21,7 @@ yrkesreiseforsikring har vi også følgende forsikringer:
 - Annen ulykke enn yrkesskade
 - Ferie og fritidsreise
 
-#### Behandlingsforsikring
+### Behandlingsforsikring
 
 Inkludert i forsikringen har alle ansatte behandlingsforsikring med følgende
 elementer:
@@ -43,7 +41,7 @@ elementer:
 Her finner dere informasjon om hvordan
 [benytte behandlingsforsikring](https://www.gjensidige.no/privat/meld-skade/behandlingsforsikring).
 
-### Sykemelding og egenmelding
+## Sykemelding og egenmelding
 
 Variant praktiserer en utvidet ordning for uttak av egenmelding. Vi er formelt
 ikke en IA-bedrift, men benytter samme egenmeldingsordning som IA-bedrifter.
@@ -95,7 +93,7 @@ arbeidsdagene og følge deg opp.
 Varsle så snart du har anledning. Det er stor variasjon i hvor lang tid det går
 før legens varsel mottas via Altinn.
 
-### Planlegging av ferie og permisjoner
+## Planlegging av ferie og permisjoner
 
 Du avgjør selv når du ønsker å ta ut ferie i Variant. Dette avtales med nærmeste
 leder og avklares tidlig med kunde slik at oppdraget løses godt. Det samme
@@ -114,7 +112,7 @@ dette er ønskelig avklares også dette med nærmeste leder og så tidlig som mu
 _NB!_ Husk alltid å oppdatere [bemanning](https://bemanning.variant.no) med
 planlagt ferie og permisjon slik at de som jobber med salg har oversikt.
 
-#### Overføring av ferie til neste år
+### Overføring av ferie til neste år
 
 I henhold til ferieloven kan du avtale med arbeidsgiver om å [overføre to arbeidsuker](https://www.arbeidstilsynet.no/regelverk/lover/ferieloven/ii/7/) med ferie til neste år.
 For deg som jobber i Variant blir dette **10 feriedager** som kan kan overføres.
@@ -123,11 +121,11 @@ Samtidig har Variant en lovbestemt plikt som arbeidsgiver å sørge for at du ta
 
 Hvis du likevel ser at det blir utfordrende å avvikle alle feriedager inneværende år, så må du ta kontakt med nærmeste leder for å diskutere dette.
 
-##### Er det ikke 12 feriedager som kan overføres da?
+#### Er det ikke 12 feriedager som kan overføres da?
 
 Ferieloven definerer en arbeidsuke som 6 virkedager, men dette inkluderer lørdag. For oss er en arbeidsuke mandag til fredag, og dermed har vi 5 virkedager i en arbeidsuke. Det vil si at to arbeidsuker med ferie tilsvarer 10 feriedager.
 
-#### Foreldepermisjon
+### Foreldepermisjon
 
 Venter du barn? Gratulerer så mye! Når familieforøkelsen er et faktum dukker det opp en masse praktiske spørsmål, blant annet om permisjon og foreldrepenger. Foreldrepermisjon avtales med arbeidsgiver, og du bør gi beskjed til din nærmeste leder så fort som mulig slik at vi kan gjøre nødvendige forberedelser og avtaler om når permisjonen skal starte og hvor lenge den skal vare.<br/>
 Hvis du blir sykmeldt som følge av svangerskapet, kan vi som arbeidsgiver søke om dekking av sykepenger i arbeidsgiverperioden (første 14. dager av sykmeldingen).
@@ -135,7 +133,7 @@ Hvis du blir sykmeldt som følge av svangerskapet, kan vi som arbeidsgiver søke
 Du kan velge å ta ut 80 eller 100 prosent foreldrepenger. Dette får betydning for varigheten av permisjonen og lønnsutbetalingen. Dersom du tar ut 80 % foreldrepenger varer permisjonen lengre og du får 80 % lønn fra oss.<br/>
 Tar du 100 % foreldrepenger får du 100 % lønn i permisjonsperioden.
 
-#### Ammefri
+### Ammefri
 
 [Mødre som ammer kan bruke en time om dagen med lønn til dette](https://www.arbeidstilsynet.no/arbeidsforhold/permisjoner/foreldrepermisjon/ammefri/).
 Timeføres med koden VEL1000 - velferdspermisjon med lønn. Dette gjelder fram til barna er ett år gamle. Du finner selv ut når det passer

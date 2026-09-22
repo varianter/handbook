@@ -4,9 +4,7 @@ order: 4
 description: Gadgetbudsjett, programvarelisenser og utstyr du trenger i hverdagen
 ---
 
-## Om ting og tang
-
-### Gadgets
+## Gadgets
 
 Folk har lurt "Dette gadgetbudsjettet deres, hva kan det brukes til?" og svaret
 er at bare
@@ -26,7 +24,7 @@ Summen av kjøpet ditt regnes eksklusive merverdiavgift.
 Pro tip: Husk at det er fullt mulig å kjøpe brukt! Det eneste vi trenger er dokumentasjon på
 kjøpet (f.eks skjermbilde av Finn-annonse og Vipps-kvittering)
 
-#### Størrelse på årlig beløp
+### Størrelse på årlig beløp
 
 Akkurat nå er det årlige beløpet på 12&nbsp;000 kr. Budsjettet øker altså med dette beløpet hver gang
 du passerer oppstartsdatoen din 😀.
@@ -46,7 +44,7 @@ gadgetbudsjett hver dag. Dette er gjort for å enklere se på gadgetbudsjett om 
 slutter. Om noen slutter ett halvt år etter oppstartsdatoen din, vil det årlige
 budsjettet tilsvare 5&nbsp;500 kr.
 
-#### Gadgets ved fratredelse
+### Gadgets ved fratredelse
 
 Gadgets kjøpes med med selskapets penger og er selskapets eiendom. Det betyr at det er
 noen regler vi må forholde oss til om du slutter og har benyttet deg av gadgetbudsjettet
@@ -57,11 +55,11 @@ Ansatte som fratrer kan derfor kjøpe ut gadgets etter en regler som overholder 
 Skatteetaten, men som fortsatt er ganske gunstig for de som slutter. Her er
 en oversikt over hvordan det håndteres.
 
-##### Beløp utover gjeldende budsjett (f.eks lånt av neste år, eller utover summen for året)
+#### Beløp utover gjeldende budsjett (f.eks lånt av neste år, eller utover summen for året)
 
 Dette skal betales tilbake, og gjøres som en del av sluttoppgjøret.
 
-##### Gadgets med kjøpsverdi under 10 000 kr
+#### Gadgets med kjøpsverdi under 10 000 kr
 
 Meldes inn av Variant som skattbar inntekt i henhold til avskriving fra skatteloven.
 Sum til skattemelding regnes ut i fra følgende:
@@ -89,7 +87,7 @@ Sum til skattemelding regnes ut i fra følgende:
   </tbody>
 </table>
 
-##### Mobiltelefoner eller andre enheter med verdi over 10 000 kr
+#### Mobiltelefoner eller andre enheter med verdi over 10 000 kr
 
 For enheter med innkjøpspris over 10&nbsp;000 kr, kan disse kjøpes ut med til en pris
 lavere enn verdivurderingen gitt i tabellen over. Dette introduserer en fordel som skal beskattes,
@@ -137,25 +135,25 @@ Det vil derfor også rapporteres inn på skattbar inntekt på 4&nbsp;500 kr (`12
 
 </div>
 
-### Verktøykassen 🛠📚
+## Verktøykassen 🛠📚
 
 Du skal jaggu ikke mangle noe for å gjøre en god jobb.
 
-#### PC-valg
+### PC-valg
 
 Skikkelig jobb krever skikkelige verktøy. Du velger selv datamaskin og størrelse, farge og modell på den. Melder behovet seg for en ny, skal du også selvfølgelig få det. Vi stoler på at du velger det beste for at du skal kunne gjøre en best mulig jobb. Er du usikker kan du godt spørre i vår Slack-kanal #helpdesk.
 
 Det er heller ikke et gitt antall års brukstid på maskinene. Du får en ny maskin når behovet oppstår, uavhengig av om det har gått ett eller tre år.
 
-#### Programvare
+### Programvare
 
 Programvare velger du også selv. Vi har noen avtaler for ymse produkter, alt annet kjøper du direkte og fører utlegg for.
 
-#### Kunnskap
+### Kunnskap
 
 Som konsulenter selger vi ekspertise og kunnskap, så invester gjerne i bøker, kurs og annet læringsmateriale. Bare husk å sende regningen til regnskap. Den betales med stor glede! 🤓
 
-### Mobilabonnement
+## Mobilabonnement
 
 For at Variant skal betale for mobilbruk må abonnementet overføres til Variant
 AS.
@@ -169,7 +167,7 @@ Etter at telefonabonnementet er portert er det lurt å oppdatere tilholdssted p�
 [telia.no](https://www.telia.no/). Logg inn og
 [naviger til Endre kontaktinformasjon](https://min-side.telia.no/re/endre-kontaktinformasjon).
 
-### Våre internsystemer
+## Våre internsystemer
 
 - [CV Partner](https://variant.cvpartner.com/) for å forvalte alles CV
 - [Recruitee](https://recruitee.com/admin) for å håndtere rekruttering og
@@ -185,7 +183,7 @@ Etter at telefonabonnementet er portert er det lurt å oppdatere tilholdssted p�
 - [Energi.ai](https://dashboard.energi.ai/) for vårt automatiserte karbonregnskap
 - [Fotobank](https://photo.variant.no/) (se `/info` på slack for innlogging.)
 
-### Nyttige lenker
+## Nyttige lenker
 
 - [Variantdash](https://dash.variant.no) Vårt dashbord for interne løsninger.
 - [Gadgetoversikt](https://dash.variant.no/gadgetusage/trondheim) Oversikt over hva som er kjøpt på

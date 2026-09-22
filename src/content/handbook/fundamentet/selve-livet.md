@@ -4,9 +4,7 @@ order: 1
 description: Familie, likestilling, mangfold og balansen mellom jobb og fritid
 ---
 
-## Selve livet
-
-### Familie
+## Familie
 
 For oss er ikke jobb og fritid to helt ulike verdener. Selv om vi vil at varianter skal ha en god
 jobb- og livsbalanse, ønsker vi å invitere familiene inn i selskapet som en del av oss og det vi gjør.
@@ -15,7 +13,7 @@ julebord. Alt dette er familie eller ledsager velkommen til å bli med på. Vi d
 regnes som familie, så hvem du ønsker å invitere med er opp til deg selv – om det så er partner, barn,
 foreldre eller venner. Vi sier: Hjertelig velkommen!
 
-### Likestilling
+## Likestilling
 
 Likestilling er en grunnleggende verdi for oss som jobber her, og for Variant som selskap. Her
 snakker vi om grunnleggende likeverd på tvers av blant annet nasjonalitet, etnisk bakgrunn,
@@ -30,7 +28,7 @@ påvirker mange av våre strategiske og operative beslutninger, som blant annet:
 Vi ønsker ikke at økonomi og karriere skal være momenter i hvordan den enkelte
 familie planlegger og fordeler arbeidet hjemme.
 
-### Helse
+## Helse
 
 Vi ønsker at våre ansatte har et godt liv – og en god helse. Her kan faktisk vi som arbeidsgiver
 bidra en god del. Vi bryr oss om ergonomi og fysisk arbeidsmiljø. Vi oppfordrer til og støtter fysisk
@@ -65,7 +63,7 @@ som Gjensidige kaller det. Forsikringen dekker:
 - Fysikalsk behandling - 12 behandlinger
 - Online videolege for deg og dine barn
 
-### Samfunn
+## Samfunn
 
 Variant skal også bidra til nærmiljøet og samfunnet der vi finnes. Som beskrevet
 under [goder og ytelser](/fundamentet/penger#goder-og-ytelser) så har hver variant 12&nbsp;000 kr
@@ -77,7 +75,7 @@ i bydelen. Valget er ditt!
 [gir Variant et beløp tilsvarende 500 kr per ansatt](https://medium.com/variant-as/n%C3%A5r-noen-trenger-hjelp-9a8272f9838)
 til en veldedig organisasjon med verdier og formål som harmonerer med våre. Valg av formål skjer årlig på bakgrunn av åpne diskusjoner i hele selskapet.
 
-#### Sponsorat
+### Sponsorat
 
 Variant har et samfunnsansvar og i den sammenheng vil det tidvis være riktig å sponse
 ulike frivillige arrangement eller aktiviteter. Vi har følgende forutsetninger
@@ -88,7 +86,7 @@ for at et sponsorat skal kvalifisere: Enten må arrangementet eller aktiviteten 
 
 Hvis en av disse er til stede vil saken behandles av ledergruppen, sett opp i mot øvrig sponsorvirksomhet. [Se våre mangfoldssider for mer info](https://www.variant.no/mangfold).
 
-#### Miljøfyrtårn
+### Miljøfyrtårn
 
 Bærekraft for Variant innebærer mye. Det er likestilling i arbeidslivet, en
 bærekraftig arbeidsdag, som både er spennende, utfordrende og lærerik. Vi ønsker
@@ -98,7 +96,7 @@ om å redusere vår belastning på miljøet, vi kildesorterer og fører regnskap
 eget avfall, energiforbruk og reiser med fly og bil. Miljøfyrtårnansvarlig har
 ansvar for oppfølging og håndtering av dette.
 
-#### Utplassering og lærlinger
+### Utplassering og lærlinger
 
 Variant har et ansvar om å etablere erfaring hos unge mennesker. Tidvis kommer det henvendelser om
 utplassering eller hospitering fra skolesystemet. Dette kan være både fra ungdomsskole, videregående,
