@@ -4,9 +4,7 @@ order: 2
 description: Ferie, fridager, timeføring og hvordan du planlegger tiden din
 ---
 
-## Om tid
-
-### Ferie og fridager
+## Ferie og fridager
 
 I Variant har vi fem uker (25 dager) ferie hvert år.
 
@@ -14,7 +12,7 @@ Utover dette følger vi Arbeidsmiljøloven når det gjelder helligdager (se [Lov
 
 Se også [Planlegging av ferie og permisjoner](/information/om-liv-og-helse#planlegging-av-ferie-og-permisjoner).
 
-### Timeføring
+## Timeføring
 
 Timene skal leveres ukentlig. Fristen er mandag morgen kl 9.00 den påfølgende
 uken. Timene føres i [Harvest](https://harvestapp.com/).
@@ -28,7 +26,7 @@ Vi har to hovedtyper timeføring. Det ene er kundetid, det andre er annen
 timeføring som føres under Varianttid. All tid skal timeføres inkludert reisetid
 og pålagt overtid.
 
-#### Varianttid
+### Varianttid
 
 Under kontoen for Varianttid finner du ulike «prosjekter» med tilhørende
 oppgaver. Vi håper at navngiving er såpass selvforklarende at utdypende
@@ -44,14 +42,14 @@ _Merk at frivillige aktiviteter på kveldstid som deltagelse på meetups,
 konsumering av faglitteratur, podcasts, videoer, etc ikke timeføres, med mindre
 man sammen med selskapet har kommet til at dette er å regne som pålagt arbeid._
 
-#### Heimevernet (HV) og militærtjeneste
+### Heimevernet (HV) og militærtjeneste
 
 Variant dekker lønn under HV-øvelser. Dette timeføres som vanlig under
 `[VEL 1000] Velferdspermisjon med lønn -> Militærtjeneste`.
 
 Husk også å markere bemanning i god tid som `Permisjon med lønn`.
 
-#### Foreldepermisjon
+### Foreldepermisjon
 
 Venter du barn? Gratulerer så mye! Når familieforøkelsen er et faktum dukker det opp en masse praktiske spørsmål, blant annet om permisjon og foreldrepenger. Foreldrepermisjon avtales med arbeidsgiver, og du bør gi beskjed til din nærmeste leder så fort som mulig slik at vi kan gjøre nødvendige forberedelser og avtaler om når permisjonen skal starte og hvor lenge den skal vare.<br/>
 Hvis du blir sykmeldt som følge av svangerskapet, kan vi som arbeidsgiver søke om dekking av sykepenger i arbeidsgiverperioden (første 14. dager av sykmeldingen).
@@ -62,17 +60,17 @@ Tar du 100 % foreldrepenger får du 100 % lønn i permisjonsperioden.
 Om du velger 80 % foreldrepenger betyr det at vi utbetaler 80 % lønn. Du må føre 20 % (1 dag i uka) som Velferdspermisjon uten lønn i Harvest, mens foreldrepermisjonen føres som Foreldepermisjon (80 %, 4 dager i uka).<br/>
 Har du valgt 100 % foreldrepenger, fører du Foreldrepermisjon i hele permisjonsperioden. Tar du ulønnet permisjon etter foreldrepengeperioden, føres dette som Velferdspermisjon uten lønn
 
-#### Begravelse
+### Begravelse
 
 Deltakelse i begravelse timeføres under `[VEL1000] Velferdspermisjoner med lønn -> Velferdspermisjon med lønn`.
 
-#### Kundetid
+### Kundetid
 
 På kundetid fører man det man jobber også hvis man jobber utover 7,5 timer.
 _NB!_ Overtid på et oppdrag må være avklart med kunde eller den som har ansvar
 for oppdraget eller prosjektet. Lunsj føres ikke.
 
-#### Reisetid
+### Reisetid
 
 Reiser som er pålagt av kunde timeføres som hovedregel på kundens prosjekt.
 Timeføring skjer da på kundes timeføringskonto i Harvest. Reisetid og
@@ -88,7 +86,7 @@ timeføringskode.
 
 <div>
 
-##### For eksempel:
+#### For eksempel:
 
 _du bes av kunde om å stille klokken 9:00 i en annen by. Reisetid
 planlegges og kunde informeres om hvordan tiden vil bli timeført. Reisetid fra

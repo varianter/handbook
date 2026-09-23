@@ -4,9 +4,7 @@ order: 2
 description: Fleksitid, arbeidsforhold og alt om hvordan vi jobber
 ---
 
-## Arbeidet
-
-### Fleksitid
+## Fleksitid
 
 Arbeidsdagen er 7,5 timer per dag. Vi har ikke kjernetid i Variant, men kunder
 kan jo ofte ha dette. Vi synes det er viktig å følge kunden på dette, for å bli
@@ -18,7 +16,7 @@ jobb. Hos oss er det mulig å senke stillingsgraden i perioder. Dette avgjør du
 åpenhet mellom deg, personalleder og kunden om behov og ønsker, vil vi sammen jobbe for å finne
 en løsning alle trives med.
 
-### Kompetanseutvikling
+## Kompetanseutvikling
 
 Vi ønsker at fagmiljøet der vi er tilstede er sterkt og pulserende. Da må vi også jobbe med faglig
 utvikling. Vi ser lite verdi i å bygge kompetanse kun for vår egen del, vi tror heller at kunnskap
@@ -33,7 +31,7 @@ det er via Open Source-prosjekter, podcast, video, bloggpost, presentasjoner og
 kurs. Eller rett og slett samtaler med fagkolleger fra andre selskap. Å kunne
 formidle kunnskap, mener vi, er like viktig som å kunne gjennomføre den.
 
-#### RÅ
+### RÅ
 
 RÅ er Variants kompetanseprogram som tar for seg alt fra din spesifikke fagdisiplin,
 til utvikling av konsulentferdigheter, personlig utvikling og business skills.
@@ -47,7 +45,7 @@ kunder om at vi har og utvikler de råeste konsulentene.
 
 [Les mer om RÅ](/prosesser/raa)
 
-#### Kurs og konferanser
+### Kurs og konferanser
 
 For å være gode må vi av og til ut i verden for å lære mer og tenke nytt. Alle
 oppfordres til å delta på kurs eller konferanse en gang i løpet av året. Om du
@@ -59,7 +57,7 @@ konferanser og lignende, dekker Variant deltagelse, reise og opphold. Helt
 uavhengig av hvor i verden, og hvor mange andre konferanser du har deltatt på
 det året. Ut å avle læreglede!
 
-#### Etterutdanning
+### Etterutdanning
 
 Det kan være bra både for Variant og den enkelte variant bygge ny formell kompetanse eller ferdigstille et løp man er i. Sånn uten videre kan man benytte seg av "kurs og konferanse"-potten til å heller gjøre dette. Da blir det enten etterutdanning eller konferanse. Ikke begge deler 😀.
 
@@ -69,7 +67,7 @@ Det kan være bra både for Variant og den enkelte variant bygge ny formell komp
 
 Så kan det være at omfanget er større. Kanskje er også nytteverdien er støre. Ikke alt passer inn på et A4-ark. Ta det i så fall opp med nærmeste leder.
 
-#### Variantdag
+### Variantdag
 
 Den første fredagen i hver måned (foruten januar og juli) har vi det vi kaller en Variantdag.
 Dette er en "innedag", der vi alle bruker hele dagen sammen, for faglig, administrativt og
@@ -80,7 +78,7 @@ Planlegging av variantdag skjer litt ulikt i de ulike byene. Les mer om hvordan 
 
 [Her vil du alltid finne oversikt over gjennomførte og planlagte variantdager](https://medium.com/variant-as/tagged/variantdag).
 
-#### Variantdagen som rammeverk for utvikling
+### Variantdagen som rammeverk for utvikling
 
 Med totalt 9 ordinære variantdager, har vi 18 halvdagsøkter i året som vi skal
 bruke for å utvikle selskapet. Halvparten av disse er satt av til å drive
@@ -91,7 +89,7 @@ mulighet til å legge opp til hemmelighet i utviklingsløpet.
 Vi har utviklingsprogram vi har designet selv, og vi har mulighet til å
 investere i andre program.
 
-### Rettigheter og open source
+## Rettigheter og open source
 
 Kjernevirksomheten vår er i utgangspunktet å selge kompetanse. Men vi er
 eksperimentelle og tilpasningsdyktige. Det kan komme en tid der vi ser på

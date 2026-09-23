@@ -4,15 +4,13 @@ order: 0
 description: Lønnsutbetaling, reiseregninger, utgiftsføring og alt som har med penger ut å gjøre
 ---
 
-## Om Penger
-
-### Lønning
+## Lønning
 
 Lønningsdag er den siste arbeidsdagen i hver måned. Altså utbetales lønn
 fredag 30. hvis den 31. kommer på lørdag. Det trekkes halv skatt av
 novemberlønnen. Desemberlønnen utbetales den 20. desember.
 
-#### Beregning av lønnsnivå
+### Beregning av lønnsnivå
 
 Alle konsulenter i Variant knyttes til et ansiennitetsnivå. Så bruker vi Teknas
 lønnsstatistikk som grunnlag og legger alle inn på øvre kvartil tilsvarende sitt
@@ -28,7 +26,7 @@ eller etter nyttår.
 Se vår [kalkulator](https://www.variant.no/kalkulator) for hvordan lønn beregnes
 basert på eksamensår og utdanning.
 
-#### Feriepenger
+### Feriepenger
 
 Feriepenger utbetales i juni. Det fungerer slik at feriepenger opptjent året før
 utbetales. Det trekkes ikke skatt av dette beløpet. All ferie trekkes denne
@@ -44,7 +42,7 @@ hele året. Så i praksis betaler man mer skatt de øvrige månedene for å ha m
 penger å rutte med i sommerferien. Tilsvarende gjelder også med ordningen med
 halv skatt i november.
 
-### Faktura
+## Faktura
 
 Hvis du får en faktura som skal betales av variant sendes den til selskapets
 epostmottak for faktura. De ulike lokasjonene har ulike adresser.
@@ -65,7 +63,7 @@ eventuell ekstra informasjon vi trenger for å godkjenne fakturaen. Dette er
 typisk hva fakturaen er relatert til og hva vi bruker det vi har kjøpt til. Noen
 ting er så åpenbare at det sikkert ikke trenges noe særlig ekstra info.
 
-### Utgiftsrapportering
+## Utgiftsrapportering
 
 Utgiftsrapporter føres ved at en sender en mail til utgiftsrapport@variant.no.
 Ta bilde av kvitteringer og skriv inn samlet beløp i mailen.
@@ -73,7 +71,7 @@ Ta bilde av kvitteringer og skriv inn samlet beløp i mailen.
 Du får tilsendt en kvittering etter rapport har blitt generert, se gjerne over
 vedlegget i e-posten. Hvis det feiler, får du en e-post med feilmelding.
 
-#### Fordelsprogram og rabatt
+### Fordelsprogram og rabatt
 
 Skattemyndighetene krever at fordeler du oppnår gjennom ulike fordelsprogram man
 får på grunn av at du er ansatt hos oss skal rapporteres inn slik at det blir
@@ -107,13 +105,13 @@ av tilsvarende kjøp eller reiser hvor prisene er oppgitt.
 - [Rapportering gjøres ved å fylle ut dette skjemaet.](https://fordelsrapport.variant.no)
 - [Dokumentasjon lastes opp på docs](https://fordelsdokumentasjon.variant.no)
 
-#### Restaurantbesøk
+### Restaurantbesøk
 
 Av bokføringsgrunner trenger vi å vite hvem som var med når noen har lagt ut for
 et restaurantbesøk. Dette gjelder både eksterne og interne. Lag en enkel liste i
 e-posten som lister ut deltagere.
 
-#### Skjema for reiseregninger
+### Skjema for reiseregninger
 
 For enkle reiser innenlands benyttes vårt
 [reiseregningsskjema](https://reiseregning.variantapp.com). Her beregnes diett,
@@ -137,18 +135,18 @@ lenger ned._
 - [Innlands reiseregningsskjema (enkelt)](https://reiseregning.variantapp.com)
 - [Registrer klimaavtrykk](https://reiseregning.variantapp.com)
 
-#### Reiser på Variants regning
+### Reiser på Variants regning
 
 Reiser på Variants regning refunderes mot kvitteringer (ikke diett). Lever som
 andre utgiftsrapporter, men husk å påfør reiserute og formål med reisen.
 
-#### Reiser og utgifter som viderefaktureres til kunde
+### Reiser og utgifter som viderefaktureres til kunde
 
 Reiser på kundes regning føres i tråd med det som er avtalt med kunde (diett
 dersom det er avtalt på forhånd). Husk å påfør at reisen er viderefakturerbar og
 hvilket oppdrag det gjelder.
 
-#### Reiser og utgifter som viderefaktureres via meglere (eWork, Experis m.fl)
+### Reiser og utgifter som viderefaktureres via meglere (eWork, Experis m.fl)
 
 Meglere har egne systemer for viderefakturering av reiser.
 
@@ -157,7 +155,7 @@ Meglere har egne systemer for viderefakturering av reiser.
    utgiftsrapporter. Skriv i mailen at det viderefaktureres, og hvilken kunde
    det gjelder.
 
-#### Utgifter i utenlandsk valuta
+### Utgifter i utenlandsk valuta
 
 For utgifter ført i annen valuta som skal refunderes må du oppgi korrekt beløp i
 norske kroner som du skal refunderes. Valutakurser varierer og hva du faktisk

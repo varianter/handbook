@@ -4,8 +4,6 @@ order: 3
 description: Faste arrangementer, Donut-lunsjer og alt det hyggelige vi gjør sammen
 ---
 
-## Sosialt
-
 Som konsulenter sitter vi ofte ute hos kunde, og derfor gjør vi en ekstra
 innsats for å finne på hyggelige ting sammen.
 
@@ -25,7 +23,7 @@ enkelt kan delta på:
 I tillegg har vi et fond på 50&nbsp;000 kr som vi kan bruke som midler til forskjellige sosiale
 aktiviteter utover året. Dette kan være til leie av hytte, turer eller andre aktiviteter.
 
-### Årlig tur
+## Årlig tur
 
 Variantdagen i **september** er alltid litt spesiell. Da drar vi – med en partner eller venn
 til følge – ut av byen for å feire vår egen bursdag og oppleve nye ting. Foreløpig har vi vært
@@ -35,7 +33,7 @@ et samlet selskap som deler verdier og læreglede, har vi som ambisjon at de uli
 får frihet og rom til å utvikle sin egen kultur og bli enda bedre kjent – både med hverandre
 og den utvidede variantfamilien.
 
-### SosKom
+## SosKom
 
 Sosialkomiteen planlegger og arrangerer varierte aktiviteter - og man blir med på det man har
 lyst til. Tidligere har vi vært på go-cart, klatring, sip-and-paint, meditasjonskurs, topptur,

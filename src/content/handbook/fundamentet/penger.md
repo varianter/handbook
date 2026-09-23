@@ -5,18 +5,16 @@ description: Lønn, bonus, overskuddsdeling og hvordan vi tenker rundt kompensas
 toc: true
 ---
 
-## Penger
-
 Raushet handler om så mye og styrer hvordan vi forholder oss til hverandre. Men det legger også noen føringer på
 hvordan vi skal kompensere alle varianter av alle slag.
 
-### Lønn
+## Lønn
 
 Vi er sikre på at flinke folk i liten grad lar seg motivere av lønn alene. Likevel må god lønn og forutsigbare mekanismer for lønnsutvikling ligge til grunn slik at vårt fokus kan være på å gjøre en god jobb, og slippe å bekymre seg for lønn og lønnsutvikling. Videre er det viktig og en forutsetning for Variant at vi kan tilby en konkurransedyktig lønns og kompensasjonspakke.
 
-#### Konsulenter
+### Konsulenter
 
-##### Prinsipper
+#### Prinsipper
 
 Lønnen og lønnsoppgjør beregnes utfra hvor mange års erfaring hver enkelt har.
 Dette kalles ansiennitet. Dette avklareres ved ansettelse og er definert i
@@ -34,7 +32,7 @@ I modererte år vil vi sikre at ingen har en negativ reallønnsvekst, slik at l�
 
 Lønnsutviklingen vil som følge av det overnevnte ikke være helt lik i alle selskaper.
 
-##### Årlig lønnsoppgjør
+#### Årlig lønnsoppgjør
 
 Lønnsoppgjøret i Variant gjelder fra 1. januar hvert år. Siden Tekna ikke publiserer sin
 statistikk før i månedsskiftet februar-mars, vil vi etterbetale lønn fra 1. januar når
@@ -49,7 +47,7 @@ kvartil. De enkelte driftsselskapene kan gjennom et styrevedtak beslutte å knyt
 til et annet nivå enn øvre kvartil, eksempelvis 95% av øvre kvartil. NB! Det er viktig for
 Variant å over tid være konkurransedyktig på lønn i sitt lokale marked.
 
-##### Moderering
+#### Moderering
 
 Unntaksvis har vi behov for å moderere lønnsoppgjøret. Det inntreffer når kombinasjonen av
 forrige års resultat og ambisjonene og forventningene til neste år er såpass lave at vår
@@ -57,7 +55,7 @@ soliditet trues. Vi vil altså se på forrige år sammen med hva vi forventer av
 inneværende år. Til sammen vil forrige års resultat og forventningene til innværende år
 avgjøre en eventuell moderering. Dette beregnes til en Lønnsjusteringsgrad slik beskrevet under.
 
-##### Lønnsjusteringsgrad
+#### Lønnsjusteringsgrad
 
 For å avgjøre om et lønnsoppgjør skal modereres eller ikke benyttes størrelsen
 lønnsjusteringgrad. Denne har to komponenter:
@@ -67,7 +65,7 @@ lønnsjusteringgrad. Denne har to komponenter:
 
 Lønnsjusteringsgrad er gjennomsnittet av resultatkomponenten og ambisjonskomponenten.
 
-##### Lønnsjustering i praksis.
+#### Lønnsjustering i praksis.
 
 Hvis Lønnsjusteringgraden er 7,5% eller større gjennomføres normalt lønnsoppgjør.
 Havner den på 2,5% eller lavere vil hver enkelts lønn utvides tilsvarende prisstigningen.
@@ -80,7 +78,7 @@ Det kan teoretisk komme situasjoner der prisstigningen er høyere enn Teknas
 lønnsstatistikk. I slike tilfeller vil Tekna-tallene gjelde da de definerer
 konkurransedyktig lønn.
 
-##### Overtidstillegg
+#### Overtidstillegg
 
 Vi ønsker ikke å jobbe overtid. Kvaliteten på arbeidet blir best hvis vi har
 godt med overskudd, og det sikrer vi med en god balanse mellom jobb og fritid.
@@ -98,7 +96,7 @@ Lønnsøkninger tas ikke individuelt – det skjer automatisk. Din lønn baseres
 Hva den enkelte tjener er ingen hemmelighet i Variant. Lurer du på hva du ville tjent
 hos oss? Vår hjemmesnekra [kalkulator](https://www.variant.no/kalkulator) 🧮 gir deg svaret!
 
-#### Ledere
+### Ledere
 
 Også lederlønninger i Variant skal være konkurransedyktige. Lederlønn i Variant skal være tydelig, forutsigbar og speile både ansvaret i rollen og resultatene selskapet oppnår.
 
@@ -128,14 +126,14 @@ I 2026 er dette grunnlønnene for ledere i ledergruppen Variant Norge:
 
 Videre har hvert enkelt selskap en ledergruppe hvor lønnen er omfattet av ordningen beskrevet over. Hva den enkelte tjener er tilgjengelig i hvert selskaps "Operativt" (Et regneark, tilgjengelig for alle varianter, hvor blant annet lønnkostnader kalkuleres.)
 
-#### Andre som jobber for Variant
+### Andre som jobber for Variant
 
 Etter hvert som Variant har vokst, får vi behov for administrative og driftskritiske ressurser som gir
 uvurderlige bidrag til organisasjonen. Støtteroller som økonomi, drift og renhold skal også sikres gode
 betingelser. I dag har vi ansatt unge renholdere som både får arbeidserfaring og mulighet til å ha en egen
 økonomi. Her følger vi arbeidstilsynets anbefalinger for minstelønn for renhold.
 
-### Bonus
+## Bonus
 
 Hvert år er ambisjonen å utbetale bonus til alle konsulenter. Bonusen beregnes som
 30% av overskuddet for dette året, delt likt på alle konsulenter. Vi må også betale
@@ -152,14 +150,14 @@ Konsulenter som er ansatt i bare deler av året, får sin bonus beregnet tilsvar
 måneder hen har jobbet. Det beregnes bonusgrunnlag også av foreldrepermisjon og
 sykemeldinger.
 
-### Eierskap
+## Eierskap
 
 Variant er et ansatteid selskap. Ansatte eier enten i morselskapet Variant
 Norge AS eller direkte i de lokale driftsselskapene. Gjennom
 Medeierskapsprogrammet tilbys alle ansatte hvert år å kjøpe aksjer, og 1. april
 innledes en ny runde med salg gjennom emisjoner.
 
-### Pensjon og forsikring
+## Pensjon og forsikring
 
 Vi føler oss slett ikke gamle her i Variant. Likevel er vi opptatt av en god
 pensjon. Vi har valgt en pensjonssparing som går langt utover det lovpålagte.
@@ -169,7 +167,7 @@ Ut over vanlig yrkesskadeforsikringer har vi reiseforsikring for hele familien,
 gruppelivsforsikring med engangsutbetaling ved dødsfall, behandlingsforsikring
 og dekning for annen ulykke enn yrkesskade.
 
-### Goder og ytelser
+## Goder og ytelser
 
 - Gadgetbudsjett på 12 000 pluss moms pr. år. Hva andre har brukt det til finner du på [oversikten her](https://dash.variant.no/gadgetusage/trondheim)
 
