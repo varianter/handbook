@@ -1,0 +1,61 @@
+/* Print stylesheet: hide the site chrome, give every sheet top/bottom
+   whitespace, and keep page breaks tidy. */
+@media print {
+  /* Header (nav/search) and footer don't belong on paper. The sidebar TOC is
+     a column of dead links once printed, so it goes too. */
+  .site-layout .header,
+  .site-layout .footer,
+  .sidebar {
+    display: none;
+  }
+
+  :root {
+    font-size: 12pt;
+    color-scheme: light;
+  }
+
+  /* The site layout pins the footer under the viewport with a 100svh grid
+     row — on paper that means one giant row and risk of a blank page. */
+  .site-layout,
+  .content-layout {
+    /* biome-ignore lint/complexity/noImportantStyles: Will not battle cascade in a print stylesheet */
+    display: block !important;
+  }
+
+  @page {
+    margin: 22mm 16mm 22mm;
+
+    @top-right {
+      content: "handbook.variant.no";
+      font-size: 0.7em;
+      opacity: 0.6;
+    }
+
+    @bottom-center {
+      content: counter(page);
+      font-size: 0.75em;
+      opacity: 0.6;
+    }
+  }
+
+  /* A little extra room at the top of the first page. */
+  @page :first {
+    margin-top: 28mm;
+  }
+
+  /* Keep headings together with the paragraph that follows them… */
+  :is(h1, h2, h3, h4, h5, h6) {
+    break-after: avoid;
+  }
+
+  /* …and avoid splitting blocks that read as one unit. */
+  :is(pre, figure, blockquote, tr) {
+    break-inside: avoid;
+  }
+
+  /* No orphaned/widowed lines in paragraphs. */
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+}
