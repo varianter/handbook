@@ -86,9 +86,11 @@ Planlegging av variantdag skjer litt ulikt i de ulike byene. Les mer om hvordan 
 
 ### Variantdagen som rammeverk for utvikling
 
-Det vi lærer hver for oss ute hos kundene våre, blir mer verdt når det deles. Variantdagen
-er stedet der erfaringer, metoder og verktøy fra ett oppdrag blir til felles kunnskap som
-blir værende i Variant, og som neste kunde får glede av. Når vi faste dager sitter sammen,
+Delingskultur er en av de viktigste mekanismene for et vellykket konsulentselskap. Når vi
+deler det vi lærer og utfordrer hverandre faglig, blir vi bedre hver for oss, og vi får et
+sterkere verdiforslag til kundene våre. Variantdagen er katalysatoren for dette. Her blir
+erfaringer, metoder og verktøy fra ett oppdrag til felles kunnskap som blir værende i
+Variant, og som neste kunde får glede av. Når vi faste dager sitter sammen,
 løser vi problemer raskere, bygger kultur og blir bedre som selskap over tid.
 
 Vi har utviklingsprogram vi har designet selv, og vi har mulighet til å
