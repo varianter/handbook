@@ -57,6 +57,11 @@ konferanser og lignende, dekker Variant deltagelse, reise og opphold. Helt
 uavhengig av hvor i verden, og hvor mange andre konferanser du har deltatt på
 det året. Ut å avle læreglede!
 
+Målet med konferansedeltakelse er kompetanseheving og læreglede, og det forventes
+at læregleden deles videre internt i etterkant, for eksempel som foredrag,
+reisebrev eller bloggpost. Ta konferanseønsker opp med personalleder, så finner
+dere sammen ut av relevans og kost/nytte.
+
 ### Etterutdanning
 
 Det kan være bra både for Variant og den enkelte variant bygge ny formell kompetanse eller ferdigstille et løp man er i. Sånn uten videre kan man benytte seg av "kurs og konferanse"-potten til å heller gjøre dette. Da blir det enten etterutdanning eller konferanse. Ikke begge deler 😀.
@@ -65,7 +70,7 @@ Det kan være bra både for Variant og den enkelte variant bygge ny formell komp
 - vi gir inntil tre studiedager med lønn, dette tilsvarer deltakelse på kurs/konferanse
 - vi har lokale variantdager som kan benyttes som studiedager
 
-Så kan det være at omfanget er større. Kanskje er også nytteverdien er støre. Ikke alt passer inn på et A4-ark. Ta det i så fall opp med nærmeste leder.
+Så kan det være at omfanget er større. Kanskje er også nytteverdien er støre. Ikke alt passer inn på et A4-ark. Ta det i så fall opp med personalleder.
 
 ### Variantdag
 
