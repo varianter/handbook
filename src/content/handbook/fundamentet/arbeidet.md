@@ -64,12 +64,12 @@ dere sammen ut av relevans og kost/nytte.
 
 ### Etterutdanning
 
-Det kan være bra både for Variant og den enkelte variant bygge ny formell kompetanse eller ferdigstille et løp man er i. Sånn uten videre kan man benytte seg av "kurs og konferanse"-potten til å heller gjøre dette. Da blir det enten etterutdanning eller konferanse. Ikke begge deler 😀.
+Det kan være bra både for Variant og den enkelte variant å bygge ny formell kompetanse eller ferdigstille et løp man er i. Sånn uten videre kan man benytte seg av "kurs og konferanse"-potten til å heller gjøre dette. Da blir det enten etterutdanning eller konferanse. Ikke begge deler 😀.
 
-- vi dekker kostnadene tilsvarene et kurs eller konferanse hvert år. Eksempelvis koster deltakelse på NDC ca. kr. 20 000 inkl. reise og opphold
+- vi dekker kostnadene tilsvarende et kurs eller konferanse hvert år. Eksempelvis koster deltakelse på NDC ca. kr. 20 000 inkl. reise og opphold
 - vi gir inntil tre studiedager med lønn, dette tilsvarer deltakelse på kurs/konferanse
 
-Så kan det være at omfanget er større. Kanskje er også nytteverdien er støre. Ikke alt passer inn på et A4-ark. Ta det i så fall opp med personalleder.
+Så kan det være at omfanget er større. Kanskje er også nytteverdien større. Ikke alt passer inn på et A4-ark. Ta det i så fall opp med personalleder.
 
 ### Variantdag
 
