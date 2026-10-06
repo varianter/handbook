@@ -71,8 +71,10 @@ Så kan det være at omfanget er større. Kanskje er også nytteverdien er stør
 
 Den første fredagen i hver måned (foruten januar og juli) har vi det vi kaller en Variantdag.
 Dette er en "innedag", der vi alle bruker hele dagen sammen, for faglig, administrativt og
-sosialt påfyll. Vi har også noen felles variantdager gjennom året. Da møtes varianter fra
-alle de ulike lokasjonene i en byene våre slik at vi kan dele enda flere perspektiver og sosialisere.
+sosialt påfyll.
+
+Én gang i året møtes varianter fra alle lokasjonene våre på Refill, vår egen konferanse.
+Da kan vi dele enda flere perspektiver og sosialisere på tvers av byene.
 
 Planlegging av variantdag skjer litt ulikt i de ulike byene. Les mer om hvordan vi gjør det under [Lokasjoner](https://handbook.variant.no/avdelinger/).
 
@@ -80,11 +82,10 @@ Planlegging av variantdag skjer litt ulikt i de ulike byene. Les mer om hvordan 
 
 ### Variantdagen som rammeverk for utvikling
 
-Med totalt 9 ordinære variantdager, har vi 18 halvdagsøkter i året som vi skal
-bruke for å utvikle selskapet. Halvparten av disse er satt av til å drive
-utvikling av oss selv som varianter. Med faste og forutsigbare dager hvor man
-vet at ingen er opptatt med andre ting i prosjekt eller hos kunde, har vi en unik
-mulighet til å legge opp til hemmelighet i utviklingsløpet.
+Det vi lærer hver for oss ute hos kundene våre, blir mer verdt når det deles. Variantdagen
+er stedet der erfaringer, metoder og verktøy fra ett oppdrag blir til felles kunnskap som
+blir værende i Variant, og som neste kunde får glede av. Når vi faste dager sitter sammen,
+løser vi problemer raskere, bygger kultur og blir bedre som selskap over tid.
 
 Vi har utviklingsprogram vi har designet selv, og vi har mulighet til å
 investere i andre program.
