@@ -68,7 +68,6 @@ Det kan være bra både for Variant og den enkelte variant bygge ny formell komp
 
 - vi dekker kostnadene tilsvarene et kurs eller konferanse hvert år. Eksempelvis koster deltakelse på NDC ca. kr. 20 000 inkl. reise og opphold
 - vi gir inntil tre studiedager med lønn, dette tilsvarer deltakelse på kurs/konferanse
-- vi har lokale variantdager som kan benyttes som studiedager
 
 Så kan det være at omfanget er større. Kanskje er også nytteverdien er støre. Ikke alt passer inn på et A4-ark. Ta det i så fall opp med personalleder.
 
