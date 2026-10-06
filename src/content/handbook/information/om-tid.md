@@ -10,6 +10,8 @@ I Variant har vi fem uker (25 dager) ferie hvert år.
 
 Utover dette følger vi Arbeidsmiljøloven når det gjelder helligdager (se [Lov om helligdager og helligdagsfred](https://lovdata.no/dokument/NL/lov/1995-02-24-12)). Vi har ingen spesielle avtaler for påske, og jobber derfor full dag på påskeonsdagen.
 
+Julaften og nyttårsaften regner vi som røde dager, på lik linje med lørdager og søndager. Du har fri disse dagene og trenger ikke føre timer. Resten av romjula er vanlige arbeidsdager.
+
 Se også [Planlegging av ferie og permisjoner](/information/om-liv-og-helse#planlegging-av-ferie-og-permisjoner).
 
 ## Timeføring
