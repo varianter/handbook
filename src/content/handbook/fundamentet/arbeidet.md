@@ -57,22 +57,28 @@ konferanser og lignende, dekker Variant deltagelse, reise og opphold. Helt
 uavhengig av hvor i verden, og hvor mange andre konferanser du har deltatt på
 det året. Ut å avle læreglede!
 
+Målet med konferansedeltakelse er kompetanseheving og læreglede, og det forventes
+at læregleden deles videre internt i etterkant, for eksempel som foredrag,
+reisebrev eller bloggpost. Ta konferanseønsker opp med personalleder, så finner
+dere sammen ut av relevans og kost/nytte.
+
 ### Etterutdanning
 
-Det kan være bra både for Variant og den enkelte variant bygge ny formell kompetanse eller ferdigstille et løp man er i. Sånn uten videre kan man benytte seg av "kurs og konferanse"-potten til å heller gjøre dette. Da blir det enten etterutdanning eller konferanse. Ikke begge deler 😀.
+Det kan være bra både for Variant og den enkelte variant å bygge ny formell kompetanse eller ferdigstille et løp man er i. Sånn uten videre kan man benytte seg av "kurs og konferanse"-potten til å heller gjøre dette. Da blir det enten etterutdanning eller konferanse. Ikke begge deler 😀.
 
-- vi dekker kostnadene tilsvarene et kurs eller konferanse hvert år. Eksempelvis koster deltakelse på NDC ca. kr. 20 000 inkl. reise og opphold
+- vi dekker kostnadene tilsvarende et kurs eller konferanse hvert år. Eksempelvis koster deltakelse på NDC ca. kr. 20 000 inkl. reise og opphold
 - vi gir inntil tre studiedager med lønn, dette tilsvarer deltakelse på kurs/konferanse
-- vi har lokale variantdager som kan benyttes som studiedager
 
-Så kan det være at omfanget er større. Kanskje er også nytteverdien er støre. Ikke alt passer inn på et A4-ark. Ta det i så fall opp med nærmeste leder.
+Så kan det være at omfanget er større. Kanskje er også nytteverdien større. Ikke alt passer inn på et A4-ark. Ta det i så fall opp med personalleder.
 
 ### Variantdag
 
 Den første fredagen i hver måned (foruten januar og juli) har vi det vi kaller en Variantdag.
 Dette er en "innedag", der vi alle bruker hele dagen sammen, for faglig, administrativt og
-sosialt påfyll. Vi har også noen felles variantdager gjennom året. Da møtes varianter fra
-alle de ulike lokasjonene i en byene våre slik at vi kan dele enda flere perspektiver og sosialisere.
+sosialt påfyll.
+
+Én gang i året møtes varianter fra alle lokasjonene våre på Refill, vår egen konferanse.
+Da kan vi dele enda flere perspektiver og sosialisere på tvers av byene.
 
 Planlegging av variantdag skjer litt ulikt i de ulike byene. Les mer om hvordan vi gjør det under [Lokasjoner](https://handbook.variant.no/avdelinger/).
 
@@ -80,11 +86,12 @@ Planlegging av variantdag skjer litt ulikt i de ulike byene. Les mer om hvordan 
 
 ### Variantdagen som rammeverk for utvikling
 
-Med totalt 9 ordinære variantdager, har vi 18 halvdagsøkter i året som vi skal
-bruke for å utvikle selskapet. Halvparten av disse er satt av til å drive
-utvikling av oss selv som varianter. Med faste og forutsigbare dager hvor man
-vet at ingen er opptatt med andre ting i prosjekt eller hos kunde, har vi en unik
-mulighet til å legge opp til hemmelighet i utviklingsløpet.
+Delingskultur er en av de viktigste mekanismene for et vellykket konsulentselskap. Når vi
+deler det vi lærer og utfordrer hverandre faglig, blir vi bedre hver for oss, og vi får et
+sterkere verdiforslag til kundene våre. Variantdagen er katalysatoren for dette. Her blir
+erfaringer, metoder og verktøy fra ett oppdrag til felles kunnskap som blir værende i
+Variant, og som neste kunde får glede av. Når vi faste dager sitter sammen,
+løser vi problemer raskere, bygger kultur og blir bedre som selskap over tid.
 
 Vi har utviklingsprogram vi har designet selv, og vi har mulighet til å
 investere i andre program.
