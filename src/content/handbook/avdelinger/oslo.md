@@ -146,7 +146,7 @@ Siden 2022 har vi vært [sertifisert som Miljøfyrtårn](https://www.miljofyrtar
 
 #### Bærekraftsgjengen
 
-I Oslo er vi fire personer som utgjør vår lille bærekraftsgjeng – Simen Strøm Braaten, Trym Veiby, Henrik Østgaard og Svanhild Egge.
+I Oslo er vi tre personer som utgjør vår lille bærekraftsgjeng – Simen Strøm Braaten, Henrik Østgaard og Svanhild Egge.
 
 Annenhver uke møtes vi for å jobbe med oppgaver som er knyttet til delmålene og de overordnede målene våres. [Oppgavene ligger på Trello](https://trello.com/b/AoIN48kA/oslo-baerekraftsarbeid), og er fordelt utover ulike kategorier:
 
@@ -156,6 +156,8 @@ Annenhver uke møtes vi for å jobbe med oppgaver som er knyttet til delmålene 
   - Hver tredje gang vi møtes gjennomgår vi oppgavene som skal gjøres. Da planlegger vi arbeidet vi skal jobbe med i de neste fire ukene
 - Kvartal 1/2/3/4
   - I kvartal 2 f. eks veit vi at vi må fylle ut årsrapporten til Miljøfyrtårn
+
+Har du innspill til hva vi kan gjøre bedre når det kommer til bærekraft? Da vil vi gjerne høre fra deg. [Send innspillene dine til Simen](mailto:ssb@variant.no?subject=Forslag%20til%20forbedring%20rundt%20b%C3%A6rekraft%20i%20Variant).
 
 #### Klimaregnskap
 
