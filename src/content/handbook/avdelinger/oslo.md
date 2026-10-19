@@ -144,8 +144,6 @@ Det er kildesortering hos på Variantkontoret, både i fellesarealet og i søppe
 
 Siden 2022 har vi vært [sertifisert som Miljøfyrtårn](https://www.miljofyrtarn.no/virksomhet/om-oss/hvorfor-ta-miljoansvar/). Det vil si at vi må rapportere hvert år (1. april, ikke noe tull). Da rapporterer vi på alt fra HMS-relaterte tiltak som påvirker arbeidsplassen og at det generelt skal være trygt og godt på jobben. I tillegg rapporterer vi på andre faktorer som antall flyturer vi har hatt, antall kg med avfall, strømforbruk også videre.
 
-Har du innspill til hva vi kan gjøre bedre når det kommer til bærekraft? Da vil vi gjerne høre fra deg. [Send innspillene dine til Simen](mailto:ssb@variant.no?subject=Forslag%20til%20forbedring%20rundt%20b%C3%A6rekraft%20i%20Variant).
-
 #### Bærekraftsgjengen
 
 I Oslo er vi tre personer som utgjør vår lille bærekraftsgjeng – Simen Strøm Braaten, Henrik Østgaard og Svanhild Egge.
@@ -158,6 +156,8 @@ Annenhver uke møtes vi for å jobbe med oppgaver som er knyttet til delmålene 
   - Hver tredje gang vi møtes gjennomgår vi oppgavene som skal gjøres. Da planlegger vi arbeidet vi skal jobbe med i de neste fire ukene
 - Kvartal 1/2/3/4
   - I kvartal 2 f. eks veit vi at vi må fylle ut årsrapporten til Miljøfyrtårn
+
+Har du innspill til hva vi kan gjøre bedre når det kommer til bærekraft? Da vil vi gjerne høre fra deg. [Send innspillene dine til Simen](mailto:ssb@variant.no?subject=Forslag%20til%20forbedring%20rundt%20b%C3%A6rekraft%20i%20Variant).
 
 #### Klimaregnskap
 
