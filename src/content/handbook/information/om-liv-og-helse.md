@@ -1,6 +1,6 @@
 ---
 title: Om liv og helse
-order: 3
+order: 2
 description: Forsikringer, pensjon, sykefravær og permisjonsordninger
 ---
 

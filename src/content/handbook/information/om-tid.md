@@ -1,6 +1,6 @@
 ---
 title: Om tid
-order: 2
+order: 1
 description: Ferie, fridager, timeføring og hvordan du planlegger tiden din
 ---
 

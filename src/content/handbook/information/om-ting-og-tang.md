@@ -1,6 +1,6 @@
 ---
 title: Om ting og tang
-order: 4
+order: 3
 description: Gadgetbudsjett, programvarelisenser og utstyr du trenger i hverdagen
 ---
 
