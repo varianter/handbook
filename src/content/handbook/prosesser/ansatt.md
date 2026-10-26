@@ -33,36 +33,32 @@ Dersom du har vært igjennom hele prosessen, og vi ønsker å tilby deg en still
 
 Vi vil at prosessen fra du har signert med oss, til dagen du starter og også tiden etterpå skal oppleves som god. Vi ønsker å bli bedre kjent med deg, og at du blir bedre kjent med oss og firmaet. Vår prosess er relativt detaljert, og i stadig endring. For tiden ser den slik ut:
 
-### Rett etter signering (Rekrutteringsansvarlig)
+### Rett etter signering
 
 - Opprett bruker for AD, Mail i Office 365.
 - Inviter inn den nytilsatte i Slack.
 - Få den nyansatte til å fylle ut nettskjema for nyansatte (Her velger du blant annet PC).
 - Ta bilde til CV.
 
-### Rett etter signering (Rekrutteringsansvarlig)
+### Rett etter signering
 
-- Invitere ansatt til Variant-dagen(e) og/eller noe sosialt. Mål: Møte og bli kjent med alle i Variant
+- Invitere ansatt til faglie og/eller sosiale arrangementer. Mål: Møte og bli kjent med alle i Variant
 - Etabler CV i CV-partner, og inviter den nyansatte inn for å starte på dette arbeidet.
-- Informere om planlagte aktiviteter (som Nyttårskalas)
-- Ha en faddermiddag (gjerne flere nyansatte og faddere om overlapp)
 - Forberede ansatt på oppdraget og prosessene rundt bemanning av oppdrag.
-- Forberede goodie-bag
-- Bli enig om oppstartsdagen. Sted og tidspunkt. Lunsj "på huset" hvis man ikke er ute i oppdrag.
+- Bli enig om oppstartsdagen, sted og tidspunkt.
 - [Ordne med portering av telefonabonnement](https://www.telia.no/mitt-abonnement/bytte-eier/)
 
-### Før oppstart (CEO/COO)
+### Før oppstart
 
 - Bestille utstyr
 - Bestille telefonabonnement
 - Registrere som ansatt i Uni, ellers blir det dårlig med lønn.
 - Melde inn i forsikringer (Gjensidige)
 
-### Etter oppstart (Fadder)
+### Etter oppstart
 
 - Be ansatt om å oppdatere CV
 - Gjennomgang av det praktiske i lokalet vårt
-- Oppfølgingsprat etter et par uker for å høre hvordan oppstarten har vært
 - Ta et flott bilde av deg for din CV (men også for å vise verden hvor stolt vi er for å ha deg på laget).
 - Invitere inn i #salg på Slack
 
@@ -79,19 +75,6 @@ Vi ønsker at dette arbeidet har blant annet disse effektene:
 - Modning som konsulent og som kollega
 - Se og utvikle relasjon mellom leder og ansatt
 
-### Fadder og personalleder
-
-Hver ansatt knyttes til en fadder og en personalleder.
-
-#### Fadder
-
-Den som har ansvaret for at oppstarten går så bra som mulig kaller vi fadder. Fadderens overordnede ansvar er å gi deg en så god oppstart som mulig. Arbeidet starter ganske raskt etter signering og lenge før du starter hos oss. Variant.
-
-En fadder skal være kontaktpunktet for alle praktiske spørsmål om hvordan ting gjøres og løses i Variant. I tillegg skal fadder følge opp den ansatte i starten med tanke på trivsel og motivasjon.
-
-Det er ingen formell slutt på fadderperioden. Så lenge den ansatte ser verdien av å bruke sin fadder er det åpent for det.
-
-Se lokasjonsspesifikk side for å finne hvem som er fadder for ditt sted.
 
 #### Personalleder
 
@@ -99,18 +82,5 @@ Din nærmeste leder kaller vi personalleder. Personalleder har det overordnede a
 
 I tillegg til at personalleder er den du kan ta kontakt med har Personallederen ansvar for å jevnlig følge opp deg. I tillegg vil personalleder ta initiativ til å gjennomføre en utviklingssamtale i halvåret.
 
-I Variant praktiserer vi fritt ledervalg. Det vil si at selskapet foreslår en personalleder for deg ved oppstart. I denne prosessen skal Variant avklare valget med deg. Hver høst fasiliterer selskapet et nytt ledervalg. Her kan den ansatte hvis hen ønsker velge en ny leder. Dette kan være av både karrieremessige eller personlige grunner. Det stilles ingen spørsmål rundt dette valget. Det er slett ikke noen forventning om at alle skal bytte leder heller.
-
 En personalleder skal være kvalifisert for oppgaven, være motivert for å være personalleder og selv ha valgt å være det.
 
-Se [lokasjonsspesifikk side](https://handbook.variant.no/avdelinger/) for å finne de ulike personallederne som gjelder for ditt sted.
-
-### Styrkesamtale
-
-En gang i halvåret inviterer din personalleder deg til en styrkesamtale. Her ønsker vi å gi alle varianter et verktøy for å utvikle seg personlig og faglig, og hvor din leder fungerer som en coach og utfordrer deg. En viktig dimensjon i disse samtalene er da styrkebasert utvikling. I tillegg skal samtalen være et sted hvor dere kan fange opp ønsker og behov, hvor man kan diskutere og avstemme forventninger til rollen din.
-
-Gjennom samtalen jobber dere med å identifisere og snakke om dine styrker og hvordan disse kan utnyttes for å utvikle deg og Variant. Dere snakker rundt styrkekvadranten, om potensielle overslag, områder for vekst og dine allergier.
-
-I tillegg skal en slik samtale også involvere en diskusjon rundt trivsel, motivasjon og eventuelle personlige utfordringer.
-
-Basert på dine målsetninger og ønsket vekst blir dere enige om hvordan dere skal jobbe videre. Din personalleder vil støtte deg og coache deg i tråd med det dere er enige om.
