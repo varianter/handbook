@@ -18,10 +18,7 @@ i Variant.
 
 ### Stavanger
 
-- CEO: Tonje
-- CDO: Yann
-- CTO: Eugene
-- CSO: Tonje
+- CEO: Yann
 - CCO: Per Kristian
 
 ### Bergen
@@ -43,7 +40,7 @@ i Variant.
 
 - CEO: Kristin
 - CDO: Rolf Anders
-- CTO: Tore V.
+- CTO: Christian.
 
 ### Ledergruppe Norge
 
