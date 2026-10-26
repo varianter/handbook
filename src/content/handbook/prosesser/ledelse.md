@@ -1,7 +1,7 @@
 ---
 title: Ledelse - Prosesser
 navTitle: Ledelse
-order: 5
+order: 4
 ---
 
 ## Ledelse

@@ -20,9 +20,6 @@ enkelt kan delta på:
 - September: Utenlandstur med følge
 - Desember: Julebord med følge
 
-I tillegg har vi et fond på 50&nbsp;000 kr som vi kan bruke som midler til forskjellige sosiale
-aktiviteter utover året. Dette kan være til leie av hytte, turer eller andre aktiviteter.
-
 ## Årlig tur
 
 Variantdagen i **september** er alltid litt spesiell. Da drar vi – med en partner eller venn
@@ -33,8 +30,3 @@ et samlet selskap som deler verdier og læreglede, har vi som ambisjon at de uli
 får frihet og rom til å utvikle sin egen kultur og bli enda bedre kjent – både med hverandre
 og den utvidede variantfamilien.
 
-## SosKom
-
-Sosialkomiteen planlegger og arrangerer varierte aktiviteter - og man blir med på det man har
-lyst til. Tidligere har vi vært på go-cart, klatring, sip-and-paint, meditasjonskurs, topptur,
-og variant-frokost der vi tester ut byens beste hotell-frokoster sammen.

@@ -71,10 +71,6 @@ i året til å kjøpe gadgets/dingser for. Disse pengene kan også brukes til å
 frivillig eller veldedig organisasjon. Fotballaget til dattera, UNICEF eller eldrekafeen
 i bydelen. Valget er ditt!
 
-Årlig
-[gir Variant et beløp tilsvarende 500 kr per ansatt](https://medium.com/variant-as/n%C3%A5r-noen-trenger-hjelp-9a8272f9838)
-til en veldedig organisasjon med verdier og formål som harmonerer med våre. Valg av formål skjer årlig på bakgrunn av åpne diskusjoner i hele selskapet.
-
 ### Sponsorat
 
 Variant har et samfunnsansvar og i den sammenheng vil det tidvis være riktig å sponse
@@ -84,7 +80,7 @@ for at et sponsorat skal kvalifisere: Enten må arrangementet eller aktiviteten 
 - økt faglig synlighet av Variant i Trondheim, Oslo, Bergen eller Stavanger.
 - økt kvinneandel og mangfold i IT-bransjen
 
-Hvis en av disse er til stede vil saken behandles av ledergruppen, sett opp i mot øvrig sponsorvirksomhet. [Se våre mangfoldssider for mer info](https://www.variant.no/mangfold).
+Hvis en av disse er til stede vil saken behandles av ledergruppen, sett opp i mot øvrig sponsorvirksomhet.
 
 ### Miljøfyrtårn
 
@@ -95,17 +91,3 @@ vi er nysgjerrige, stiller spørsmål og tar gode valg. Vi setter oss årlige m�
 om å redusere vår belastning på miljøet, vi kildesorterer og fører regnskap over
 eget avfall, energiforbruk og reiser med fly og bil. Miljøfyrtårnansvarlig har
 ansvar for oppfølging og håndtering av dette.
-
-### Utplassering og lærlinger
-
-Variant har et ansvar om å etablere erfaring hos unge mennesker. Tidvis kommer det henvendelser om
-utplassering eller hospitering fra skolesystemet. Dette kan være både fra ungdomsskole, videregående,
-høyskole eller universitet. Felles for disse er at de kommer utenom sommerjobbordningen vi har. Dette er
-initiativ vi gjerne ønsker å imøtekomme, men som kan være utfordrende å løse i en prosjekthverdag ute hos kunder.
-
-For at dette skal lykkes og en utplassering skal være en god opplevelse for eleven eller studenten
-trenger vi for hvert tilfelle en fadder. Denne fadderen vil ha et spesielt og daglig ansvar for å
-følge opp og lage opplegg for studenten eller eleven. Fadder kan selv avgjøre om det for eksempel er
-mulig å gjennomføre dette ute hos kunde eller ikke. Det er en forutsetning at fadder ikke mister mye fakturerbar tid.
-
-Ønsker du utplassering hos oss ta kontakt via [post@variant.no](mailto:post@variant.no)
