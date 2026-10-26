@@ -40,8 +40,7 @@ ugunstige arbeidsforhold. Våre avtaler med kundene inneholder reguleringer slik
 at vi har gode forutsetninger for å levere godt resultat for våre kunder over
 lang tid. Godt med lys, luft og riktige møbler er avgjørende i så måte.
 
-Variant dekker medlemskap på treningssenter eller aktiviteter for den ansatte,
-for å gjøre det enkelt for de som synes sånt er fint å gjøre. Det hender også at
+Variant dekker [trening og utstyr til de ansatte](/fundamentet/penger#goder-og-ytelser). Det hender også at
 vi arrangerer aktiviteter i løpet av året, for alle ansatte. Som en fjelltur,
 fisketur, akedag og så videre.
 

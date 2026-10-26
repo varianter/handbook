@@ -185,7 +185,7 @@ og dekning for annen ulykke enn yrkesskade.
 
 - Utvidede rettigheter til [egenmelding og sykepenger](/information/om-liv-og-helse#sykemelding-og-egenmelding)
 
-- Dekt treningssentermedlemsskap, eller tilsvarende helsebringende
+- Dekt medlemskap på treningssenter, eller tilsvarende helsebringende
   aktivitet/utstyr, inntil 600,- per måned (NB! Dette er en skattepliktig fordel
   som rapporteres på din lønnsslipp ved årsslutt). Utgiftsføres på vanlig måte.
 
