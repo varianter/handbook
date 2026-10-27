@@ -128,7 +128,7 @@ Videre har hvert enkelt selskap en ledergruppe hvor lønnen er omfattet av ordni
 
 ## Bonus
 
-Hvert år er ambisjonen å utbetale xbonus til alle konsulenter. Bonusen beregnes som
+Hvert år er ambisjonen å utbetale bonus til alle konsulenter. Bonusen beregnes som
 30% av overskuddet for dette året, delt likt på alle konsulenter. Vi må også betale
 arbeidsgiveravgift på bonus, slik at dette trekkes fra. Dette regnes som lønn inklusive
 feriepenger, så 12% utsettes til neste års feriepenger. Bonus utbetales sammen med
