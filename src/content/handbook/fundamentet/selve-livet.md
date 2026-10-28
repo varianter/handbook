@@ -4,15 +4,6 @@ order: 1
 description: Familie, likestilling, mangfold og balansen mellom jobb og fritid
 ---
 
-## Familie
-
-For oss er ikke jobb og fritid to helt ulike verdener. Selv om vi vil at varianter skal ha en god
-jobb- og livsbalanse, ønsker vi å invitere familiene inn i selskapet som en del av oss og det vi gjør.
-Hver høst reiser vi på tur utabys, vi arrangerer en del aktiviteter gjennom året og vi har et årlig
-julebord. Alt dette er familie eller ledsager velkommen til å bli med på. Vi definerer ikke hva som
-regnes som familie, så hvem du ønsker å invitere med er opp til deg selv – om det så er partner, barn,
-foreldre eller venner. Vi sier: Hjertelig velkommen!
-
 ## Likestilling
 
 Likestilling er en grunnleggende verdi for oss som jobber her, og for Variant som selskap. Her
