@@ -36,7 +36,7 @@ elementer:
 - Behandling hos psykolog
 - Behandling av rus- og spilleavhengighet
 - Fysikalsk behandling - 12 behandlinger
-- Online Videolege
+- Online Videolege for deg og dine barn
 
 Her finner dere informasjon om hvordan
 [benytte behandlingsforsikring](https://www.gjensidige.no/privat/meld-skade/behandlingsforsikring).
