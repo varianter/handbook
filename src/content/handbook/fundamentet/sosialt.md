@@ -12,20 +12,16 @@ interesser sammen. Dette kan være å lage mat, lese tegneserier eller se på sp
 aktiviteter. I tillegg har vi faste organiserte sosiale aktiviteter som hver
 enkelt kan delta på:
 
-- Hver 14. dag: Donut med tilfeldig trekt kollega
-- Månedlig frokost i fellesskap
 - Månedlig arrangement etter Variantdag
 - Januar: Nyttårskalas (Åpent for alle)
 - Mai/Juni: Sommerfest
-- September: Utenlandstur med følge
-- Desember: Julebord med følge
+- September: Tur med ditt lokale variantkontor
+- Desember: Julebord
 
 ## Årlig tur
 
-Variantdagen i **september** er alltid litt spesiell. Da drar vi – med en partner eller venn
-til følge – ut av byen for å feire vår egen bursdag og oppleve nye ting. Foreløpig har vi vært
-i London, på Hotell Union Øye i Norangsdal, i Kragerø og København/Praha. I 2022 har Variants
-Oslo-kontor blitt så stort at Trondheim og Oslo valgte hver sin turdestinasjon. Selv om vi er
+Variantdagen i **september** er alltid litt spesiell. Da drar hvert lokale variantkontor på tur sammen for å feire vår egen bursdag og oppleve nye ting. 
+Foreløpig har vi vært i London, på Hotell Union Øye i Norangsdal, i Kragerø og København/Praha. Selv om vi er
 et samlet selskap som deler verdier og læreglede, har vi som ambisjon at de ulike lokasjonene
 får frihet og rom til å utvikle sin egen kultur og bli enda bedre kjent – både med hverandre
 og den utvidede variantfamilien.
