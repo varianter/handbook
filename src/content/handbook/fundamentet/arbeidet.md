@@ -80,8 +80,6 @@ sosialt påfyll.
 Én gang i året møtes varianter fra alle lokasjonene våre på Refill, vår egen konferanse.
 Da kan vi dele enda flere perspektiver og sosialisere på tvers av byene.
 
-Planlegging av variantdag skjer litt ulikt i de ulike byene. Les mer om hvordan vi gjør det under [Lokasjoner](https://handbook.variant.no/avdelinger/).
-
 [Her vil du alltid finne oversikt over gjennomførte og planlagte variantdager](https://medium.com/variant-as/tagged/variantdag).
 
 ### Variantdagen som rammeverk for utvikling
