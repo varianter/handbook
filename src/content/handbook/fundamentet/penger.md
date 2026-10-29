@@ -126,20 +126,13 @@ I 2026 er dette grunnlønnene for ledere i ledergruppen Variant Norge:
 
 Videre har hvert enkelt selskap en ledergruppe hvor lønnen er omfattet av ordningen beskrevet over. Hva den enkelte tjener er tilgjengelig i hvert selskaps "Operativt" (Et regneark, tilgjengelig for alle varianter, hvor blant annet lønnkostnader kalkuleres.)
 
-### Andre som jobber for Variant
-
-Etter hvert som Variant har vokst, får vi behov for administrative og driftskritiske ressurser som gir
-uvurderlige bidrag til organisasjonen. Støtteroller som økonomi, drift og renhold skal også sikres gode
-betingelser. I dag har vi ansatt unge renholdere som både får arbeidserfaring og mulighet til å ha en egen
-økonomi. Her følger vi arbeidstilsynets anbefalinger for minstelønn for renhold.
-
 ## Bonus
 
 Hvert år er ambisjonen å utbetale bonus til alle konsulenter. Bonusen beregnes som
-30% av overskuddet for dette året, delt likt på alle konsulenter. Vi må også betale
+30% av overskuddet for dette året, delt likt på alle konsulenter(ekslusiv ledere). Vi må også betale
 arbeidsgiveravgift på bonus, slik at dette trekkes fra. Dette regnes som lønn inklusive
 feriepenger, så 12% utsettes til neste års feriepenger. Bonus utbetales sammen med
-sammen med lønn når årsregnskapet er klart på nyåret.
+lønn når årsregnskapet er klart på nyåret.
 
 **Eksempel**: Gitt 10 ansatte og et årlig overskudd på _én millioner_, deler
 vi `30%` av overskuddet på 10 og får `30 000`. Så skal det betales `14,1%`
@@ -185,7 +178,7 @@ og dekning for annen ulykke enn yrkesskade.
 
 - Utvidede rettigheter til [egenmelding og sykepenger](/information/om-liv-og-helse#sykemelding-og-egenmelding)
 
-- Dekt treningssentermedlemsskap, eller tilsvarende helsebringende
+- Dekt medlemskap på treningssenter, eller tilsvarende helsebringende
   aktivitet/utstyr, inntil 600,- per måned (NB! Dette er en skattepliktig fordel
   som rapporteres på din lønnsslipp ved årsslutt). Utgiftsføres på vanlig måte.
 

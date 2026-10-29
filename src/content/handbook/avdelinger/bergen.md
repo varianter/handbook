@@ -42,7 +42,7 @@ Hvis du får en faktura som skal betales av Variant Bergen sendes den til
 Vi gjør nok mange flere tiltak enn man skulle tro på bærekraftsfronten, som sertifisering gjennom Miljøfyrtårn, fortløpende klimaregnskap, og at hvert av selskapene våres skal streve etter å bli karbonnøytrale for hele sin levetid:
 
 - Som det yngste selskapet i Variant Norge jobber vi i Bergen nå med å etablere rutinene våres.
-  - For øyeblikket holder vi på å sertifisere oss som Miljøfyrtårn.
+  - For øyeblikket holder vi på å sertifisere oss som Miljøfyrtårn. 
 
 ### Lokalt HMS-arbeid
 

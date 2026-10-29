@@ -93,6 +93,9 @@ Per i dag har vi ikke på plass onboarding for alle grupper, men dette kommer fo
 - **Startskudd** (Onboarding Kilimanjaro): Her møtes alle nyutdannet til en uke med læring i trygge rammer.
 - **Onboarding Denali**: Her møtes alle med 5 års erfaring for casearbeid og individuell oppfølging basert på nye forventninger til noen som har 5 års erfaring.
 
+Din spesifikke profil vil kartlegge mye av det du er god på og ting du ønsker å jobbe med videre. Fokusområdet for de neste månedene
+kaller vi "den neste etappen".
+
 ### Fagprofil
 
 I RÅ-grupper jobbes det tverrfagelig. Men i RÅ er det også viktig med spissfaglig og individuell oppfølging. Hver enkelte av oss
@@ -130,8 +133,8 @@ Det er så enkelt at vi samler alle folk, på tvers av hele Variant Norge innenf
 (den fagprofilen du har valgt å følge for den neste perioden).
 
 <img
-  src="/assets/raa/faggruppe.jpg"
-  alt="Illustrasjon av flere som følger samme fagprofil som grupperes ifelles lærende gruppper."
+src="/assets/raa/faggruppe.jpg"
+alt="Illustrasjon av flere som følger samme fagprofil som grupperes ifelles lærende gruppper."
 />
 
 Faggruppene har en egen møteplan og møter jevnlig for å diskutere faglige problemstillinger, dele erfaringer

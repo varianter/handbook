@@ -1,7 +1,7 @@
 ---
 title: Avtaler - Prosesser
 navTitle: Avtaler
-order: 7
+order: 6
 ---
 
 Her finner du et sett med dokumentmaler og kontraktmaler vi bruker i Variant og som du gjerne kan bruke også! De er helt åpne og lisensiert under MIT lisens. Det er ingen krav til attributering.
