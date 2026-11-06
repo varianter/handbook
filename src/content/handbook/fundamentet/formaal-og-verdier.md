@@ -23,7 +23,7 @@ Våre muligheter til å blomstre, uavhengig nasjonalitet, etnisk bakgrunn, livss
 
 ### Våre grunnverdier
 
-Verdiene våre ligger til grunn for hvordan vi behandler hverandre. Det skal være lav terskel for ros og tilbakemeldinger fordi vi ønsker at du lykkes. Vær den som sier hva du har på hjertet ditt og som tør å utfordre sannheter og gjeldende praksis. [Konkrete tiltak for åpen selskapskultur i Variant](https://blog.variant.no/konkrete-tiltak-for-%C3%A5pen-selskapskultur-i-variant-87fc37baa58)
+Verdiene våre ligger til grunn for hvordan vi behandler hverandre. Det skal være lav terskel for ros og tilbakemeldinger fordi vi ønsker at du lykkes. Vær den som sier hva du har på hjertet ditt og som tør å utfordre sannheter og gjeldende praksis.
 
 #### Åpenhet
 
@@ -99,12 +99,3 @@ Vi vil at du skal være stolt av det du gjør. Er du ikke den stolte typen? Da v
 vi gjerne at du har mot til å endre på det. Du skal kunne være stolt av å være
 her, nettopp fordi du har gjort så mye bra tidligere. Så rett deg opp i ryggen,
 og si at du jobber i Variant. 🦄
-
-### Stilguide
-
-Profilen til Variant er, som alt annet, åpen og i evig utvikling. Arbeidet rundt
-gjeldende profil kan følges på en
-[egen side med style guide](https://styleguide.variant.no). Her legger vi alt
-fra hele Variant-illustrasjonen, typografi, veiledning for valg av logo, osv.
-Alt dette legges åpent med en åpen lisens, foruten illustrasjonen hvor designer
-sitter på åndsverk.

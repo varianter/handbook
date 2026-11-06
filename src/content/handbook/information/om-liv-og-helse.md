@@ -1,6 +1,6 @@
 ---
 title: Om liv og helse
-order: 3
+order: 2
 description: Forsikringer, pensjon, sykefravær og permisjonsordninger
 ---
 
@@ -36,7 +36,7 @@ elementer:
 - Behandling hos psykolog
 - Behandling av rus- og spilleavhengighet
 - Fysikalsk behandling - 12 behandlinger
-- Online Videolege
+- Online Videolege for deg og dine barn
 
 Her finner dere informasjon om hvordan
 [benytte behandlingsforsikring](https://www.gjensidige.no/privat/meld-skade/behandlingsforsikring).
@@ -92,38 +92,6 @@ arbeidsdagene og følge deg opp.
 
 Varsle så snart du har anledning. Det er stor variasjon i hvor lang tid det går
 før legens varsel mottas via Altinn.
-
-## Planlegging av ferie og permisjoner
-
-Du avgjør selv når du ønsker å ta ut ferie i Variant. Dette avtales med nærmeste
-leder og avklares tidlig med kunde slik at oppdraget løses godt. Det samme
-gjelder kortere permisjoner. Skal du ta ut ferie juli eller i påsken kan du bare
-registrere dette i [bemanning](https://bemanning.variant.no) uten videre
-avklaring med leder.
-
-Foreldrepermisjon bør også avklares så tidlig du har mulighet til. Vi anbefaler
-at dette først diskuteres med nærmeste leder, og så blir dere enige om hvordan
-kunder og oppdrag skal varsles.
-
-Det er fullt mulig å redusere stillingen for en periode. Dette gjøres da
-praktisk ved at man har delvis permisjon. Hvis du kommer i en situasjon hvor
-dette er ønskelig avklares også dette med nærmeste leder og så tidlig som mulig.
-
-_NB!_ Husk alltid å oppdatere [bemanning](https://bemanning.variant.no) med
-planlagt ferie og permisjon slik at de som jobber med salg har oversikt.
-
-### Overføring av ferie til neste år
-
-I henhold til ferieloven kan du avtale med arbeidsgiver om å [overføre to arbeidsuker](https://www.arbeidstilsynet.no/regelverk/lover/ferieloven/ii/7/) med ferie til neste år.
-For deg som jobber i Variant blir dette **10 feriedager** som kan kan overføres.
-
-Samtidig har Variant en lovbestemt plikt som arbeidsgiver å sørge for at du tar ut full ferie hvert år. Dette er også sterkt ønsket uansett, da alle har behov for lengre perioder med nok hvile, og at hodet er en annen plass enn på jobb.
-
-Hvis du likevel ser at det blir utfordrende å avvikle alle feriedager inneværende år, så må du ta kontakt med nærmeste leder for å diskutere dette.
-
-#### Er det ikke 12 feriedager som kan overføres da?
-
-Ferieloven definerer en arbeidsuke som 6 virkedager, men dette inkluderer lørdag. For oss er en arbeidsuke mandag til fredag, og dermed har vi 5 virkedager i en arbeidsuke. Det vil si at to arbeidsuker med ferie tilsvarer 10 feriedager.
 
 ### Foreldepermisjon
 

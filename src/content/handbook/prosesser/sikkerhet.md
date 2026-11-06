@@ -1,7 +1,7 @@
 ---
 title: Sikkerhetshendelser - Prosesser
 navTitle: Sikkerhetshendelser
-order: 6
+order: 5
 ---
 
 ## Sikkerhetshendelser

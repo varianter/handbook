@@ -91,9 +91,6 @@ Med gadgetbudsjettet er vi alle teknisk sett innkjøpere. Nå skal ikke vi legge
 
 Om du vil kjøpe deg en ny telefon så er du hjertelig velkommen til det. Det eneste vi ber deg om er at du vurderer en «så-god-som-ny-telefon» før du kjøper den siste iPhonen. Da forlenger du levetiden til telefonen, samtidig som du får mye mer ut av gadgetbudsjettet ditt. Her finnes mange leverandører.
 
-Hvis du kjøper brukt (eller så god-som-ny) bidrar du også med å nå målet vårt om å øke andelen bruktkjøp blant gadgets 🥳 De siste to årene har vi hatt en liten økning, men her har vi rom for å bli enda bedre:
-
-- I 2023 var 4 av 76 gadgets (5%) kjøpt brukt
-- I 2024 var 8 av 64 gadgets (13%) kjøpt brukt (hvorav 3 outlet-varer)
+Hvis du kjøper brukt (eller så god-som-ny) bidrar du også med å nå målet vårt om å øke andelen bruktkjøp blant gadgets 🥳 
 
 Når du kjøper brukt sender du fører du det som utgift, på samme måte som annet, kvitteringen i dette tilfelle vil være f. eks et skjermbilde fra Finn-annonsen og Vipps.
