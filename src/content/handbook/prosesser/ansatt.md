@@ -42,7 +42,7 @@ Vi vil at prosessen fra du har signert med oss, til dagen du starter og også ti
 
 ### Rett etter signering
 
-- Invitere ansatt til faglie og/eller sosiale arrangementer. Mål: Møte og bli kjent med alle i Variant
+- Invitere ansatt til faglige og/eller sosiale arrangementer. Mål: Møte og bli kjent med alle i Variant
 - Etabler CV i CV-partner, og inviter den nyansatte inn for å starte på dette arbeidet.
 - Forberede ansatt på oppdraget og prosessene rundt bemanning av oppdrag.
 - Bli enig om oppstartsdagen, sted og tidspunkt.
