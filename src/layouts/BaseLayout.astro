@@ -1,4 +1,6 @@
 ---
+import LegacyAnchors from "../components/legacy-anchors/LegacyAnchors.astro";
+
 export interface Props {
   title?: string;
   description?: string;
@@ -79,6 +81,7 @@ const {
     <main class="main">
       <slot />
     </main>
+    <LegacyAnchors />
   </body>
 </html>
 

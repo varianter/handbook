@@ -1,0 +1,60 @@
+---
+// Sends links made for the old handbook (e.g. "/#Eierskap" or
+// "/prosesser-raa#RA", still used in job ads and elsewhere) to the section
+// they point to. Does nothing when the #fragment already exists on the page.
+---
+
+<script>
+import {
+  type AnchorTarget,
+  anchorKey,
+  isLegacyPath,
+  resolveLegacyUrl,
+} from "./resolve";
+
+const HEADINGS = "h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]";
+
+function decode(value: string): string {
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return value;
+  }
+}
+
+async function loadTargets(): Promise<AnchorTarget[]> {
+  try {
+    const response = await fetch("/legacy-anchors.json");
+    return response.ok ? await response.json() : [];
+  } catch {
+    return [];
+  }
+}
+
+async function redirectLegacyLink() {
+  const hash = decode(location.hash.slice(1));
+  if (hash ? document.getElementById(hash) : !isLegacyPath(location.pathname)) {
+    return;
+  }
+
+  // Same page, old id format ("#Kurs-og-konferanser" -> "#kurs-og-konferanser")
+  const key = anchorKey(hash);
+  const local = key
+    ? Array.from(document.querySelectorAll<HTMLElement>(HEADINGS)).find(
+        (heading) => anchorKey(heading.id) === key,
+      )
+    : undefined;
+  if (local) {
+    location.replace(`#${local.id}`);
+    return;
+  }
+
+  const target = resolveLegacyUrl(await loadTargets(), location.pathname, hash);
+  if (target && target !== decode(location.pathname + location.hash)) {
+    location.replace(target);
+  }
+}
+
+redirectLegacyLink();
+window.addEventListener("hashchange", redirectLegacyLink);
+</script>
